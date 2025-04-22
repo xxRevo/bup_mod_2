@@ -8226,6 +8226,7 @@ focus_tree = {
 		relative_position_id = GER_remilitarize_the_rhineland
 		cost = 5
 		available = {
+			always = false
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
@@ -8809,38 +8810,7 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		available = {
-			has_war = no
-			is_subject = no
-			IF = {
-				limit = { has_dlc = "Gotterdammerung" }
-
-				custom_trigger_tooltip = {
-					tooltip = GER_anschluss_army_trigger_tt
-					fighting_army_strength_ratio = {
-						tag = AUS
-						ratio > global.deployed_manpower_ratio_needed_for_anschluss
-					}
-				}
-			}
-
-			ELSE = {
-				has_army_manpower = { size > 499999 }
-				
-				custom_trigger_tooltip = {
-				 	tooltip = GER_anschluss_eq_trigger_tt
-				 	check_variable = { num_equipment_in_armies_k@infantry_equipment > 50 }
-				}
-			}
-			
-			NOT = { has_idea = rhineland_challenge_met }
-			if = {
-				limit = {
-					SWI = { has_completed_focus = SWI_gotthard_union }
-				}
-				NOT = { 
-					AUS = { has_idea = SWI_swiss_democratic_propaganda }
-				}
-			}
+			date > 1938.1.1
 
 		}
 
@@ -9721,7 +9691,7 @@ focus_tree = {
 
 		available = {
 			is_subject = no
-			has_army_manpower = { size > 724999 } #80 div
+			date > 1938.6.1
 		}
 		
 		cancel = {
@@ -10055,7 +10025,7 @@ focus_tree = {
 		
 		available = { 
 			is_subject = no
-			has_army_manpower = { size > 749999 }
+			date > 1939.1.1
 		}
 
 		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_HISTORICAL }
@@ -10563,6 +10533,7 @@ focus_tree = {
 		will_lead_to_war_with = BLR
 
 		available = {
+			always = false
 			is_subject = no
 		}
 
@@ -10628,6 +10599,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			is_subject = no
+			always = false
 		}
 
 		ai_will_do = {
@@ -11354,6 +11326,7 @@ focus_tree = {
 		}
 		
 		available = {
+			always = false
 			is_subject = no
 			OR = {
 				SLO = {
@@ -11402,7 +11375,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = GER_reassert_eastern_claims
-		cost = 10
+		cost = 1
 
 		will_lead_to_war_with = POL
 
@@ -11426,38 +11399,7 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		available = {
-			is_subject = no
-			has_army_manpower = { size > 949999 } #100 div			
-			#Make custom trigger tooltip here
-			85 = {
-				owner = {
-					original_tag = POL
-				}
-				controller = {
-					original_tag = POL
-				}
-			}
-			OR = {
-				POL = {
-					has_civil_war = no
-				}
-				#custom_trigger_tooltip = {
-					#tooltip = GER_danzig_trigger_polish_civil_war
-					AND = {
-						any_other_country = {
-							original_tag = POL
-							has_civil_war = yes
-							OR = {
-								is_in_faction_with = ROOT
-								has_volunteers_amount_from = {
-									tag = GER
-									count > 0
-								}
-							}
-						}
-					}
-				#}
-			}
+			date > 1939.3.1
 		}
 
 		ai_will_do = {
@@ -12101,6 +12043,7 @@ focus_tree = {
 		relative_position_id = GER_operation_weserubung
 		cost = 5
 		available = {
+			always = false
 			is_subject = no
 			144 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
 			918 = { is_fully_controlled_by = SWE }
@@ -12429,6 +12372,7 @@ focus_tree = {
 		}
 
 		available = {
+			always = false
 			is_subject = no
 			NOT = { has_war_with = FIN }
 			NOT = { is_ally_with = FIN }
@@ -12498,6 +12442,7 @@ focus_tree = {
 		cost = 5
 
 		available = {
+			always = false
 			has_war_with = ENG
 			has_army_manpower = { size > 999999 }
 			custom_trigger_tooltip = {
@@ -14652,6 +14597,7 @@ focus_tree = {
 		}
 
 		available = {
+			always = false
 			is_subject = no
 			has_government = fascism
 			has_war = no
@@ -15025,6 +14971,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		available = {
+			always = false
 			is_subject = no
 			AND = {
 				country_exists = CHI
@@ -20950,6 +20897,7 @@ focus_tree = {
 		cost = 10
 
 		available = {
+			always = false
 			is_subject = no
 			has_government = fascism
 		}
@@ -36699,6 +36647,7 @@ focus_tree = {
 		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = GER_anti_comintern_pact_unaligned }
 		available = {
+			always = false
 			is_subject = no
 			has_army_manpower = { size > 849999 } #ca 90 div
 		}

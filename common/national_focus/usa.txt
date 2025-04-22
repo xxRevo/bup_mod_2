@@ -218,6 +218,7 @@ focus_tree = {
 				communism > 0.1
 				has_country_leader = { ruling_only = yes name = "Harry S. Truman" }
 			}
+			always = false
 		}
 		
 		bypass = {
@@ -809,6 +810,7 @@ focus_tree = {
 				has_government = democratic
 				has_government = communism
 			}
+			always = false
 		}
 		
 		bypass = {
@@ -1588,6 +1590,7 @@ focus_tree = {
 			has_government = democratic
 			NOT = { has_idea_with_trait = fascist_demagogue }
 			NOT = { has_idea_with_trait = communist_revolutionary }
+			always = false
 		}
 		bypass = {
 			
@@ -3029,10 +3032,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = democratic
-			NOT = {
-				has_country_leader = { ruling_only = yes character = USA_franklin_delano_roosevelt }
-			}
+			always = false
 		}
 		
 		bypass = {

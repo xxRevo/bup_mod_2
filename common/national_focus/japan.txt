@@ -2658,6 +2658,7 @@
 		}
 
 		available = {
+			always = false
 			is_special_project_completed = sp:sp_rocket_interceptor
 		}
 
@@ -2737,7 +2738,7 @@
 		}
 
 		available = {
-
+			always = false
 		}
 
 		bypass = {
@@ -3628,7 +3629,7 @@
 		}
 
 		available = {
-
+			always = false
 		}
 
 		bypass = {

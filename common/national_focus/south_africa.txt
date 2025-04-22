@@ -627,6 +627,7 @@
 
 		available = {
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
+			always = false
 		}
 		
 		bypass = {

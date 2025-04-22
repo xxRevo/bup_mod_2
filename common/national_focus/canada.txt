@@ -2883,6 +2883,7 @@ focus_tree = {
 		}
 
 		available = {
+			always = false
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
 		

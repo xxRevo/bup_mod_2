@@ -97,6 +97,7 @@ focus_tree = {
 		}
 
 		available = {
+			always = false
 			NOT = {
 				has_government = communism
 			}
@@ -318,6 +319,7 @@ focus_tree = {
 		}
 
 		available = {
+			always = false
 			OR = {
 				AND = {
 					is_subject = no

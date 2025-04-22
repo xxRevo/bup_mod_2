@@ -1512,7 +1512,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			always = false
 		}
 
 		bypass = {
@@ -2008,6 +2008,7 @@ focus_tree = {
 		}
 
 		available = {
+			always = false
 			OR = {
 				has_country_flag = ROM_HUN_aligned
 				HUN = { is_subject_of = ROM }
@@ -2296,6 +2297,7 @@ focus_tree = {
 		}
 
 		available = {
+			always = false
 			is_subject = no
 			SOV = {
 				is_faction_leader = yes
@@ -2981,6 +2983,7 @@ focus_tree = {
 		}
 
 		available = {
+			always = false
 			is_subject = no
 			ENG = {
 				is_faction_leader = yes

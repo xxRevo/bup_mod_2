@@ -8440,6 +8440,7 @@ focus_tree = {
 				tooltip = SOV_no_major_purge_tt		
 				check_variable = { SOV_great_purge_counter < 1 }
 			}
+			always = false
 		}
 		allow_branch = {
 			if = {
@@ -9700,6 +9701,7 @@ focus_tree = {
 		relative_position_id = SOV_the_left_opposition
 		cost = 5
 		available = {
+			always = false
 			SOV_soviet_civil_war_not_started = yes 
 			custom_trigger_tooltip = {
 				tooltip = SOV_no_major_purge_tt		
@@ -12334,7 +12336,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_policy_of_individual_security }
 
 		available = {
-
+			always = false
 		}
 		
 		search_filters = {FOCUS_FILTER_POLITICAL}
@@ -13144,6 +13146,7 @@ focus_tree = {
 		}
 		
 		available = {
+			always = false
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
 			is_subject = no
 		}
@@ -14411,6 +14414,7 @@ ai_will_do = {
 
 		available = {
 			is_subject = no
+			always = false
 		}
 		
 		search_filters = {}
@@ -14750,6 +14754,7 @@ ai_will_do = {
 		mutually_exclusive = { focus = SOV_reconcile_japan }
 
 		available = {
+			always = false
 			any_country = {
 				SOV_is_free_chinese_tag = yes
 				has_war_with = JAP
@@ -15401,7 +15406,8 @@ ai_will_do = {
 			}
 		}
 
-		available = {			
+		available = {	
+			always = false		
 			NOT = { has_war_with = JAP }
 			is_subject = no
 			655 = {
@@ -15636,6 +15642,7 @@ ai_will_do = {
 				tooltip = SOV_no_major_purge_tt		
 				check_variable = { SOV_great_purge_counter < 1 }
 			}
+			always = false
 		}
 
 		available_if_capitulated = yes

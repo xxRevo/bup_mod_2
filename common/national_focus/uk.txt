@@ -2368,6 +2368,7 @@ focus_tree = {
 				is_subject = no
 			}
 			NOT = { has_government = communism }
+			always = false
 		} #SPA/SPR not in a faction
 		
 		icon = GFX_focus_generic_befriend_republican_spain_focus
@@ -2724,6 +2725,7 @@ focus_tree = {
 				is_subject = no
 			}
 			NOT = { has_government = communism }
+			always = false
 		} #TUR not in a faction
 		
 		icon = GFX_focus_generic_befriend_turkey
@@ -2808,6 +2810,7 @@ focus_tree = {
 				is_subject = no
 			}
 			NOT = { has_government = communism }
+			always = false
 		} 
 
 		icon = GFX_focus_generic_befriend_greece
@@ -2950,6 +2953,7 @@ focus_tree = {
 				has_government = democratic
 				has_government = communism
 			}
+			always = false
 		}
 
 		continue_if_invalid = yes
@@ -8448,7 +8452,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			always = false
 		}
 
 		continue_if_invalid = yes
@@ -10002,7 +10006,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			always = false
 		}
 		icon = GFX_focus_generic_strike_at_democracy2
 		x = 18

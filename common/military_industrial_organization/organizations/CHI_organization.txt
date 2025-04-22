@@ -17,10 +17,7 @@ CHI_sino_german_technical_mission_organization = {
 	}
 	available = {
 		owner = {
-			OR = {
-				has_completed_focus = CHI_chinese_panzers
-				has_idea = german_advisors
-			}
+			has_completed_focus = CHI_chinese_panzers
 			NOT = {
 				has_war_with = GER
 			}

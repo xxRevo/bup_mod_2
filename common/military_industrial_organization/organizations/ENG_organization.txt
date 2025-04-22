@@ -204,25 +204,6 @@ ENG_vauxhall_organization = {
 				NOT = { has_completed_focus = BUL_nationalization }
 			}
 		}
-		IF = {
-			limit = { FROM = { original_tag = BRA } }
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_completed_focus = BRA_invite_foreign_companies
-					has_country_flag = has_vauxhall_mio_flag
-				}
-			}
-		}
-		IF = {
-			limit = { FROM = { original_tag = IRQ } }
-			FROM = {
-				OR = {
-					has_idea = IRQ_anglo_iraqi_treaty
-					has_idea = IRQ_anglo_iraqi_mutual_defense_agreement
-				}
-			}
-		}
 	}
 
 	initial_trait = {
@@ -314,16 +295,6 @@ ENG_cammell_laird_organization = {
 				FROM = { NOT = { original_tag = ENG } }
 			}
 			FROM = { NOT = { has_war_with = ENG } }
-		}
-		IF = {
-			limit = { FROM = { original_tag = BRA } }
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_completed_focus = BRA_invite_foreign_companies
-					has_country_flag = has_cammell_laird_mio_flag
-				}
-			}
 		}
 	}
 		
@@ -696,16 +667,6 @@ ENG_avro_organization = {
 			}
 			FROM = { NOT = { has_war_with = ENG } }
 		}
-		IF = {
-			limit = { FROM = { original_tag = BRA } }
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_completed_focus = BRA_invite_foreign_companies
-					has_country_flag = has_avro_mio_flag
-				}
-			}
-		}
 	}
 }
 
@@ -993,16 +954,6 @@ ENG_crossley_motors_organization = {
 			}
 			FROM = {
 				has_completed_focus = BALTIC_crossley_motors
-			}
-		}
-
-		IF = {
-			limit = { FROM = { original_tag = IRQ } }
-			FROM = {
-				OR = {
-					has_idea = IRQ_anglo_iraqi_treaty
-					has_idea = IRQ_anglo_iraqi_mutual_defense_agreement
-				}
 			}
 		}
 	}

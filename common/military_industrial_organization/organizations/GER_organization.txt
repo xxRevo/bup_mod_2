@@ -20,18 +20,7 @@ GER_porsche_organization = {
 	icon = GFX_idea_porsche
 	
 	allowed = {	
-		OR = {
-			original_tag = GER 
-			AND = {
-				original_tag = MEX 
-				has_dlc = "Man the Guns"
-			}
-			AND = {
-				original_tag = IRQ 
-				has_dlc = "Graveyard of Empires"
-			}
-			NOR_AAT = yes
-		}
+		original_tag = GER 
 	}
 
 	available = {
@@ -1804,10 +1793,7 @@ GER_messerschmitt_organization = {
 	icon = GFX_idea_messerschmitt
 	
 	allowed = {	
-		OR = {
-			original_tag = GER
-			NOR_AAT = yes 
-		}
+		original_tag = GER
 	}
 
 	available = {
@@ -2350,7 +2336,6 @@ GER_heinkel_organization = {
 				original_tag = BUL
 				has_dlc = "Battle for the Bosporus"
 			}
-			NOR_AAT = yes
 		}
 	}
 

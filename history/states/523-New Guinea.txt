@@ -6,8 +6,6 @@ state = {
 	state_category = "rural"
 
 	history = {
-
-		add_core_of = PNG
 		owner = AST
 
 		buildings = {

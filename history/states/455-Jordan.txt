@@ -7,8 +7,7 @@ state = {
 
 	history = {
 
-		owner = JOR
-		add_core_of = JOR
+		owner = ENG
 
 		buildings = {
 			infrastructure = 2

@@ -1,29 +1,16 @@
 state = {
 	id = 509
 	name = "STATE_509" # Chaco Australis
-	manpower = 704241
+	manpower = 1
 	
 	state_category = rural
 	
 	resources = {
-		tungsten = 30 # was: 46, then 35
-		steel = 4 # was: 8, then 6
+
 	}
 
 	history = {
 
-		owner = ARG
-		add_core_of = ARG
-
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-		}
-
-		victory_points = {
-			2106 1 
-		}
-		
 	}
 
 	provinces = {

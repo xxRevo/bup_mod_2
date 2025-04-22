@@ -2,23 +2,12 @@
 state = {
 	id = 491
 	name = "STATE_491"
-	manpower = 176626
+	manpower = 1
 
 	state_category = pastoral
 
 	history = {
 
-		owner = PRU
-		add_core_of = PRU
-
-		buildings = {
-			infrastructure = 2
-		}
-
-		victory_points = {
-			10970 1
-		}
-		
 	}
 
 	provinces = {

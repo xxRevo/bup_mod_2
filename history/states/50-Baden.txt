@@ -1,10 +1,10 @@
 state = {
 	id = 50
 	name = "STATE_50" # Württemberg
-	manpower = 3076854 # was 5086854
+	manpower = 1 # was 5086854
 
 	resources = {
-		aluminium = 6 # was: 10.000
+
 	}
 
 	state_category = large_city
@@ -13,7 +13,6 @@ state = {
 
 		owner = GER
 		add_core_of = GER
-		add_core_of = WUR
 
 		victory_points = {
 			9517 20 #Stuttgart

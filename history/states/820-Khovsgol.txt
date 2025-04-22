@@ -6,22 +6,9 @@ state = {
 	}
 
 	history = {
-		owner = MON
 
-		buildings = {
-			infrastructure = 1
-		}
-
-		victory_points = {
-			7717 2 #Darkhan, was in 1791 before
-		}
-		victory_points = {
-			7676 1 #Erdenet, was in 1834 before
-		}
-
-		add_core_of = MON
 	}
-	manpower = 88200
+	manpower = 1
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	local_supplies = 0.000

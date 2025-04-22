@@ -1,33 +1,14 @@
 state = {
 	id = 506
 	name = "STATE_506" # Antofagasta
-	manpower = 423605
+	manpower = 1
 	
 	state_category = town
 
 	resources = {
-		tungsten = 42 # In replacement of Nitrate
 	}
 
 	history = {
-
-		owner = CHL
-		add_core_of = CHL
-		add_claim_by = BOL
-
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			dockyard = 1
-			air_base = 1
-			12994 = {
-				naval_base = 1
-			}
-		}
-		
-		victory_points = {
-			12994 10
-		}
 
 	}
 

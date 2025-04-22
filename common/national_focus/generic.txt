@@ -39,7 +39,7 @@ focus_tree = {
 		cost = 10
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		available = {
-			always = false
+			always = no
 		}
 		available_if_capitulated = yes
 
@@ -311,7 +311,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			always = false
+			always = no
 		}
 		search_filters = {   FOCUS_FILTER_RESEARCH }
 
@@ -627,7 +627,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			always = false
+			always = no
 		}
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -1898,7 +1898,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			always = false
+			always = no
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	

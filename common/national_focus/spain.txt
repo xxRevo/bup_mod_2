@@ -375,7 +375,7 @@ focus_tree = {
 			NOT = {
 				has_country_flag = SPR_spanish_elections_flag
 			}
-			always = false
+			always = no
 		}
 		
 		bypass = {
@@ -667,7 +667,7 @@ focus_tree = {
 		available = {
 			has_global_flag = spanish_civil_war
 			hidden_trigger = { always = no }
-			always = false
+			always = no
 		}
 		bypass = {
 		}
@@ -4314,7 +4314,7 @@ focus_tree = {
 		available = {
 			has_global_flag = scw_over
 			is_in_faction = no
-			always = false
+			always = no
 			OR = {
 				AND = {
 					ENG = {
@@ -5679,7 +5679,7 @@ focus_tree = {
 		available = {
 			has_global_flag = spanish_civil_war
 			hidden_trigger = { always = no }
-			always = false
+			always = no
 		}
 		bypass = {
 		}

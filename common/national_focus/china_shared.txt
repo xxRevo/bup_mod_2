@@ -1051,7 +1051,7 @@ shared_focus = {
 	}
 
 	available = {
-		always = false
+		always = no
 		SOV = { has_government = communism }
 		OR = {
 			has_government = neutrality
@@ -1255,7 +1255,7 @@ shared_focus = {
 	}
 
 	available = {
-		always = false
+		always = no
 		OR = {
 			has_government = neutrality
 			FRA = { has_government = ROOT }
@@ -2618,7 +2618,7 @@ shared_focus = {
 	}
 
 	available = {
-		always = false
+		always = no
 		OR = {
 			has_government = neutrality
 			ENG = { has_government = ROOT }
@@ -3363,7 +3363,7 @@ shared_focus = {
 	}
 
 	available = {
-		always = false
+		always = no
 		OR = {
 			USA_will_support = yes
 			has_government = neutrality

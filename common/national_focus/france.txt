@@ -1706,7 +1706,7 @@
 		}
 
 		available = {
-			always = false
+			always = no
 			not = {
 				has_completed_focus = FRA_review_foreign_policy	
 			}
@@ -3515,7 +3515,7 @@
 		}
 
 		available = {
-			always = false
+			always = no
 			has_war = no
 		}
 		
@@ -3721,7 +3721,7 @@
 		}
 
 		available = {
-			always = false
+			always = no
 			SPR_scw_in_progress = yes
 			is_subject = no
 		}
@@ -3803,7 +3803,7 @@
 		}
 
 		available = {
-			always = false
+			always = no
 			OR = {
 				country_exists = YUG
 				country_exists = CZE
@@ -4869,7 +4869,7 @@
 			factor = 1
 		}
 		available = {
-			always = false
+			always = no
 		}
 		mutually_exclusive = { focus = FRA_form_the_popular_front }
 		bypass = {

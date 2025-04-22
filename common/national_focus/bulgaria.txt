@@ -2608,7 +2608,7 @@ focus_tree = {
 		mutually_exclusive = { focus = BUL_power_to_the_tsar }
 
 		available = {
-			always = false
+			always = no
 		}
 		
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_INTERNAL_AFFAIRS}

@@ -1260,7 +1260,7 @@
 		}
 
 		available = {
-			always = false
+			always = no
 		}
 
 		bypass = {

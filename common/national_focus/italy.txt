@@ -8638,7 +8638,7 @@ focus_tree = {
 				id = ITA_power_balance
 				value < 0.01
 			}
-			always = false
+			always = no
 		}
 
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_BALANCE_OF_POWER}
@@ -13715,7 +13715,7 @@ focus_tree = {
 		relative_position_id = ITA_towards_a_greater_italy
 		cost = 5
 		available = {
-			always = false
+			always = no
 			any_owned_state = {
 				is_controlled_by = ROOT
 				dockyard > 0
@@ -14969,7 +14969,7 @@ focus_tree = {
 		relative_position_id = ITA_foreign_affairs
 		cost = 5
 		available = {
-			always = false
+			always = no
 		}
 
 		search_filters = {}
@@ -15313,7 +15313,7 @@ focus_tree = {
 		relative_position_id = ITA_potential_allies_in_the_balkans
 		cost = 5
 		available = {
-			always = false
+			always = no
 			country_exists = AUS
 			NOT = { has_war_with = AUS }
 		}
@@ -15966,7 +15966,7 @@ focus_tree = {
 		}
 
 		available = {
-			always = false
+			always = no
 			is_subject = no
 			NOT = { is_in_faction_with = GER }
 			NOT = { is_in_faction_with = ENG }
@@ -16450,7 +16450,7 @@ focus_tree = {
 		relative_position_id = ITA_war_with_greece
 		cost = 5
 		available = {
-			always = false
+			always = no
 			TUR = {
 				owns_state = 342
 			}
@@ -16493,7 +16493,7 @@ focus_tree = {
 		relative_position_id = ITA_claims_on_turkey_bba
 		cost = 10
 		available = {
-			always = false
+			always = no
 			country_exists = TUR
 			NOT = {
 				has_war_with = TUR
@@ -16762,7 +16762,7 @@ focus_tree = {
 		relative_position_id = ITA_corpo_di_truppe_volontarie
 		cost = 5
 		available = {
-			always = false
+			always = no
 			if = {
 				limit = {
 					NOT = { has_dlc = "La Resistance" }
@@ -18719,7 +18719,7 @@ focus_tree = {
 		}
 		
 		available = {
-			always = false
+			always = no
 			NOT = { has_completed_focus = ITA_foreign_affairs }
 		}
 

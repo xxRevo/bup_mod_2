@@ -2196,7 +2196,7 @@
 		}
 
 		available = {
-			always = false
+			always = no
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
 

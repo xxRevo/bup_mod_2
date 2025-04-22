@@ -102,7 +102,7 @@ focus_tree = {
         }
 
         available = {
-            always = false
+            always = no
         }
         
         bypass = {
@@ -7393,7 +7393,7 @@ focus_tree = {
         }
 
         available = {
-            always = false
+            always = no
         }
         
         bypass = {

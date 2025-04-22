@@ -1,0 +1,18 @@
+version="0.0.1"
+tags={
+	"Gameplay"
+	"Historical"
+	"National Focuses"
+	"Map"
+	"Technologies"
+	"Utilities"
+	"Graphics"
+	"Events"
+	"Balance"
+	"Fixes"
+}
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="history/units"
+name="BUP Mod 2.0"
+supported_version="1.16.4"

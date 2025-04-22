@@ -1,40 +1,4 @@
 on_actions = {
-	on_capitulation = {
-		effect = {
-			if = {
-				limit = {
-					ROOT = {
-						original_tag = INS
-						NOT = { has_government = fascism }
-					}
-					FROM = {
-						original_tag = INS
-						has_government = fascism
-					}
-					AST = {
-						has_completed_focus = AST_support_indonesian_uprising
-					}
-				}
-				AST = {
-					country_event = { 
-						id = tfv_australia.41 
-						hours = 12
-					}
-				}
-			}
-			if = {
-				limit = {
-					ROOT = {
-						original_tag = FRA
-						has_government = democratic
-					}
-				}
-				set_cosmetic_tag = FRA_FREE
-			}
-		}
-		
-	}
-
 	#ROOT is subject FROM is previous overlord
 	on_subject_free = {
 		effect = {
@@ -164,21 +128,6 @@ on_actions = {
 	#ROOT is subject FROM is overlord
 	on_subject_autonomy_level_change = {
 		effect = {
-			#Achievement
-			if = {
-				limit = { tag = EGY }
-				if = {
-					limit = { has_autonomy_state = autonomy_colony }
-					set_country_flag = achievement_EGY_colony
-					log = EGY_colony
-				}
-				if = {
-					limit = { has_autonomy_state = autonomy_dominion }
-					set_country_flag = achievement_EGY_dominion
-					log = EGY_dominion
-				}
-			}
-
 			#Add to commonwealth tech group
 			if = {
 				limit = {
@@ -207,11 +156,6 @@ on_actions = {
 				}
 			}
 		}
-	}
-
-	#ROOT is subject FROM is overlord
-	on_subject_annexed = {
-
 	}
 
 	#used when puppeting in a peace conference
@@ -502,61 +446,4 @@ on_actions = {
 			}
 		}
 	}
-
-	#ROOT is free nation FROM is releaser
-	on_release_as_free = { 
-
-		# Making sure Quebec City becomes the Capital of Quebec
-		effect = {
-			IF = {
-				limit = {
-					ROOT = {
-						tag = QUE
-						owns_state = 468
-					}
-				}
-				468 = {
-					set_victory_points = {
-						province = 4345
-						value = 15
-					}
-
-					set_victory_points = {
-						province = 12149
-						value = 20
-					}
-				}	
-			}
-		}
-
-	}
-
-	# ROOT is the nation being released, FROM is the overlord
-	on_release_as_puppet = {
-
-		# Making sure Quebec City becomes the Capital of Quebec
-	    effect = {
-	    	IF = {
-	    		limit = {
-	    			ROOT = {
-	    				tag = QUE
-	    				owns_state = 468
-	    			}
-	    		}
-	    		468 = {
-	    			set_victory_points = {
-	    				province = 4345
-	    				value = 15
-	    			}
-
-	    			set_victory_points = {
-	    				province = 12149
-	    				value = 20
-	    			}
-	    		}	
-	    	}
-	    }
-	}
-	
-
 }

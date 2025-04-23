@@ -20,7 +20,7 @@ if = {
 	}
 }
 
-
+add_ideas = neutrality_idea
 set_convoys = 10
 set_politics = {
 	ruling_party = fascism

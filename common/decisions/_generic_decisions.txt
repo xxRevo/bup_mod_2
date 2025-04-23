@@ -129,12 +129,6 @@ political_actions = {
 					}
 				}
 			}
-			modifier = {
-				add = 1000
-				has_stability < 0.76
-				original_tag = SWE
-				has_idea = SWE_hungershield
-			}
 		}
 	}
 }

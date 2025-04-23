@@ -1,0 +1,213 @@
+on_actions = {	
+    on_capitulation = {
+        # Partition of Poland
+		effect = {
+			if = {
+				limit = {
+                    AND = {
+                        tag = POL
+                        NOT = {has_global_flag = POL_already_surrendered}
+                    }
+                }
+                set_global_flag = POL_already_surrendered
+				SOV = {
+					transfer_state = 784
+					transfer_state = 96
+					transfer_state = 95
+					transfer_state = 94
+					transfer_state = 93
+					transfer_state = 91
+					transfer_state = 89
+					transfer_state = 97
+				}
+			}
+		}
+        # Partition of Yugoslavia
+		effect = {
+			if = {
+				limit = {
+					AND = {
+                        tag = YUG
+                        NOT = {has_global_flag = YUG_already_surrendered}
+				    }
+                }
+                set_global_flag = YUG_already_surrendered
+				GER = {
+					set_state_controller = 102
+					set_state_controller = 853
+				}
+                ITA = {
+                    set_state_controller = 103
+                    set_state_controller = 104
+                    set_state_controller = 105
+                    set_state_controller = 109
+                    set_state_controller = 804
+                }
+                ROM = {
+                    set_state_controller = 764
+                    set_state_controller = 45
+                }
+                if = {
+                    limit = {
+                        BUL = {
+                            exists = yes
+                        }
+                    }
+                    BUL = {
+                        set_state_controller = 108
+                        set_state_controller = 802
+                        set_state_controller = 803
+                        set_state_controller = 106
+                        set_state_controller = 970
+                        set_state_controller = 107
+                    }
+                }
+                else {
+                    ROM = {
+                        set_state_controller = 108
+                        set_state_controller = 802
+                        set_state_controller = 803
+                        set_state_controller = 106
+                        set_state_controller = 970
+                        set_state_controller = 107
+                    }
+                }
+			}
+		}
+        # Partition of Greece
+        effect = {
+			if = {
+				limit = {
+                    AND = {
+                        NOT = {has_global_flag = GRE_already_surrendered}
+                        tag = GRE
+                    }
+                }
+                set_global_flag = GRE_already_surrendered
+                ITA = {
+                    set_state_controller = 185
+                    set_state_controller = 47
+                    set_state_controller = 186
+                }
+                if = {
+                    limit = {
+                        BUL = {
+                            exists = yes
+                        }
+                    }
+                    BUL = {
+                        set_state_controller = 731
+                        set_state_controller = 184
+                    }
+                }
+                else {
+                    ROM = {
+                        set_state_controller = 731
+                        set_state_controller = 184
+                    }
+                }
+            }
+        }
+        effect = {
+            if = {
+                limit = {
+                    tag = FRA
+                    NOT { has_global_flag = FRA_surrendered_once}
+                }
+                set_global_flag = FRA_surrendered_once
+                GER = {
+                    set_state_controller = 806
+                    set_state_controller = 19
+                    set_state_controller = 23
+                    set_state_controller = 30
+                    set_state_controller = 14
+                    set_state_controller = 15
+                    set_state_controller = 24
+                    set_state_controller = 16
+                    set_state_controller = 785
+                    set_state_controller = 29
+                    set_state_controller = 18
+                    set_state_controller = 17
+                    set_state_controller = 28
+                    set_state_controller = 27
+                }
+                ITA = {
+                    set_state_controller = 735
+                    set_state_controller = 32
+                    set_state_controller = 21
+                    set_state_controller = 851
+                    set_state_controller = 1
+                    set_state_controller = 665
+                    set_state_controller = 458
+                }
+                EFR = {
+                    transfer_state = 31
+                    transfer_state = 25
+                    transfer_state = 26
+                    transfer_state = 33
+                    transfer_state = 22
+                    transfer_state = 20
+                    transfer_state = 460
+                    transfer_state = 513
+                    transfer_state = 459
+                    transfer_state = 461
+                    transfer_state = 462
+                    set_capital = {
+                        state = 26
+                        remember_old_capital = no
+                    }
+                    set_politics = {
+                        ruling_party = fascism
+                        elections_allowed = no 
+			        }
+                    set_popularities = {
+                        democratic = 0
+                        fascism = 100
+                        communism = 0
+                        neutrality = 0
+                    }
+                    add_ideas = neutrality_idea
+                    diplomatic_relation = { country = ENG relation = non_aggression_pact }
+                    diplomatic_relation = { country = USA relation = non_aggression_pact }
+                    diplomatic_relation = { country = PHI relation = non_aggression_pact }
+                    diplomatic_relation = { country = FRA relation = non_aggression_pact }
+                    diplomatic_relation = { country = SAF relation = non_aggression_pact }
+                    diplomatic_relation = { country = CAN relation = non_aggression_pact }
+                    diplomatic_relation = { country = RAJ relation = non_aggression_pact }
+                    diplomatic_relation = { country = AST relation = non_aggression_pact }
+                    diplomatic_relation = { country = NZL relation = non_aggression_pact }
+                    diplomatic_relation = { country = GER relation = non_aggression_pact }
+                }
+                FRA = {
+                    set_cosmetic_tag = FRA_FREE
+                    set_country_flag = free_france
+                    set_capital = {
+                        state = 539
+                        remember_old_capital = no
+                    }
+                    remove_ideas = FRA_protected_by_the_maginot_line
+                    destroy_ships = {
+                        type = ship_hull_light
+                        count = all
+                    }
+                    destroy_ships = {
+                        type = ship_hull_cruiser
+                        count = all
+                    }
+                    destroy_ships = {
+                        type = ship_hull_heavy
+                        count = all
+                    }
+                    destroy_ships = {
+                        type = ship_hull_carrier 
+                        count = all
+                    }
+                    destroy_ships = {
+                        type = ship_hull_submarine
+                        count = all
+                    }
+                }
+            }
+        }
+	}
+}

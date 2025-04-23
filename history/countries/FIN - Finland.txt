@@ -15,7 +15,7 @@ if = {
 	add_ideas = FIN_sisu_2
 }
 
-
+add_ideas = neutrality_idea
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "FIN_1936_naval_mtg"

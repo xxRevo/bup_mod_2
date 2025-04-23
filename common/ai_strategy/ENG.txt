@@ -2828,46 +2828,6 @@ ENG_supply_for_tobruk_push = {
 	}
 }
 
-ENG_avoid_balkans_until_africa_is_secure = {
-	allowed = { original_tag = ENG }
-	enable = {
-		is_historical_focus_on = yes
-		date > 1939.6.6
-		date < 1943.6.6
-
-		# The check below should really be a scripted trigger or something
-		OR = { # Check whole north-african coast
-			448 = { CONTROLLER = { has_war_with = ROOT } } # tripoli
-			450 = { CONTROLLER = { has_war_with = ROOT } } # benghazi
-			458 = { CONTROLLER = { has_war_with = ROOT } } # tunisia
-			461 = { CONTROLLER = { has_war_with = ROOT } } # casablanca
-			462 = { CONTROLLER = { has_war_with = ROOT } } # marrakech
-			459 = { CONTROLLER = { has_war_with = ROOT } } # algiers
-			460 = { CONTROLLER = { has_war_with = ROOT } } # constantine
-			665 = { CONTROLLER = { has_war_with = ROOT } } # gabès
-			449 = { CONTROLLER = { has_war_with = ROOT } } # el agheila
-			451 = { CONTROLLER = { has_war_with = ROOT } } # derna
-			452 = { CONTROLLER = { has_war_with = ROOT } } # matrouh
-			447 = { CONTROLLER = { has_war_with = ROOT } } # alexandria
-			446 = { CONTROLLER = { has_war_with = ROOT } } # cairo
-			290 = { CONTROLLER = { has_war_with = ROOT } } # spanish africa
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = invasion_unit_request
-		area = greater_balkans
-		value = -100
-	}
-
-	ai_strategy = {
-		type = area_priority
-		id = greater_balkans
-		value = -50
-	}
-}
-
 ENG_ALLIES_dont_invade_norway = {
 	allowed = {
 		always = yes

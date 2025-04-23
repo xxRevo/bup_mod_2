@@ -14,6 +14,7 @@ if = {
 	}
 	set_oob = "CZE_1936_nsb"
 }
+add_ideas = neutrality_idea
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "CZE_1936_air_bba"

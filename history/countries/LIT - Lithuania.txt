@@ -17,7 +17,7 @@ set_variable = {
 	var = iron_wolf_days_var
 	value = 100
 }
-
+add_ideas = neutrality_idea
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

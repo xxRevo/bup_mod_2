@@ -15,7 +15,7 @@ if = {
 }
 
 # Starting tech
-
+add_ideas = neutrality_idea
 IF = {
 	limit = {
 		has_dlc = "Graveyard of Empires"

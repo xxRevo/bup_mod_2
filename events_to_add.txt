@@ -1,0 +1,94 @@
+[01:57:31][1936.01.30.23][effectbase.cpp:750]: *Tried to trigger non-existant event: MTG_naval_treaty.7
+[01:57:31][1936.01.30.23][effectbase.cpp:750]: *Tried to trigger non-existant event: MTG_naval_treaty.7
+[01:57:31][1936.01.30.23][effectbase.cpp:750]: *Tried to trigger non-existant event: MTG_naval_treaty.7
+[01:57:31][1936.01.30.23][effectbase.cpp:750]: *Tried to trigger non-existant event: MTG_naval_treaty.7
+[01:57:51][1936.03.11.01][effectbase.cpp:750]: *Tried to trigger non-existant event: BBA_italy_colonial_management.1
+[01:57:52][1936.03.12.14][effectbase.cpp:750]: *Tried to trigger non-existant event: MTG_naval_treaty.7
+[01:57:52][1936.03.12.14][effectbase.cpp:750]: *Tried to trigger non-existant event: MTG_naval_treaty.7
+[01:57:52][1936.03.12.14][effectbase.cpp:750]: *Tried to trigger non-existant event: MTG_naval_treaty.7
+[01:58:27][1936.05.20.01][effectbase.cpp:750]: *Tried to trigger non-existant event: bftb_news.2
+[01:58:44][1936.06.24.01][effectbase.cpp:750]: *Tried to trigger non-existant event: GOE_RAJ_partition.1
+[01:58:44][1936.06.24.01][effectbase.cpp:750]: *Tried to trigger non-existant event: GOE_RAJ.29
+[01:58:47][1936.06.29.19][effectbase.cpp:750]: *Tried to trigger non-existant event: wtt_manchukou_bandit_sabotage.23
+[01:59:02][1936.07.29.01][effectbase.cpp:750]: *Tried to trigger non-existant event: NSB_soviet_paranoia_system_events.19
+[01:59:10][1936.08.12.01][effectbase.cpp:750]: *Tried to trigger non-existant event: GER_inner_circle_bormann.01
+[01:59:38][1936.10.07.01][effectbase.cpp:750]: *Tried to trigger non-existant event: lar_france_political_violence.1
+[02:00:22][1936.12.30.01][effectbase.cpp:750]: *Tried to trigger non-existant event: germany.5
+[02:00:22][1936.12.30.01][effectbase.cpp:750]: *Tried to trigger non-existant event: germany.5
+[02:00:22][1936.12.30.01][effectbase.cpp:750]: *Tried to trigger non-existant event: germany.5
+[02:00:22][1936.12.30.01][effectbase.cpp:750]: *Tried to trigger non-existant event: germany.5
+[02:00:22][1936.12.30.01][effectbase.cpp:750]: *Tried to trigger non-existant event: germany.5
+[02:00:22][1936.12.30.01][effectbase.cpp:750]: *Tried to trigger non-existant event: germany.5
+[02:00:22][1936.12.30.01][effectbase.cpp:750]: *Tried to trigger non-existant event: germany.5
+[02:00:29][1937.01.10.19][effectbase.cpp:750]: *Tried to trigger non-existant event: wtt_manchukou_bandit_sabotage.21
+[02:01:06][1937.03.24.01][effectbase.cpp:750]: *Tried to trigger non-existant event: GER_inner_circle_todt.01
+[02:01:09][1937.03.31.01][effectbase.cpp:750]: *Tried to trigger non-existant event: NSB_soviet_paranoia_system_events.19
+[02:01:29][1937.05.05.01][equipment_effects.cpp:808]: 'common/national_focus/new_zealand.txt:479: create_equipment_variant': 'Bristol Blenheim' - Modular type 'medium_plane_airframe_1' appears to not have been unlocked for NZL as no chassis variant exists. Unlocked the tech before creating any variants to avoid bugs.
+[02:01:29][1937.05.05.01][effectbase.cpp:750]: *Tried to trigger non-existant event: mtg_news.3
+[02:02:04][1937.07.14.01][effectbase.cpp:750]: *Tried to trigger non-existant event: wtt_manchukou.11
+[02:02:23][1937.08.18.01][effectbase.cpp:750]: *Tried to trigger non-existant event: DOD_hungary.140
+[02:02:45][1937.09.29.01][effectbase.cpp:750]: *Tried to trigger non-existant event: GER_inner_circle_goebbels.01
+[02:03:40][1938.01.12.10][effectbase.cpp:750]: *Tried to trigger non-existant event: AUS_political_events.77
+[02:04:13][1938.03.16.22][effectbase.cpp:750]: *Tried to trigger non-existant event: NSB_soviet_propaganda_capmaign_events.101
+[02:06:04][1938.10.12.01][effectbase.cpp:750]: *Tried to trigger non-existant event: NSB_soviet_paranoia_system_events.19
+[02:06:34][1938.12.11.17][effectbase.cpp:750]: *Tried to trigger non-existant event: NSB_soviet_propaganda_capmaign_events.101
+[02:06:45][1939.01.01.14][effectbase.cpp:750]: *Tried to trigger non-existant event: japan_border_conflict.1
+[02:07:01][1939.01.31.20][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:01][1939.01.31.21][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:01][1939.01.31.22][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:01][1939.01.31.23][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:01][1939.01.31.24][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:01][1939.02.01.01][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:01][1939.02.01.02][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.03][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.04][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.05][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.06][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.07][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.08][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.09][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.10][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.11][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.12][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.13][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.14][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.15][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.16][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.17][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.18][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:02][1939.02.01.18][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.01.19][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.01.20][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.01.21][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.01.22][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.01.23][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.01.24][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.01][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.02][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.03][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.04][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.05][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.06][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.07][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.08][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.09][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.10][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.11][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.12][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.13][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.14][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.15][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.16][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.17][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.18][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.19][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:03][1939.02.02.19][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:04][1939.02.03.20][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:04][1939.02.04.21][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:05][1939.02.06.23][gameidler.cpp:1597]: AI tried to post an invalid command: order_assign_command
+[02:07:22][1939.03.10.03][effectbase.cpp:750]: *Tried to trigger non-existant event: political.18
+[02:07:30][1939.03.25.18][effectimplementation.cpp:3974]: common/decisions/ITA.txt:4195: add_units_to_division_template did not find template for Truppe Irregolari di Cammelli in add_units_to_division_template
+[02:08:38][1939.06.28.01][effectbase.cpp:750]: *Tried to trigger non-existant event: germany_mefo_bills.1
+[02:08:38][1939.06.28.03][effectbase.cpp:750]: *Tried to trigger non-existant event: germany_mefo_bills.1
+[02:08:38][1939.06.28.03][effectbase.cpp:750]: *Tried to trigger non-existant event: germany_mefo_bills.1
+[02:08:39][1939.06.29.02][effectbase.cpp:750]: *Tried to trigger non-existant event: germany_mefo_bills.1

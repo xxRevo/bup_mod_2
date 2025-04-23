@@ -255,42 +255,7 @@ economy_decisions = {
 			
 			 check_variable = { node_goal < num_of_supply_nodes } #if the number of supply nodes exceeds the old number by +3, immediately cancel
 		}
-	}
-	seize_some_trains_woo = { #repeating train seize
-
-		icon = GFX_decision_hol_draw_up_staff_plans	
-
-		visible = { 
-			num_of_factories < 60
-		}
-		
-		available = {
-			has_equipment = { train_equipment < 101 }
-			has_tech = basic_train
-		}
-		
-		days_remove = 180
-
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 1
-				has_stability > 0.74
-				NOT = {
-					original_tag = SWE
-					has_idea = SWE_hungershield
-				}
-			}
-		}
-
-		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = train_equipment
-				amount = 15
-			}
-			add_stability = -0.05
-		}
-	}			
+	}		
 }
 
 propaganda_efforts = {

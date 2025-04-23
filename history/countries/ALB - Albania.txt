@@ -17,6 +17,7 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = neutrality_idea
 set_popularities = {
 	neutrality = 100
 }

@@ -3,7 +3,7 @@
 oob = "INS_1936"
 
 set_research_slots = 2
-
+add_ideas = neutrality_idea
 # Starting tech
 # clone of Holland
 set_technology = {

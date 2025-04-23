@@ -40,7 +40,7 @@ if = {
 
 set_research_slots = 3
 add_ideas = {
-	anti_german_military
+	neutrality_idea
 }
 
 set_technology = {

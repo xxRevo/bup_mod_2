@@ -604,26 +604,7 @@ on_actions = {
 	}
 
 	# ROOT is capitulated country, FROM is winner
-	on_capitulation = {
-		effect = {
-			if = {
-				limit = {
-					tag = POL
-				}
-				SOV = {
-					transfer_state = 784
-					transfer_state = 96
-					transfer_state = 95
-					transfer_state = 94
-					transfer_state = 93
-					transfer_state = 91
-					transfer_state = 89
-					transfer_state = 97
-				}
-			}
-		}
-	}
-	
+
 	on_capitulation = {
 		effect = {
 			if = {

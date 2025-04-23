@@ -8147,30 +8147,7 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "La Resistance" }
-				}
-				any_other_country = {
-					original_tag = SPR
-					has_government = fascism
-					has_volunteers_amount_from = {
-						tag = ROOT
-						count > 1
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				SPA = {
-					has_volunteers_amount_from = {
-						tag = ROOT
-						count > 1
-					}
-				}
-			}
+
 		}
 
 		continue_if_invalid = yes
@@ -8178,33 +8155,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP }
 
 		completion_reward = {
-			army_experience = 25
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			if = {
-				limit = {
-					NOT = { has_dlc = "La Resistance" }
-				}
-				random_other_country = {
-					limit = {
-						original_tag = SPR
-						has_government = fascism
-					}
-					add_opinion_modifier = { target = GER modifier = ita_supported_spain_civil_war }
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				SPA = { add_opinion_modifier = { target = GER modifier = ita_supported_spain_civil_war } }
-			}
-
-			add_timed_idea = {
-				idea = GER_legion_condor_ns
-				days = 545
-			}
+			army_experience = 500
+			air_experience = 500
+			navy_experience = 100
 		}
 	}
 	

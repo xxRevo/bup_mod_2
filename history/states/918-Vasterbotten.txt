@@ -1,28 +1,14 @@
 state = { 
 	id = 918
 	name = "STATE_918" # Västerbotten
-	manpower = 315105
+	manpower = 1
 	state_category = rural
 	resources = {
-		tungsten = 35
-		steel = 39
-		chromium = 15
+
 	}
 
 	history = {
-		victory_points = {
-			6132 2
-		}
-		victory_points = {
-			109 1
-		}
-		owner = SWE
-		add_core_of = SWE
-		
-		buildings = {
-			infrastructure = 2
-			#industrial_complex = 1 was 1
-		}
+
 	}
 
 	provinces = {

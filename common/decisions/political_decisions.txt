@@ -1971,15 +1971,6 @@ political_actions = {
 					has_idea = SPR_political_violence
 				}
 			}
-			if = {
-				limit = {
-					has_aat = yes 
-					original_tag = NOR 
-				}
-				NOT = { 
-					has_idea = NOR_anti_communist_sentiment_ns
-				}
-			}
         }
 	
 		modifier = {

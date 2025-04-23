@@ -4390,7 +4390,7 @@
 		x = 0
 		y = 1
 		relative_position_id = FRA_buy_time
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = yes
 
@@ -4415,7 +4415,9 @@
 			}
 		}
 		completion_reward = {
-			ENG = { country_event = { id = britain.13 } }
+			ENG = {
+				add_to_faction = FRA
+			}
 		}
 	}
 	focus = {

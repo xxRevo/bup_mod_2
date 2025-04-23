@@ -1019,36 +1019,10 @@ JAP_southern_expansion = {
 		}
 
 		complete_effect = {
-			if = {
-				limit = {
-					FRA = {
-						OR = {
-							controls_state = 671
-							671 = { CONTROLLER = { is_subject_of = FRA } }
-							controls_state = 670
-							670 = { CONTROLLER = { is_subject_of = FRA } }
-							controls_state = 286
-							286 = { CONTROLLER = { is_subject_of = FRA } }
-						}
-					}
-				}
-				FRA = { country_event = { id = france.1 } }
-			}
-			else_if = {
-				limit = {
-					VIC = {
-						OR = {
-							controls_state = 671
-							controls_state = 670
-							controls_state = 286
-							671 = { CONTROLLER = { is_subject_of = VIC } }
-							670 = { CONTROLLER = { is_subject_of = VIC } }
-							286 = { CONTROLLER = { is_subject_of = VIC } }
-						}
-					}
-				}
-				VIC = { country_event = { id = france.1 } }
-			}
+			transfer_state = 286
+			transfer_state = 741
+			transfer_state = 670
+			transfer_state = 671
 		}
 
 	}

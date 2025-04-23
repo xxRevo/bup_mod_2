@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = FRA
+		owner = SPR
 
 		victory_points = {
 			1903 1 

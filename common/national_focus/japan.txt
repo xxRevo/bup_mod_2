@@ -51,7 +51,7 @@
 		}
 
 		available = {
-
+			always = no
 		}
 
 		bypass = {
@@ -1195,105 +1195,29 @@
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 
 		completion_reward = {
-			if = {
-				limit = {
-					CHI = { #if CHI owns one of these states, they get the event
-						OR = {
-							controls_state = 608
-							controls_state = 597
-							controls_state = 614
-						}
-					}
-				}
-				CHI = {
-					country_event = china.1
-				}
+			army_experience = 500
+			navy_experience = 500
+			air_experience = 500
+			SOV = {
+				army_experience = 500
+				navy_experience = 500
+				air_experience = 500				
 			}
-			if = {
-				limit = {
-					PRC = { #only fires the event for PRC if they control ALL of the states (to ensure that only one of them gets it, to avoid issues when one selects to turn over the states and the other doesn't)
-						AND = {
-							controls_state = 608
-							controls_state = 597
-							controls_state = 614
-						}
-					}
-				}
-				PRC = {
-					country_event = china.1
-				}
+			MAN = {
+				army_experience = 250
+				navy_experience = 250
+				air_experience = 250
 			}
-			if = {
-				limit = {
-					SHX = { #only fires the event for SHX if they control ALL of the states (to ensure that only one of them gets it, to avoid issues when one selects to turn over the states and the other doesn't)
-						AND = {
-							controls_state = 608
-							controls_state = 597
-							controls_state = 614
-						}
-					}
-				}
-				SHX = {
-					country_event = china.1
-				}
-			}
-			add_named_threat = { threat = 1 name = JAP_intervene_in_china }
-			add_ideas = JAP_intervene_in_china_5
-			unlock_decision_tooltip = JAP_china_step_up_war_effort
+			annex_country = { target = CHI }
+			add_named_threat = { threat = 10 name = JAP_intervene_in_china }
 		}
 	}
-
-	focus = {
-		id = JAP_secure_china
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = JAP_intervene_in_china }
-		x = 0
-		y = 1
-		relative_position_id = JAP_intervene_in_china
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				threat < 0.9
-			}
-		}
-
-		available = {
-			CHI = {
-				surrender_progress > 0.3
-			}
-			has_war_with = USA
-		}
-
-		bypass = {
-			OR = {
-				NOT = { JAP_has_idea_JAP_intervene_in_china = yes }
-				CHI = { has_capitulated = yes }
-			}
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-		completion_reward = {
-			JAP_intervene_in_china_remove = yes
-			add_named_threat = { threat = 15 name = JAP_secure_china }		
-			USA = { add_war_support = 0.05 }	
-			unlock_decision_tooltip = JAP_ichi_go
-		}
-	}
-
 	focus = {
 		id = JAP_develop_chinese_resources
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = JAP_secure_china }
+		prerequisite = { focus = JAP_intervene_in_china }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = JAP_intervene_in_china
 
 		cost = 10
@@ -1303,8 +1227,6 @@
 		}
 
 		available = {
-			has_full_control_of_state = 605
-			has_full_control_of_state = 325
 		}
 
 		bypass = {
@@ -1317,16 +1239,10 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			605 = {
+			594 = {
 				add_resource = {
 					type = aluminium
-					amount = 8
-				}
-			}
-			325 = {
-				add_resource = {
-					type = aluminium
-					amount = 12
+					amount = 20
 				}
 			}
 			if = {
@@ -1800,14 +1716,7 @@
 
 
 		completion_reward = {
-			SIA = { 
-				country_event = { id = generic.5 hours = 2 }
-			}
-			add_ai_strategy = {
-				type = protect
-				id = "SIA"
-				value = 100
-			}
+			annex_country = {target = SIA}
 		}
 	}
 

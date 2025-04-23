@@ -918,6 +918,7 @@ focus_tree = {
 				tag = ITA
 				count > 0
 			}
+			always = no
 		}
 		bypass = {
 		}
@@ -959,6 +960,7 @@ focus_tree = {
 				tag = GER
 				count > 0
 			}
+			always = no
 		}
 		bypass = {
 		}
@@ -3681,8 +3683,6 @@ focus_tree = {
 	focus = {
 		id = SPA_unify_the_nationalist_front
 		available = {
-			has_global_flag = spanish_civil_war
-			hidden_trigger = { always = no }
 		}
 		bypass = {
 		}
@@ -3698,14 +3698,34 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY}
 		completion_reward = {
+			GER = {
+				army_experience = 500
+				air_experience = 500
+			}
+			SOV = {
+				army_experience = 500
+				air_experience = 500
+			}
+			ITA = {
+				army_experience = 500
+				air_experience = 500
+			}
+			HUN = {
+				army_experience = 250
+				air_experience = 250
+			}
+			ROM = {
+				army_experience = 250
+				air_experience = 250
+			}
 			add_stability = 0.1
-			activate_mission = SPA_carlist_uprising_mission
 		}
 	}
 
 	focus = {
 		id = SPA_save_the_alcazar
 		available = {
+			always = no
 		}
 		bypass = {
 			OR = {
@@ -3823,6 +3843,7 @@ focus_tree = {
 			controls_state = 176
 			controls_state = 792
 			controls_state = 790
+			always = no
 		}
 		bypass = {
 			has_global_flag = scw_over
@@ -3972,6 +3993,7 @@ focus_tree = {
 	focus = {
 		id = SPA_a_methodical_approach
 		available = {
+			always = no
 		}
 		bypass = {
 			has_global_flag = scw_over
@@ -5057,6 +5079,7 @@ focus_tree = {
 	focus = {
 		id = SPA_invest_in_naval_infrastructure
 		available = {
+			always = no
 			has_completed_focus = SPA_unify_the_nationalist_front
 		}
 		bypass = {

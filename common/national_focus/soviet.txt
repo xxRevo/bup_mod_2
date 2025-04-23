@@ -13460,8 +13460,8 @@ focus_tree = {
 		}
 
 		available = {
-			OR = {
-				NOT = { has_country_flag = SOV_paranoia_system_active_flag }
+			GER = {
+				has_completed_focus = GER_molotov_ribbentrop_pact
 			}
 			is_subject = no
 		}
@@ -13566,8 +13566,7 @@ focus_tree = {
 		}
 
 		available = {
-			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
-			is_subject = no
+			always = no
 		}
 		
 		search_filters = {}
@@ -13624,47 +13623,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_ANNEXATION}
 
 		completion_reward = {
-			# Estonia
-			custom_effect_tooltip = SOV_estonian_claimed_states_tt
-			hidden_effect = {
-				EST = {
-					every_owned_state = {
-						limit = {
-							is_core_of = PREV
-						}
-						ROOT = { add_state_claim = PREV }
-					}
-				}
-			}
-			# Latvia
-			custom_effect_tooltip = SOV_latvian_claimed_states_tt
-			hidden_effect = {
-				LAT = {
-					every_owned_state = {
-						limit = {
-							is_core_of = PREV
-						}
-						ROOT = { add_state_claim = PREV }
-					}
-				}
-			}
-			# Lithuania
-			custom_effect_tooltip = SOV_lithuanian_claimed_states_tt
-			hidden_effect = {
-				LIT = {
-					every_owned_state = {
-						limit = {
-							is_core_of = PREV
-						}
-						ROOT = { add_state_claim = PREV }
-					}
-				}
-			}
-			#Activate targeted decisions
-			activate_targeted_decision = { target = EST decision = SOV_send_ultimatum_to_country_baltic }
-			activate_targeted_decision = { target = LAT decision = SOV_send_ultimatum_to_country_baltic }
-			activate_targeted_decision = { target = LIT decision = SOV_send_ultimatum_to_country_baltic }
-
+			annex_country = { target = EST}
+			annex_country = { target = LIT}
+			annex_country = { target = LAT}
 			add_named_threat = { threat = 1 name = SOV_claims_in_baltic }
 		}
 	}
@@ -13704,28 +13665,130 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_ANNEXATION}
 
 		completion_reward = {
-			add_state_claim = 146 # Karjala
+			white_peace = FIN
 
-			if= {
-				limit = {
+			### TRANSFER STATES ###
+			#KARJALA
+			IF = {
+				limit = {	
 					146 = {
-						controller = {
-							NOT = { has_war_with = ROOT }
-						}
+						is_owned_by = FIN
 					}
 				}
-				146 = {
-					controller = {
-						set_country_flag = SOV_ultimatum_sent_flag #Add it for AI strats reasons
-						add_timed_idea = {
-							idea = communist_pressure
-							days = 365
-						}
-						country_event = { id = finland.1 hours = 16 random_hours = 8 }
+				transfer_state = 146
+			}
+
+			#SALLA
+			IF = {
+				limit = {
+					147 = {
+						is_owned_by = FIN
 					}
 				}
-				custom_effect_tooltip = if_they_accept_tt
-				event_option_tooltip = soviet.12.a
+				transfer_state = 147
+			}
+
+			#PETSAMO
+			IF = {
+				limit = {
+					722 = {	
+						is_owned_by = FIN
+					}
+				}
+				transfer_state = 722
+			}
+
+			FIN = {
+				add_ai_strategy = {
+					type = antagonize
+					id = "SOV"			
+					value = -200
+				}
+			}
+		
+			FIN = {
+				add_ai_strategy = {
+					type = befriend
+					id = "GER"			
+					value = -200
+				}
+			}
+
+			GER = {
+				add_ai_strategy = {
+					type = befriend 
+					id = "FIN"			
+					value = -200
+				}
+			}
+
+			army_experience = 250
+
+			navy_experience = 250
+
+			air_experience = 250
+
+			add_political_power = 100
+
+			hidden_effect = {
+				news_event = { id = aat_news.120 hours = 12 }
+
+				IF = {
+					limit = {
+						OR = {
+							666 = {
+								is_controlled_by = GER
+								
+								any_country = {
+									OR = {
+										is_in_faction_with = GER
+										is_subject_of = GER
+									}
+									controls_state = PREV
+								}
+							}
+
+							925 = {
+								is_controlled_by = GER
+								
+								any_country = {
+									OR = {
+										is_in_faction_with = GER
+										is_subject_of = GER
+									}
+									controls_state = PREV
+								}
+							}
+
+							924 = {
+								is_controlled_by = GER
+								
+								any_country = {
+									OR = {
+										is_in_faction_with = GER
+										is_subject_of = GER
+									}
+									controls_state = PREV
+								}
+							}
+						}
+
+						GER = {
+							has_military_access_to = FIN 
+						}
+					}
+					# The Soviets Forcing us to oust German Troops from our territory
+					FIN = { 
+						country_event = { 
+							id = AAT_finland_continuation_war.10
+							days = 3
+							random_days = 5
+						} 
+					}
+				}
+			}
+			hidden_effect = { # Used to prevent Finland to activate both Armistice and Switch sides decisions at the same time
+				FIN = { clr_country_flag = FIN_negotiating_armistice_flag }
 			}
 		}
 	}
@@ -13841,7 +13904,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_claims_in_baltic
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -13984,6 +14047,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_offer_poland_protection }
 
 		available = {
+			always = no
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
 			is_subject = no
 			NOT =  { is_in_faction_with = POL }
@@ -14085,6 +14149,7 @@ focus_tree = {
 		}
 
 		available = {
+			always = no
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
 			country_exists = POL
 			NOT = { has_war_with = POL }
@@ -14215,62 +14280,29 @@ focus_tree = {
 		
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = { #This is now generic and will target any potential (multiple) controllers for these states.
-			if = {
-				limit = { 78 = { OWNER = { NOT = { is_in_faction_with = ROOT} } } }
-				add_state_claim = 78
-			}
-			if = {
-				limit = { 766 = { OWNER = { NOT = { is_in_faction_with = ROOT} } } }
-				add_state_claim = 766
-			}
-			if = {
-				limit = { 80 = { OWNER = { NOT = { is_in_faction_with = ROOT} } } }
-				add_state_claim = 80
-			}
-			add_named_threat = { threat = 1 name = SOV_claim_on_bessarabia }
-			random_other_country = {
-				limit = { owns_state = 78 }
-				add_opinion_modifier = { target = SOV modifier = claimed_bessarabia }
-				set_country_flag = SOV_added_claimed_bessarabia
-				country_event = { id = romania.1 hours = 16 random_hours = 8 }
-			}
-			if = { #Done like this to prevent disgusting tooltip issues, but I hate it ok?
+			IF = {
 				limit = {
-					any_other_country = {
-						owns_state = 78
-						NOT = {	owns_state = 80 }
+					78 = {	
+						is_owned_by = ROM
 					}
 				}
-				random_other_country = {
-					limit = { 
-						owns_state = 80 
-						NOT = { has_country_flag = SOV_added_claimed_bessarabia }
-					}
-					add_opinion_modifier = { target = SOV modifier = claimed_bucovina }
-					country_event = { id = romania.1 hours = 16 random_hours = 8 }
-				}
+				transfer_state = 78
 			}
-			if = {
+			IF = {
 				limit = {
-					AND = {
-						any_other_country = {
-							owns_state = 78
-							NOT = {	owns_state = 766 }
-						}
-						any_other_country = {
-							owns_state = 80
-							NOT = {	owns_state = 766 }
-						}
+					766 = {	
+						is_owned_by = ROM
 					}
 				}
-				random_other_country = {
-					limit = { 
-						owns_state = 766
-						NOT = { has_country_flag = SOV_added_claimed_bessarabia }
+				transfer_state = 766
+			}
+			IF = {
+				limit = {
+					80 = {	
+						is_owned_by = ROM
 					}
-					add_opinion_modifier = { target = SOV modifier = claimed_bucovina }
-					country_event = { id = romania.1 hours = 16 random_hours = 8 }
 				}
+				transfer_state = 80
 			}
 		}
 	}

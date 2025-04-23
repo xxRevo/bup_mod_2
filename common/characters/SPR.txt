@@ -3551,22 +3551,18 @@ characters={
 					}
 				}
 				available = {
-					OR = {
-						AND = {
+					AND = {
+						NOT = {
+							has_completed_focus = SPR_masters_of_our_own_fate 
+							has_completed_focus = SPR_communists_in_the_government 
+						}
+						custom_trigger_tooltip = {
+							tooltip = SPR_not_nationalist_spain_tt
 							NOT = {
-								has_completed_focus = SPR_masters_of_our_own_fate 
-								has_completed_focus = SPR_communists_in_the_government 
-							}
-							custom_trigger_tooltip = {
-								tooltip = SPR_not_nationalist_spain_tt
-								NOT = {
-									tag = SPA 
-									tag = SPB 
-								}
+								tag = SPA 
+								tag = SPB 
 							}
 						}
-
-						SWE_refuge_for_revolutionaries_trigger = yes
 					}
 				}
 				traits = {
@@ -3728,24 +3724,21 @@ characters={
 					}
 				}
 				available = {
-					OR = {
-						AND = {
-							OR = {
-								has_completed_focus = SPR_demand_ministerial_positions 
-								has_completed_focus = SPR_communists_in_the_government 
-							}
+					AND = {
+						OR = {
+							has_completed_focus = SPR_demand_ministerial_positions 
+							has_completed_focus = SPR_communists_in_the_government 
+						}
+						NOT = {
+							has_completed_focus = SPR_masters_of_our_own_fate 
+						}
+						custom_trigger_tooltip = {
+							tooltip = SPR_not_nationalist_spain_tt
 							NOT = {
-								has_completed_focus = SPR_masters_of_our_own_fate 
-							}
-							custom_trigger_tooltip = {
-								tooltip = SPR_not_nationalist_spain_tt
-								NOT = {
-									tag = SPA 
-									tag = SPB 
-								}
+								tag = SPA 
+								tag = SPB 
 							}
 						}
-						SWE_refuge_for_revolutionaries_trigger = yes
 					}
 				}
 				traits = {
@@ -4057,19 +4050,16 @@ characters={
 				}
 			}
 			available = {
-				OR = {
-					AND = {
+				AND = {
+					NOT = {
+						has_completed_focus = SPR_crush_the_revolution 
+					}
+					custom_trigger_tooltip = {
+						tooltip = SPR_not_nationalist_spain_tt
 						NOT = {
-							has_completed_focus = SPR_crush_the_revolution 
-						}
-						custom_trigger_tooltip = {
-							tooltip = SPR_not_nationalist_spain_tt
-							NOT = {
-								tag = SPA 
-							}
+							tag = SPA 
 						}
 					}
-					SWE_refuge_for_revolutionaries_trigger = yes
 				}
 			}
 			traits = {
@@ -4113,20 +4103,17 @@ characters={
 				}
 			}
 			available = {
-				OR = {
-					AND = {
-						has_completed_focus = SPR_masters_of_our_own_fate 
+				AND = {
+					has_completed_focus = SPR_masters_of_our_own_fate 
+					NOT = {
+						has_completed_focus = SPR_regional_defense_council_of_aragon 
+					}
+					custom_trigger_tooltip = {
+						tooltip = SPR_not_nationalist_spain_tt
 						NOT = {
-							has_completed_focus = SPR_regional_defense_council_of_aragon 
-						}
-						custom_trigger_tooltip = {
-							tooltip = SPR_not_nationalist_spain_tt
-							NOT = {
-								tag = SPA 
-							}
+							tag = SPA 
 						}
 					}
-					SWE_refuge_for_revolutionaries_trigger = yes
 				}
 			}
 			traits = {

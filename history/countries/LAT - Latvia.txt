@@ -27,13 +27,6 @@ if = {
 add_ideas = {
 	limited_conscription
 }
-IF = {
-	limit = { has_dlc = "No Step Back" }
-	add_ideas = {
-		LAT_perkonkrust_idea
-		democratic_opposition
-	}
-}
 
 set_technology = {
 	infantry_weapons = 1

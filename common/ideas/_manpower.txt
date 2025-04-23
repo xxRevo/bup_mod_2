@@ -83,13 +83,6 @@ ideas = {
 						}
 					}
 				}
-
-				if = {
-					limit = {
-						DEN_aat_is_subject = yes
-					}
-					NOT = { has_country_flag = DEN_had_volunteer_only_flag }
-				}
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
 			}
@@ -453,12 +446,6 @@ ideas = {
 				}
 				if = {
 					limit = {
-						DEN_aat_is_subject = yes
-					}
-					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
-				}
-				if = {
-					limit = {
 						original_tag = AUS
 					}
 					NOT = {
@@ -557,7 +544,6 @@ ideas = {
 				OR = {
 					has_government = fascism
 					has_government = communism
-					SWE_rapid_mob_manpower_law_trigger = yes
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.6
@@ -689,12 +675,6 @@ ideas = {
 							has_idea = BUL_army_restrictions
 						}
 					}
-				}
-				if = {
-					limit = {
-						DEN_aat_is_subject = yes
-					}
-					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
 				}
 				if = {
 					limit = {
@@ -928,12 +908,6 @@ ideas = {
 				}
 				if = {
 					limit = {
-						DEN_aat_is_subject = yes
-					}
-					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
-				}
-				if = {
-					limit = {
 						original_tag = AUS
 					}
 					NOT = {
@@ -1147,12 +1121,6 @@ ideas = {
 							has_idea = BUL_army_restrictions
 						}
 					}
-				}
-				if = {
-					limit = {
-						DEN_aat_is_subject = yes
-					}
-					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
 				}
 				if = {
 					limit = {

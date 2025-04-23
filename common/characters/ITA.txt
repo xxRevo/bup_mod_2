@@ -3183,22 +3183,19 @@ characters = {
 				has_dlc = "By Blood Alone"
 			}
 			available = {
-				OR = {
-					AND = {
-						OR = {
-							has_completed_focus = ITA_unite_the_opposition
-							has_completed_focus = ITA_defy_the_duce
-						}
-						NOT = { has_completed_focus = ITA_culto_del_duce }
-						NOT = { has_completed_focus = ITA_convene_the_grand_council }
-						NOT = { 
-							has_country_leader = {
-								character = ITA_palmiro_togliatti
-								ruling_only = yes
-							}
+				AND = {
+					OR = {
+						has_completed_focus = ITA_unite_the_opposition
+						has_completed_focus = ITA_defy_the_duce
+					}
+					NOT = { has_completed_focus = ITA_culto_del_duce }
+					NOT = { has_completed_focus = ITA_convene_the_grand_council }
+					NOT = { 
+						has_country_leader = {
+							character = ITA_palmiro_togliatti
+							ruling_only = yes
 						}
 					}
-					SWE_refuge_for_revolutionaries_trigger = yes
 				}
 			}
 			
@@ -3326,17 +3323,14 @@ characters = {
 			
 			}
 			available = {
-				OR = {
-					AND = {
-						OR = {
-							has_completed_focus = ITA_the_popular_front
-							AND = {
-								has_government = democratic
-								has_completed_focus = ITA_common_ground
-							}
+				AND = {
+					OR = {
+						has_completed_focus = ITA_the_popular_front
+						AND = {
+							has_government = democratic
+							has_completed_focus = ITA_common_ground
 						}
 					}
-					SWE_refuge_for_revolutionaries_trigger = yes
 				}
 			}
 			traits = {
@@ -3396,14 +3390,11 @@ characters = {
 				has_dlc = "By Blood Alone"
 			}
 			available = {
-				OR = {
-					AND = {
-						OR = {
-							has_completed_focus = ITA_the_path_to_progress
-							has_completed_focus = ITA_bring_back_exiled_intellectuals
-						}
+				AND = {
+					OR = {
+						has_completed_focus = ITA_the_path_to_progress
+						has_completed_focus = ITA_bring_back_exiled_intellectuals
 					}
-					SWE_refuge_for_revolutionaries_trigger = yes
 				}
 			}
 			traits = {

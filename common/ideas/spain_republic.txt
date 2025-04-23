@@ -1933,52 +1933,6 @@ ideas = {
 				factor = 1
 			}
 		}
-
-		SPR_hispano_aviacion = {
-			
-			picture = SPR_hispano_aviacion
-
-			
-			allowed = {
-				OR = {
-					AND = {
-						has_dlc = "La Resistance"
-						original_tag = SPR
-					}
-					SWI_bba_lar = yes
-				}						
-									
-			}
-
-			available = {
-				OR = {
-					custom_trigger_tooltip = {
-						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
-					}
-					controls_state = 169
-				}
-			}
-			
-			research_bonus = {
-				air_equipment = 0.15
-			}
-			
-			traits = { light_aircraft_manufacturer }
-			
-			equipment_bonus = {
-				# capable of aerobatics, forward shooting machine guns, low number of crashes
-			}
-			
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					factor = 0
-					SWI_bba_lar = yes
-					NOT = { has_global_flag = scw_over } 
-				}
-			}
-		}
 	}
 
 	materiel_manufacturer = {
@@ -2069,49 +2023,6 @@ ideas = {
 			traits = { support_equipment_manufacturer }
 			
 			modifier = {
-			}
-		}
-
-		SPR_hispano_suiza = {
-
-			picture = SPR_hispano_suiza
-			
-			allowed = {
-				OR = {
-					AND = {
-						has_dlc = "La Resistance"
-						original_tag = SPR						
-					}
-					SWI_bba_lar = yes 
-				}
-			}
-
-			available = {
-				OR = {
-					custom_trigger_tooltip = {
-						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
-					}
-					controls_state = 165
-				}
-			}
-			
-			research_bonus = {
-				motorized_equipment = 0.15
-			}
-			
-			traits = { motorized_equipment_manufacturer }
-			
-			modifier = {
-			}
-			
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					factor = 0
-					SWI_bba_lar = yes
-					NOT = { has_global_flag = scw_over } 
-				}
 			}
 		}
 

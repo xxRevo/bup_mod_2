@@ -69,15 +69,6 @@ JAP_maizuru_naval_arsenal_organization = {
 		}
 	}
 	
-	visible = {
-		IF = {
-			limit = {
-				FROM = { original_tag = ETH }
-			}
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
-		}
-	}
-	
 	available = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
@@ -132,15 +123,6 @@ JAP_mitsubishi_organization = {
 				tag = ETH
 				has_dlc = "By Blood Alone"
 			}
-		}
-	}
-	
-	visible = {
-		IF = {
-			limit = {
-				FROM = { original_tag = ETH }
-			}
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
 		}
 	}
 	

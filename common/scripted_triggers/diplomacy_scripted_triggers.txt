@@ -1475,56 +1475,6 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				}
 			}
 		}
-		else_if = { #Soviet volunteers to China (Communist Soviet -> Only to the supported China)
-			limit = {
-				original_tag = SOV
-				has_government = communism
-				FROM = { is_literally_china = yes }
-			}
-			custom_trigger_tooltip = {
-				tooltip = RULE_VOLUNTEERS_SOVIET_CHINA_SUPPORT_CHOSEN_ONE_TT
-				OR = {
-					has_completed_focus = SOV_the_gobi_gambit
-					has_completed_focus = SOV_two_red_flags
-					has_completed_focus = SOV_support_the_kuomintang
-				}
-				NOT = {
-					AND = {
-						has_completed_focus = SOV_the_gobi_gambit
-						FROM = { NOT = { tag = SIK } }
-					}
-				}
-				NOT = {
-					AND = {
-						has_completed_focus = SOV_two_red_flags
-						FROM = { NOT = { tag = PRC } }
-					}
-				}
-				NOT = {
-					AND = {
-						has_completed_focus = SOV_support_the_kuomintang
-						FROM = { NOT = { tag = CHI } }
-					}
-				}
-			}
-		}
-		else_if = { #Soviet volunteers to China (other ideologies -> Only to one China)
-			limit = {
-				original_tag = SOV
-				NOT = { has_government = communism }
-				FROM = { is_literally_china = yes }
-			}
-			custom_trigger_tooltip = {
-				tooltip = RULE_VOLUNTEERS_SOVIET_CHINA_ONLY_ONE_TT
-				NOT = {
-					any_other_country = {
-						is_literally_china = yes
-						NOT = { tag = FROM }
-						has_country_flag = SOV_russian_volunteers_in_china_flag
-					}
-				}
-			}
-		}
 		else_if = { #Soviet volunteers to Spain (Commie & Democr) (no POUM) (with No Step Back)
 			limit = {
 				has_dlc = "No Step Back"

@@ -1751,7 +1751,6 @@ characters={
 			slot = political_advisor
 			idea_token = RAJ_GOE_muhammad_ali_jinnah
 			allowed = {
-				is_raj_or_raj_inheritor = yes
 				has_dlc = "Graveyard of Empires"
 			}
 			visible = {

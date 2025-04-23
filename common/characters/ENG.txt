@@ -1927,10 +1927,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_sylvia_pankhurst
 			available  = {
-				OR = {
-					has_government  = communism 
-					SWE_refuge_for_revolutionaries_trigger = yes
-				}
+				has_government = communism
 			}
 			allowed  = {
 				OR = {

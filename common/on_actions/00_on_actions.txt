@@ -702,21 +702,6 @@ on_actions = {
 				}
 				JAP = { JAP_intervene_in_china_remove = yes }
 			}
-
-			if = {
-				limit = {
-					original_tag = POL
-					has_government = neutrality
-					NOT = { has_completed_focus = POL_fulfil_fifth_of_november }
-				}
-				retire_country_leader = yes
-			}
-			if = {
-				limit = {
-					original_tag = YUG
-				}
-				remove_ideas = YUG_idea_economic_aid
-			}
 			if = {
 				limit = {
 					NOT = { has_dlc = "Arms Against Tyranny"} # AAT uses separate system

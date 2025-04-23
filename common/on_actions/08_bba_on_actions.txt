@@ -102,7 +102,6 @@ on_actions = {
 			IF = {
 				limit = {
 					original_tag = ETH
-					has_completed_focus = ETH_declare_for_italy
 					ITA = {
 						NOT = {
 							OR = {
@@ -123,7 +122,6 @@ on_actions = {
 			else_if = {
 				limit = {
 					original_tag = ETH
-					has_completed_focus = ETH_declare_for_italy
 					}
 				every_owned_state = { #TODO_TA Make an event out this?
 					limit = {
@@ -261,7 +259,6 @@ on_actions = {
 					}
 					NOT = {
 						AND = {
-							ETH = { has_completed_focus = ETH_declare_for_italy }
 							has_civil_war = yes
 						}
 					}
@@ -276,21 +273,6 @@ on_actions = {
 				set_global_flag = ethiopia_recognized_flag
 			}
 			# Ethiopia switch law
-			IF = {
-				limit = {
-					original_tag = ETH
-					has_idea = ETH_chitet_law
-				}
-				swap_ideas = {
-					remove_idea = ETH_chitet_law
-					add_idea = ETH_chitet_law_peace_time
-				}
-				set_division_force_allow_recruiting = {
-					division_template = "Chitet Sefari"
-					force_allow_recruiting = no
-				}
-			}
-
 			# Delete extra units
 			IF = {
 				limit = {
@@ -361,21 +343,6 @@ on_actions = {
 	#on_war is fired when a country goes to war against anyone and is not fired again when it enters war against another country unless it went to peace first
 	on_war = { 
 		effect = {
-			IF = {
-				limit = {
-					original_tag = ETH
-					has_idea = ETH_chitet_law_peace_time
-				}
-				swap_ideas = {
-					remove_idea = ETH_chitet_law_peace_time
-					add_idea = ETH_chitet_law
-				}
-				set_division_force_allow_recruiting = {
-					division_template = "Chitet Sefari"
-					force_allow_recruiting = yes
-				}
-
-			}
 			if = {
 				limit = {
 					original_tag = SWI
@@ -509,7 +476,6 @@ on_actions = {
 					FROM = {
 						original_tag = ETH
 						has_government = fascism
-						has_completed_focus = ETH_sway_the_warlords
 					}
 				}
 				set_variable = { FROM.ETH_haile_selassie_country = ROOT }
@@ -1127,143 +1093,6 @@ on_actions = {
 			SWI_on_action_puppet_selection = yes #If it's SWI, it will check which Cosmetic Tag will apply
 		}
 	}
-	on_puppet = { #ROOT = nation being puppeted, FROM = overlord
-		effect = {
-			IF = {
-				limit = {
-					has_dlc = "By Blood Alone"
-					original_tag = ETH
-					has_completed_focus = ETH_rally_around_the_emperor
-					FROM = {
-						original_tag = ITA
-						OR = {
-							has_government = fascism
-							has_government = neutrality
-						}
-					}
-				}
-				ROOT = {
-					uncomplete_national_focus = {
-						focus = ETH_rally_around_the_emperor
-						uncomplete_children = yes
-						refund_political_power = no
-					}
-
-					unlock_national_focus = ETH_reach_out_to_the_italians
-					unlock_national_focus = ETH_sway_the_warlords
-					unlock_national_focus = ETH_declare_for_italy
-				}
-			}
-		}
-
-		effect = {
-			SWI_on_action_puppet_selection = yes #If it's SWI, it will check which Cosmetic Tag will apply
-		}
-
-		# In case of historical split of N and S Korea try to locate the correct leaders
-		effect = {
-			IF = {
-				limit = {
-					original_tag = KOR
-					has_government = democratic
-					NOT = {
-						has_country_leader = {
-							name = "Syngman Rhee"
-							ruling_only = no
-						}
-					}
-				}
-
-				random_other_country = {
-					limit = {
-						original_tag = KOR
-						has_country_leader = {
-							name = "Syngman Rhee"
-							ruling_only = no
-						}
-						NOT = { has_government = democratic }
-					}
-					every_character = {
-						limit = {
-							has_ideology_group = democratic
-						}
-						set_nationality =  ROOT
-					}
-				}
-				retire_country_leader = yes
-
-			}
-			IF = {
-				limit = {
-					original_tag = KOR
-					has_government = communism
-					NOT = {
-						has_country_leader = {
-							name = "Kim Il-sung"
-							ruling_only = no
-						}
-					}
-				}
-
-				random_other_country = {
-					limit = {
-						original_tag = KOR
-						has_country_leader = {
-							name = "Kim Il-sung"
-							ruling_only = no
-						}
-						NOT = { has_government = communism }
-					}
-					every_character = {
-						limit = {
-							has_ideology_group = communism
-						}
-						set_nationality =  ROOT
-					}
-				}
-				retire_country_leader = yes
-
-			}
-		}
-
-		#Italian Confederation -> Add NS to new subjects
-		effect = {
-			if = {
-				limit = {
-					FROM = {
-						original_tag = ITA
-						has_completed_focus = ITA_the_italian_confederation
-					}
-				}
-				if = {
-					limit = {
-						FROM = {
-							has_completed_focus = ITA_planned_economy
-						}
-						NOT = { has_idea = ITA_italian_confederation_member_improved }
-					}
-					if = {
-						limit = {
-							has_idea = ITA_italian_confederation_member
-						}
-						swap_ideas = {
-							remove_idea = ITA_italian_confederation_member
-							add_idea = ITA_italian_confederation_member_improved
-						}
-					}
-					else = {
-						add_ideas = ITA_italian_confederation_member_improved
-					}
-				}
-				else_if = {
-					limit = {
-						NOT = { has_idea = ITA_italian_confederation_member }
-					}
-					add_ideas = ITA_italian_confederation_member
-				}
-			}
-		}
-	}
 
 	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
 	#ROOT = nation being released, FROM = overlord
@@ -1319,55 +1148,6 @@ on_actions = {
 				ITA_replace_stuff_based_on_ideology_effect = yes
 			}
 		}
-	}
-
-	on_government_change = {
-		effect = {
-			#Change BoP when changing gov
-			IF = {
-				limit = {
-					original_tag = ETH
-					has_government = communism
-				}
-				set_power_balance = {
-					id = ETH_centralization_balance
-					left_side = ETH_decentralization_anarchist
-					right_side = ETH_communist_side
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ETH
-					NOT = { has_government = communism }
-				}
-				set_power_balance = {
-					id = ETH_centralization_balance
-					left_side = ETH_mesafint_side
-					right_side = ETH_mekwanint_side
-				}
-			}
-		}
-		effect = { #This is so Switzerland can keep its SWI_biggest_fascist and SWI_best_dem_ally updated. 
-			if ={
-				limit = { 
-					has_dlc = "By Blood Alone" 
-					SWI = { exists = yes }
-					any_owned_state = { is_capital = yes } # ignore civil war generated countries with no defined capital.
-					OR = {
-						tag = USA
-						ROOT = {
-							capital_scope = { is_on_continent = europe }
-						}		
-					}
-				}
-				SWI = {
-					SWI_update_neighbor_opinion_balance = yes
-					SWI_find_biggest_fascist_neighbor = yes
-					SWI_find_best_democratic_ally = yes
-					SWI_find_democratic_planes_seller = yes 
-				}
-			}
-		}	
 	}
 
 	#Root is exile

@@ -1836,3 +1836,150 @@ if_we_can_build_nuclear_missiles_we_want_nuclear_missiles = {
 		value = 1
 	}
 }
+
+
+avoid_axis_or_comintern = {
+	allowed = { 
+		original_tag = SWE
+		original_tag = SWI
+		original_tag = SPR
+		original_tag = YUG
+		original_tag = GRE
+		original_tag = IRQ
+		original_tag = ALB
+		original_tag = FIN
+		original_tag = VEN
+		original_tag = SIA
+	}
+	
+	enable = {
+		has_war = no
+		is_historical_focus_on = yes
+	}
+	
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = alliance
+		id = "JAP"
+		value = -400
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = -400
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = -400
+	}
+}
+
+avoid_allies = {
+	allowed = { 
+		original_tag = SWE
+		original_tag = SWI
+		original_tag = SPR
+		original_tag = YUG
+		original_tag = GRE
+		original_tag = IRQ
+		original_tag = ALB
+		original_tag = FIN
+		original_tag = VEN
+		original_tag = SIA
+	}
+	
+	enable = {
+		is_historical_focus_on = yes
+		has_war = no
+	}
+	
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = -1000
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = -1000
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "CAN"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "AST"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "SAF"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "ICE"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "NZL"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "LUX"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "BEL"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "DEN"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "NOR"
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "MEX"
+		value = -1000
+	}
+}

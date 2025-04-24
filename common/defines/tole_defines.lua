@@ -120,10 +120,10 @@ NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 20
 
 NDefines.NProduction.MAX_EQUIPMENT_RESOURCES_NEED = 3 	-- Max number of different strategic resources an equipment can be dependent on.
 NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 15	-- Max number of factories that can be assigned a single production line.
-NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 150
-NDefines.NProduction.FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 50
+NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 50
+NDefines.NProduction.FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 15
 NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 15
-NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 150
+NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 50
 NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 150
 NDefines.NProduction.MAX_MIL_FACTORIES_VISIBLE_FOR_MIL_EQUIPMENT_LINE = 15
-NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 50
+NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 15

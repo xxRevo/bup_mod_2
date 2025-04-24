@@ -1,0 +1,6 @@
+annex_decisions = {
+	icon = generic_research
+	visible = {
+		is_ai = no
+	}
+}

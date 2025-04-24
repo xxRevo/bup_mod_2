@@ -1,0 +1,89 @@
+annex_decisions  = {
+	annex_bul = {
+		icon = generic_tank
+
+		visible = {
+			is_ai = no
+			tag = ROM
+		}
+
+		complete_effect = {
+            add_research_slot = 1
+            add_state_core = 48
+            add_state_core = 212
+            add_state_core = 801
+            add_state_core = 211
+            annex_country = {
+                target = BUL
+                transfer_troops = yes
+			}
+        }
+    }
+	annex_saf = {
+		icon = generic_tank
+
+		visible = {
+			is_ai = no
+			tag = CAN
+		}
+
+		complete_effect = {
+            add_research_slot = 1
+            add_state_core = 895
+            add_state_core = 894
+            add_state_core = 541
+            add_state_core = 893
+            add_state_core = 681
+            add_state_core = 275
+            add_state_core = 719
+            annex_country = {
+                target = SAF
+                transfer_troops = yes
+			}
+        }
+    }
+	annex_nzl = {
+		icon = generic_tank
+
+		visible = {
+			is_ai = no
+			tag = AST
+		}
+
+		complete_effect = {
+            add_research_slot = 1
+            add_state_core = 723
+            add_state_core = 284
+            add_state_core = 726
+            annex_country = {
+                target = NZL
+                transfer_troops = yes
+			}
+        }
+    }
+	annex_man = {
+		icon = generic_tank
+
+		visible = {
+			is_ai = no
+			tag = JAP
+		}
+
+		complete_effect = {
+            add_research_slot = 1
+            add_state_core = 716
+            add_state_core = 328
+            add_state_core = 717
+            add_state_core = 714
+            add_state_core = 761
+            add_state_core = 715
+            add_state_core = 612
+            add_state_core = 611
+            add_state_core = 610
+            annex_country = {
+                target = MAN
+                transfer_troops = yes
+			}
+        }
+    }
+}

@@ -1,23 +1,11 @@
 ﻿capital = 11
 
 oob = "LIT_1936"
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "LIT_1936_air_bba"
-	else = {
-		set_air_oob = "LIT_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-		}
-	}
-}
 
-set_research_slots = 3
-set_variable = {
-	var = iron_wolf_days_var
-	value = 100
-}
+set_research_slots = 0
+
 add_ideas = neutrality_idea
+add_ideas = no-training
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -39,4 +27,15 @@ set_popularities = {
 	fascism = 15
 	communism = 15
 	neutrality = 40
+}
+
+create_country_leader = {
+	name = "Antanas Smetona"
+	desc = "POLITICS_ANTANAS_SMETONA_DESC"
+	picture = "GFX_Portrait_lithuania_antanas_smetona"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
 }

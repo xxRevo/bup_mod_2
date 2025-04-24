@@ -2,29 +2,6 @@
 
 oob = "NOR_1936"
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "NOR_1936_naval_mtg"
-	else = {
-		set_naval_oob = "NOR_1936_naval_legacy"
-	}
-}
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-	set_air_oob = "NOR_1936_air_bba"
-	set_technology = {
-		bba_early_transport_plane = 1
-	}
-	else = {
-		set_air_oob = "NOR_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			early_bomber = 1
-			early_transport_plane = 1
-		}
-	}
-}
-
 set_research_slots = 3
 
 add_ideas = {
@@ -43,6 +20,16 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	basic_train = 1
+}
+add_ideas = neutrality_idea
+add_timed_idea = { idea = no_training days= 730 }
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 1800
+}
+add_equipment_to_stockpile = {
+	type = support_equipment
+	amount = 40
 }
 set_convoys = 350		# 4th biggest merchant marine in the world
 if = {
@@ -80,6 +67,16 @@ set_popularities = {
 	communism = 2
 }
 
+create_country_leader = {
+	name = "Johan Nygaardsvold"
+	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
+	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
 
 ### VARIANTS ###
 # 1936 Start #

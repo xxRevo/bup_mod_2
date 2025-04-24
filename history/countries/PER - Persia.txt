@@ -16,6 +16,7 @@ if = {
 
 # Starting tech
 add_ideas = neutrality_idea
+add_timed_idea = { idea = no_training days= 730 }
 IF = {
 	limit = {
 		has_dlc = "Graveyard of Empires"
@@ -47,7 +48,7 @@ IF = {
 		long_name = PER_ultra_nationalists_long
 	}
 }
-
+set_research_slots = 0
 set_convoys = 10
 set_politics = {
 	ruling_party = neutrality
@@ -60,4 +61,15 @@ set_popularities = {
 	fascism = PER_fascism_popularity
 	communism = PER_communism_popularity
 	neutrality = PER_neutrality_popularity
+}
+
+create_country_leader = {
+	name = "Reza Shah Pahlavi"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "Portrait_Iran_Reza_Shah_Pahlavi.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
 }

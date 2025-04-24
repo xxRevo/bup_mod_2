@@ -8,7 +8,8 @@ NDefines.NCountry.EVENT_PROCESS_OFFSET = 30
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 20
 NDefines.NAI.DIPLOMACY_SEND_EXPEDITIONARY_BASE = 0
 
-NDefines.NAir.AIR_WING_MAX_SIZE = 6400      
+NDefines.NAir.AIR_WING_MAX_SIZE = 6400
+NDefines.NAir.THRUST_WEIGHT_AGILITY_FACTOR = 0 -- For plane designs, additive agility bonus per point of thrust exceeding weight #was 0.5     
 
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_KICKING_NEW_MEMBERS_OF_FACTION = 14	-- down from 90 | Number of days before being able to kick a new member of faction 
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_REINVITE_KICKED_NATIONS = 14		-- down from 90 | Number of days before being able to re invite a kicked 

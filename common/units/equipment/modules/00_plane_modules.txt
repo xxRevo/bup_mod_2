@@ -1506,7 +1506,7 @@ equipment_modules = {
 		add_stats = {	
 			build_cost_ic = 4
 			air_agility = -10
-			air_defence = -5
+			#air_defence = -5
 		}
 		xp_cost = 5
 		allow_mission_type = {
@@ -1576,7 +1576,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 12
 			air_agility = -15
-			air_defence = 2
+			#air_defence = 2
 		}
 		xp_cost = 2
 		allow_mission_type = {
@@ -1613,7 +1613,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 16
 			air_agility = -18
-			air_defence = 2
+			#air_defence = 2
 		}
 		xp_cost = 2
 		allow_mission_type = {
@@ -1657,7 +1657,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = 4
+			#air_defence = 4
+			air_agility = 2
 			build_cost_ic = 1
 			weight = 2
 		}
@@ -1676,12 +1677,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = -2
+			#air_defence = -2
 			build_cost_ic = 1
 			weight = 2
 		}
 		multiply_stats = {
-			air_range = 0.5
+			air_range = 0.25
 		}
 		xp_cost = 1
 		dismantle_cost_ic = 0.5
@@ -1693,7 +1694,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = 6
+			#air_defence = 6
+			air_agility = 5
 			build_cost_ic = 1
 			weight = 1
 		}
@@ -1710,19 +1712,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = -6
+			#air_defence = -6
 			build_cost_ic = 0
 		}
 		multiply_stats = {
 			build_cost_ic = -0.075
 		}
-		build_cost_resources = {
-			aluminium = -2
-		}
 		dismantle_cost_ic = 7
-		dismantle_cost_resources = {
-			aluminium = 2
-		}
 		xp_cost = 1
 	}
 
@@ -1737,7 +1733,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			air_range = 0.25
+			air_range = 0.5
 		}
 		xp_cost = 1
 	}
@@ -1764,7 +1760,7 @@ equipment_modules = {
 			}
 			add_stats = {
 				naval_strike_targetting = 6
-				air_defence = 4
+				#air_defence = 4
 			}
 		}
 		dismantle_cost_ic = 2 #you essentially have to redesign part of the wing
@@ -1804,7 +1800,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = 6
+			#air_defence = 6
+			air_agility = 2
 			build_cost_ic = 3
 			weight = 6
 		}
@@ -1821,12 +1818,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = -6
+			#air_defence = -6
 			build_cost_ic = 2
 			weight = 5
 		}
 		multiply_stats = {
-			air_range = 0.5
+			air_range = 0.25
 		}
 		xp_cost = 1
 		dismantle_cost_ic = 1
@@ -1838,7 +1835,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = 8
+			#air_defence = 8
+			air_agility = 5
 			build_cost_ic = 1.5
 			weight = 1
 		}
@@ -1855,21 +1853,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = -8
+			#air_defence = -8
 			build_cost_ic = 0
 			weight = 0
 		}
 		multiply_stats = {
 			build_cost_ic = -0.075
 		}
-		build_cost_resources = {
-			aluminium = -2
-		}
 		xp_cost = 1
 		dismantle_cost_ic = 12
-		dismantle_cost_resources = {
-			aluminium = 2
-		}
 	}
 
 	flying_boat_medium = { 
@@ -1921,7 +1913,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = 8
+			#air_defence = 8
+			air_agility = 2
 			build_cost_ic = 5
 			weight = 9
 		}
@@ -1938,12 +1931,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = -8
+			#air_defence = -8
 			build_cost_ic = 4
 			weight = 8
 		}
 		multiply_stats = {
-			air_range = 0.50
+			air_range = 0.25
 		}
 		xp_cost = 1
 		dismantle_cost_ic = 1.5
@@ -1955,7 +1948,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = 10
+			#air_defence = 10
+			air_agility = 5
 			build_cost_ic = 2
 			weight = 1
 		}
@@ -1972,20 +1966,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			air_defence = -10
+			#air_defence = -10
 			build_cost_ic = 0
 			weight = 0
 		}
 		multiply_stats = {
 			build_cost_ic = -0.075
 		}
-		build_cost_resources = {
-			aluminium = -3
-		}
 		dismantle_cost_ic = 22
-		dismantle_cost_resources = {
-			aluminium = 3
-		}
 		xp_cost = 1
 	}
 
@@ -2055,7 +2043,11 @@ equipment_modules = {
 			build_cost_ic = 1
 			weight = 1
 			night_penalty = -0.1
+		}		
+		multiply_stats ={
+			air_attack = 0.05
 		}
+
 		xp_cost = 1
 	}
 
@@ -2071,7 +2063,10 @@ equipment_modules = {
 			build_cost_ic = 1.5
 			weight = 1
 			night_penalty = -0.2
-		}
+		}		
+		multiply_stats ={
+			air_attack = 0.1
+		
 		xp_cost = 1
 	}
 
@@ -2192,7 +2187,7 @@ equipment_modules = {
 			build_cost_ic = 1
 			weight = 1
 			air_attack = 1
-			air_defence = 1
+			#air_defence = 1
 		}
 
 		mission_type_stats = {
@@ -2241,7 +2236,7 @@ equipment_modules = {
 			build_cost_ic = 2
 			weight = 2
 			air_attack = 1.5
-			air_defence = 2
+			#air_defence = 2
 		}
 
 		mission_type_stats = {
@@ -2290,7 +2285,7 @@ equipment_modules = {
 			build_cost_ic = 2
 			weight = 2
 			air_attack = 1.5
-			air_defence = 2
+			#air_defence = 2
 		}
 
 		mission_type_stats = {
@@ -2338,7 +2333,7 @@ equipment_modules = {
 			build_cost_ic = 4
 			weight = 4
 			air_attack = 3
-			air_defence = 4
+			#air_defence = 4
 		}
 
 		mission_type_stats = {
@@ -2386,7 +2381,7 @@ equipment_modules = {
 			build_cost_ic = 4
 			weight = 4
 			air_attack = 3
-			air_defence = 4
+			#air_defence = 4
 		}
 
 		mission_type_stats = {
@@ -2430,7 +2425,7 @@ equipment_modules = {
 			build_cost_ic = 8
 			weight = 8
 			air_attack = 6
-			air_defence = 8
+			#air_defence = 8
 		}
 
 		mission_type_stats = {

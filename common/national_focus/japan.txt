@@ -1196,18 +1196,53 @@
 
 		completion_reward = {
 			army_experience = 500
-			navy_experience = 500
 			air_experience = 500
-			SOV = {
-				army_experience = 500
-				navy_experience = 500
-				air_experience = 500				
-			}
+			navy_experience = 500
 			MAN = {
-				army_experience = 250
-				navy_experience = 250
-				air_experience = 250
+				army_experience = 500
+				air_experience = 500
+				navy_experience = 500
 			}
+			FRA = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}
+			ENG = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}	
+			AST = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}
+			NZL = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}
+			CAN = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}
+			SAF = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}	
+			RAJ = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}		
+			SOV = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 100
+			}	
 			annex_country = { target = CHI }
 			add_named_threat = { threat = 10 name = JAP_intervene_in_china }
 		}

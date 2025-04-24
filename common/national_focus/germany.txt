@@ -8144,7 +8144,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_remilitarize_the_rhineland
 
-		cost = 5
+		cost = 1
 
 		available = {
 
@@ -8158,6 +8158,61 @@ focus_tree = {
 			army_experience = 500
 			air_experience = 500
 			navy_experience = 100
+			HUN = {
+				army_experience = 250
+				air_experience = 250
+				navy_experience = 50
+			}
+			ROM = {
+				army_experience = 250
+				air_experience = 250
+				navy_experience = 50
+			}
+			ITA = {
+				army_experience = 250
+				air_experience = 250
+				navy_experience = 50
+			}
+			FRA = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}
+			ENG = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}	
+			AST = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}
+			NZL = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}
+			CAN = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}
+			SAF = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}	
+			RAJ = {
+				army_experience = 125
+				air_experience = 125
+				navy_experience = 50
+			}		
+			SOV = {
+				army_experience = 250
+				air_experience = 250
+				navy_experience = 100
+			}	
 		}
 	}
 	

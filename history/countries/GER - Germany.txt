@@ -1,19 +1,6 @@
 ﻿capital = 64 # Berlin/Brandeburg
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "GER_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "GER_1936_nsb"
-}
+set_oob = "GER_1936"
 
 add_breakthrough_progress = {
 	specialization = specialization_land

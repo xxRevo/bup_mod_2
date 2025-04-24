@@ -1,11 +1,35 @@
 state = {
 	id = 38
 	name = "STATE_38" # Gävleborg
-	manpower = 1
+	manpower = 931955
 	state_category = town
 	
 
 	history = {
+		owner = SWE
+		add_core_of = SWE
+
+		victory_points = {
+			11091 2 # Gävle
+		}
+
+		victory_points = {
+			130 1 # Sundsvall
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+
+			# Krångede Hydroelectric Power Station
+			11129 = { dam = 1 }
+
+			130 = {
+				naval_base = 1
+			}
+
+		}
 
 	}
 

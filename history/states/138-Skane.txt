@@ -2,12 +2,38 @@
 state = {
 	id = 138
 	name = "STATE_138"
-	manpower = 1
+	manpower = 1047701
 	
 	state_category = city
 
 	history = {
+		owner = SWE
 
+		victory_points = {
+			9279 5 # Malmö
+		}
+		victory_points = {
+			11215 1 # Karlskrona
+		}
+		victory_points = {
+			6345 1 # Helsingborg
+		}
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			dockyard = 1
+			11215 = {
+				naval_base = 5
+				coastal_bunker = 3
+			}
+			9279 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
+		}
+
+		add_core_of = SWE
 	}
 
 	provinces = {

@@ -1,6 +1,7 @@
 annex_decisions  = {
 	annex_bul = {
 		icon = generic_tank
+        fire_only_once = yes
 
 		visible = {
 			is_ai = no
@@ -21,6 +22,7 @@ annex_decisions  = {
     }
 	annex_saf = {
 		icon = generic_tank
+        fire_only_once = yes
 
 		visible = {
 			is_ai = no
@@ -44,6 +46,7 @@ annex_decisions  = {
     }
 	annex_nzl = {
 		icon = generic_tank
+        fire_only_once = yes
 
 		visible = {
 			is_ai = no
@@ -63,6 +66,7 @@ annex_decisions  = {
     }
 	annex_man = {
 		icon = generic_tank
+        fire_only_once = yes
 
 		visible = {
 			is_ai = no

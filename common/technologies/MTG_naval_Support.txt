@@ -429,7 +429,7 @@ technologies = {
 
 	improved_medium_battery = {
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1939
 
@@ -523,7 +523,7 @@ technologies = {
 
 	advanced_medium_battery = {
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1944
 
@@ -610,7 +610,7 @@ technologies = {
 
 	improved_heavy_battery = {
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1939
 
@@ -659,7 +659,7 @@ technologies = {
 
 	advanced_heavy_battery = {
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1944
 

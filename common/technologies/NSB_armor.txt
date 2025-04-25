@@ -36,6 +36,7 @@ technologies = {
 			heavy_tank_aa_chassis_0
 		}
 		enable_equipment_modules = {
+		    tank_small_cannon
 			tank_torsion_bar_suspension
 			tank_riveted_armor
 			tank_gasoline_engine
@@ -164,6 +165,10 @@ technologies = {
 			light_tank_artillery_chassis_1
 			light_tank_aa_chassis_1
 		}
+		enable_equipment_modules = {
+			tank_auto_cannon
+			tank_close_support_gun
+		}
 		enable_subunits = {
 			light_armor
 		}
@@ -254,6 +259,12 @@ technologies = {
 			light_tank_destroyer_chassis_2
 			light_tank_artillery_chassis_2
 			light_tank_aa_chassis_2
+		}
+		enable_equipment_modules = {
+			tank_small_cannon_2
+			tank_auto_cannon_2
+			tank_high_velocity_cannon
+			tank_close_support_gun
 		}
 
 		path = {
@@ -376,6 +387,10 @@ technologies = {
 
 		enable_equipments = {
 			amphibious_tank_chassis_1
+		}
+		enable_equipment_modules = {
+			auto_loader
+			squeezebore_adaptor
 		}
 
 		enable_subunits = {
@@ -506,6 +521,10 @@ technologies = {
 			light_tank_artillery_chassis_3
 			light_tank_aa_chassis_3
 		}
+		enable_equipment_modules = {
+			auto_loader
+			squeezebore_adaptor
+		}
 
 		research_cost = 2
 		start_year = 1941
@@ -560,6 +579,11 @@ technologies = {
 			medium_tank_destroyer_chassis_1
 			medium_tank_artillery_chassis_1
 			medium_tank_aa_chassis_1
+		}
+		enable_equipment_modules = {
+			tank_medium_cannon
+			tank_medium_howitzer
+			tank_high_velocity_cannon
 		}
 
 		enable_subunits = {
@@ -694,6 +718,11 @@ technologies = {
 			medium_tank_destroyer_chassis_2
 			medium_tank_artillery_chassis_2
 			medium_tank_aa_chassis_2
+		}
+		enable_equipment_modules = {
+			tank_medium_cannon_2
+			tank_medium_howitzer_2
+			tank_high_velocity_cannon_2
 		}
 
 		path = {
@@ -849,6 +878,11 @@ technologies = {
 			medium_tank_destroyer_chassis_3
 			medium_tank_artillery_chassis_3
 			medium_tank_aa_chassis_3
+		}
+		enable_equipment_modules = {
+			tank_high_velocity_cannon_3
+			auto_loader
+            squeezebore_adaptor
 		}
 
 		path = {
@@ -1032,6 +1066,10 @@ technologies = {
 			heavy_tank_artillery_chassis_1
 			heavy_tank_aa_chassis_1
 		}
+		enable_equipment_modules = {
+			tank_heavy_cannon
+			tank_high_velocity_cannon
+		}
 
 		enable_subunits = {
 			heavy_armor
@@ -1121,6 +1159,11 @@ technologies = {
 			heavy_tank_artillery_chassis_2
 			heavy_tank_aa_chassis_2
 		}
+		enable_equipment_modules = {
+			tank_heavy_cannon_2
+			tank_high_velocity_cannon_2
+			tank_heavy_howitzer
+		}
 
 		path = {
 			leads_to_tech = advanced_heavy_tank_chassis
@@ -1201,6 +1244,12 @@ technologies = {
 			heavy_tank_destroyer_chassis_3
 			heavy_tank_artillery_chassis_3
 			heavy_tank_aa_chassis_3
+		}
+		enable_equipment_modules = {
+			tank_heavy_cannon_3
+			tank_high_velocity_cannon_3
+			auto_loader
+            squeezebore_adaptor
 		}
 
 		path = {

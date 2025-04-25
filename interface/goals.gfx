@@ -16,6 +16,10 @@ SpriteType = {
 		name = "GFX_ITA_Mare_Nostrum"
 		texturefile = "gfx/interface/goals/goal_ita_mare_nostrum.tga"			
 	}
+	SpriteType = {
+		name = "GFX_happytime"
+		texturefile = "gfx/interface/goals/focus_usa_happytime.dds"
+	}	
 
 SpriteType = {
 		name = "GFX_ITA_Regio_Esercito"

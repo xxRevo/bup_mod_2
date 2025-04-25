@@ -869,7 +869,7 @@ equipment_modules = {
 			hard_attack = 15
 			ap_attack = 60
 			build_cost_ic = 3
-			maximum_speed = -3.2
+			maximum_speed = -7.2
 			reliability = -0.15
 			breakthrough = 2
 		}
@@ -898,7 +898,7 @@ equipment_modules = {
 			hard_attack = 20
 			ap_attack = 90
 			build_cost_ic = 4
-			maximum_speed = -6.2
+			maximum_speed = -14.2
 			reliability = -0.15
 			breakthrough = 4
 		}
@@ -926,7 +926,7 @@ equipment_modules = {
 			hard_attack = 1
 			ap_attack = 20
 			build_cost_ic = 4
-			maximum_speed = -3.2
+			maximum_speed = -7.2
 			reliability = -0.2
 			breakthrough = -2
 		}
@@ -953,7 +953,7 @@ equipment_modules = {
 			hard_attack = 2
 			ap_attack = 30
 			build_cost_ic = 5.5
-			maximum_speed = -6.2
+			maximum_speed = -14.2
 			reliability = -0.2
 			breakthrough = -2
 		}
@@ -1038,7 +1038,7 @@ equipment_modules = {
 			hard_attack = 26
 			ap_attack = 68
 			build_cost_ic = 3
-			maximum_speed = -3.1
+			maximum_speed = -7.1
 			reliability = -0.05
 		}
 		dismantle_cost_ic = 1
@@ -1064,7 +1064,7 @@ equipment_modules = {
 			hard_attack = 35
 			ap_attack = 125
 			build_cost_ic = 5
-			maximum_speed = -6.2
+			maximum_speed = -14.2
 			reliability = -0.175
 		}
 		dismantle_cost_ic = 1
@@ -1090,7 +1090,7 @@ equipment_modules = {
 			hard_attack = 45
 			ap_attack = 200
 			build_cost_ic = 7
-			maximum_speed = -9.3
+			maximum_speed = -21.3
 			reliability = -0.2
 		}
 		dismantle_cost_ic = 1
@@ -1117,7 +1117,7 @@ equipment_modules = {
 			hard_attack = 20
 			ap_attack = 90
 			build_cost_ic = 6
-			maximum_speed = -3.2
+			maximum_speed = -7.2
 			reliability = -0.25
 		}
 		dismantle_cost_ic = 1
@@ -1144,7 +1144,7 @@ equipment_modules = {
 			hard_attack = 35
 			ap_attack = 125
 			build_cost_ic = 7
-			maximum_speed = -6.2
+			maximum_speed = -14.2
 			reliability = -0.25
 		}
 		dismantle_cost_ic = 1
@@ -1171,7 +1171,7 @@ equipment_modules = {
 			hard_attack = 40
 			ap_attack = 170
 			build_cost_ic = 8
-			maximum_speed = -9.2
+			maximum_speed = -21.2
 			reliability = -0.3
 		}
 		dismantle_cost_ic = 1
@@ -1227,7 +1227,7 @@ equipment_modules = {
 			hard_attack = 45
 			ap_attack = 225
 			build_cost_ic = 12.5
-			maximum_speed = -12.6
+			maximum_speed = -18.6
 			reliability = -0.35
 		}
 		dismantle_cost_ic = 1

@@ -414,7 +414,8 @@ equipments = {
 		armor_value = 20
 		hardness = 0.85
 		resources = {
-			steel = 1
+			steel = 2
+			tungsten = 2
 		}
 
 		lend_lease_cost = 12
@@ -439,7 +440,8 @@ equipments = {
 		reliability = 0.75
 		armor_value = 20
 		resources = {
-			steel = 1
+			steel = 2
+			tungsten = 2
 		}
 	}
 
@@ -455,7 +457,7 @@ equipments = {
 		armor_value = 30
 		build_cost_ic = 3.75
 		reliability = 0.8
-		maximum_speed = 5
+		maximum_speed = 8
 	}
 	medium_tank_chassis_2 = {
 		abbreviation = "mt2"
@@ -466,12 +468,13 @@ equipments = {
 		archetype = medium_tank_chassis
 		priority = 2000
 		module_slots = inherit
-		maximum_speed = 6
+		maximum_speed = 12
 		build_cost_ic = 4
 		reliability = 1
 		armor_value = 40
 		resources = {
-			steel = 1
+			steel = 2
+			tungsten = 2
 		}
 	}
 	medium_tank_chassis_3 = {
@@ -483,12 +486,13 @@ equipments = {
 		archetype = medium_tank_chassis
 		priority = 2000
 		module_slots = inherit
-		maximum_speed = 6
+		maximum_speed = 15
 		build_cost_ic = 4.25
 		reliability = 1.2
 		armor_value = 50
 		resources = {
-			steel = 2
+			steel = 3
+			tungsten = 2
 		}
 	}
 
@@ -654,7 +658,8 @@ equipments = {
 		armor_value = 30
 		hardness = 0.95
 		resources = {
-			steel = 1
+			steel = 2
+			chromium = 2
 		}
 
 		lend_lease_cost = 14
@@ -691,7 +696,7 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		armor_value = 55
-		maximum_speed = 5
+		maximum_speed = 8
 		reliability = 0.8
 	}
 
@@ -705,12 +710,12 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		build_cost_ic = 11
-		maximum_speed = 5
+		maximum_speed = 11
 		reliability = 1.1
 		armor_value = 60
 		resources = {
-			steel = 1
-			chromium = 1
+			steel = 3
+			chromium = 3
 		}
 	}
 
@@ -724,12 +729,12 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		build_cost_ic = 12
-		maximum_speed = 5
+		maximum_speed = 14
 		reliability = 1.2
 		armor_value = 75
 		resources = {
-			steel = 2
-			chromium = 1
+			steel = 3
+			chromium = 3
 		}
 	}
 
@@ -1069,7 +1074,7 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 4
+		maximum_speed = 16
 		build_cost_ic = 28
 		reliability = 1
 		armor_value = 90

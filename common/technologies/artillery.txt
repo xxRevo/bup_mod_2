@@ -1073,6 +1073,7 @@ technologies = {
 	antitank1 = {
 
 		category_tank_destroyers = {
+			hard_attack = 0.15
 			ap_attack = 0.2
 		}
 
@@ -1239,6 +1240,7 @@ technologies = {
 			ap_attack = 0.1
 		}
 		category_tank_destroyers = {
+			hard_attack = 0.1
 			ap_attack = 0.05
 		}
 
@@ -1318,6 +1320,7 @@ technologies = {
 			ap_attack = 0.1
 		}
 		category_tank_destroyers = {
+			hard_attack = 0.05
 			ap_attack = 0.05
 		}
 

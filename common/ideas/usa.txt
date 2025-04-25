@@ -1,208 +1,8 @@
 ideas = {
 
 	country = {
-
-
-		USA_war_plans_1 = {
-			picture = generic_war_preparation
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			modifier = {
-			air_cas_present_factor = 0.2
-			amphibious_invasion = 0.1
-			invasion_preparation = -0.25
-		}
-			targeted_modifier = {
-			tag = ITA
-			
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
-		}
-		
-		USA_war_plans_2 = {
-			picture = generic_war_preparation
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			modifier = {
-			air_cas_present_factor = 0.2
-			amphibious_invasion = 0.1
-			invasion_preparation = -0.5
-		}
-			targeted_modifier = {
-			tag = GER
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
-			targeted_modifier = {
-			tag = HUN
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
-			targeted_modifier = {
-			tag = ROM
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
-			targeted_modifier = {
-			tag = BUL
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
-			targeted_modifier = {
-			tag = SPR
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
-		}
-		
-		
-		
-		
-		USA_naval_neutrality = {
-			picture = generic_the_london_naval_treaty
-			
-			allowed = {
-				always = no
-			}
-			cancel = {
-				has_war = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				navy_max_range_factor = -0.90
-			}
-		}
-		
-		USA_wasteful_navy = {
-			picture = escort_effort_focus
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				
-				production_speed_dockyard_factor = -0.8
-			}
-		}
-		
-		USA_dust_bowl = {
-			picture = dust_bowl_idea
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.08
-				stability_factor = -0.40
-			}
-		}
-		
-		USA_pitsburg_flood = {
-			picture = USA_pitsburg_flood
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.08
-				stability_factor = -0.15
-			}
-		}
-		
-		USA_highway_program_idea = {
-			picture = USA_start_highway
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.05
-			}
-		}
-		USA_new_deal = {
-			picture = GFX_focus_USA_second_new_deal
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_infrastructure_factor = 0.1				
-				political_power_gain = 0.1
-				stability_factor = 0.1
-			}
-		}		
-		
-		USA_nation_of_wheels = {
-			picture = USA_nation_of_wheels
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			
-				equipment_bonus = {
-				
-                    motorized_equipment = {
-					build_cost_ic = -0.15
-				        instant = yes
-					}
-
-			    }
-			
-		}
-		
-		reliance_on_natural_rubber = {
-			picture = rubber
-			
-			allowed = {
-				always = no
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_synthetic_refinery_factor = -0.05
-			}
-		}
-		
 		great_depression = {
-			picture = idea_great_depression
+			picture = usa_great_depression_3
 			
 			allowed = {
 				always = no
@@ -216,7 +16,10 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 1
-				consumer_goods_factor = 0.3
+				consumer_goods_factor = 0.60
+				conscription_factor = -0.5
+				join_faction_tension = 0.20
+				local_resources_factor = -0.2
 			}
 		}
 		great_depression_2 = {
@@ -234,7 +37,10 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.65
-				consumer_goods_factor = 0.25
+				consumer_goods_factor = 0.50
+				conscription_factor = -0.4
+				join_faction_tension = 0.20
+				local_resources_factor = -0.15
 			}
 		}
 		great_depression_3 = {
@@ -252,7 +58,10 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.25
-				consumer_goods_factor = 0.175
+				consumer_goods_factor = 0.35
+				conscription_factor = -0.2
+				join_faction_tension = 0.20
+				local_resources_factor = -0.1
 			}
 		}
 		USA_limited_intervention = {
@@ -269,6 +78,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				join_faction_tension = -0.25
+				send_volunteers_tension = -0.35
+				guarantee_tension = -0.2
 				mobilization_laws_cost_factor = 1
 				economy_cost_factor = 1
 			}
@@ -287,8 +99,43 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				join_faction_tension = 0.25
 				send_volunteers_tension = 0.5
 				guarantee_tension = 0.5
+				embargo_threshold_factor = 1.5
+			}
+		}
+		USA_neutrality_act_aat = {
+			name = USA_neutrality_act
+			picture = generic_production_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			on_add = {
+				
+			}
+			on_remove = {
+				remove_relation_rule_override = {
+					can_access_market = no
+					trigger = trade_partner_not_at_war
+				}
+			}
+
+			modifier = {
+				custom_modifier_tooltip = trade_partner_not_at_war_tt
+				join_faction_tension = 0.25
+				send_volunteers_tension = 0.5
+				guarantee_tension = 0.5
+				embargo_threshold_factor = 1.5
+				
 			}
 		}
 		# version if player went down limited intervention
@@ -306,6 +153,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				lend_lease_tension = -1
+				join_faction_tension = -0.25
+				send_volunteers_tension = -0.35
+				guarantee_tension = -0.2
 				mobilization_laws_cost_factor = 1
 				economy_cost_factor = 1
 			}
@@ -325,7 +176,10 @@ ideas = {
 			
 			modifier = {
 				lend_lease_tension = -1
-				join_faction_tension = -1
+				join_faction_tension = 0.25
+				send_volunteers_tension = 0.5
+				guarantee_tension = 0.5
+				embargo_threshold_factor = 1.5
 			}
 		}
 		USA_lend_lease_act_dummy = { #dummy version to show effects
@@ -359,7 +213,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.15
 			}
 		}
 
@@ -395,7 +249,6 @@ ideas = {
 			
 			modifier = {
 				command_power_gain_mult = 0.1	
-				training_time_army_factor = -0.5
 			}
 		}
 		USA_airborne_divisions = {
@@ -411,10 +264,8 @@ ideas = {
 
 			removal_cost = -1
 			
-			equipment_bonus = {
-				category_special_forces = {
-		    		breakthrough = 0.10
-				}
+			modifier = {
+				special_forces_cap = 0.05	
 			}
 		}
 		USA_womens_armed_service_integration_act = {
@@ -448,11 +299,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				max_command_power = 25	
-			}
-		    targeted_modifier = {
-			    tag = JAP
-				attack_bonus_against = 0.075
+				max_command_power = 20
 			}
 		}
 		USA_department_of_defense = {	
@@ -468,15 +315,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				max_command_power = 50	
-			}
-		    targeted_modifier = {
-			    tag = JAP
-				attack_bonus_against = 0.1
+				max_command_power = 30	
+				command_power_gain_mult = 0.1
 			}
 		}
 		USA_state_funds_refused = {
-			picture = mex_callistas
+			picture = MEX_callistas
 			allowed = {
 				always = no
 			}
@@ -488,7 +332,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.05	
+				consumer_goods_factor = 0.10
 			}
 		}
 		USA_the_pentagon = {
@@ -520,7 +364,61 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-                industrial_capacity_dockyard = 0.3
+				production_speed_dockyard_factor = 0.1	
+			}
+		}
+		USA_greenland_patrol_idea = {
+			picture = tur_sub_zero_survival_training
+
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			available = {
+				101 = {	is_controlled_by = ROOT }
+				DEN = {
+					OR = {
+						has_war = yes
+						is_subject = yes
+					}
+				}
+			}
+
+			cancel = {
+				DEN = {
+					is_subject = no
+					has_war = no
+					is_in_faction_with = ROOT
+					has_government = ROOT
+				}
+			}
+
+			on_remove = {
+				IF = {
+					limit = {
+						DEN = {
+							exists = yes
+							is_subject = no
+						}
+						101 = {
+							is_owned_and_controlled_by = ROOT
+						}
+					}
+					101 = {
+						transfer_state_to = DEN
+					}
+					DEN = { country_event = { id = AAT_USA_events.07 days = 1 } }
+				}
+			}
+			
+			modifier = {
+				acclimatization_cold_climate_gain_factor = 0.1
+				spotting_chance = 0.02
 			}
 		}
 		USA_us_air_force = {
@@ -534,13 +432,9 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
 
 			modifier = {
-				
+				air_doctrine_cost_factor = -0.10
 			}
 		}
 
@@ -670,7 +564,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.10
 				stability_factor = 0.1
 			}
 		}
@@ -688,8 +582,6 @@ ideas = {
 			
 			modifier = {
 				spotting_chance = 0.2
-				political_power_gain=0.75
-				
 			}
 		}
 		USA_banking_sector_deregulation = {	
@@ -775,7 +667,6 @@ ideas = {
 			
 			modifier = {
 				mobilization_speed = 0.2
-				training_time_army_factor = -0.15
 			}
 		}
 		new_deal = {
@@ -852,10 +743,10 @@ ideas = {
 			picture = generic_production_bonus
 
 			modifier = {
-				production_factory_efficiency_gain_factor = 0.1
-				production_factory_max_efficiency_factor = 0.1
+				conversion_cost_civ_to_mil_factor = -0.5
 			}
 		}
+	
 		bureau_of_ships_focus = {
 			
 			
@@ -979,8 +870,8 @@ ideas = {
 			picture = generic_air_bonus
 			
 			equipment_bonus = {
-				strat_bomber_equipment = {
-					air_range = 0.5 instant = yes
+				large_plane_airframe = {
+					air_range = 0.1 instant = yes
 				}	
 			}
 		}
@@ -1039,9 +930,29 @@ ideas = {
 			removal_cost = -1			
 
 			modifier = {
-				operative_slot = 1
+				propaganda_mission_factor = 0.25
+				boost_ideology_mission_factor = 0.25
 			}
-		}		
+		}
+
+		USA_manhattan_project_ns = {
+			name = USA_manhattan_project
+
+			picture = generic_research_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1			
+
+			modifier = {
+				specialization_nuclear_speed_factor = 0.05
+			}
+		}
 
 		war_bonds_focus = {
 			allowed = {
@@ -1056,7 +967,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.15
 			}
 		}
 		USA_adjusted_compensation_payment = {
@@ -1072,7 +983,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.10
 			}
 		}
 
@@ -1112,10 +1023,10 @@ ideas = {
 			removal_cost = -1
 		
 			equipment_bonus = {
-				fighter_equipment = {
+				small_plane_airframe = {
 					build_cost_ic = -0.1 instant = yes
 				}
-				heavy_fighter_equipment = {
+				medium_plane_fighter_airframe = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
@@ -1134,17 +1045,14 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				CAS_equipment = {
+				small_plane_cas_airframe = {
 					build_cost_ic = -0.1 instant = yes
 				}
-				tac_bomber_equipment = {
+				medium_plane_airframe = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
-		modifier = {
-			    experience_gain_air = 0.20
-			}
-           }
+		}
 
 		strategic_bombing_focus = {
 			
@@ -1159,7 +1067,7 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				strat_bomber_equipment = {
+				large_plane_airframe = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
@@ -1179,8 +1087,7 @@ ideas = {
 			
 			equipment_bonus = {
 				ship_hull_light = {
-					instant = yes
-					sub_detection = 0.1
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}
@@ -1197,13 +1104,16 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_pp_unity_bonus
 			
+			rule = {
+				can_join_opposite_factions = no
+				can_create_factions = yes
+			}
 			modifier = {
-				global_building_slots_factor = 1.5
-				operative_slot = 2
-				agency_upgrade_time = -0.30
-			    convoy_raiding_efficiency_factor = -0.25
+				drift_defence_factor = 0.2
+				ai_badass_factor = 0.03 # cares for 3% of normal threat
+				ai_desired_divisions_factor = 0.5 
 			}
 		}
 
@@ -1393,434 +1303,14 @@ ideas = {
 				army_core_defence_factor = 0.25
 				training_time_factor = -0.5
 				equipment_capture = 0.125
-				consumer_goods_factor = -0.1	
+				consumer_goods_factor = -0.25	
 				conscription_factor = 0.25
 			}			
 		}
 	
 	}
-	
-	
-	
-	
-	political_advisor = {
-		harold_ickes = {
-			
-			
-			allowed = {
-				original_tag = "USA"
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			traits = { democratic_reformer }
-	
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
 
-		USA_robert_taft = {
-			
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-			traits = { silent_workhorse }
-		}
 
-		USA_john_winant = {
-			
-			picture = generic_political_advisor_europe_5
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		USA_cordell_hull = {
-			
-			picture = generic_political_advisor_europe_6
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-
-		USA_henry_morgenthau = {
-			picture = generic_political_advisor_europe_6
-			
-			allowed = {
-				original_tag = USA
-			}
-			available = {
-			}
-			
-			traits = { financial_expert }
-		}
-
-		USA_henry_stimson = {
-			
-			picture = generic_political_advisor_europe_2
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-			traits = { war_industrialist }
-		}
-
-		USA_donald_nelson = {
-			
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-			traits = { armaments_organizer }
-		}
-		
-		usa_william_donovan = {
-		
-			available = {
-				has_intelligence_agency = yes
-				threat > 0.5
-			}
-			
-			allowed = {
-				original_tag = USA
-				has_dlc = "La Resistance"
-			}
-			
-			traits = { head_of_intelligence }
-
-		}
-	}
-	
-
-	army_chief = {
-		
-	
-		douglas_macarthur = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			available = {
-				not = {
-					has_country_leader = { ruling_only = yes name = "Douglas MacArthur"}
-				}
-			}
-
-			
-			traits = { army_chief_morale_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		george_marshall = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { army_chief_drill_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		dwight_eisenhower = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	
-	}
-	
-	air_chief = {
-		
-		
-		henry_arnold = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { air_chief_reform_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		carl_spaatz = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { air_chief_night_operations_2 }
-			# TODO Strategic bombing secondary trait?
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		george_kenney = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { air_chief_safety_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}	
-	}
-	
-	navy_chief = {
-	
-		ernest_king = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { navy_chief_decisive_battle_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		chester_nimitz = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { navy_chief_commerce_raiding_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		william_halsey = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { navy_chief_naval_aviation_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}	
-	}
-	
-	
-	high_command = {
-		courtney_hodges = {
-			ledger = army
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { army_commando_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		joseph_stilwell = {
-			ledger = army
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-			available = {
-				
-			}
-
-			
-			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		mark_clark = {
-			ledger = army
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}	
-		
-		jimmy_doolittle = {
-			ledger = air
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { air_strategic_bombing_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-	
-		claire_lee_chennault = {
-			ledger = air
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { air_tactical_bombing_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		raymond_spruance = {
-			ledger = navy
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { navy_naval_air_defense_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		frank_jack_fletcher = {
-			ledger = air
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { navy_carrier_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		thomas_kinkaid = {
-			ledger = army
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			traits = { navy_amphibious_assault_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
-		
 	tank_manufacturer = { 
 	
 		designer = yes
@@ -1837,39 +1327,8 @@ ideas = {
 				armor = 0.15
 			}
 			
-			traits = {  }
-			equipment_bonus = {
-				medium_tank_equipment = {
-					reliability = 0.1
-					maximum_speed = 0.1
-					
-					
-				}
-               amphibious_tank_equipment = {
-			   
-					soft_attack = 0.05
-					reliability = 0.05
-			   }
-				medium_tank_artillery_equipment = {
-					reliability = 0.1
-					
-					maximum_speed = 0.1
-					
-				}
-				
-				medium_tank_destroyer_equipment = {
-					
-					reliability = 0.1
-					maximum_speed = 0.1
-					
-				}
-				medium_tank_aa_equipment = {
-					reliability = 0.1
-					
-					maximum_speed = 0.1
-					
-				}
-			}
+			traits = { fast_tank_manufacturer }
+			
 			modifier = {
 			}
 		}
@@ -1886,36 +1345,8 @@ ideas = {
 			research_bonus = {
 				armor = 0.15
 			}
-			equipment_bonus = {
-
-				medium_tank_equipment = {
-					reliability = 0.05
-					soft_attack = 0.1
-					hard_attack = 0.1
-					
-					
-				}
-
-				medium_tank_aa_equipment = {
-					reliability = 0.05
-					air_attack = 0.1
-					
-					
-				}
-
-				medium_tank_artillery_equipment = {
-					reliability = 0.05
-					soft_attack = 0.1
-					
-					
-				}
-
-
-				
-
-			   
-			}
-			traits = {  }
+			
+			traits = { medium_tank_manufacturer }
 			
 			modifier = {
 			}
@@ -1938,14 +1369,12 @@ ideas = {
 			traits = { }
 			
 			equipment_bonus = {
-				
-				armor = {
-					build_cost_ic = -0.10
-					soft_attack=0.075
-					hard_attack = 0.075
-					reliability=0.1
+				medium_tank_chassis = {
+					build_cost_ic = -0.1
 				}
-				
+				light_tank_chassis = {
+					build_cost_ic = -0.1
+				}
 			}
 
 			modifier = {
@@ -1970,19 +1399,19 @@ ideas = {
 			traits = { }
 			
 			equipment_bonus = {
-				light_tank_destroyer_equipment = {
+				light_tank_destroyer_chassis = {
 					build_cost_ic = -0.1
 					ap_attack = 0.1
 					hard_attack = 0.25
 				}
-				medium_tank_destroyer_equipment = {
+				medium_tank_destroyer_chassis = {
 					build_cost_ic = -0.1
-					ap_attack = 0.20
+					ap_attack = 0.1
 					hard_attack = 0.25
 				}
-				heavy_tank_destroyer_equipment = {
+				heavy_tank_destroyer_chassis = {
 					build_cost_ic = -0.1
-					ap_attack = 0.20
+					ap_attack = 0.1
 					hard_attack = 0.25
 				}
 			}
@@ -2005,22 +1434,8 @@ ideas = {
 				armor = 0.15
 			}
 			
-			traits = {  }
+			traits = { heavy_tank_manufacturer }
 			
-			equipment_bonus = {
-				heavy_tank_equipment = {
-					armor_value = 0.1 
-					hard_attack = 0.1 
-					soft_attack = 0.1 
-					reliability -0.1 
-					
-				}
-				heavy_tank_destroyer_equipment = {
-					hard_attack = 0.2 
-					reliability -0.1 					
-					
-				}
-			}
 			modifier = {
 			}
 		}	
@@ -2036,11 +1451,11 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			cost = 100
+			
 
 			
 			research_bonus = {
-				naval_equipment = 0.5
+				naval_equipment = 0.15
 			}
 			
 			traits = { coastal_defence_naval_manufacturer }
@@ -2055,11 +1470,11 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			cost = 100
+			
 
 			
 			research_bonus = {
-				naval_equipment = 0.5
+				naval_equipment = 0.15
 			}
 			
 			traits = { raiding_fleet_naval_manufacturer }
@@ -2074,11 +1489,11 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			cost = 100
+			
 
 			
 			research_bonus = {
-				naval_equipment = 0.5
+				naval_equipment = 0.15
 			}
 			
 			traits = { atlantic_fleet_naval_manufacturer }
@@ -2093,11 +1508,11 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			cost = 100
+			
 
 			
 			research_bonus = {
-				naval_equipment = 0.5
+				naval_equipment = 0.15
 			}
 			
 			traits = { pacific_fleet_naval_manufacturer }
@@ -2118,7 +1533,6 @@ ideas = {
 				original_tag = USA
 			}
 			
-			cost = 100
 
 			
 			research_bonus = {
@@ -2131,6 +1545,25 @@ ideas = {
 			}
 		}
 		
+		#bell = {
+		#	
+		#	
+		#	allowed = {
+		#		original_tag = USA
+		#	}
+		#	
+		#
+		#	
+		#	research_bonus = {
+		#		air_equipment = 0.15
+		#	}
+		#	
+		#	traits = { light_aircraft_manufacturer }	#TODO, make different from north american
+		#	
+		#	modifier = {
+		#	}
+		#}	
+		
 		lockheed = {
 			
 			
@@ -2138,7 +1571,6 @@ ideas = {
 				original_tag = USA
 			}
 			
-			cost = 100
 
 			
 			research_bonus = {
@@ -2159,8 +1591,7 @@ ideas = {
 			}
 			
 
-						cost = 100
-
+			
 			research_bonus = {
 				air_equipment = 0.15
 			}
@@ -2172,7 +1603,43 @@ ideas = {
 		}
 
 		
+		boeing = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
 
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		#consolidated_aircraft = {
+		#	
+		#	
+		#	allowed = {
+		#		original_tag = USA
+		#	}
+		#	
+		#
+		#	
+		#	research_bonus = {
+		#		air_equipment = 0.15
+		#	}
+		#	
+		#	traits = { heavy_aircraft_manufacturer } #TODO remove?
+		#	
+		#	modifier = {
+		#	}
+		#}
 		grumman = {
 			
 			
@@ -2180,7 +1647,7 @@ ideas = {
 				original_tag = USA
 			}
 			
-			cost = 100
+
 			
 			research_bonus = {
 				air_equipment = 0.15
@@ -2208,7 +1675,7 @@ ideas = {
 
 			
 			research_bonus = {
-				infantry_weapons = 0.3
+				infantry_weapons = 0.15
 			}
 			
 			traits = { infantry_equipment_manufacturer }
@@ -2322,129 +1789,22 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
-	}
-	
-	
-	theorist = {
-		omar_bradley = {
-			ledger = army
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-			cost = 150
-			
-			research_bonus = {
-				cat_superior_firepower = 0.15
-			}
-			
-			traits = { superior_firepower_expert }
-		}
-		
-		george_patton = {
-			ledger = army
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-			cost = 150
-			
-			research_bonus = {
-				cat_mobile_warfare = 0.15
-			}
-			
-			traits = { mobile_warfare_expert }
-		}
-		
-		dewitt_clinton_ramsey = {
-			ledger = navy
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
+		USA_union_pacific_railway = {
 
-			
-			research_bonus = {
-				naval_doctrine = 0.10
-			}
-			
-			traits = { naval_theorist }
-		}
-		
-		marc_mitscher = {
-			ledger = navy
-			
-			
+			picture = idea_USA_union_pacific_railway
+
 			allowed = {
 				original_tag = USA
 			}
-			
-			cost = 150
-			
-			research_bonus = {
-				cat_base_strike = 0.15
-			}
-			
-			traits = { naval_aviation_pioneer }
-		}
 
-		
-		harold_mcclelland = {
-			ledger = air
-			
-			
-			allowed = {
-				original_tag = USA
+			available = {
 			}
-			
 
-			
 			research_bonus = {
-				air_doctrine = 0.10
+				industry = 0.05
 			}
-			
-			traits = { air_warfare_theorist }
-		}
-		
-		robert_oppenheimer = {
-			ledger = army
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
 
-			
-			research_bonus = {
-				nuclear = 0.15
-			}
-			
-			traits = { nuclear_scientist }
-		}
-		
-		robert_goddard = {
-			ledger = air
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			research_bonus = {
-				rocketry = 0.15
-			}
-			
-			traits = { rocket_scientist }
+			traits = { railway_company }
 		}
 	}
-	
 }

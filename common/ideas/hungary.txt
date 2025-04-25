@@ -266,7 +266,7 @@ ideas = {
 
 			modifier = {
 				political_power_factor = -0.15
-				consumer_goods_factor = -0.1
+				consumer_goods_expected_value = -0.1
 				production_speed_buildings_factor = 0.05
 				fascism_drift = 0.01
 				custom_modifier_tooltip = HUN_gombos_trade_treaty_arms_market_tt
@@ -821,7 +821,7 @@ ideas = {
 			picture = HUN_revaluing_the_pengo
 
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 				stability_factor = -0.1
 			}
 		}
@@ -836,7 +836,7 @@ ideas = {
 			picture = generic_improved_industries
 
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 				stability_factor = -0.05
 				war_support_factor = 0.05
 			}
@@ -852,7 +852,7 @@ ideas = {
 			picture = HUN_agrarian_tradition
 
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 				supply_consumption_factor = -0.1
 				winter_attrition = -0.1
 				conscription_factor = -0.05
@@ -933,7 +933,7 @@ ideas = {
 
 			modifier = {
 				political_power_factor = -0.1
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 			}
 		}
 
@@ -1336,7 +1336,7 @@ ideas = {
 			picture = tur_balkan_central_bank_wealthy_greece
 
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 			}
 		}
 
@@ -1500,7 +1500,7 @@ ideas = {
 			picture = FIN_finnish_federation_of_trade_unions_light
 
 			modifier = {
-				consumer_goods_factor = -0.1
+				consumer_goods_expected_value = -0.1
 				stability_factor = 0.05
 			}
 		}
@@ -1961,7 +1961,7 @@ ideas = {
 
 			modifier = {
 				political_power_factor = -0.25
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 			}
 		}
 
@@ -1973,7 +1973,7 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 			}
 		}
 
@@ -1985,7 +1985,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 				communism_drift = 0.02
 			}
 		}

@@ -109,7 +109,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 				stability_factor = -0.05
 			}
 		}
@@ -162,7 +162,7 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = 0.15
-				consumer_goods_factor = -0.1
+				consumer_goods_expected_value = -0.1
 			}
 		}
 		FRA_anti_fascist_immigrants = {
@@ -617,7 +617,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.40
+				consumer_goods_expected_value = 0.40
 			}
 		}
 		FRA_occupation_costs_3 = {
@@ -665,7 +665,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.30
+				consumer_goods_expected_value = 0.30
 			}
 		}
 		FRA_occupation_costs_2 = {
@@ -713,7 +713,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.20
+				consumer_goods_expected_value = 0.20
 			}
 		}
 		FRA_occupation_costs_1 = {
@@ -760,7 +760,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.10
+				consumer_goods_expected_value = 0.10
 			}
 		}
 		FRA_mandatory_work_service = {
@@ -1582,7 +1582,7 @@ ideas = {
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
 				stability_factor = 0.1
-				consumer_goods_factor = 0.10
+				consumer_goods_expected_value = 0.10
 			}
 		}
 

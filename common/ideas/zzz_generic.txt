@@ -865,7 +865,7 @@ ideas = {
 	
 			modifier = {
 				political_power_gain = -2
-				consumer_goods_factor = 1
+				consumer_goods_expected_value = 1
 				join_faction_tension = 1.0
 				send_volunteers_tension = 1.0
 				guarantee_tension = 1.0
@@ -1163,7 +1163,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.4
+				consumer_goods_expected_value = 0.4
 				local_resources_factor = -0.2
 				industrial_capacity_factory = -0.2
 				industrial_capacity_dockyard = -0.2
@@ -1184,7 +1184,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.6
+				consumer_goods_expected_value = 0.6
 				local_resources_factor = -0.3
 				industrial_capacity_factory = -0.3
 				industrial_capacity_dockyard = -0.3
@@ -1205,7 +1205,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.8
+				consumer_goods_expected_value = 0.8
 				local_resources_factor = -0.5
 				industrial_capacity_factory = -0.5
 				industrial_capacity_dockyard = -0.5
@@ -1427,7 +1427,7 @@ ideas = {
 			picture = generic_industrial_concern_1
 			
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 			}
 		}
 
@@ -1444,7 +1444,7 @@ ideas = {
 			picture = generic_industrial_concern_1
 			
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 			}
 		}
 
@@ -1461,7 +1461,7 @@ ideas = {
 			picture = generic_industrial_concern_1
 			
 			modifier = {
-				consumer_goods_factor = 0.025
+				consumer_goods_expected_value = 0.025
 			}
 		}
 	}

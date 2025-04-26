@@ -3051,6 +3051,15 @@
 					type = aluminium
 					amount = 24
 				}
+				
+			}
+			random_state = {
+				limit = { has_state_flag = AST_rationing_and_recycling_alu }
+				add_resource = {
+					type = tungsten
+					amount = 24
+				}
+				
 			}
 			random_state = {
 				limit = { has_state_flag = AST_rationing_and_recycling_oil }
@@ -3070,6 +3079,17 @@
 				add_resource = {
 					type = aluminium
 					amount = 24
+				}
+				set_state_flag = AST_rationing_and_recycling_alu
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_in_home_area = yes
+					NOT = { state = 674 }
+				}
+				add_resource = {
+					type = tungsten
+					amount = 18
 				}
 				set_state_flag = AST_rationing_and_recycling_alu
 			}

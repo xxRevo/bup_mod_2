@@ -123,8 +123,8 @@ buildings = {
 	
 	naval_facility = {
 		show_on_map = 1
-		base_cost = 10800
-		per_controlled_building_extra_cost = 21600
+		base_cost = 5400
+		per_controlled_building_extra_cost = 32400
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 18
 		value = 1
@@ -448,8 +448,8 @@ buildings = {
 
 	nuclear_facility = {
 		show_on_map = 1
-		base_cost = 10800
-		per_controlled_building_extra_cost = 21600
+		base_cost = 5400
+		per_controlled_building_extra_cost = 32400
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 20
 		value = 1
@@ -481,8 +481,8 @@ buildings = {
 
 	air_facility = {
 		show_on_map = 1
-		base_cost = 10800
-		per_controlled_building_extra_cost = 21600
+		base_cost = 5400
+		per_controlled_building_extra_cost = 32400
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 17
 		value = 1
@@ -504,8 +504,8 @@ buildings = {
 
 	land_facility = {
 		show_on_map = 1
-		base_cost = 10800
-		per_controlled_building_extra_cost = 21600
+		base_cost = 5400
+		per_controlled_building_extra_cost = 32400
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 19
 		value = 1

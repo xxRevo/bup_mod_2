@@ -164,7 +164,7 @@ if = {
 ##Monroe Doctrine - We are trying to just remove the dlc check and see what, if any, things break. Will ask QA and BETAs to test new system both with and without ToA
 #IF = {
 #	limit = { has_dlc = "Trial of Allegiance" }
-
+	add_ideas = USA_monroe_doctrine_enforcer
 #}
 #IF = {
 #	limit = { NOT = { has_dlc = "Trial of Allegiance" }	}
@@ -359,7 +359,9 @@ if = {
 }
 
 
-set_convoys = 1400
+
+
+set_convoys = 700
 
 
 set_politics = {
@@ -369,7 +371,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	democratic = 99
+	communism = 1
 }
 
 add_ideas = {
@@ -378,11 +381,6 @@ add_ideas = {
 	disarmed_nation
 	free_trade
 	home_of_the_free
-	USA_pitsburg_flood
-	USA_dust_bowl
-}
-remove_ideas = {
-	USA_monroe_doctrine_enforcer
 }
 
 

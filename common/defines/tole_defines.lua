@@ -325,3 +325,10 @@ NDefines.NNavy.SUPPLY_PRIORITY = 2
 NDefines.NNavy.RESOURCE_LENDLEASE_PRIORITY = 5								         
 NDefines.NNavy.RESOURCE_EXPORT_PRIORITY = 3									                 
 NDefines.NNavy.RESOURCE_ORIGIN_PRIORITY = 4	
+NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 0					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
+NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 0				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
+NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 0				-- XP cost for converting one equipment module to a related module when creating an equipment variant.
+NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
+
+
+NDefines.NIndustrialOrganisation.DESIGN_TEAM_CHANGE_XP_COST = 0

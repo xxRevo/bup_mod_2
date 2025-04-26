@@ -155,10 +155,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 
-				
-	
-		hidden_effect = {
-
 
         transfer_state = 608
 		transfer_state = 614
@@ -173,14 +169,7 @@ focus_tree = {
 		transfer_state = 594
 		transfer_state = 591
 				
-					
-		
-			
-			
-	
-		
-		sound_effect = marco_polo
-		
+						
 		JAP = { 
 		        army_experience = 850
 		        air_experience = 1075}
@@ -261,7 +250,7 @@ focus_tree = {
 		USA = { set_country_flag = { flag = USA_china_window days = 60 value = 1 } }
 		
 		}
-	}}
+	}
 
 	focus = {
 		id = JAP_war_of_resistance
@@ -290,7 +279,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
-			hidden_effect = {
 		add_threat = 20
          	 CHI = {set_equipment_fraction = 0}
 		  annex_country = {
@@ -306,7 +294,6 @@ focus_tree = {
 					is_on_continent = asia
 				}
 				add_compliance = 70
-			}
 			}
 			
 		

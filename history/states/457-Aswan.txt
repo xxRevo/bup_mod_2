@@ -5,7 +5,9 @@ state=
 	manpower = 2194
 	
 	state_category = wasteland
-	
+	resources={
+		rubber = 25
+	}
 	history = {
 		owner = ENG
 		buildings = {

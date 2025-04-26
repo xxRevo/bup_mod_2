@@ -861,7 +861,7 @@ focus_tree = {
 		x = 5
 		y = 1
 		relative_position_id = limited_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1115,7 +1115,7 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = general_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 3
 		}
@@ -1351,7 +1351,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = air_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 3
 		}
@@ -5621,7 +5621,7 @@ focus_tree = {
 		x = -5
 		y = 1
 		relative_position_id = uk_service_focus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -5657,7 +5657,7 @@ focus_tree = {
 		x = -4
 		y = 1
 		relative_position_id = uk_colonial_focus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -6713,7 +6713,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = uk_commonwealth_focus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -6924,7 +6924,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = uk_commonwealth_focus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -7084,7 +7084,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = uk_australia_focus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -7244,7 +7244,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = uk_commonwealth_focus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -7403,7 +7403,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = uk_commonwealth_focus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -7700,7 +7700,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = uk_new_zealand_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 			#modifier = {
@@ -9133,7 +9133,7 @@ focus_tree = {
 		}
 		relative_position_id = ENG_steady_as_she_goes
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1

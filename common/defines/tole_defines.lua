@@ -1,15 +1,18 @@
-NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
+NDefines.NResistance.RESISTANCE_ACTIVITY_MIN_GARRISON_PENETRATE_CHANCE = 0.1
 NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 3
+
+NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 300
 NDefines.NGame.GAME_SPEED_SECONDS = { 0.28, 0.22, 0.16, 0.05, 0.0 } -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 
-NDefines.NCountry.EVENT_PROCESS_OFFSET = 30
-NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 20
+NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROLLED = 0       -- WAS 1
+NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROL_DIFF = 0     -- WAS 2
 NDefines.NAI.DIPLOMACY_SEND_EXPEDITIONARY_BASE = 0
+NDefines.NAI.DIPLOMACY_REJECTED_WAIT_MONTHS_BASE = 24                --up from 4 | should cut down on AI spam
+NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0	
 
-NDefines.NAir.AIR_WING_MAX_SIZE = 6400
-NDefines.NAir.THRUST_WEIGHT_AGILITY_FACTOR = 0 -- For plane designs, additive agility bonus per point of thrust exceeding weight #was 0.5     
+NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 20
 
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_KICKING_NEW_MEMBERS_OF_FACTION = 14	-- down from 90 | Number of days before being able to kick a new member of faction 
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_REINVITE_KICKED_NATIONS = 14		-- down from 90 | Number of days before being able to re invite a kicked 
@@ -22,8 +25,28 @@ NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0
 NDefines.NDiplomacy.DIPLOMACY_HOURS_BETWEEN_REQUESTS = 12
 NDefines.NDiplomacy.MIN_TRUST_VALUE = -500 	
 
+NDefines.NProduction.MAX_EQUIPMENT_RESOURCES_NEED = 3 	-- Max number of different strategic resources an equipment can be dependent on.
+NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 15	-- Max number of factories that can be assigned a single production line.
+NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 50
+NDefines.NProduction.FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 15
+NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 15
+NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 50
+NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 150
+NDefines.NProduction.MAX_MIL_FACTORIES_VISIBLE_FOR_MIL_EQUIPMENT_LINE = 15
+NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 15
+NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 5000000
+NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 0					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
+NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 0				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
+NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 0				-- XP cost for converting one equipment module to a related module when creating an equipment variant.
+NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
+NDefines.NIndustrialOrganisation.DESIGN_TEAM_CHANGE_XP_COST = 0
+NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.0		
+NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.0	
+NDefines.NProduction.SHIP_REFIT_MAX_PROGRESS_TO_CANCEL = 1.0			
+NDefines.NProduction.SHIP_REFIT_DAMAGE_TO_PROGRESS_FACTOR = 1.0		
 
+NDefines.NCountry.GIE_CONVOY_ON_CREATION = 200
 NDefines.NCountry.COUNTRY_SCORE_MULTIPLIER = 0				-- Weight of the country score.
 NDefines.NCountry.ARMY_SCORE_MULTIPLIER = 0					-- Based on number of armies.
 NDefines.NCountry.NAVY_SCORE_MULTIPLIER = 0					-- Based on number of navies.
@@ -34,9 +57,10 @@ NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.6
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 50
 NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.08
-
-NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0						-- down from 0.02 | Chances one ship get damage each hour while on training 		 0.0001	
-NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0
+NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 240
+NDefines.NCountry.EVENT_PROCESS_OFFSET = 30
+NDefines.NBuildings.INFRA_TO_SUPPLY = 3
+NDefines.NCountry.VP_TO_SUPPLY_BASE = 2
 
 NDefines_Graphics.NAirGfx.MAX_MISSILE_BOMBING_SCENARIOS = 0
 NDefines_Graphics.NAirGfx.MAX_BOMBING_SCENARIOS = 0
@@ -101,74 +125,55 @@ NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 15
 
 NDefines.NBuildings.MAX_SHARED_SLOTS = 99 --max building slots in a state
 NDefines.NBuildings.MAX_BUILDING_LEVELS=20
+
 NDefines.NMilitary.TRAINING_ATTRITION = 0.01
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 4999
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 4999
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 4999
-
-NDefines.NOperatives.OPERATIVE_BASE_BOOST_IDEOLOGY = 0	
-NDefines.NCountry.MAX_PROPAGANDA_WAR_SUPPORT_IMPACT = 0		-- Max total penalty from operative performing the propaganda mission in a country
-NDefines.NCountry.PROPAGANDA_STABILITY_DAILY_DECAY = 0.002		-- Amount of stability recovered daily from propaganda effort
-NDefines.NResistance.RESISTANCE_ACTIVITY_MIN_GARRISON_PENETRATE_CHANCE = 0.1
-
-NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1	
+NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 72
-NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 0	
-NDefines.NNavy.CONVOY_DEFENSE_MAX_CONVOY_TO_SHIP_RATIO = 20
-NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 20
-
-NDefines.NProduction.MAX_EQUIPMENT_RESOURCES_NEED = 3 	-- Max number of different strategic resources an equipment can be dependent on.
-NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 15	-- Max number of factories that can be assigned a single production line.
-NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 50
-NDefines.NProduction.FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 15
-NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 15
-NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 50
-NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 150
-NDefines.NProduction.MAX_MIL_FACTORIES_VISIBLE_FOR_MIL_EQUIPMENT_LINE = 15
-NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 15
-NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4
+NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
 
 --naval defines
-NDefines.NNavy.SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.10		-- enemy spotting is multiplied by this value to simulate running away
-
-NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 14.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
-
+NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.15		-- Max planes that can join a combat comparing to the total strength of the ships
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.45 -- max extra plane % that can join every day
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 25			-- Min cap for planes that can join naval combat
-
 NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 4					-- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip)
-NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2
 NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.1	-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
-
 NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3        	-- how often carrier planes do battle inside naval combat
+NDefines.NAir.AIR_WING_MAX_SIZE = 6400
+NDefines.NAir.THRUST_WEIGHT_AGILITY_FACTOR = 0 -- For plane designs, additive agility bonus per point of thrust exceeding weight #was 0.5     
+
+
+NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1	
+NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 0	
+NDefines.NNavy.CONVOY_DEFENSE_MAX_CONVOY_TO_SHIP_RATIO = 20
+NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 20
+NDefines.NNavy.SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.10		-- enemy spotting is multiplied by this value to simulate running away
+NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 14.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
 NDefines.NNavy.CARRIER_STACK_PENALTY = 6  							
 NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.40				-- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 3.0	-- this screen ratio to num capital/carriers is needed for full screening beyond screen line
 NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CARRIERS = 2.0
-
+NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0						-- down from 0.02 | Chances one ship get damage each hour while on training 		 0.0001	
 NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 800
 NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 1
-
 NDefines.NNavy.SUPREMACY_PER_SHIP_PER_MANPOWER = 0.0							-- supremacy of a ship is calculated using its IC, manpower and a base define
 NDefines.NNavy.SUPREMACY_PER_SHIP_PER_IC = 0.1
 NDefines.NNavy.SUPREMACY_PER_SHIP_BASE = 0.0
-
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
-
 NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1
 NDefines.NNavy.NAVAL_MINES_PLANTING_SPEED_MULT = 0.00001
-
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.01 --  
 NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.8 -- 
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.07 -- 
 NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.7 -- 
-
 NDefines.NNavy.MISSION_SUPREMACY_RATIOS = { -- supremacy multipliers for different mission types
 		0.0, -- HOLD
 		1.0, -- PATROL		
@@ -181,11 +186,8 @@ NDefines.NNavy.MISSION_SUPREMACY_RATIOS = { -- supremacy multipliers for differe
 		0.0, -- RESERVE_FLEET
 		0.2, -- NAVAL_INVASION_SUPPORT
 }
-	
 NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 1.5
-
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 30.0								-- Multiplier for the critical damage. Scaled down with the ship reliability.
-
 
 --- Naval Defines Related to USW and ASW 
 NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 15
@@ -210,14 +212,7 @@ NDefines.NNavy.NAVAL_COMBAT_AIR_PLANE_COUNT_TO_SUB_DETECTION = 1.0
 NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_DECAY_RATE = 1.0					
 NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 1.0			
 
--- Naval Defines Related to Convoys and Escorts
-NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.0		
-NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.0	
-
-NDefines.NProduction.SHIP_REFIT_MAX_PROGRESS_TO_CANCEL = 1.0			
-NDefines.NProduction.SHIP_REFIT_DAMAGE_TO_PROGRESS_FACTOR = 1.0			
-
-
+-- Naval Defines Related to Convoys and Escorts	
 NDefines.NNavy.CONVOY_DEFENSE_MAX_CONVOY_TO_SHIP_RATIO = 50.0					
 NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 15.0				
 NDefines.NNavy.COMBAT_DETECTED_CONVOYS_FROM_SURFACE_DETECTION_STAT = 0.10		
@@ -226,25 +221,19 @@ NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_AFTER_DAYS = 5
 NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_BASE_SPEED = 0.04						
 NDefines.NNavy.CONVOY_EFFICIENCY_MIN_VALUE = 0.04								
 NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.25                             	
-
 NDefines.NNavy.BASE_JOIN_COMBAT_HOURS = 2 										
 NDefines.NNavy.DEPTH_CHARGES_HIT_CHANCE_MULT = 2.0 								
 NDefines.NNavy.DEPTH_CHARGES_DAMAGE_MULT = 1.0 									
 NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.2								
 NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.006								
-
 NDefines.NNavy.UNIT_TRANSFER_DETECTION_CHANCE_BASE = 15.00					
 NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 6.0	
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 15.0 	
 NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.75  
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.05 
-
 NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0.00									
-
 NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                 
-
 NDefines.NNavy.COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.90					
-
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
 	        175.0,    -- big guns
 	        310.0,    -- torpedos
@@ -252,25 +241,18 @@ NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profi
 	   }		
 			
 NDefines.NNavy.DEPTH_CHARGES_HIT_PROFILE = 225.0  
-
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready after shooting
 		3.0,	-- big guns
 		4.0,	-- torpedos
 		2.0,	-- small guns
 	}
-			
 NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.95                                   
 NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.30	
 NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 1.0	
 NDefines.NNavy.COMBAT_MIN_DURATION = 8
-
 NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 2					
-
 NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 20										
-
-
 NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.001									
-
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW_COMBAT = 0.4                     
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM_COMBAT = 0.45                  
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH_COMBAT = 0.5                    
@@ -278,14 +260,11 @@ NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_LOW = 0.2
 NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_MEDIUM = 0.4                  
 NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_HIGH = 0.8                    
 NDefines.NNavy.REPAIR_AND_RETURN_UNIT_DYING_STR = 0.4                       
-
 NDefines.NNavy.BASE_ESCAPE_SPEED = 0.02                                   
 NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 0.5                                
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.8                           
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 8.0                
-
 NDefines.NNavy.NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.01            
-
 NDefines.NNavy.BASE_POSITIONING = 1.0
 NDefines.NNavy.RELATIVE_SURFACE_DETECTION_TO_POSITIONING_FACTOR = 0.1 
 NDefines.NNavy.MAX_POSITIONING_BONUS_FROM_SURFACE_DETECTION = 0.15 
@@ -293,42 +272,54 @@ NDefines.NNavy.HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.7
 NDefines.NNavy.MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.5  
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO = 1.5  		
 NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR = 1.25 		
-
-
-
 NDefines.NNavy.POSITIONING_PENALTY_FOR_SHIPS_JOINED_COMBAT_AFTER_IT_STARTS		= 0.0 
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS 					= 0.0 
 NDefines.NNavy.POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS			= 1.0
-	
-
-
-
 NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.75		
 NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.6  	
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.7  		
-
 NDefines.NNavy.CONVOY_HIT_PROFILE = 250.0  									
 NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 1.5                 			
-
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 0							
 NDefines.NNavy.PRIDE_OF_THE_FLEET_LOST_TEMP_MODIFIER_DURATION = 0			
-
 NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 0		
-
 NDefines.NNavy.MAX_ORG_ON_MANUAL_MOVE = 1.0									
-	
 NDefines.NNavy.INITIAL_ALLOWED_DOCKYARD_RATIO_FOR_REPAIRS = 1.0				
-
 NDefines.NNavy.NAVAL_INVASION_PRIORITY = 1									
 NDefines.NNavy.NAVAL_TRANSFER_PRIORITY = 1									
 NDefines.NNavy.SUPPLY_PRIORITY = 2											
 NDefines.NNavy.RESOURCE_LENDLEASE_PRIORITY = 5								         
 NDefines.NNavy.RESOURCE_EXPORT_PRIORITY = 3									                 
 NDefines.NNavy.RESOURCE_ORIGIN_PRIORITY = 4	
-NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 0					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
-NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 0				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
-NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 0				-- XP cost for converting one equipment module to a related module when creating an equipment variant.
-NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
 
+-- Agency Defines
 
-NDefines.NIndustrialOrganisation.DESIGN_TEAM_CHANGE_XP_COST = 0
+NDefines.NCountry.MAX_PROPAGANDA_WAR_SUPPORT_IMPACT = 0		-- Max total penalty from operative performing the propaganda mission in a country
+NDefines.NCountry.PROPAGANDA_STABILITY_DAILY_DECAY = 0.002		-- Amount of stability recovered daily from propaganda effort
+NDefines.NCountry.INTEL_FROM_ALLIANCE_FACTOR = 0.6
+NDefines.NOperatives.OPERATIVE_BASE_BOOST_IDEOLOGY = 0				-- Base amount of daily ideology drift provoked by an operative
+NDefines.NOperatives.PROPAGANDA_COUNTRY_STACKING_FACTOR = 0.2
+NDefines.NOperatives.PROPAGANDA_OPERATIVE_STACKING_FACTOR = 0.2
+NDefines.NOperatives.AGENCY_CREATION_DAYS = 30						-- Number of days needed to create an intelligence agency
+NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 5
+NDefines.NOperatives.AGENCY_UPGRADE_DAYS = 90					-- Number of days needed to upgrade an intelligence agency
+NDefines.NOperatives.BASE_COUNTER_INTELLIGENCE_RATING = 0.5						-- Number of days needed to upgrade an intelligence agency
+NDefines.NOperatives.BECOME_SPYMASTER_PP_COST = 10              -- Number of political power used to become Spy Master
+NDefines.NOperatives.BECOME_SPYMASTER_MIN_UPGRADES = 5			-- Number of agency upgrades you need before becoming Spy Master						-- Number of days needed to upgrade an intelligence agency
+NDefines.NOperatives.AGENCY_UPGRADE_PER_OPERATIVE_SLOT = 1
+NDefines.NOperatives.BUILD_INTEL_NETWORK_DAILY_XP_GAIN = 3
+NDefines.NOperatives.QUIET_INTEL_NETWORK_DAILY_XP_GAIN = 1
+NDefines.NOperatives.COUNTER_INTELLIGENCE_DAILY_XP_GAIN = 1.5
+NDefines.NOperatives.ROOT_OUT_RESISTANCE_DAILY_XP_GAIN = 1.5
+NDefines.NOperatives.AGENCY_OPERATIVE_RECRUITMENT_TIME = 30
+NDefines.NOperatives.OPERATION_COMPLETION_XP = 100
+NDefines.NOperatives.ON_CAPTURE_COUNTERINTELLIGENCE_OPERATIVE_XP_GAIN = 300
+NDefines.NOperatives.INTEL_NETWORK_MIN_VP_TO_TARGET = 1
+NDefines.NOperatives.INTEL_NETWORK_MIN_STRENGTH_TO_TARGET = 1
+NDefines.NOperatives.OPERATIVE_BASE_CONTROL_TRADE_DRIFT = 1				-- The base daily drift in trade influence caused by an operative
+NDefines.NOperatives.CONTROL_TRADE_MAX_INFLUENCE = 200.0					-- The maximum amount of trade influence that can be gained through the control trade mission
+NDefines.NOperatives.CRYPTO_BASE_CRYPTO_LEVEL = 4000						-- base crypto strength for a country
+NDefines.NOperatives.CRYPTO_CRYPTO_LEVEL_PER_CRYPTO_UPGRADE = 1500			-- crypto strength per crypto upgrade
+NDefines.NOperatives.CRYPTO_CRYPTO_ACTIVE_BONUS_DURATION = 15
+NDefines.NOperatives.AGENCY_DEFENSE_EFFECT_ON_HOSTILE_ACTION_COST = 0.1
+NDefines.NOperatives.OPERATIVE_MAX_DAYS_TO_AUTO_RESUME_MISSION = 121

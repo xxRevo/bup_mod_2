@@ -2,7 +2,7 @@ NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
 NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 3
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 300
-NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 0.25, 0.2, 0.04, 0.0 } -- game speeds for each level. Must be 5 entries with last one 0 for unbound
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.28, 0.22, 0.16, 0.05, 0.0 } -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 30
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 20

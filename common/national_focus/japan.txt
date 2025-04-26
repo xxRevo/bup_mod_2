@@ -455,6 +455,10 @@ focus_tree = {
 				uses = 2
 				category = tp_tech
 			}
+	  annex_country = {
+         	 target = SIA
+         	 transfer_troops = no
+          	}			
 		}
 	}
 

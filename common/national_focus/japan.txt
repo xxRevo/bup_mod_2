@@ -267,7 +267,7 @@ focus_tree = {
 		}
 
 		available = {
-			date > 1939.1.1
+			date > 1938.3.3
 			
 		}
 
@@ -442,6 +442,10 @@ focus_tree = {
 				uses = 2
 				category = tp_tech
 			}
+	  annex_country = {
+         	 target = SIA
+         	 transfer_troops = no
+          	}			
 		}
 	}
 

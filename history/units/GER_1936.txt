@@ -434,6 +434,30 @@ units = {
 		division_template = "Gebirgs-Brigade" 
 		start_experience_factor = 1
 	}
+	division = {	
+		name = "Gebirgs-Brigade" 
+		location = 692
+		division_template = "Gebirgs-Brigade" 
+		start_experience_factor = 1
+	}
+	division = {	
+		name = "Gebirgs-Brigade" 
+		location = 692
+		division_template = "Gebirgs-Brigade" 
+		start_experience_factor = 1
+	}
+	division = {	
+		name = "Gebirgs-Brigade" 
+		location = 692
+		division_template = "Gebirgs-Brigade" 
+		start_experience_factor = 1
+	}
+	division = {	
+		name = "Gebirgs-Brigade" 
+		location = 692
+		division_template = "Gebirgs-Brigade" 
+		start_experience_factor = 1
+	}
 
 }
 

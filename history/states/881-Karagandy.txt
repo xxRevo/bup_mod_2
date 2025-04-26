@@ -8,6 +8,7 @@ state = {
 		#	7597 1
 		#}
 		buildings = {
+			arms_factory = 4
 			infrastructure = 1
 
 		}

@@ -123,88 +123,13 @@ focus_tree = {
 	
 
 	focus = {
-		id = GER_construct_the_reichsautobahn
-		icon = GFX_focus_generic_road_investment
-		prerequisite = { focus = GER_prioritize_economic_growth focus = GER_the_four_year_plan }
-
-		x = 3
-		y = 1
-		relative_position_id = GER_prioritize_economic_growth
-		cost = 5
-		available = {
-			OR = {
-				has_full_control_of_state = 64 #Brandenburg
-				has_full_control_of_state = 59 #Hannover
-				has_full_control_of_state = 60 #Thüringen
-				has_full_control_of_state = 54 #Franken
-			}
-		}
-		bypass = {
-			has_civil_war = no
-			NOT = { has_full_control_of_state = 64 }
-			NOT = {	has_full_control_of_state = 59 }
-			NOT = {	has_full_control_of_state = 60 }
-			NOT = {	has_full_control_of_state = 54 }
-		}
-
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
-
-		completion_reward = {
-			custom_effect_tooltip = GER_autobahn_tt
-			hidden_effect = {
-				64 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
-						add_building_construction = {
-							type = infrastructure
-							level = 5
-							instant_build = yes
-						}
-					}
-				}
-				59 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
-
-						add_building_construction = {
-							type = infrastructure
-							level = 5
-							instant_build = yes
-						}
-					}
-				}
-				60 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
-						add_building_construction = {
-							type = infrastructure
-							level = 5
-							instant_build = yes
-						}
-					}
-				}
-				54 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
-						add_building_construction = {
-							type = infrastructure
-							level = 5
-							instant_build = yes
-						}
-					}
-				}
-			}		
-		}
-	}
-	
-	focus = {
 		id = GER_build_the_rur_dam
 		icon = GFX_focus_generic_hydroelectric_energy
-		prerequisite = { focus = GER_construct_the_reichsautobahn focus = GER_currency_reforms }
+		prerequisite = { focus = GER_autobahn }
 
-		x = -2
-		y = 1
-		relative_position_id = GER_construct_the_reichsautobahn
+		x = -1
+		y = 2
+		relative_position_id = GER_autobahn
 		cost = 10
 		available = {
 			51 = { 
@@ -253,161 +178,15 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = GER_trade_deal_with_sweden
-		icon = GFX_focus_generic_befriend_sweden
-		prerequisite = { focus = GER_construct_the_reichsautobahn focus = GER_autarky_efforts }
 
-		x = 2
-		y = 1
-		relative_position_id = GER_construct_the_reichsautobahn
-		cost = 5
-		available = {
-			is_subject = no
-			AND = {
-				country_exists = SWE
-				SWE = { is_subject = no }
-				NOT = { has_war_with = SWE }
-				SWE = {
-					custom_trigger_tooltip = {
-						tooltip = GER_alone_or_peace_faction_tt
-						is_alone_or_in_faction_at_peace_with_GER = yes
-					}
-				}
-			}
-		}
-
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_INTERNATIONAL_TRADE FOCUS_FILTER_HISTORICAL}
-
-		completion_reward = {
-			SWE = {
-				country_event = { id = wuw_GER_diplomacy.1 days = 2 }
-			}
-
-			custom_effect_tooltip = if_they_accept_tt
-			effect_tooltip = {
-				SWE = {
-					add_ideas = GER_german_trade_ns
-					add_opinion_modifier = {
-						target = PREV
-						modifier = GER_trading_partners
-					}
-				}
-				custom_effect_tooltip = war_will_cancel_deal_tt
-			}
-		}
-	}
-	
-	focus = {
-		id = GER_kdf_wagen_factories
-		icon = GFX_focus_GER_kdf_wagen
-		prerequisite = { focus = GER_construct_the_reichsautobahn }
-
-		x = 0
-		y = 1
-		relative_position_id = GER_construct_the_reichsautobahn
-		cost = 5
-		available = {
-		}
-
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
-
-		completion_reward = {
-			
-			if = {
-				limit = {
-					has_war = yes
-				}
-				if = {
-					limit = {
-						59 = {
-							is_fully_controlled_by = ROOT
-							free_building_slots = {
-								building = arms_factory
-								size > 2
-								include_locked = yes
-							}
-						}
-					}
-					59 = { #Hannover
-						add_extra_state_shared_building_slots = 3
-						add_building_construction = {
-							type = arms_factory
-							level = 3
-							instant_build = yes
-						}
-					}
-				}
-				else = {
-					random_owned_state = {
-						limit = {
-							is_controlled_by = ROOT
-							free_building_slots = {
-								building = arms_factory
-								size > 2
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 3
-						add_building_construction = {
-							type = arms_factory
-							level = 3
-							instant_build = yes
-						}
-					}
-				}
-			}
-			else_if = { #if at peace
-				if = {
-					limit = {
-						59 = {
-							is_fully_controlled_by = ROOT
-							free_building_slots = {
-								building = arms_factory
-								size > 2
-								include_locked = yes
-							}
-						}
-					}
-					59 = { #Hannover
-						add_extra_state_shared_building_slots = 2
-						add_building_construction = {
-							type = industrial_complex
-							level = 2
-							instant_build = yes
-						}
-					}
-				}
-				else = {
-					random_owned_state = {
-						limit = {
-							is_controlled_by = ROOT
-							free_building_slots = {
-								building = industrial_complex
-								size > 1
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 2
-						add_building_construction = {
-							type = industrial_complex
-							level = 2
-							instant_build = yes
-						}
-					}
-				}
-			}
-		}
-	}
-	
 	focus = {
 		id = GER_expand_the_reichsautobahn_south
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = GER_kdf_wagen_factories }
+		prerequisite = { focus = GER_build_the_rur_dam }
 
 		x = -1
 		y = 1
-		relative_position_id = GER_kdf_wagen_factories
+		relative_position_id = GER_build_the_rur_dam
 		cost = 5
 		available = {
 			OR = {
@@ -517,11 +296,11 @@ focus_tree = {
 	focus = {
 		id = GER_expand_the_reichsautobahn_east
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = GER_kdf_wagen_factories }
+		prerequisite = { focus = GER_build_the_rur_dam}
 
 		x = 1
 		y = 1
-		relative_position_id = GER_kdf_wagen_factories
+		relative_position_id = GER_build_the_rur_dam
 		cost = 5
 		available = {
 			OR = {
@@ -630,15 +409,16 @@ focus_tree = {
 
 	focus = {
 		id = GER_develop_heraeus_facilities
+		text = "Push The Limits"
 		icon = GFX_focus_research
-		prerequisite = { focus = GER_kdf_wagen_factories }
-
-		x = 0
-		y = 2
-		relative_position_id = GER_kdf_wagen_factories
+		prerequisite = { focus = GER_rocketry_innovations }
+		relative_position_id = GER_rocketry_innovations
+		x = -1
+		y = 1
 		cost = 10
 		available = {
 			industrial_complex > 49
+			date > 1939.3.30
 		}
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
@@ -693,6 +473,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
+			add_ideas = todt
 			add_popularity = { ideology = fascism popularity = 0.09 } 
 			add_tech_bonus = {
 				name = GER_four_year_plan
@@ -707,10 +488,6 @@ focus_tree = {
 				technology = construction3
 				technology = construction4
 			}
-			#add_ideas = schacht
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = hans_luther
-			recrut_character = hans_luther
 		}
 	}
 	
@@ -727,9 +504,6 @@ focus_tree = {
 		}
 			
 		completion_reward = {
-			#add_ideas = todt
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = todt
 			50 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
@@ -7087,7 +6861,7 @@ focus = {
 			set_global_flag = rhineland_remilitarized
 			custom_effect_tooltip = GER_rhineland_ultimatum
 			custom_effect_tooltip = generic_skip_one_line_tt
-			add_political_power = 75
+			add_political_power = 150
 			army_experience = 5
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -10752,7 +10526,7 @@ focus = {
 		x = -9
 		y = 8
 		relative_position_id = GER_remilitarize_the_rhineland
-		cost = 5
+		cost = 2
 		available = {
 			has_government = fascism
 		}

@@ -16,8 +16,9 @@ state = {
 		add_core_of = AUS
 
 		buildings = {
+			arms_factory = 8
 			infrastructure = 3 
-			industrial_complex = 2
+			industrial_complex = 5
 		}
 
 		victory_points = {

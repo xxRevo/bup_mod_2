@@ -158,45 +158,10 @@ if = {
 	}
 }
 
-#CONSUMER GOODS INCREASE AND PENALTIES VARIABLES
-set_variable = { GER_monthly_consumer_goods_start = 0.03 } #Starting amount of monthly increasing CG for MEFO Bills 
-set_variable = { GER_change_monthly_CG_vichy_france = 0.005 } #Changing monthly CG when capitulating FRance
-set_variable = { GER_change_monthly_CG_price_controls = 0.005 } #Changing monthly CG when taking Price Controls focus
-set_variable = { GER_change_monthly_CG_occupied_states = 0.005 } #Changing monthly CG based on none-core states
-set_variable = { GER_expected_consumer_goods_penalty = 0.1} #Consumer Goods penalty when hitting 100% CGFF
-set_variable = { GER_factory_output_penalty = 0.2 } #Factory output penalty when hitting 100% CGFF
-set_variable = { GER_dockyard_output_penalty = 0.2 } #Dockyard output penalty when hitting 100% CGFF
-set_variable = { GER_reduce_russian_CG_bonus = 0 } #Used to reduce Soviet Gold Reserves if Germany has taken gold from various Soviet cities before capping them
-
-#INDUSTRAY: MEFO Bills/Economy of Conquest/Recovering Economy/Wirtschaftswunder
-#REMINDER to always update the fake NS if these numbers are altered!
-set_variable = { GER_monthly_consumer_goods_increase = GER_monthly_consumer_goods_start } #Amount of increasing CG each month
-set_variable = { GER_industrial_consumer_goods_factor = 0.1 } #Used for MEFO Bills, Economy of Conquest and Recovering Economy and Wirtschaftswunder - must correspond with the Fake MEFO Bills NS for the 1936 Bookmark
-set_variable = { GER_industrial_civilian_intel_to_others = -25 }
-set_variable = { GER_industrial_army_intel_to_others = -25 }
-set_variable = { GER_industrial_navy_intel_to_others = -25 }
-set_variable = { GER_industrial_airforce_intel_to_others = -25 }
-set_variable = { GER_industrial_production_speed_arms_factory_factor = 0.1 }
-set_variable = { GER_industrial_production_speed_dockyard_factor = 0.1 }
-set_variable = { GER_industrial_industrial_capacity_factory = 0 }
-set_variable = { GER_industrial_industrial_capacity_dockyard = 0 }
-set_variable = { GER_industrial_production_lack_of_resource_penalty_factor = 0 }
-set_variable = { GER_industrial_conversion_cost_civ_to_mil_factor = 0 }
-set_variable = { GER_industrial_industry_air_damage_factor = 0 }
-set_variable = { GER_industrial_resource_trade_cost_bonus_per_factory = 0 }
-set_variable = { GER_industrial_production_speed_buildings_factor = 0 }
-set_variable = { GER_industrial_research_speed_factor = 0 }
-set_variable = { GER_industrial_economy_cost_factor = 0 }
-set_variable = { GER_industrial_trade_laws_cost_factor = 0 }
-set_variable = { GER_recovering_economy_modifier_local_resources_factor = 0 }
-set_variable = { GER_industrial_production_factory_max_efficiency_factor = 0 }
-set_variable = { GER_industrial_production_factory_efficiency_gain_factor = 0 }
-set_variable = { GER_industrial_production_factory_start_efficiency_factor = 0 }
-set_variable = { GER_industrial_line_change_production_efficiency_factor = 0 }
-set_variable = { GER_industrial_equipment_conversion_speed = 0 }
-set_variable = { GER_industrial_consumer_goods_expected_value = 0 }
-set_variable = { GER_economic_crash_consumer_goods = 0.75 } #Amount of CGFF if the MEFO Bills gets canceled one way or another
-add_dynamic_modifier = { modifier = GER_mefo_bills_modifier }
+add_timed_idea = {
+    idea = GER_mefo_bills_1
+    days = 1247
+}
 
 #WUNDERWAFFEN
 set_variable = { GER_wunderwaffen_special_project_speed_factor = 0 }

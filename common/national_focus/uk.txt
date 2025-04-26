@@ -264,13 +264,14 @@ focus_tree = {
 	focus = {
 		id = ENG_motorized_focus
 		prerequisite = { focus = limited_rearmament_focus }
-		available = { 			
+		available = {
+			date > 1937.1.1
 		}
 		icon = GFX_goal_generic_army_motorized
 		x = 0
 		y = 1
 		relative_position_id = limited_rearmament_focus
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -294,7 +295,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ENG_motorized_focus
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -5626,6 +5627,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
+			add_research_slot = 1
 			add_ideas = { ENG_colonial_elite }
 		}
 	}
@@ -6794,22 +6796,6 @@ focus_tree = {
 					}
 					set_state_flag = ENG_uk_india_focus_2IC
 				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_india_focus_1IC
-				}
 				ENG_viceroy_reduce_autonomy_effect = yes
 			}
 		}
@@ -6977,10 +6963,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_australia_focus_1IC
@@ -6993,47 +6979,13 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_australia_focus_1IC
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
-					}
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
-						type = dockyard
+						type = industrial_complex
 						level = 2
 						instant_build = yes
 					}
-					set_state_flag = ENG_uk_australia_focus_2dockyards
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_australia_focus_1dockyard
+					set_state_flag = ENG_uk_australia_focus_1IC
 				}
 				add_autonomy_ratio = {
 					value = -0.05

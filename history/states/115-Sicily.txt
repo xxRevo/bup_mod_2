@@ -3,6 +3,8 @@ state = {
 	id = 115
 	name = "STATE_115"
 resources={
+		tungsten=75.000 #added due to Portugal Setup
+	}
 	history = {
 		owner = ITA
 		victory_points = {

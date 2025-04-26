@@ -186,6 +186,7 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.15
+				conscription = 0.01
 			}
 		}
 

@@ -3348,6 +3348,8 @@ ideas = {
 				experience_gain_army_factor = -0.5
 				experience_gain_air_factor = -0.5
 				command_power_gain_mult = -0.5
+				land_doctrine_cost_factor = 0.5
+				air_doctrine_cost_factor = 0.5
 			}
 		}
 
@@ -3388,6 +3390,67 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = -0.1
 				production_speed_buildings_factor = 0.05
+				production_speed_land_facility_factor = -10
+				production_speed_air_facility_factor = -10
+				production_speed_naval_facility_factor = -10
+				production_speed_nuclear_facility_factor = -10
+			}
+		}
+
+		SOV_third_five_year_plan_military = {
+			name = SOV_soviet_industry_2l
+			picture = SOV_third_five_year_plan_military
+
+			removal_cost = -1
+
+			modifier = {
+				line_change_production_efficiency_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = -0.1
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.1
+				production_speed_arms_factory_factor = 0.05
+				production_speed_land_facility_factor = -10
+				production_speed_air_facility_factor = -10
+				production_speed_naval_facility_factor = -10
+				production_speed_nuclear_facility_factor = -10
+			}
+		}
+
+		SOV_third_five_year_plan_civilian = {
+			name = SOV_soviet_industry_2l
+			picture = SOV_third_five_year_plan_civilian
+
+			removal_cost = -1
+
+			modifier = {
+				line_change_production_efficiency_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = -0.1
+				production_speed_buildings_factor = 0.2
+				production_speed_land_facility_factor = -10
+				production_speed_air_facility_factor = -10
+				production_speed_naval_facility_factor = -10
+				production_speed_nuclear_facility_factor = -10
+			}
+		}
+
+		SOV_third_five_year_plan_balanced = {
+			name = SOV_soviet_industry_2l
+			picture = SOV_third_five_year_plan
+
+			removal_cost = -1
+
+			modifier = {
+				line_change_production_efficiency_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = -0.1
+				production_speed_buildings_factor = 0.05
+				consumer_goods_expected_value = -0.05
+				production_speed_land_facility_factor = -10
+				production_speed_air_facility_factor = -10
+				production_speed_naval_facility_factor = -10
+				production_speed_nuclear_facility_factor = -10
 			}
 		}
 	}

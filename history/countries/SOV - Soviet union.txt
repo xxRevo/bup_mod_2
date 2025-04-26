@@ -496,9 +496,8 @@ add_ideas = {
 	trotskyite_plot_nsb
 	SOV_genrikh_yagoda
 	SOV_soviet_industry
+	SOV_second_five_year_plan
 }
-add_timed_idea = { idea = SOV_second_five_year_plan days= 545 }
-
 
 set_convoys = 50
 

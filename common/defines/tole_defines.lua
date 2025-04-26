@@ -31,6 +31,9 @@ NDefines.NCountry.AIR_SCORE_MULTIPLIER = 0					-- Based on number of planes (whi
 NDefines.NCountry.INDUSTRY_SCORE_MULTIPLIER = 0				-- Based on number of factories.
 NDefines.NCountry.PROVINCE_SCORE_MULTIPLIER = 0				-- Based on number of controlled provinces.
 NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0
+NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.6
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 50
+NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.08
 
 NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0						-- down from 0.02 | Chances one ship get damage each hour while on training 		 0.0001	
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0
@@ -40,8 +43,6 @@ NDefines_Graphics.NAirGfx.MAX_BOMBING_SCENARIOS = 0
 NDefines_Graphics.NAirGfx.MAX_PATROL_SCENARIOS = 0
 NDefines_Graphics.NAirGfx.MAX_DOGFIGHTS_SCENARIOS = 0
 NDefines_Graphics.NAirGfx.MAX_TRANSPORT_SCENARIOS = 0
-
-
 NDefines_Graphics.NGraphics.CAMERA_ZOOM_SPEED_DISTANCE_MULT = 20
 NDefines_Graphics.NGraphics.MAPICON_GROUP_STRATEGIC_SIZE = 1000
 NDefines_Graphics.NGraphics.MAP_ICONS_STATE_HUGE = 100
@@ -128,6 +129,7 @@ NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 50
 NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 150
 NDefines.NProduction.MAX_MIL_FACTORIES_VISIBLE_FOR_MIL_EQUIPMENT_LINE = 15
 NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 15
+NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4
 
 --naval defines
 NDefines.NNavy.SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.10		-- enemy spotting is multiplied by this value to simulate running away
@@ -139,7 +141,7 @@ NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.45 -- max extr
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 25			-- Min cap for planes that can join naval combat
 
 NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 4					-- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip)
-
+NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2
 NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.1	-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
 
 NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3        	-- how often carrier planes do battle inside naval combat

@@ -5,22 +5,26 @@ state={
 	manpower = 469136
 	
 	state_category = town
-
+	resources={
+		oil = 20
+		rubber = 35
+		tungsten=50.000 #added due to Portugal Setup
+	}
 	history={
 		owner = ITA
-		
+		add_core_of = ITA
 		victory_points = {
 			1149 10 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 6
 			1149 = {
-				naval_base = 5
+				naval_base = 8
 			}
 		}
 	}
-
+	
 	provinces={
 		1118 1149 1189 4194 7066 7209 9980 12039 
 	}

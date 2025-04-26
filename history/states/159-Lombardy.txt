@@ -4,7 +4,9 @@ state = {
 	name = "STATE_159"
 	manpower = 5597704
 	state_category = metropolis
-
+		resources={
+		tungsten=50.000 #added due to Portugal Setup
+	}
 	history = {
 		owner = ITA
 		victory_points = { #Milano

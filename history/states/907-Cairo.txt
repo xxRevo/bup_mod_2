@@ -3,7 +3,9 @@ state={
 	name="STATE_907"
 	manpower = 6454865
 	state_category=town
-
+	resources={
+		oil = 30
+	}
 	history={
 		owner = ENG
 		buildings = {

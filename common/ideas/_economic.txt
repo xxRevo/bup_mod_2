@@ -556,6 +556,7 @@ ideas = {
 			}
 
 			available = {
+				tag=JAP
 				has_war = yes
 				has_war_support > 0.8
 				any_enemy_country = {

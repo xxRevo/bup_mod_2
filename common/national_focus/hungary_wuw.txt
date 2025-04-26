@@ -8849,44 +8849,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = wuw_HUN_carrying_on_arpads_legacy
-		icon = GFX_focus_HUN_carrying_on_arpads_legacy
-		prerequisite = { focus = wuw_HUN_the_turul_association }
-		#mutually_exclusive = { focus = wuw_HUN_government_of_national_unity }
-		x = 0
-		y = 2
-		relative_position_id = wuw_HUN_the_turul_association
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		available = {
-			OR = {
-				has_government = fascism
-				has_government = neutrality
-			}
-			is_subject = no
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = {
-
-			add_country_leader_trait = HUN_arpads_successor_trait
-
-		}
-	}
-
-	focus = {
 		id = wuw_HUN_institute_corporatism
 		icon = GFX_focus_ICE_state_corporatism
 		prerequisite = { focus = wuw_HUN_government_of_national_unity }

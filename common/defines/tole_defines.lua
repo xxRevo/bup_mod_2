@@ -251,12 +251,12 @@ NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0
 NDefines.NNavy.COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.90					
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
-	        275.0,    -- big guns
-	        810.0,    -- torpedos
-	        360.0,    -- small guns
+	        175.0,    -- big guns
+	        310.0,    -- torpedos
+	        255.0,    -- small guns
 	   }		
 			
-NDefines.NNavy.DEPTH_CHARGES_HIT_PROFILE = 300.0    
+NDefines.NNavy.DEPTH_CHARGES_HIT_PROFILE = 225.0  
 
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready after shooting
 		3.0,	-- big guns
@@ -264,8 +264,8 @@ NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready a
 		2.0,	-- small guns
 	}
 			
-NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 1.0                                   
-NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.35	
+NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.95                                   
+NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.30	
 NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 1.0	
 NDefines.NNavy.COMBAT_MIN_DURATION = 8
 
@@ -284,7 +284,7 @@ NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_MEDIUM = 0.4
 NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_HIGH = 0.8                    
 NDefines.NNavy.REPAIR_AND_RETURN_UNIT_DYING_STR = 0.4                       
 
-NDefines.NNavy.BASE_ESCAPE_SPEED = 0.01                                   
+NDefines.NNavy.BASE_ESCAPE_SPEED = 0.02                                   
 NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 0.5                                
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.8                           
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 8.0                
@@ -308,8 +308,8 @@ NDefines.NNavy.POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS			= 1.0
 
 
 
-NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.7		
-NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.5  	
+NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.75		
+NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.6  	
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.7  		
 
 NDefines.NNavy.CONVOY_HIT_PROFILE = 250.0  									

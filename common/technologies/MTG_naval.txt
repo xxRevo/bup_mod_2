@@ -39,7 +39,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 
 		start_year = 1922
 
@@ -79,7 +79,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 
 		start_year = 1936
 
@@ -127,7 +127,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1940
 
@@ -167,7 +167,7 @@ technologies = {
 			light_ship_engine_4
 		}
 
-		research_cost = 2
+		research_cost = 1.25
 
 		start_year = 1944
 
@@ -553,7 +553,7 @@ technologies = {
 			}
 		}	
 
-		research_cost = 1.5
+		research_cost = 0.5
 
 		start_year = 1922
 
@@ -601,7 +601,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 0.5
 
 		start_year = 1936
 
@@ -647,7 +647,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1940
 
@@ -688,7 +688,7 @@ technologies = {
 		enable_equipment_modules = {
 			cruiser_ship_engine_4
 		}
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1944
 
@@ -855,7 +855,7 @@ technologies = {
 				PROJECT = sp_naval_super_heavy_battleship	
 			}
 		}
-		research_cost = 1.75
+		research_cost = 0.5
 
 		start_year = 1922
 
@@ -913,7 +913,7 @@ technologies = {
 			ignore_for_layout = yes
 		}
 		
-		research_cost = 1.5
+		research_cost = 0.5
 
 		start_year = 1936
 
@@ -966,7 +966,7 @@ technologies = {
 		allow = { 
 			always = no
 		}
-		research_cost = 1.5
+		research_cost = 2
 
 		start_year = 1936
 
@@ -1002,7 +1002,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1940
 
@@ -1050,7 +1050,7 @@ technologies = {
 				}
 			}	
 		}
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1944
 
@@ -1210,7 +1210,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.75
+		research_cost = 0.5
 
 		start_year = 1922
 
@@ -1253,7 +1253,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 
 		start_year = 1936
 
@@ -1310,7 +1310,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.0
 
 		start_year = 1940
 
@@ -1357,7 +1357,7 @@ early_ship_hull_carrier = {
 				}
 			}
 		}
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1944
 

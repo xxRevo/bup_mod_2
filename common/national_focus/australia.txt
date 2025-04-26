@@ -87,7 +87,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			army_experience = 25
+			army_experience = 50
 			add_doctrine_cost_reduction = {
 				name = AST_additional_militia_training
 				cost_reduction = 0.5
@@ -200,7 +200,7 @@
 		y = 2
 		relative_position_id = AST_additional_militia_training
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -718,7 +718,7 @@
 		icon = GFX_goal_generic_build_airforce
 		x = 7
 		y = 0
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -860,7 +860,7 @@
 		y = 2
 		relative_position_id = AST_expand_the_raaf
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -912,7 +912,7 @@
 				}
 				add_building_construction = {
 					type = air_base
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				set_state_flag = AST_expand_the_raaf_AB
@@ -1936,7 +1936,7 @@
 		x = 16
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -1955,7 +1955,26 @@
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
+		complete_tooltip = {
+			285 = {
+
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
 		completion_reward = {
+			285 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			
 			add_ideas = AST_standard_gauge_railway
 			custom_effect_tooltip = generic_skip_one_line_tt
 			custom_effect_tooltip = available_industrial_concern
@@ -1970,7 +1989,7 @@
 		y = 0
 		relative_position_id = AST_standard_gauge_railway
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 5
@@ -1993,7 +2012,7 @@
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = industry
 			}			
 		}
@@ -2002,8 +2021,7 @@
 	focus = {
 		id = AST_western_australian_government_railways
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = AST_standard_gauge_railway }
-		prerequisite = { focus = AST_industries_assistance_corporation }
+		prerequisite = { focus = AST_standard_gauge_railway focus = AST_industries_assistance_corporation}
 		x = 1
 		y = 1
 		relative_position_id = AST_standard_gauge_railway
@@ -2036,37 +2054,16 @@
 				path = { 1652 2157 10983 1526 10949 8200 10969 2191 12948 5197 8165 10927 8186 }
 			}
 
-			random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					NOT = {state = 674}
-				}
+
+		517 = {
 
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 
-			random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					NOT = {state = 674}
-				}
-
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
 		}
 	}
 
@@ -2120,12 +2117,12 @@
 						size > 1
 						include_locked = yes
 					}
-					NOT = { state = 674 }
+					not = { state = 674 }
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				set_state_flag = AST_south_australian_housing_trust_IC
@@ -2141,7 +2138,7 @@
 		y = 2
 		relative_position_id = AST_standard_gauge_railway
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 5
@@ -2165,10 +2162,10 @@
 				limit = {
 					has_state_flag = AST_department_of_supply_and_development_AF
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -2185,10 +2182,10 @@
 					}
 					NOT = { state = 674 }
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = AST_department_of_supply_and_development_AF
@@ -2378,8 +2375,37 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-
+		complete_tooltip = {
+					random_state = {
+						limit = {
+							has_state_flag = AST_expand_the_northern_railway_Inf
+						}
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				
 		completion_reward = {
+		random_owned_controlled_state = {
+				prioritize = { 520 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					not = { state = 674 }
+				}
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AST_expand_the_northern_railway_Inf
+			}
 			build_railway = {
 				level = 2
 				path = { 7669 1431 12104 1454 }
@@ -2493,17 +2519,13 @@
 		x = 24
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
 		}
 
 		available = {
-			OR = {
-				threat > 0.20
-				has_war = yes
-			}
 		}
 		
 		bypass = {
@@ -2521,8 +2543,7 @@
 	}
 
 	focus = {
-		id = AST_national_security_act
-		icon = GFX_goal_generic_forceful_treaty
+		id = AST_national_security_act		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = AST_establish_advisory_war_council }
 		x = -2
 		y = 1
@@ -2535,7 +2556,16 @@
 		}
 
 		available = {
-
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				OR = {
+					threat > 0.2
+					date > 1938.1.1
+				}
+			}
+			
 		}
 		
 		bypass = {
@@ -2563,7 +2593,7 @@
 		y = 1
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2693,7 +2723,7 @@
 		y = 2
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -2725,7 +2755,7 @@
 		y = 2
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -3065,7 +3095,7 @@
 		y = 3
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -3143,7 +3173,6 @@
 		}
 
 		available = {
-			is_subject = no
 		}
 		
 		bypass = {
@@ -3271,21 +3300,11 @@
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER }
 
 		completion_reward = {
-			if = { 
-				limit = {
-					ENG = { has_idea = ENG_george_vi }
-					}
-					country_event = { id = tfv_australia.90 }
-					}
-			if = { 
-				limit = {
-					ENG = { has_country_flag = edward_viii_married_wallis_simpson } 
-					}
-					country_event = { id = tfv_australia.92 } 
-				}
+			add_stability = 0.5
+			add_manpower = 5000
 			}
-		}
-
+	}
+	
 	focus = {
 		id = AST_the_singapore_strategy
 		icon = GFX_goal_generic_fortify_city
@@ -3391,7 +3410,7 @@
 		y = 3
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -3470,25 +3489,16 @@
 		available_if_capitulated = no
 		search_filters = {  }
 
-		completion_reward = {
-			336 = {
+				completion_reward = {
+			672 = {
 				add_building_construction = {
 					type = air_base
 					level = 2
 					instant_build = yes
 				}
 
-				#Fortify entire coastline
-				add_building_construction = {
-					type = bunker
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
+				
+				set_building_level = {
 					type = coastal_bunker
 					province = {
 						all_provinces = yes
@@ -3498,48 +3508,20 @@
 					instant_build = yes
 				}
 
-				#border inland bunker
-				add_building_construction = {
-					type = bunker
-					province = 4310
-					level = 2
-					instant_build = yes
-				}
-
-				#Extra fort on naval bases
-				add_building_construction = {
-					type = bunker
-					province = {
-						all_provinces = yes
-						limit_to_naval_base = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
+				set_building_level = {
 					type = coastal_bunker
 					province = {
 						all_provinces = yes
 						limit_to_naval_base = yes
 					}
-					level = 2
+					level = 4
 					instant_build = yes
 				}
-
 			}
 
 			333 = {
-				#Fortify entire coastline
-				add_building_construction = {
-					type = bunker
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
+				
+				set_building_level = {
 					type = coastal_bunker
 					province = {
 						all_provinces = yes
@@ -3549,28 +3531,63 @@
 					instant_build = yes
 				}
 
-				#Extra fort on naval bases
-				add_building_construction = {
-					type = bunker
-					province = {
-						all_provinces = yes
-						limit_to_naval_base = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
+				
+				set_building_level = {
 					type = coastal_bunker
 					province = {
 						all_provinces = yes
 						limit_to_naval_base = yes
 					}
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
+			634 = {
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province = 4292
+					instant_build = yes
+					}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province = 1269
+					instant_build = yes
+					}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province = 1370
+					instant_build = yes
+					}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province = 10291
+					instant_build = yes
+					}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province = 7437
+					instant_build = yes
+					}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province = 4226
+					instant_build = yes
+					}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province = 4378
+					instant_build = yes
+					}
+				}
+			}
 		}
-	}
 
 	focus = {
 		id = AST_empire_air_training_scheme

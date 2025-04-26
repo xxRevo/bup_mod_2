@@ -206,12 +206,18 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_exploit_mines
+			picture = GER_Volksgemeinschaft
 
 			modifier = {
+				production_speed_synthetic_refinery_factor=0.1
+				min_export = -0.25
+				global_building_slots_factor=0.15
 				production_speed_arms_factory_factor = 0.1
-				production_speed_dockyard_factor = 0.1
 				production_speed_industrial_complex_factor = 0.1
+	            production_factory_efficiency_gain_factor = 0.05	
+				civilian_intel_to_others = -15.0
+				army_intel_to_others = -10.0
+				navy_intel_to_others = -10.0
 			}
 		}
 

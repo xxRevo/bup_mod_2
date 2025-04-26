@@ -117,7 +117,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_expected_value = 0.08
+				consumer_goods_factor = 0.08
 				stability_factor = -0.40
 			}
 		}
@@ -132,7 +132,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_expected_value = 0.08
+				consumer_goods_factor = 0.08
 				stability_factor = -0.15
 			}
 		}
@@ -147,7 +147,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_expected_value = -0.05
+				consumer_goods_factor = -0.05
 			}
 		}
 		USA_new_deal = {
@@ -216,7 +216,7 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 1
-				consumer_goods_expected_value = 0.3
+				consumer_goods_factor = 0.3
 			}
 		}
 		great_depression_2 = {
@@ -234,7 +234,7 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.65
-				consumer_goods_expected_value = 0.25
+				consumer_goods_factor = 0.25
 			}
 		}
 		great_depression_3 = {
@@ -252,7 +252,7 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.25
-				consumer_goods_expected_value = 0.175
+				consumer_goods_factor = 0.175
 			}
 		}
 		USA_limited_intervention = {
@@ -359,7 +359,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_expected_value = -0.05
+				consumer_goods_factor = -0.05
 			}
 		}
 
@@ -488,7 +488,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_expected_value = 0.05	
+				consumer_goods_factor = 0.05	
 			}
 		}
 		USA_the_pentagon = {
@@ -670,7 +670,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_expected_value = 0.05
+				consumer_goods_factor = 0.05
 				stability_factor = 0.1
 			}
 		}
@@ -1056,7 +1056,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_expected_value = -0.05
+				consumer_goods_factor = -0.05
 			}
 		}
 		USA_adjusted_compensation_payment = {
@@ -1072,7 +1072,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_expected_value = 0.05
+				consumer_goods_factor = 0.05
 			}
 		}
 
@@ -1200,7 +1200,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				global_building_slots_factor = 0.5
+				global_building_slots_factor = 1.5
 				operative_slot = 2
 				agency_upgrade_time = -0.30
 			    convoy_raiding_efficiency_factor = -0.25
@@ -1393,7 +1393,7 @@ ideas = {
 				army_core_defence_factor = 0.25
 				training_time_factor = -0.5
 				equipment_capture = 0.125
-				consumer_goods_expected_value = -0.1	
+				consumer_goods_factor = -0.1	
 				conscription_factor = 0.25
 			}			
 		}

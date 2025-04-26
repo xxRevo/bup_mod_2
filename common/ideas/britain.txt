@@ -169,7 +169,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_expected_value = -0.15
+				consumer_goods_factor = -0.15
 			}
 		}
 
@@ -188,7 +188,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_expected_value = -0.2
+				consumer_goods_factor = -0.2
 				war_support_factor = 0.05
 				weekly_bombing_war_support = 0.001
 			}
@@ -816,7 +816,7 @@ ideas = {
 			picture = eng_for_the_good_of_the_revolution
 			
 			modifier = {
-				consumer_goods_expected_value = -0.15
+				consumer_goods_factor = -0.15
 			}
 		}
 

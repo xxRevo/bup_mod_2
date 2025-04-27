@@ -879,8 +879,8 @@ generic_light_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_defensive_equipment
-		name = generic_mio_trait_defensive_equipment
-		icon = GFX_generic_mio_department_icon_tank_general_quality
+		name = generic_mio_trait_refined_engines
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
 
 		position = { x=2 y=1 }
 
@@ -893,8 +893,8 @@ generic_light_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_improved_crew_ergonomics
-		icon = GFX_generic_mio_department_icon_tank_general_armor
+		name = generic_mio_trait_liquid_cooled_engines
+		icon = GFX_generic_mio_trait_icon_air_agility
 
 		position = { x=6 y=1 }
 
@@ -907,8 +907,8 @@ generic_light_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_anti_tank_specialization
-		name = generic_mio_trait_anti_tank_specialization
-		icon = GFX_generic_mio_trait_icon_breakthrough
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
 
 		position = { x=0 y=2 }
 
@@ -1000,8 +1000,8 @@ generic_medium_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_improved_crew_ergonomics
-		icon = GFX_generic_mio_department_icon_tank_general_armor
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
 
 		position = { x=6 y=1 }
 
@@ -1107,8 +1107,8 @@ generic_heavy_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_improved_crew_ergonomics
-		icon = GFX_generic_mio_department_icon_tank_general_armor
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
 
 		position = { x=6 y=1 }
 
@@ -1215,8 +1215,8 @@ generic_cas_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_improved_crew_ergonomics
-		icon = GFX_generic_mio_department_icon_tank_general_armor
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
 
 		position = { x=6 y=1 }
 
@@ -1416,8 +1416,8 @@ generic_high_agility_fighter_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_defensive_equipment
-		name = generic_mio_trait_defensive_equipment
-		icon = GFX_generic_mio_department_icon_tank_general_quality
+		name = generic_mio_trait_refined_engines
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
 
 		position = { x=2 y=1 }
 
@@ -1430,8 +1430,8 @@ generic_high_agility_fighter_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_improved_crew_ergonomics
-		icon = GFX_generic_mio_department_icon_tank_general_armor
+		name = generic_mio_trait_liquid_cooled_engines
+		icon = GFX_generic_mio_trait_icon_air_agility
 
 		position = { x=6 y=1 }
 
@@ -1444,8 +1444,8 @@ generic_high_agility_fighter_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_anti_tank_specialization
-		name = generic_mio_trait_anti_tank_specialization
-		icon = GFX_generic_mio_trait_icon_breakthrough
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
 
 		position = { x=0 y=2 }
 
@@ -1472,8 +1472,8 @@ generic_high_agility_fighter_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_close_support_role
-		name = generic_mio_trait_close_support_role
-		icon = GFX_generic_mio_trait_icon_build_cost_ic
+		name = generic_mio_trait_advanced_aerodynamics
+		icon = GFX_generic_mio_trait_icon_air_agility
 		
 		position = { x=4 y=3 }
 	
@@ -1524,8 +1524,8 @@ generic_range_focused_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_defensive_equipment
-		name = generic_mio_trait_defensive_equipment
-		icon = GFX_generic_mio_department_icon_tank_general_quality
+		name = generic_mio_trait_refined_engines
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
 
 		position = { x=2 y=1 }
 
@@ -1552,8 +1552,8 @@ generic_range_focused_aircraft_organization = {
 
 	trait = {
 		token = generic_mio_trait_anti_tank_specialization
-		name = generic_mio_trait_anti_tank_specialization
-		icon = GFX_generic_mio_trait_icon_breakthrough
+		name = generic_mio_trait_fighter_specialization
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
 
 		position = { x=0 y=2 }
 

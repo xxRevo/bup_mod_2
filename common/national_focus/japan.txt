@@ -1793,7 +1793,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_fighter_modernization
-				bonus = 9
+				bonus = 1
 				uses = 1
 				category = light_fighter		
 			}
@@ -1909,12 +1909,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_tech_bonus = {
-				name = JAP_fighter_modernization
-				bonus = 9
-				uses = 1
-				category = light_fighter		
-			}
 			custom_effect_tooltip = JAP_the_zero_tt
 			hidden_effect = { set_technology = { cv_fighter2 = 1 } }
 	            

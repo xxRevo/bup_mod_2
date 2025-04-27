@@ -84,7 +84,10 @@ set_convoys = 5
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 
-
+add_timed_idea = {
+    idea = GER_no_trade_back
+    days = 1247
+}
 	if = {
 		limit = { has_dlc = "Waking the Tiger" }
 

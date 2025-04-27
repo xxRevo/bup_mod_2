@@ -112,7 +112,10 @@ add_breakthrough_progress = {
 	specialization = specialization_air
 	value = 0.5
 }
-
+add_timed_idea = {
+    idea = GER_no_trade_back
+    days = 1247
+}
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -214,6 +217,7 @@ add_ideas = {
 	stiff_upper_lip
 	ENG_the_war_to_end_all_wars
 	george_v
+	sealion_defense
 }
 	
 

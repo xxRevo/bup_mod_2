@@ -56,92 +56,6 @@ characters={
 		}
 	}
 
-	USA_earl_browder={
-		name=USA_earl_browder
-		portraits={
-			civilian={
-				large=GFX_portrait_USA_earl_browder
-			}
-			army={
-				small=GFX_portrait_USA_earl_browder_small
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = earl_browder
-			allowed  = {
-				original_tag  = USA
-			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus  = USA_suspend_the_presecution
-					NOT  = {
-						focus_progress  = {
-							focus  = USA_neutrality_act
-							progress > 0.000
-						}
-					}
-					NOT  = {
-						focus_progress  = {
-							focus  = USA_limited_intervention
-							progress > 0.000
-						}
-					}
-					NOT  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-					NOT = {
-						has_country_leader = {
-							ruling_only = yes
-							character = USA_earl_browder
-						}
-					}
-				}
-			}
-			traits  = {
-				communist_revolutionary
-			}
-			do_effect  = {
-				NOT  = {
-					has_government  = communism
-				}
-			}
-			ai_will_do  = {
-				factor  = 10.000
-				modifier  = {
-					is_historical_focus_on  = yes
-					has_game_rule  = {
-						rule  = USA_ai_behavior
-						option  = default
-					}
-					factor  = 0.000
-				}
-				modifier  = {
-					is_historical_focus_on  = yes
-					NOT  = {
-						has_dlc = "Man the Guns"
-					}
-					factor  = 0.000
-				}
-				modifier  = {
-					NOT  = {
-						has_dlc = "Man the Guns"
-					}
-					has_idea_with_trait = fascist_demagogue
-					factor  = 0.000
-				}
-			}
-		}
-		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
 	USA_george_s_patton={
 		name=USA_george_s_patton
 		portraits={
@@ -1360,14 +1274,6 @@ characters={
 				original_tag  = USA
 			}
 			available  = {
-
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus  = USA_reach_out_to_the_ware_group
-				}
-
 				NOT  = {
 					has_idea  = USA_henry_morgenthau
 				}
@@ -1378,7 +1284,7 @@ characters={
 			traits  = {
 				financial_expert
 			}
-			cost  = 0.000
+			cost  = 150
 			do_effect  = {
 			}
 			ai_will_do  = {
@@ -1407,15 +1313,6 @@ characters={
 				}
 			}
 			available  = {
-				OR = {
-					if  = {
-						limit  = {
-							has_dlc = "Man the Guns"
-						}
-						has_completed_focus  = USA_reach_out_to_the_ware_group
-					}
-					USA = { has_completed_focus = USA_america_first }
-				}
 			}
 			visible  = {
 				has_dlc = "Man the Guns"
@@ -1423,52 +1320,7 @@ characters={
 			traits  = {
 				economist
 			}
-			cost  = 0.000
-			do_effect  = {
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-		allowed_civil_war  = {
-			has_government  = communism
-		}
-	}
-
-	USA_whittaker_chambers={
-		name=USA_whittaker_chambers
-		portraits={
-			army={
-				small="GFX_idea_USA_whittaker_chambers"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = whittaker_chambers
-			allowed  = {
-				OR = {
-					original_tag  = USA
-					original_tag = SWE
-				}
-			}
-			available  = {
-				OR = {
-					if  = {
-						limit  = {
-							has_dlc = "Man the Guns"
-						}
-						has_completed_focus  = USA_reach_out_to_the_ware_group
-					}
-					USA = { has_completed_focus = USA_america_first }
-				}
-			}
-			visible  = {
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				editor
-			}
-			cost  = 0.000
+			cost  = 150
 			do_effect  = {
 			}
 			ai_will_do  = {
@@ -1494,12 +1346,6 @@ characters={
 				original_tag  = USA
 			}
 			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus  = USA_america_first
-				}
 			}
 			visible  = {
 				has_dlc = "Man the Guns"
@@ -1535,12 +1381,6 @@ characters={
 				original_tag  = USA
 			}
 			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus  = USA_america_first
-				}
 			}
 			visible  = {
 				has_dlc = "Man the Guns"
@@ -1599,83 +1439,6 @@ characters={
 		}
 	}
 
-	USA_charles_coughlin={
-		name=USA_charles_coughlin
-		portraits={
-			army={
-				small="GFX_idea_charles_coughlin"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = charles_coughlin
-			allowed  = {
-				original_tag  = USA
-			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus  = USA_america_first
-					NOT  = {
-						focus_progress  = {
-							focus  = USA_neutrality_act
-							progress > 0.000
-						}
-					}
-					NOT  = {
-						focus_progress  = {
-							focus  = USA_limited_intervention
-							progress > 0.000
-						}
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				fascist_demagogue
-			}
-			do_effect  = {
-				NOT  = {
-					has_government  = fascism
-				}
-			}
-			ai_will_do  = {
-				factor  = 10.000
-				modifier  = {
-					is_historical_focus_on  = yes
-					has_game_rule  = {
-						rule  = USA_ai_behavior
-						option  = default
-					}
-					factor  = 0.000
-				}
-				modifier  = {
-					is_historical_focus_on  = yes
-					NOT  = {
-						has_dlc = "Man the Guns"
-					}
-					factor  = 0.000
-				}
-				modifier  = {
-					NOT  = {
-						has_dlc = "Man the Guns"
-					}
-					has_idea_with_trait = communist_revolutionary
-					factor  = 0.000
-				}
-			}
-		}
-	}
-
 	USA_robert_taft={
 		name=USA_robert_taft
 		portraits={
@@ -1709,7 +1472,6 @@ characters={
 				original_tag  = USA
 			}
 			available  = {
-				has_completed_focus  = USA_empower_the_huac
 			}
 			traits  = {
 				anti_communist_crusader
@@ -1829,7 +1591,6 @@ characters={
 			idea_token = usa_william_donovan
 			available  = {
 				has_intelligence_agency  = yes
-				threat > 0.500
 			}
 			allowed  = {
 				original_tag  = USA

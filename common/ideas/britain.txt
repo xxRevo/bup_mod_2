@@ -29,6 +29,22 @@ ideas = {
 
 		}
 
+
+		sealion_defense = {
+			
+			allowed = {
+				always = no
+			}
+
+			
+			
+			removal_cost = -1
+						
+			modifier = {
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+			}
+		}
 		 ENG_goods = {
 			
 			allowed = {

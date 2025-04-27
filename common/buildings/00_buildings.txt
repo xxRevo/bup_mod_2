@@ -270,7 +270,7 @@ buildings = {
 		}
 
 		level_cap = {
-			shares_slots = yes
+			shares_slots = no
 			state_max = 3
 		}
 	}

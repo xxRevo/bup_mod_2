@@ -162,6 +162,10 @@ add_timed_idea = {
     idea = GER_mefo_bills_1
     days = 1247
 }
+add_timed_idea = {
+    idea = GER_no_trade_back
+    days = 1247
+}
 
 #WUNDERWAFFEN
 set_variable = { GER_wunderwaffen_special_project_speed_factor = 0 }

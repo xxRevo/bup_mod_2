@@ -41,7 +41,10 @@ if = {
 		}
 	}
 }
-
+add_timed_idea = {
+    idea = GER_no_trade_back
+    days = 1247
+}
 set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0

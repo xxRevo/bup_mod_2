@@ -429,29 +429,42 @@ focus_tree = {
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
-			random_core_state = {
-				limit = {
-					is_fully_controlled_by = ROOT
-				}
-				prioritize = { 56 }
-				add_resource = {
-					type = tungsten
-					amount = 2
-				}
-				add_resource = {
-					type = chromium
-					amount = 2
-				}
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
 			add_tech_bonus = {
 				name = GER_develop_heraeus_facilities
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = electronics
 			}
+
+		}
+	}
+
+	focus = {
+		id = GER_heavy_water
+		text = "Heavy Water Plants"
+		icon = GFX_focus_generic_nuclear_development
+		prerequisite = { focus = GER_develop_heraeus_facilities }
+		relative_position_id = GER_develop_heraeus_facilities
+		x = 0
+		y = 1
+		cost = 10
+		available = {
+				has_full_control_of_state = 110
+				has_full_control_of_state = 920
+			date > 1940.1.1
+		}
+
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
+
+		completion_reward = {
+
+			920 = {
+				add_building_construction = {
+					type = nuclear_facility
+					level = 1
+					instant_build = yes
+				}
+			}	
 
 		}
 	}
@@ -3751,11 +3764,11 @@ focus = {
 		icon = GFX_focus_generic_cas_aircraft
 		alternate_icon = GFX_focus_GER_sturzkampfbomber_historical
 
-		prerequisite = { focus = GER_uplift_the_rosenberg_office }
+		prerequisite = { focus = GER_air_innovation }
 		mutually_exclusive = { focus = GER_tactical_bombers focus = GER_uralbomber_program }
 		x = -2
 		y = 1
-		relative_position_id = GER_aeronautical_research_institute
+		relative_position_id = GER_air_innovation
 		cost = 5
 		available = {
 		}
@@ -3772,7 +3785,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = GER_dive_bombers
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = light_air
 			}
@@ -4012,11 +4025,11 @@ focus = {
 	focus = {
 		id = GER_uralbomber_program
 		icon = GFX_focus_generic_long_range_aircraft
-		prerequisite = { focus = GER_uplift_the_rosenberg_office }
+		prerequisite = { focus = GER_air_innovation }
 		mutually_exclusive = { focus = GER_dive_bombers focus = GER_tactical_bombers }
 		x = 2
 		y = 1
-		relative_position_id = GER_aeronautical_research_institute
+		relative_position_id = GER_air_innovation
 		cost = 5
 		available = {
 		}
@@ -4718,6 +4731,11 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -4732,17 +4750,16 @@ focus = {
 		relative_position_id = GER_defense_of_the_reich
 		cost = 5
 		available = {
-			has_tech = centimetric_radar
+			has_tech = monopulse_radar
 			has_war_with_major = yes
 		}
 
 		search_filters = { FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
-			add_timed_idea = {
-				idea = GER_nachtjagdgeschwader
-				days = 365
-			}
+			
+				add_ideas = GER_nachtjagdgeschwader
+			
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
@@ -7394,187 +7411,64 @@ focus = {
 			}
 		}
 	}
-
-	focus = {
-		id = GER_uplift_the_rosenberg_office
+focus = {
+		id = GER_air_innovation
+		text = air_innovation
 		icon = GFX_focus_ger_reichskommisariats
-		alternate_icon = GFX_focus_ger_reichskommisariats_historical
-		prerequisite = { focus = GER_expanding_the_luftwaffe }
-
+		prerequisite = {focus = GER_expanding_the_luftwaffe}
 		x = 17
 		y = 1
 		relative_position_id = GER_heed_von_neuraths_concerns
 		cost = 5
-		available = {
-			has_government = fascism
+		ai_will_do = {
+			factor = 1
 		}
 
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_MANPOWER }
+		available_if_capitulated = yes
 
+		
+		
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_dynamic_modifier = {
-				modifier = GER_alfred_rosenberg_modifier
-			}	
+			
+			air_experience = 300
+							
+				55 = {
 
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			custom_effect_tooltip = GER_reichskommissariats_tt
-		}
-	}
-
-	focus = {
-		id = GER_expand_ss_recruitment
-		icon = GFX_focus_generic_fascist_troops
-		prerequisite = { focus = GER_uplift_the_rosenberg_office }
-
-		x = 0
-		y = 1
-		relative_position_id = GER_uplift_the_rosenberg_office
-		cost = 5
-		available = {
-			has_government = fascism
-			OR = {
-				any_controlled_state = {
-					NOT = {
-						is_core_of = ROOT
+					set_building_level = {
+						type = air_base
+						level = 10
+						instant_build = yes
 					}
-					is_on_continent = europe
-				}
-				any_subject_country = {
-					capital_scope = {
-						is_on_continent = europe
-					}
-				}
-			}
-		}
-
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_MANPOWER }
-
-		completion_reward = {
-			custom_effect_tooltip = GER_SS_recruitment_tt
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			if = {
-				limit = {
-					NOT = { has_template = "Waffen-SS Division" }
-				}
-				division_template = {
-					name = "Waffen-SS Division"
-					priority = 2
-					division_names_group = GER_SS_01
-					template_counter = 101
-					is_locked = yes #Unlocked in Strengthen the Waffen-SS focus under Himmler
-					regiments = {
-						militia = { x = 0 y = 0 }
-						militia = { x = 0 y = 1 }
-						militia = { x = 0 y = 2 }
 					
-						militia = { x = 1 y = 0 }
-						militia = { x = 1 y = 1 }
-						militia = { x = 1 y = 2 }
-					}
-					support = {
-						artillery = { x = 0 y = 0 }
-						engineer = { x = 0 y = 1 }
-						mot_recon = { x = 0 y = 2 }
-					}
-					override_model = GER_militia
 				}
-			}
-			if = {
-				limit = {
-					64 = {
-						is_fully_controlled_by = ROOT
-					}
-				}
-				64 = {
-					custom_effect_tooltip = GER_create_four_militia_units_tt
-					hidden_effect = {
-						create_unit = {
-							division = "division_template =\"Waffen-SS Division\" start_experience_factor = 0.2 start_equipment_factor = 0.7"
-							owner = ROOT
-							count = 4
-						}
-					}
-				}
-			}
-			else = {
-				random_core_state = {
-					limit = {
-						is_fully_controlled_by = ROOT
-					}
-					custom_effect_tooltip = GER_create_four_militia_units_tt
-					hidden_effect = {
-						create_unit = {
-							division = "division_template =\"Waffen-SS Division\" start_experience_factor = 0.2 start_equipment_factor = 0.7"
-							owner = ROOT
-							count = 4
-						}
-					}
-				}
-			}
+				51 = {
 
+					set_building_level = {
+						type = air_base
+						level = 10
+						instant_build = yes
+					}
+					
+				}
+				57 = {
 
-			if = {
-				limit = {
-					NOT = { has_template = "SS-Verfügungstruppe" }
+					set_building_level = {
+						type = air_base
+						level = 10
+						instant_build = yes
+					}
+					
 				}
-				division_template = {
-					name = "SS-Verfügungstruppe"
-					priority = 2
-					division_names_group = GER_SS_01
-					is_locked = yes
-					regiments = {
-						motorized = { x = 0 y = 0 }
-						motorized = { x = 0 y = 1 }
-						motorized = { x = 0 y = 2 }
+				50 = {
 
-						motorized = { x = 1 y = 0 }
-						motorized = { x = 1 y = 1 }
-						motorized = { x = 1 y = 2 }
-
+					set_building_level = {
+						type = air_base
+						level = 10
+						instant_build = yes
 					}
-					support = {
-						artillery = { x = 0 y = 0 }
-						engineer = { x = 0 y = 1 }
-						mot_recon = { x = 0 y = 2 }
-					}
-					override_model = GER_infantry_alt_0_entity
+					
 				}
-			}
-			if = {
-				limit = {
-					64 = {
-						is_fully_controlled_by = ROOT
-					}
-				}
-				64 = {
-					custom_effect_tooltip = GER_create_two_motorized_units_tt
-					hidden_effect = {
-						create_unit = {
-							division = "division_template =\"SS-Verfügungstruppe\" start_experience_factor = 0.2 start_equipment_factor = 0.4"
-							owner = ROOT
-							count = 2
-						}
-					}
-				}
-			}
-			else = {
-				random_core_state = {
-					limit = {
-						is_fully_controlled_by = ROOT
-					}
-					custom_effect_tooltip = GER_create_two_motorized_units_tt
-					hidden_effect = {
-						create_unit = {
-							division = "division_template =\"SS-Verfügungstruppe\" start_experience_factor = 0.2 start_equipment_factor = 0.4"
-							owner = ROOT
-							count = 2
-						}
-					}
-				}
-			}
 		}
 	}
 	
@@ -9032,7 +8926,7 @@ focus = {
 
 	focus = {
 		id = GER_operation_sea_lion
-		text = "-----WIP DON'T GO-----"
+		text = "Prepare For The Sealion"
 		icon = GFX_focus_generic_naval_invasion
 		prerequisite = { focus = GER_war_with_france }
 
@@ -9042,13 +8936,14 @@ focus = {
 		cost = 5
 
 		available = {
-			always = no
 			has_war_with = ENG
-			has_army_manpower = { size > 999999 }
-			custom_trigger_tooltip = {
-			 	tooltip = GER_sea_lion_eq_trigger_tt
-			 	check_variable = { num_equipment_in_armies_k@infantry_equipment > 90 }
-			}
+			has_full_control_of_state = 16
+			has_full_control_of_state = 29
+			has_full_control_of_state = 15
+			has_full_control_of_state = 14
+			has_full_control_of_state = 6
+			has_full_control_of_state = 7
+			date > 1940.1.1
 		}
 
 		bypass = {
@@ -9066,7 +8961,7 @@ focus = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = GER_operation_sea_lion_ns
-				days = 180
+				days = 40
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -9092,94 +8987,6 @@ focus = {
 			}
 		}
 	}
-
-	focus = {
-		id = GER_operation_green
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		prerequisite = { focus = GER_operation_sea_lion }
-
-		x = 1
-		y = 1
-		relative_position_id = GER_operation_sea_lion
-		cost = 4
-
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				OR = {
-					has_government = democratic
-					has_government = communism
-				}
-			}
-		}
-
-		will_lead_to_war_with = IRE
-
-		available = {
-			is_subject = no
-			OR = {
-				IRE = {
-					exists = yes
-					NOT = { has_war_with = ROOT }
-					NOT = { is_ally_with = ROOT }
-					NOT = { is_guaranteed_by = ROOT }
-					NOT = { has_non_aggression_pact_with = ROOT }
-				}
-				NIR = {
-					exists = yes
-					NOT = { has_war_with = ROOT }
-					NOT = { is_ally_with = ROOT }
-					NOT = { is_guaranteed_by = ROOT }
-					NOT = { has_non_aggression_pact_with = ROOT }
-				}
-			}
-			OR = {
-				has_war_with = ENG
-				NOT = { country_exists = ENG }
-				is_ally_with = ENG
-				has_subject = RGB
-			}
-		}
-
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-
-		completion_reward = {
-
-			if = {
-				limit = {
-					IRE = {
-						exists = yes
-						NOT = { has_war_with = ROOT }
-						NOT = { is_ally_with = ROOT }
-						NOT = { is_guaranteed_by = ROOT }
-						NOT = { has_non_aggression_pact_with = ROOT }
-					}
-				}
-				create_wargoal = {
-					type = puppet_wargoal_focus
-					target = IRE
-					expire = 0
-				}
-			}
-			if = {
-				limit = {
-					NIR = {
-						exists = yes
-						NOT = { has_war_with = ROOT }
-						NOT = { is_ally_with = ROOT }
-						NOT = { is_guaranteed_by = ROOT }
-						NOT = { has_non_aggression_pact_with = ROOT }
-					}
-				}
-				create_wargoal = {
-					type = puppet_wargoal_focus
-					target = NIR
-					expire = 0
-				}
-			}
-		}
-	}
 	
 	focus = {
 		id = GER_crossing_the_atlantic
@@ -9187,34 +8994,20 @@ focus = {
 		prerequisite = { focus = GER_operation_sea_lion }
 
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = GER_operation_sea_lion
 		cost = 10
 
 		cancel_if_invalid = yes
 		
 		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = GER_crossing_the_atlantic_trigger_tt
-				NOT = {
-					any_enemy_country = {
-						is_major = yes
-						any_controlled_state = { 
-							is_on_continent = europe
-						}
-					}
-				}
-			}
+			has_full_control_of_state = 126
+			has_full_control_of_state = 128
+			has_full_control_of_state = 127
+			has_full_control_of_state = 125
+			has_full_control_of_state = 119
+			has_full_control_of_state = 120
 		}
-
-		bypass = {
-			USA = {
-				exists = no
-			}
-		}
-
-		will_lead_to_war_with = USA
 
 		ai_will_do = {
 			factor = 10
@@ -9223,192 +9016,37 @@ focus = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			IF = {
-				limit = {
-					NOT = {
-						OR = {
-							has_war_with = USA
-							has_wargoal_against = {
-								target = USA
-							}
-						}
-					}
-
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = USA
-				}
-
-				custom_effect_tooltip = generic_skip_one_line_tt
-			}
-
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = marine_tech
-				name = GER_crossing_the_atlantic
-			}
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.5
-					uses = 2
-					category = cat_marines_doctrine
-				}
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
+		
 			add_ideas = GER_crossing_the_atlantic_ns
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			# Add Dockyards and Replace Mils - Cap is 10 states (20 dockyards gained & 20 mils removed) -> cap defined in variable crossing_the_atlantic_max_states_for_dockyards set in history file
-			custom_effect_tooltip = GER_crossing_the_atlantic_dockyards_tt
-
-			if = { #Tooltip so players can know where the hell the dockyards were added
-				limit = {
-					check_variable = { number_of_states_getting_dockyards > 0 }
-				}
-				custom_effect_tooltip = generic_states_affected_tt
-				every_controlled_state = {
-					limit = { has_state_flag = GER_crossing_the_atlantic_dockyards_built_flag }
-					display_individual_scopes = yes
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-
-			hidden_effect = {
-				every_controlled_state = { #Prio "self-sufficient" coastal states, with 2 mils
-					limit = {
-						is_fully_controlled_by = ROOT
-						is_on_continent = europe
-						is_coastal = yes
-						arms_factory > 1
-						NOT = { has_state_flag = GER_crossing_the_atlantic_dockyards_built_flag }
-					}
-					if = {
-						limit = {
-							check_variable = { ROOT.number_of_states_getting_dockyards < ROOT.crossing_the_atlantic_max_states_for_dockyards }
-						}
-						remove_building = {
-							type = arms_factory
-							level = 2
-						}
-						add_building_construction = {
-							type = dockyard
-							level = 2
-							instant_build = yes
-						}
-
-						set_state_flag = GER_crossing_the_atlantic_dockyards_built_flag
-						add_to_variable = { ROOT.number_of_states_getting_dockyards = 1 }
-						#log = "Number [?ROOT.number_of_states_getting_dockyards] - Built in [THIS.GetName] - Coastal with 2 mils" #Debug tool
-					}
-				}
-
-				every_controlled_state = { #Next prio coastal states with only 1 mil
-					limit = {
-						is_fully_controlled_by = ROOT
-						is_on_continent = europe
-						is_coastal = yes
-						AND = {
-							arms_factory < 2
-							arms_factory > 0
-						}
-						NOT = { has_state_flag = GER_crossing_the_atlantic_dockyards_built_flag }
-					}
-					if = {
-						limit = {
-							check_variable = { ROOT.number_of_states_getting_dockyards < ROOT.crossing_the_atlantic_max_states_for_dockyards }
-						}
-						add_extra_state_shared_building_slots = 1
-						remove_building = {
-							type = arms_factory
-							level = 1
-						}
-						add_building_construction = {
-							type = dockyard
-							level = 2
-							instant_build = yes
-						}
-						custom_effect_tooltip = GER_crossing_the_atlantic_1_factory_tt
-						hidden_effect = {
-							ROOT = {
-								random_controlled_state = {
-									limit = {
-										is_fully_controlled_by = ROOT
-										is_on_continent = europe
-										NOT = { is_coastal = yes }
-										arms_factory > 0
-									}
-									remove_building = {
-										type = arms_factory
-										level = 1
-									}
-								}
-							}
-
-							set_state_flag = GER_crossing_the_atlantic_dockyards_built_flag
-							add_to_variable = { ROOT.number_of_states_getting_dockyards = 1 }
-							#log = "Number [?ROOT.number_of_states_getting_dockyards] - Built in [THIS.GetName] - Coastal with 1 mil" #Debug tool
-						}
-					}
-				}
-
-				every_controlled_state = { #Last are coastal states with no mils on them
-					limit = {
-						is_fully_controlled_by = ROOT
-						is_on_continent = europe
-						is_coastal = yes
-						arms_factory < 1
-						NOT = { has_state_flag = GER_crossing_the_atlantic_dockyards_built_flag }
-					}
-					if = {
-						limit = {
-							check_variable = { ROOT.number_of_states_getting_dockyards < ROOT.crossing_the_atlantic_max_states_for_dockyards }
-						}
-						add_extra_state_shared_building_slots = 2
-						add_building_construction = {
-							type = dockyard
-							level = 2
-							instant_build = yes
-						}
-						custom_effect_tooltip = GER_crossing_the_atlantic_2_factories_tt
-						hidden_effect = {
-							ROOT = {
-								random_controlled_state = {
-									limit = {
-										is_fully_controlled_by = ROOT
-										is_on_continent = europe
-										NOT = { is_coastal = yes }
-										arms_factory > 1
-									}
-									remove_building = {
-										type = arms_factory
-										level = 2
-									}
-								}
-							}
-
-							set_state_flag = GER_crossing_the_atlantic_dockyards_built_flag
-							add_to_variable = { ROOT.number_of_states_getting_dockyards = 1 }
-							#log = "Number [?ROOT.number_of_states_getting_dockyards] - Built in [THIS.GetName] - Coastal with 0 mils" #Debug tool
-						}
-					}
-				}
-			}
 		}
 	}
 	
+	focus = {
+		id = GER_establish_control_over_halifax
+
+		icon = GER_focus_GER_rhineland
+
+		prerequisite = { focus = GER_crossing_the_atlantic}
+		x = 1
+		y = 1
+		relative_position_id = GER_crossing_the_atlantic
+
+		cost = 10
+		available = {
+			has_full_control_of_state = 332
+			has_full_control_of_state = 331
+			has_full_control_of_state = 464
+			has_full_control_of_state = 465
+			has_full_control_of_state = 468
+		}
+
+		completion_reward = {
+
+			add_ideas = GER_into_the_NA
+		}
+
+	}
+
 	focus = {
 		id = GER_challenge_the_monroe_doctrine
 
@@ -9423,24 +9061,11 @@ focus = {
 		cost = 5
 
 		available = {
-			NOT = {
-				has_war_with = USA
-				is_in_faction_with = USA
-			}
-			is_subject = no
-			has_government = fascism
-			USA = {
-				NOT = {
-					has_government = fascism
-					has_government = neutrality 
-				}
-			}
-
-			custom_trigger_tooltip = {
-				tooltip = GER_challenge_the_monroe_doctrine_tt_2
-				check_variable = { global.monroe_doctrine_countries_to_destabilize^num > 6}
-			}
-			
+			has_full_control_of_state = 687
+			has_full_control_of_state = 309
+			has_full_control_of_state = 310
+			has_full_control_of_state = 691
+			has_full_control_of_state = 692
 		}
 
 		ai_will_do = {
@@ -9456,67 +9081,20 @@ focus = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
-		select_effect = {
-			GER_setup_monroe_doctrine_countries_to_destabilize_array = yes
-		}
-
 		completion_reward = {
 
-			set_country_flag = GER_destabilize_monroe_flag
-
-			custom_effect_tooltip = GER_challenge_the_monroe_doctrine_tt
-
-			hidden_effect = {
-				IF = {
-					limit = {
-						USA = {
-							OR = {
-								has_government = democratic
-								has_government = communism
-							}
-						}
-					}
-					USA = {
-						country_event = {
-							id = wuw_GER_monroe.1
-							hours = 12
-						}
-					}
-				}
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			if = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				if = { #This is so that it shows "Modify NS" by default, since most likely Anschluss will be completed and NS will be there. But if Anschluss is bypassed without getting the DM, the tooltip will be adjusted.
-					limit = {
-						NOT = { has_completed_focus = GER_anschluss }
-					}
-					custom_effect_tooltip = GER_modify_military_intelligence_service_modifier_tt
-				}
-				else = {
-					GER_add_or_modify_military_intelligence_service = yes
-				}
-				add_to_variable = { 
-					GER_military_intelligence_service_operative_slot = 1
-					tooltip = operative_slot_tt
-				}
-				GER_create_operative_johannes_becker = yes
-			}
+			add_ideas = GER_crossing_the_atlantic_2_ns
 		}
 	}
 
 	focus = {
 		id = GER_shatter_usas_hegemony
 		icon = GFX_focus_GER_shatter_usas_hegemony
-		prerequisite = { focus = GER_crossing_the_atlantic }
+		prerequisite = { focus = GER_establish_control_over_halifax }
 
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = GER_crossing_the_atlantic
+		relative_position_id = GER_establish_control_over_halifax
 		cost = 5
 		available = {
 			is_subject = no
@@ -9549,18 +9127,21 @@ focus = {
 
 			add_timed_idea = {
 				idea = GER_shatter_USA_hegemony_ns
-				days = 365
+				days = 45
 			}
 		}
 	}
 	
 	focus = {
 		id = GER_establish_protectorates_in_america
+		text = "The Man In The High Castle"
 		icon = GFX_focus_GER_establish_protectorates_in_america
-		prerequisite = { focus = GER_challenge_the_monroe_doctrine focus = GER_shatter_usas_hegemony }
+		
+		prerequisite = { focus = GER_challenge_the_monroe_doctrine }
+		prerequisite = { focus = GER_shatter_usas_hegemony}
 
 		x = 1
-		y = 1
+		y = 2
 		relative_position_id = GER_challenge_the_monroe_doctrine
 		cost = 10
 		available = {

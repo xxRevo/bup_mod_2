@@ -87,7 +87,10 @@ if = {
 		}
 	}
 }
-
+add_timed_idea = {
+    idea = GER_no_trade_back
+    days = 1247
+}
 recruit_character = AST_john_curtin
 recruit_character = AST_eric_campbell
 recruit_character = AST_richard_dixon

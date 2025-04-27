@@ -132,7 +132,7 @@ NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 15
 --naval defines
 NDefines.NNavy.SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.10		-- enemy spotting is multiplied by this value to simulate running away
 
-NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 14.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 22.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
 
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.15		-- Max planes that can join a combat comparing to the total strength of the ships
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.45 -- max extra plane % that can join every day
@@ -142,7 +142,7 @@ NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 4					-- How many hours needs the 
 
 NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.1	-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
 
-NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3        	-- how often carrier planes do battle inside naval combat
+NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 2        	-- how often carrier planes do battle inside naval combat
 NDefines.NNavy.CARRIER_STACK_PENALTY = 6  							
 NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.40				-- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 3.0	-- this screen ratio to num capital/carriers is needed for full screening beyond screen line
@@ -163,9 +163,9 @@ NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1
 NDefines.NNavy.NAVAL_MINES_PLANTING_SPEED_MULT = 0.00001
 
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.01 --  
-NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.8 -- 
-NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.07 -- 
-NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.7 -- 
+NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.6 -- 
+NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.05 -- 
+NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.5 -- 
 
 NDefines.NNavy.MISSION_SUPREMACY_RATIOS = { -- supremacy multipliers for different mission types
 		0.0, -- HOLD
@@ -182,7 +182,7 @@ NDefines.NNavy.MISSION_SUPREMACY_RATIOS = { -- supremacy multipliers for differe
 	
 NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 1.5
 
-NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 30.0								-- Multiplier for the critical damage. Scaled down with the ship reliability.
+NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 40.0								-- Multiplier for the critical damage. Scaled down with the ship reliability.
 
 
 --- Naval Defines Related to USW and ASW 
@@ -244,30 +244,30 @@ NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0
 NDefines.NNavy.COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.90					
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
-	        175.0,    -- big guns
-	        310.0,    -- torpedos
-	        255.0,    -- small guns
+	        125.0,    -- big guns
+	        210.0,    -- torpedos
+	        155.0,    -- small guns
 	   }		
 			
 NDefines.NNavy.DEPTH_CHARGES_HIT_PROFILE = 225.0  
 
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready after shooting
-		3.0,	-- big guns
-		4.0,	-- torpedos
+		2.5,	-- big guns
+		3.0,	-- torpedos
 		2.0,	-- small guns
 	}
 			
-NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.95                                   
-NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.30	
+NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 1                                  
+NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.40	
 NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 1.0	
-NDefines.NNavy.COMBAT_MIN_DURATION = 8
+NDefines.NNavy.COMBAT_MIN_DURATION = 24
 
 NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 2					
 
-NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 20										
+NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 40										
 
 
-NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.001									
+NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.005									
 
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW_COMBAT = 0.4                     
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM_COMBAT = 0.45                  
@@ -301,9 +301,9 @@ NDefines.NNavy.POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS			= 1.0
 
 
 
-NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.75		
-NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.6  	
-NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.7  		
+NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.85
+NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.7 	
+NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.85  		
 
 NDefines.NNavy.CONVOY_HIT_PROFILE = 250.0  									
 NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 1.5                 			

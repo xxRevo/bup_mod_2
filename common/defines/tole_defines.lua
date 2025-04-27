@@ -140,7 +140,7 @@ NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.05        -- global damag
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03    -- global damage modifier
 NDefines.NMilitary.COST_INCREASE_PER_ACTIVE_MEDAL = 5.0 -- medal cost multiplier per active medal	
-
+NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
 
 --naval defines
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0

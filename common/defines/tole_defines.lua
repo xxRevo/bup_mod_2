@@ -136,6 +136,10 @@ NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 72
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.05        -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03    -- global damage modifier
+
 
 --naval defines
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0

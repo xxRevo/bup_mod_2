@@ -1483,20 +1483,6 @@
 		x = 21
 		y = 0
 
-		offset = {
-			x = -3
-			y = 0
-			trigger = {
-				has_dlc = "La Resistance"
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_review_foreign_policy
-				has_completed_focus = FRA_form_the_popular_front
-			}
-		}
-
 		prerequisite = {}
 		mutually_exclusive = { focus = FRA_revive_the_national_bloc }
 		cost = 10
@@ -1536,18 +1522,6 @@
 				promote_leader = yes
 			}
 			set_country_flag = { flag = FRA_popular_front_cooldown value = 1 days = 360 } #fires strike event if labour laws not reformed in time
-
-			hidden_effect = {
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
-					}
-					mark_focus_tree_layout_dirty = no
-				}
-			}
 		}
 	}
 
@@ -1996,18 +1970,6 @@
 		x = 4
 		y = 1
 		
-		offset = {
-			x = -8
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_revive_the_national_bloc
-			}
-		}
-
 		prerequisite = {
 			focus = FRA_reform_the_labour_laws
 			focus = FRA_protect_the_rights_of_man
@@ -2234,29 +2196,6 @@
 		icon = GFX_goal_support_democracy
 		x = 7
 		y = 1
-		
-		offset = {
-			x = -1
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_form_the_popular_front
-			}
-		}
-		offset = {
-			x = -9
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_revive_the_national_bloc
-			}
-		}
 
 		prerequisite = {
 			focus = FRA_reform_the_labour_laws
@@ -2297,10 +2236,6 @@
 				if = {
 					limit = {
 						has_dlc = "La Resistance"
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
 					}
 					mark_focus_tree_layout_dirty = no
 				}
@@ -2498,30 +2433,6 @@
 		icon = GFX_focus_generic_strike_at_democracy2
 		x = 33
 		y = 0
-		
-		offset = {
-			x = -9
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_revive_the_national_bloc
-			}
-		}
-
-		offset = {
-			x = -7
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_utilize_the_leagues
-			}
-		}
 
 		cost = 10
 		ai_will_do = {
@@ -2538,18 +2449,6 @@
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_country_leader_trait = tenacious_negotiator
-
-			hidden_effect = {
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
-					}
-					mark_focus_tree_layout_dirty = no
-				}
-			}
 		}
 	}	
 	focus = {
@@ -2885,137 +2784,6 @@
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 39
 		y = 0
-
-		offset = {
-			x = -16
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "La Resistance" }
-			}
-		}
-		offset = {
-			x = -12
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "La Resistance"}
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_form_the_popular_front
-			}
-		}
-		offset = {
-			x = -9
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "La Resistance"}
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_revive_the_national_bloc
-			}
-		}
-		offset = {
-			x = -27
-			y = 0
-			trigger = {
-				has_dlc = "La Resistance"
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_form_the_popular_front
-			}
-		}
-		offset = {
-			x = -8
-			y = 0
-			trigger = {
-				has_dlc = "La Resistance"
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_invite_communist_ministers
-			}
-		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				has_dlc = "La Resistance"
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_revive_the_national_bloc
-			}
-		}
-		offset = {
-			x = -6
-			y = 0
-			trigger = {
-				has_dlc = "La Resistance"
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_utilize_the_leagues
-			}
-		}
-		offset = {
-			x = -3
-			y = 0
-			trigger = {
-				has_dlc = "La Resistance"
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_form_the_popular_front
-				has_completed_focus = FRA_review_foreign_policy
-			}
-		}
-		offset = {
-			x = -20
-			y = 0
-			trigger = {
-				has_dlc = "La Resistance"
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_revive_the_national_bloc
-				has_completed_focus = FRA_review_foreign_policy
-			}
-		}
-		offset = {
-			x = -11
-			y = 0
-			trigger = {
-				has_dlc = "La Resistance"
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_national_regeneration
-			}
-		}
-		offset = {
-			x = -17
-			y = 0
-			trigger = {
-				has_dlc = "La Resistance"
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = FRA_the_council_of_rambouillet
-			}
-		}
-
 		cost = 10
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }

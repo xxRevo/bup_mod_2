@@ -14,7 +14,7 @@ branch_intelligence = {
 		}
 		
 		modifiers_during_progress = {
-			civilian_factory_use = 5
+			civilian_factory_use = 2
 		}
 		
 		level = {
@@ -35,7 +35,7 @@ branch_intelligence = {
 		}
 		
 		modifiers_during_progress = {
-			civilian_factory_use = 5
+			civilian_factory_use = 2
 		}
 		
 		level = {
@@ -57,7 +57,7 @@ branch_intelligence = {
 		}
 		
 		modifiers_during_progress = {
-			civilian_factory_use = 5
+			civilian_factory_use = 2
 		}
 		
 		level = {
@@ -79,7 +79,7 @@ branch_intelligence = {
 		}
 		
 		modifiers_during_progress = {
-			civilian_factory_use = 5
+			civilian_factory_use = 2
 		}
 		
 		level = {
@@ -104,7 +104,7 @@ branch_defense = {
 		}
 		
 		modifiers_during_progress = {
-			civilian_factory_use = 5
+			civilian_factory_use = 0
 		}
 		
 		level = {
@@ -143,7 +143,7 @@ branch_defense = {
 		}
 		
 		modifiers_during_progress = {
-			civilian_factory_use = 5
+			civilian_factory_use = 0
 		}
 		
 		level = {
@@ -297,6 +297,7 @@ branch_operative = {
 				enemy_operative_recruitment_chance = 0.25
 				occupied_operative_recruitment_chance = 0.25
 				new_operative_slot_bonus = 1
+				operative_slot = 1
 			}
 			
 			complete_effect = {
@@ -408,7 +409,7 @@ branch_crypto = {
 		}
 		
 		modifiers_during_progress = {
-			civilian_factory_use = 8
+			civilian_factory_use = 2
 		}
 		
 		level = {
@@ -466,7 +467,7 @@ branch_crypto = {
 		}
 		
 		modifiers_during_progress = {
-			civilian_factory_use = 10 
+			civilian_factory_use = 8
 		}
 		
 		level = {
@@ -534,7 +535,7 @@ branch_crypto = {
 		}
 		
 		modifiers_during_progress = {
-			civilian_factory_use = 15
+			civilian_factory_use = 8
 		}
 		
 		level = {

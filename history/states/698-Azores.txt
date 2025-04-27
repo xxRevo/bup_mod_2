@@ -6,7 +6,17 @@ state={
 	state_category = small_island
 	
 	history={
+	    owner = ENG
+	    buildings = {
+			infrastructure = 3
+			air_base = 2
+			1751 = {
+				naval_base = 10
+				coastal_bunker = 1
 
+			}
+
+		}
 	}
 	
 	provinces={

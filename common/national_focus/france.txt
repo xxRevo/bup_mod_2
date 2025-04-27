@@ -9354,6 +9354,10 @@
 				type = support_equipment
 				amount = 500
 			}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 500
+			}
 			add_timed_idea = {
 				idea = FRA_industry_reborn days= 90 
 			}
@@ -9369,7 +9373,7 @@
 		cost = 10
 		
 		available = {
-			date > 1942.3.1
+			date > 1941.12.1
 		}
 		prerequisite = {focus = FRA_take_over_congo}
 		prerequisite = {focus = FRA_the_diamond_district}

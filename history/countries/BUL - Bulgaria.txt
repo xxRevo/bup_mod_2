@@ -61,7 +61,6 @@ if = { #DLC
 	}
 	add_ideas = { #DLC
 		BUL_second_national_catastrophe
-		BUL_imro_01
 		volunteer_only
 	}
 

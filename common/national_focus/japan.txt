@@ -1910,22 +1910,21 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			custom_effect_tooltip = JAP_the_zero_tt
-			hidden_effect = { set_technology = { cv_fighter2 = 1 } }
-	            
-      hidden_effect ={
-	                  create_equipment_variant = { 
-				              name ="TosunVurucu" 
-				               type = cv_fighter_equipment_2  
-				                      upgrades = { 
-					                        cv_plane_gun_upgrade = 0
-			                                cv_plane_range_upgrade = 5
-			                                plane_engine_upgrade = 5
-			                                plane_reliability_upgrade = 1
-				}
-            }
-	    }
-	    JAP = {add_equipment_to_stockpile = { type = cv_fighter_equipment amount = 700 producer = JAP }
-	    }
+			create_equipment_variant = {
+						name = "A6M Zero-TosunVurucu"
+						type = cv_small_plane_airframe_2
+						design_team = mio:JAP_mitsubishi_organization
+						allow_without_tech = yes #Makes no difference since focus grants appropriate tech (above), but it improves tooltip
+						modules = {
+							fixed_main_weapon_slot = light_mg_4x
+							fixed_auxiliary_weapon_slot_1 = light_mg_4x
+							fixed_auxiliary_weapon_slot_2 = light_mg_4x
+							engine_type_slot = engine_3_1x
+							special_type_slot_1 = drop_tanks
+							special_type_slot_2 = fuel_tanks_small
+						}
+						icon = "GFX_JAP_cv_fighter2_medium"
+					}
 	}
 }	
 	

@@ -1,7 +1,6 @@
 ideas = {
 
 	country = {
-
 		FRA_full_employment = {
 			picture = generic_production_bonus
 			allowed = {
@@ -778,6 +777,48 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.1 
+			}
+		}
+	
+		FRA_industry_reborn = {
+			available = {
+				
+			}
+
+			picture = ARG_public_works_investment
+						
+			allowed = {
+				original_tag = FRA
+			}		
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.5
+				line_change_production_efficiency_factor = 0.5
+				production_lack_of_resource_penalty_factor = -0.5
+				production_factory_efficiency_gain_factor = 10
+			}
+		}
+
+		FRA_nation_reborn = {
+			available = {
+				
+			}
+
+			picture = CHL_liberal_party_in_power
+						
+			allowed = {
+				original_tag = FRA
+			}		
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				stability_weekly = 0.01
+				war_support_weekly = 0.01
 			}
 		}
 
@@ -1664,6 +1705,7 @@ ideas = {
 
 			traits = { infantry_tank_manufacturer }
 		}
+
 
 		FRA_APX = {
 			picture = FRA_atelier_puteaux

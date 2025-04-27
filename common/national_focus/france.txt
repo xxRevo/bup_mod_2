@@ -89,7 +89,7 @@
 			772 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 33
+					level = 3
 					instant_build = yes
 				}
 				set_state_flag = FRA_autoroutes_target

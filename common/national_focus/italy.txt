@@ -3852,7 +3852,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = ITA_army_primacy_bba
-		cost = 10
+		cost = 2
 		available = {
 		}
 
@@ -4098,7 +4098,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = ITA_preserve_army_traditions
-		cost = 5
+		cost = 2
 		available = {
 		}
 
@@ -4119,7 +4119,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = ITA_army_primacy_bba
-		cost = 10
+		cost = 2
 		available = {
 		}
 
@@ -4127,8 +4127,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { ITA_re_org_loss_when_moving = -0.15 }
-			add_to_variable = { ITA_re_army_speed_factor = 0.05 }
-			custom_effect_tooltip = ITA_a_bandits_war_re_tt
+			add_to_variable = { ITA_re_army_speed_factor = 0.15 }
+			add_to_variable = { ITA_re_army_army_org_factor = 0.15 }
+			custom_effect_tooltip = ITA_a_bandits_war_re2_tt
 
 			custom_effect_tooltip = available_chief_of_army
 			show_ideas_tooltip = ITA_alberto_pariani
@@ -4218,31 +4219,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ITA_carica_di_isbuscenskij
-		icon = GFX_focus_ITA_cavalry_charge
-		prerequisite = { focus = ITA_a_bandits_war }
-
-		x = 0
-		y = 2
-		relative_position_id = ITA_a_bandits_war
-		cost = 5
-		available = {
-		}
-
-		search_filters = {FOCUS_FILTER_ARMY_XP}
-
-		completion_reward = {
-			add_to_variable = { ITA_re_modifier_army_sub_unit_cavalry_speed_factor = 0.03 }
-			add_to_variable = { ITA_re_modifier_army_sub_unit_cavalry_attack_factor = 0.03 }
-			add_to_variable = { ITA_re_unit_cavalry_design_cost_factor = -0.25 }
-			add_to_variable = { ITA_re_unit_camelry_design_cost_factor = -0.25 }
-			custom_effect_tooltip = ITA_carica_di_isbuscenskij_re_tt
-
-			army_experience = 25
-		}
-	}
-
-	focus = {
 		id = ITA_army_leaders
 		icon = GFX_focus_generic_military_mission
 		prerequisite = { focus = ITA_preserve_army_traditions focus = ITA_a_bandits_war }
@@ -4250,7 +4226,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_preserve_army_traditions
-		cost = 10
+		cost = 5
 		available = {
 			NOT = { has_global_flag = second_italo_ethiopian_war_flag }
 			#NTH_Manu: Should probably also require a completed focus in any of the ME political paths, so that it can unlock appropriate generals
@@ -4262,8 +4238,7 @@ focus_tree = {
 			add_to_variable = { ITA_re_army_leader_cost_factor = -0.15 }
 			add_to_variable = { ITA_re_experience_gain_factor = 0.1 }
 			add_to_variable = { ITA_re_promote_cost_factor = -0.25 }
-			add_to_variable = { ITA_re_army_speed_factor = 0.05 }
-			custom_effect_tooltip = ITA_army_leaders_re_tt
+			custom_effect_tooltip = ITA_army_leaders_re2_tt
 
 			army_experience = 25
 
@@ -4304,12 +4279,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_preserve_army_traditions
 		cost = 5
-		available = {
-			any_enemy_country = {
-				is_major_not_original_tag_root = yes
-			}
-		}
-
 		search_filters = {FOCUS_FILTER_ARMY_XP}
 
 		completion_reward = {
@@ -4328,30 +4297,22 @@ focus_tree = {
 
 	focus = {
 		id = ITA_italian_tankettes
+		text = "Italian Tanks"
 		icon = GFX_focus_generic_tankette
 		prerequisite = { focus = ITA_preserve_army_traditions focus = ITA_a_bandits_war }
 
 		x = 5
 		y = 1
 		relative_position_id = ITA_preserve_army_traditions
-		cost = 10
+		cost = 5i
 		available = {
 		}
 
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-			custom_effect_tooltip = ITA_italian_tankettes_military_industry_tt
-			hidden_effect = {
-				add_ideas = ITA_hidden_tankettes_ns
-			}
 
-			add_tech_bonus = {
-				name = ITA_italian_tankettes
-				bonus = 1
-				uses = 1
-				category = cat_light_armor
-			}
+			add_ideas = ITA_hidden_tankettes_ns
 
 			random_core_state = {
 				limit = {
@@ -4362,51 +4323,14 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				if = {
-					limit = {
-						has_tech = improved_light_tank_chassis
-					}
-					ITA_add_improved_light_tank_templates = yes
-				}
-				else = {
-					custom_effect_tooltip = ITA_italian_tankettes_light_hull_tt
-					effect_tooltip = {
-						ITA_add_improved_light_tank_templates = yes
-					}
-				}
-				
-				ITA_add_basic_light_tank_destroyer_template = yes
-
-				if = {
-					limit = {
-						is_special_project_completed = sp:sp_land_flamethrower_tank
-					}
-					#L3/35 lf Flamethrower
-					ITA_add_basic_light_flamethrower_template = yes
-				}
-				else = {
-					sp:sp_land_flamethrower_tank = {
-						add_project_progress_ratio = 0.5
-					}
-					custom_effect_tooltip = ITA_italian_tankettes_flamethrower_tt
-					effect_tooltip = {
-						#L3/35 lf Flamethrower
-						ITA_add_basic_light_flamethrower_template = yes
-					}
-				}
-			}
 		}
 	}
 
@@ -4415,54 +4339,29 @@ focus_tree = {
 		icon = GFX_focus_ITA_bersaglieri
 		prerequisite = { focus = ITA_army_leaders }
 		prerequisite = { focus = ITA_superesercito }
-
+		mutually_exclusive = { focus = ITA_self_propelled_guns }
 		x = 1
 		y = 1
 		relative_position_id = ITA_army_leaders
-		cost = 10
+		cost = 5
 		available = {
 		}
 
 		search_filters = {FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH FOCUS_FILTER_MANPOWER}
 
 		completion_reward = {
-			add_to_variable = { ITA_re_special_forces_cap = 0.05 }
-			add_to_variable = { ITA_re_special_forces_attack_factor = 0.03 }
-			add_to_variable = { ITA_re_special_forces_defence_factor = 0.03 }
-			custom_effect_tooltip = ITA_bersaglieri_re_tt
+			add_to_variable = { ITA_re_special_forces_cap = 0.15 }
+			add_to_variable = { ITA_re_special_forces_attack_factor = 0.1 }
+			add_to_variable = { ITA_re_special_forces_defence_factor = 0.1 }
+			custom_effect_tooltip = ITA_bersaglieri_re2_tt
 
 			army_experience = 15
 
 			add_tech_bonus = {
 				name = ITA_bersaglieri
-				bonus = 0.75
+				bonus = 1
 				uses = 2
 				category = cat_special_forces_generic
-			}
-
-			set_technology = { bicycle_infantry = 1 popup = no }
-
-			division_template = { 
-				name = "Reggimento Bersaglieri" 
-				division_names_group = ITA_INF_01
-				regiments = { 
-					bicycle_battalion = { x = 0 y = 0 }
-					bicycle_battalion = { x = 0 y = 1 }
-					bicycle_battalion = { x = 1 y = 0 }
-					bicycle_battalion = { x = 1 y = 1 }
-				}
-				support = { 
-					engineer = { x = 0 y = 0 }
-					artillery = { x = 0 y = 1 }
-					#anti_tank = { x = 0 y = 2 }
-				}
-			}
-			capital_scope = {
-				create_unit = {
-					division = "division_template = \"Reggimento Bersaglieri\" start_experience_factor = 0.5 start_equipment_factor = 1.0"
-					owner = ROOT
-					count = 3
-				}
 			}
 		}
 	}
@@ -4482,17 +4381,15 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP}
 
 		completion_reward = {
-			add_to_variable = { ITA_re_special_forces_cap = 0.02 }
-			add_to_variable = { ITA_re_modifier_army_sub_unit_mountaineers_defence_factor = 0.03 }
 			add_to_variable = { ITA_re_modifier_army_sub_unit_mountaineers_max_org_factor = 0.05 }
-			custom_effect_tooltip = ITA_divisioni_alpine_re_tt
+			custom_effect_tooltip = ITA_divisioni_alpine_re2_tt
 
 			army_experience = 15
 
 			add_tech_bonus = {
 				name = ITA_divisioni_alpine
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = mountaineers_tech
 			}
 			
@@ -4515,101 +4412,64 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MANPOWER}
 
 		completion_reward = {
-			add_to_variable = { ITA_re_special_forces_cap = 0.02 }
 			add_to_variable = { ITA_re_special_forces_out_of_supply_factor = -0.1 }
 			add_to_variable = { ITA_re_modifier_army_sub_unit_paratrooper_max_org_factor = 0.05 }
-			custom_effect_tooltip = ITA_fanti_dell_aria_re_tt
-
-			army_experience = 15
-
-			hidden_effect = {
-				if = {
-					limit = {
-						NOT = { has_template = "Paratroopers" }
-					}
-					load_oob = "unlock_paratroopers"
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ROOT
-					is_fully_controlled_by = ROOT
-				}
-				prioritize = { 2 162 117 158 }
-				custom_effect_tooltip = ITA_fanti_dell_aria_spawn_divs_tt
-				hidden_effect = {
-					create_unit = {
-						division = "division_template = \"Paratroopers\" start_experience_factor = 0.4 start_equipment_factor = 1.0"
-						owner = ROOT
-						count = 3
-					}
-				}
-			}
-			#ASCARI
-			if = {
-				limit = {
-					any_owned_state = {
-						is_core_of = LBA
-						is_fully_controlled_by = ROOT
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_core_of = LBA
-						is_fully_controlled_by = ROOT
-					}
-					prioritize = { 448 450 }
-					custom_effect_tooltip = ITA_fanti_dell_aria_spawn_divs_libya_tt
-					hidden_effect = {
-						create_unit = {
-							division = "name = \"Ascari del Cielo\" division_template = \"Paratroopers\" start_experience_factor = 0.4 start_equipment_factor = 1.0"
-							owner = ROOT
-							count = 1
-						}
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					any_subject_country = {
-						any_controlled_state = {
-							is_core_of = LBA
-							is_fully_controlled_by = PREV
-						}
-					}
-				}
-				random_subject_country = {
-					limit = {
-						any_controlled_state = {
-							is_core_of = LBA
-							is_fully_controlled_by = PREV
-						}
-					}
-					random_owned_controlled_state = {
-						limit = {
-							is_core_of = LBA
-							is_fully_controlled_by = ROOT
-						}
-						prioritize = { 448 450 }
-						custom_effect_tooltip = ITA_fanti_dell_aria_spawn_divs_libya_tt
-						hidden_effect = {
-							create_unit = {
-								division = "name = \"Ascari del Cielo\" division_template = \"Paratroopers\" start_experience_factor = 0.4 start_equipment_factor = 1.0"
-								owner = ROOT
-								count = 1
-							}
-						}
-					}
-				}
-			}
+			custom_effect_tooltip = ITA_fanti_dell_aria_re2_tt
 
 			add_tech_bonus = {
 				name = ITA_fanti_dell_aria
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = para_tech
 			}
 		}
+	}
+
+	focus = {
+		id = ITA_cannons_of_war
+		text = "Cannons Of War"
+		icon = GFX_focus_generic_paratrooper
+		prerequisite = { focus = ITA_bersaglieri }
+
+		x = -3
+		y = 1
+		relative_position_id = ITA_bersaglieri
+		cost = 10
+
+		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MANPOWER}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_cannons_of_war
+				bonus = 1
+				uses = 3
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = ITA_italian_rifles
+		text = "Carcano"
+		icon = GFX_focus_generic_paratrooper
+		prerequisite = { focus = ITA_bersaglieri }
+
+		x = -2
+		y = 2
+		relative_position_id = ITA_bersaglieri
+		cost = 10
+
+		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MANPOWER}
+
+		completion_reward = {
+		add_tech_bonus = {
+				name = ITA_carcano
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+		
 	}
 
 	focus = {
@@ -4617,7 +4477,7 @@ focus_tree = {
 		icon = GFX_focus_generic_self_propelled_gun
 		prerequisite = { focus = ITA_superesercito }
 		prerequisite = { focus = ITA_italian_tankettes }
-
+		mutually_exclusive = { focus = ITA_bersaglieri }
 		x = 1
 		y = 1
 		relative_position_id = ITA_superesercito
@@ -4635,15 +4495,14 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = ITA_self_propelled_guns_military_industry_tt
-			hidden_effect = {
+
 				add_ideas = ITA_hidden_spg_production_ns
-			}
 
 			add_tech_bonus = {
-				name = ITA_self_propelled_guns
-				bonus = 0.5
-				uses = 3
-				category = artillery
+				name = ITA_italian_tankettes
+				bonus = 1
+				uses = 1
+				category = cat_medium_armor
 			}
 
 			random_core_state = {
@@ -8184,7 +8043,7 @@ focus_tree = {
 		id = ITA_solid_progress
 		icon = GFX_focus_generic_attack_ethiopia
 		mutually_exclusive = { focus = ITA_the_abyssinian_fiasco focus = ITA_struggle_in_ethiopia }
-		x = 55
+		x = 50
 		y = 0
 		offset = {
 			x = 0
@@ -10296,7 +10155,7 @@ focus_tree = {
 			}
 		}
 
-		x = 12
+		x = 10
 		y = 1
 		offset = {
 			x = 0
@@ -10413,27 +10272,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_balkan_ambition
 		cost = 5
-
-		bypass = {
-			is_in_faction = yes
-			is_in_faction_with = GER
-		}
-
-		available = {
-			NOT = { has_war_with = GER }
-			custom_trigger_tooltip = {
-				tooltip = ITA_germ_italy_same_tt
-				GER = { has_government = ROOT }
-			}
-			is_in_faction = no
-			GER = {
-				is_faction_leader = yes
-				is_subject = no
-			}
-			is_subject = no
-			NOT = { has_country_flag = ENG_ditched_by_the_germans_flag }
-		}
-
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
@@ -10443,10 +10281,7 @@ focus_tree = {
 			hidden_effect = {
 				news_event = { hours = 6 id = news.184 }
 			}
-			add_timed_idea = {
-				idea = ITA_pact_of_steel
-				days = 365
-			}
+			add_ideas = ITA_pact_of_steel
 
 			custom_effect_tooltip = remove_political_advisor
 			show_ideas_tooltip = ITA_guido_jung
@@ -10458,8 +10293,8 @@ focus_tree = {
 		icon = GFX_focus_ger_oppose_hitler
 		prerequisite = { focus = ITA_pact_of_steel }
 
-		x = -3
-		y = 1
+		x = 0
+		y = 2
 		relative_position_id = ITA_pact_of_steel
 		cost = 5
 		available = {

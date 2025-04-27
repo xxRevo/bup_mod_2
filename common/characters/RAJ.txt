@@ -310,12 +310,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ armor_officer loyalty_to_britain }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=1
+			traits = { trickster panzer_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -329,12 +329,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter old_guard loyalty_to_britain }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
+			traits = { hill_fighter infantry_leader }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -349,12 +349,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox war_hero skilled_staffer infantry_officer loyalty_to_britain }
-			skill=3
-			attack_skill=1
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			traits = { desert_fox infantry_leader}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -370,11 +370,11 @@ characters={
 		}
 		corps_commander={
 			traits={ infantry_officer naval_invader trait_engineer inflexible_strategist loyalty_to_britain }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=1
-			logistics_skill=2
+			skill=5
+			attack_skill=4
+			defense_skill=6
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=-1
 		}
 	}
@@ -388,12 +388,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ loyalty_to_britain }
-			skill=3
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=2
+			traits = {  infantry_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -409,11 +409,12 @@ characters={
 
 		navy_leader={
 			traits={ old_guard_navy }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=2
+			traits = { spotter blockade_runner }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 1
+			maneuvering_skill = 9
+			coordination_skill = 6
 			legacy_id=-1
 		}
 	}
@@ -430,10 +431,10 @@ characters={
 		}
 		corps_commander ={
 			traits={ trait_reckless aggressive_assaulter hill_fighter }
-			skill=3
+			skill=5
 			attack_skill=4
-			defense_skill=1
-			planning_skill=1
+			defense_skill=3
+			planning_skill=3
 			logistics_skill=3
 
 			visible = { has_completed_focus = RAJ_sikh_religious_guarantees }
@@ -450,11 +451,11 @@ characters={
 		}
 		corps_commander={
 			traits={ expert_improviser trickster cavalry_officer brave }
-			skill=3
-			attack_skill=2
+			skill=5
+			attack_skill=4
 			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			planning_skill=3
+			logistics_skill=3
 
 			visible = { has_completed_focus = RAJ_sikh_religious_guarantees }
 		}

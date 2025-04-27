@@ -196,6 +196,8 @@ set_popularities = {
 
 recruit_character = SAF_j_b_m_hertzog
 recruit_character = SAF_d_f_malan
+recruit_character = SAF_jan_smuts
+recruit_character = SAF_dan_pienaar
 recruit_character = SAF_moses_kotane
 recruit_character = SAF_pixley_ka_isaka_seme
 recruit_character = SAF_george_edwin_brink

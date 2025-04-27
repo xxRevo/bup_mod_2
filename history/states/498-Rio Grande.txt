@@ -12,6 +12,15 @@ state = {
 
 	history = {
 		owner = USA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			10933 = {
+				naval_base = 5
+
+			}
+
+		}
 
 	}
 

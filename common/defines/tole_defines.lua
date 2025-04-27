@@ -146,7 +146,14 @@ NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 4					-- How many hours needs the 
 NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.1	-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
 NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3        	-- how often carrier planes do battle inside naval combat
 NDefines.NAir.AIR_WING_MAX_SIZE = 6400
-NDefines.NAir.THRUST_WEIGHT_AGILITY_FACTOR = 0 -- For plane designs, additive agility bonus per point of thrust exceeding weight #was 0.5     
+NDefines.NAir.THRUST_WEIGHT_AGILITY_FACTOR = 0 -- For plane designs, additive agility bonus per point of thrust exceeding weight #was 0.5
+
+NDefines.NProject.RECRUIT_SCIENTIST_COST = {						-- Amount of pp to hire a scientist based on available scientist
+		0,			-- pp cost if no available scientist
+		0,			-- pp cost if 1 available scientist
+		0,			-- pp cost if 2 available scientist
+		0			-- pp cost if more than 2 available scientist
+	}     
 
 
 NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1	

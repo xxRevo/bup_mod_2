@@ -7,48 +7,6 @@
    ##    ######### ##  #### ##  ##         ## 
    ##    ##     ## ##   ### ##   ##  ##    ## 
    ##    ##     ## ##    ## ##    ##  ######  
-	
-
-# INFANTRY TANK DESIGNER  - Based on Renault (FRA)
-generic_infantry_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
-
-	allowed = {
-		always = yes
-	}
-
-	equipment_type = { armor }
-	research_categories = { mio_cat_tech_all_armor_and_modules }
-
-	tree_header_text = {
-		text = mio_header_engine_and_suspension
-		x = 1
-	}
-
-	tree_header_text = {
-		text = mio_header_armament
-		x = 3
-	}
-
-	tree_header_text = {
-		text = mio_header_production
-		x = 6
-	}
-
-	tree_header_text = {
-		text = mio_header_armor
-		x = 9
-	}
-
-	initial_trait = {
-		name = generic_mio_initial_trait_infantry_tanks_designer
-		
-		equipment_bonus = {
-			armor_value = 0.05
-			maximum_speed =-0.05
-		}
-	}
-}
 
 # ASSAULT GUNS DESIGNER / MANUFACTURER
 generic_assault_guns_organization = {
@@ -266,10 +224,6 @@ generic_tank_refurbishment_plant_organization = {
       ## ##     ##  ##  ##              ## 
 ##    ## ##     ##  ##  ##        ##    ## 
  ######  ##     ## #### ##         ######  
-
-
-
-# GENERIC TANK MANUFACTURERS
 
 #TASK FORCE MANUFACTURER - Based on Harland & Wolff (ENG)
 generic_task_force_ship_organization = {
@@ -571,51 +525,6 @@ generic_refurbishment_repair_organization = {
 ##        ##       ##     ## ##   ### ##       ##    ## 
 ##        ######## ##     ## ##    ## ########  ######  
 
-
-
-#GENERAL AIRCRAFT MANUFACTURER - Based on Focker (HOL)
-generic_general_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_1
-
-	allowed = {
-		always = yes
-	}
-
-	equipment_type = {
-		mio_cat_eq_all_small_plane
-		mio_cat_eq_all_medium_plane
-		mio_cat_eq_only_strategic_bomber
-	}
-
-	research_categories = { air_equipment }
-	
-	tree_header_text = {
-		text = mio_header_fighter_aircraft
-		x = 1
-	}
-
-	tree_header_text = {
-		text = mio_header_bomber_aircraft
-		x = 4
-	}
-
-	tree_header_text = {
-		text = mio_header_naval_aircraft
-		x = 7
-	}
-
-	initial_trait = {
-		name = generic_mio_initial_trait_general_aircraft_designer
-
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
-		}
-		production_bonus = {
-			production_capacity_factor = 0.03
-		}
-	}
-}
-
 #LIGHT AIRCRAFT MANUFACTURER - Based on MESSERSCHMIDT (GER)
 generic_light_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
@@ -847,49 +756,6 @@ generic_naval_aircraft_organization = {
 		}
 	}
 }
-
-
-
-#MULTI-ROLE AIRCRAFT MANUFACTURER - Based on Savoia Marchetti (ITA) & Republic
-generic_multi_role_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_3
-
-	allowed = {
-		always = yes
-	}
-
-	equipment_type = {
-		mio_cat_eq_all_small_plane
-		mio_cat_eq_all_medium_plane
-		transport_plane_equipment
-	}
-
-	research_categories = { mio_cat_all_light_aircraft_and_modules mio_cat_all_medium_aircraft_and_modules }
-	
-	tree_header_text = {
-		text = mio_header_light_aircraft
-		x = 3
-	}
-
-	tree_header_text = {
-		text = mio_header_medium_aircraft
-		x = 6
-	}
-
-	initial_trait = {
-		name = generic_mio_initial_trait_multi_role_aircraft_designer
-
-		limit_to_equipment_type = { mio_cat_eq_all_small_plane mio_cat_eq_all_medium_plane }
-
-		equipment_bonus = {
-			air_ground_attack = 0.02
-			naval_strike_attack = 0.02
-			air_attack = 0.02
-			air_defence = 0.02
-		}
-	}
-}
-
 
 #HIGH AGILITY FIGHTER AIRCRAFT MANUFACTURER - Based on Supermarine (ENG)
 generic_high_agility_fighter_aircraft_organization = {

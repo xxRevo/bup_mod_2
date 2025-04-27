@@ -78,8 +78,9 @@ characters={
 			}
 		}
 		corps_commander={
+			traits = { infantry_leader panzer_leader }
 			skill=4
-			attack_skill=2
+			attack_skill=4
 			defense_skill=4
 			planning_skill=4
 			logistics_skill=3
@@ -95,12 +96,12 @@ characters={
 				small=GFX_portrait_NZL_robert_row_small
 			}
 		}
-		corps_commander={
-			traits={ naval_invader }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=2
+	corps_commander={
+			traits = { naval_invader infantry_leader }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
 			logistics_skill=3
 			legacy_id=-1
 		}
@@ -115,8 +116,9 @@ characters={
 			}
 		}
 		corps_commander={
+			traits = { panzer_leader jungle_rat trait_engineer}
 			skill=4
-			attack_skill=2
+			attack_skill=5
 			defense_skill=4
 			planning_skill=3
 			logistics_skill=4
@@ -133,11 +135,12 @@ characters={
 			}
 		}
 		navy_leader={
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=2
+			traits = { spotter blockade_runner }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 1
+			maneuvering_skill = 9
+			coordination_skill = 62
 			legacy_id=-1
 		}
 	}
@@ -488,7 +491,7 @@ characters={
 				original_tag = NZL
 			}
 			traits = {
-				army_cavalry_2
+				army_infantry_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -512,7 +515,7 @@ characters={
 				original_tag = NZL
 			}
 			traits = {
-				air_airborne_2
+				army_commando_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -562,7 +565,7 @@ characters={
 				original_tag  = NZL
 			}
 			traits  = {
-				ideological_crusader 
+				silent_workhorse 
 			}
 		}		
 	}
@@ -581,7 +584,7 @@ characters={
 				original_tag  = NZL
 			}
 			traits  = {
-				prince_of_terror 
+				war_industrialist
 			}
 		}		
 	}
@@ -600,7 +603,7 @@ characters={
 				original_tag  = NZL
 			}
 			traits  = {
-				armaments_organizer 
+				captain_of_industry 
 			}
 		}		
 	}

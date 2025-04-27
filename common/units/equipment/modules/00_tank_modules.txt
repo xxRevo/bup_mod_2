@@ -188,7 +188,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 2
+			build_cost_ic = 1
 			breakthrough = 4
 		}
 		dismantle_cost_ic  = 2
@@ -1270,7 +1270,7 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			defense = 0.20
+			defense = 0.15
 			breakthrough = 0.15
 		}
 	}
@@ -1286,8 +1286,8 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			defense = 0.40
-			breakthrough = 0.25
+			defense = 0.3
+			breakthrough = 0.3
 		}
 	}
 
@@ -1302,8 +1302,8 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			defense = 0.60
-			breakthrough = 0.40
+			defense = 0.45
+			breakthrough = 0.45
 		}
 	}
 
@@ -1399,7 +1399,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1
-			defense = 2
 			breakthrough = 2
 		}
 		xp_cost = 0
@@ -1415,8 +1414,7 @@ equipment_modules = {
 
 		add_stats = {
 			reliability = -0.1
-			breakthrough = 2
-			defense = 2
+			breakthrough = 3
 		}
 		xp_cost = 0
 	}
@@ -1491,7 +1489,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 1
 			breakthrough = 4
-			defense = 4
+			defense = 2
 		}
 		xp_cost = 0
 		
@@ -1519,7 +1517,6 @@ equipment_modules = {
 
 		add_stats = {
 			soft_attack = 2
-			defense = 2
 			build_cost_ic = 1
 		}
 		xp_cost = 0

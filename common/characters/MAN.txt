@@ -28,14 +28,16 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=2
+			traits = { panzer_leader trait_engineer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
+	
 	MAN_zhang_jinghui={
 		name=MAN_zhang_jinghui
 		portraits={
@@ -45,15 +47,17 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
+			traits = { panzer_leader hill_fighter}
+			skill = 4
+			
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
+	
 	MAN_aisin_gioro_xiqia={
 		name=MAN_aisin_gioro_xiqia
 		portraits={
@@ -63,12 +67,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=1
+			traits = { infantry_leader commando ranger }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
 			legacy_id=-1
 		}
 	}
@@ -82,12 +86,12 @@ characters={
 		}
 		gender = female
 		corps_commander={
-			traits={ cavalry_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			traits = { organizer infantry_leader trait_mountaineer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}

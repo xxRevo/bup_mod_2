@@ -3220,7 +3220,7 @@
 		x = 30
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -3263,12 +3263,8 @@
  				id = commonwealth_research
  				bonus = 0.03
 			}
-			ENG = {
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = AST_support_the_policy_of_appeasement
-				}
-			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = AST_herbert_v_evatt
 		}
 	}
 

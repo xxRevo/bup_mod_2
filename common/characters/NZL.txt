@@ -488,7 +488,7 @@ characters={
 				original_tag = NZL
 			}
 			traits = {
-				army_cavalry_2
+				army_infantry_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -512,7 +512,7 @@ characters={
 				original_tag = NZL
 			}
 			traits = {
-				air_airborne_2
+				army_commando_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -562,7 +562,7 @@ characters={
 				original_tag  = NZL
 			}
 			traits  = {
-				ideological_crusader 
+				silent_workhorse 
 			}
 		}		
 	}
@@ -581,7 +581,7 @@ characters={
 				original_tag  = NZL
 			}
 			traits  = {
-				prince_of_terror 
+				war_industrialist
 			}
 		}		
 	}
@@ -600,7 +600,7 @@ characters={
 				original_tag  = NZL
 			}
 			traits  = {
-				armaments_organizer 
+				captain_of_industry 
 			}
 		}		
 	}

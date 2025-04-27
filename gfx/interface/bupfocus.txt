@@ -1,7 +1,0 @@
-spriteType = {
-
-	name = "GFX_goal_generic_SS_focus"
-
-	texturefile = "gfx/interface/goals/goal_generic_SS_focus.dds"
-
-}

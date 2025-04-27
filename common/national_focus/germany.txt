@@ -6871,6 +6871,7 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP }	
 
 		completion_reward = {
+			add_war_support = 0.15
 			add_named_threat = { threat = 3 }
 			42 = { set_demilitarized_zone = no }
 			51 = { set_demilitarized_zone = no }

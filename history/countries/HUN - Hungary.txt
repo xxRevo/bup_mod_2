@@ -1,5 +1,5 @@
 ﻿capital = 43 # Budapest (Northern Hungary)
-set_convoys = 20
+set_convoys = 200
 
 IF = {
 	limit = {

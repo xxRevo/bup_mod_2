@@ -295,7 +295,7 @@ set_popularities = {
 	communism = 2
 }
 
-set_convoys = 100
+set_convoys = 500
 
 1939.1.1 = {
 	set_politics = {

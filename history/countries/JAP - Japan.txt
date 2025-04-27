@@ -464,7 +464,7 @@ create_import = {
 	}
 }
 
-set_convoys = 400
+set_convoys = 1500
 
 # No more ifs needed due to integration of Tfv and Wtt :0 
 set_autonomy = {

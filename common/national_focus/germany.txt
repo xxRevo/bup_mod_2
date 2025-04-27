@@ -11005,7 +11005,7 @@ focus = {
 		}
 	}
 
-	focus = {
+focus = {
 		id = GER_ascension_of_goring
 		icon = GFX_focus_GER_ascension_of_goring
 		prerequisite = { focus = GER_fuhrerprinzip }
@@ -11142,6 +11142,7 @@ focus = {
 			}
 		}
 	}
+
 
 	focus = {
 		id = GER_prioritize_the_four_year_plan

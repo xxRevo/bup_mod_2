@@ -864,7 +864,7 @@ technologies = {
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
 		
-		research_cost = 1
+		research_cost = 2
 		start_year = 1939
 		
 		folder = {
@@ -938,8 +938,8 @@ technologies = {
 		amphibious_invasion_defence = 0.5
 		naval_invasion_capacity = 100
 
-		research_cost = 1
-		start_year = 1942
+		research_cost = 2
+		start_year = 1941
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 19 }

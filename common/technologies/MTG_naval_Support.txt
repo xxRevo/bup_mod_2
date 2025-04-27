@@ -474,7 +474,7 @@ technologies = {
 
 	improved_medium_shell = {
 
-		research_cost = 0.6
+		research_cost = 0.5
 
 		start_year = 1942
 
@@ -661,7 +661,7 @@ technologies = {
 
 		research_cost = 0.75
 
-		start_year = 1943
+		start_year = 1944
 
 		enable_equipment_modules = {
 			ship_heavy_battery_4
@@ -746,9 +746,9 @@ technologies = {
 
 	improved_heavy_shell = {
 
-		research_cost = 0.1
+		research_cost = 0.5
 
-		start_year = 1941
+		start_year = 1942
 
 		path = {
 			leads_to_tech = advanced_heavy_battery
@@ -2191,9 +2191,9 @@ technologies = {
 
 	mtg_landing_craft = {
 
-		invasion_preparation = -0.50
+		invasion_preparation = -0.25
 		amphibious_invasion_defence = 0.15
-		naval_invasion_capacity = 50
+		naval_invasion_capacity = 20
 
 		path = {
 			leads_to_tech = mtg_tank_landing_craft
@@ -2206,8 +2206,8 @@ technologies = {
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
 
-		research_cost = 1
-		start_year = 1939
+		research_cost = 2
+		start_year = 1940
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -2274,8 +2274,8 @@ technologies = {
 		amphibious_invasion_defence = 0.5
 		naval_invasion_capacity = 100
 
-		research_cost = 1
-		start_year = 1941
+		research_cost = 2
+		start_year = 1944
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 19 }

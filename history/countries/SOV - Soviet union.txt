@@ -15,7 +15,10 @@ set_party_name = {
 	long_name = SOV_fascism_party_russian_long
 	name = SOV_fascism_party_russian
 }
-
+add_timed_idea = {
+    idea = GER_no_trade_back
+    days = 1247
+}
 #COUNTRY LEADERS
 recruit_character = SOV_iosif_stalin
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus

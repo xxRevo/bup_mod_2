@@ -176,7 +176,7 @@ equipments = {
 			steel = 1
 		}
 
-		lend_lease_cost = 10
+		lend_lease_cost = 6
 
 		manpower = 2
 

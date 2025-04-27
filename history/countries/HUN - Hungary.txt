@@ -33,7 +33,10 @@ IF = {
 		}
 	}
 }
-
+add_timed_idea = {
+    idea = GER_no_trade_back
+    days = 1247
+}
 IF = {
 	limit = { has_dlc = "Man the Guns" }
 		set_technology = {

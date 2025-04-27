@@ -61,6 +61,8 @@ ideas = {
 				political_power_gain = 1
 				drift_defence_factor = 0.75
 				monthly_population = 0.15
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
 			}
 			rule = {
 				can_create_factions = yes
@@ -1334,6 +1336,7 @@ ideas = {
 				consumer_goods_expected_value = -0.05
 				agency_upgrade_time = -0.30
 				production_speed_industrial_complex_factor = 0.10
+				production_speed_arms_factory_factor = 0.10
 				production_speed_infrastructure_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -2269,9 +2272,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				air_intercept_efficiency = 0.1
-			 	air_superiority_efficiency = 0.1
-			 	air_night_penalty = -0.1
+				air_intercept_efficiency = 0.05
+			 	air_superiority_efficiency = 0.05
+			 	air_night_penalty = -0.2
 			}
 		}
 
@@ -3688,14 +3691,36 @@ ideas = {
 			picture = GER_attack_usa
 
 			modifier = {
-				naval_invasion_prep_speed = 0.25
 				naval_invasion_penalty = -0.15
 			}
 
 			targeted_modifier = {
 				tag = USA
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
+				attack_bonus_against = 0.05
+			}
+		}
+
+		GER_into_the_NA = {
+			name = GER_into_the_NA
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GER_attack_usa
+
+			targeted_modifier = {
+				tag = CAN
+				attack_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = USA
+				attack_bonus_against = 0.05
 			}
 		}
 
@@ -3764,17 +3789,30 @@ ideas = {
 			picture = generic_naval_invade_britain
 
 			modifier = {
-				marines_special_forces_contribution_factor = -0.25
-				paratroopers_special_forces_contribution_factor = -0.25
 				naval_invasion_prep_speed = 0.25
 				shore_bombardment_bonus = 0.25
 				naval_invasion_penalty = -0.15
 				air_strategic_bomber_bombing_factor = 0.1
 			}
+		}
 
-			targeted_modifier = {
-				tag = ENG
-				attack_bonus_against = 0.05
+
+		GER_no_trade_back = {
+			name = GER_no_trade_back
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_sea_focused_navy
+
+			modifier = {
+				production_lack_of_resource_penalty_factor = -1
 			}
 		}
 
@@ -3793,11 +3831,35 @@ ideas = {
 			picture = generic_sea_focused_navy
 
 			modifier = {
-				naval_invasion_prep_speed = 0.25
-				naval_invasion_penalty = -0.15
-				industrial_capacity_dockyard = 0.25
+				naval_torpedo_reveal_chance_factor = -0.10
+				navy_submarine_attack_factor = 0.05
+				navy_max_range_factor = 0.10
+				naval_invasion_prep_speed = 0.10
+				industrial_capacity_dockyard = 0.05
 			}
 		}
+		GER_crossing_the_atlantic_2_ns = {
+			name = GER_crossing_the_atlantic_2
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_sea_focused_navy
+
+			modifier = {
+				navy_submarine_attack_factor = 0.10
+				navy_max_range_factor = 0.10
+				navy_submarine_defence_factor = 0.15
+				naval_torpedo_reveal_chance_factor = -0.10
+			}
+		}
+
 
 		GER_holy_roman_empire_of_the_german_nation_idea = {
 			allowed = {

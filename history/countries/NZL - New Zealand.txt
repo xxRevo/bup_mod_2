@@ -69,7 +69,10 @@ if = {
 		mtg_transport = 1
 	}
 }
-
+add_timed_idea = {
+    idea = GER_no_trade_back
+    days = 1247
+}
 recruit_character = NZL_michael_joseph_savage
 recruit_character = NZL_sidney_holland
 recruit_character = NZL_john_ormond

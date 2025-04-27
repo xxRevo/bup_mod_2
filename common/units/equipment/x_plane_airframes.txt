@@ -201,7 +201,7 @@ equipments = {
 		sub_detection = 2.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 
 		#Space taken in convoy
-		lend_lease_cost = 8
+		lend_lease_cost = 7
 
 		build_cost_ic = 22
 		resources = {

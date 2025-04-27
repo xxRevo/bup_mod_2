@@ -1525,10 +1525,6 @@
 		}
 	}
 
-
-	
-
-
 	focus = {
 		id = FRA_reform_the_labour_laws
 		icon = GFX_goal_generic_production

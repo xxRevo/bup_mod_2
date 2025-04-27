@@ -1497,20 +1497,6 @@
 			}
 		}
 
-		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					has_completed_focus = FRA_revive_the_national_bloc
-				}
-			}
-		}
-
 		prerequisite = {}
 		mutually_exclusive = { focus = FRA_revive_the_national_bloc }
 		cost = 10
@@ -1559,7 +1545,7 @@
 							option = HIDE
 						}
 					}
-					mark_focus_tree_layout_dirty = yes
+					mark_focus_tree_layout_dirty = no
 				}
 			}
 		}
@@ -2272,21 +2258,6 @@
 			}
 		}
 
-		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					has_completed_focus = FRA_invite_communist_ministers
-					has_completed_focus = FRA_utilize_the_leagues
-				}
-			}
-		}
-
 		prerequisite = {
 			focus = FRA_reform_the_labour_laws
 			focus = FRA_protect_the_rights_of_man
@@ -2331,7 +2302,7 @@
 							option = HIDE
 						}
 					}
-					mark_focus_tree_layout_dirty = yes
+					mark_focus_tree_layout_dirty = no
 				}
 			}
 		}
@@ -2520,160 +2491,7 @@
 		}
 	}
 	
-	focus = {
-		id = FRA_leftist_rhetoric
-		icon = GFX_goal_generic_propaganda
-	 	available = {
-		}
-	 	prerequisite = { focus = FRA_form_the_popular_front }
-		x = -3
-		y = 1
-		relative_position_id = FRA_form_the_popular_front
-		cost = 10
-		allow_branch = {
-			NOT = { has_dlc = "La Resistance" }
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					has_completed_focus = FRA_revive_the_national_bloc
-				}
-			}
-		}
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 1
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_ideas = maurice_thorez
-			every_other_country = {
-				limit = { 
-					has_government = communism
-					num_of_factories > 30
-				}
-				add_opinion_modifier = { 
-					target = ROOT 
-					modifier =  FRA_leftist_rhetoric_communism
-				}
-			}
-			every_other_country = {
-				limit = { 
-					has_government = democratic
-					num_of_factories > 30
-				}
-				add_opinion_modifier = { 
-					target = ROOT
-					modifier = FRA_leftist_rhetoric_democratic
-				}
-			}
-			every_other_country = {
-				limit = { 
-					has_government = fascism
-					num_of_factories > 30
-				}
-				add_opinion_modifier = { 
-					target = ROOT 
-					modifier = FRA_leftist_rhetoric_fascism
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = FRA_national_mobilization
-		icon = GFX_goal_generic_allies_build_infantry
-	 	available = {
-	 		OR = {
-	 			has_government = communism
-	 			communism > 0.4
-	 		}
-		}
-	 	prerequisite = { focus = FRA_leftist_rhetoric }
-		x = 0
-		y = 1
-		relative_position_id = FRA_leftist_rhetoric
-		cost = 10
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 1
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			remove_ideas = FRA_disjointed_government
-			add_ideas = FRA_national_mobilization_focus
-		}
-	}
-
-	focus = {
-		id = FRA_join_comintern
-		icon = GFX_goal_support_communism
-		mutually_exclusive = { focus = FRA_humanite_unie }
-	 	available = {
-	 		is_puppet = no
-	 		is_in_faction = no
-	 		OR = {
-	 			has_government = communism
-	 			communism > 0.4
-	 		}
-	 		has_war = no
- 			SOV = {
- 				exists = yes
- 				has_government = communism
- 				is_faction_leader = yes
- 			}
-		}
-	 	prerequisite = { focus = FRA_national_mobilization }
-	 	bypass = {
-	 		is_in_faction_with = SOV
-	 	}
-		x = 1
-		y = 1
-		relative_position_id = FRA_national_mobilization
-		cost = 10
-
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 1
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			SOV = { country_event = { id = soviet.29 days = 1 } }
-		}
-	}	
-
-	focus = {
-		id = FRA_humanite_unie
-		icon = GFX_goal_generic_dangerous_deal
-		mutually_exclusive = { focus = FRA_join_comintern }
-	 	available = {
-	 		is_puppet = no
-		}
-	 	prerequisite = { focus = FRA_national_mobilization }
-		x = -1
-		y = 1
-		relative_position_id = FRA_national_mobilization
-		cost = 10
-
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 1
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			set_rule = { can_create_factions = yes }
-		}
-	}	
+		
 
 	focus = {
 		id = FRA_revive_the_national_bloc
@@ -2705,20 +2523,6 @@
 			}
 		}
 
-		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					has_completed_focus = FRA_form_the_popular_front
-				}
-			}
-		}
-
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -2743,7 +2547,7 @@
 							option = HIDE
 						}
 					}
-					mark_focus_tree_layout_dirty = yes
+					mark_focus_tree_layout_dirty = no
 				}
 			}
 		}

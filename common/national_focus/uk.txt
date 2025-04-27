@@ -1548,7 +1548,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = general_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1648,7 +1648,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = naval_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1690,7 +1690,7 @@ focus_tree = {
 			}
 		}
 		relative_position_id = naval_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1716,7 +1716,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = naval_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1769,7 +1769,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = uk_destroyer_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1795,7 +1795,7 @@ focus_tree = {
 			}
 		}
 		relative_position_id = uk_convoy_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1821,7 +1821,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = naval_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1845,7 +1845,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = uk_waves_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 0.25
 		}
@@ -1871,7 +1871,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = uk_waves_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1895,7 +1895,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = naval_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1925,7 +1925,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = uk_battleship_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -7089,10 +7089,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_new_zealand_focus_1IC
@@ -7105,47 +7105,13 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_new_zealand_focus_1IC
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
-					}
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
-						type = dockyard
+						type = industrial_complex
 						level = 2
 						instant_build = yes
 					}
-					set_state_flag = ENG_uk_new_zealand_focus_2dockyards
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_new_zealand_focus_1dockyard
+					set_state_flag = ENG_uk_new_zealand_focus_1IC
 				}
 				add_autonomy_ratio = {
 					value = -0.05
@@ -7265,47 +7231,13 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_canada_focus_1IC
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_canada_focus_1dockyard
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_canada_focus_1dockyard
 				}
 				add_autonomy_ratio = {
 					value = -0.05
@@ -7424,47 +7356,13 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_south_africa_focus_1IC
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_south_africa_focus_1dockyard
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_south_africa_focus_1dockyard
 				}
 				add_autonomy_ratio = {
 					value = -0.05

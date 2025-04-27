@@ -19,25 +19,35 @@ generic_assault_guns_organization = {
 	equipment_type = { armor }
 	research_categories = { mio_cat_tech_all_armor_and_modules }
 
-	tree_header_text = {
-		text = mio_header_light_assault_gun_department
-		x = 0.4
-	}
-
-	tree_header_text = {
-		text = mio_header_medium_assault_gun_department
-		x = 4
-	}
-
-	tree_header_text = {
-		text = mio_header_heavy_assault_gun_department
-		x = 8
-	}
-
 	initial_trait = {
 		name = generic_mio_initial_trait_assault_guns_organization
 		organization_modifier = {
 			military_industrial_organization_research_bonus = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_simplified_suspension
+		name = generic_mio_trait_simplified_suspension
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=4 y=0 }
+		
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_defensive_equipment
+		name = generic_mio_trait_defensive_equipment
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=2 y=1 }
+
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			soft_attack = 0.05
 		}
 	}
 }

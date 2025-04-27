@@ -48,6 +48,8 @@ if = { #DLC
 	add_ideas = { #DLC
 		BUL_second_national_catastrophe
 		volunteer_only
+		BUL_imro_01
+		BUL_army_restrictions_aat
 	}
 
 	#Army limitations due to Treaty of Neuilly sur Seine

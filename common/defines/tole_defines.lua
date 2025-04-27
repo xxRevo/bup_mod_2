@@ -134,8 +134,13 @@ NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 72
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 200
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.05        -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03    -- global damage modifier
+NDefines.NMilitary.COST_INCREASE_PER_ACTIVE_MEDAL = 5.0 -- medal cost multiplier per active medal	
+
 
 --naval defines
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0
@@ -330,3 +335,20 @@ NDefines.NOperatives.CRYPTO_CRYPTO_LEVEL_PER_CRYPTO_UPGRADE = 1500			-- crypto s
 NDefines.NOperatives.CRYPTO_CRYPTO_ACTIVE_BONUS_DURATION = 15
 NDefines.NOperatives.AGENCY_DEFENSE_EFFECT_ON_HOSTILE_ACTION_COST = 0.1
 NDefines.NOperatives.OPERATIVE_MAX_DAYS_TO_AUTO_RESUME_MISSION = 121
+
+-- General Farming
+NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.1
+NDefines.NMilitary.FIELD_MARSHAL_XP_RATIO = 0
+NDefines.NMilitary.UNIT_LEADER_INITIAL_TRAIT_SLOT={1, 1, 1, 0}
+NDefines.NMilitary.LEADER_EXPERIENCE_SCALE = 0.0
+NDefines.NMilitary.ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0
+NDefines.NMilitary.CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT = 0
+NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0
+NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0000
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 1000
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 1000
+NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 0
+NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0
+NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6 -- WAS 5 | We added one more support company as it feels necessary for quality tank or infantry divisions -Thrasymachus
+NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer
+NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.3

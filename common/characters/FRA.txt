@@ -140,12 +140,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist cavalry_officer war_hero trickster }
-			skill=4
-			attack_skill=4
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
+	traits = { trickster brilliant_strategist cavalry_officer war_hero infantry_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
 			legacy_id=0
 		}
 	}
@@ -159,13 +159,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer trait_cautious armor_officer }
-			skill=4
-			attack_skill=3
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=4
-			legacy_id=0
+	traits = { armor_officer trait_cautious infantry_leader commando  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
 		}
 	}
 
@@ -199,12 +198,12 @@ characters={
 		}
 
 		field_marshal={
-			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
-			skill=2
-			attack_skill=1
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=1
+	traits = { defensive_doctrine old_guard inflexible_strategist }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
 			legacy_id=0
 		}
 	}
@@ -239,12 +238,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+	traits = { defensive_doctrine old_guard inflexible_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -275,13 +274,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ old_guard trait_cautious defensive_doctrine }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=2
-			legacy_id=0
+	traits = { defensive_doctrine old_guard trait_cautious }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
 		}
 	}
 
@@ -294,13 +292,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ old_guard defensive_doctrine }
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=0
+	traits = { defensive_doctrine old_guard }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 		}
 	}
 
@@ -342,12 +339,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ media_personality harsh_leader armor_officer }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=2
+			traits = {  armor_officer media_personality panzer_leader naval_invader desert_fox }
+		skill = 5
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 			legacy_id=101
 		}
 	}
@@ -379,12 +376,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ career_officer trait_reckless armor_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=3
+	traits = {  armor_officer trait_reckless panzer_leader }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 			legacy_id=0
 		}
 	}
@@ -423,12 +420,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ career_officer trait_cautious infantry_officer trickster }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=2
+	traits = {  trickster trait_cautious infantry_officer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -460,12 +457,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ old_guard infantry_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			planning_skill=3
-			logistics_skill=3
+	traits = { old_guard infantry_officer infantry_leader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 			legacy_id=0
 		}
 	}

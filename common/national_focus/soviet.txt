@@ -2099,6 +2099,12 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_dive_bombers
+				bonus = 0.5
+				uses = 1
+				category = light_air
+			}
 			set_variable = { SOV_soviet_airforce_aircraft_manufacturer_cost_factor = -0.25 }
 			custom_effect_tooltip = SOV_expand_the_aircraft_industry_ns_tt
 

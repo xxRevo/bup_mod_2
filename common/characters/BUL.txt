@@ -93,21 +93,6 @@ characters = {
 		}
 	}
 
-	BUL_nikola_mushanov = { #BFTB only
-		name = BUL_nikola_mushanov
-		portraits = {
-			civilian = {
-				large = "GFX_portrait_bul_nikola_mushanov"
-			}
-		}
-
-		country_leader={
-			ideology=liberalism
-			traits={ appeaser }
-			expire="1965.1.1"
-			id=-1
-		}
-	}
 	
 	BUL_hristo_lukov = {
 		instance = {
@@ -844,7 +829,6 @@ characters = {
 					original_tag = BUL
 				}
 				available = {
-					has_country_flag = BUL_zveno_bolstered_flag
 				}
 				traits = {
 					army_chief_offensive_2
@@ -1316,7 +1300,6 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				has_government = communism
 			}
 			traits = {
 				army_entrenchment_2
@@ -1344,7 +1327,6 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				has_country_flag = BUL_zveno_bolstered_flag
 			}
 			traits = {
 				army_armored_2
@@ -1376,7 +1358,6 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				has_country_flag = BUL_zveno_bolstered_flag
 			}
 			traits = {
 				army_infantry_2
@@ -1513,50 +1494,6 @@ characters = {
 		}
 	}
 
-	BUL_stoycho_mushanov = {
-		advisor = {
-			slot = political_advisor
-			idea_token = BUL_stoycho_mushanov
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-			}
-			traits = {
-				democratic_reformer 
-			}
-			ai_will_do = {
-				base = 1.000
-				modifier = {
-					factor = 2.000
-					OR = {
-						BUL_is_democratic_socialist_ai = yes 
-						BUL_is_democratic_liberal_ai = yes 
-					}
-					NOT = {
-						has_government = democratic 
-					}
-				}
-				modifier = {
-					factor = 0
-					NOT = {
-						OR = {
-							BUL_is_democratic_socialist_ai = yes 
-							BUL_is_democratic_liberal_ai = yes 
-						}
-					}
-				}
-			}
-		}
-		name = BUL_stoycho_mushanov
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_stoycho_mushanov"
-			}
-		}
-	}
-
 	BUL_nikola_petkov = {
 		instance = {
 			allowed = {
@@ -1642,7 +1579,6 @@ characters = {
 					original_tag = BUL
 				}
 				available = {
-					has_completed_focus = BUL_democratic_principles 
 				}
 				traits = {
 					compassionate_gentleman 
@@ -1696,7 +1632,6 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				has_completed_focus = BUL_democratic_principles 
 			}
 			traits = {
 				industry_reformer 
@@ -1764,109 +1699,6 @@ characters = {
 		}
 	}
 
-	BUL_vasil_kolarov = {
-		advisor = {
-			slot = political_advisor
-			idea_token = BUL_vasil_kolarov
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-				NOT = {
-					has_completed_focus = BUL_power_to_the_tsar 
-				}
-			}
-			traits = {
-				communist_revolutionary 
-			}
-			ai_will_do = {
-				base = 1.000
-				modifier = {
-					factor = 3.000
-					OR = {
-						BUL_is_communist_stalinist_ai = yes 
-						BUL_is_communist_balkan_ai = yes 
-					}
-				}
-				modifier = {
-					factor = 0
-					NOT = {
-						OR = {
-							BUL_is_communist_stalinist_ai = yes 
-							BUL_is_communist_balkan_ai = yes 
-						}
-					}
-				}
-			}
-		}
-		name = BUL_vasil_kolarov
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_vasil_kolarov"
-			}
-		}
-	}
-
-	BUL_valko_chervenkov = {
-		advisor = {
-			slot = political_advisor
-			idea_token = BUL_valko_chervenkov
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-				has_completed_focus = BUL_appoint_communist_ministers 
-			}
-			traits = {
-				captain_of_industry 
-			}
-			ai_will_do = {
-				base = 1.000
-			}
-		}
-		name = BUL_valko_chervenkov
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_valko_chervenkov"
-			}
-		}
-	}
-
-	BUL_todor_pavlov = {
-		advisor = {
-			slot = political_advisor
-			idea_token = BUL_todor_pavlov
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-				has_country_flag = BUL_appointed_bs_members_flag 
-				NOT = {
-					has_government = fascism 
-				}
-			}
-			traits = {
-				marxist_philosopher 
-			}
-			ai_will_do = {
-				base = 3.000
-				modifier = {
-					factor = 0
-					BUL_is_historical_ai = yes
-					#NOT = { has_completed_focus = BUL_illusions_of_a_non_partisan_system } #Better not to hire him Boris, he'll definitely make it easier for the Fatherland Front later on, even though you won't be there to see it
-				}
-			}
-		}
-		name = BUL_todor_pavlov
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_todor_pavlov"
-			}
-		}
-	}
 
 	BUL_ivan_dochev = {
 		advisor = {
@@ -1877,12 +1709,10 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				NOT = {
-					has_completed_focus = BUL_oppose_the_royal_dictatorship 
 				}
-			}
+			
 			traits = {
-				fascist_demagogue 
+				silent_workhorse 
 			}
 			ai_will_do = {
 				base = 1.000
@@ -1906,6 +1736,7 @@ characters = {
 				small = "GFX_idea_bul_ivan_dochev"
 			}
 		}
+	 
 	}
 
 	BUL_aleksandar_tsankov = {
@@ -2293,8 +2124,6 @@ characters = {
 			}
 		}
 	}
-
 }
-
 
 

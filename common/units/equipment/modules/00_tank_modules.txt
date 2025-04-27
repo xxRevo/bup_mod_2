@@ -1198,7 +1198,7 @@ equipment_modules = {
 			hard_attack = 2
 			ap_attack = 60
 			build_cost_ic = 7
-			maximum_speed = -6.2
+			maximum_speed = -14.2
 			reliability = -0.3
 			breakthrough = -4
 		}

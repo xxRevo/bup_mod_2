@@ -214,12 +214,12 @@ characters = {
 		}
 
 		field_marshal = {
-			traits = { old_guard inflexible_strategist politically_connected defensive_doctrine organizer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	traits = { defensive_doctrine infantry_leader commando organizer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
 			legacy_id = 0
 		}
 	}
@@ -249,12 +249,12 @@ characters = {
 		}
 		
 		field_marshal = {
-			traits = { old_guard trait_cautious politically_connected defensive_doctrine }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	traits = { infantry_leader defensive_doctrine old_guard politically_connected trait_cautious cavalry_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
 			legacy_id = 0
 		}
 	}
@@ -295,13 +295,13 @@ characters = {
 			}
 		}
 		
-		field_marshal = {
-			traits = { career_officer politically_connected trait_reckless media_personality }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+		corps_commander = {
+	traits = { politically_connected infantry_leader }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 7
+	planning_skill = 1
+	logistics_skill = 1
 			legacy_id = 0
 			visible = {
 				ITA_is_advisor_available = yes
@@ -341,12 +341,13 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { armor_officer war_hero }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 4
+	traits = {  panzer_leader panzer_expert desert_fox trait_engineer }
+	skill = 5
+	rank = 1
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
 			legacy_id = 0
 		}
 	}
@@ -375,13 +376,13 @@ characters = {
 			}
 		}
 		
-		corps_commander = {
-			traits = { old_guard career_officer trait_cautious organisational_leader }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 3
+		field_marshal = {
+		traits = {  old_guard trait_cautious infantry_leader urban_assault_specialist trait_engineer }
+		skill = 5
+		attack_skill = 5
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 5
 			legacy_id = 0
 		}
 	}
@@ -396,12 +397,12 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { inflexible_strategist career_officer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	traits = { inflexible_strategist infantry_leader desert_fox }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
 			legacy_id = 0
 		}
 	}
@@ -416,12 +417,12 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { career_officer trait_cautious }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	traits = { trait_cautious naval_invader infantry_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
 			legacy_id = 0
 			visible = { has_government = fascism }
 		}
@@ -964,12 +965,12 @@ characters = {
 		}
 		
 		navy_leader = {
-			traits = { battleship_adherent superior_tactician spotter }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 3
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
 			legacy_id = 0
 		}
 	}
@@ -1000,12 +1001,12 @@ characters = {
 		}
 		
 		navy_leader = {
-			traits = { gentlemanly superior_tactician }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
+	traits = { gentlemanly green_water_expert inshore_fighter }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 6
+	coordination_skill = 2
 			legacy_id = 0
 		}
 	}
@@ -1056,12 +1057,12 @@ characters = {
 		}
 
 		navy_leader = {
-			traits = { aviation_enthusiast blockade_runner }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 4
-			coordination_skill = 2
+	traits = { }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 6
+	coordination_skill = 2
 			legacy_id = 0
 		}
 	}
@@ -1092,12 +1093,12 @@ characters = {
 		}
 		
 		navy_leader = {
-			traits = { gunnery_expert battleship_adherent ironside }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			maneuvering_skill = 2
-			coordination_skill = 1
+	traits = { battleship_adherent ironside superior_tactician }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 1
 			legacy_id = 0
 		}
 	}
@@ -1126,12 +1127,12 @@ characters = {
 		}
 
 		navy_leader = {
-			traits = { bold navy_career_officer superior_tactician spotter }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			maneuvering_skill = 3
-			coordination_skill = 1
+	traits = { superior_tactician spotter seawolf }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 6
+	coordination_skill = 7
 			legacy_id = 0
 			visible = { has_government = fascism }
 		}

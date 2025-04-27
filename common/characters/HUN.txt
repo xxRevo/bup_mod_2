@@ -628,11 +628,12 @@ characters = {
 			}
 
 			corps_commander = {
-				skill = 3
-				attack_skill = 3
-				defense_skill = 2
-				planning_skill = 3
-				logistics_skill = 2
+	traits = { infantry_leader infantry_expert }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 				legacy_id = -1 
 			}
 
@@ -653,12 +654,12 @@ characters = {
 			
 			# Will be upgradeable through various focuses
 			corps_commander = {
-				traits = { trait_HUN_vitez infantry_officer }
-				skill = 2
-				attack_skill = 2
-				defense_skill = 1
-				planning_skill = 2
-				logistics_skill = 2
+	traits = { infantry_leader infantry_expert }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 				legacy_id = -1 
 				visible = {
 					NOT = {
@@ -688,12 +689,12 @@ characters = {
 			}
 
 			corps_commander = {
-				traits = { trickster }
-				skill = 4
-				attack_skill = 3
-				defense_skill = 4
-				planning_skill = 2
-				logistics_skill = 4
+	traits = {  trait_engineer panzer_leader urban_assault_specialist trickster}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
 				legacy_id = -1
 			}
 
@@ -714,12 +715,12 @@ characters = {
 
 			# Will be upgradeable thorugh the focus tree
 			corps_commander = {
-				traits = { trickster }
-				skill = 2
-				attack_skill = 2
-				defense_skill = 1
-				planning_skill = 2
-				logistics_skill = 2
+	traits = {  trait_engineer panzer_leader urban_assault_specialist trickster}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
 				legacy_id = -1
 			}
 
@@ -762,11 +763,12 @@ characters = {
 			}
 
 			corps_commander = {
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
+	traits = { cavalry_leader  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 4
 				legacy_id = -1
 			}
 
@@ -1365,12 +1367,12 @@ characters = {
 		}
 		
 		field_marshal = {
-			traits = { infantry_leader organizer inspirational_leader aggressive_assaulter }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 4
+	traits = { panzer_leader ranger organizer trait_engineer }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
 			legacy_id = -1
 			visible = {
 				OR = {
@@ -2349,12 +2351,12 @@ characters = {
 			}
 
 			field_marshal = {
-				traits = { trait_HUN_fascist_sympathies }
-				skill = 3
-				attack_skill = 3
-				defense_skill = 2
-				planning_skill = 3
-				logistics_skill = 2
+	traits = {  trait_engineer panzer_leader urban_assault_specialist media_personality}
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
 				legacy_id = -1
 				visible = {
 					OR = {
@@ -2761,10 +2763,16 @@ characters = {
 			ai_will_do = {
 				base = 1
 			}
-
 		}
-
+	corps_commander = {
+		traits = {   panzer_leader trickster trait_reckless ranger harsh_leader war_hero}
+		skill = 4
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 4
 	}
+}
 
 	HUN_kalman_daranyi = {
 		instance = {

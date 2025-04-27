@@ -112,12 +112,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ logistics_wizard offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+	traits = { commando panzer_leader trait_engineer ranger infantry_leader}
+	skill = 4
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -131,12 +131,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
+	traits = { swamp_fox infantry_leader trickster panzer_leader }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -214,12 +214,12 @@ characters={
 		}
 
 		corps_commander={
-			traits={ infantry_expert }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=2
+	traits = {  infantry_leader trickster panzer_leader}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
 			legacy_id=-1
 		}
 		
@@ -252,12 +252,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+	traits = { infantry_leader organizer panzer_leader trait_engineer}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -399,11 +399,12 @@ characters={
 		}
 
 		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=3
+	traits = { naval_invader infantry_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
 			legacy_id=-1
 		}
 	}

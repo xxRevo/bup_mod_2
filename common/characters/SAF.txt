@@ -95,8 +95,8 @@ characters={
 		}
 	}
 	
-	SAF_Hasan_Abi={
-		name=SAF_Hasan_Abi
+	SAF_dan_pienaar={
+		name=SAF_dan_pienaar
 		portraits={
 			army={
 				large="GFX_RAJ_noel_beresford_peirse"

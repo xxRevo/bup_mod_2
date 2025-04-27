@@ -1,7 +1,7 @@
 state = {
 	id = 46
 	name = "STATE_46" # Muntenia
-	manpower = 3971400 # was 4461400
+	manpower = 9971400 # was 4461400
 	resources = {
 		oil = 130 # was: 70
 	}

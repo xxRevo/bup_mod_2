@@ -293,7 +293,7 @@ focus_tree = {
 					}
 					is_on_continent = asia
 				}
-				add_compliance = 70
+				add_compliance = 50
 			}
 			
 		

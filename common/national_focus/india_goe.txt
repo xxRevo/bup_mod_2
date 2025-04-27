@@ -27,7 +27,7 @@ focus_tree = {
         x = 0
         y = 0
         mutually_exclusive = { focus = RAJ_keep_british_generals }
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7327,7 +7327,7 @@ focus_tree = {
         y = 8
         relative_position_id = RAJ_purna_swaraj
         mutually_exclusive = { focus = RAJ_league_against_gandhism }
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7480,7 +7480,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_purna_swaraj
        
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7520,7 +7520,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_uplifting_the_people_of_india
        
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7553,7 +7553,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_mahatma
        
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7629,7 +7629,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_swadeshi_movement
        
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7665,7 +7665,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_form_a_federal_court
        
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7743,7 +7743,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_litteracy_effort
        
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7791,7 +7791,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_indo_centric_curriculum
        
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7838,7 +7838,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_enrollment_of_dali_children
        
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -7903,7 +7903,7 @@ focus_tree = {
         y = 2
         relative_position_id = RAJ_boycott_british_made_goods
        
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -8254,7 +8254,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_tenancy_reforms
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -8373,7 +8373,7 @@ focus_tree = {
         relative_position_id = RAJ_agricultural_cooperatives
 
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -8437,7 +8437,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_cottage_industries
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -8484,7 +8484,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_temple_entry_movements
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -8537,7 +8537,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_sikh_religious_guarantees
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -8783,7 +8783,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_a_congress_resurgent
         mutually_exclusive = { focus = RAJ_two_nation_theory_dlc }
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -8816,7 +8816,7 @@ focus_tree = {
         y = 0
         relative_position_id = RAJ_india_united
         mutually_exclusive = { focus = RAJ_india_united }
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -13242,7 +13242,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_two_nation_theory_dlc
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -13575,7 +13575,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_the_pakistan_movement
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -13863,7 +13863,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_inclusive_nationalism
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -13903,7 +13903,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_haripura_session_of_the_indian_national_congress
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -14109,7 +14109,7 @@ focus_tree = {
         }
 
         available = {
-
+        always = no
         }
         
         bypass = {
@@ -15444,7 +15444,7 @@ focus_tree = {
         relative_position_id = RAJ_indianize_the_army
         mutually_exclusive = { focus = RAJ_indianize_the_army }
 
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -15581,7 +15581,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_learn_from_the_crown
 
-        cost = 10
+        cost = 5
 
         available = {
             ENG = {
@@ -15615,7 +15615,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_learn_from_the_crown
 
-        cost = 10
+        cost = 5
 
         available = {
             has_manpower > 100000
@@ -15726,7 +15726,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_colonial_cadet_exchange
 
-        cost = 10
+        cost = 5
 
         available = {
             is_in_faction_with = ENG
@@ -16087,7 +16087,7 @@ focus_tree = {
         relative_position_id = RAJ_east_india_railways_dlc
         
         prerequisite = { focus =  RAJ_east_india_railways_dlc }
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -16997,7 +16997,7 @@ focus_tree = {
         y = 2
         relative_position_id = RAJ_military_pensions
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -17169,7 +17169,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_armoured_corps_center_and_school 
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -17210,7 +17210,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_mechanization_of_the_cavalry
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -17319,7 +17319,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_royal_indian_artillery_dlc
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -17496,7 +17496,7 @@ focus_tree = {
         y = 2
         relative_position_id = RAJ_the_burma_rifles
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -17847,7 +17847,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_indian_territorial_force
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -17940,7 +17940,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_east_india_railways_dlc
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -17988,7 +17988,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_bombay_baroda_and_central_india_railway
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -18226,7 +18226,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_mechanization_of_the_cavalry
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -18484,7 +18484,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_ordnance_factory_medak   
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -18600,7 +18600,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_gun_and_shell_factory_cossipore
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1
@@ -19002,7 +19002,7 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_gun_and_shell_factory_cossipore
         
-        cost = 10
+        cost = 5
 
         ai_will_do = {
             factor = 1

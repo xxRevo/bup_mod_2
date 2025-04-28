@@ -732,7 +732,9 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1940
-
+		allow = { 
+			date > 1938.1.1 
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1940 }
@@ -892,7 +894,9 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1943
-
+		allow = { 
+			date > 1941.1.1 
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1943 }
@@ -1177,6 +1181,9 @@ technologies = {
 
 		research_cost = 2.5
 		start_year = 1940
+		allow = { 
+			date > 1938.1.1 
+		}
 
 		folder = {
 			name = nsb_armour_folder
@@ -1259,6 +1266,9 @@ technologies = {
 
 		research_cost = 2.5
 		start_year = 1943
+		allow = { 
+			date > 1941.1.1 
+		}
 
 		folder = {
 			name = nsb_armour_folder

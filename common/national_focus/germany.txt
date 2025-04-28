@@ -9705,9 +9705,6 @@ focus = {
 					amount = 10
 					state = 64
 				}
-			SOV = {
-				give_resource_rights = { receiver = GER state = 229 }
-			}
 		}
 	}
 

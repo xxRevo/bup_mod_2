@@ -6871,6 +6871,7 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP }	
 
 		completion_reward = {
+			sound_effect = rhineland
 			add_war_support = 0.15
 			add_named_threat = { threat = 3 }
 			42 = { set_demilitarized_zone = no }
@@ -7124,6 +7125,7 @@ focus = {
 		}
 
 		completion_reward = {
+			sound_effect = anscluss
 			add_named_threat = { threat = 5 }
 			GER_add_or_modify_military_intelligence_service = yes
 			add_to_variable = { 
@@ -8212,6 +8214,7 @@ focus = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ANNEXATION }
 		
 		completion_reward = {
+			sound_effect = ww2_begins
 			ENG = {
 				add_to_faction = POL
 			}
@@ -9626,7 +9629,8 @@ focus = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ANNEXATION }
 
 		completion_reward = {
-				GER={declare_war_on = { target = SOV type = annex_everything }}
+			sound_effect = barbarossa_begin
+			GER={declare_war_on = { target = SOV type = annex_everything }}
 			IF = {
 				limit = {
 					KUB = {
@@ -9701,9 +9705,6 @@ focus = {
 					amount = 10
 					state = 64
 				}
-			SOV = {
-				give_resource_rights = { receiver = GER state = 229 }
-			}
 		}
 	}
 

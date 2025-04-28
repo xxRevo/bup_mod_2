@@ -1,0 +1,45 @@
+########################BRUH #########################
+sound = {
+	name = "barbarossa_begin"
+	file = "rm_sound/barbarossa_begin.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "pacific_begin"
+	file = "rm_sound/pacific_begin.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "soviet_begin"
+	file = "rm_sound/soviet_begin.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "anscluss"
+	file = "rm_sound/anscluss.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "marco_polo"
+	file = "rm_sound/marco_polo.wav"
+	always_load = yes
+}
+sound = {
+	name = "ww2_begins"
+	file = "rm_sound/ww2_begins.wav"
+	always_load = yes
+}
+sound = {
+	name = "rhineland"
+	file = "rm_sound/rhineland.wav"
+	always_load = yes
+}
+sound = {
+	name = "soviet_debuffs"
+	file = "rm_sound/soviet_debuffs.wav"
+	always_load = yes
+}

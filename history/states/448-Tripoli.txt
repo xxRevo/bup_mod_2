@@ -6,9 +6,9 @@ state={
 	
 	state_category = town
 	resources={
-		oil = 20
-		rubber = 35
-		tungsten=50.000 #added due to Portugal Setup
+		oil = 10
+		rubber = 18
+		tungsten=25
 	}
 	history={
 		owner = ITA

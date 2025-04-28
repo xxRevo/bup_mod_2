@@ -120,7 +120,9 @@ ideas = {
 		low_economic_mobilisation = {
 
 			available = {
-				has_war_support > 0.15
+				GER = {
+					has_completed_focus = GER_remilitarize_the_rhineland
+				}
 				
 				IF = {
 					limit = {
@@ -246,7 +248,9 @@ ideas = {
 		partial_economic_mobilisation = {
 
 			available = {
-				has_war_support > 0.25
+				GER = {
+					has_completed_focus = GER_anschluss
+				}
 
 				IF = {
 					limit = {

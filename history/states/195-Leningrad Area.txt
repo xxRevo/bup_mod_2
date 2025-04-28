@@ -5,7 +5,10 @@ state={
 	manpower = 3750158
 	
 	state_category = metropolis
-
+	resources={
+		steel=40
+		aluminum = 20 # was: 24
+	}
 	history={
 		owner = SOV
 		victory_points = {

@@ -5,7 +5,11 @@ state={
 	manpower = 82535
 	
 	state_category = wasteland
-
+	resources={
+		oil = 10
+		rubber = 18
+		tungsten=25
+	}
 	history={
 		owner = ITA
 		

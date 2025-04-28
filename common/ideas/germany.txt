@@ -180,6 +180,40 @@ ideas = {
 				can_create_factions = yes
 			}
 		}
+
+		ger_soft = {
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			equipment_bonus = {
+			armor = {
+				instant = yes
+				soft_attack = 0.10
+			}
+		}
+		}
+
+		ger_hard = {
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			equipment_bonus = {
+			armor = {
+				instant = yes
+				hard_attack = 0.10
+			}
+		}
+		}
 		
 		general_staff = {
 			

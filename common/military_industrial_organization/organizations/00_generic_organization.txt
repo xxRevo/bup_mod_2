@@ -1772,16 +1772,6 @@ generic_artillery_organization = {
 	research_categories = {
 		mio_cat_all_artillery_equipment
 	}
-	
-	tree_header_text = {
-		text = mio_header_mechanical_design
-		x = 1
-	}
-
-	tree_header_text = {
-		text = mio_header_armament_and_ammunition
-		x = 6
-	}
 
 	initial_trait = {
 		name = generic_mio_initial_trait_artillery_manufacturer
@@ -1789,8 +1779,88 @@ generic_artillery_organization = {
 		organization_modifier = {
 			military_industrial_organization_research_bonus = 0.05
 		}
-		production_bonus = {
-			production_cost_factor = -0.03
+	}
+
+	trait = {
+		token = generic_mio_trait_simplified_suspension
+		name = generic_mio_trait_mobile_limbers
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=4 y=0 }
+		
+		equipment_bonus = {
+			breakthrough = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_defensive_equipment
+		name = generic_mio_trait_stable_platforms
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=2 y=1 }
+
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			defense = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_crew_ergonomics
+		name = generic_mio_trait_advanced_anti_air_targeting
+		icon = GFX_generic_mio_department_icon_anti_air
+
+		position = { x=6 y=1 }
+
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			air_attack = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_anti_tank_specialization
+		name = generic_mio_trait_improved_direct_fire_targeting
+		icon = GFX_generic_mio_department_icon_anti_tank
+
+		position = { x=0 y=2 }
+
+		any_parent = { generic_mio_trait_defensive_equipment }
+		
+		equipment_bonus = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_tooling
+		name = generic_mio_trait_improved_hydraulic_recoil_system
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		any_parent = { generic_mio_trait_improved_crew_ergonomics }
+
+		position = { x=8 y=2 }
+
+		equipment_bonus = {
+			reliability = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_close_support_role
+		name = generic_mio_trait_sliding_breech_block
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		
+		position = { x=4 y=3 }
+	
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			soft_attack = 0.1
 		}
 	}
 }
@@ -1812,18 +1882,6 @@ generic_infantry_equipment_organization = {
 	}
 	research_categories = { infantry_weapons }
 
-	
-
-	tree_header_text = {
-		text = mio_header_design_and_production
-		x = 3
-	}
-
-	tree_header_text = {
-		text = mio_header_anti_tank
-		x = 8
-	}
-
 	initial_trait = {
 		name = generic_mio_initial_trait_infantry_manufacturer
 
@@ -1834,46 +1892,89 @@ generic_infantry_equipment_organization = {
 		production_bonus = {
 			production_efficiency_cap_factor = 0.03
 		}
+	}
 
+	trait = {
+		token = generic_mio_trait_simplified_suspension
+		name = generic_mio_trait_medium_machineguns
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=4 y=0 }
+		
 		equipment_bonus = {
+			breakthrough = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_defensive_equipment
+		name = generic_mio_trait_drum_pattern_sights
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=2 y=1 }
+
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			defense = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_crew_ergonomics
+		name = generic_mio_trait_anti_vechicle_land_mines
+		icon = GFX_generic_mio_department_icon_infantry_quality
+
+		position = { x=6 y=1 }
+
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			hard_attack = 0.03
 			soft_attack = 0.03
 		}
 	}
-}
 
+	trait = {
+		token = generic_mio_trait_anti_tank_specialization
+		name = generic_mio_trait_armor_piercing_rounds
+		icon = GFX_generic_mio_trait_icon_ap_attack
 
-###################################
-######## Support Equipment ########
-###################################
+		position = { x=0 y=2 }
 
-generic_support_equipment_organization = {
-	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
-
-	allowed = {
-		always = yes
+		any_parent = { generic_mio_trait_defensive_equipment }
+		
+		equipment_bonus = {
+			hard_attack = 0.07
+			ap_attack = 0.1
+		}
 	}
 
-	equipment_type = { infantry_equipment support_equipment }
-	research_categories = { infantry_weapons support_tech }
+	trait = {
+		token = generic_mio_trait_improved_tooling
+		name = generic_mio_trait_mass_rifle_production
+		icon = GFX_generic_mio_department_icon_facilities
 
+		any_parent = { generic_mio_trait_improved_crew_ergonomics }
+
+		position = { x=8 y=2 }
+
+		equipment_bonus = {
+			build_cost_ic = -0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_close_support_role
+		name = generic_mio_trait_semi_auto
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		
+		position = { x=4 y=3 }
 	
-
-	tree_header_text = {
-		text = mio_header_support
-		x = 1
-	}
-
-	tree_header_text = {
-		text = mio_header_weapons
-		x = 6.5
-	}
-
-	
-	initial_trait = {
-		name = generic_mio_initial_trait_support_equipment_manufacturer
-
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			soft_attack = 0.07
 		}
 	}
 }
@@ -1899,18 +2000,6 @@ generic_motorized_mechanized_organization = {
 	research_categories = {
 		mio_cat_tech_all_motorized_mechanized
 	}
-
-	
-
-	tree_header_text = {
-		text = mio_header_motorized
-		x = 1
-	}
-
-	tree_header_text = {
-		text = mio_header_mechanized
-		x = 7
-	}
 	
 	initial_trait = {
 		name = generic_mio_initial_trait_motorized_mechanized_manufacturer
@@ -1920,91 +2009,6 @@ generic_motorized_mechanized_organization = {
 		}
 	}
 }
-
-
-
-######################
-#### Armored Car  ####
-######################
-
-
-generic_armored_car_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_1
-
-	allowed = {
-		always = yes
-	}
-
-	equipment_type = { armored_car_equipment }
-	research_categories = { cat_armored_cars }
-
-	tree_header_text = {
-		text = mio_header_design_and_production
-		x = 3
-	}
-
-	tree_header_text = {
-		text = mio_header_equipment_and_specialization
-		x = 7
-	}
-
-	
-	initial_trait = {
-		name = generic_mio_initial_trait_armored_car_manufacturer
-		equipment_bonus = {
-			armor_value = 0.05
-			defense =0.05
-			build_cost_ic = -0.05
-		}
-	}
-}
-
-#####################
-#### Helicopter  ####
-#####################
-
-
-generic_helicopter_organization = {
-	icon = GFX_idea_generic_helicopter_1
-
-	allowed = {
-		always = yes
-	}
-
-	equipment_type = { helicopter_equipment }
-	research_categories = { helicopter_tech } 
-
-	tree_header_text = {
-		text = mio_header_tandem_rotor
-		x = 1
-	}
-
-	tree_header_text = {
-		text = mio_header_single_rotor
-		x = 3
-	}
-
-	tree_header_text = {
-		text = mio_header_engines
-		x = 5
-	}
-
-	tree_header_text = {
-		text = mio_header_production
-		x = 7
-	}
-
-	initial_trait = {
-		name = generic_mio_initial_trait_helicopter_manufacturer
-		equipment_bonus = {
-			build_cost_ic = -0.05
-		}
-	}
-}
-
-
-
-
 
 
 ##       ####  ######  ########     #######  ########     ######  ########    ###    ########  ######

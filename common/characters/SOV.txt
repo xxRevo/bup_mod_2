@@ -494,21 +494,7 @@ characters = {
 				original_tag = SOV
 			}
 			available = {
-				hidden_trigger = {
-					NOT = {
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 405.000
-						}
-					}
-				}
-				if = {
-					limit = {
-						has_character_flag = SOV_exiled_flag
-					}
-					NOT = { has_character_flag = SOV_exiled_flag }
-				}
+				has_completed_focus = SOV_military_education
 			}
 			traits = {
 				army_chief_drill_1

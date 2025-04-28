@@ -246,6 +246,10 @@ technologies = {
 			cv_small_plane_naval_bomber_airframe_2
 			cv_small_plane_suicide_airframe_2
 		}
+		enable_equipment_modules = {
+			engine_3_1x
+			engine_3_2x
+		}
 	
 		path = {
 			leads_to_tech = advanced_small_airframe
@@ -326,6 +330,10 @@ technologies = {
 			cv_small_plane_cas_airframe_3
 			cv_small_plane_naval_bomber_airframe_3
 			cv_small_plane_suicide_airframe_3
+		}
+		enable_equipment_modules = {
+			engine_4_1x
+			engine_4_2x
 		}
 		
 		path = {
@@ -574,6 +582,12 @@ technologies = {
 			medium_plane_fighter_airframe_2
 			medium_plane_scout_plane_airframe_2
 		}
+
+		enable_equipment_modules = {
+			engine_3_2x
+			engine_3_3x
+			engine_3_4x
+		}
 	
 		path = {
 			leads_to_tech = advanced_medium_airframe
@@ -636,6 +650,11 @@ technologies = {
 			medium_plane_airframe_3
 			medium_plane_fighter_airframe_3
 			medium_plane_scout_plane_airframe_3
+		}
+		enable_equipment_modules = {
+			engine_4_2x
+			engine_4_3x
+			engine_4_4x
 		}
 		
 		path = {
@@ -838,6 +857,10 @@ technologies = {
 			large_plane_airframe_2
 			large_plane_maritime_patrol_plane_airframe_2
 		}
+		enable_equipment_modules = {
+			engine_3_4x
+			engine_3_6x
+		}
 	
 		path = {
 			leads_to_tech = advanced_large_airframe
@@ -884,6 +907,10 @@ technologies = {
 		enable_equipments = {
 			large_plane_airframe_3
 			large_plane_maritime_patrol_plane_airframe_3
+		}
+			enable_equipment_modules = {
+			engine_4_4x
+			engine_4_6x
 		}
 		
 		path = {
@@ -1325,7 +1352,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1939
+		start_year = 1936
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1373,7 +1400,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1939
+		start_year = 1936
 
 		folder = {
 			name = bba_air_techs_folder

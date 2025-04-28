@@ -59,7 +59,7 @@ technologies = {
 
 		xp_research_type = army
 		xp_unlock_cost = 100
-		
+		additional_brigade_column_size = 1
 		category_all_infantry = {
 			max_organisation = 15
 		}
@@ -546,7 +546,7 @@ technologies = {
 		}
 		# faster planning
 		planning_speed = 0.2
-		additional_brigade_column_size = 1
+		
 		
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -946,6 +946,7 @@ technologies = {
 	sup_delay = {
 		xp_research_type = army
 		xp_unlock_cost = 100
+		additional_brigade_column_size = 1
 		category_light_infantry = {
 			max_organisation = 10
 		}
@@ -1431,8 +1432,6 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		land_reinforce_rate = 0.02
-
-		additional_brigade_column_size = 1
 	
 		enable_tactic = tactic_tactical_withdrawal
 		
@@ -1668,8 +1667,6 @@ technologies = {
 			max_organisation = 2
 			default_morale = 0.05
 		}
-
-		additional_brigade_column_size = 1
 		
 		enable_tactic = tactic_tactical_withdrawal
 		
@@ -1827,6 +1824,7 @@ technologies = {
 	
 		xp_research_type = army
 		xp_unlock_cost = 100
+		additional_brigade_column_size = 1
 		path = {
 			leads_to_tech = prepared_defense 
 			research_cost_coeff = 1
@@ -1986,8 +1984,7 @@ technologies = {
 		armored_car = {
 			max_organisation = 5
 		}
-		
-		additional_brigade_column_size = 1
+	
 
 		enable_tactic = tactic_blitz
 		enable_tactic = tactic_elastic_defense
@@ -2322,8 +2319,6 @@ technologies = {
 		category_cavalry = {
 			breakthrough = 0.05
 		}
-
-		additional_brigade_column_size = 1
 		
 		enable_tactic = tactic_infantry_charge
 		
@@ -2699,6 +2694,7 @@ technologies = {
 		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
 		no_supply_grace = 48 # more hours before supply penalty changes
 		out_of_supply_factor = -0.10
+		additional_brigade_column_size = 1
 				
 		path = {
 			leads_to_tech = defence_in_depth
@@ -2798,7 +2794,6 @@ technologies = {
 
 		supply_consumption_factor = -0.10
 
-		additional_brigade_column_size = 1
 
 		enable_tactic = tactic_relentless_assault
 		enable_tactic = tactic_sf_barrage
@@ -3213,7 +3208,6 @@ technologies = {
 		#Land Units take less attrition
 		attrition = -0.1 #take 10% less attrition losses
 
-		additional_brigade_column_size = 1
 		
 		enable_tactic = tactic_human_wave_tactics
 		

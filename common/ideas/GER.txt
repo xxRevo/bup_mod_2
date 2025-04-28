@@ -3816,6 +3816,28 @@ ideas = {
 			}
 		}
 
+		GER_peace_time_train = {
+			name = GER_peace_time_train
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_sea_focused_navy
+
+			modifier = {
+				air_training_xp_gain_factor = 10
+				training_time_factor = -0.75
+				experience_gain_navy_unit_factor = 10
+				
+			}
+		}
+
 		GER_crossing_the_atlantic_ns = {
 			name = GER_crossing_the_atlantic
 			allowed = {

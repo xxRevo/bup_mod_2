@@ -42,6 +42,10 @@ add_timed_idea = {
     idea = GER_no_trade_back
     days = 1247
 }
+add_timed_idea = {
+	idea = GER_peace_time_train
+	days = 1180
+}
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.6

@@ -26,6 +26,10 @@ add_timed_idea = {
     idea = GER_no_trade_back
     days = 1247
 }
+add_timed_idea = {
+	idea = GER_peace_time_train
+	days = 1760
+}
 IF = {
 	limit = { has_dlc = "Waking the Tiger" }
 	add_ideas = {

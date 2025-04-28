@@ -109,12 +109,6 @@ focus_tree = {
 
         }
 
-        allow_branch = {
-            NOT = {
-                has_completed_focus = RAJ_provincial_autonomy
-            }
-        }
-
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -179,11 +173,6 @@ focus_tree = {
 
         }
 
-        allow_branch = {
-            NOT = { has_completed_focus = RAJ_look_to_the_future }
-            NOT = { has_completed_focus = RAJ_provincial_autonomy }
-        }
-
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -235,11 +224,6 @@ focus_tree = {
         
         bypass = {
 
-        }
-
-        allow_branch = {
-            NOT = { has_completed_focus = RAJ_look_to_the_past }
-            NOT = { has_completed_focus = RAJ_provincial_autonomy }
         }
 
         cancel_if_invalid = yes
@@ -6796,12 +6780,6 @@ focus_tree = {
             is_subject = no
         }
 
-        allow_branch = {
-            NOT = {
-                has_completed_focus = RAJ_great_depression_price_controls
-            }
-        }
-
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -7254,10 +7232,6 @@ focus_tree = {
 
         }
 
-        allow_branch = {
-            NOT = { has_completed_focus = RAJ_league_against_gandhism }
-            NOT = { has_completed_focus = RAJ_great_depression_price_controls }
-        }
 
         cancel_if_invalid = yes
         continue_if_invalid = no
@@ -7311,11 +7285,6 @@ focus_tree = {
         
         bypass = {
 
-        }
-
-        allow_branch = {
-            NOT = { has_completed_focus = RAJ_mahatma }
-            NOT = { has_completed_focus = RAJ_great_depression_price_controls }
         }
 
         cancel_if_invalid = yes
@@ -8548,12 +8517,6 @@ focus_tree = {
 
         }
 
-        allow_branch = {
-            NOT = { has_completed_focus = RAJ_mahatma }
-            NOT = { has_completed_focus = RAJ_great_depression_price_controls }
-            NOT = { has_completed_focus = RAJ_red_in_the_shadows }
-        }
-
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -8766,12 +8729,6 @@ focus_tree = {
         
         bypass = {
 
-        }
-
-        allow_branch = {
-            NOT = { has_completed_focus = RAJ_mahatma }
-            NOT = { has_completed_focus = RAJ_great_depression_price_controls }
-            NOT = { has_completed_focus = RAJ_forward_bloc }
         }
 
         cancel_if_invalid = yes
@@ -13926,10 +13883,6 @@ focus_tree = {
         bypass = {
 
         }
-
-        allow_branch = {
-            has_country_flag = gandhi_survives_assasination_attempt
-        }
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -15578,10 +15531,6 @@ focus_tree = {
         relative_position_id = RAJ_colonial_cadet_exchange
 
         cost = 5
-
-        allow_branch = {
-            has_dlc = "La Resistance"
-        }
 
         bypass = {
 

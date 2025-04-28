@@ -253,7 +253,7 @@ set_popularities = {
 	democratic = 100
 }
 
-set_convoys = 70
+set_convoys = 300
 
 1939.1.1 = {
 	set_politics = {

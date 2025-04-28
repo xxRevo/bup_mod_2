@@ -1,0 +1,103 @@
+# MAIN THEME
+
+music = {
+	name = "Over There"
+	file = "Over_There.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Battle Hymn Of The Republic"
+	file = "Battle Hymn Of The Republic.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Britain, Ask Of Thyself"
+	file = "Britain, Ask Of Thyself.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Eternal Father"
+	file = "Eternal Father.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "God Bless America"
+	file = "God Bless America.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Heart of Oak"
+	file = "Heart of Oak.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Hymn to the Fallen"
+	file = "Hymn to the Fallen.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "I Vow To The My Country"
+	file = "I Vow To The My Country.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Land Of Hope & Glory"
+	file = "Land Of Hope & Glory.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Nimrod"
+	file = "Nimrod.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Nothing Can Stop the Army Air Corps"
+	file = "Nothing Can Stop the Army Air Corps.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Semper Paratus"
+	file = "Semper Paratus.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "OverThere"
+	file = "Over_There.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "The British Grenadiers Song"
+	file = "The British Grenadiers Song.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "US Field Artillery March"
+	file = "US Field Artillery March.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "When Johnny Comes Marching Home"
+	file = "When Johnny Comes Marching Home.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Yankee Doodle"
+	file = "Yankee Doodle.ogg"
+	volume = 0.65
+}

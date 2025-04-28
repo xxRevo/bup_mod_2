@@ -49,6 +49,7 @@ if = { #DLC
 		BUL_second_national_catastrophe
 		volunteer_only
 		BUL_army_restrictions_aat
+		partial_economic_mobilisation
 	}
 
 	#Army limitations due to Treaty of Neuilly sur Seine

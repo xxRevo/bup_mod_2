@@ -1,0 +1,68 @@
+soundeffect = {
+	name = "barbarossa_begin"
+	sounds = {
+		sound = 
+			barbarossa_begin
+	}
+	volume = 0.80
+}
+
+soundeffect = {
+	name = "pacific_begin"
+	sounds = {
+		sound = 
+			pacific_begin
+	}
+	volume = 0.95
+}
+
+soundeffect = {
+	name = "soviet_begin"
+	sounds = {
+		sound = 
+			soviet_begin
+	}
+	volume = 0.95
+}
+
+soundeffect = {
+	name = "anscluss"
+	sounds = {
+		sound = 
+			anscluss
+	}
+	volume = 0.95
+}
+
+soundeffect = {
+	name = "marco_polo"
+	sounds = {
+		sound = 
+			marco_polo
+	}
+	volume = 0.95
+}
+soundeffect = {
+	name = "rhineland"
+	sounds = {
+		sound = 
+			rhineland
+	}
+	volume = 0.95
+}
+soundeffect = {
+	name = "ww2_begins"
+	sounds = {
+		sound = 
+			ww2_begins
+	}
+	volume = 0.95
+}
+soundeffect = {
+	name = "soviet_debuffs"
+	sounds = {
+		sound = 
+			soviet_debuffs
+	}
+	volume = 0.95
+}

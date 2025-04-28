@@ -154,6 +154,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
+		
+		sound_effect = marco_polo
 
 		add_threat = 8	
         transfer_state = 608
@@ -496,7 +498,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-
+		sound_effect = pacific_begin
 		JAP = { 
 						add_timed_idea = { idea = JAP_banzai days = 180 }
 						add_ideas = closed_economy

@@ -115,42 +115,6 @@ focus_tree = {
             }
         }
 
-        offset = {
-            x = 29
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAJ_great_depression_price_controls
-            }
-        }
-
-        offset = {
-            x = 15
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAJ_look_to_the_future
-            }
-        }
-
-        offset = {
-            x = 13
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAJ_look_to_the_past
-            }
-        }
-
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -220,18 +184,6 @@ focus_tree = {
             NOT = { has_completed_focus = RAJ_provincial_autonomy }
         }
 
-        offset = {
-            x = 7
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAJ_look_to_the_past
-            }
-        }
-
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -288,18 +240,6 @@ focus_tree = {
         allow_branch = {
             NOT = { has_completed_focus = RAJ_look_to_the_past }
             NOT = { has_completed_focus = RAJ_provincial_autonomy }
-        }
-
-        offset = {
-            x = -17
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAJ_look_to_the_future
-            }
         }
 
         cancel_if_invalid = yes
@@ -7097,33 +7037,6 @@ focus_tree = {
         y = 1
         relative_position_id = RAJ_great_depression_price_controls 
 
-        offset = {
-            x = -6
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAJ_great_depression_price_controls
-            }
-        }
-
-        offset = {
-            x = -12
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                OR = {
-                    has_completed_focus = RAJ_look_to_the_past
-                    has_completed_focus = RAJ_look_to_the_future
-                }
-            }
-        }
-
         cost = 5
 
         ai_will_do = {
@@ -7248,7 +7161,7 @@ focus_tree = {
     focus = {
         id = RAJ_purna_swaraj
         icon = GFX_focus_RAJ_pruna_swaraj
-        prerequisite = { focus = RAJ_provincial_autonomy }#focus = RAJ_renegotiate_adens_control focus = RAJ_hand_over_aden_to_the_crown  }
+        prerequisite = { focus = RAJ_provincial_autonomy }  
         #prerequisite = { focus = RAJ_extended_franchise }
         x = 0
         y = 1
@@ -8117,30 +8030,6 @@ focus_tree = {
         
         bypass = {
 
-        }
-
-        offset = {
-            x = -13
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAJ_red_in_the_shadows
-            }
-        }
-
-        offset = {
-            x = -10
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAJ_forward_bloc
-            }
         }
 
         cancel_if_invalid = yes

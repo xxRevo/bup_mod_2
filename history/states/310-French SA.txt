@@ -5,7 +5,10 @@ state={
 	manpower = 47341
 
 	state_category = pastoral
-
+	resources = {
+		aluminium = 64 # was: 70
+		steel = 64
+	}
 	history={
 		owner = FRA
 		buildings = {

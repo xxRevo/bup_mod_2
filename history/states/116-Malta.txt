@@ -4,6 +4,9 @@ state=
 	name="STATE_116"
 	manpower = 241621
 	state_category = small_island
+	resources={
+		oil=5
+	}
 	history= {
 		owner = ENG
 		victory_points = {

@@ -1837,8 +1837,8 @@ operation_steal_tech_civilian = { ### 12 3/35
 	desc = operation_steal_tech_civilian_desc
 	priority = 12
 
-	days = 120
-	network_strength = 35
+	days = 180
+	network_strength = 75
 	operatives = 3
 	cost_multiplier = 0.05
 
@@ -1862,7 +1862,7 @@ operation_steal_tech_civilian = { ### 12 3/35
 	required_tokens = {
 		token_civilian
 	}
-	risk_chance = 0.2
+	risk_chance = 0.5
 	experience = 2
 	outcome_extra_chance = 0.25
 	risk_modifiers = { operation_steal_tech_risk operation_risk }
@@ -2407,8 +2407,8 @@ operation_steal_tech_army = { ### 16 3/55
 	desc = operation_steal_tech_army_desc
 	priority = 16
 
-	days = 120
-	network_strength = 50
+	days = 180
+	network_strength = 90
 	operatives = 3
 	cost_multiplier = 0.05
 
@@ -2432,7 +2432,7 @@ operation_steal_tech_army = { ### 16 3/55
 	required_tokens = {
 		token_army
 	}
-	risk_chance = 0.2
+	risk_chance = 0.5
 	experience = 2
 	risk_modifiers = { operation_steal_tech_risk operation_risk }
 	outcome_extra_chance = 0.25
@@ -2686,8 +2686,8 @@ operation_steal_tech_navy = { ### 17 3/55
 	desc = operation_steal_tech_navy_desc
 	priority = 17
 
-	days = 120
-	network_strength = 50
+	days = 180
+	network_strength = 90
 	operatives = 3
 	cost_multiplier = 0.05
 
@@ -2711,7 +2711,7 @@ operation_steal_tech_navy = { ### 17 3/55
 	required_tokens = {
 		token_navy
 	}
-	risk_chance = 0.2
+	risk_chance = 0.5
 	experience = 2
 	outcome_extra_chance = 0.25
 	risk_modifiers = { operation_steal_tech_risk operation_risk }
@@ -2922,8 +2922,8 @@ operation_steal_tech_airforce = { ### 18 3/55
 	desc = operation_steal_tech_airforce_desc
 	priority = 18
 
-	days = 120
-	network_strength = 50
+	days = 180
+	network_strength = 90
 	operatives = 3
 	cost_multiplier = 0.05
 
@@ -2947,7 +2947,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 	required_tokens = {
 		token_airforce
 	}
-	risk_chance = 0.2
+	risk_chance = 0.5
 	experience = 2
 	outcome_extra_chance = 0.25
 	risk_modifiers = { operation_steal_tech_risk operation_risk }	

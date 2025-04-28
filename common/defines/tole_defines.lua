@@ -153,6 +153,12 @@ NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3        	-- how often car
 NDefines.NAir.AIR_WING_MAX_SIZE = 6400
 NDefines.NAir.THRUST_WEIGHT_AGILITY_FACTOR = 0 -- For plane designs, additive agility bonus per point of thrust exceeding weight #was 0.5
 
+--Logistics
+NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.02
+NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_INFRA_DAMAGE_SPILL_FACTOR = 0
+NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_RAILWAY_DAMAGE_SPILL_FACTOR = 0
+NDefnies.NAir.AIR_WING_ATTACK_LOGISTICS_DIRECT_DISRUPTION_DAMAGE_FACTOR = 0
+
 NDefines.NProject.RECRUIT_SCIENTIST_COST = {						-- Amount of pp to hire a scientist based on available scientist
 		0,			-- pp cost if no available scientist
 		0,			-- pp cost if 1 available scientist
@@ -171,7 +177,7 @@ NDefines.NNavy.CARRIER_STACK_PENALTY = 6
 NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.40				-- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 3.0	-- this screen ratio to num capital/carriers is needed for full screening beyond screen line
 NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CARRIERS = 2.0
-NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0						-- down from 0.02 | Chances one ship get damage each hour while on training 		 0.0001	
+NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0.02						-- down from 0.02 | Chances one ship get damage each hour while on training 		 0.0001	
 NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 800
 NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 1
 NDefines.NNavy.SUPREMACY_PER_SHIP_PER_MANPOWER = 0.0							-- supremacy of a ship is calculated using its IC, manpower and a base define

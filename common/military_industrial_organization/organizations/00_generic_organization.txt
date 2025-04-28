@@ -8,114 +8,12 @@
    ##    ##     ## ##   ### ##   ##  ##    ## 
    ##    ##     ## ##    ## ##    ##  ######  
 
-# ASSAULT GUNS DESIGNER / MANUFACTURER
-generic_assault_guns_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
-
-	allowed = {
-		NOT = { original_tag = GER }
-	}
-
-	equipment_type = { armor }
-	research_categories = { mio_cat_tech_all_armor_and_modules }
-
-	initial_trait = {
-		name = generic_mio_initial_trait_assault_guns_organization
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_simplified_suspension
-		name = generic_mio_trait_simplified_suspension
-		icon = GFX_generic_mio_trait_icon_reliability
-
-		position = { x=4 y=0 }
-		
-		equipment_bonus = {
-			reliability = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_defensive_equipment
-		name = generic_mio_trait_defensive_equipment
-		icon = GFX_generic_mio_department_icon_tank_general_weapons
-
-		position = { x=2 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			soft_attack = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_improved_crew_ergonomics
-		icon = GFX_generic_mio_trait_icon_breakthrough
-
-		position = { x=6 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			breakthrough = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_engine_output
-		name = generic_mio_trait_improved_engine_output
-		icon = GFX_generic_mio_trait_icon_maximum_speed
-
-		position = { x=0 y=2 }
-
-		any_parent = { generic_mio_trait_defensive_equipment }
-		
-		equipment_bonus = {
-			maximum_speed = 0.05
-			fuel_consumption = -0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_tooling
-		name = generic_mio_trait_improved_tooling
-		icon = GFX_generic_mio_department_icon_tank_general_technology
-
-		any_parent = { generic_mio_trait_improved_crew_ergonomics }
-
-		position = { x=8 y=2 }
-
-		equipment_bonus = {
-			build_cost_ic = -0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_close_support_role
-		name = generic_mio_trait_close_support_role
-		icon = GFX_generic_mio_trait_icon_soft_attack
-		
-		position = { x=4 y=3 }
-	
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			soft_attack = 0.1
-		}
-	}
-}
-
 # MOBILE TANK DESIGNER / FAST TANK DESIGNER - Based on Hotchkiss (FRA)
 generic_mobile_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = GER original_tag = AST } }
 	}
 
 	equipment_type = { armor }
@@ -211,7 +109,6 @@ generic_mobile_tank_organization = {
 		}
 	}
 }
-
 
 # MEDIUM TANK DESIGNER - Based on Army Ordnance Department (USA)
 generic_medium_tank_organization = {
@@ -420,6 +317,107 @@ generic_heavy_tank_organization = {
 	}
 }
 
+# ASSAULT GUNS DESIGNER / MANUFACTURER
+generic_assault_guns_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_3
+
+	allowed = {
+		NOT = { original_tag = GER }
+	}
+
+	equipment_type = { armor }
+	research_categories = { mio_cat_tech_all_armor_and_modules }
+
+	initial_trait = {
+		name = generic_mio_initial_trait_assault_guns_organization
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_simplified_suspension
+		name = generic_mio_trait_simplified_suspension
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=4 y=0 }
+		
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_defensive_equipment
+		name = generic_mio_trait_defensive_equipment
+		icon = GFX_generic_mio_department_icon_tank_general_weapons
+
+		position = { x=2 y=1 }
+
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_crew_ergonomics
+		name = generic_mio_trait_improved_crew_ergonomics
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=6 y=1 }
+
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			breakthrough = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_engine_output
+		name = generic_mio_trait_improved_engine_output
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=2 }
+
+		any_parent = { generic_mio_trait_defensive_equipment }
+		
+		equipment_bonus = {
+			maximum_speed = 0.05
+			fuel_consumption = -0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_improved_tooling
+		name = generic_mio_trait_improved_tooling
+		icon = GFX_generic_mio_department_icon_tank_general_technology
+
+		any_parent = { generic_mio_trait_improved_crew_ergonomics }
+
+		position = { x=8 y=2 }
+
+		equipment_bonus = {
+			build_cost_ic = -0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_close_support_role
+		name = generic_mio_trait_close_support_role
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		
+		position = { x=4 y=3 }
+	
+		any_parent = { generic_mio_trait_simplified_suspension }
+		
+		equipment_bonus = {
+			soft_attack = 0.1
+		}
+	}
+}
 
 ### TANK REFURBISHMENT PLANT - Based on Mytishchi
 generic_tank_refurbishment_plant_organization = {
@@ -547,7 +545,7 @@ generic_battle_line_ship_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_2
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = GER original_tag = AST } }
 	}
 
 	equipment_type = {
@@ -765,7 +763,7 @@ generic_raider_ship_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_3
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = GER original_tag = AST } }
 	}
 
 	equipment_type = {
@@ -991,7 +989,7 @@ generic_light_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = GER original_tag = AST } }
 	}
 
 	equipment_type = {
@@ -1749,7 +1747,7 @@ generic_infantry_equipment_organization = {
 	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = GER original_tag = AST } }
 	}
 
 	equipment_type = {

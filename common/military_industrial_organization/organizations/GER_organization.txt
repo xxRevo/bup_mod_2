@@ -14,10 +14,38 @@
 
  #################### 
 
+#Benz 
+GER_daimler_benz_organization = {
+	include = generic_mobile_tank_organization
+	icon = GFX_idea_GER_daimler_benz
+	
+	allowed = {	
+			original_tag = GER 
+		}
+}
+
+GER_man_organization = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_GER_MAN
+	
+	allowed = {	
+			original_tag = GER 
+	}
+}
 
 GER_porsche_organization = {
 	include = generic_heavy_tank_organization
 	icon = GFX_idea_porsche
+	
+	allowed = {	
+		original_tag = GER 
+	}
+}
+
+#Alkett
+GER_alkett_organization = {
+	include = generic_assault_guns_organization
+	icon = GFX_idea_GER_alkett
 	
 	allowed = {	
 		original_tag = GER 
@@ -33,36 +61,6 @@ GER_henschel_organization = {
 	}
 }
 
-GER_man_organization = {
-	include = generic_medium_tank_organization
-	icon = GFX_idea_GER_MAN
-	
-	allowed = {	
-			original_tag = GER 
-	}
-}
-
-#Alkett
-GER_alkett_organization = {
-	include = generic_assault_guns_organization
-	icon = GFX_idea_GER_alkett
-	
-	allowed = {	
-		original_tag = GER 
-	}
-}
-
-#Benz 
-GER_daimler_benz_organization = {
-	include = generic_mobile_tank_organization
-	icon = GFX_idea_GER_daimler_benz
-	
-	allowed = {	
-			original_tag = GER 
-		}
-}
-
-
 #####################
 
  ## #  # ### ###   ## 
@@ -73,18 +71,19 @@ GER_daimler_benz_organization = {
  
 #####################
 
-GER_deschimag_organization = {
-	include = generic_escort_ship_organization
-	icon = GFX_idea_GER_deschimag
-	allowed = {	
-		original_tag = GER 
-	}
-}
 
 GER_germaniawerft_organization = {
 	include = generic_battle_line_ship_organization
 	icon = GFX_idea_germaniawerft
 	
+	allowed = {	
+		original_tag = GER 
+	}
+}
+
+GER_deschimag_organization = {
+	include = generic_escort_ship_organization
+	icon = GFX_idea_GER_deschimag
 	allowed = {	
 		original_tag = GER 
 	}
@@ -192,20 +191,20 @@ GER_heinkel_organization = {
 
 ###################################
 
-GER_rheinmetall_organization = {
-	include = generic_artillery_organization
-	icon = GFX_idea_rheinmetall
-	
-	allowed = {	
-			original_tag = GER 
-	}
-}
-
 GER_mauser_organization = {
 	include = generic_infantry_equipment_organization
 	icon = GFX_idea_mauser
 	
 	allowed = {	 
+			original_tag = GER 
+	}
+}
+
+GER_rheinmetall_organization = {
+	include = generic_artillery_organization
+	icon = GFX_idea_rheinmetall
+	
+	allowed = {	
 			original_tag = GER 
 	}
 }

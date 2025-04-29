@@ -136,7 +136,7 @@ equipments = {
 		
 		build_cost_ic = 1800
 		resources = {
-			steel = 1
+			steel = 2
 		}
 		
 		manpower = 600
@@ -246,7 +246,7 @@ equipments = {
 		sub_detection = 2
 		manpower = 1200
 		resources = {
-			steel = 2
+			steel = 3
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit

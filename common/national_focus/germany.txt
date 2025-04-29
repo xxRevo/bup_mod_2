@@ -8572,7 +8572,15 @@ focus = {
 			GER={declare_war_on = { target = HOL type = annex_everything }}
 			GER={declare_war_on = { target = BEL type = annex_everything }}
 			GER={declare_war_on = { target = LUX type = annex_everything }}
-
+			ENG = {
+				add_to_faction = HOL
+			}
+			ENG = {
+				add_to_faction = BEL
+			}
+			ENG = {
+				add_to_faction = LUX
+			}
 			hidden_effect = {
 				news_event = { hours = 6 id = news.234 }
 			}
@@ -8707,7 +8715,12 @@ focus = {
 			}
 			GER={declare_war_on = { target = NOR type = annex_everything }}
 			GER={declare_war_on = { target = DEN type = annex_everything }}
-
+			ENG = {
+				add_to_faction = NOR
+			}
+			ENG = {
+				add_to_faction = DEN
+			}
 			
 			add_tech_bonus = {
 				name = tp_bonus
@@ -9253,6 +9266,8 @@ focus = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }	
 		
 		completion_reward = {
+			ENG = {
+				add_to_faction = YUG }
 			declare_war_on = {
 				target = YUG  # Country tag to declare war on (e.g. GER, SOV, USA)
 				type = annex_everything
@@ -9294,6 +9309,8 @@ focus = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 
 		completion_reward = {
+			ENG = {
+				add_to_faction = GRE }
 			declare_war_on = {
 				target = GRE  # Country tag to declare war on (e.g. GER, SOV, USA)
 				type = annex_everything

@@ -42,8 +42,8 @@ if = {
 	}
 }
 add_timed_idea = {
-    idea = GER_no_trade_back
-    days = 1247
+	idea = GER_peace_time_train
+	days = 1760
 }
 set_research_slots = 4
 set_stability = 0.75

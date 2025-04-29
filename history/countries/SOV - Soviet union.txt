@@ -29,7 +29,10 @@ if = {
 	recruit_character = SOV_provisional_government # United Exiles
 	set_country_flag = vlasov_owner_flag
 }
-
+add_timed_idea = {
+	idea = GER_peace_time_train
+	days = 1960
+}
 #POLITICAL ADVISORS
 recruit_character = SOV_mikhail_kalinin
 recruit_character = SOV_nikita_khrushchyov

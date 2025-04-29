@@ -3175,11 +3175,6 @@ focus = {
 			show_ideas_tooltip = erwin_rommel
 
 			custom_effect_tooltip = generic_skip_one_line_tt
-
-			custom_effect_tooltip = GER_unlock_operational_planning_blitzkrieg_tt
-			effect_tooltip = { #This is done for tooltip purposes
-				add_dynamic_modifier = { modifier = GER_blitzkrieg_modifier }
-			}
 		}
 	}
 	
@@ -7793,64 +7788,13 @@ focus = {
 		}
 	}
 
-	focus = {
-		id = GER_the_supreme_leader
-		icon = GFX_focus_GER_the_supreme_leader
-		prerequisite = { focus = GER_an_invincible_army }
-		x = -1
-		y = 1
-		relative_position_id = GER_an_invincible_army
-		cost = 5
-		available = {
-			surrender_progress < 0.01
-			has_full_control_of_state = 16
-		}
-
-		search_filters = {}
-
-		completion_reward = {
-			if = {
-				limit = {
-					has_country_leader_with_trait = GER_supreme_commander_armed_forces
-				}
-				random_character = {
-					limit = {
-						is_country_leader = yes
-					}
-					swap_country_leader_traits = {
-						remove = GER_supreme_commander_armed_forces
-						add = GER_supreme_leader
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					NOT = { has_completed_focus = GER_an_invincible_army }
-				}
-				effect_tooltip = {
-					random_character = {
-						limit = {
-							is_country_leader = yes
-						}
-						swap_country_leader_traits = {
-							remove = GER_supreme_commander_armed_forces
-							add = GER_supreme_leader
-						}
-					}
-				}
-			}
-			else = {
-				add_country_leader_trait = GER_supreme_leader
-			}
-		}
-	}
 
 	focus = {
 		id = GER_the_triumphant_will
 		icon = GFX_goal_support_fascism
 		prerequisite = { focus = GER_an_invincible_army }
 
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = GER_an_invincible_army
 		cost = 5
@@ -8318,15 +8262,6 @@ focus = {
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 	completion_reward = {
 	HUN = { 
-		country_event = { id = wtt_germany.72 }
-		if = {
-			limit = {
-				has_dlc = "Death or Dishonor" 
-				is_subject = no
-			}
-			GER =  { set_autonomy = { target = HUN autonomy_state = autonomy_satellite } }
-		}
-
 		random_owned_controlled_state = {
 			add_extra_state_shared_building_slots = 3
 			add_building_construction = {
@@ -8355,16 +8290,7 @@ focus = {
 	}
 				
 			
-	ROM = { 
-		country_event = { id = wtt_germany.72 }
-		if = {
-			limit = {
-				has_dlc = "Death or Dishonor" 
-				is_subject = no
-			}
-			GER =  { set_autonomy = { target = ROM autonomy_state = autonomy_satellite } }
-		}
-			
+	ROM = { 			
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
@@ -8400,14 +8326,6 @@ focus = {
 			
 			
 		BUL = { 
-			country_event = { id = wtt_germany.72 }
-			if = {
-				limit = {
-					has_dlc = "Death or Dishonor" 
-					is_subject = no
-				}
-				GER =  { set_autonomy = { target = BUL autonomy_state = autonomy_satellite } }		
-			}
 			random_owned_controlled_state = {
 			add_extra_state_shared_building_slots = 2
 				add_building_construction = {

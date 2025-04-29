@@ -927,7 +927,6 @@ leader_traits = {
 			org_loss_when_moving = -0.30
 		}
 		
-		attack_skill = 1
 		
 		slot = army_chief
 		specialist_advisor_trait = army_chief_offensive_1

@@ -46,6 +46,10 @@ if = {
 		set_character_flag = SOV_exiled_army_leader
 	}
 }
+add_timed_idea = {
+	idea = GER_peace_time_train
+	days = 1660
+}
 
 set_convoys = 5
 

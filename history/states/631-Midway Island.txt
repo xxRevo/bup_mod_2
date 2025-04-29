@@ -5,7 +5,11 @@ state=
 	manpower=2159	
 	state_category = tiny_island
 	resources={
-		oil=20
+		oil=5
+		tungsten = 5
+		steel = 5
+		rubber = 5
+		aliminium = 5
 	}
 
 	history={

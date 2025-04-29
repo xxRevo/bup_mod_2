@@ -268,14 +268,14 @@ NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 1.5
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 30.0								-- Multiplier for the critical damage. Scaled down with the ship reliability.
 
 --- Naval Defines Related to USW and ASW 
-NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 15
-NDefines.NNavy.ESCAPE_SPEED_SUB_BASE = 0.06 -- 
-NDefines.NNavy.ESCAPE_SPEED_HIDDEN_SUB = 0.0 -- (as above but for subs submerged retreating)
+NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 45
+NDefines.NNavy.ESCAPE_SPEED_SUB_BASE = -3.8 -- 
+NDefines.NNavy.ESCAPE_SPEED_HIDDEN_SUB = -0.8 -- (as above but for subs submerged retreating)
 NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 20		-- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide.
 NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 16		-- Amount of in-game-hours that makes the submarine visible if it is on the defender side.
-NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 10		-- Base factor for submarine detection, modified by the difference of a spotter's submarines detection vs submarine visibility. Setting this too low will cause bad spotting issues.
-NDefines.NNavy.SUBMARINE_REVEAL_POW = 2.0		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
-NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.05		
+NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 20		-- Base factor for submarine detection, modified by the difference of a spotter's submarines detection vs submarine visibility. Setting this too low will cause bad spotting issues.
+NDefines.NNavy.SUBMARINE_REVEAL_POW = 4.0		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
+NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.1		
 
 -- Naval Defines Aircraft vs Subs
 NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_MAX = 10.0

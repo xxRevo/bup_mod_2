@@ -887,22 +887,22 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = rubber
-				amount = -20
+				amount = -9
 				state = 448
 			}	
 			add_resource = {
 				type = rubber
-				amount = 20
+				amount = 9
 				state = 159
 			}	
 			add_resource = {
 				type = oil
-				amount = -13
+				amount = -5
 				state = 448
 			}	
 			add_resource = {
 				type = oil
-				amount = 13
+				amount = 5
 				state = 159
 			}
 		}
@@ -927,22 +927,22 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = rubber
-				amount = -25
+				amount = -9
 				state = 448
 			}	
 			add_resource = {
 				type = rubber
-				amount = 25
+				amount = 9
 				state = 159
 			}	
 			add_resource = {
 				type = oil
-				amount = -20
+				amount = -5
 				state = 448
 			}	
 			add_resource = {
 				type = oil
-				amount = 20
+				amount = 5
 				state = 159
 			}
 		}

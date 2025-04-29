@@ -2707,13 +2707,56 @@ focus_tree = {
 		}
 
 		available = {
-			date > 1940.12.1
-			date < 1942.1.1
-			
+			date > 1940.9.1
+			date < 1941.1.1
+
 			OR = {
 				AND = {
-					USA = { num_of_naval_factories < 220 }	
-					JAP = { num_of_naval_factories > 99 }				
+					JAP = { num_of_naval_factories > 100 }
+					USA = { num_of_naval_factories < 50 }
+					ENG = { num_of_naval_factories < 50 }
+				}
+				AND = {
+					JAP = { num_of_naval_factories > 150 }
+						OR = {
+							AND = {
+								USA = { num_of_naval_factories < 100 }
+								ENG = { num_of_naval_factories < 50 }
+							}
+							AND = {
+								USA = { num_of_naval_factories < 75 }
+								ENG = { num_of_naval_factories < 75 }
+							}
+							AND = {
+								USA = { num_of_naval_factories < 50 }
+								ENG = { num_of_naval_factories < 100 }
+							}
+						}
+				}
+				AND = {
+					JAP = { num_of_naval_factories > 200 }
+					OR = {
+						AND = {
+							USA = { num_of_naval_factories < 150 }
+							ENG = { num_of_naval_factories < 50 }
+						}
+						AND = {
+							USA = { num_of_naval_factories < 125 }
+							ENG = { num_of_naval_factories < 75 }
+						}
+						AND = {
+							USA = { num_of_naval_factories < 100 }
+							ENG = { num_of_naval_factories < 100 }
+						}
+						AND = {
+							USA = { num_of_naval_factories < 75 }
+							ENG = { num_of_naval_factories < 125 }
+						}
+						AND = {
+							USA = { num_of_naval_factories < 50 }
+							ENG = { num_of_naval_factories < 150 }
+						}
+					}
 				}
 			}
 		}

@@ -91,6 +91,7 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
+	marines = 1
 }
 
 if = {
@@ -129,6 +130,7 @@ if = {
 		basic_battery = 1
 		basic_torpedo = 1
 		basic_depth_charges = 1
+		transport = 1
 	}
 }
 

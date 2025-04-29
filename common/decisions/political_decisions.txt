@@ -1865,7 +1865,6 @@ political_actions = {
         modifier = {
             special_project_speed_factor = 0.02
             research_speed_factor = 0.05
-            stability_factor = -0.05
         }
 
         remove_trigger = {
@@ -1928,7 +1927,6 @@ political_actions = {
         modifier = {
         	special_project_speed_factor = 0.02
             research_speed_factor = 0.05
-            stability_factor = -0.05
         }
 
         remove_trigger = {

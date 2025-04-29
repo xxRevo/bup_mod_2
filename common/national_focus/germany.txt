@@ -9266,6 +9266,8 @@ focus = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }	
 		
 		completion_reward = {
+			ENG = {
+				add_to_faction = YUG }
 			declare_war_on = {
 				target = YUG  # Country tag to declare war on (e.g. GER, SOV, USA)
 				type = annex_everything
@@ -9307,6 +9309,8 @@ focus = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 
 		completion_reward = {
+			ENG = {
+				add_to_faction = GRE }
 			declare_war_on = {
 				target = GRE  # Country tag to declare war on (e.g. GER, SOV, USA)
 				type = annex_everything

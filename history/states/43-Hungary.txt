@@ -4,7 +4,7 @@ state={
 	name="STATE_43" # Northern Hungary
 	manpower = 9750752
 	resources={
-		steel=6 #was 3 was: 4
+		steel=25 #was 3 was: 4
 		aluminium=140 # was: 194
 	}
 	

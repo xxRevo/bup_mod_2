@@ -3,6 +3,13 @@ state = {
 	name = "STATE_285"
 	state_category = large_city
 	manpower = 20563100
+	resources={
+		oil=20
+		tungsten = 15
+		steel = 15
+		rubber = 5
+		aliminium = 20
+	}
 
 	history = {
 

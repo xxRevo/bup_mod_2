@@ -1,9 +1,3 @@
-@tank_hoesch_X = 9
-@tank_hoesch_Y = 0
-
-@aircraft_hamburger_X = 9
-@aircraft_hamburger_Y = 0
-
 #####################
 
 ###  ##  #  # # #  ## 
@@ -14,50 +8,56 @@
 
  #################### 
 
-GER_daimler_benz_organization = {
+
+USA_marmon_herrington_organization = {
 	include = generic_mobile_tank_organization
-	icon = GFX_idea_GER_daimler_benz
+	icon = GFX_idea_marmon_herrington
 	
 	allowed = {	
-			original_tag = GER 
+			original_tag = USA 
 		}
 }
 
-GER_man_organization = {
+USA_chrysler_organization = {
 	include = generic_medium_tank_organization
-	icon = GFX_idea_GER_MAN
+	icon = GFX_idea_chrysler
 	
 	allowed = {	
-			original_tag = GER 
+			original_tag = USA 
 	}
 }
 
-GER_porsche_organization = {
+USA_army_ordnance_department_organization = {
 	include = generic_heavy_tank_organization
-	icon = GFX_idea_porsche
+	icon = GFX_idea_army_ordnance_department
 	
 	allowed = {	
-		original_tag = GER 
+		original_tag = USA 
 	}
 }
 
-GER_alkett_organization = {
+USA_detroit_arsenal_organization = {
+	name = detroit_arsenal
 	include = generic_assault_guns_organization
-	icon = GFX_idea_GER_alkett
+	icon = GFX_idea_generic_industrial_concern_1
 	
 	allowed = {	
-		original_tag = GER 
+		original_tag = USA 
 	}
 }
 
-GER_henschel_organization = {
+USA_tank_destroyer_board_organization = {
+	name = tank_destroyer_board
 	include = generic_tank_refurbishment_plant_organization
-	icon = GFX_idea_henschel
+	icon = GFX_idea_usa_tank_destroyer_board
 	
 	allowed = {	
-			original_tag = GER 
+			original_tag = USA 
 	}
 }
+
+
+
 
 #####################
 
@@ -70,38 +70,38 @@ GER_henschel_organization = {
 #####################
 
 
-GER_germaniawerft_organization = {
+USA_brooklyn_naval_yard_organization = {
 	include = generic_battle_line_ship_organization
-	icon = GFX_idea_germaniawerft
+	icon = GFX_idea_brooklyn_naval_yard
 	
 	allowed = {	
-		original_tag = GER 
+		original_tag = USA 
 	}
 }
 
-GER_deschimag_organization = {
+USA_norfolk_naval_yard_organization = {
 	include = generic_escort_ship_organization
-	icon = GFX_idea_GER_deschimag
+	icon = GFX_idea_norfolk_naval_yard
 	allowed = {	
-		original_tag = GER 
+		original_tag = USA 
 	}
 }
 
-GER_blohm_und_voss_organization = {
+USA_newport_news_shipbuilding_organization = {
 	include = generic_raider_ship_organization
-	icon = GFX_idea_blohm_und_voss
+	icon = GFX_idea_newport_news_shipbuilding
 	
 	allowed = {	
-		original_tag = GER 
+		original_tag = USA 
 	}
 }
 
-GER_hdw_organization = {
+USA_electric_boat_company_organization = {
 	include = generic_submarine_organization
-	icon = GFX_idea_GER_hdw 
+	icon = GFX_idea_electric_boat_company 
 	
 	allowed = {	
-		original_tag = GER 
+		original_tag = USA 
 	}
 }
 
@@ -115,68 +115,51 @@ GER_hdw_organization = {
 
 ###########################
 
-GER_messerschmitt_organization = {
+USA_north_american_aviation_organization = {
 	include = generic_light_aircraft_organization
-	icon = GFX_idea_messerschmitt
+	icon = GFX_idea_north_american_aviation
 	
 	allowed = {	
-		original_tag = GER
+		original_tag = USA
 	}
 }
 
-GER_arado_flugzeugwerke_organization = {
+USA_lockheed_organization = {
 	include = generic_high_agility_fighter_aircraft_organization
-	icon = GFX_idea_GER_arado_flugzeugwerke
+	icon = GFX_idea_lockheed
 	
 	allowed = {	
-		original_tag = GER 
+		original_tag = USA 
 	}
 }
 
-GER_focke_wulf_organization = {
-	include = generic_range_focused_aircraft_organization
-	icon = GFX_idea_focke_wulf
-	
-	allowed = {	
-		original_tag = GER 
-	}
-}
-
-GER_junkers_organization = {
+USA_douglas_aircraft_company_organization = {
 	include = generic_cas_aircraft_organization
-	icon = GFX_idea_junkers
+	icon = GFX_idea_douglas_aircraft_company
 	
 	allowed = {	 
-        original_tag = GER 
+        original_tag = USA 
 	}
 }
 
-GER_fieseler_organization = {
+USA_grumman_organization = {
 	include = generic_naval_aircraft_organization
-	icon = GFX_idea_GER_fieseler
+	icon = GFX_idea_grumman
 	
 	allowed = {	
-		original_tag = GER 
+		original_tag = USA 
 	}
 }
 
-GER_dornier_organization = {
-	include = generic_medium_aircraft_organization
-	icon = GFX_idea_dornier
-	
-	allowed = {	
-		original_tag = GER 
-	}
-}
-
-GER_heinkel_organization = {
+USA_boeing_organization = {
 	include = generic_heavy_aircraft_organization
-	icon = GFX_idea_heinkel
+	icon = GFX_idea_boeing
 	
 	allowed = {	
-			original_tag = GER 
+			original_tag = USA 
 		}
 }
+
 
 ################################### 
 
@@ -189,29 +172,30 @@ GER_heinkel_organization = {
 
 ###################################
 
-GER_mauser_organization = {
+USA_springfield_armory_organization = {
 	include = generic_infantry_equipment_organization
-	icon = GFX_idea_mauser
+	icon = GFX_idea_springfield_armory
 	
 	allowed = {	 
-			original_tag = GER 
+		original_tag = USA 
 	}
 }
 
-GER_rheinmetall_organization = {
+USA_rock_island_arsenal_organization = {
 	include = generic_artillery_organization
-	icon = GFX_idea_rheinmetall
+	icon = GFX_idea_rock_island_arsenal
 	
-	allowed = {	
-			original_tag = GER 
+	allowed = {	 
+		original_tag = USA 
+
 	}
 }
 
-GER_opel_organization = {
+USA_ford_motor_company_organization = {
 	include = generic_motorized_mechanized_organization
-	icon = GFX_idea_opel
+	icon = GFX_idea_ford_motor_company
 	
-	allowed = {	
-			original_tag = GER
-	}
+	allowed = {	 
+			original_tag = USA 
+		}
 }

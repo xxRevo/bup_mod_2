@@ -1,0 +1,179 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+FRA_hotchkiss_organization = {
+	include = generic_mobile_tank_organization
+	icon = GFX_idea_generic_tank_manufacturer_3
+	allowed = {	
+		original_tag = FRA
+	}
+}
+
+FRA_apx_organization = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_FRA_atelier_puteaux
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+FRA_renault_organization = {
+	include = generic_heavy_tank_organization
+	icon = GFX_idea_renault
+	allowed = {	
+			original_tag = FRA 
+		}
+}
+
+FRA_amx_organization = { 
+	include = generic_tank_refurbishment_plant_organization
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {	
+		original_tag = FRA 
+	}
+	available = {
+		IF = {
+			limit = {
+				FROM = { original_tag = FRA } 
+			}
+			FROM = { has_completed_focus = FRA_form_the_state_arsenals }
+		}
+	}
+}
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+FRA_acl_organization = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_FRA_acl
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+FRA_fcm_organization = {
+	include = generic_escort_ship_organization
+	icon = GFX_idea_fcm
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+FRA_acf_organization = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_FRA_acf
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+FRA_aeb_organization = {
+	include = generic_submarine_organization
+	icon = GFX_idea_FRA_aeb
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+FRA_morane_saulnier_organization = {
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_morane_saulnier
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+FRA_SNCAC_organization = {
+	name = SNCAC
+	include = generic_high_agility_fighter_aircraft_organization
+	icon = GFX_idea_FRA_sncac
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+FRA_bloch_organization = {
+	include = generic_medium_aircraft_organization
+	icon = GFX_idea_bloch
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+FRA_amiot_organization = {
+	include = generic_heavy_aircraft_organization
+	icon = GFX_idea_amiot
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+FRA_levasseur_organization = {
+	include = generic_naval_aircraft_organization
+	icon = GFX_idea_levasseur
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+FRA_mas_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_mas
+	
+	allowed = {	 
+		original_tag = FRA
+	}
+}
+
+FRA_schneider_organization = {
+	include = generic_artillery_organization
+	icon = GFX_idea_schneider
+	allowed = {	
+		original_tag = FRA 
+	}
+}
+
+FRA_somua_organization = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_somua
+	
+	allowed = {	
+		original_tag = FRA 
+	}
+}

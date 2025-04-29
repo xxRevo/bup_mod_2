@@ -1,0 +1,171 @@
+@tank_hoesch_X = 9
+@tank_hoesch_Y = 0
+
+@aircraft_hamburger_X = 9
+@aircraft_hamburger_Y = 0
+
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+ITA_fiat_organization = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_fiat
+	
+	allowed = {	
+			original_tag = ITA 
+	}
+}
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+
+ITA_crda_organization = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_crda
+	
+	allowed = {	
+		original_tag = ITA 
+	}
+}
+
+ITA_cantiere_oto_organization = {
+	include = generic_escort_ship_organization
+	icon = GFX_idea_ITA_oto
+	allowed = {	
+		original_tag = ITA 
+	}
+}
+
+ITA_cantiere_navale_di_ancona_organization = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_ITA_cantera_navale_di_ancona
+	
+	allowed = {	
+		original_tag = ITA
+	}
+}
+
+ITA_cantieri_navali_tosi_organization = {
+	include = generic_submarine_organization
+	icon = GFX_idea_ITA_cantieri_navali_tosi 
+	
+	allowed = {	
+		original_tag = ITA 
+	}
+}
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+ITA_macchi_organization = {
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_macchi
+	
+	allowed = {	
+		original_tag = ITA
+	}
+}
+
+ITA_fiat_aviazione_organization = {
+	include = generic_range_focused_aircraft_organization
+	icon = GFX_idea_ITA_fiat_aviazione
+	
+	allowed = {	
+		original_tag = ITA 
+	}
+}
+
+ITA_caproni_organization = {
+	include = generic_cas_aircraft_organization
+	icon = GFX_idea_caproni
+	
+	allowed = {	 
+        original_tag = ITA 
+	}
+}
+
+ITA_crda_cant_organization = {
+	include = generic_naval_aircraft_organization
+	icon = GFX_idea_ITA_crda_cant
+	
+	allowed = {	
+		original_tag = ITA 
+	}
+}
+
+ITA_imam_organization = {
+	include = generic_medium_aircraft_organization
+	icon = GFX_idea_ITA_imam
+	
+	allowed = {	
+		original_tag = ITA 
+	}
+}
+
+ITA_piaggio_organization = {
+	include = generic_heavy_aircraft_organization
+	icon = GFX_idea_piaggio
+	
+	allowed = {	
+			original_tag = ITA 
+		}
+}
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+ITA_beretta_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_beretta
+	
+	allowed = {	 
+			original_tag = ITA 
+	}
+}
+
+ITA_breda_organization = {
+	include = generic_artillery_organization
+	icon = GFX_idea_breda
+	
+	allowed = {	
+			original_tag = ITA 
+	}
+}
+
+ITA_lancia_organization = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_lancia
+	
+	allowed = {	
+			original_tag = ITA
+	}
+}

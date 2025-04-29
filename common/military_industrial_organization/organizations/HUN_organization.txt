@@ -1,0 +1,119 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+ HUN_hti_turan_organization = {
+ 	include = generic_medium_tank_organization
+ 	icon = GFX_idea_mw_aircraft #GFX_idea_HUN_hti_turan
+ 	
+ 	allowed = {	
+ 		original_tag = HUN
+ 	}
+ 	
+ 	available = {
+ 		IF = {
+ 			limit = {
+ 				has_dlc = "Gotterdammerung"
+ 			}
+ 			FROM = {
+ 				has_completed_focus = wuw_HUN_the_turan
+ 			}
+ 		}
+ 		ELSE = {
+ 			FROM = {
+ 				has_completed_focus = HUN_develop_tanks
+ 			}
+ 		}
+ 	}
+ }
+
+ HUN_mavag_assault_guns_organization = {
+ 	include = generic_assault_guns_organization
+ 	icon = GFX_idea_HUN_mavag_assault_gun
+ 	
+ 	allowed = {	
+ 		original_tag = HUN
+ 	}
+ 	
+ 	available = {
+ 		IF = {
+ 			limit = {
+ 				has_dlc = "Gotterdammerung"
+ 			}
+ 			FROM = {
+ 				has_completed_focus = wuw_HUN_establish_the_mavag_army_division
+ 			}
+ 		}
+ 		ELSE = {
+ 			FROM = {
+ 				has_completed_focus = HUN_assault_gun_focus
+ 			}
+ 		}
+ 	}
+ }
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+HUN_femaru_fegyver_es_gepgyar_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_HUN_femaru_fegyver_es_gepgyar
+	allowed = { 
+		original_tag = HUN
+	}
+}
+
+HUN_digep_artillery = {
+	include = generic_artillery_organization
+	icon = GFX_idea_HUN_digep_artillery
+	
+	allowed = {	
+		original_tag = HUN
+	}
+}
+
+HUN_mwg_raba_organization = {
+	include = generic_motorized_mechanized_organization 
+	icon = GFX_idea_HUN_mwg_raba
+	allowed = {	 
+		original_tag = HUN
+	}
+}
+
+
+
+

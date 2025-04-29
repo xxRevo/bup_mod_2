@@ -13,7 +13,7 @@ generic_mobile_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		NOT = { OR = { original_tag = GER original_tag = AST } }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = AST original_tag = SOV } }
 	}
 
 	equipment_type = { armor }
@@ -115,7 +115,7 @@ generic_medium_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_2
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = CAN original_tag = SOV original_tag = ENG original_tag = FRA original_tag = HUN original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = { armor }
@@ -219,7 +219,7 @@ generic_heavy_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = SOV original_tag = ENG original_tag = FRA } }
 	}
 
 	equipment_type = { armor }
@@ -322,7 +322,7 @@ generic_assault_guns_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = SOV original_tag = FRA original_tag = HUN } }
 	}
 
 	equipment_type = { armor }
@@ -424,7 +424,7 @@ generic_tank_refurbishment_plant_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = SOV original_tag = FRA } }
 	}
 
 	equipment_type = {
@@ -545,7 +545,7 @@ generic_battle_line_ship_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_2
 
 	allowed = {
-		NOT = { OR = { original_tag = GER original_tag = AST } }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = AST original_tag = CAN original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = {
@@ -654,7 +654,7 @@ generic_escort_ship_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_1
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = CAN original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = {
@@ -763,7 +763,7 @@ generic_raider_ship_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_3
 
 	allowed = {
-		NOT = { OR = { original_tag = GER original_tag = AST } }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = AST original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = {
@@ -872,7 +872,7 @@ generic_submarine_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_1
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = BUL original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = {
@@ -989,7 +989,7 @@ generic_light_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		NOT = { OR = { original_tag = GER original_tag = AST } }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = AST original_tag = CAN original_tag = SOV original_tag = ITA } }
 	}
 
 	equipment_type = {
@@ -1095,7 +1095,7 @@ generic_high_agility_fighter_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = SOV original_tag = ENG original_tag = JAP } }
 	}
 
 	equipment_type = {
@@ -1202,7 +1202,7 @@ generic_range_focused_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = {  original_tag = GER original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = {
@@ -1308,7 +1308,7 @@ generic_cas_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = ENG original_tag = ITA } }
 	}
 
 	equipment_type = {
@@ -1415,7 +1415,7 @@ generic_naval_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = CAN original_tag = SOV original_tag = ENG original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = {
@@ -1523,7 +1523,7 @@ generic_medium_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_3
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = {original_tag = GER original_tag = BUL original_tag = CAN original_tag = ITA } }
 	}
 
 	equipment_type = {
@@ -1629,7 +1629,7 @@ generic_heavy_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_2
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = BUL original_tag = CAN original_tag = SOV original_tag = ENG original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = {
@@ -1747,7 +1747,7 @@ generic_infantry_equipment_organization = {
 	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
 
 	allowed = {
-		NOT = { OR = { original_tag = GER original_tag = AST } }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = AST original_tag = CAN original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ROM original_tag = HUN original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = {
@@ -1857,7 +1857,7 @@ generic_artillery_organization = {
 	icon = GFX_idea_generic_artillery_manufacturer_2
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = BUL original_tag = CAN original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ROM original_tag = HUN original_tag = ITA original_tag = JAP } }
 	}
 
 
@@ -1976,7 +1976,7 @@ generic_motorized_mechanized_organization = {
 	icon = GFX_idea_generic_motorized_equipment_manufacturer_3
 
 	allowed = {
-		NOT = { original_tag = GER }
+		NOT = { OR = { original_tag = USA original_tag = GER original_tag = BUL original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ROM original_tag = HUN original_tag = ITA original_tag = JAP } }
 	}
 
 	equipment_type = {

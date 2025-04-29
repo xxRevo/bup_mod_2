@@ -1,0 +1,71 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+ROM_cugir_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_ROM_cugir  #used with permission from Turning Point mod
+	allowed = { 
+		original_tag = ROM
+	}
+}
+
+ROM_resita_works_organization = {
+	include = generic_artillery_organization
+	icon = GFX_idea_generic_artillery_manufacturer_1
+	allowed = { 
+		original_tag = ROM
+	}
+}
+
+ROM_malaxa_organization = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_ROM_malaxa
+	allowed = { 
+		original_tag = ROM
+	}
+}
+
+### ENG_vauxhall_organization -> see ENG_organizations.txt
+
+### USA_ford_organization -> see USA_organizations.txt
+
+### GER_opel_organization -> see GER_organizations.txt

@@ -15,7 +15,6 @@ NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 20
 
 NDefines.NIntel.ARMY_INTEL_COMBAT_BONUS_MAX_BONUS = 0.075 			-- max combat bonus that will apply when intel is high enough
-
 NDefines.NIntel.CIVILIAN_PRODUCTION_RANGE_INTEL_MIN = 0.3
 NDefines.NIntel.CIVILIAN_PRODUCTION_RANGE_INTEL_MAX = 0.7
 NDefines.NIntel.ARMY_ARMY_COUNT_RANGE_INTEL_MIN = 0.2
@@ -103,13 +102,17 @@ NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.05        -- global damag
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03    -- global damage modifier
 NDefines.NMilitary.COST_INCREASE_PER_ACTIVE_MEDAL = 5.0 -- medal cost multiplier per active medal	
-NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
+NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.05
 NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 0		
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.2
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.3
 NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.02
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0001
-NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.03
+NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.025
+NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = -0.15
+NDefines.NMilitary.ZERO_ORG_MOVEMENT_MODIFIER = -0.6
+NDefines.NMilitary.RECON_SKILL_IMPACT = 7
+NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.3
 
 --naval defines
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0

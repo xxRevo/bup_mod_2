@@ -74,6 +74,26 @@ ideas = {
 			}
 		}
 
+		SOV_closed_economy_buff = {
+			picture = FIN_finnish_federation_of_trade_unions_heavy
+			removal_cost = -1
+			name = SOV_closed_economy_buff_l
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+				cic_construction_boost_factor = 0.05				
+			}
+		}
+
 		trotskyite_plot_purged = {
 			name = trotskyite_plot
 			picture = trotskyite_plot_purged_nsb_ccp_sov_compatibility

@@ -759,7 +759,7 @@ if = {
 
 set_research_slots = 3
 set_stability = 0.5
-set_war_support = 0.3
+set_war_support = 0.7
 
 add_breakthrough_progress = {
 	specialization = specialization_land
@@ -867,7 +867,9 @@ add_ideas = {
 	home_of_revolution
 	trotskyite_plot_nsb
 	SOV_politicized_military
-
+	closed_economy
+	war_economy
+	SOV_closed_economy_buff
 	SOV_genrikh_yagoda #NKVD Chief (political advisor)
 }
 
@@ -876,7 +878,7 @@ add_ideas = {
 	add_political_power = 1198
 	add_command_power = 100
 	set_stability = 0.75
-	set_war_support = 0.55 #Needs at least 0.5 to make sense with War Economy Law
+	set_war_support = 0.75 #Needs at least 0.5 to make sense with War Economy Law
 	
 	#DESIGNERS AND LAWS
 	add_ideas = {

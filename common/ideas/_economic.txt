@@ -923,6 +923,12 @@ ideas = {
 			available = {
 				if = {
 					limit = {
+						original_tag = SOV
+					}
+					always = false
+				}
+				if = {
+					limit = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
@@ -992,6 +998,12 @@ ideas = {
 			available = {
 				if = {
 					limit = {
+						original_tag = SOV
+					}
+					always = false
+				}
+				if = {
+					limit = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
@@ -1052,6 +1064,12 @@ ideas = {
 
 		limited_exports = {
 			available = {
+				if = {
+					limit = {
+						original_tag = SOV
+					}
+					always = false
+				}
 				OR = {
 					AND = {
 						has_government = democratic

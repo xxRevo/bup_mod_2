@@ -41,10 +41,10 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 
 		modifiers = {
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 15.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 15.0
 			embargo_cost_factor = -0.5
 			embargo_threshold_factor = -0.5
 		}
@@ -105,10 +105,10 @@ ideologies = {
 
 		modifiers = {
 			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+			civilian_intel_to_others = 10
+			army_intel_to_others = 10
+			navy_intel_to_others = 10
+			airforce_intel_to_others = 10
 			hidden_modifier = { join_faction_tension = -0.5 }
 		}
 
@@ -163,9 +163,9 @@ ideologies = {
 		modifiers = {
 			justify_war_goal_when_in_major_war_time = -0.80
 			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
+			army_intel_to_others = 15.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 15.0
 			hidden_modifier = { join_faction_tension = -0.5 }
 			embargo_cost_factor = 1
 		}
@@ -220,9 +220,9 @@ ideologies = {
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence
 			drift_defence_factor = -0.3
-			civilian_intel_to_others = 20.0
+			civilian_intel_to_others = 10.0
 			army_intel_to_others = 10.0
-			navy_intel_to_others = 20.0
+			navy_intel_to_others = 10.0
 			airforce_intel_to_others = 10.0
 		}
 

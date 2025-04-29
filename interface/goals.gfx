@@ -1,13 +1,47 @@
 spriteTypes = {	
 
 	#### Generic continuous goal icons
+	
+SpriteType = {
+	name = "GFX_focus_RAJ_his_majestys_loyal_government"
+	texturefile = "gfx/interface/goals/focus_RAJ_his_majestys_loyal_government.dds"
+}
+SpriteType = {
+	name = "GFX_focus_RAJ_the_dominion_of_india"
+	texturefile = "gfx/interface/goals/focus_RAJ_the_dominion_of_india.dds"
+}
+SpriteType = {
+	name = "GFX_focus_RAJ_the_jewel_becomes_the_crown"
+	texturefile = "gfx/interface/goals/focus_RAJ_the_jewel_becomes_the_crown.dds"
+}
 
-spriteType = {
+SpriteType = {
+	name = "GFX_focus_generic_attack_afghanistan"
+	texturefile = "gfx/interface/goals/focus_generic_attack_afghanistan.dds"
+}
+SpriteType = {
+	name = "GFX_focus_generic_befriend_basmachi"
+	texturefile = "gfx/interface/goals/focus_generic_befriend_basmachi.dds"
+}
+SpriteType = {
+	name = "GFX_focus_generic_hill_training"
+	texturefile = "gfx/interface/goals/focus_generic_hill_training.dds"
+}
+SpriteType = {
+	name = "GFX_focus_generic_jungle_training"
+	texturefile = "gfx/interface/goals/focus_generic_jungle_training.dds"
+}
+SpriteType = {
+	name = "GFX_focus_generic_urban_training"
+	texturefile = "gfx/interface/goals/focus_generic_urban_training.dds"
+}
+
+SpriteType = {
 		name = "GFX_GER_SS_armed_branch"
 		texturefile = "gfx/interface/goals/ger_waffen_ss.dds"
 	}
 
-spriteType = {
+SpriteType = {
 		name = "GFX_GER_mobile_fortresses"
 		texturefile = "gfx/interface/goals/GER_tigers_in_the_east.dds"
 	}  
@@ -16,7 +50,7 @@ SpriteType = {
 		name = "GFX_ITA_Mare_Nostrum"
 		texturefile = "gfx/interface/goals/goal_ita_mare_nostrum.tga"			
 	}
-	SpriteType = {
+SpriteType = {
 		name = "GFX_happytime"
 		texturefile = "gfx/interface/goals/focus_usa_happytime.dds"
 	}	

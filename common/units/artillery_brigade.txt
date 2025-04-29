@@ -14,7 +14,7 @@ sub_units = {
 			artillery
 		}
 
-		group = combat_support
+		group = infantry
 		
 		categories = {
 			category_army
@@ -90,7 +90,7 @@ sub_units = {
 			artillery
 		}
 
-		group = mobile_combat_support
+		group = mobile
 		
 		categories = {
 			category_army
@@ -170,7 +170,7 @@ sub_units = {
 			artillery
 		}
 
-		group = combat_support
+		group = infantry
 		
 		categories = {
 			category_army
@@ -244,7 +244,7 @@ sub_units = {
 			artillery
 		}
 
-		group = mobile_combat_support
+		group = mobile
 		
 		categories = {
 			category_army
@@ -320,7 +320,7 @@ sub_units = {
 			rocket
 		}
 
-		group = mobile_combat_support
+		group = mobile
 		
 		categories = {
 			category_army

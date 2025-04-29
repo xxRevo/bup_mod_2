@@ -5,6 +5,9 @@ state={
 	manpower = 15000 
 	
 	state_category = tiny_island
+	resources={
+		oil=20
+	}
 
 	history={
 		owner = JAP

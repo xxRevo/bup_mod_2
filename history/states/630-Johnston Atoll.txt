@@ -4,6 +4,9 @@ state=
 	name="STATE_630"
 	manpower = 100
 	state_category = tiny_island
+	resources={
+		oil=20
+	}
 
 	history={
 		owner = USA

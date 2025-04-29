@@ -50,7 +50,7 @@ ideas = {
 		}
 
 		ITA_hidden_tankettes_ns = { #Hidden idea to apply light tanks bonuses. Communicated in ITA_military_industry_dynamic_modifier (used as NS)
- 			name = ITA_military_industry_dynamic_modifier #Just in case it shows up anywhere
+ 			name = ITA_tanks #Just in case it shows up anywhere
 			removal_cost = -1
 
 			picture = SOV_third_five_year_plan_military #Icon needs to match the one in ITA_military_industry_dynamic_modifier (NS icon shows up in tech tab)

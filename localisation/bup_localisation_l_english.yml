@@ -50,3 +50,7 @@
  ITA_fanti_dell_aria_re2_tt:0 "Italian Paratroopers gain %10 organisation bonus and looses less organisation when encircled"
  ITA_a_bandits_war_re2_tt:0 "-%15 Organisation loss when moving\n+%15 armour speed\b+%15 Division Organisation"
  ITA_army_leaders_re2_tt:0 "+%10 Leader Experience Gain\n-%15 Army Leader Cost\n-%25 Promotion Cost"
+ Army_reforms1:0 "Infantry Reforms"
+ Army_reforms2:0 "Armour Reforms"
+ army_reform3:0 "Army Reforms"
+ ITA_tanks:0 "Italian Tanks"

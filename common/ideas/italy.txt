@@ -310,6 +310,63 @@ ideas = {
 			}
 		}
 
+		ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Communicated in ITA_military_industry_dynamic_modifier (used as NS)
+ 			name = ITA_eco_buff_1 #Just in case it shows up anywhere
+			removal_cost = -1
+
+			picture = SOV_third_five_year_plan_military #Icon needs to match the one in ITA_military_industry_dynamic_modifier (NS icon shows up in tech tab)
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.025
+				political_power_cost = 0.05
+
+			}		
+		
+		}
+		ITA_eco_buff_2 = { #Hidden idea to apply light cruisers production bonuses. Communicated in ITA_military_industry_dynamic_modifier (used as NS)
+ 			name = ITA_eco_buff_2 #Just in case it shows up anywhere
+			removal_cost = -1
+
+			picture = SOV_third_five_year_plan_military #Icon needs to match the one in ITA_military_industry_dynamic_modifier (NS icon shows up in tech tab)
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.025
+				political_power_cost = 0.05
+
+			}		
+		
+		}
+
+		ITA_mineraloelsicherungsplan = {
+			allowed = {
+				always = yes
+			}
+
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+
+			
+			modifier = {
+			production_speed_synthetic_refinery_factor=0.30
+			consumer_goods_expected_value = 0.10
+			}
+		}
 		ITA_hidden_heavy_cruisers_production_ns = { #Hidden idea to apply light cruisers production bonuses. Communicated in ITA_military_industry_dynamic_modifier (used as NS)
  			name = ITA_military_industry_dynamic_modifier #Just in case it shows up anywhere
 			removal_cost = -1
@@ -827,6 +884,112 @@ ideas = {
 				air_fuel_consumption_factor = -0.15
 				navy_fuel_consumption_factor = -0.15
 				production_speed_fuel_silo_factor = 0.5
+			}
+		}
+
+		ITA_axis_won_africa = {
+			name = axis_won_africa
+
+			removal_cost = -1
+
+			picture = generic_stockpile_fuel
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				consumer_goods_expected_value = -0.08
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+
+		ITA_army_reforms_1 = {
+			name = Army_reforms1
+
+			removal_cost = -1
+
+			picture = generic_stockpile_fuel
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				army_morale_factor = 0.05
+				army_org_Factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+
+		ITA_army_reforms_2 = {
+			name = Army_reforms2
+
+			removal_cost = -1
+
+			picture = generic_stockpile_fuel
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				army_speed_factor = 0.1
+				org_loss_when_moving = -0.1
+			}
+		}
+
+		ITA_army_reforms_3 = {
+			name = army_reform3
+
+			removal_cost = -1
+
+			picture = generic_stockpile_fuel
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				army_org_Factor = 0.05
+				land_doctrine_cost_factor = -0.15
+			}
+		}
+
+		ITA_army_reforms_4 = {
+			name = army_reform4
+
+			removal_cost = -1
+
+			picture = generic_stockpile_fuel
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				army_core_defence_factor = 0.05
 			}
 		}
 

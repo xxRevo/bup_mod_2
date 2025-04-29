@@ -1411,6 +1411,14 @@ focus = {
 		}
 		
 		completion_reward = {
+			ITA = {
+				add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 3.0
+				uses = 2
+				category = synth_resources
+			}
+			}
 			add_tech_bonus = {
 				name = GER_coal_liquidization
 				bonus = 3.0

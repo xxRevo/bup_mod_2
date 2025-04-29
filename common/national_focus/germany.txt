@@ -9422,6 +9422,7 @@ focus = {
 		cost = 5
 		
 		available = {
+			always = no
 			is_subject = no
 			SOU = {
 				has_government = communism

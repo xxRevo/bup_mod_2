@@ -32,6 +32,10 @@ add_timed_idea = {
     idea = GER_no_trade_back
     days = 1247
 }
+add_timed_idea = {
+	idea = GER_peace_time_train
+	days = 1180
+}
 add_ideas = {
 	vittorio_emanuele
 	vittoria_mutilata

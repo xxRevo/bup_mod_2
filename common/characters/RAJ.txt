@@ -125,8 +125,13 @@ characters={
 				planning_skill = 1
 				logistics_skill = 2
 				visible = {  
-					has_completed_focus = RAJ_forward_bloc 
-					NOT = { has_country_flag = has_arrested_bose }
+					OR = {
+						has_country_flag = has_swayed_bose_to_communism
+						ROOT = { 
+							has_completed_focus = RAJ_forward_bloc 
+							NOT = { has_country_flag = has_arrested_bose }
+						}
+					}
 				}
 			}
 			advisor = {
@@ -136,15 +141,23 @@ characters={
 					original_tag = RAJ
 				}
 				available = {
-					ROOT = { 
-						has_completed_focus = RAJ_forward_bloc 
-						NOT = { has_country_flag = has_arrested_bose }
+					OR = {
+						has_country_flag = has_swayed_bose_to_communism
+						ROOT = { 
+							has_completed_focus = RAJ_forward_bloc 
+							NOT = { has_country_flag = has_arrested_bose }
+						}
 					}
 				}
 
-				visible = {  
-					has_completed_focus = RAJ_forward_bloc 
-					NOT = { has_country_flag = has_arrested_bose }
+				visible = {
+					OR = {
+						has_country_flag = has_swayed_bose_to_communism
+						AND = {
+							has_completed_focus = RAJ_forward_bloc 
+							NOT = { has_country_flag = has_arrested_bose }
+						}
+					}
 				}
 				traits = {
 					pragmatic_authoritarian 
@@ -1752,6 +1765,7 @@ characters={
 			slot = political_advisor
 			idea_token = RAJ_GOE_muhammad_ali_jinnah
 			allowed = {
+				is_raj_or_raj_inheritor = yes
 				has_dlc = "Graveyard of Empires"
 			}
 			visible = {
@@ -1782,10 +1796,16 @@ characters={
 				has_dlc = "Graveyard of Empires"
 			}
 			visible = {
-				has_completed_focus = RAJ_sikh_religious_guarantees
+				OR = {
+					has_completed_focus = RAJ_the_punjab_accord
+					has_completed_focus = RAJ_sikh_religious_guarantees
+				}
 			}
 			available = {
-				has_completed_focus = RAJ_sikh_religious_guarantees
+				OR = {
+					has_completed_focus = RAJ_the_punjab_accord
+					has_completed_focus = RAJ_sikh_religious_guarantees
+				}
 			}
 			traits = {
 				sikh_activist 
@@ -1985,12 +2005,12 @@ characters={
 
 			portraits = {
 				civilian = {
-					large = GFX_portrait_india_generic_land_4
-					small = GFX_portrait_india_generic_land_4_small
+					large = GFX_portrait_RAJ_chithira_thirunal_balarama_varma
+					small = GFX_portrait_RAJ_chithira_thirunal_balarama_varma_small
 				}
 				army = {
-					large = GFX_portrait_india_generic_land_4
-					small = GFX_portrait_india_generic_land_4_small
+					large = GFX_portrait_RAJ_chithira_thirunal_balarama_varma
+					small = GFX_portrait_RAJ_chithira_thirunal_balarama_varma_small
 				}
 			}
 

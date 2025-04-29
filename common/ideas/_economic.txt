@@ -945,8 +945,10 @@ ideas = {
 				industrial_capacity_dockyard = 0.15
 				production_speed_buildings_factor = 0.15
 				research_speed_factor = 0.10
-				civilian_intel_to_others = 40.0
+				civilian_intel_to_others = 20.0
 				navy_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				airforce_intel_to_others = 20.0
 				cic_construction_boost_factor = 0.05
 			}
 
@@ -1021,8 +1023,10 @@ ideas = {
 				industrial_capacity_dockyard = 0.1
 				production_speed_buildings_factor = 0.1
 				research_speed_factor = 0.05
-				civilian_intel_to_others = 20.0
+				civilian_intel_to_others = 10.0
 				navy_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
 				cic_construction_boost_factor = 0.1
 			}
 
@@ -1111,8 +1115,10 @@ ideas = {
 				industrial_capacity_dockyard = 0.05
 				production_speed_buildings_factor = 0.05
 				research_speed_factor = 0.01
-				civilian_intel_to_others = 10.0
-				navy_intel_to_others = 5
+				civilian_intel_to_others = 5.0
+				navy_intel_to_others = 5.0
+				army_intel_to_others = 5.0
+				airforce_intel_to_others = 5.0
 				lend_lease_tension = 0.20
 				cic_construction_boost = -0.05
 			}

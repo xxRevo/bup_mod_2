@@ -104,9 +104,6 @@ ideas = {
 				agency_upgrade_time = -0.30
 				production_speed_buildings_factor = 0.1
 				research_speed_factor = 0.05
-				civilian_intel_to_others = 20.0
-				army_intel_to_others = 10.0
-				navy_intel_to_others = 10.0
 			}
 		}
 	

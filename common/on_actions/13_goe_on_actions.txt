@@ -1,38 +1,98 @@
 
 on_actions = {
+	on_monthly_AFG = {
+		effect = {
+			IF = {
+				limit = {
+					has_completed_focus = AFG_electrification
+					any_core_state = {
+						NOT = { 
+							has_dynamic_modifier = { modifier = AFG_electrification_modifier }
+						}
+					}
+				}
+
+				IF = {
+					limit = {
+						check_variable = { AFG_electrification_cooldown > 0 }
+					}
+					set_variable = { AFG_electrification_cooldown = 0 }
+
+					random_core_state = {
+						limit = {
+							has_dynamic_modifier = { modifier = AFG_electrification_modifier }
+							NOT = {
+								OR = {
+									is_island_state = yes
+									has_state_category = small_island
+									has_state_category = tiny_island
+								}
+							}
+						}
+						random_neighbor_state = {
+							limit = {
+								NOT = {
+									has_dynamic_modifier = { modifier = AFG_electrification_modifier }
+								}
+								is_core_of = ROOT
+							}
+							add_dynamic_modifier = { modifier = AFG_electrification_modifier }
+						}
+					}
+				}
+				ELSE = {
+					add_to_variable = { AFG_electrification_cooldown = 1 }
+				}	
+			}
+		}
+	}
+
 	#ROOT is the nation being released, FROM is the overlord.
 	on_startup = {
 		effect = {
-			every_state = {
+			if = {
 				limit = {
-					is_owned_by = RAJ
-					check_variable = { core_countries^num > 0 }
+					has_dlc = "Graveyard of Empires"
 				}
-				
-				for_each_scope_loop = {
-					array = core_countries
-					if = {
-						limit = {
-							NOT = { THIS = { original_tag = RAJ } }	
-							NOT = { THIS = { original_tag = YEM } } #not u
-							NOT = { 
-								is_in_array = {
-								 	array = RAJ.raj_releasables
-								 	value = THIS
-								 } 
-							}
+				if = { #Fix for OOS
+					limit = { is_historical_focus_on = no }
+					RAJ = {
+						random_owned_state = {
+							set_variable = { global.famine_state = THIS }	
+							
 						}
-						add_to_array = { RAJ.raj_releasables = THIS }
 					}
-					
+				}
+				RAJ = {
+					every_owned_state = {
+						limit = {
+							check_variable = { core_countries^num > 0 }
+						}
+						
+						for_each_scope_loop = {
+							array = core_countries
+							if = {
+								limit = {
+									NOT = { THIS = { original_tag = RAJ } }	
+									NOT = { THIS = { original_tag = YEM } } #not u
+									NOT = { 
+										is_in_array = {
+										 	array = RAJ.raj_releasables
+										 	value = THIS
+										 } 
+									}
+								}
+								add_to_array = { RAJ.raj_releasables = THIS }
+							}
+							
+						}
+					}
+				}
+
+				RAJ = {
+					set_occupation_law_where_available = foreign_civilian_oversight
 				}
 			}
-
-			RAJ = {
-				set_occupation_law_where_available   = foreign_civilian_oversight
-			}
-
-
 		}
 		#Achievement Related Arrays
 		effect = {
@@ -319,10 +379,203 @@ on_actions = {
 		}
 	}
 
+	#on_weekly_RAJ = {
+	#	effect = {
+	#		if = {
+	#			limit = { has_completed_focus = RAJ_provincial_autonomy }
+	#			for_each_scope_loop = {
+	#				array = owned_states_at_game_start
+	#				if = {
+	#					limit = {
+	#						has_resistance = yes
+	#						occupation_law  = demand_princely_donations
+	#					}
+	#					add_to_variable = { RAJ.donations_count = 1 }
+	#				}
+	#				
+	#				
+	#			}
+#
+	#			if = {
+	#				limit = {
+	#					check_variable = { donations_count > 25 }
+	#				}
+	#				subtract_from_variable = { donations_count = 25 }
+	#				random_list = {
+#
+	#					seed = random 
+	#					1 = {  
+	#						add_equipment_to_stockpile = { 
+	#							type = infantry_equipment_0
+	#							amount = 300
+	#							producer = MYS
+	#						}
+	#					} 
+	#					1 = {
+	#						add_equipment_to_stockpile = { 
+	#							type = support_equipment_1
+	#							amount = 100
+	#							producer = HYD
+	#						}
+	#					} 
+#
+	#					1 = {
+	#						add_equipment_to_stockpile = {
+	#							type = artillery_equipment_1
+	#							amount = 50
+	#							producer = KAS	
+	#						}
+	#					}
+#
+	#					1 = {
+	#						add_equipment_to_stockpile = {
+	#							type = motorized_equipment_1
+	#							amount = 50
+	#							producer = RJP
+	#						}
+	#					}
+	#					
+	#				}
+	#			}
+	#		}
+#
+#
+#
+	#	}
+	#}
 	#ROOT = attacking side
 	#FROM = defending side
 	#fired when two countries end up at war with each other (on_war is fired when a country goes to war against anyone and is not fired again when it enters war against another country unless it went to peace first)
 	on_war_relation_added = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						FROM = { 
+							original_tag = RAJ
+							has_completed_focus = RAJ_jugantar 
+						}
+
+						ROOT = { 
+							original_tag = RAJ
+							has_completed_focus = RAJ_jugantar 
+						}
+					}
+
+					OR = {
+						FROM = { original_tag = PAK }
+						ROOT = { original_tag = PAK }
+					}
+				}
+
+				RAJ = {
+					division_template = {
+						name = "Jugantar Militia"
+						is_locked = no
+						regiments = {
+							irregular_infantry = { x = 0 y = 0 }
+							irregular_infantry = { x = 0 y = 1 }
+							irregular_infantry = { x = 0 y = 2 }
+							irregular_infantry = { x = 0 y = 3 }
+							irregular_infantry = { x = 1 y = 0 }
+							irregular_infantry = { x = 1 y = 1 }
+							
+						}
+						support = {
+							
+						}
+					}
+					if = {
+						limit = {
+							controls_state = 435
+						}
+						435 = {
+							create_unit = {
+								division = "name = \"Jugantar Militia\" division_template = \"Jugantar Militia\" start_experience_factor = 0.05 start_equipment_factor = 1 start_manpower_factor = 1"
+								owner = RAJ
+								allow_spawning_on_enemy_provs = yes 
+								count = 3
+							}
+						}
+					}
+
+					if = {
+						limit = {
+							controls_state = 426
+						}
+						426 = {
+							create_unit = {
+								division = "name = \"Jugantar Militia\" division_template = \"Jugantar Militia\" start_experience_factor = 0.05 start_equipment_factor = 1 start_manpower_factor = 1"
+								owner = RAJ
+								allow_spawning_on_enemy_provs = yes 
+								count = 3
+							}
+						}
+					}
+
+					if = {
+						limit = {
+							controls_state = 432
+						}
+						432 = {
+							create_unit = {
+								division = "name = \"Jugantar Militia\" division_template = \"Jugantar Militia\" start_experience_factor = 0.05 start_equipment_factor = 1 start_manpower_factor = 1"
+								owner = RAJ
+								allow_spawning_on_enemy_provs = yes 
+								count = 3
+							}
+						}
+					}
+
+				}
+			}
+		}
+		effect = {
+			if = { 
+				limit = {
+					
+					FROM = {
+						original_tag = PER
+						has_country_flag = PER_sold_oil_flag
+					}
+					ROOT = { 
+						NOT = {
+							original_tag = PER
+						}
+						has_country_flag = PER_has_PER_resource_rights
+					}
+				}
+				ROOT = {
+					remove_resource_rights = 413
+				}
+				FROM = {
+					add_offsite_building = { type = industrial_complex  level = -3 }
+				}
+			}
+
+			if = {
+				limit = {
+					AND = {
+						ROOT = {
+							original_tag = PER
+							has_country_flag = PER_sold_oil_flag
+						}
+						FROM = { 
+							NOT = {
+								original_tag = PER
+							}
+							has_country_flag = PER_has_PER_resource_rights
+						}
+					}
+				}
+				FROM = {
+					remove_resource_rights = 413
+				}
+				ROOT = {
+					add_offsite_building = { type = industrial_complex  level = -3 }
+				}
+			}			
+		}
 		effect = {
 			#block raj releasables from insta joining facftions if they spawn
 			if = {
@@ -962,10 +1215,12 @@ on_actions = {
 							}
 
 							NOT = { has_dynamic_modifier = { modifier = idea_RAJ_resistant_to_occupation } }
+							NOT = {has_state_flag = RAJ_resistance_already_squashed_flag }
 						}
 
 						add_dynamic_modifier = {
 						 	modifier = idea_RAJ_resistant_to_occupation
+						 	days = 1400
 						 } 
 
 
@@ -1132,6 +1387,7 @@ on_actions = {
 							AND = {
 								original_tag = JAP 
 								has_country_flag = agreed_to_help_bose
+								NOT = { has_war_with = RAJ }
 							}
 							AND = {
 								original_tag = RAJ
@@ -1172,7 +1428,9 @@ on_actions = {
 					add_dynamic_modifier = {
 					 	modifier = idea_RAJ_resistant_to_occupation
 					 	days = 1400
-					 } 
+					}
+
+					set_state_flag = RAJ_resistance_already_squashed_flag 
 				}
 			}
 			else_if = {
@@ -1220,6 +1478,50 @@ on_actions = {
 
 				FROM.FROM =  {
 					set_state_flag = { flag = RAJ_time_to_retake_state_famine days = 30 value = 1 }
+				}
+			}
+		}
+		effect = { #does not work when placed in on_capitulation or on_annexation, might be connected to an assert that fires off once the Raj caps the Mughals stating that the Raj doesn't have a war with them...
+			if = {
+				limit = {
+					has_dlc = "Graveyard of Empires"
+					FROM.FROM = {
+						has_dynamic_modifier = {
+							modifier = idea_RAJ_mughal_influence
+						}
+					}
+				}
+
+				FROM.FROM = {
+					remove_dynamic_modifier = {
+						modifier = idea_RAJ_mughal_influence
+						days = 1400
+					}
+				}
+			}
+		}
+
+		effect = { #does not work when placed in on_capitulation or on_annexation, might be connected to an assert that fires off once the Raj caps the Mughals stating that the Raj doesn't have a war with them...
+			if = {
+				limit = {
+					has_dlc = "Graveyard of Empires"
+					ROOT = {
+						original_tag = RAJ
+						has_completed_focus = RAJ_the_legacy_of_babur
+					}
+					FROM.FROM = {
+						NOT = {
+							has_dynamic_modifier = {
+								modifier = idea_RAJ_mughal_influence
+							}
+						}
+					}
+				}
+
+				FROM.FROM = {
+					add_dynamic_modifier = {
+						modifier = idea_RAJ_mughal_influence
+					}
 				}
 			}
 		}

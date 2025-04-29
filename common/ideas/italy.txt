@@ -364,7 +364,7 @@ ideas = {
 			
 			modifier = {
 			production_speed_synthetic_refinery_factor=0.30
-			consumer_goods_expected_value = 0.10
+			consumer_goods_expected_value = 0.03
 			}
 		}
 		ITA_hidden_heavy_cruisers_production_ns = { #Hidden idea to apply light cruisers production bonuses. Communicated in ITA_military_industry_dynamic_modifier (used as NS)
@@ -993,6 +993,88 @@ ideas = {
 			}
 		}
 
+		ITA_army_reforms_5 = {
+			name = army_reform5
+
+			removal_cost = -1
+
+			picture = generic_stockpile_fuel
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				special_forces_attack_factor = 0.1
+				special_forces_defence_factor = 0.1
+			}
+		}
+
+		ITA_air_reforms_1 = {
+			name = air_reform1
+
+			removal_cost = -1
+
+			picture = generic_stockpile_fuel
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				air_mission_efficiency = 0.1
+				air_doctrine_cost_factor = -0.25
+			}
+		}
+
+		ITA_air_reforms_2 = {
+			name = air_reform2
+
+			removal_cost = -1
+
+			picture = generic_stockpile_fuel
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				air_attack_factor = 0.05
+			}
+		}
+
+		ITA_air_reforms_3 = {
+			name = air_reform3
+
+			removal_cost = -1
+
+			picture = generic_stockpile_fuel
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				air_nav_efficiency = 0.1
+			}
+		}
+
 		ITA_foggia_farm_fields = {
 			removal_cost = -1
 
@@ -1454,6 +1536,9 @@ ideas = {
 			modifier = {
 				production_speed_arms_factory_factor = 0.1
 				industrial_capacity_factory = 0.1
+				GER = {
+				trade_cost_for_target_factor=-0.5
+				}
 			}
 		}
 

@@ -7,7 +7,6 @@ state={
 	state_category = town
 	resources={
 		steel=20
-		aluminium = 10 # was: 24
 	}
 	history={
 		owner = SOV

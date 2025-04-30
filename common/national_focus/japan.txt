@@ -1164,7 +1164,7 @@ focus_tree = {
 		}
 
 		available = {
-			MAN = {	is_ai = no }
+
 		}
 
 		bypass = {
@@ -1201,7 +1201,6 @@ focus_tree = {
 		}
 
 		available = {
-			MAN = { is_ai = no }
 		}
 
 		bypass = {
@@ -1244,7 +1243,6 @@ focus_tree = {
 		}
 
 		available = {
-			MAN = {is_ai = no }
 		}
 
 		bypass = {
@@ -1298,9 +1296,7 @@ focus_tree = {
 		}
 
 		available = {
-			MAN = {
-				is_ai = no 
-			}
+
 		}
 
 		bypass = {
@@ -1367,9 +1363,7 @@ focus_tree = {
 		}
 
 		available = {
-			MAN = {
-				is_ai = no 
-			}
+
 		}
 
 		bypass = {
@@ -1409,9 +1403,7 @@ focus_tree = {
 		}
 
 		available = {
-			MAN = {
-				is_ai = no 
-			}
+
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		

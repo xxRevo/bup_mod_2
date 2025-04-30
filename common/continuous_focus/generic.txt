@@ -282,7 +282,7 @@ continuous_focus_palette = {
 		available = {
 		}
 		
-		idea = continuous_air_production
+		idea = 
 		
 		ai_will_do = {
 			factor = 1
@@ -350,7 +350,7 @@ continuous_focus_palette = {
 		}
 		
 		modifier = {
-			training_time_army_factor = -0.25
+			training_time_factor = -0.3
 		}
 		
 		ai_will_do = {
@@ -407,6 +407,7 @@ continuous_focus_palette = {
 				
 		modifier = {
 			industry_repair_factor = 0.5
+			industry_free_repair_factor = 0.5
 		}
 		
 		ai_will_do = {

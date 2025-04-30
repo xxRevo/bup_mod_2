@@ -4,6 +4,9 @@ state = {
 
 	manpower = 718000 # was 1077000
 	state_category = "rural"
+	resources = {
+	    rubber = 30
+	}
 
 	history = {
 		owner = AST

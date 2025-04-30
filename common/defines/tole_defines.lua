@@ -228,6 +228,10 @@ NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_INFRA_DAMAGE_SPILL_FACTOR = 0
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_RAILWAY_DAMAGE_SPILL_FACTOR = 0
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DIRECT_DISRUPTION_DAMAGE_FACTOR = 0
 
+--Air Defines
+NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0
+NDefines.NAir.AIR_WING_FLIGHT_SPEED_MULT = 1
+
 NDefines.NProject.RECRUIT_SCIENTIST_COST = {						-- Amount of pp to hire a scientist based on available scientist
 	0,			-- pp cost if no available scientist
 	0,			-- pp cost if 1 available scientist

@@ -36,6 +36,10 @@ add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1180
 }
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
+}
 add_ideas = {
 	vittorio_emanuele
 	vittoria_mutilata
@@ -235,6 +239,11 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 	marines = 1
+	tech_recon = 1
+	interwar_antitank = 1
+    synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
 }
 if = {
 	limit = {

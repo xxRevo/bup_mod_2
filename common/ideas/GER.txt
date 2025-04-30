@@ -3838,6 +3838,26 @@ ideas = {
 			}
 		}
 
+		GER_production_base = {
+			name = GER_production_base
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_sea_focused_navy
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.4
+			
+			}
+		}
+
 		GER_crossing_the_atlantic_ns = {
 			name = GER_crossing_the_atlantic
 			allowed = {

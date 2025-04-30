@@ -75,6 +75,7 @@ set_technology = {
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	interwar_antitank = 1
 }
 if = {
 	limit = {
@@ -169,6 +170,10 @@ add_timed_idea = {
 add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1180
+}
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
 }
 #WUNDERWAFFEN
 set_variable = { GER_wunderwaffen_special_project_speed_factor = 0 }

@@ -65,6 +65,10 @@ add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1180
 }
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
+}
 	#SET FLAGS AND VARIABLES
 	#Internal Affairs
 	set_country_flag = BUL_factions_unlocked_flag
@@ -327,6 +331,9 @@ set_technology = { #VANILLA & DLC
 	fuel_silos = 1
 	basic_train = 1
 	tech_mountaineers = 1
+	interwar_antitank = 1
+	interwar_antiair = 1
+	gw_artillery = 1
 }
 if = {
 	limit = {

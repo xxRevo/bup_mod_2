@@ -33,6 +33,10 @@ add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1180
 }
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
+}
 set_stability = 0.6
 set_war_support = 0.1
 set_research_slots = 3
@@ -50,6 +54,9 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 	gw_artillery = 1
+	interwar_antitank = 1
+	interwar_antiair = 1
+	motorised_infantry = 1
 }
 
 recruit_character = RAJ_lord_linlithgow

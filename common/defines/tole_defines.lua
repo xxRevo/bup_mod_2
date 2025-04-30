@@ -413,6 +413,7 @@ NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 0
 NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6 -- WAS 5 | We added one more support company as it feels necessary for quality tank or infantry divisions -Thrasymachus
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer
+NDefines.NMilitary.MAX_DIVISION_BRIGADE_WIDTH = 6
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.3
 
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 3 -- railways will be put on cooldown when they are captured by enemy and will not be usable during the cooldown

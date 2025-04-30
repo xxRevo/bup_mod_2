@@ -30,6 +30,10 @@ add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1760
 }
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
+}
 IF = {
 	limit = { has_dlc = "Waking the Tiger" }
 	add_ideas = {
@@ -119,6 +123,8 @@ set_technology = {
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	fuel_refining = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
 }
 
 complete_special_project = {

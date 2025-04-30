@@ -33,6 +33,9 @@ set_technology = {
 	tech_recon = 1
 	trench_warfare = 1
 	fleet_in_being = 1
+	interwar_antitank = 1
+	interwar_antiair = 1
+	motorised_infantry = 1
 }
 if = {
 	limit = {
@@ -73,6 +76,10 @@ if = {
 add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1180
+}
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
 }
 recruit_character = NZL_michael_joseph_savage
 recruit_character = NZL_sidney_holland

@@ -59,7 +59,7 @@ technologies = {
 
 		xp_research_type = army
 		xp_unlock_cost = 100
-		additional_brigade_column_size = 1
+		additional_brigade_column_size = 2
 		category_all_infantry = {
 			max_organisation = 15
 		}
@@ -946,7 +946,7 @@ technologies = {
 	sup_delay = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		additional_brigade_column_size = 1
+		additional_brigade_column_size = 2
 		category_light_infantry = {
 			max_organisation = 10
 		}
@@ -1824,7 +1824,7 @@ technologies = {
 	
 		xp_research_type = army
 		xp_unlock_cost = 100
-		additional_brigade_column_size = 1
+		additional_brigade_column_size = 2
 		path = {
 			leads_to_tech = prepared_defense 
 			research_cost_coeff = 1
@@ -2694,7 +2694,7 @@ technologies = {
 		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
 		no_supply_grace = 48 # more hours before supply penalty changes
 		out_of_supply_factor = -0.10
-		additional_brigade_column_size = 1
+		additional_brigade_column_size = 2
 				
 		path = {
 			leads_to_tech = defence_in_depth

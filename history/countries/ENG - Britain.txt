@@ -247,7 +247,7 @@ if = {
 		freedom_level = 0.35
 	}
 	set_autonomy = {
-		target = OMA
+		target = 
 		autonomous_state = autonomy_colony
 		freedom_level = 0.35
 	}
@@ -272,7 +272,7 @@ if = {
 		freedom_level = 0.2
 	}
 	set_autonomy = {
-		target = BRM
+		target = 
 		autonomous_state = autonomy_colony
 		freedom_level = 0.2
 	}

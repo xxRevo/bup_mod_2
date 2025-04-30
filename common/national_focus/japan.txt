@@ -2705,53 +2705,24 @@ focus_tree = {
 			OR = {
 				AND = {
 					JAP = { num_of_naval_factories > 100 }
-					USA = { num_of_naval_factories < 50 }
-					ENG = { num_of_naval_factories < 50 }
+					USA = { num_of_naval_factories < 100 }
 				}
 				AND = {
 					JAP = { num_of_naval_factories > 150 }
-						OR = {
-							AND = {
-								USA = { num_of_naval_factories < 100 }
-								ENG = { num_of_naval_factories < 50 }
-							}
-							AND = {
-								USA = { num_of_naval_factories < 75 }
-								ENG = { num_of_naval_factories < 75 }
-							}
-							AND = {
-								USA = { num_of_naval_factories < 50 }
-								ENG = { num_of_naval_factories < 100 }
-							}
-						}
-				}
+					USA = { num_of_naval_factories < 150 }
+							}	
+				
 				AND = {
 					JAP = { num_of_naval_factories > 200 }
-					OR = {
-						AND = {
-							USA = { num_of_naval_factories < 150 }
-							ENG = { num_of_naval_factories < 50 }
+					USA = { num_of_naval_factories < 200 }
 						}
-						AND = {
-							USA = { num_of_naval_factories < 125 }
-							ENG = { num_of_naval_factories < 75 }
-						}
-						AND = {
-							USA = { num_of_naval_factories < 100 }
-							ENG = { num_of_naval_factories < 100 }
-						}
-						AND = {
-							USA = { num_of_naval_factories < 75 }
-							ENG = { num_of_naval_factories < 125 }
-						}
-						AND = {
-							USA = { num_of_naval_factories < 50 }
-							ENG = { num_of_naval_factories < 150 }
-						}
+					
+						
+						
 					}
 				}
-			}
-		}
+			
+		
 		bypass = {
 
 		}

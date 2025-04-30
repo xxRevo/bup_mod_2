@@ -86,3 +86,9 @@
  generic_materials_organization_sov:0 "Tula Arms Limited"
  generic_materials_organization_jap:0 "Tokyo Arsenal"
 
+ GER_no_trade_back:0 "Fuck Trade Back"
+ SOV_airports_devastated:0 "Airports Devastated"
+ SOV_short_debuff:0 "Army In Chaos I"
+ SOV_short_debuff_2:0 "Amry In Chaos II"
+ SOV_short_debuff_3:0 "Amry In Chaos III"
+ SOV_short_debuff_4:0 "Amry In Chaos IV"

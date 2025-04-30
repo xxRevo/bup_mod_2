@@ -74,6 +74,10 @@ add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1180
 }
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
+}
 recruit_character = NZL_michael_joseph_savage
 recruit_character = NZL_sidney_holland
 recruit_character = NZL_john_ormond

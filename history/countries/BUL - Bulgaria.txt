@@ -65,6 +65,10 @@ add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1180
 }
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
+}
 	#SET FLAGS AND VARIABLES
 	#Internal Affairs
 	set_country_flag = BUL_factions_unlocked_flag

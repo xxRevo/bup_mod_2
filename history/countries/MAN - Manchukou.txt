@@ -47,8 +47,16 @@ if = {
 	}
 }
 add_timed_idea = {
+    idea = GER_no_trade_back
+    days = 1247
+}
+add_timed_idea = {
 	idea = GER_peace_time_train
-	days = 1660
+	days = 1760
+}
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
 }
 
 set_convoys = 5

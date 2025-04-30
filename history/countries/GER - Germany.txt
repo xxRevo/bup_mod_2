@@ -170,6 +170,10 @@ add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1180
 }
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
+}
 #WUNDERWAFFEN
 set_variable = { GER_wunderwaffen_special_project_speed_factor = 0 }
 set_variable = { GER_wunderwaffen_sp_tag_tank_speed_factor = 0 }

@@ -1,15 +1,15 @@
-generic_medium_tank_organization = {
+generic_heavy_tank_organization = {
 	icon = GFX_idea_renault
 
 	allowed = {
 		always = no
 	}
 
-	equipment_type = { medium_tank_chassis medium_tank_artillery_chassis medium_tank_destroyer_chassis medium_tank_aa_chassis}
-	research_categories = { mio_cat_tech_medium_armor_and_modules }
+	equipment_type = { heavy_tank_chassis heavy_tank_artillery_chassis heavy_tank_destroyer_chassis heavy_tank_aa_chassis}
+	research_categories = { mio_cat_tech_heavy_armor_and_modules }
 
 	initial_trait = {
-		name = generic_medium_tank_organization
+		name = generic_heavy_tank_organization
 		organization_modifier = {
 			military_industrial_organization_research_bonus = 0.05
 		}
@@ -18,12 +18,12 @@ generic_medium_tank_organization = {
 	trait = {
 		token = generic_mio_tank_1
 		name = generic_mio_tank_1_l
-		icon = GFX_military_industrial_organization_medium_tank_chassis
+		icon = GFX_military_industrial_organization_heavy_tank_chassis
 
 		position = { x=0 y=0 }
 
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		special_trait_background  = yes
 		equipment_bonus = {
@@ -34,12 +34,12 @@ generic_medium_tank_organization = {
 	trait = {
 		token = generic_mio_tank_2
 		name = generic_mio_trait_2_l
-		icon = GFX_military_industrial_organization_medium_tank_artillery_chassis
+		icon = GFX_military_industrial_organization_heavy_tank_artillery_chassis
 
 		position = { x=2 y=0 }
 
 		limit_to_equipment_type = { 
-			medium_tank_artillery_chassis
+			heavy_tank_artillery_chassis
 		}
 		special_trait_background  = yes
 		equipment_bonus = {
@@ -50,12 +50,12 @@ generic_medium_tank_organization = {
 	trait = {
 		token = generic_mio_tank_3
 		name = generic_mio_tank_3_l
-		icon = GFX_military_industrial_organization_medium_tank_destroyer_chassis
+		icon = GFX_military_industrial_organization_heavy_tank_destroyer_chassis
 
 		position = { x=4 y=0 }
 
 		limit_to_equipment_type = { 
-			medium_tank_destroyer_chassis
+			heavy_tank_destroyer_chassis
 		}
 		special_trait_background  = yes
 		equipment_bonus = {
@@ -66,12 +66,12 @@ generic_medium_tank_organization = {
 	trait = {
 		token = generic_mio_tank_4
 		name = generic_mio_tank_4_l
-		icon = GFX_military_industrial_organization_medium_tank_aa_chassis
+		icon = GFX_military_industrial_organization_heavy_tank_aa_chassis
 
 		position = { x=6 y=0 }
 
 		limit_to_equipment_type = { 
-			medium_tank_aa_chassis
+			heavy_tank_aa_chassis
 		}
 		special_trait_background  = yes
 		equipment_bonus = {
@@ -89,7 +89,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_1 }
 		mutually_exclusive = {generic_mio_tank_6}
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		
 		equipment_bonus = {
@@ -109,7 +109,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_1 }
 
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		
 		equipment_bonus = {
@@ -128,7 +128,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_6 generic_mio_tank_5}
 
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		
 		equipment_bonus = {
@@ -147,7 +147,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_6 generic_mio_tank_5}
 
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		
 		equipment_bonus = {
@@ -166,7 +166,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_7 generic_mio_tank_8}
 
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		
 		equipment_bonus = {
@@ -185,7 +185,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_7 generic_mio_tank_8}
 
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		
 		equipment_bonus = {
@@ -204,7 +204,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_9 generic_mio_tank_10}
 
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		
 		equipment_bonus = {
@@ -223,7 +223,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_9 generic_mio_tank_10}
 
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		
 		equipment_bonus = {
@@ -240,7 +240,7 @@ generic_medium_tank_organization = {
 		special_trait_background = yes
 		any_parent = { generic_mio_tank_11 generic_mio_tank_12}
 		limit_to_equipment_type = { 
-			medium_tank_chassis
+			heavy_tank_chassis
 		}
 		
 		equipment_bonus = {
@@ -259,7 +259,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_2 }
 		mutually_exclusive = {generic_mio_tank_15}
 		limit_to_equipment_type = { 
-			medium_tank_artillery_chassis
+			heavy_tank_artillery_chassis
 		}
 		
 		equipment_bonus = {
@@ -279,7 +279,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_2 }
 
 		limit_to_equipment_type = { 
-			medium_tank_artillery_chassis
+			heavy_tank_artillery_chassis
 		}
 		
 		equipment_bonus = {
@@ -298,7 +298,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_14 generic_mio_tank_15}
 
 		limit_to_equipment_type = { 
-			medium_tank_artillery_chassis
+			heavy_tank_artillery_chassis
 		}
 		
 		equipment_bonus = {
@@ -317,7 +317,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_15 generic_mio_tank_14}
 
 		limit_to_equipment_type = { 
-			medium_tank_artillery_chassis
+			heavy_tank_artillery_chassis
 		}
 		
 		equipment_bonus = {
@@ -336,7 +336,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_16 generic_mio_tank_17}
 
 		limit_to_equipment_type = { 
-			medium_tank_artillery_chassis
+			heavy_tank_artillery_chassis
 		}
 		
 		equipment_bonus = {
@@ -355,7 +355,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_17 generic_mio_tank_16}
 
 		limit_to_equipment_type = { 
-			medium_tank_artillery_chassis
+			heavy_tank_artillery_chassis
 		}
 		
 		equipment_bonus = {
@@ -373,7 +373,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_18 generic_mio_tank_19}
 
 		limit_to_equipment_type = { 
-			medium_tank_artillery_chassis
+			heavy_tank_artillery_chassis
 		}
 		
 		equipment_bonus = {
@@ -391,7 +391,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_20}
 		special_trait_background = yes
 		limit_to_equipment_type = { 
-			medium_tank_artillery_chassis
+			heavy_tank_artillery_chassis
 		}
 		
 		equipment_bonus = {
@@ -408,7 +408,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_3 }
 		mutually_exclusive = {generic_mio_tank_23}
 		limit_to_equipment_type = { 
-			medium_tank_destroyer_chassis
+			heavy_tank_destroyer_chassis
 		}
 		
 		equipment_bonus = {
@@ -428,7 +428,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_3 }
 
 		limit_to_equipment_type = { 
-			medium_tank_destroyer_chassis
+			heavy_tank_destroyer_chassis
 		}
 		
 		equipment_bonus = {
@@ -447,7 +447,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_23 generic_mio_tank_22}
 
 		limit_to_equipment_type = { 
-			medium_tank_destroyer_chassis
+			heavy_tank_destroyer_chassis
 		}
 		
 		equipment_bonus = {
@@ -466,7 +466,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_22 generic_mio_tank_23}
 
 		limit_to_equipment_type = { 
-			medium_tank_destroyer_chassis
+			heavy_tank_destroyer_chassis
 		}
 		
 		equipment_bonus = {
@@ -485,7 +485,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_24 generic_mio_tank_25}
 
 		limit_to_equipment_type = { 
-			medium_tank_destroyer_chassis
+			heavy_tank_destroyer_chassis
 		}
 		
 		equipment_bonus = {
@@ -504,7 +504,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_24 generic_mio_tank_25}
 
 		limit_to_equipment_type = { 
-			medium_tank_destroyer_chassis
+			heavy_tank_destroyer_chassis
 		}
 		
 		equipment_bonus = {
@@ -522,7 +522,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_26 generic_mio_tank_25}
 
 		limit_to_equipment_type = { 
-			medium_tank_destroyer_chassis
+			heavy_tank_destroyer_chassis
 		}
 		
 		equipment_bonus = {
@@ -540,7 +540,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_28 }
 		special_trait_background = yes
 		limit_to_equipment_type = { 
-			medium_tank_destroyer_chassis
+			heavy_tank_destroyer_chassis
 		}
 		
 		equipment_bonus = {
@@ -557,7 +557,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_4 }
 		mutually_exclusive = {generic_mio_tank_31}
 		limit_to_equipment_type = { 
-			medium_tank_aa_chassis
+			heavy_tank_aa_chassis
 		}
 		
 		equipment_bonus = {
@@ -577,7 +577,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_4 }
 
 		limit_to_equipment_type = { 
-			medium_tank_aa_chassis
+			heavy_tank_aa_chassis
 		}
 		
 		equipment_bonus = {
@@ -596,7 +596,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_30 generic_mio_tank_31}
 
 		limit_to_equipment_type = { 
-			medium_tank_aa_chassis
+			heavy_tank_aa_chassis
 		}
 		
 		equipment_bonus = {
@@ -615,7 +615,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_30 generic_mio_tank_31}
 
 		limit_to_equipment_type = { 
-			medium_tank_aa_chassis
+			heavy_tank_aa_chassis
 		}
 		
 		equipment_bonus = {
@@ -634,7 +634,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_32 generic_mio_tank_33}
 
 		limit_to_equipment_type = { 
-			medium_tank_aa_chassis
+			heavy_tank_aa_chassis
 		}
 		
 		equipment_bonus = {
@@ -653,7 +653,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_32 generic_mio_tank_33}
 
 		limit_to_equipment_type = { 
-			medium_tank_aa_chassis
+			heavy_tank_aa_chassis
 		}
 		
 		equipment_bonus = {
@@ -671,7 +671,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_34 generic_mio_tank_35}
 
 		limit_to_equipment_type = { 
-			medium_tank_aa_chassis
+			heavy_tank_aa_chassis
 		}
 		
 		equipment_bonus = {
@@ -689,7 +689,7 @@ generic_medium_tank_organization = {
 		any_parent = { generic_mio_tank_36}
 		special_trait_background = yes
 		limit_to_equipment_type = { 
-			medium_tank_aa_chassis
+			heavy_tank_aa_chassis
 		}
 		
 		equipment_bonus = {
@@ -738,4 +738,41 @@ generic_medium_tank_organization = {
 			military_industrial_organization_research_bonus = 0.05
 		}
 	}	
+
+	trait = {
+		token = generic_mio_tank_41
+		name = generic_mio_tank_41
+		icon = GFX_generic_mio_trait_icon_unique
+		position = { x=9 y=0 }
+		mutually_exclusive = {generic_mio_tank_42}
+		special_trait_background = yes
+		available = {
+			tag = GER
+			date > 1941.1.1
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			breakthrough = 0.05
+			soft_attack = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_tank_42
+		name = generic_mio_tank_42
+		icon = GFX_generic_mio_trait_icon_unique
+		position = { x=9 y=1 }
+		mutually_exclusive = {generic_mio_tank_41}
+		special_trait_background = yes
+		available = {
+			tag = GER
+			date > 1941.1.1
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			breakthrough = 0.05
+			hard_attack = 0.1
+		}
+	}
+
 }

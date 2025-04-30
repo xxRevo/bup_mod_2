@@ -1,0 +1,198 @@
+generic_light_aircraft_organization  = {
+	icon = GFX_idea_renault
+
+	allowed = {
+		always = no
+	}
+
+	equipment_type = {mio_cat_eq_all_small_plane mio_cat_eq_all_medium_plane mio_cat_eq_all_large_plane mio_cat_eq_all_cv_aircraft}
+	research_categories = {air_equipment}
+
+	initial_trait = {
+		name = generic_light_aircraft_organization
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+			military_industrial_organization_task_capacity = 2
+			
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_1
+		name = generic_mio_plane_1_l
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=0 y=0 }
+
+		equipment_bonus = {
+			reliability = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_2
+		name = generic_mio_plane_2_l
+		icon = GFX_generic_mio_trait_icon_air_agility
+		any_parent = {generic_mio_plane_1}
+		position = { x=0 y=1 }
+
+		equipment_bonus = {
+			air_agility = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_3
+		name = generic_mio_plane_3_l
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=2 }
+		any_parent = {generic_mio_plane_2}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_4
+		name = generic_mio_plane_4_l
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+
+		position = { x=1 y=1 }
+		any_parent = {generic_mio_plane_1}
+		mutually_exclusive = {generic_mio_plane_2}
+		equipment_bonus = {
+			fuel_consumption = -0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_5
+		name = generic_mio_plane_5_l
+		icon = GFX_generic_mio_trait_icon_weight
+
+		position = { x=1 y=2 }
+		any_parent = {generic_mio_plane_4}
+		equipment_bonus = {
+			thrust = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_6
+		name = generic_mio_plane_6_l
+		icon = GFX_generic_mio_trait_icon_air_superiority
+		special_trait_background = yes
+		position = { x=1 y=3 }
+		any_parent = {generic_mio_plane_5 generic_mio_plane_3}
+		equipment_bonus = {
+			air_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_9
+		name = generic_mio_plane_9_l
+		icon = GFX_generic_mio_department_icon_plane_fighter
+		mutually_exclusive = { generic_mio_plane_7 generic_mio_plane_8}
+		position = { x=2 y=0 }
+		equipment_bonus = {
+			air_attack = 0.025
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_7
+		name = generic_mio_plane_7_l
+		icon = GFX_generic_mio_department_icon_plane_naval_bomber
+		mutually_exclusive = {generic_mio_plane_9  generic_mio_plane_8 }
+
+		position = { x=4 y=0 }
+		equipment_bonus = {
+			naval_strike_targetting = 0.05
+			naval_strike_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_8
+		name = generic_mio_plane_8_l
+		icon = GFX_generic_mio_department_icon_plane_cas
+		mutually_exclusive = {generic_mio_plane_9 generic_mio_plane_7  }
+		position = { x=3 y=0 }
+		equipment_bonus = {
+			air_ground_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_10
+		name = generic_mio_plane_10_l
+		icon = GFX_generic_mio_department_icon_facilities
+		position = { x=3 y=1 }
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+				military_industrial_organization_funds_gain = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_11
+		name = generic_mio_plane_11_l
+		icon = GFX_generic_mio_department_icon_facilities
+		any_parent = {generic_mio_plane_10}
+		position = { x=3 y=2 }
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+				military_industrial_organization_funds_gain = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_12
+		name = generic_mio_plane_12_l
+		icon = GFX_generic_mio_department_icon_facilities
+		any_parent = {generic_mio_plane_11}
+		position = { x=3 y=3 }
+		special_trait_background = yes
+		organization_modifier = {
+			military_industrial_organization_task_capacity = 2
+			military_industrial_organization_research_bonus = 0.1
+			military_industrial_organization_funds_gain = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_13
+		name = generic_mio_plane_13_l
+		icon = GFX_generic_mio_trait_icon_unique
+		position = { x=5 y=0 }
+		special_trait_background = yes
+		available = {
+			OR = {
+				tag = GER
+			}
+		}
+		equipment_bonus = {
+			air_attack = 0.1
+			air_ground_attack = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_plane_14
+		name = generic_mio_plane_14_l
+		icon = GFX_generic_mio_trait_icon_unique
+		position = { x=5 y=1 }
+		special_trait_background = yes
+		available = {
+			OR = {
+				tag = JAP
+			}
+		}
+		equipment_bonus = {
+			air_agility = 0.1
+			air_attack = 0.05
+		}
+	}
+}

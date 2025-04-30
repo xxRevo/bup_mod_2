@@ -187,6 +187,7 @@ generic_mobile_tank_organization_axis = {
 			tag = BUL
 			tag = ITA
 			tag = JAP
+			tag = MAN
 		}
 	}
 
@@ -243,6 +244,7 @@ generic_medium_tank_organization_axis = {
 			tag = BUL
 			tag = ITA
 			tag = JAP
+			tag = MAN
 		}
 	}
 	include = generic_medium_tank_organization
@@ -296,6 +298,7 @@ generic_heavy_tank_organization_axis = {
 			tag = BUL
 			tag = ITA
 			tag = JAP
+			tag = MAN
 		}
 	}
 
@@ -348,6 +351,7 @@ generic_tank_refurbishment_plant_organization_axis = {
 			tag = BUL
 			tag = ITA
 			tag = JAP
+			tag = MAN
 		}
 	}
 	include = generic_tank_refurbishment_plant_organization
@@ -373,440 +377,44 @@ generic_tank_refurbishment_plant_organization_sov = {
  ######  ##     ## #### ##         ######  
 
 #BATTLE LINE SHIP MANUFACTURER - Based on Cammell Laird (ENG)
-generic_battle_line_ship_organization = {
-	icon = GFX_idea_generic_naval_manufacturer_2
-
+generic_light_ship_organization_axis = {
+	icon = GFX_idea_germaniawerft
 	allowed = {
-		NOT = { OR = { original_tag = USA original_tag = GER original_tag = AST original_tag = CAN original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ITA original_tag = JAP } }
-	}
-
-	equipment_type = {
-		mio_cat_eq_all_battleship
-		mio_cat_eq_all_cruiser
-	}
-	research_categories = {
-		naval_equipment
-	}
-
-	initial_trait = {
-		name = generic_mio_initial_trait_battle_line_ship_builders
-
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
+		OR = {
+			tag = GER
+			tag = HUN
+			tag = ROM
+			tag = BUL
+			tag = ITA
 		}
 	}
-
-	trait = {
-		token = generic_mio_trait_simplified_suspension
-		name = generic_mio_trait_internal_armor_belt
-		icon = GFX_generic_mio_department_icon_ship_capital_ship_armor
-
-		position = { x=4 y=0 }
-		
-		equipment_bonus = {
-			armor_value = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_defensive_equipment
-		name = generic_mio_trait_advanced_hydrodynamic_design
-		icon = GFX_generic_mio_trait_icon_maximum_speed
-
-		position = { x=2 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			naval_speed = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_combat_information_center
-		icon = GFX_generic_mio_trait_icon_max_strength
-
-		position = { x=6 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			max_strength = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_anti_tank_specialization
-		name = generic_mio_trait_super_heavy_shells
-		icon = GFX_generic_mio_trait_icon_hg_attack
-
-		position = { x=0 y=2 }
-
-		any_parent = { generic_mio_trait_defensive_equipment }
-		
-		equipment_bonus = {
-			hg_attack = 0.1
-			hg_armor_piercing = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_tooling
-		name = generic_mio_trait_mass_production
-		icon = GFX_generic_mio_trait_icon_build_cost_ic
-
-		any_parent = { generic_mio_trait_improved_crew_ergonomics }
-
-		position = { x=8 y=2 }
-
-		equipment_bonus = {
-			build_cost_ic = -0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_close_support_role
-		name = generic_mio_trait_secondary_fire_director_control
-		icon = GFX_generic_mio_department_icon_ship_capital_ship_offense
-		
-		position = { x=4 y=3 }
-	
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			anti_air_attack = 0.1
-		}
-	}
+	include = generic_light_ship_organization
 }
 
-
-#ESCORT FLEET MANUFACTURER - Based on Yarrow Shipbuilders (ENG)
-generic_escort_ship_organization = {
-	icon = GFX_idea_generic_naval_manufacturer_1
-
+generic_light_ship_organization_allies = {
+	icon = GFX_idea_norfolk_naval_yard
 	allowed = {
-		NOT = { OR = { original_tag = USA original_tag = GER original_tag = CAN original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ITA original_tag = JAP } }
-	}
-
-	equipment_type = {
-		screen_ship
-	}
-	research_categories = {
-		naval_equipment
-	}
-
-	initial_trait = {
-		name = generic_mio_initial_trait_escort_fleet
-
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
+		OR = {
+			tag = FRA
+			tag = ENG
+			tag = SAF
+			tag = USA
+			tag = CAN
+			tag = RAJ
+			tag = AST
+			tag = NZL
 		}
 	}
-
-		trait = {
-		token = generic_mio_trait_simplified_suspension
-		name = generic_mio_trait_internal_armor_belt
-		icon = GFX_generic_mio_department_icon_ship_capital_ship_armor
-
-		position = { x=4 y=0 }
-		
-		equipment_bonus = {
-			max_strength = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_defensive_equipment
-		name = generic_mio_trait_raider_escort_requirements
-		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
-
-		position = { x=2 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			naval_range = 0.2
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_high_speed_mine_hunting_equipment
-		icon = GFX_generic_mio_trait_icon_sub_visibility
-
-		position = { x=6 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			surface_detection = 0.15
-			sub_detection = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_anti_tank_specialization
-		name = generic_mio_trait_fleet_escorts
-		icon = GFX_generic_mio_department_icon_ship_screen_ship_offense
-
-		position = { x=0 y=2 }
-
-		any_parent = { generic_mio_trait_defensive_equipment }
-		
-		equipment_bonus = {
-			lg_attack = 0.1
-			lg_armor_piercing = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_tooling
-		name = generic_mio_trait_submarine_hunters
-		icon = GFX_generic_mio_trait_icon_sub_attack
-
-		any_parent = { generic_mio_trait_improved_crew_ergonomics }
-
-		position = { x=8 y=2 }
-
-		equipment_bonus = {
-			sub_attack = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_close_support_role
-		name = generic_mio_trait_anti_air_ships
-		icon = GFX_generic_mio_trait_icon_anti_air_attack
-		
-		position = { x=4 y=3 }
-	
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			anti_air_attack = 0.1
-		}
-	}
+	include = generic_light_ship_organization
 }
 
-
-#RAIDING FLEET MANUFACTURER - Based on John Brown (ENG)
-generic_raider_ship_organization = {
-	icon = GFX_idea_generic_naval_manufacturer_3
-
+generic_light_ship_organization_jap = {
+	icon = GFX_idea_yokosuka_naval_arsenal
 	allowed = {
-		NOT = { OR = { original_tag = USA original_tag = GER original_tag = AST original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ITA original_tag = JAP } }
+		tag = JAP
 	}
-
-	equipment_type = {
-		capital_ship
-		screen_ship
-	}
-	research_categories = {
-		naval_equipment
-	}
-
-	initial_trait = {
-		name = generic_mio_initial_trait_raiding_fleet
-
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_simplified_suspension
-		name = generic_mio_trait_internal_armor_belt
-		icon = GFX_generic_mio_department_icon_ship_capital_ship_armor
-
-		position = { x=4 y=0 }
-		
-		equipment_bonus = {
-			max_strength = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_defensive_equipment
-		name = generic_mio_trait_raider_escort_requirements
-		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
-
-		position = { x=2 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			naval_range = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_high_quality_optics
-		icon = GFX_generic_mio_trait_icon_surface_detection
-
-		position = { x=6 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			surface_visibility = -0.1
-			surface_detection = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_anti_tank_specialization
-		name = generic_mio_trait_large_torpedo_banks
-		icon = GFX_generic_mio_trait_icon_torpedo_attack
-
-		position = { x=0 y=2 }
-
-		any_parent = { generic_mio_trait_defensive_equipment }
-		
-		equipment_bonus = {
-			torpedo_attack = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_tooling
-		name = generic_mio_trait_mass_production
-		icon = GFX_generic_mio_trait_icon_build_cost_ic
-
-		any_parent = { generic_mio_trait_improved_crew_ergonomics }
-
-		position = { x=8 y=2 }
-
-		equipment_bonus = {
-			build_cost_ic = -0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_close_support_role
-		name = generic_mio_trait_anti_air_ships
-		icon = GFX_generic_mio_trait_icon_anti_air_attack
-		
-		position = { x=4 y=3 }
-	
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			anti_air_attack = 0.1
-		}
-	}
+	include = generic_light_ship_organization
 }
-
-
-#SUBMARINE MANUFACTURER - Based on Canteri Navali Tosi (ITA)
-generic_submarine_organization = {
-	icon = GFX_idea_generic_naval_manufacturer_1
-
-	allowed = {
-		NOT = { OR = { original_tag = USA original_tag = GER original_tag = BUL original_tag = SOV original_tag = ENG original_tag = FRA original_tag = ITA original_tag = JAP } }
-	}
-
-	equipment_type = {
-		ship_hull_submarine
-	}
-	research_categories = {
-		naval_equipment
-	}
-
-	initial_trait = {
-		name = generic_mio_initial_trait_submarine_designer
-
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_simplified_suspension
-		name = generic_mio_trait_emergency_main_ballast_tank_blow
-		icon = GFX_generic_mio_trait_icon_max_strength
-
-		position = { x=4 y=0 }
-		
-		equipment_bonus = {
-			max_strength = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_defensive_equipment
-		name = generic_mio_trait_highly_efficient_diesel_electric_propulsion_systems
-		icon = GFX_generic_mio_trait_icon_naval_range
-
-		position = { x=2 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			naval_range = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_crew_ergonomics
-		name = generic_mio_trait_advanced_periscope
-		icon = GFX_generic_mio_trait_icon_surface_detection
-
-		position = { x=6 y=1 }
-
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			surface_detection = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_anti_tank_specialization
-		name = generic_mio_trait_improved_torpedo_detonators
-		icon = GFX_generic_mio_trait_icon_torpedo_attack
-
-		position = { x=0 y=2 }
-
-		any_parent = { generic_mio_trait_defensive_equipment }
-		
-		equipment_bonus = {
-			torpedo_attack = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_improved_tooling
-		name = generic_mio_trait_experimental_anechoic_tiles
-		icon = GFX_generic_mio_department_icon_ship_submarine_survivability
-
-		any_parent = { generic_mio_trait_improved_crew_ergonomics }
-
-		position = { x=8 y=2 }
-
-		equipment_bonus = {
-			sub_visibility = -0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_trait_close_support_role
-		name = generic_mio_trait_high_speed_cruising
-		icon = GFX_generic_mio_trait_icon_maximum_speed
-		
-		position = { x=4 y=3 }
-	
-		any_parent = { generic_mio_trait_simplified_suspension }
-		
-		equipment_bonus = {
-			naval_speed = 0.1
-		}
-	}
-}
-
-
-
 
 ########  ##          ###    ##    ## ########  ######  
 ##     ## ##         ## ##   ###   ## ##       ##    ## 
@@ -817,8 +425,8 @@ generic_submarine_organization = {
 ##        ######## ##     ## ##    ## ########  ######  
 
 #LIGHT AIRCRAFT MANUFACTURER - Based on MESSERSCHMIDT (GER)
-generic_plane_organization_axis = {
-	icon = GFX_idea_GER_messerschmit
+generic_light_aircraft_organization_axis  = {
+	icon = GFX_idea_messerschmitt
 
 	allowed = {
 		OR = {
@@ -827,8 +435,107 @@ generic_plane_organization_axis = {
 			tag = ROM
 			tag = BUL
 			tag = ITA
-			tag = JAP
 		}
 	}
-	include = generic_plane_organization
+	include = generic_light_aircraft_organization
+}
+
+generic_light_aircraft_organization_allies  = {
+	icon = GFX_idea_supermarine
+
+	allowed = {
+		OR = {
+			tag = FRA
+			tag = ENG
+			tag = SAF
+			tag = USA
+			tag = CAN
+			tag = RAJ
+			tag = AST
+			tag = NZL
+		}
+	}
+	include = generic_light_aircraft_organization
+}
+
+generic_light_aircraft_organization_sov  = {
+	icon = GFX_idea_mig_design_bureau
+	allowed = {
+		OR = {
+			tag = SOV
+		}
+	}
+	include = generic_light_aircraft_organization
+}
+
+generic_light_aircraft_organization_jap  = {
+	icon = GFX_idea_mitsubishi
+	allowed = {
+		OR = {
+			tag = JAP
+			tag = MAN
+		}
+	}
+	include = generic_light_aircraft_organization
+}
+
+###########################################################
+###########################################################
+###########################################################
+###########################################################
+###########################################################
+###########################################################
+###########################################################
+generic_materials_organization_axis  = {
+	icon = GFX_idea_mauser
+
+	allowed = {
+		OR = {
+			tag = GER
+			tag = HUN
+			tag = ROM
+			tag = BUL
+			tag = ITA
+		}
+	}
+	include = generic_materials_organization
+}
+
+generic_materials_organization_allies  = {
+	icon = GFX_idea_small_arms_limited
+
+	allowed = {
+		OR = {
+			tag = FRA
+			tag = ENG
+			tag = SAF
+			tag = USA
+			tag = CAN
+			tag = RAJ
+			tag = AST
+			tag = NZL
+		}
+	}
+	include = generic_materials_organization
+}
+
+generic_materials_organization_sov  = {
+	icon = GFX_idea_tula_arms_plant
+	allowed = {
+		OR = {
+			tag = SOV
+		}
+	}
+	include = generic_materials_organization
+}
+
+generic_materials_organization_jap  = {
+	icon = GFX_idea_tokyo_arsenal
+	allowed = {
+		OR = {
+			tag = JAP
+			tag = MAN
+		}
+	}
+	include = generic_materials_organization
 }

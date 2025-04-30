@@ -1389,6 +1389,13 @@ focus = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			ITA = {
+			   modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 2
+        	}
+			}
         	modify_building_resources = {
         	   building = synthetic_refinery
         	   resource = rubber
@@ -1411,6 +1418,14 @@ focus = {
 		}
 		
 		completion_reward = {
+			ITA = {
+				add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 3.0
+				uses = 2
+				category = synth_resources
+			}
+			}
 			add_tech_bonus = {
 				name = GER_coal_liquidization
 				bonus = 3.0
@@ -8701,7 +8716,7 @@ focus = {
 
 		completion_reward = {
 			add_named_threat = { threat = 5 name = GER_war_with_france_threat }
- 			GER={declare_war_on = { target = SOV type = annex_everything }}
+ 			GER={declare_war_on = { target = FRA type = annex_everything }}
 		}
 	}
 
@@ -9422,6 +9437,7 @@ focus = {
 		cost = 5
 		
 		available = {
+			always = no
 			is_subject = no
 			SOU = {
 				has_government = communism
@@ -9564,6 +9580,33 @@ focus = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ANNEXATION }
 
 		completion_reward = {
+
+			SOV = {
+				add_timed_idea = {
+   					 idea = SOV_airports_devastated
+   					 days = 20
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				add_timed_idea = {
+   					 idea = SOV_short_debuff
+   					 days = 40
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				add_timed_idea = {
+   					 idea = SOV_short_debuff_2
+   					 days = 100
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				add_timed_idea = {
+   					 idea = SOV_short_debuff_3
+   					 days = 135
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				add_timed_idea = {
+   					 idea = SOV_short_debuff_4
+   					 days = 365
+				}
+			}
 			sound_effect = barbarossa_begin
 			GER={declare_war_on = { target = SOV type = annex_everything }}
 			IF = {
@@ -9629,17 +9672,49 @@ focus = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_POLITICAL }
 	
 		completion_reward = {
-				SOV = {
-					add_political_power = 200
-				}
-				GER = {
-					add_political_power = 200
-				}
-				add_resource = {
-					type = aluminium
-					amount = 10
-					state = 64
-				}
+			# REVISIT Rework event series to fit new design or retain old design
+			SOV = {
+				country_event = { id = germany.11 days = 1 }
+				custom_effect_tooltip = GER_mol_rib_pact_tt
+				custom_effect_tooltip = needs_approval
+			}
+			EST = {set_equipment_fraction = 0}
+			LIT = {set_equipment_fraction = 0}
+			LAT = {set_equipment_fraction = 0}
+			SOV = {
+			transfer_state = 78 
+			transfer_state = 80
+			transfer_state = 766
+			annex_country = {
+				target = LAT
+			}
+			annex_country = {
+				target = EST
+			}
+			annex_country = {
+				target = LIT
+			}
+			country_event = soviet.141
+			}
+			add_resource = { 
+				type = aluminium 
+				amount = 10 
+				state = 64 
+			} 
+		 SOV = {
+					give_resource_rights = { receiver = GER state = 229 }
+					
+					}
+			add_resource = { 
+				type = oil 
+				amount = 90 
+				state = 64 
+			} 
+			add_resource = { 
+				type = tungsten 
+				amount = 10 
+				state = 64 
+			} 
 		}
 	}
 

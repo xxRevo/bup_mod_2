@@ -133,7 +133,6 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	recruit_character = SOV_anastasy_vonsyatsky
 	# recruit_character = SOV_grigory_semyonov # starts as an advisor to Puyi
 	recruit_character = SOV_metropolitan_anastasy
 	recruit_character = SOV_metropolitan_nikolay
@@ -173,6 +172,7 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
+	tech_trucks = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
@@ -180,16 +180,7 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
-	gwtank = 1
-	basic_light_tank = 1 
-	basic_heavy_tank = 1  
-	improved_light_tank=1
-	early_fighter = 1
-	fighter1 = 1
-	scout_plane1 = 1
-	CAS1 = 1
-	early_bomber = 1
-	naval_bomber1 = 1
+	basic_train = 1
 	mass_assault = 1
 	fleet_in_being = 1
 	fuel_silos = 1
@@ -236,7 +227,39 @@ if = {
 		armored_car1 = 1
 	}
 }
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
 
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "GER_1936_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			aa_cannon_1 = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			basic_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_medium_airframe = 1
+			iw_large_airframe = 1
+			air_torpedoe_1 = 1
+			photo_reconnaisance = 1
+			bba_early_transport_plane = 1
+		}
+}
 
 set_convoys = 1000
 set_politics = {

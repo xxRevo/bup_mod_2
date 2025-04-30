@@ -62,3 +62,7 @@
  air_reform2:0 "Investing On Fighters"
  air_reform3:0 "Investing On Naval Bombers"
  ITA_tank_production:0 "Tank Production"
+ GER_soft_tt:0 "Since all MIOs are made same, German extra 10% soft attack will be given via this focus as an idea. You can choose between hard and soft attack depending on your play."
+ GER_hard_tt:0 "Since all MIOs are made same, German extra 10% hard attack will be given via this focus as an idea. You can choose between hard and soft attack depending on your play."
+ ger_hard:0 "Germany Hard Attack Bonus"
+ ger_soft:0 "Germany Soft Attack Bonus"

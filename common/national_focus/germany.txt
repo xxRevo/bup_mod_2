@@ -1780,6 +1780,52 @@ focus = {
 			}
 		}
 	}
+
+	focus = {
+		id = GER_soft_attack
+		text = "Choose Soft Attack"
+		icon = GFX_focus_GER_army
+		mutually_exclusive = { focus = GER_hard_attack}
+
+		x = 2
+		y = 0
+		relative_position_id = GER_develop_modern_maneuver_warfare
+		cost = 1
+		available = {
+			date > 1941.1.1
+		}
+
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MILITARY_CHARACTER }
+
+		completion_reward = {
+			custom_effect_tooltip = GER_soft_tt
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_ideas = ger_soft
+		}
+	}
+
+	focus = {
+		id = GER_hard_attack
+		text = "Choose Hard Attack"
+		icon = GFX_focus_GER_army
+		mutually_exclusive = { focus = GER_soft_attack}
+
+		x = 4
+		y = 0
+		relative_position_id = GER_develop_modern_maneuver_warfare
+		cost = 1
+		available = {
+			date > 1941.1.1
+		}
+
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MILITARY_CHARACTER }
+
+		completion_reward = {
+			custom_effect_tooltip = GER_hard_tt
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_ideas = ger_hard
+		}
+	}
 	
 	focus = {
 		id = GER_fortify_the_vaterland

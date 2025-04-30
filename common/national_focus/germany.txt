@@ -8709,7 +8709,7 @@ focus = {
 
 		completion_reward = {
 			add_named_threat = { threat = 5 name = GER_war_with_france_threat }
- 			GER={declare_war_on = { target = SOV type = annex_everything }}
+ 			GER={declare_war_on = { target = FRA type = annex_everything }}
 		}
 	}
 

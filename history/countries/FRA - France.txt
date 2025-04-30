@@ -134,6 +134,7 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 	basic_fortification_tech = 1
+	interwar_antitank = 1
 }
 
 if = {

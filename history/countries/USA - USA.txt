@@ -86,6 +86,7 @@ set_technology = {
 	marines = 1
 	basic_train = 1
 	engine_tech_1 = 1
+	interwar_antitank = 1
 }
 
 add_breakthrough_progress = {

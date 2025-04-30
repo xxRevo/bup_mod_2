@@ -519,7 +519,7 @@ generic_medium_tank_organization = {
 
 		position = { x=5 y=4 }
 
-		any_parent = { generic_mio_tank_26 generic_mio_tank_25}
+		any_parent = { generic_mio_tank_26 generic_mio_tank_27}
 
 		limit_to_equipment_type = { 
 			medium_tank_destroyer_chassis

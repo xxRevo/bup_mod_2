@@ -1903,6 +1903,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
+			add_ideas = JAP_imperial_air_force
 			custom_effect_tooltip = JAP_the_zero_tt
 			create_equipment_variant = {
 						name = "A6M Zero-TosunVurucu"

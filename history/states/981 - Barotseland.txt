@@ -13,7 +13,7 @@ state = {
 	history = {
 
 		owner = ENG
-
+		add_core_of = COG
 
 		victory_points = {
 			697 1 # Mongu

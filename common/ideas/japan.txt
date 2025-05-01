@@ -393,6 +393,27 @@ ideas = {
 			research_bonus = { air_equipment = -0.01 }
 		}
 
+		JAP_imperial_air_force = {
+			name = imperial_air_force
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_duplicate_research
+			
+			modifier = {
+				air_attack_factor = 0.05
+				air_agility_factor = 0.05
+				air_range_factor = 0.15
+			}
+		}
+
 		JAP_militarism = {
 			allowed = {
 				always = no
@@ -1119,22 +1140,10 @@ ideas = {
 			
 
 			equipment_bonus = {
-				cv_fighter_equipment = {
+				small_plane_airframe = {
 					build_cost_ic = -0.25 instant = yes
 				}
-				fighter_equipment = {
-					build_cost_ic = -0.25 instant = yes
-				}
-				cv_CAS_equipment = {
-					build_cost_ic = -0.25 instant = yes
-				}
-				cv_nav_bomber_equipment = {
-					build_cost_ic = -0.25 instant = yes
-				}
-				tac_bomber_equipment = {
-					build_cost_ic = -0.25 instant = yes
-				}
-				nav_bomber_equipment = {
+				cv_small_plane_airframe = {
 					build_cost_ic = -0.25 instant = yes
 				}
 			}

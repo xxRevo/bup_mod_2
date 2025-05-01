@@ -110,3 +110,5 @@
  generic_utility_material_organization_allies:0 "Ford Motor Company"
  generic_utility_material_organization_sov:0 "GAZ"
  generic_utility_material_organization_jap:0 "Nissan"
+ imperial_air_force:0 "Imperial Japanese Air Forces"
+ FRA_military_factories_effect_tt:0 "Adds single Military Factory to every state previously invested in."

@@ -108,7 +108,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.15
 				stability_factor = -0.05
 			}
 		}
@@ -341,8 +341,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_factory_max_efficiency_factor = 0.1
-				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
 			}
 			research_bonus = { industry = 0.05}
 		}
@@ -1314,7 +1314,7 @@ ideas = {
 			picture = generic_disjointed_gov
 			
 			modifier = {
-				political_power_cost = 0.8
+				political_power_cost = 0.4
 				stability_factor = -0.10
 				surrender_limit = -0.5
 			}
@@ -1600,10 +1600,6 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory = -0.9
-				industrial_capacity_dockyard = -0.9
-				stability_factor = -0.1
-				war_support_factor = -0.1
 			}
 		}
 

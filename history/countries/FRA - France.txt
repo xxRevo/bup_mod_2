@@ -27,10 +27,10 @@ starting_train_buffer = 2
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "FRA_1936_naval_mtg"
-		set_war_support = 0.1
+		set_war_support = 0.2
 	else = {
 		set_naval_oob = "FRA_1936_naval_legacy"
-		set_war_support = 0.15
+		set_war_support = 0.12
 	}
 }
 
@@ -93,9 +93,9 @@ IF = {
 	limit = {
 		has_dlc = "Gotterdammerung"
 	}
-	set_stability = 0.45 # Was 0.5, but they now get +5% from the Eiffel Tower
+	set_stability = 0.6 # Was 0.5, but they now get +5% from the Eiffel Tower
 	ELSE = {
-		set_stability = 0.5
+		set_stability = 0.6
 	}
 }
 

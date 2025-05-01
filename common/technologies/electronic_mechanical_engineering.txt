@@ -1645,7 +1645,7 @@ technologies = {
 		#	research_cost_coeff = 1
 		#}
 		
-		start_year = 1940
+		start_year = 1944
 		research_cost = 5
 		
 		folder = {

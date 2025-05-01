@@ -93,3 +93,4 @@
  SOV_short_debuff_3:0 "Amry In Chaos III"
  SOV_short_debuff_4:0 "Amry In Chaos IV"
  imperial_air_force:0 "Imperial Japanese Air Forces"
+ FRA_military_factories_effect_tt:0 "Adds single Military Factory to every state previously invested in."

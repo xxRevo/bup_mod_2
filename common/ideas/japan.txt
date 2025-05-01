@@ -71,6 +71,25 @@ ideas = {
 		 
 		 }
 		 }
+
+		 JAP_big_gun = {
+		 name = JAP_big_gun
+		 picture = generic_infantry_bonus
+		 allowed = {
+				always = no
+			}
+		 
+		 removal_cost = -1
+		 allowed_civil_war = {
+				always = yes
+			}
+		 	modifier = {
+				
+				navy_capital_ship_attack_factor = 0.1
+		 
+		 
+			 }
+		 }
 		 
 		 
 		 

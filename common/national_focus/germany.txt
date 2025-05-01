@@ -1797,7 +1797,7 @@ focus = {
 		x = 3
 		y = 1
 		relative_position_id = GER_develop_modern_maneuver_warfare
-		cost = 5
+		cost = 1
 		available = {
 			date > 1941.1.1
 		}
@@ -1819,7 +1819,7 @@ focus = {
 		x = 5
 		y = 1
 		relative_position_id = GER_develop_modern_maneuver_warfare
-		cost = 5
+		cost = 1
 		available = {
 			date > 1941.1.1
 		}

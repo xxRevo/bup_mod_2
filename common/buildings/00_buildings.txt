@@ -207,7 +207,7 @@ buildings = {
 			state_max = 1
 			shares_slots = yes
 		}
-		hide_if_missing_tech = yes
+		hide_if_missing_tech = no
 		show_modifier = yes
 		state_modifiers = {
 			local_supplies_for_controller = 0.1
@@ -312,7 +312,7 @@ buildings = {
 
 	mega_gun_emplacement = {
 		dlc_allowed = { has_dlc = Gotterdammerung }
-		hide_if_missing_tech = yes
+		hide_if_missing_tech = no
 		show_on_map = 1
 		base_cost = 20000
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
@@ -350,7 +350,7 @@ buildings = {
 	}
 	
 	nuclear_reactor = {
-		hide_if_missing_tech = yes
+		hide_if_missing_tech = no
 		missing_tech_loc = { 
 			localization_key = SP_BUILDING_MISSING_PROJECT
 			PROJECT = sp_nuclear_reactor
@@ -381,7 +381,7 @@ buildings = {
 	}
 
 	nuclear_reactor_heavy_water = {
-		hide_if_missing_tech = yes
+		hide_if_missing_tech = no
 		missing_tech_loc = { 
 			localization_key = SP_BUILDING_MISSING_PROJECT
 			PROJECT = sp_nuclear_reactor
@@ -412,7 +412,7 @@ buildings = {
 
 	commercial_nuclear_reactor = {
 		dlc_allowed = { has_dlc = Gotterdammerung }
-		hide_if_missing_tech = yes
+		hide_if_missing_tech = no
 		missing_tech_loc = { 
 			localization_key = SP_BUILDING_MISSING_PROJECT
 			PROJECT = sp_commercial_nuclear_reactor

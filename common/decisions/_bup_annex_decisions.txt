@@ -58,6 +58,7 @@ annex_decisions  = {
             add_state_core = 723
             add_state_core = 284
             add_state_core = 726
+            add_state_core = 636
             annex_country = {
                 target = NZL
                 transfer_troops = yes

@@ -663,8 +663,8 @@ equipments = {
 		reliability = 0.80
 		build_cost_ic = 5500
 		resources = {
-			steel = 2
-			chromium = 2
+			steel = 1
+			chromium = 1
 		}
 		manpower = 9000
 	}

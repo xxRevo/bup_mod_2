@@ -1272,14 +1272,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			remove_ideas = FRA_victors_of_wwi
-			army_experience = 10
-			add_tech_bonus = {
-				name = FRA_army_reform
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
-			
+			army_experience = 10			
 		}
 	}	
 

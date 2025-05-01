@@ -3616,7 +3616,7 @@ focus = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-			add_timed_idea = { idea = ITA_battaglia_del_grano days = 365 }
+			add_timed_idea = { idea = ITA_battaglia_del_grano days = 180 }
 		}
 	}
 
@@ -3679,7 +3679,7 @@ focus = {
 				}
 			}
 
-			add_timed_idea = { idea = ITA_battaglia_per_la_terra days = 365 }
+			add_timed_idea = { idea = ITA_battaglia_per_la_terra days = 180 }
 		}
 	}
 

@@ -1692,10 +1692,6 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			modifier = {
 				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.1
-				GER = {
-				trade_cost_for_target_factor=-0.5
-				}
 			}
 		}
 

@@ -12,6 +12,16 @@ NDefines.NAI.DIPLOMACY_SEND_EXPEDITIONARY_BASE = 0
 NDefines.NAI.DIPLOMACY_REJECTED_WAIT_MONTHS_BASE = 24                --up from 4 | should cut down on AI spam
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0	
 
+NDefines.NIndustrialOrganisation.FUNDS_FOR_SIZE_UP = 1000
+NDefines.NIndustrialOrganisation.FUNDS_FOR_SIZE_UP_LEVEL_FACTOR = 0
+NDefines.NIndustrialOrganisation.FUNDS_FOR_SIZE_UP_LEVEL_POW = 1
+NDefines.NIndustrialOrganisation.DESIGN_TEAM_CHANGE_XP_COST = 1
+NDefines.NIndustrialOrganisation.ENABLE_TASK_CAPACITY = true
+NDefines.NIndustrialOrganisation.FUNDS_FOR_RESEARCH_COMPLETION_PER_RESEARCH_COST = 1000
+NDefines.NIndustrialOrganisation.DEFAULT_INITIAL_TASK_CAPACITY = 1
+NDefines.NIndustrialOrganisation.DEFAULT_INITIAL_POLICY_ATTACH_COST = 5
+NDefines.NIndustrialOrganisation.DEFAULT_INITIAL_ATTACH_POLICY_COOLDOWN = 30
+
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 20
 
 -- Intelligence Defines
@@ -147,8 +157,6 @@ NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.0
 NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.0	
 NDefines.NProduction.SHIP_REFIT_MAX_PROGRESS_TO_CANCEL = 1.0			
 NDefines.NProduction.SHIP_REFIT_DAMAGE_TO_PROGRESS_FACTOR = 1.0		
-
-NDefines.NIndustrialOrganisation.DESIGN_TEAM_CHANGE_XP_COST = 1
 
 NDefines.NCountry.GIE_CONVOY_ON_CREATION = 200
 NDefines.NCountry.COUNTRY_SCORE_MULTIPLIER = 0				-- Weight of the country score.
@@ -413,6 +421,7 @@ NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 0
 NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6 -- WAS 5 | We added one more support company as it feels necessary for quality tank or infantry divisions -Thrasymachus
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer
+NDefines.NMilitary.MAX_DIVISION_BRIGADE_WIDTH = 6
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.3
 
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 3 -- railways will be put on cooldown when they are captured by enemy and will not be usable during the cooldown

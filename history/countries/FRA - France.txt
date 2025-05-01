@@ -19,6 +19,10 @@ add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1180
 }
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
+}
 starting_train_buffer = 2
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -69,12 +73,12 @@ if = {
 		}
 	}
 	set_autonomy = {
-		target = SYR
+		target = 
 		autonomous_state = autonomy_colony
 		freedom_level = 0.5
 	}
 	set_autonomy = {
-		target = LEB
+		target = 
 		autonomous_state = autonomy_colony
 		freedom_level = 0.5
 	}
@@ -130,6 +134,7 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 	basic_fortification_tech = 1
+	interwar_antitank = 1
 }
 
 if = {

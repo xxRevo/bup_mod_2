@@ -2193,7 +2193,7 @@ technologies = {
 
 		invasion_preparation = -0.25
 		amphibious_invasion_defence = 0.15
-		naval_invasion_capacity = 20
+		naval_invasion_capacity = 50
 
 		path = {
 			leads_to_tech = mtg_tank_landing_craft

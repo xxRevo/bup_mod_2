@@ -40,7 +40,7 @@ categories =  {
 		}
 
 		units = {
-			attack = -0.15
+			attack = -0.12
 			#movement = -0.2
 		}
 
@@ -66,7 +66,7 @@ categories =  {
 		}
 
 		units = {
-			attack = -0.25
+			attack = -0.30
 			#movement = -0.2
 		}
 		enemy_army_bonus_air_superiority_factor = -0.05
@@ -79,7 +79,7 @@ categories =  {
 	mountain = {
 		color = { 157 192 208 }
 		movement_cost = 2.0
-		attrition = 0.3
+		attrition = 0.4
 		#combat_width = -0.66
 		combat_width = 80
 		combat_support_width = 40
@@ -131,7 +131,7 @@ categories =  {
 		}
 
 		units = {
-			attack = -0.3
+			attack = -0.35
 			#movement = -0.2
 		}
 
@@ -143,7 +143,7 @@ categories =  {
 	jungle = {
 		color = { 127 191 0 }
 		movement_cost = 1.5
-		attrition = 0.2
+		attrition = 0.3
 		# combat_width = -0.25
 		combat_width = 80
 		combat_support_width = 40
@@ -157,7 +157,7 @@ categories =  {
 		}
 
 		units = {
-			attack = -0.3
+			attack = -0.25
 			#movement = -0.3
 		}
 
@@ -173,7 +173,7 @@ categories =  {
 	marsh = {
 		color = { 76 96 35 }
 		movement_cost = 2.0
-		attrition = 0.35
+		attrition = 0.5
 		# combat_width = -0.25
 		combat_width = 80
 		combat_support_width = 40
@@ -200,7 +200,7 @@ categories =  {
 	desert = {
 		color = { 255 127 0 }
 		movement_cost = 1.05
-		attrition = 0.15
+		attrition = 0.2
 		combat_width = 80
 		combat_support_width = 40
 		ai_terrain_importance_factor = 8.0

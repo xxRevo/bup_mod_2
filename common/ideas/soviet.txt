@@ -12,14 +12,12 @@ ideas = {
 			removal_cost = -1
 		
 			modifier = {
-				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.15
-				production_speed_buildings_factor = 0.15
+				production_speed_buildings_factor = 0.1
 				research_speed_factor = 0.15
 				consumer_goods_factor = 0.15
 				production_factory_max_efficiency_factor = 0.15
 				production_factory_efficiency_gain_factor = -0.2
-				production_speed_arms_factory_factor = 0.2
 				production_speed_industrial_complex_factor = 0.1
 				conversion_cost_civ_to_mil_factor= -0.2
 				conversion_cost_mil_to_civ_factor = -0.2
@@ -1108,7 +1106,135 @@ ideas = {
 			}
 		}
 
+		SOV_airports_devastated = {
+			removal_cost = -1
 
+			picture = officers_purged
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			modifier = {
+				air_interception_attack_factor = -0.9
+				air_air_superiority_attack_factor = -0.9
+				air_close_air_support_attack_factor = -0.9
+			}
+			
+			equipment_bonus = {
+				
+                    fighter_equipment = {
+					
+					air_attack = -0.8
+                    instant = yes
+				}
+				
+				CAS_equipment = {
+					instant = yes
+					air_ground_attack = -0.8
+			    }
+
+			}
+		}
+
+		SOV_short_debuff = {
+			removal_cost = -1
+
+			picture = officers_purged
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			modifier = {
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_org_factor = -0.17
+				
+			}
+			
+			equipment_bonus = {
+				CAS_equipment = {
+					instant = yes
+					air_ground_attack = -0.3
+			    }
+
+			}
+		}
+		
+		SOV_short_debuff_2 = {
+			removal_cost = -1
+
+			picture = officers_purged
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			modifier = {
+				army_org_factor = -0.075
+			}
+		}
+		SOV_short_debuff_3 = {
+			removal_cost = -1
+
+			picture = officers_purged
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			modifier = {
+				army_org_factor = -0.12
+				army_attack_factor = -0.08
+				army_defence_factor = -0.08
+                air_escort_efficiency = -0.4
+			}
+			equipment_bonus = {
+			fighter_equipment = {
+				air_agility = -0.1
+				air_attack	= -0.1
+                instant = yes
+			}
+			
+			} 
+		}
+		SOV_short_debuff_4 = {
+			removal_cost = -1
+
+			picture = officers_purged
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			modifier = {
+				army_infantry_attack_factor = -0.05
+                army_armor_attack_factor = -0.05
+				army_infantry_defence_factor = -0.07
+				army_org_factor = -0.05
+			}
+		}
 		SOV_molotov_ribbentrop_pact = { 
 			removal_cost = -1
 			

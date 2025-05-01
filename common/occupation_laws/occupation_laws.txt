@@ -173,14 +173,14 @@ foreign_civilian_oversight = {
 	icon = 3
 	sound_effect = "Martial_Law_Interface_Foreign_Cvilian_Oversight"
 
-	state_modifier = {
-		#resistance_target 				= 0.0
-		required_garrison_factor 		= -0.25
-		resistance_damage_to_garrison 	= -0.25
-		compliance_gain 				= 0.075
-		local_factories 				= 0.00
-		local_resources 				= 0.00
+		state_modifier = {
+		resistance_target 				= -0.05
+		required_garrison_factor 		= -0.50	
+		compliance_gain 				= 0.25
+		local_factories 				= 0.15
+		local_resources 				= 0.15
 	}
+	starting_law = yes	
 
 	ai_will_do = {
 		base = 120
@@ -272,7 +272,7 @@ military_governor_occupation = {
 	icon = 6
 	sound_effect = "Martial_Law_Interface_Military_Governor_Occupation"
 	default_law = yes
-	starting_law = yes
+	
 	
 	state_modifier = {
 		resistance_target 			= -0.35

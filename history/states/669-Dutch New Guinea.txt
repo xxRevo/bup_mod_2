@@ -5,8 +5,12 @@ state={
 
 	state_category = pastoral
 
+	resources = {
+	    rubber = 30
+	}
+
 	history= {
-		owner = INS
+		owner = AST
 		add_core_of = INS
 		victory_points = {
 			12371 1 

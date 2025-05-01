@@ -1356,7 +1356,7 @@ equipment_modules = {
 				naval_strike_attack = 12
 			}
 			add_average_stats = {
-				naval_strike_targetting = 4
+				naval_strike_targetting = 6
 			}
 		}
 		dismantle_cost_ic = 1.5
@@ -1388,7 +1388,7 @@ equipment_modules = {
 				naval_strike_attack = 17
 			}
 			add_average_stats = {
-				naval_strike_targetting = 8
+				naval_strike_targetting = 10
 			}
 		}
 		dismantle_cost_ic = 1.5
@@ -1420,7 +1420,7 @@ equipment_modules = {
 				naval_strike_attack = 22
 			}
 			add_average_stats = {
-				naval_strike_targetting = 10
+				naval_strike_targetting = 13
 			}
 		}
 		dismantle_cost_ic = 1.5

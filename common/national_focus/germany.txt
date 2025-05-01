@@ -1787,7 +1787,49 @@ focus = {
 			}
 		}
 	}
-	
+	focus = {
+		id = GER_take_soft
+		text = "Choose Soft Attack"
+		icon = GFX_focus_GER_army
+		prerequisite = { focus = GER_develop_modern_maneuver_warfare }
+		mutually_exclusive = { focus = GER_take_hard }
+
+		x = 3
+		y = 1
+		relative_position_id = GER_develop_modern_maneuver_warfare
+		cost = 5
+		available = {
+			date > 1941.1.1
+		}
+
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MILITARY_CHARACTER }
+
+		completion_reward = {
+			add_ideas = GER_soft
+		}
+	}
+
+	focus = {
+		id = GER_take_hard
+		text = "Choose Hard Attack"
+		icon = GFX_focus_GER_army
+		prerequisite = { focus = GER_develop_modern_maneuver_warfare }
+		mutually_exclusive = { focus = GER_take_soft }
+
+		x = 5
+		y = 1
+		relative_position_id = GER_develop_modern_maneuver_warfare
+		cost = 5
+		available = {
+			date > 1941.1.1
+		}
+
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MILITARY_CHARACTER }
+
+		completion_reward = {
+			add_ideas = GER_hard
+		}
+	}
 	focus = {
 		id = GER_fortify_the_vaterland
 		icon = GFX_goal_fortify_the_westwall

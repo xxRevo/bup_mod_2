@@ -2188,7 +2188,7 @@ focus_tree = {
 		x = 5
 		y = 1
 		relative_position_id = uk_service_focus
-		cost = 10
+		cost = 5
 		completion_reward = {
 			if = {
 				limit = {
@@ -2255,7 +2255,7 @@ focus_tree = {
 					}
 					add_building_construction = {
 						type = air_base
-						level = 3
+						level = 4
 						instant_build = yes
 					}
 				}
@@ -2276,27 +2276,9 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = uk_mediterranean_focus
-		cost = 10
+		cost = 5
 		completion_reward = {
-			118 = {
-				IF = {
-					limit = {
-						118 = {
-							free_building_slots = {
-								building = bunker
-								size > 3
-								province = 4135
-							}
-						}
-					}
-					add_building_construction = {
-						type = bunker
-						level = 4
-						province = 4135
-						instant_build = yes
-					}
-				}
-				
+			118 = {			
 				IF = {
 					limit = {
 						118 = {
@@ -2309,7 +2291,7 @@ focus_tree = {
 					}
 					add_building_construction = {
 						type = coastal_bunker
-						level = 1
+						level = 4
 						province = 4135
 						instant_build = yes
 					}
@@ -2320,14 +2302,14 @@ focus_tree = {
 						118 = {
 							free_building_slots = {
 								building = air_base
-								size > 2
+								size > 7
 								
 							}
 						}
 					}
 					add_building_construction = {
 						type = air_base
-						level = 2
+						level = 8
 						instant_build = yes
 					}
 				}
@@ -2343,7 +2325,7 @@ focus_tree = {
 					}
 					add_building_construction = {
 						type = anti_air_building
-						level = 2
+						level = 5
 						instant_build = yes
 					}
 				}
@@ -2464,7 +2446,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = uk_mediterranean_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2507,7 +2489,26 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			446 = {
+				IF = {
+					limit = {
+						446 = {
+							free_building_slots = {
+								building = air_base
+								size > 0
+								
+							}
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
 			447 = {
+				
 				IF = {
 					limit = {
 						447 = {
@@ -2886,7 +2887,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = uk_mediterranean_focus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -5600,7 +5601,7 @@ focus_tree = {
 			IF = {
 				limit = {
 					IRQ = {
-						has_idea = IRQ_anglo_iraqi_treaty
+						has_idea = IRQ_anglo_iraqi_treatyi
 					}
 				}
 				IRQ = {
@@ -6762,6 +6763,22 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			132 = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = ENG_uk_australia_focus_1IC
+				}
 			RAJ = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
@@ -6953,6 +6970,22 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			126 = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = ENG_uk_australia_focus_1IC
+				}
 			AST = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
@@ -7079,6 +7112,22 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			338 = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = ENG_uk_australia_focus_1IC
+				}
 			NZL = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
@@ -7205,6 +7254,22 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			122 = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = ENG_uk_australia_focus_1IC
+				}
 			CAN = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
@@ -7330,6 +7395,22 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			123 = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = ENG_uk_australia_focus_1IC
+				}
 			SAF = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {

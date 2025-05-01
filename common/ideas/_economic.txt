@@ -20,7 +20,6 @@ ideas = {
 				conversion_cost_civ_to_mil_factor = 0.5
 				conversion_cost_mil_to_civ_factor = 0.5
 				lend_lease_tension = 0.50
-				agency_upgrade_time = 1.0
 			}
 
 			allowed_to_remove = {

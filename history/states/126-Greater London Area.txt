@@ -5,6 +5,10 @@ state={
 	
 	state_category = megalopolis
 
+		resources={
+        oil = 75
+	 }
+
 	history={
 		owner = ENG
 		victory_points = {

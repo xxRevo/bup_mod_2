@@ -22,9 +22,6 @@ ideas = {
 				conversion_cost_civ_to_mil_factor= -0.2
 				conversion_cost_mil_to_civ_factor = -0.2
 				production_speed_synthetic_refinery_factor = -0.4
-				civilian_intel_to_others = 25.0
-				army_intel_to_others = 15.0
-				navy_intel_to_others = 15.0
 			}
 			
 			allowed_to_remove = {

@@ -1,164 +1,187 @@
-
-
-########    ###    ##    ## ##    ##  ######  
-   ##      ## ##   ###   ## ##   ##  ##    ## 
-   ##     ##   ##  ####  ## ##  ##   ##       
-   ##    ##     ## ## ## ## #####     ######  
-   ##    ######### ##  #### ##  ##         ## 
-   ##    ##     ## ##   ### ##   ##  ##    ## 
-   ##    ##     ## ##    ## ##    ##  ######  
-##################################################################
-
-generic_tank_refurbishment_plant_organization = {
-	icon = GFX_idea_vickers_armstrong_can
+generic_infantry_organization_allies = {
+	icon = GFX_idea_small_arms_limited
 
 	allowed = {
-		always = no
-	}
-
-	equipment_type = {
-		armor
-		infantry_equipment
-		artillery_equipment
-		mechanized_equipment
-		mio_cat_eq_all_small_plane
-		mio_cat_eq_all_medium_plane
-		mio_cat_eq_all_large_plane
-	}
-	initial_trait = {
-		name = generic_tank_refurbishment_plant_organization
-		organization_modifier = {
-			military_industrial_organization_size_up_requirement = 2
+		OR = {
+			tag = FRA
+			tag = ENG
+			tag = SAF
+			tag = USA
+			tag = CAN
+			tag = RAJ
+			tag = AST
+			tag = NZL
 		}
 	}
-
-	trait = {
-		token = generic_mio_tank_1
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_efficiency_cap
-		mutually_exclusive = {generic_mio_tank_4}
-		position = { x=0 y=0 }
-		
-		production_bonus = {
-			production_efficiency_cap_factor = 0.025
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_2
-		name = generic_mio_tank_2_l
-		icon = GFX_generic_mio_trait_icon_efficiency_cap
-		position = { x=0 y=1 }
-		any_parent = {generic_mio_tank_1}
-		production_bonus = {
-			production_efficiency_cap_factor = 0.025
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_3
-		name = generic_mio_tank_3_l
-		icon = GFX_generic_mio_trait_icon_efficiency_cap
-		position = { x=0 y=2 }
-		any_parent = {generic_mio_tank_2}
-		production_bonus = {
-			production_efficiency_cap_factor = 0.025
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_4
-		name = generic_mio_tank_4_l
-		icon = GFX_generic_mio_trait_icon_efficiency_gain
-
-		position = { x=1 y=0 }
-		mutually_exclusive = {generic_mio_tank_1}
-		production_bonus = {
-			production_efficiency_gain_factor = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_5
-		name = generic_mio_tank_5_l
-		icon = GFX_generic_mio_trait_icon_efficiency_gain
-
-		position = { x=1 y=1 }
-		any_parent = {generic_mio_tank_4}
-		production_bonus = {
-			production_efficiency_gain_factor = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_6
-		name = generic_mio_tank_6_l
-		icon = GFX_generic_mio_trait_icon_efficiency_gain
-
-		position = { x=1 y=2 }
-		any_parent = {generic_mio_tank_5}
-		production_bonus = {
-			production_efficiency_gain_factor = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_7
-		name = generic_mio_tank_7_l
-		icon = GFX_generic_mio_trait_icon_efficiency_cap
-
-		position = { x=0 y=3 }
-		any_parent = {generic_mio_tank_3}
-		production_bonus = {
-			production_efficiency_cap_factor = 0.025
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_8
-		name = generic_mio_tank_8_l
-		icon = GFX_generic_mio_trait_icon_efficiency_gain
-
-		position = { x=1 y=3 }
-		any_parent = {generic_mio_tank_6}
-		production_bonus = {
-			production_efficiency_gain_factor = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_9
-		name = generic_mio_tank_9_l
-		icon = GFX_generic_mio_trait_icon_resources
-		position = { x=2 y=0 }
-		
-		production_bonus = {
-			production_resource_need_factor = -0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_10
-		name = generic_mio_tank_10_l
-		icon = GFX_generic_mio_trait_icon_conversion_speed
-		position = { x=3 y=0 }
-		
-		production_bonus = {
-			production_conversion_speed_factor = 0.25
-		}
-	}
+	include = generic_infantry_organization
 }
 
-################################################################
-################################################################
-################################################################
-################################################################
-# MOBILE TANK DESIGNER / FAST TANK DESIGNER - Based on Hotchkiss (FRA)
-################################################################
-################################################################
-################################################################
-################################################################
-generic_mobile_tank_organization_allies = {
+generic_infantry_organization_axis = {
+	icon = GFX_idea_mauser
+
+	allowed = {
+		OR = {
+			tag = GER
+			tag = HUN
+			tag = ROM
+			tag = BUL
+			tag = ITA
+		}
+	}
+
+	include = generic_infantry_organization
+}
+
+generic_infantry_organization_sov = {
+	icon = GFX_idea_tula_arms_plant
+
+	allowed = {
+		tag = SOV
+	}
+
+	include = generic_artillery_organization
+}
+
+generic_infantry_organization_jap = {
+	icon = GFX_idea_tokyo_arsenal
+
+	allowed = {
+		OR = {
+			tag = JAP
+			tag = MAN
+		}
+	}
+
+	include = generic_infantry_organization
+}
+
+#######################################################
+#######################################################
+#######################################################
+
+generic_artillery_organization_allies = {
+	icon = GFX_idea_rock_island_arsenal
+
+	allowed = {
+		OR = {
+			tag = FRA
+			tag = ENG
+			tag = SAF
+			tag = USA
+			tag = CAN
+			tag = RAJ
+			tag = AST
+			tag = NZL
+		}
+	}
+	include = generic_artillery_organization
+}
+
+generic_artillery_organization_axis = {
+	icon = GFX_idea_rheinmetall
+
+	allowed = {
+		OR = {
+			tag = GER
+			tag = HUN
+			tag = ROM
+			tag = BUL
+			tag = ITA
+		}
+	}
+
+	include = generic_artillery_organization
+}
+
+generic_artillery_organization_sov = {
+	icon = GFX_idea_morozov_design_bureau
+
+	allowed = {
+		tag = SOV
+	}
+
+	include = generic_artillery_organization
+}
+
+generic_artillery_organization_jap = {
+	icon = GFX_idea_osaka_army_arsenal
+
+	allowed = {
+		OR = {
+			tag = JAP
+			tag = MAN
+		}
+	}
+
+	include = generic_artillery_organization
+}
+
+#######################################################
+#######################################################
+#######################################################
+
+generic_utility_material_organization_allies = {
+	icon = GFX_idea_ford_motor_company
+
+	allowed = {
+		OR = {
+			tag = FRA
+			tag = ENG
+			tag = SAF
+			tag = USA
+			tag = CAN
+			tag = RAJ
+			tag = AST
+			tag = NZL
+		}
+	}
+	include = generic_utility_material_organization
+}
+
+generic_utility_material_organization_axis = {
+	icon = GFX_idea_opel
+
+	allowed = {
+		OR = {
+			tag = GER
+			tag = HUN
+			tag = ROM
+			tag = BUL
+			tag = ITA
+		}
+	}
+
+	include = generic_utility_material_organization
+}
+
+generic_utility_material_organization_sov = {
+	icon = GFX_idea_gaz
+
+	allowed = {
+		tag = SOV
+	}
+
+	include = generic_utility_material_organization
+}
+
+generic_utility_material_organization_jap = {
+	icon = GFX_idea_nissan
+
+	allowed = {
+		OR = {
+			tag = JAP
+			tag = MAN
+		}
+	}
+
+	include = generic_utility_material_organization
+}
+
+#######################################################
+#######################################################
+#######################################################
+
+generic_light_tank_organization_allies = {
 	icon = GFX_idea_renault
 
 	allowed = {
@@ -173,10 +196,10 @@ generic_mobile_tank_organization_allies = {
 			tag = NZL
 		}
 	}
-	include = generic_mobile_tank_organization
+	include = generic_light_tank_organization
 }
 
-generic_mobile_tank_organization_axis = {
+generic_light_tank_organization_axis = {
 	icon = GFX_idea_GER_alkett
 
 	allowed = {
@@ -190,31 +213,23 @@ generic_mobile_tank_organization_axis = {
 			tag = MAN
 		}
 	}
-
-	include = generic_mobile_tank_organization
+	include = generic_light_tank_organization
 }
 
-generic_mobile_tank_organization_sov = {
+generic_light_tank_organization_sov = {
 	icon = GFX_idea_okmo
 
 	allowed = {
-		OR = {
-			tag = SOV
-		}
+		tag = SOV
 	}
 
-	include = generic_mobile_tank_organization
+	include = generic_light_tank_organization
 }
 
-################################################################
-################################################################
-################################################################
-################################################################
-# MEDIUM TANK DESIGNER - Based on Army Ordnance Department (USA)
-################################################################
-################################################################
-################################################################
-################################################################
+
+#######################################################
+#######################################################
+#######################################################
 generic_medium_tank_organization_allies = {
 	icon = GFX_idea_chrysler
 
@@ -260,15 +275,10 @@ generic_medium_tank_organization_sov = {
 	include = generic_medium_tank_organization
 }
 
-################################################################
-################################################################
-################################################################
-################################################################
-# HEAVY TANK DESIGNER - Based on KV (SOV)
-################################################################
-################################################################
-################################################################
-################################################################
+#######################################################
+#######################################################
+#######################################################
+
 generic_heavy_tank_organization_allies = {
 	icon = GFX_idea_vauxhall
 
@@ -312,230 +322,4 @@ generic_heavy_tank_organization_sov = {
 		tag = SOV
 	}
 	include = generic_heavy_tank_organization
-}
-################################################################
-################################################################
-################################################################
-################################################################
-### TANK REFURBISHMENT PLANT - Based on Mytishchi
-################################################################
-################################################################
-################################################################
-################################################################
-generic_tank_refurbishment_plant_organization_allies = {
-	icon = GFX_idea_vickers_armstrong_can
-
-	allowed = {
-		OR = {
-			tag = FRA
-			tag = ENG
-			tag = SAF
-			tag = USA
-			tag = CAN
-			tag = RAJ
-			tag = AST
-			tag = NZL
-		}
-	}
-	include = generic_tank_refurbishment_plant_organization
-}
-
-generic_tank_refurbishment_plant_organization_axis = {
-	icon = GFX_idea_GER_reichswerke
-
-	allowed = {
-		OR = {
-			tag = GER
-			tag = HUN
-			tag = ROM
-			tag = BUL
-			tag = ITA
-			tag = JAP
-			tag = MAN
-		}
-	}
-	include = generic_tank_refurbishment_plant_organization
-}
-
-generic_tank_refurbishment_plant_organization_sov = {
-	icon = GFX_idea_morozov_design_bureau
-
-	allowed = {
-		tag = SOV
-	}
-	include = generic_tank_refurbishment_plant_organization
-}
-
-
-
- ######  ##     ## #### ########   ######  
-##    ## ##     ##  ##  ##     ## ##    ## 
-##       ##     ##  ##  ##     ## ##       
- ######  #########  ##  ########   ######  
-      ## ##     ##  ##  ##              ## 
-##    ## ##     ##  ##  ##        ##    ## 
- ######  ##     ## #### ##         ######  
-
-#BATTLE LINE SHIP MANUFACTURER - Based on Cammell Laird (ENG)
-generic_light_ship_organization_axis = {
-	icon = GFX_idea_germaniawerft
-	allowed = {
-		OR = {
-			tag = GER
-			tag = HUN
-			tag = ROM
-			tag = BUL
-			tag = ITA
-		}
-	}
-	include = generic_light_ship_organization
-}
-
-generic_light_ship_organization_allies = {
-	icon = GFX_idea_norfolk_naval_yard
-	allowed = {
-		OR = {
-			tag = FRA
-			tag = ENG
-			tag = SAF
-			tag = USA
-			tag = CAN
-			tag = RAJ
-			tag = AST
-			tag = NZL
-		}
-	}
-	include = generic_light_ship_organization
-}
-
-generic_light_ship_organization_jap = {
-	icon = GFX_idea_yokosuka_naval_arsenal
-	allowed = {
-		tag = JAP
-	}
-	include = generic_light_ship_organization
-}
-
-########  ##          ###    ##    ## ########  ######  
-##     ## ##         ## ##   ###   ## ##       ##    ## 
-##     ## ##        ##   ##  ####  ## ##       ##       
-########  ##       ##     ## ## ## ## ######    ######  
-##        ##       ######### ##  #### ##             ## 
-##        ##       ##     ## ##   ### ##       ##    ## 
-##        ######## ##     ## ##    ## ########  ######  
-
-#LIGHT AIRCRAFT MANUFACTURER - Based on MESSERSCHMIDT (GER)
-generic_light_aircraft_organization_axis  = {
-	icon = GFX_idea_messerschmitt
-
-	allowed = {
-		OR = {
-			tag = GER
-			tag = HUN
-			tag = ROM
-			tag = BUL
-			tag = ITA
-		}
-	}
-	include = generic_light_aircraft_organization
-}
-
-generic_light_aircraft_organization_allies  = {
-	icon = GFX_idea_supermarine
-
-	allowed = {
-		OR = {
-			tag = FRA
-			tag = ENG
-			tag = SAF
-			tag = USA
-			tag = CAN
-			tag = RAJ
-			tag = AST
-			tag = NZL
-		}
-	}
-	include = generic_light_aircraft_organization
-}
-
-generic_light_aircraft_organization_sov  = {
-	icon = GFX_idea_mig_design_bureau
-	allowed = {
-		OR = {
-			tag = SOV
-		}
-	}
-	include = generic_light_aircraft_organization
-}
-
-generic_light_aircraft_organization_jap  = {
-	icon = GFX_idea_mitsubishi
-	allowed = {
-		OR = {
-			tag = JAP
-			tag = MAN
-		}
-	}
-	include = generic_light_aircraft_organization
-}
-
-###########################################################
-###########################################################
-###########################################################
-###########################################################
-###########################################################
-###########################################################
-###########################################################
-generic_materials_organization_axis  = {
-	icon = GFX_idea_mauser
-
-	allowed = {
-		OR = {
-			tag = GER
-			tag = HUN
-			tag = ROM
-			tag = BUL
-			tag = ITA
-		}
-	}
-	include = generic_materials_organization
-}
-
-generic_materials_organization_allies  = {
-	icon = GFX_idea_small_arms_limited
-
-	allowed = {
-		OR = {
-			tag = FRA
-			tag = ENG
-			tag = SAF
-			tag = USA
-			tag = CAN
-			tag = RAJ
-			tag = AST
-			tag = NZL
-		}
-	}
-	include = generic_materials_organization
-}
-
-generic_materials_organization_sov  = {
-	icon = GFX_idea_tula_arms_plant
-	allowed = {
-		OR = {
-			tag = SOV
-		}
-	}
-	include = generic_materials_organization
-}
-
-generic_materials_organization_jap  = {
-	icon = GFX_idea_tokyo_arsenal
-	allowed = {
-		OR = {
-			tag = JAP
-			tag = MAN
-		}
-	}
-	include = generic_materials_organization
 }

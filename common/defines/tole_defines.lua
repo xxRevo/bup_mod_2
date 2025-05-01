@@ -4,7 +4,7 @@ NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 3
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 300
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.28, 0.22, 0.16, 0.05, 0.0 } -- game speeds for each level. Must be 5 entries with last one 0 for unbound
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.28, 0.22, 0.16, 0.075, 0.0 } -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 
 NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROLLED = 0       -- WAS 1
 NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROL_DIFF = 0     -- WAS 2
@@ -12,13 +12,11 @@ NDefines.NAI.DIPLOMACY_SEND_EXPEDITIONARY_BASE = 0
 NDefines.NAI.DIPLOMACY_REJECTED_WAIT_MONTHS_BASE = 24                --up from 4 | should cut down on AI spam
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0	
 
-NDefines.NIndustrialOrganisation.FUNDS_FOR_SIZE_UP = 1000
-NDefines.NIndustrialOrganisation.FUNDS_FOR_SIZE_UP_LEVEL_FACTOR = 0
-NDefines.NIndustrialOrganisation.FUNDS_FOR_SIZE_UP_LEVEL_POW = 1
+NDefines.NIndustrialOrganisation.FUNDS_FOR_SIZE_UP_LEVEL_POW = 1.5
 NDefines.NIndustrialOrganisation.DESIGN_TEAM_CHANGE_XP_COST = 1
 NDefines.NIndustrialOrganisation.ENABLE_TASK_CAPACITY = true
 NDefines.NIndustrialOrganisation.FUNDS_FOR_RESEARCH_COMPLETION_PER_RESEARCH_COST = 1000
-NDefines.NIndustrialOrganisation.DEFAULT_INITIAL_TASK_CAPACITY = 1
+NDefines.NIndustrialOrganisation.DEFAULT_INITIAL_TASK_CAPACITY = 10
 NDefines.NIndustrialOrganisation.DEFAULT_INITIAL_POLICY_ATTACH_COST = 5
 NDefines.NIndustrialOrganisation.DEFAULT_INITIAL_ATTACH_POLICY_COOLDOWN = 30
 

@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = SIA
+		add_core_of = COG
 		buildings = {
 			infrastructure = 2
 			12230 = {

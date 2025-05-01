@@ -11,6 +11,7 @@ state={
 	}
 	history={
 		owner = FRA
+		add_core_of = COG
 		buildings = {
 			infrastructure = 1
 			12885 = {

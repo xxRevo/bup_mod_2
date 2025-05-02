@@ -1356,6 +1356,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 3
 		}
+		available = { date > 1937.10.1
+		}
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -1378,20 +1380,27 @@ focus_tree = {
 					has_dlc = "By Blood Alone"
 				}
 				air_experience = 25
-				add_tech_bonus = {
-					name = fighter_command_focus
-					bonus = 1.0
-					uses = 1
-					category = light_fighter
-					category = cat_heavy_fighter
-				}
+                create_equipment_variant = {
+                        name = "Supermarine Spitfire"
+                        type = small_plane_airframe_2
+                        allow_without_tech = yes 
+                        modules = {
+                            fixed_main_weapon_slot = heavy_mg_4x
+                            fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+                            fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
+                            engine_type_slot = engine_3_1x
+                            special_type_slot_1 = drop_tanks
+                            special_type_slot_2 = fuel_tanks_small
+                        }
+				
 				add_doctrine_cost_reduction = {
 					name = ENG_fighter_command_focus #land_doc_bonus
 					cost_reduction = 0.5
 					uses = 1
 					category = air_doctrine
 				}
-			}
+			  }
+		    }
 		}
 	}
 	focus = {
@@ -2158,12 +2167,12 @@ focus_tree = {
 			}
 		}
 		relative_position_id = uk_empire_focus
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
+			army_experience = 25
 			navy_experience = 25
 			air_experience = 25
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -7032,39 +7041,7 @@ focus_tree = {
 	focus = {
 		id = uk_new_zealand_focus 
 		prerequisite = { focus = uk_australia_focus }
-		available = {
-			any_country = {
-				original_tag = NZL
-				is_in_faction_with = ROOT
-			}
-		}
-		bypass = {
-			OR = {
-				NZL = { exists = no }
-				NZL = {
-					custom_trigger_tooltip = {
-						tooltip = construction_effort_tt
-						all_owned_state = {
-							free_building_slots = {
-								building = industrial_complex
-								size < 1
-								include_locked = yes
-							}
-						}
-					}
-					custom_trigger_tooltip = {
-						tooltip = naval_effort_tt
-						all_owned_state = {
-							free_building_slots = {
-								building = dockyard
-								size < 1
-								include_locked = yes
-							}
-						}
-					}
-				}
-			}
-		}
+
 		icon = GFX_goal_generic_construction
 		x = 0
 		y = 1
@@ -7076,7 +7053,6 @@ focus_tree = {
 		complete_tooltip = {
 			random_country = {
 				limit = {
-					original_tag = NZL
 					is_in_faction_with = ROOT
 				}
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
@@ -7128,7 +7104,7 @@ focus_tree = {
 					}
 					set_state_flag = ENG_uk_australia_focus_1IC
 				}
-			NZL = {
+			NZL or AST = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
 					limit = {
@@ -7317,37 +7293,10 @@ focus_tree = {
 		prerequisite = { focus = uk_commonwealth_focus }
 		available = {
 			any_country = {
-				original_tag = SAF
 				is_in_faction_with = ROOT
 			}
 		}
-		bypass = {
-			OR = {
-				SAF = { exists = no }
-				SAF = {
-					custom_trigger_tooltip = {
-						tooltip = construction_effort_tt
-						all_owned_state = {
-							free_building_slots = {
-								building = industrial_complex
-								size < 1
-								include_locked = yes
-							}
-						}
-					}
-					custom_trigger_tooltip = {
-						tooltip = naval_effort_tt
-						all_owned_state = {
-							free_building_slots = {
-								building = dockyard
-								size < 1
-								include_locked = yes
-							}
-						}
-					}
-				}
-			}
-		}
+
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 2
 		y = 3
@@ -7411,7 +7360,7 @@ focus_tree = {
 					}
 					set_state_flag = ENG_uk_australia_focus_1IC
 				}
-			SAF = {
+			SAF or CAN = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
 					limit = {
@@ -9774,20 +9723,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }	
 
 		completion_reward = {
-			IF = {
-				limit = {
-					NOT = {
-						has_idea = wartime_industry_focus
-					}
-				}
-				add_ideas = ENG_prepare_for_the_inevitable_idea
-			}
-			ELSE = {
-				swap_ideas = {
-					remove_idea = wartime_industry_focus
-					add_idea = ENG_prepare_for_the_inevitable_and_wartime_industry_idea
-				}	
-			}
+			add_ideas = ENG_prepare_for_the_inevitable_idea
 		}
 	}
 

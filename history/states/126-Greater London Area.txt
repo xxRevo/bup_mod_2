@@ -5,6 +5,10 @@ state={
 	
 	state_category = megalopolis
 
+		resources={
+        oil = 75
+	 }
+
 	history={
         add_core_of = COG
 		owner = ENG

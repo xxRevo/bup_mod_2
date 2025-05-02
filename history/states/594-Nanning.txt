@@ -10,7 +10,6 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 		owner = CHI
 		add_core_of = CHI
 
@@ -20,7 +19,6 @@ state = {
 			10004 = { # Fangcheng
 				naval_base = 1
 				coastal_bunker = 1
-	    add_core_of = COG
 			}
 		}
 

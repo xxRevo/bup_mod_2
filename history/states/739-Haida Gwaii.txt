@@ -3,7 +3,6 @@ state={
 	name="STATE_739"
 
 	history={
-		add_core_of = COG
 		owner = CAN
 		buildings = {
 			infrastructure = 1
@@ -11,7 +10,6 @@ state={
 			1869 = {
 				naval_base = 1
 
-	    add_core_of = COG
 			}
 
 

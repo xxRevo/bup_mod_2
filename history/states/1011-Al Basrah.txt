@@ -6,14 +6,12 @@ state = {
 	manpower = 980164
 
 	history = {
-		add_core_of = COG
 
 		owner = IRQ
 		add_core_of = IRQ
 
 		victory_points = {
 			2089 5 # Basrah
-	    add_core_of = COG
 		}
 		victory_points = {
 			8001 3 # Najaf

@@ -6,13 +6,11 @@ state = {
 	state_category = wasteland
 
 	history = {
-		add_core_of = COG
 
 		owner = FRA
 
 		victory_points = {
 			4108 3 # Marrakesh
-	    add_core_of = COG
 		}
 
 		buildings = {

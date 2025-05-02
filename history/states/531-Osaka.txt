@@ -10,7 +10,6 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 
 		owner = JAP
 		add_core_of = JAP
@@ -22,7 +21,6 @@ state = {
 			dockyard = 2
 			1136 = {
 				naval_base = 6
-	    add_core_of = COG
 			}
 			7072 = {
 				naval_base = 3

@@ -6,12 +6,10 @@ state = {
 	state_category = enclave
 	
 	history = {	
-		add_core_of = COG
 		owner = FIN
 
 		buildings = {
 			infrastructure = 1 
-	    add_core_of = COG
 		}
 
 		add_core_of = FIN

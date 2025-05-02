@@ -6,14 +6,12 @@ state = {
 	state_category = city
 
 	history = {
-		add_core_of = COG
 
 		owner = POL
 		add_core_of = POL
 
 		victory_points = {
 			362 10 # Danzig
-	    add_core_of = COG
 		}
 		
 		set_demilitarized_zone = yes

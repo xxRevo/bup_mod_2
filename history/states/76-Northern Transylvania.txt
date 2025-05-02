@@ -6,7 +6,6 @@ state = {
 	state_category = town
 	
 	history = {
-		add_core_of = COG
 
 		owner = ROM
 		add_core_of = ROM
@@ -14,7 +13,6 @@ state = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-	    add_core_of = COG
 		}
 
 		victory_points = {

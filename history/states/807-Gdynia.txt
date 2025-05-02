@@ -6,7 +6,6 @@ state = {
 	state_category = city
 
 	history = {
-		add_core_of = COG
 
 		owner = POL
 		add_core_of = POL
@@ -14,7 +13,6 @@ state = {
 
 		victory_points = {
 			9263 5 # Gdynia
-	    add_core_of = COG
 		}
 
 		victory_points = {

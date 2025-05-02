@@ -9,9 +9,7 @@ state= {
 	state_category = town
 
 	history= {
-		add_core_of = COG
 
-	    add_core_of = COG
 	}
 	provinces={
 		1550 4476 4600 7451 7546 7590 7622 10374 10498 12347

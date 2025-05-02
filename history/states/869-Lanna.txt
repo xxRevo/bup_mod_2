@@ -7,8 +7,6 @@ state={
 	history = {
 		victory_points = {
 			1488 1 
-	    add_core_of = COG
-		add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 1

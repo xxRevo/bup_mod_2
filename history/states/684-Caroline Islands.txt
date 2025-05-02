@@ -13,7 +13,6 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = JAP
 		buildings = {
 			infrastructure = 2
@@ -21,7 +20,6 @@ state={
 			2489 = {
 				naval_base = 6
 				coastal_bunker = 5
-	    add_core_of = COG
 			}
 			13028 = {
 				naval_base = 1

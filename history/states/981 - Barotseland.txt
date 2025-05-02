@@ -11,14 +11,12 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 
 		owner = ENG
 		add_core_of = COG
 
 		victory_points = {
 			697 1 # Mongu
-	    add_core_of = COG
 		}
 
 		buildings = {

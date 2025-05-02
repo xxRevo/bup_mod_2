@@ -7,12 +7,10 @@ state=
 	state_category = small_island
 	
 	history = {
-		add_core_of = COG
 		owner = FIN
 		
 		victory_points = { #Mariehman
 			9228 1
-	    add_core_of = COG
 		}
 
 		buildings = {

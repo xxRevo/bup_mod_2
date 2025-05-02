@@ -8,8 +8,6 @@ state = {
 	history = {
 		victory_points = {
 			108 1 
-	    add_core_of = COG
-		add_core_of = COG
 		}
 		owner = SOV
 		buildings = {

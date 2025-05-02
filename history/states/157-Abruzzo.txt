@@ -7,11 +7,9 @@ state = {
 	state_category = city
 
 	history = {
-		add_core_of = COG
 		owner = ITA
 		victory_points = {
 			925 1 
-	    add_core_of = COG
 		}
 		buildings = {
 			arms_factory = 3

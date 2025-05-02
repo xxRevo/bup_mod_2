@@ -7,14 +7,12 @@ state = {
 	manpower = 907500
 
 	history = {
-		add_core_of = COG
 
 		owner = FRA
 		add_core_of = FRA
 
 		victory_points = {
 			778 1 # Annecy
-	    add_core_of = COG
 		}
 
 		victory_points = {

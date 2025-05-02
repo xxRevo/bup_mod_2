@@ -9,7 +9,6 @@ state= {
 	state_category = rural
 
 	history= {
-		add_core_of = COG
 		owner = JAP
 		add_core_of = JAP
 		
@@ -18,7 +17,6 @@ state= {
 			12446 = {
 				naval_base = 1
 
-	    add_core_of = COG
 			}
 		}
 		victory_points = {

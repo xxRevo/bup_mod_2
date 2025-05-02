@@ -4,11 +4,9 @@ state={
 	name="STATE_810"
 
 	history={
-		add_core_of = COG
 		owner = LAT
 		victory_points = {
 			6222 3 #Jelgava
-	    add_core_of = COG
 		}
 		victory_points = {
 			3255 1 #Jekabpils

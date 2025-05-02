@@ -7,7 +7,6 @@ state={
 	state_category = city
 	
 	history={
-		add_core_of = COG
 		owner = NZL
 		add_core_of = COG
 		buildings = {
@@ -18,7 +17,6 @@ state={
 			dockyard = 1
 			4543 = {
 				naval_base = 3
-	    add_core_of = COG
 			}
 			1814 = {
 				naval_base = 2

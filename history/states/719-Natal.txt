@@ -10,7 +10,6 @@ state={
 
 
 	history={
-		add_core_of = COG
 		owner = SAF
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -18,7 +17,6 @@ state={
 			air_base = 1
 			1468 = {
 				naval_base = 2
-	    add_core_of = COG
 			}
 			4696 = {
 				naval_base = 2

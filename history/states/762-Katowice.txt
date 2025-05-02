@@ -12,14 +12,12 @@ state = {
 	state_category = city
 
 	history = {
-		add_core_of = COG
 		
 		owner = POL
 		add_core_of = POL
 
 		victory_points = {
 			6464 5 # Katovice
-	    add_core_of = COG
 		}
 
 		buildings = {

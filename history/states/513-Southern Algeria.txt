@@ -7,11 +7,9 @@ state={
 	state_category = wasteland
 
 	history={
-		add_core_of = COG
 		owner = FRA
 		victory_points = {
 			12034 1 
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 1

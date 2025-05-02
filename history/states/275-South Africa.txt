@@ -12,14 +12,12 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = SAF
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 3
-	    add_core_of = COG
 		}
 		victory_points = {
 			10400 10

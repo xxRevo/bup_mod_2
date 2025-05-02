@@ -10,11 +10,9 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = FRA
 		add_dynamic_modifier = {
 			modifier = FRA_maginot_line_dynamic_modifier
-	    add_core_of = COG
 		}
 		#victory_points = { 6529 1 }
 		#victory_points = { 549 1 }

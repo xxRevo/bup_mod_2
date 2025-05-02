@@ -11,13 +11,11 @@ state = {
 	state_category = rural
 	
 	history = {
-		add_core_of = COG
 
 		owner = FRA
 
 		victory_points = {
 			7069 10 # Casablanca
-	    add_core_of = COG
 		}
 
 		victory_points = {

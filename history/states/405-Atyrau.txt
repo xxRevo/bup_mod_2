@@ -4,13 +4,11 @@ state = {
 	name = "STATE_405" #Tashkent
 
 	history = {
-		add_core_of = COG
 	
 		owner = SOV
 		
 		victory_points = {
 			1459 3 
-	    add_core_of = COG
 		}
 		victory_points = {
 			10488 1 

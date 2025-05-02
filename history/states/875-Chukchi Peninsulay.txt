@@ -3,11 +3,9 @@ state = {
 	name = "STATE_875" #Chukchi Peninsula
 
 	history = {
-		add_core_of = COG
 		owner = SOV
 		victory_points = {
 			13204 1 
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 1

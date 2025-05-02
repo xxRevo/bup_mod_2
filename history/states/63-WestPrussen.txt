@@ -10,14 +10,12 @@ state = {
 	state_category = town
 
 	history = {
-		add_core_of = COG
 
 		owner = GER
 		add_core_of = GER
 
 		victory_points = {
 			6282 5 # Stettin
-	    add_core_of = COG
 		}
 
 		victory_points = {

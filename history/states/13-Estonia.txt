@@ -7,11 +7,9 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = EST
 		victory_points = {
 			3174 1 #Voru
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 3

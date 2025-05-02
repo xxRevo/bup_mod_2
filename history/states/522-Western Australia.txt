@@ -3,7 +3,6 @@ state={
 	name="STATE_522"
 
 	history={
-		add_core_of = COG
 		owner = AST
 		buildings = {
 			infrastructure = 3
@@ -13,7 +12,6 @@ state={
 				naval_base = 1
 				coastal_bunker = 1
 
-	    add_core_of = COG
 			}
 
 		}

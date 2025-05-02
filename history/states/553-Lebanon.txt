@@ -7,12 +7,10 @@ state={
 	state_category = town
 
 	history={
-		add_core_of = COG
 		owner = FRA
 		add_core_of = COG
 		victory_points = {
 			792 5 
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 2

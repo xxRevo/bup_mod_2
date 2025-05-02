@@ -9,14 +9,12 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 
 		owner = BEL
 
 		IF = {
 			limit = {
 				has_dlc = "Gotterdammerung"
-	    add_core_of = COG
 			}
 			transfer_state_to = COG
 			add_dynamic_modifier = {

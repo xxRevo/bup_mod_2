@@ -3,14 +3,12 @@ state = {
 	name = "STATE_585" #Navoiy
 
 	history = {
-		add_core_of = COG
 		
 		owner = SOV
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
 
-	    add_core_of = COG
 		}
 		add_core_of = SOV
 		

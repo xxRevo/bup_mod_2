@@ -9,13 +9,11 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 		owner = SOV
 		add_core_of = SOV
 
 		victory_points = {
 			12594 2 # Seipalatinsk
-	    add_core_of = COG
 		}
 		#victory_points = {
 		#	7350 1 # Kurchatov

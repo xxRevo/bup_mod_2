@@ -4,7 +4,6 @@ state={
 	name="STATE_107"
 
 	history={
-		add_core_of = COG
 		owner = YUG
 		buildings = {
 			infrastructure = 3
@@ -12,7 +11,6 @@ state={
 			industrial_complex = 4
 			air_base = 5
 
-	    add_core_of = COG
 		}
 		victory_points = {
 			11586 15 

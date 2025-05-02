@@ -3,7 +3,6 @@ state = {
 	name = "STATE_876" #Udachny
 
 	history = {
-		add_core_of = COG
 		owner = SOV
 
 		#victory_points = {
@@ -12,7 +11,6 @@ state = {
 
 		buildings = {
 			infrastructure = 1
-	    add_core_of = COG
 		}
 
 		add_core_of = SOV

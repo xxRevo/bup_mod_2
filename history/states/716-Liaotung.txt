@@ -6,7 +6,6 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = MAN
 		add_core_of = MAN
 		buildings = {
@@ -17,7 +16,6 @@ state={
 			964 = {
 				naval_base = 3
 
-	    add_core_of = COG
 			}
 
 		}

@@ -10,13 +10,11 @@ state = {
 
 
 	history = {
-		add_core_of = COG
 		
 		owner = ENG
 
 		victory_points = {
 			7960 1 # Abu Dhabi
-	    add_core_of = COG
 		}
 
 		buildings = {

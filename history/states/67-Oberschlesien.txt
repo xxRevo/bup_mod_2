@@ -10,14 +10,12 @@ state = {
 	state_category = city
 
 	history = {
-		add_core_of = COG
 
 		owner = GER
 		add_core_of = GER
 
 		victory_points = {
 			11467 5 # Gleiwitz
-	    add_core_of = COG
 		}
 		victory_points = {
 			9511 3 # Oppeln

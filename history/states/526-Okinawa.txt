@@ -10,7 +10,6 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
@@ -19,7 +18,6 @@ state={
 			11932 = {
 				naval_base = 3
 
-	    add_core_of = COG
 			}
 
 		}

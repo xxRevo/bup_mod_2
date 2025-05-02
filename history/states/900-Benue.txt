@@ -5,14 +5,12 @@ state = {
 	state_category = pastoral 
 
 	history = {
-		add_core_of = COG
 
 		owner = ENG
 
 
 		victory_points = {
 			8034 2 # Enugu
-	    add_core_of = COG
 		} 
 
 		buildings = {

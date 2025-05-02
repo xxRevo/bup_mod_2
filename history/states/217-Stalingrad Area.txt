@@ -8,14 +8,12 @@ state = {
 		rubber=15
 	}
 	history = {
-		add_core_of = COG
 
 		owner = SOV
 		add_core_of = SOV
 
 		victory_points = {
 			3529 30 # Stalingrad
-	    add_core_of = COG
 		}
 
 		buildings = {

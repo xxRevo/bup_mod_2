@@ -10,11 +10,9 @@ state={
 	state_category = city
 
 	history={
-		add_core_of = COG
 		owner = FRA
 		victory_points = {
 			11834 10
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 3

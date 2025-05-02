@@ -6,7 +6,6 @@ state = {
 	state_category = rural
 
 	history =  {
-		add_core_of = COG
 
 		owner = SOV
 		add_core_of = SOV
@@ -17,7 +16,6 @@ state = {
 			# Tsimlyanskoye Hydroelectric Station
 			#6490 = { dam = 1 }
 			
-	    add_core_of = COG
 		}
 		
 		victory_points = {

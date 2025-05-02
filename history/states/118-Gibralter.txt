@@ -6,7 +6,6 @@ state=
 	
 	state_category = enclave
 	history={
-		add_core_of = COG
 		owner = ENG
 		victory_points = { 4135 10 }
 		buildings = {
@@ -15,7 +14,6 @@ state=
 			4135 = {
 				naval_base = 5
 				coastal_bunker = 2
-	    add_core_of = COG
 			}
 		}
 		add_claim_by = SPR

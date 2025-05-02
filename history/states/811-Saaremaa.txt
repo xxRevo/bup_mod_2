@@ -4,11 +4,9 @@ state={
 	name="STATE_811"
 
 	history={
-		add_core_of = COG
 		owner = EST
 		buildings = {
 			infrastructure = 1
-	    add_core_of = COG
 		}
 		victory_points = {
 			185 1

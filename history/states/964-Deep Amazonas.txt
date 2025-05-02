@@ -5,9 +5,7 @@ state={
 		2198 5216 8185 8254 
 	}
 	history={
-		add_core_of = COG
 
-	    add_core_of = COG
 	}
 	manpower=1
 	impassable = yes

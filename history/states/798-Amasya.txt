@@ -9,9 +9,7 @@ state={
 	state_category = rural
 
 	history= {
-		add_core_of = COG
 
-	    add_core_of = COG
 	}
 
 	local_supplies=0.0 

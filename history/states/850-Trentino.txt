@@ -9,8 +9,6 @@ state = {
 	history = {
 		victory_points = { #Trento
 			9598 1
-	    add_core_of = COG
-		add_core_of = COG
 		}
 		owner = ITA
 		buildings = {

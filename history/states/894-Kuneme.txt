@@ -5,12 +5,10 @@ state={
 	state_category = wasteland
 
 	history={
-		add_core_of = COG
 		owner = SAF
 		buildings = {
 			infrastructure = 2
 
-	    add_core_of = COG
 		}
 		
 		add_core_of = SAF

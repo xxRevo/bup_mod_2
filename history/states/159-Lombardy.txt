@@ -8,11 +8,9 @@ state = {
 		tungsten=50.000 #added due to Portugal Setup
 	}
 	history = {
-		add_core_of = COG
 		owner = ITA
 		victory_points = { #Milano
 			3780 15 
-	    add_core_of = COG
 		}
 		victory_points = { #Brescia
 			773 3

@@ -7,11 +7,9 @@ state={
 	state_category = pastoral
 
 	history={
-		add_core_of = COG
 		owner = SOV
 		victory_points = {
 			4333 1
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 2

@@ -10,7 +10,6 @@ state = {
 	state_category = city
 
 	history = {
-		add_core_of = COG
 
 		owner = GER
 		add_core_of = GER
@@ -18,7 +17,6 @@ state = {
 
 		victory_points = {
 			692 20 # Munich
-	    add_core_of = COG
 		}
 		victory_points = {
 			708 3 # Augsburg

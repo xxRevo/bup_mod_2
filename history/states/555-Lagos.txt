@@ -10,7 +10,6 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = JAP
 		#add_core_of = JAP
 		#add_claim_by = SOV # Removed because of too much aggression
@@ -19,7 +18,6 @@ state={
 			1399 = {
 				naval_base = 3
 
-	    add_core_of = COG
 			}
 
 		}

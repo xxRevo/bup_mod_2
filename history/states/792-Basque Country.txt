@@ -6,11 +6,9 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = SPR
 		victory_points = {
 			740 10
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 3 #was: 6

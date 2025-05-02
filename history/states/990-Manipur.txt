@@ -7,11 +7,9 @@ state={
 	state_category = rural
 	manpower = 445606
 	history={
-		add_core_of = COG
 		owner = RAJ
 		buildings = {
 			infrastructure = 1
-	    add_core_of = COG
 		}
 
 		victory_points = {

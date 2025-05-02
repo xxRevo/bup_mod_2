@@ -4,11 +4,9 @@ state = {
 	name = "STATE_831" #Khiva
 
 	history = {
-		add_core_of = COG
 	
 		victory_points = {
 			12465 1
-	    add_core_of = COG
 		}
 		owner = SOV
 		buildings = {

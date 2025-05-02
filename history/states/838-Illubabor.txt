@@ -11,8 +11,6 @@ state = {
 	history = {
 		buildings = {
 			infrastructure = 1
-	    add_core_of = COG
-		add_core_of = COG
 		}
 		# Gambeila
 		victory_points = { 

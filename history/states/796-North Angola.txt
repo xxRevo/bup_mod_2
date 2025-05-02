@@ -2,9 +2,7 @@ state={
 	id=796
 	name="STATE_796"
 	history={
-		add_core_of = COG
 
-	    add_core_of = COG
 	}
 	provinces={
 		2115 

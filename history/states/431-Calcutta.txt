@@ -7,7 +7,6 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = RAJ
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -17,7 +16,6 @@ state={
 			4245 = {
 				naval_base = 6
 
-	    add_core_of = COG
 			}
 
 		}

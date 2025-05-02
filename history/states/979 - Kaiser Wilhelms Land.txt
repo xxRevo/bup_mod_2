@@ -6,7 +6,6 @@ state = {
 	state_category = "rural"
 
 	history = {
-		add_core_of = COG
 
 		owner = AST
 
@@ -16,7 +15,6 @@ state = {
 
 			12240 = {
 				naval_base = 1
-	    add_core_of = COG
 			}
 
 			12154 = {

@@ -6,13 +6,11 @@ state={
 	state_category = small_island
 
 	history={
-		add_core_of = COG
 		owner = FRA
 		buildings = {
 			infrastructure = 2
 			13017 = {
 				naval_base = 1
-	    add_core_of = COG
 			}
 		}
 	}

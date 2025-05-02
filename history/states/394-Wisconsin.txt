@@ -10,12 +10,10 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = USA
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 3
-	    add_core_of = COG
 		}
 		add_core_of = USA
 		victory_points = {

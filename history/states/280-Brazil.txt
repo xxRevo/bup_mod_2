@@ -4,9 +4,7 @@ state={
 	name="STATE_280"
 
 	history={
-		add_core_of = COG
 
-	    add_core_of = COG
 	}
 
 	provinces={

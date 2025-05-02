@@ -7,7 +7,6 @@ state={
 	state_category = city
 
 	history={
-		add_core_of = COG
 		owner = USA
 		buildings = {
 			infrastructure = 2
@@ -15,7 +14,6 @@ state={
 			air_base = 8
 			1572 = {
 				naval_base = 2
-	    add_core_of = COG
 			}
 			1843 = {
 				naval_base = 5

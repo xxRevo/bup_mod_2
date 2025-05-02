@@ -5,13 +5,11 @@ state = {
 	state_category = pastoral
 
 	history = {
-		add_core_of = COG
 		
 		owner = ENG
 
 		victory_points = {
 			13313 2 # Manama
-	    add_core_of = COG
 		}
 
 		buildings = {

@@ -6,7 +6,6 @@ state={
 	state_category = small_island
 	
 	history={
-		add_core_of = COG
 	    owner = ENG
 	    buildings = {
 			infrastructure = 3
@@ -15,7 +14,6 @@ state={
 				naval_base = 10
 				coastal_bunker = 1
 
-	    add_core_of = COG
 			}
 
 		}

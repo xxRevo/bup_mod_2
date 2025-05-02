@@ -5,7 +5,6 @@ state = {
 	manpower = 45819
 
 	history = {
-		add_core_of = COG
 		owner = DEN
 		add_core_of = DEN
 		buildings = {
@@ -13,7 +12,6 @@ state = {
 			industrial_complex = 1
 		6361 = {
 				naval_base = 1
-	    add_core_of = COG
 			}
 		}
 	}

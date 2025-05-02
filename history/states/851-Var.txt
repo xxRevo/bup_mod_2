@@ -6,14 +6,12 @@ state = {
 	state_category = large_town
 
 	history = {
-		add_core_of = COG
 
 		owner = FRA
 		add_core_of = FRA
 
 		victory_points = {
 			911 1 # Toulon
-	    add_core_of = COG
 		}
 
 		buildings = {

@@ -5,9 +5,7 @@ state={
 	state_category = tiny_island
 
 	history={
-		add_core_of = COG
 
-	    add_core_of = COG
 	}
 
 	provinces={

@@ -5,9 +5,7 @@ state={
 		2057 4974 8101 10815 10901 
 	}
 	history = {
-		add_core_of = COG
 
-	    add_core_of = COG
 	}
 	manpower=1
 	state_category=pastoral

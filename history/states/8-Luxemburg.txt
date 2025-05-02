@@ -10,7 +10,6 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 
 		owner = LUX
 		add_core_of = LUX
@@ -19,7 +18,6 @@ state = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
-	    add_core_of = COG
 		}
 		victory_points = { 
 			6583 5 # Luxembourg City

@@ -9,11 +9,9 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 		owner = SWE
 		victory_points = {
 			383 10 
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 3

@@ -5,12 +5,10 @@ state={
 	state_category = pastoral
 
 	history={
-		add_core_of = COG
 		owner = ENG
 		buildings = {
 			infrastructure = 1
 
-	    add_core_of = COG
 		}
 	}
 

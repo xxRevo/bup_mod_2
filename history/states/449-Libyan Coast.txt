@@ -7,11 +7,9 @@ state={
 	state_category = wasteland
 
 	history={
-		add_core_of = COG
 		owner = ITA
 		buildings = {
 			infrastructure = 2
-	    add_core_of = COG
 		}
 	}
 

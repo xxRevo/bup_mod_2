@@ -6,11 +6,9 @@ state={
 	state_category = tiny_island
 
 	history={
-		add_core_of = COG
 		owner = ENG
 		victory_points = {
 			10254 1
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 2

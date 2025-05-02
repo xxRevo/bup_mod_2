@@ -10,7 +10,6 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 
 		owner = CAN
 		add_core_of = CAN
@@ -22,7 +21,6 @@ state = {
 			air_base = 3
 			12149 = {
 				naval_base = 6
-	    add_core_of = COG
 			}
 		}
 		

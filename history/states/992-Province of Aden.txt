@@ -7,13 +7,11 @@ state = {
 	
 
 	history = {
-		add_core_of = COG
 
 		owner = RAJ
 
 		victory_points = {
 			5074 2 # Aden 
-	    add_core_of = COG
 		}
 
 		buildings = {

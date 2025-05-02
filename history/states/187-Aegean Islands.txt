@@ -12,14 +12,12 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = GRE
 		buildings = {
 			infrastructure = 1
 			dockyard = 1
 			8435 = {
 				naval_base = 1
-	    add_core_of = COG
 			}
 			6550 = {
 				naval_base = 1

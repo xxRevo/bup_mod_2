@@ -11,11 +11,9 @@ state= {
 	}
 
 	history= {
-		add_core_of = COG
 		owner = ENG
 		victory_points = {
 			6384 30 
-	    add_core_of = COG
 		}
 		victory_points = {
 			6318 5 

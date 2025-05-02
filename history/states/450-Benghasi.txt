@@ -11,13 +11,11 @@ state={
 		tungsten=25
 	}
 	history={
-		add_core_of = COG
 		owner = ITA
 		add_core_of = COG
 		
 		victory_points = {
 			11954 3 
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 2

@@ -5,10 +5,8 @@ state={
 	state_category = pastoral 
 
 	history={
-		add_core_of = COG
 
 
-	    add_core_of = COG
 	}
 	provinces={
 		2123 2159 2180 2202 2217 5164 10972 12971 

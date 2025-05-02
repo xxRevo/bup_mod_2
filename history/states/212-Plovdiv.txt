@@ -11,11 +11,9 @@ state={
 	}
 
 	history={
-		add_core_of = COG
 		owner = BUL
 		victory_points = { #Plovdiv
 			6923 10
-	    add_core_of = COG
 		}
 		victory_points = { #Stara Zagora
 			6814 3

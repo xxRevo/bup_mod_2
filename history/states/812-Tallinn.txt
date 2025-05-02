@@ -6,11 +6,9 @@ state={
 		oil = 10
 	}
 	history={
-		add_core_of = COG
 		owner = EST
 		victory_points = {
 			3152 5 
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 3 #was: 5

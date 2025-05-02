@@ -13,8 +13,6 @@ state = {
 	history = {
 		victory_points = {
 			192 5
-	    add_core_of = COG
-		add_core_of = COG
 		}
 		victory_points = {
 			9126 1

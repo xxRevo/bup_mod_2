@@ -3,11 +3,9 @@ state = {
 	name = "STATE_644" # Kolyma
 
 	history = {
-		add_core_of = COG
 		owner = SOV
 		victory_points = {
 			1819 1 
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 1

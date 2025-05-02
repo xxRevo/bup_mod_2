@@ -6,14 +6,12 @@ state = {
 	state_category = wasteland
 
 	history = {
-		add_core_of = COG
 
 		owner = IRQ
 		add_core_of = IRQ
 
 		victory_points = {
 			12879 1 # Samawah
-	    add_core_of = COG
 		}
 
 		buildings = {

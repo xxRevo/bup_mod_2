@@ -13,11 +13,9 @@ state={
 	state_category = pastoral
 
 	history= {
-		add_core_of = COG
 		owner = ITA
 		victory_points = {
 			914 1
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 1

@@ -10,14 +10,12 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 
 		owner = FRA
 		add_core_of = COG
 		
 		victory_points = {
 			8193 3 #Brazzaville
-	    add_core_of = COG
 		}
 
 		victory_points = {

@@ -11,12 +11,10 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 		owner = SWE
 
 		victory_points = {
 			6050 20 # Stockholm
-	    add_core_of = COG
 		}
 
 		victory_points = {

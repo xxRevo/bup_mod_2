@@ -6,13 +6,11 @@ state={
 	state_category = enclave
 	
 	history={
-		add_core_of = COG
 		owner = FRA
 		buildings = {
 			infrastructure = 2
 			11981 = {
 				naval_base = 1
-	    add_core_of = COG
 			}
 		}
 	}

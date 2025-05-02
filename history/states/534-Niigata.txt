@@ -7,7 +7,6 @@ state={
 	state_category = city
 
 	history={
-		add_core_of = COG
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
@@ -15,7 +14,6 @@ state={
 			arms_factory = 2
 			industrial_complex = 20
 			fuel_silo = 1
-	    add_core_of = COG
 		}
 		
 		victory_points = {

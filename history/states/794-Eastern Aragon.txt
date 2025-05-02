@@ -3,11 +3,9 @@ state={
 	name="STATE_794"
 
 	history={
-		add_core_of = COG
 		owner = SPR
 		victory_points = {
 			3954 1 
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 3 #was: 6

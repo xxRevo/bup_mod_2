@@ -11,13 +11,11 @@ state = {
 	}
 
 	history = {
-		add_core_of = COG
 		owner = NOR
 		add_core_of = NOR
 		
 		victory_points = {
 			3048 1
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 2

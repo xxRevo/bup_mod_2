@@ -7,11 +7,9 @@ state={
 	state_category = rural
 
 	history={
-		add_core_of = COG
 		owner = PER
 		victory_points = {
 			10782 1 
-	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 1

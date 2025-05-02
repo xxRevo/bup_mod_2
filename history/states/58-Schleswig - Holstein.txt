@@ -5,7 +5,6 @@ state = {
 	state_category = megalopolis
 	
 	history = {
-		add_core_of = COG
 
 		owner = GER
 		add_core_of = GER
@@ -13,7 +12,6 @@ state = {
 
 		victory_points = {
 			6389 10 # Kiel
-	    add_core_of = COG
 		}
 		
 		victory_points = {

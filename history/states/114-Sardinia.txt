@@ -6,11 +6,9 @@ state = {
 	state_category = town
 
 	history = {
-		add_core_of = COG
 		owner = ITA
 		victory_points = {
 			11773 3 
-	    add_core_of = COG
 		}
 		victory_points = {
 			9772 2 

@@ -10,7 +10,6 @@ state = {
 	state_category = metropolis
 
 	history = {
-		add_core_of = COG
 
 		owner = GER
 		add_core_of = GER
@@ -18,7 +17,6 @@ state = {
 
 		victory_points = { 
 			11435 1 # Bitburg
-	    add_core_of = COG
 		}
 
 		#victory_points = { 

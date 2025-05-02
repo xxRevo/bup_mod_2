@@ -210,7 +210,7 @@ NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.15		-- Max planes that
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.45 -- max extra plane % that can join every day
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 25			-- Min cap for planes that can join naval combat
 NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 4					-- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip)
-NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.1	-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
+--NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.1	-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
 NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3        	-- how often carrier planes do battle inside naval combat
 NDefines.NAir.AIR_WING_MAX_SIZE = 6400
 NDefines.NAir.THRUST_WEIGHT_AGILITY_FACTOR = 0 -- For plane designs, additive agility bonus per point of thrust exceeding weight #was 0.5
@@ -231,6 +231,12 @@ NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DIRECT_DISRUPTION_DAMAGE_FACTOR = 0
 --Air Defines
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0
 NDefines.NAir.AIR_WING_FLIGHT_SPEED_MULT = 1
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 7    -- same as above but used inside naval combat for carrier battles
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 0.8
+NDefines.NAir.NAVAL_KAMIKAZE_DAMAGE_MULT = 5.0  -- vanilla is like 20
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 1.0
+NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.5		-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
+NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 4.0
 
 NDefines.NProject.RECRUIT_SCIENTIST_COST = {						-- Amount of pp to hire a scientist based on available scientist
 	0,			-- pp cost if no available scientist

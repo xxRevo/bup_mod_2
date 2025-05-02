@@ -1403,6 +1403,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_war_logistics
+		text = "Panzer Research"
 
 		prerequisite = { focus = BUL_national_military_academy }
 		icon = GFX_goal_generic_army_motorized
@@ -1425,10 +1426,10 @@ focus_tree = {
 				category = support_tech
 			}
 			add_tech_bonus = {
-				name = BUL_war_logistics
-			    bonus = 1
-			    uses = 1
-				category = motorized_equipment
+				name = GER_advanced_panzer_research
+				bonus = 1
+				uses = 2
+				category = cat_medium_armor
 			}
 		}
 	}

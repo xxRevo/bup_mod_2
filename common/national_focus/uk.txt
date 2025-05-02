@@ -1379,27 +1379,26 @@ focus_tree = {
 				limit = {
 					has_dlc = "By Blood Alone"
 				}
+				add_tech_bonus = {
+				name = GER_dive_bombers
+				bonus = 2
+				uses = 1
+				category = light_air
+				}
 				air_experience = 25
-                create_equipment_variant = {
+            create_equipment_variant = {
                         name = "Supermarine Spitfire"
                         type = small_plane_airframe_2
                         allow_without_tech = yes 
-                        modules = {
+                modules = {
                             fixed_main_weapon_slot = heavy_mg_4x
                             fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
                             fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
                             engine_type_slot = engine_3_1x
                             special_type_slot_1 = drop_tanks
                             special_type_slot_2 = fuel_tanks_small
-                        }
-				
-				add_doctrine_cost_reduction = {
-					name = ENG_fighter_command_focus #land_doc_bonus
-					cost_reduction = 0.5
-					uses = 1
-					category = air_doctrine
-				}
-			  }
+                }
+			}
 		    }
 		}
 	}

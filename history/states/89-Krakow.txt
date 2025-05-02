@@ -3,6 +3,7 @@ state={
 	name="STATE_89"
 
 	history={
+        add_core_of = COG
 		victory_points = {
 			11411 1
 		}

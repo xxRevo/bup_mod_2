@@ -8,6 +8,7 @@ state={
 
 
 	history={
+        add_core_of = COG
 		owner = YUG
 		victory_points = { #Dubrovnik
 			6889 3 

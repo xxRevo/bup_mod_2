@@ -8,6 +8,7 @@ state = {
 	}
 
 	history = {
+        add_core_of = COG
 		owner = ITA
         victory_points = {
             9780 3 

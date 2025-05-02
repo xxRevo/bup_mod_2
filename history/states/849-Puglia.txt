@@ -5,6 +5,7 @@ state = {
 	manpower = 2642000 
 	state_category = city
 	history = {
+        add_core_of = COG
 		owner = ITA
 		victory_points = { #Bari
 			9784 3

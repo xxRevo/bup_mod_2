@@ -9,6 +9,7 @@ state={
 		tungsten = 1 # was: 24
 	}
 	history={
+        add_core_of = COG
 		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 5

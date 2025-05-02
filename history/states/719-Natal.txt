@@ -10,6 +10,7 @@ state={
 
 
 	history={
+        add_core_of = COG
 		owner = SAF
 		buildings = {
 			infrastructure = 3 #was: 5

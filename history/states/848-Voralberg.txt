@@ -5,6 +5,7 @@ state={
 	manpower = 154354
 	state_category = pastoral
 	history={
+        add_core_of = COG
 		owner = AUS
 		buildings = {
 			infrastructure = 2

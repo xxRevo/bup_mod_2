@@ -6,6 +6,7 @@ state={
 	}
 
 	history={
+        add_core_of = COG
 		owner = CHI
 		victory_points = {
 			1319 10 

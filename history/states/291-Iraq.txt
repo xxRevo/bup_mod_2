@@ -11,6 +11,7 @@ state = {
 
 	history = {
 
+        add_core_of = COG
 		owner = IRQ
 		add_core_of = IRQ
 

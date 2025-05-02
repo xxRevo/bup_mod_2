@@ -11,6 +11,7 @@ state={
 		tungsten=25
 	}
 	history={
+        add_core_of = COG
 		owner = ITA
 		add_core_of = ITA
 		victory_points = {

@@ -8,6 +8,7 @@ state={
 		rubber = 10
 	}
 	history={
+        add_core_of = COG
 		owner = ENG
 		add_core_of = COG
 		buildings = {

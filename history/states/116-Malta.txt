@@ -8,6 +8,7 @@ state=
 		oil=5
 	}
 	history= {
+        add_core_of = COG
 		owner = ENG
 		victory_points = {
 			12003 5 

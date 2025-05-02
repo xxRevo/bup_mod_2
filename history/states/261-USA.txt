@@ -9,6 +9,7 @@ state={
 	state_category = metropolis
 
 	history={
+        add_core_of = COG
 		owner = USA
 		buildings = {
 			infrastructure = 4 #was: 7

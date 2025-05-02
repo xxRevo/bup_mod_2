@@ -6,6 +6,7 @@ state = {
 	}
 
 	history = {
+        add_core_of = COG
 		victory_points = {
 			6940 3 
 		}

@@ -7,6 +7,7 @@ state = {
 	
 	history = {
 
+        add_core_of = COG
 		owner = LIT
 		add_core_of = LIT
 

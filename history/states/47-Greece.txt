@@ -13,6 +13,7 @@ state={
 	state_category = city
 
 	history={
+        add_core_of = COG
 		owner = GRE
 		victory_points = {
 			4109 20 

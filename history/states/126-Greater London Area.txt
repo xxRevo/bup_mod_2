@@ -6,6 +6,7 @@ state={
 	state_category = megalopolis
 
 	history={
+        add_core_of = COG
 		owner = ENG
 		victory_points = {
 			6103 50 

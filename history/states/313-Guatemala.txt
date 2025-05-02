@@ -19,4 +19,5 @@ state={
 	
 
 	local_supplies=0.0 
+        add_core_of = COG
 }

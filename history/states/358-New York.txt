@@ -8,6 +8,7 @@ state={
 	state_category = megalopolis
 
 	history={
+        add_core_of = COG
 		owner = USA
 		buildings = {
 			infrastructure = 4 #was: 8

@@ -8,6 +8,7 @@ state={
 		buildings = {
 
 		}
+        add_core_of = COG
 		victory_points = {
 			2072 2 
 		}

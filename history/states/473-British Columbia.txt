@@ -10,6 +10,7 @@ state={
 	state_category = town
 
 	history={
+        add_core_of = COG
 		owner = CAN
 		buildings = {
 			infrastructure = 3 #was: 5

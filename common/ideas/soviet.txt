@@ -689,7 +689,21 @@ ideas = {
 				agency_upgrade_time = -0.30
 				supply_consumption_factor = -0.2 
 			}
-			
+
+			equipment_bonus = {
+			small_plane_airframe = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			small_plane_cas_airframe = {
+					build_cost_ic = 0.15 instant = yes
+				}	
+			super_heavy_railway_gun_equipment = {
+					build_cost_ic = -0.65 instant = yes
+				}
+				railway_gun_equipment = {
+					build_cost_ic = -0.65 instant = yes
+				}
+			}
 			
 			
 		}

@@ -468,6 +468,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					cas_weapon
+					fighter_weapon
 				}
 			}
 

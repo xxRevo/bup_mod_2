@@ -13,7 +13,6 @@ state={
 	history={
         add_core_of = COG
 		owner = ITA
-		add_core_of = ITA
 		victory_points = {
 			1149 10 
 		}

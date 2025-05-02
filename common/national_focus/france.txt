@@ -1108,8 +1108,8 @@
 			add_tech_bonus = {
 				name = FRA_battle_of_maneuver
 				category = land_doctrine
+				cost_reduction = 0.5
 				uses = 2
-				bonus = 1
 			}
 		}
 	}
@@ -1245,8 +1245,8 @@
 			add_tech_bonus = {
 				name = FRA_air_ground_cooperation
 				category = air_doctrine
-				uses = 3
-				bonus = 1
+				cost_reduction = 0.5
+				uses = 2
 			}
 		}
 	}

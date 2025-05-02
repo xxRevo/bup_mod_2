@@ -13,5 +13,4 @@ state={
 	manpower=1
 	state_category=pastoral
 	local_supplies=0.000
-        add_core_of = COG
 }

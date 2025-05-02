@@ -11,5 +11,4 @@ state = {
 	provinces = { 5023 }
 
 	local_supplies = 0.0 
-        add_core_of = COG
 }

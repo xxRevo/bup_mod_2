@@ -260,7 +260,6 @@ generic_heavy_tank_organization = {
 		icon = GFX_generic_mio_department_icon_facilities
 		position = { x=4 y=0 }
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
 			military_industrial_organization_funds_gain = 0.1
 		}
 
@@ -273,7 +272,6 @@ generic_heavy_tank_organization = {
 		any_parent = {generic_mio_tank_20}
 		position = { x=4 y=1 }
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
 			military_industrial_organization_funds_gain = 0.1			
 		}
 	}
@@ -287,7 +285,6 @@ generic_heavy_tank_organization = {
 		position = { x=3 y=2 }
 		organization_modifier = {
 			military_industrial_organization_task_capacity = 1
-			military_industrial_organization_research_bonus = 0.05
 		}
 	}
 
@@ -326,7 +323,7 @@ generic_heavy_tank_organization = {
 
 		organization_modifier = {
 			military_industrial_organization_task_capacity = 1
-			military_industrial_organization_research_bonus = 0.1
+			military_industrial_organization_research_bonus = 0.05
 		}
 	}
 
@@ -392,7 +389,7 @@ generic_heavy_tank_organization = {
 		any_parent = {generic_mio_tank_30}
 		position = { x=6 y=2 }
 		production_bonus = {
-			production_efficiency_cap_factor = 0.05
+			production_efficiency_cap_factor = 0.025
 		}
 	}
 
@@ -414,7 +411,7 @@ generic_heavy_tank_organization = {
 		any_parent = {generic_mio_tank_28 generic_mio_tank_31}
 		position = { x=5 y=3 }
 		production_bonus = {
-			production_cost_factor = -0.05
+			production_cost_factor = -0.025
 		}
 	}
 
@@ -427,7 +424,7 @@ generic_heavy_tank_organization = {
 		special_trait_background = yes
 		position = { x=3 y=4 }
 		organization_modifier = {
-			military_industrial_organization_task_capacity = 8
+			military_industrial_organization_task_capacity = 3
 			military_industrial_organization_size_up_requirement = -0.25
 		}
 	}

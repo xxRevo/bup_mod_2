@@ -8,9 +8,11 @@ state={
 		steel=40
 	}
 	history={
+		add_core_of = COG
 		owner = SOV
 		victory_points = {
 			6245 10 
+	    add_core_of = COG
 		}
 		buildings = {
 			industrial_complex = 5

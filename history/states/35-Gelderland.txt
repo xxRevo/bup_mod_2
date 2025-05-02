@@ -3,12 +3,14 @@ state={
 	name="STATE_35"
 
 	history={
+		add_core_of = COG
 		owner = HOL
 		add_core_of = HOL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5
 
+	    add_core_of = COG
 		}
 		victory_points = {
 			3262 5 

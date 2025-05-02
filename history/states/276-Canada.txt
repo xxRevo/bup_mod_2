@@ -6,6 +6,7 @@ state = {
 	state_category = large_city
 	
 	history = {
+		add_core_of = COG
 
 		owner = CAN
 		add_core_of = CAN
@@ -19,6 +20,7 @@ state = {
 			# Queenston-Chippawa Hydroelectric Plant
 			749 = { dam = 1 }
 
+	    add_core_of = COG
 		}
 		
 		victory_points = {

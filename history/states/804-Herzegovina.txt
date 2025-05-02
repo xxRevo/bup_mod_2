@@ -12,9 +12,11 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = YUG
 		victory_points = {
 			9894 3
+	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 2

@@ -11,11 +11,13 @@ state = {
 	} #Maganese
 
 	history = {
+		add_core_of = COG
 
 		owner = ENG
 		add_core_of = COG
 		victory_points = {
 			10862 2 # Accra 
+	    add_core_of = COG
 		}
 
 		victory_points = {

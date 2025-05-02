@@ -9,9 +9,11 @@ state={
 		rubber=1 # was: 1
 	}
 	history={
+		add_core_of = COG
 		owner = FRA
 		victory_points = {
 			12891 1
+	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 1

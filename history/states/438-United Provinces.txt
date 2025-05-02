@@ -9,9 +9,11 @@ state={
 	state_category=town
 	local_supplies=0.000
 	history={
+		add_core_of = COG
 		owner = RAJ
 		victory_points = {
 			1377 10
+	    add_core_of = COG
 		}
 
 

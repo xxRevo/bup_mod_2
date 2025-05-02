@@ -6,11 +6,13 @@ state={
 	state_category = tiny_island
 
 	history={
+		add_core_of = COG
 		owner = ENG
 		buildings = {
 			infrastructure = 2
 			4450 = {
 				naval_base = 1
+	    add_core_of = COG
 			}
 			7123 = {
 				naval_base = 1

@@ -11,9 +11,11 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = ENG
 		victory_points = {
 			200 5 #Aberdeen
+	    add_core_of = COG
 		}
 		victory_points = {
 			3150 1 #Dundee

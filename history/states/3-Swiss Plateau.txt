@@ -10,6 +10,7 @@ state={
 
 
 	history={
+		add_core_of = COG
 		owner = SWI
 		victory_points = { 9620 15 }
 		victory_points = { 663 10 }
@@ -18,6 +19,7 @@ state={
 			arms_factory = 3
 			industrial_complex = 3
 			air_base = 4
+	    add_core_of = COG
 		}
 		add_core_of = SWI
 	}

@@ -7,10 +7,12 @@ state = {
 	state_category = city
 
 	history = {
+		add_core_of = COG
 		owner = SWE
 
 		victory_points = {
 			9279 5 # Malmö
+	    add_core_of = COG
 		}
 		victory_points = {
 			11215 1 # Karlskrona

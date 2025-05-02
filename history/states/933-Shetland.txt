@@ -9,6 +9,7 @@ state = {
 	}
 
 	history = {
+		add_core_of = COG
 		owner = ENG
 		add_core_of = ENG
 
@@ -16,6 +17,7 @@ state = {
 			infrastructure = 1	
 			6196 = {
 				naval_base = 1	
+	    add_core_of = COG
 			}
 		}
 		

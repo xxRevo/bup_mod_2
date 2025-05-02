@@ -6,6 +6,7 @@ state = {
 	state_category = rural
 
 	history = {
+		add_core_of = COG
 
 		owner = ENG
 
@@ -16,6 +17,7 @@ state = {
 			air_base = 2
 			4206 = {
 				naval_base = 3
+	    add_core_of = COG
 			}
 		}
 		victory_points = {

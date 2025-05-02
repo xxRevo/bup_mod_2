@@ -6,9 +6,11 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = RAJ
 		buildings = {
 			infrastructure = 1
+	    add_core_of = COG
 		}
 
 	}

@@ -13,6 +13,8 @@ state = {
 	history = {
 		victory_points = { #Bolzano
 			11598 1
+	    add_core_of = COG
+		add_core_of = COG
 		}
 		owner = ITA
 		buildings = {

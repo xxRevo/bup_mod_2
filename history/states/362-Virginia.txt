@@ -4,6 +4,7 @@ state={
 	name="STATE_362"
 
 	history={
+		add_core_of = COG
 		owner = USA
 		buildings = {
 			infrastructure = 3 #was: 6
@@ -14,6 +15,7 @@ state={
 			788 = {
 				naval_base = 10
 
+	    add_core_of = COG
 			}
 
 		}

@@ -10,10 +10,12 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = JAP
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+	    add_core_of = COG
 		}
 		
 		victory_points = {

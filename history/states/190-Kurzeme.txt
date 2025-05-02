@@ -8,6 +8,8 @@ state={
 	history={
 		victory_points = {
 			9262 3
+	    add_core_of = COG
+		add_core_of = COG
 		}
 		victory_points = {
 			3296 1 #Ventspils

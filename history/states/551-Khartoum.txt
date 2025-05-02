@@ -7,12 +7,14 @@ state={
 		rubber = 2
 	}
 	history={
+		add_core_of = COG
 		owner = ENG
 		add_core_of = COG
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 			air_base = 2
+	    add_core_of = COG
 		}
 		victory_points = {
 			12806 3 

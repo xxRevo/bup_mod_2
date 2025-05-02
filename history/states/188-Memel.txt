@@ -6,12 +6,14 @@ state = {
 	state_category = rural
 	
 	history = {
+		add_core_of = COG
 
 		owner = LIT
 		add_core_of = LIT
 
 		victory_points = {
 			3288 3 # Klaipeda/Memel
+	    add_core_of = COG
 		}
 		
 		buildings = {

@@ -10,9 +10,11 @@ state={
 	state_category = rural
 	
 	history={
+		add_core_of = COG
 		owner = LAT
 		victory_points = {
 			10493 1 #Valmiera
+	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 3

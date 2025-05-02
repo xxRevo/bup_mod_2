@@ -12,6 +12,8 @@ state={
 	history={
 		victory_points = {
 			9606 3
+	    add_core_of = COG
+		add_core_of = COG
 		}
 		owner = ROM
 		buildings = {

@@ -10,12 +10,14 @@ state = {
 	}
 
 	history = {
+		add_core_of = COG
 
 		owner = FIN
 		add_core_of = FIN
 
 		victory_points = { 
 			158 2 # Oulu
+	    add_core_of = COG
 		}
 
 		victory_points = { 

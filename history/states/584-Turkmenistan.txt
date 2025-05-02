@@ -3,11 +3,13 @@ state = {
 	name = "STATE_584"
 
 	history = {
+		add_core_of = COG
 	
 		owner = SOV
 		
 		victory_points = {
 			12333 2
+	    add_core_of = COG
 		}
 		
 		buildings = {

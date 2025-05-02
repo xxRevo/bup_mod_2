@@ -13,9 +13,11 @@ state={
 	state_category = city
 
 	history={
+		add_core_of = COG
 		owner = BUL
 		victory_points = { #Sofia
 			949 15 
+	    add_core_of = COG
 		}
 		victory_points = { #Vidin
 			9771 1

@@ -10,11 +10,13 @@ state = {
 		steel=3 # was: 4
 	}
 	history={
+		add_core_of = COG
 		owner = FIN
 		add_core_of = FIN
 
 		victory_points = { #Kuopio
 			11141 2
+	    add_core_of = COG
 		}
 
 		victory_points = { #Varkaus

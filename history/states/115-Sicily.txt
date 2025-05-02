@@ -6,9 +6,11 @@ resources={
 		tungsten=75.000 #added due to Portugal Setup
 	}
 	history = {
+		add_core_of = COG
 		owner = ITA
 		victory_points = {
 			10074 20 
+	    add_core_of = COG
 		}
 		victory_points = {
 			4159 5 

@@ -11,9 +11,11 @@ state={
 	state_category = large_town
 
 	history={
+		add_core_of = COG
 		owner = SOV
 		victory_points = {
 			306 15
+	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 3 #was: 5

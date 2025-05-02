@@ -5,6 +5,8 @@ state={
 	history={
 		victory_points = {
 			11399 1 
+	    add_core_of = COG
+		add_core_of = COG
 		}
 		owner = POL
 		buildings = {

@@ -6,11 +6,13 @@ state={
 	state_category = town
 
 	history={
+		add_core_of = COG
 		owner = CHI
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 2
 
+	    add_core_of = COG
 		}
 
 		1938.10.25 = {

@@ -10,12 +10,14 @@ state=
 	state_category = town
 
 	history = {
+		add_core_of = COG
 		owner = ITA
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 1
+	    add_core_of = COG
 		}
 		victory_points = { 
 			5010 5 

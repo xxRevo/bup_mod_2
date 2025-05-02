@@ -12,11 +12,13 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = USA
 		buildings = {
 			infrastructure = 1
 			13048 = {
 				naval_base = 1
+	    add_core_of = COG
 			}
 			13049 = {
 				naval_base = 1

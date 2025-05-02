@@ -5,12 +5,14 @@ state = {
 	state_category = city
 
 	history = {
+		add_core_of = COG
 
 		owner = GER
 		add_core_of = GER
 		
 		victory_points = {
 			6332 10 # Königsberg
+	    add_core_of = COG
 		}
 
 		buildings = {

@@ -5,7 +5,9 @@ state = {
 	manpower = 1
 
 	history = {
+		add_core_of = COG
 		
+	    add_core_of = COG
 	}
 
 	provinces = { 5023 }

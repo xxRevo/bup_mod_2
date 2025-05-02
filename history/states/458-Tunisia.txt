@@ -9,9 +9,11 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = FRA
 		victory_points = {
 			11969 10 
+	    add_core_of = COG
 		}
 		victory_points = {
 			9994 1 

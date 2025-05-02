@@ -3,7 +3,9 @@ state= {
 	name = "STATE_856"
 	
 	history = {
+		add_core_of = COG
 
+	    add_core_of = COG
 	}
 	manpower = 1
 	state_category = pastoral

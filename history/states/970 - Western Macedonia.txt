@@ -7,10 +7,12 @@ state = {
 	}
 
 	history = {
+		add_core_of = COG
 		owner = YUG
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
+	    add_core_of = COG
 		}
 		victory_points = {
 			833 2

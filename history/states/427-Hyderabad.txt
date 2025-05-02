@@ -11,10 +11,12 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = RAJ
 		victory_points = {
 			8087 15 
 
+	    add_core_of = COG
 		}
 		victory_points = { 12114 1 }
 		victory_points = { 10311 1 }

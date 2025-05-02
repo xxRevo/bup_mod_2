@@ -6,9 +6,11 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = SOV
 		victory_points = {
 			7661 10 
+	    add_core_of = COG
 		}
 		victory_points = {
 			11674 1 

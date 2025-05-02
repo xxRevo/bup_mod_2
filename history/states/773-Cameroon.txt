@@ -7,10 +7,12 @@ state={
 	state_category = metropolis
 
 	history={
+		add_core_of = COG
 		owner = FRA
 		add_core_of = COG
 		victory_points = {
 			2080 1
+	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 2

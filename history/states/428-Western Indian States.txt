@@ -10,11 +10,13 @@ state = {
 	}
 
 	history = {
+		add_core_of = COG
 
 		owner = RAJ
 
 		victory_points = {
 			10118 1 # Jamnagar
+	    add_core_of = COG
 		}
 
 		victory_points = {

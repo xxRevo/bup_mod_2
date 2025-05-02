@@ -6,12 +6,14 @@ state = {
 	state_category = town
 
 	history = {
+		add_core_of = COG
 
 		owner = SOV
 		add_core_of = SOV
 
 		victory_points = {
 			11225 3 # Kuybyshev
+	    add_core_of = COG
 		}
 
 		buildings = {

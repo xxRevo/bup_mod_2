@@ -6,6 +6,7 @@ state = {
 	state_category = rural
 	
 	history = {
+		add_core_of = COG
 		
 		owner = ENG
 
@@ -15,6 +16,7 @@ state = {
 			# Aswan Low Dam
 			11999 = { dam = 1 }
 
+	    add_core_of = COG
 		}
 
 		victory_points = {

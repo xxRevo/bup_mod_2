@@ -6,11 +6,13 @@ state = {
 	state_category = city
 
 	history = {
+		add_core_of = COG
 
 		owner = SOV
 
 		victory_points = {
 			3686 20 # Sevastopol
+	    add_core_of = COG
 		}
 
 		victory_points = {

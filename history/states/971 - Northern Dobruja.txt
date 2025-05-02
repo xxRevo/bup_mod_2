@@ -8,6 +8,7 @@ state = {
 	state_category = city
 
 	history = {
+		add_core_of = COG
 
 		owner = ROM
 		add_core_of = ROM
@@ -15,6 +16,7 @@ state = {
 
 		victory_points = { 
 			657 3 
+	    add_core_of = COG
 		}
 
 		buildings = {

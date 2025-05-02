@@ -7,9 +7,11 @@ state={
 	
 	
 	history={
+		add_core_of = COG
 		owner = ITA
 		buildings = {
 			infrastructure = 1
+	    add_core_of = COG
 		}
 	}
 	

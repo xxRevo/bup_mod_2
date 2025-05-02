@@ -9,9 +9,11 @@ state={
 	state_category = enclave
 
 	history= {
+		add_core_of = COG
 		owner = FRA
 		victory_points = {
 			12029 1
+	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 1

@@ -4,9 +4,11 @@ state={
 	name="STATE_191"
 
 	history={
+		add_core_of = COG
 		owner = EST
 		victory_points = {
 			9221 1 
+	    add_core_of = COG
 		}
 		victory_points = {
 			592 1 #Voru

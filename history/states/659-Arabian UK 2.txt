@@ -10,10 +10,12 @@ state={
 	local_supplies=0.000
 
 	history = {
+		add_core_of = COG
 		owner = ENG
 		buildings = {
 			infrastructure = 1
 			air_base = 1
+	    add_core_of = COG
 		}
 	}
 }

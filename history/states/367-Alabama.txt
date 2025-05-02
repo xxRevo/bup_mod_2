@@ -7,12 +7,14 @@ state={
 	state_category = city
 
 	history={
+		add_core_of = COG
 		owner = USA
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 3
 			7480 = {
 				naval_base = 3
+	    add_core_of = COG
 			}
 		}
 		add_core_of = USA

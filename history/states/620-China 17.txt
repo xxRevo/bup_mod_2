@@ -3,6 +3,7 @@ state = {
 	name = "STATE_620"
 
 	history = {
+		add_core_of = COG
 
 		owner = CHI
 		add_core_of = CHI
@@ -12,6 +13,7 @@ state = {
 			arms_factory = 3
 			industrial_complex = 2
 			air_base = 1 # Wuhan Wangjiadun Airbase
+	    add_core_of = COG
 		}
 
 		victory_points = {

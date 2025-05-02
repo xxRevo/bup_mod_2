@@ -7,6 +7,7 @@ state = {
 	
 	
 	history = {
+		add_core_of = COG
 		owner = ENG
 		air_base = 2
 		victory_points = { 12674 1 }
@@ -15,6 +16,7 @@ state = {
 			dockyard = 1
 			12674 = {
 				naval_base = 1
+	    add_core_of = COG
 			}
 			industrial_complex = 1
 		}

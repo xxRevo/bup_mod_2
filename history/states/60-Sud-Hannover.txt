@@ -11,12 +11,14 @@ state = {
 	state_category = large_city
 
 	history = {
+		add_core_of = COG
 
 		owner = GER
 		add_core_of = GER
 
 		victory_points = { 
 			3561 5 # Erfurt
+	    add_core_of = COG
 		}
 
 		victory_points = { 

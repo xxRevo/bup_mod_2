@@ -6,9 +6,11 @@ state={
 	state_category = large_city
 
 	history={
+		add_core_of = COG
 		owner = POL
 		victory_points = {
 			3544 25
+	    add_core_of = COG
 		}
 		victory_points = {
 			402 1

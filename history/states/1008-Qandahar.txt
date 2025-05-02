@@ -7,7 +7,9 @@ state={
 		4949 5020 5064 8090 10789 
 	}
 	history={
+		add_core_of = COG
 
+	    add_core_of = COG
 	}
 	
 	buildings_max_level_factor=1.000

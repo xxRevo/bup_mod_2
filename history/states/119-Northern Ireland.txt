@@ -4,9 +4,11 @@ state={
 	name="STATE_119"
 
 	history={
+		add_core_of = COG
 		owner = ENG
 		victory_points = {
 			3379 5 
+	    add_core_of = COG
 		}
 		victory_points = {
 			385 1 # Londonderry

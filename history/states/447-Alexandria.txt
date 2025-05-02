@@ -13,10 +13,12 @@ state={
 	state_category = town
 
 	history={
+		add_core_of = COG
 		owner = ENG
 		add_core_of = COG
 		victory_points = {
 			4076 10 
+	    add_core_of = COG
 		}
 		
 		victory_points = {

@@ -7,9 +7,11 @@ state={
 	state_category = large_town
 
 	history={
+		add_core_of = COG
 		owner = SPR
 		victory_points = {
 			6906 10
+	    add_core_of = COG
 		}
 		victory_points = {
 			4098 3

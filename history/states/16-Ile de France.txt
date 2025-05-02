@@ -7,12 +7,14 @@ state = {
 	
 
 	history = {
+		add_core_of = COG
 
 		owner = FRA
 		add_core_of = FRA
 
 		victory_points = {
 			11506 50 # Paris
+	    add_core_of = COG
 		}
 
 		buildings = {

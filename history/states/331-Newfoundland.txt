@@ -6,6 +6,7 @@ state = {
 	state_category = rural
 
 	history = {
+		add_core_of = COG
 
 		owner = ENG
 		add_core_of = CAN
@@ -15,6 +16,7 @@ state = {
 			industrial_complex = 1
 			12505 = {
 				naval_base = 1
+	    add_core_of = COG
 			}
 		}
 

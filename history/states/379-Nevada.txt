@@ -12,6 +12,7 @@ state = {
 	}
 
 	history = {
+		add_core_of = COG
 
 		owner = USA
 		add_core_of = USA
@@ -22,6 +23,7 @@ state = {
 			# Hoover Dam
 			4799 = { dam_mountain = 1 }
 
+	    add_core_of = COG
 		}
 
 		victory_points = {

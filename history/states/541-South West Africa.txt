@@ -6,10 +6,12 @@ state={
 	state_category = pastoral
 
 	history={
+		add_core_of = COG
 		owner = SAF
 		buildings = {
 			infrastructure = 2
 
+	    add_core_of = COG
 		}
 		victory_points = {
 			4879 1 

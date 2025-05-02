@@ -5,12 +5,14 @@ state = {
 	state_category = rural
 	
 	history = {
+		add_core_of = COG
 
 		owner = GER
 		add_core_of = GER
 
 		victory_points = {
 			317 3  # Flensburg
+	    add_core_of = COG
 		}
 
 		buildings = {

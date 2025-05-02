@@ -11,9 +11,11 @@ state = {
 	}
 
 	history = {
+		add_core_of = COG
 		
 		victory_points = {
 			9116 1
+	    add_core_of = COG
 		}
 		
 		owner = NOR

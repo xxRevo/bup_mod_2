@@ -6,6 +6,7 @@ state={
 	state_category = town
 
 	history={
+		add_core_of = COG
 		owner = FIN
 		add_core_of = FIN
 		buildings = {
@@ -15,6 +16,7 @@ state={
 			#Mannerheim Line
 			9100 = {
 				bunker = 2
+	    add_core_of = COG
 			}
 			9105 = {
 				bunker = 2

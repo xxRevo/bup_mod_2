@@ -6,9 +6,11 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = FRA
 		victory_points = {
 			4401 3 
+	    add_core_of = COG
 		}
 		buildings = {
 			infrastructure = 2

@@ -5,8 +5,10 @@ state = {
 	state_category = wasteland
 	
 	history = {
+		add_core_of = COG
 		owner = CAN
 		add_core_of = CAN
+	    add_core_of = COG
 	}
 	
 	provinces = {

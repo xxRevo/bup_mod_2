@@ -8,12 +8,14 @@ state = {
 	}
 
 	history = {
+		add_core_of = COG
 
 		owner = CAN
 		add_core_of = CAN
 
 		buildings = {
 			infrastructure = 1
+	    add_core_of = COG
 		}
 
 	}

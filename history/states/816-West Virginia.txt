@@ -3,12 +3,14 @@ state={
 	name="STATE_816"
 	state_category = town
 	history={
+		add_core_of = COG
 		owner = USA
 		add_core_of = USA
 		buildings = {
 			industrial_complex = 2
 			infrastructure = 3
 			air_base = 3
+	    add_core_of = COG
 		}
 		victory_points = {
 			7588 3

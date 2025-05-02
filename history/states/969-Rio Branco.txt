@@ -5,7 +5,9 @@ state={
 		5214 13340 13361
 	}
 	history={
+		add_core_of = COG
 
+	    add_core_of = COG
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

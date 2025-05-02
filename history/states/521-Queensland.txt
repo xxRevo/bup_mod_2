@@ -6,6 +6,7 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = AST
 		buildings = {
 			infrastructure = 3
@@ -15,6 +16,7 @@ state={
 				naval_base = 2
 				coastal_bunker = 1
 
+	    add_core_of = COG
 			}
 			7566 = {
 				naval_base = 1

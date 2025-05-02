@@ -10,6 +10,7 @@ state = {
 
 
 	history = {
+		add_core_of = COG
 
 		owner = GER
 		add_core_of = GER
@@ -18,6 +19,7 @@ state = {
 			infrastructure = 4
 			arms_factory = 2
 			industrial_complex = 7
+	    add_core_of = COG
 		}
 
 		victory_points = {

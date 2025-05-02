@@ -6,12 +6,14 @@ state={
 	state_category = small_island
 
 	history={
+		add_core_of = COG
 		owner = FRA
 		buildings = {
 			infrastructure = 2
 			air_base = 1
 			12148 = {
 				naval_base = 1
+	    add_core_of = COG
 			}
 		}
 		victory_points = {

@@ -11,8 +11,10 @@ state={
 	}
 
 	history={
+		add_core_of = COG
 		owner = RAJ
 		buildings = {
+	    add_core_of = COG
 		}
 		set_compliance = 0
 		start_resistance = yes

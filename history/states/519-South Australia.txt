@@ -4,12 +4,14 @@ state={
 	name="STATE_519"
 
 	history={
+		add_core_of = COG
 		owner = AST
 		buildings = {
 			infrastructure = 1
 			12910 = {
 				naval_base = 2
 
+	    add_core_of = COG
 			}
 
 		}

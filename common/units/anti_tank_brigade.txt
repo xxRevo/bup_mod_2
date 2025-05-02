@@ -27,9 +27,9 @@ sub_units = {
 			anti_tank_equipment = 36
 		}
 		manpower = 500
-		max_organisation = 0
 		default_morale = 0
-		max_strength = 0.6
+		max_strength = -30
+		max_organisation = -10
 		training_time = 120
 		weight = 0.5
 
@@ -68,7 +68,7 @@ sub_units = {
 		}
 
 		amphibious = {
-			attack = -0.4
+			attack = -0.2
 		}
 	}
 	mot_anti_tank_brigade = {

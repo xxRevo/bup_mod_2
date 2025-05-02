@@ -10,6 +10,7 @@ state=
 	state_category = rural
 	
 	history={
+        add_core_of = COG
 		owner = ITA
 		victory_points = { #Massaua
 			12766 1

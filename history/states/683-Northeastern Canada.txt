@@ -6,6 +6,7 @@ state={
 	}
 
 	history={
+        add_core_of = COG
 		owner = CAN
 		buildings = {
 			infrastructure = 1

@@ -13,6 +13,7 @@ state={
 	}
 
 	history={
+        add_core_of = COG
 		owner = JAP
 		buildings = {
 			infrastructure = 2

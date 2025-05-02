@@ -5,6 +5,7 @@ state = {
 	manpower = 45819
 
 	history = {
+        add_core_of = COG
 		owner = DEN
 		add_core_of = DEN
 		buildings = {

@@ -9,6 +9,7 @@ state={
 	
 	state_category = town
 	history={
+        add_core_of = COG
 		owner = PER
 		buildings = {
 			infrastructure = 2

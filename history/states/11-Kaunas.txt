@@ -4,6 +4,7 @@ state={
 	name="STATE_11"
 
 	history={
+        add_core_of = COG
 		owner = LIT
 		victory_points = {
 			6296 5

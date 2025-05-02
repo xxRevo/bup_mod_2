@@ -9,6 +9,7 @@ state={
 	state_category = wasteland
 
 	history={
+        add_core_of = COG
 		victory_points = {
 			12763 3
 		}

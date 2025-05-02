@@ -10,6 +10,7 @@ state = {
 
 	history = {
 
+        add_core_of = COG
 		owner = PER
 		add_core_of = PER
 

@@ -11,6 +11,7 @@ state = {
 	}
 
 	history = {
+        add_core_of = COG
 		owner = ITA
 		victory_points = { #Bologna
 			6606 5

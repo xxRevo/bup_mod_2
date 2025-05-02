@@ -9,6 +9,7 @@ state={
 		steel=40
 	}
 	history={
+        add_core_of = COG
 		owner = SOV
 		victory_points = {
 			3151 30.0

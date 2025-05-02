@@ -7,6 +7,7 @@ state={
 	state_category = large_town
 	history=
 	{
+        add_core_of = COG
 		owner = JAP
 		victory_points = {
 			1150 1 

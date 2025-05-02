@@ -11,6 +11,7 @@ state={
 	state_category = rural
 
 	history={
+        add_core_of = COG
 		owner = HOL
 		add_core_of = COG
 		victory_points = {

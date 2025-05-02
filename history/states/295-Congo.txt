@@ -6,6 +6,7 @@ state = {
 
 	history = {
 
+        add_core_of = COG
 		owner = BEL
 
 		IF = {
@@ -41,7 +42,6 @@ state = {
 			13365 1 # Nkamba
 		}
 
-		add_core_of = COG
 
 	}
 

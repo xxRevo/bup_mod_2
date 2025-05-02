@@ -8,6 +8,7 @@ state={
 		tungsten = 1 # was: 24
 	}
 	history={
+        add_core_of = COG
 		owner = SOV
 		victory_points = {
 			3580 5

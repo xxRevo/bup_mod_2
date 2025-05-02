@@ -4,6 +4,7 @@ state = {
 	name = "STATE_637" #Kamchatka
 
 	history = {
+        add_core_of = COG
 		owner = SOV
 		buildings = {
 			infrastructure = 1

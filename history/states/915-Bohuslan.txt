@@ -5,6 +5,7 @@ state = {
 	state_category = rural
 
 	history = {
+        add_core_of = COG
 		victory_points = {
 			6310 1
 		}

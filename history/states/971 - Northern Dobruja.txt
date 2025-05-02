@@ -9,6 +9,7 @@ state = {
 
 	history = {
 
+        add_core_of = COG
 		owner = ROM
 		add_core_of = ROM
 		add_claim_by = BUL

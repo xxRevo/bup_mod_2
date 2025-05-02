@@ -11,12 +11,11 @@ state = {
 
 	history = {
 
+        add_core_of = COG
 		owner = ENG
 
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 1 
 			10760 = {
 				naval_base = 3
 			}

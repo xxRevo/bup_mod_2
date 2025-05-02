@@ -12,6 +12,7 @@ state=
 
 	history=
 	{
+        add_core_of = COG
 		owner = MAL
 		victory_points = {
 			7371 1

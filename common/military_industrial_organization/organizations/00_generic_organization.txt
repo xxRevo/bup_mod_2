@@ -323,3 +323,62 @@ generic_heavy_tank_organization_sov = {
 	}
 	include = generic_heavy_tank_organization
 }
+
+#######################################################
+#######################################################
+#######################################################
+
+generic_light_plane_organization_allies = {
+	icon = GFX_idea_supermarine
+
+	allowed = {
+		OR = {
+			tag = FRA
+			tag = ENG
+			tag = SAF
+			tag = USA
+			tag = CAN
+			tag = RAJ
+			tag = AST
+			tag = NZL
+		}
+	}
+	include = generic_light_plane_organization
+}
+
+generic_light_plane_organization_axis = {
+	icon = GFX_idea_messerschmitt
+
+	allowed = {
+		OR = {
+			tag = GER
+			tag = HUN
+			tag = ROM
+			tag = BUL
+			tag = ITA
+		}
+	}
+
+	include = generic_light_plane_organization
+}
+
+generic_light_plane_organization_sov = {
+	icon = GFX_idea_mig_design_bureau
+
+	allowed = {
+		tag = SOV
+	}
+	include = generic_light_plane_organization
+}
+
+generic_light_plane_organization_jap = {
+	icon = GFX_idea_mitsubishi
+
+	allowed = {
+		OR = {
+			tag = JAP
+			tag = MAN
+		}
+	}
+	include = generic_light_plane_organization
+}

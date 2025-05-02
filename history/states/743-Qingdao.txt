@@ -8,6 +8,7 @@ state=
 	
 	history=
 	{
+        add_core_of = COG
 		owner = CHI
 		add_core_of = CHI
 		victory_points = {

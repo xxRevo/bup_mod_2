@@ -5,6 +5,7 @@ state = {
 	state_category = rural
 	
 	history = {
+        add_core_of = COG
 		owner = NOR
 		add_core_of = NOR
 		victory_points = {

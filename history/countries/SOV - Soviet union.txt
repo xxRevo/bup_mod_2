@@ -16,6 +16,10 @@ add_timed_idea = {
 	idea = GER_peace_time_train
 	days = 1960
 }
+add_timed_idea = {
+	idea = GER_production_base
+	days = 30
+}
 #POLITICAL ADVISORS
 recruit_character = SOV_mikhail_kalinin
 recruit_character = SOV_nikita_khrushchyov

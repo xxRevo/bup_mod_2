@@ -9,6 +9,7 @@ state = {
 	}
 
 	history = {
+        add_core_of = COG
 		owner = SWE
 		victory_points = {
 			383 10 

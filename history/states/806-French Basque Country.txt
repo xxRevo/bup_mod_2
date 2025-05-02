@@ -4,6 +4,7 @@ state={
 	name="STATE_806"
 
 	history={
+        add_core_of = COG
 		owner = FRA
 		victory_points = {
 			9710 3 

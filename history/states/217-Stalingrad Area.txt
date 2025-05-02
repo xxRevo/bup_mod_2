@@ -9,6 +9,7 @@ state = {
 	}
 	history = {
 
+        add_core_of = COG
 		owner = SOV
 		add_core_of = SOV
 

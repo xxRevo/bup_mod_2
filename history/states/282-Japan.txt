@@ -12,6 +12,7 @@ state = {
 
 	history = {
 
+        add_core_of = COG
 		owner = JAP
 		add_core_of = JAP
 

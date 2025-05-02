@@ -9,6 +9,7 @@ state={
 	state_category = small_island
 
 	history={
+        add_core_of = COG
 		owner = FRA
 		victory_points = {
 			4268 1

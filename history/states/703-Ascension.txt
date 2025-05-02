@@ -4,6 +4,7 @@ state={
 	manpower=458
 	state_category = tiny_island
 	history= {
+        add_core_of = COG
 		owner = ENG
 		buildings = {
 			infrastructure = 1

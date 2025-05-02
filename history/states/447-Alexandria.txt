@@ -13,6 +13,7 @@ state={
 	state_category = town
 
 	history={
+        add_core_of = COG
 		owner = ENG
 		add_core_of = COG
 		victory_points = {
@@ -24,7 +25,6 @@ state={
 		}		
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 1
 			air_base = 6
 			4076 = {
 				naval_base = 8

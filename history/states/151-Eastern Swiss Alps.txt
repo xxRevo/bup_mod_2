@@ -8,6 +8,7 @@ state={
 		aluminium=15 # was: 24
 	}
 	history={
+        add_core_of = COG
 		owner = SWI
 		victory_points = { 658 1 }
 		buildings = {

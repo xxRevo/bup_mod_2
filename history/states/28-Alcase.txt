@@ -10,6 +10,7 @@ state={
 	}
 
 	history={
+        add_core_of = COG
 		owner = FRA
 		add_dynamic_modifier = {
 			modifier = FRA_maginot_line_dynamic_modifier

@@ -9,11 +9,11 @@ state={
 		rubber = 10
 	}
 	history={
+        add_core_of = COG
 		owner = ENG
 		add_core_of = COG
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 			air_base = 5
 			
 

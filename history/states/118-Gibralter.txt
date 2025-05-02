@@ -6,6 +6,7 @@ state=
 	
 	state_category = enclave
 	history={
+        add_core_of = COG
 		owner = ENG
 		victory_points = { 4135 10 }
 		buildings = {

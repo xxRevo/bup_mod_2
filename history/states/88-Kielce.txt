@@ -7,6 +7,7 @@ state={
 	}
 
 	history={
+        add_core_of = COG
 		owner = POL
 		victory_points = {
 			9427 20 

@@ -7,6 +7,7 @@ state={
 	state_category = rural
 
 	history={
+        add_core_of = COG
 		owner = PER
 		victory_points = {
 			7969 5

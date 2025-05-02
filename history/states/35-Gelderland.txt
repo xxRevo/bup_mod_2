@@ -3,6 +3,7 @@ state={
 	name="STATE_35"
 
 	history={
+        add_core_of = COG
 		owner = HOL
 		add_core_of = HOL
 		buildings = {

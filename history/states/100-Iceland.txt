@@ -7,16 +7,15 @@ state = {
 	
 	
 	history = {
+        add_core_of = COG
 		owner = ENG
 		air_base = 2
 		victory_points = { 12674 1 }
 		buildings = {
 			infrastructure = 1
-			dockyard = 1
 			12674 = {
 				naval_base = 1
 			}
-			industrial_complex = 1
 		}
 		# add_core_of = DEN
 	}

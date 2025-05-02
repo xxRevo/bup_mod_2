@@ -8,6 +8,7 @@ state={
 	
 
 	history={
+        add_core_of = COG
 		owner = PER
 		buildings = {
 			infrastructure = 3 #was: 5

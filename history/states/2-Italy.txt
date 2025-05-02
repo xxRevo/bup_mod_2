@@ -6,6 +6,7 @@ state = {
 	state_category = city
 
 	history = {
+        add_core_of = COG
 		owner = ITA
 		victory_points = { 9904 40 } #Rome
 		victory_points = { 11846 1 } #Anzio (was 5)

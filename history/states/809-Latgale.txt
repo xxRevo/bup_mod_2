@@ -4,6 +4,7 @@ state={
 	name="STATE_809"
 
 	history={
+        add_core_of = COG
 		owner = LAT
 		victory_points = {
 			310 3 #Daugavpils

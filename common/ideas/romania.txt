@@ -528,7 +528,26 @@ ideas = {
 			}
 			
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_expected_value = -0.05
+			}
+		}
+
+		ROM_no_more_hun = {
+
+			picture = generic_agrarian_society
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+
+			}
+			
+			modifier = {
+				consumer_goods_expected_value = -0.05
 			}
 		}
 
@@ -548,6 +567,44 @@ ideas = {
 			
 			modifier = {
 				production_speed_nuclear_reactor_factor = 0.25
+			}
+		}
+
+		ROM_investing_in_gold = {
+
+			picture = generic_exploit_mines
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+
+			}
+			
+			modifier = {
+				consumer_goods_expected_value = 0.1
+			}
+		}
+
+		ROM_gold_gold_gold = {
+
+			picture = generic_exploit_mines
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+
+			}
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
 			}
 		}
 

@@ -1,409 +1,303 @@
 generic_light_plane_organization = {
-	icon = GFX_idea_renault
+    icon = GFX_idea_renault
 
-	allowed = {
-		always = no
-	}
+    allowed = {
+        always = no
+    }
 
-	equipment_type = { mio_cat_eq_only_light_fighter small_plane_cas_airframe cv_small_plane_cas_airframe cv_small_plane_naval_bomber_airframe small_plane_naval_bomber_airframe}
-	research_categories = { air_equipment }
+    equipment_type = { mio_cat_eq_only_light_fighter small_plane_cas_airframe cv_small_plane_cas_airframe cv_small_plane_naval_bomber_airframe small_plane_naval_bomber_airframe}
+    research_categories = { air_equipment }
 
-	initial_trait = {
-		name = generic_light_plane_organization
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
-		}
-	}
+    initial_trait = {
+        name = generic_light_plane_organization
+        organization_modifier = {
+            military_industrial_organization_research_bonus = 0.05
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_1
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_fuel_consumption
-		mutually_exclusive = { generic_mio_tank_2 }
+    trait = {
+        token = generic_mio_tank_1
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_fuel_consumption
+        mutually_exclusive = { generic_mio_tank_2 }
         position = { x=0 y=0 }
-		equipment_bonus = {
+        equipment_bonus = {
             fuel_consumption = -0.1
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_2
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_reliability
-		mutually_exclusive = { generic_mio_tank_1 }
+    trait = {
+        token = generic_mio_tank_2
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_reliability
+        mutually_exclusive = { generic_mio_tank_1 }
         position = { x=1 y=0 }
-		equipment_bonus = {
+        equipment_bonus = {
             reliability = 0.1
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_3
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_air_agility
-		any_parent = {generic_mio_tank_2 generic_mio_tank_1}
+    trait = {
+        token = generic_mio_tank_3
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_air_agility
+        any_parent = {generic_mio_tank_2 generic_mio_tank_1}
         mutually_exclusive = { generic_mio_tank_4 }
         position = { x=0 y=1 }
-		equipment_bonus = {
+        equipment_bonus = {
             air_agility = 0.05
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_4
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_maximum_speed
-		any_parent = {generic_mio_tank_2 generic_mio_tank_1}
+    trait = {
+        token = generic_mio_tank_4
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_maximum_speed
+        any_parent = {generic_mio_tank_2 generic_mio_tank_1}
         mutually_exclusive = { generic_mio_tank_3 }
         position = { x=1 y=1 }
-		equipment_bonus = {
+        equipment_bonus = {
             maximum_speed = 0.05
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_5
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_night_penalty
-		any_parent = {generic_mio_tank_3 generic_mio_tank_4}
+    trait = {
+        token = generic_mio_tank_5
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_night_penalty
+        any_parent = {generic_mio_tank_3 generic_mio_tank_4}
         mutually_exclusive = { generic_mio_tank_6 }
         position = { x=0 y=2 }
-		equipment_bonus = {
+        equipment_bonus = {
             night_penalty = -0.1
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_6
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_naval_range
-		any_parent = {generic_mio_tank_3 generic_mio_tank_4}
+    trait = {
+        token = generic_mio_tank_6
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_naval_range
+        any_parent = {generic_mio_tank_3 generic_mio_tank_4}
         mutually_exclusive = { generic_mio_tank_5 }
         position = { x=1 y=2 }
-		equipment_bonus = {
+        equipment_bonus = {
             air_range = 0.05
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_7
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_anti_air_attack
-		any_parent = {generic_mio_tank_5 generic_mio_tank_6}
+    trait = {
+        token = generic_mio_tank_7
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_anti_air_attack
+        any_parent = {generic_mio_tank_5 generic_mio_tank_6}
         position = { x=0 y=3 }
-		equipment_bonus = {
+        equipment_bonus = {
             air_attack = 0.05
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_8
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_plane_cas
+    trait = {
+        token = generic_mio_tank_8
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_plane_cas
         position = { x=2 y=0 }
         mutually_exclusive = {generic_mio_tank_12}
         limit_to_equipment_type = {
             small_plane_cas_airframe
             cv_small_plane_cas_airframe
         }
-		equipment_bonus = {
+        equipment_bonus = {
             build_cost_ic = -0.05
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_9
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_plane_cas_combat
+    trait = {
+        token = generic_mio_tank_9
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_plane_cas_combat
         limit_to_equipment_type = {
             small_plane_cas_airframe
             cv_small_plane_cas_airframe
         }
         any_parent = {generic_mio_tank_8}
         position = { x=2 y=1 }
-		equipment_bonus = {
+        equipment_bonus = {
             air_attack = 0.1
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_10
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_plane_cas_engine
+    trait = {
+        token = generic_mio_tank_10
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_plane_cas_engine
         limit_to_equipment_type = {
             small_plane_cas_airframe
             cv_small_plane_cas_airframe
         }
         any_parent = {generic_mio_tank_9}
         position = { x=2 y=2 }
-		equipment_bonus = {
+        equipment_bonus = {
             air_range = 0.1
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_11
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_air_ground_attack
+    trait = {
+        token = generic_mio_tank_11
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_air_ground_attack
         limit_to_equipment_type = {
             small_plane_cas_airframe
             cv_small_plane_cas_airframe
         }
         any_parent = {generic_mio_tank_10}
         position = { x=2 y=3 }
-		equipment_bonus = {
+        equipment_bonus = {
             air_ground_attack = 0.15
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_12
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_plane_naval_bomber
+    trait = {
+        token = generic_mio_tank_12
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_plane_naval_bomber
         mutually_exclusive = {generic_mio_tank_8}
         limit_to_equipment_type = {
             small_plane_naval_bomber_airframe
             cv_small_plane_naval_bomber_airframe
         }
         position = { x=3 y=0 }
-		equipment_bonus = {
+        equipment_bonus = {
             build_cost_ic = -0.05
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_13
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_plane_naval_bomber_line_efficiency
+    trait = {
+        token = generic_mio_tank_13
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_plane_naval_bomber_line_efficiency
         limit_to_equipment_type = {
             small_plane_naval_bomber_airframe
             cv_small_plane_naval_bomber_airframe
         }
         any_parent = {generic_mio_tank_12}
         position = { x=3 y=1 }
-		equipment_bonus = {
+        equipment_bonus = {
             surface_detection = 0.15
             sub_detection = 0.15
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_14
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_plane_naval_bomber_production
+    trait = {
+        token = generic_mio_tank_14
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_plane_naval_bomber_production
         limit_to_equipment_type = {
             small_plane_naval_bomber_airframe
             cv_small_plane_naval_bomber_airframe
         }
         any_parent = {generic_mio_tank_13}
         position = { x=3 y=2 }
-		equipment_bonus = {
+        equipment_bonus = {
             air_range = 0.15
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_15
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_torpedo_attack
+    trait = {
+        token = generic_mio_tank_15
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_torpedo_attack
         limit_to_equipment_type = {
             small_plane_naval_bomber_airframe
             cv_small_plane_naval_bomber_airframe
         }
         any_parent = {generic_mio_tank_14}
         position = { x=3 y=3 }
-		equipment_bonus = {
+        equipment_bonus = {
             naval_strike_attack = 0.1
             naval_strike_targetting = 0.1
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_16
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_air_superiority
+    trait = {
+        token = generic_mio_tank_16
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_trait_icon_air_superiority
         any_parent = {generic_mio_tank_7}
         any_parent = {generic_mio_tank_11 generic_mio_tank_15}
         special_trait_background = yes
         position = { x=0 y=4 }
-		equipment_bonus = {
+        equipment_bonus = {
             build_cost_ic = -0.05
             thrust = 0.15
-		}
-	}
+        }
+    }
+    trait = {
+        token = generic_mio_tank_20
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_facilities
+        position = { x=4 y=0 }
+        organization_modifier = {
+            military_industrial_organization_funds_gain = 0.1
+        }
 
-	trait = {
-		token = generic_mio_tank_20
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_facilities
-		position = { x=5 y=0 }
-		organization_modifier = {
-			military_industrial_organization_funds_gain = 0.1
-		}
+    }
 
-	}
+    trait = {
+        token = generic_mio_tank_21
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_facilities
+        any_parent = {generic_mio_tank_20}
+        position = { x=4 y=1 }
+        organization_modifier = {
+            military_industrial_organization_funds_gain = 0.1
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_21
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_facilities
-		any_parent = {generic_mio_tank_20}
-		position = { x=5 y=1 }
-		organization_modifier = {
-			military_industrial_organization_funds_gain = 0.1			
-		}
-	}
+    trait = {
+        token = generic_mio_tank_22
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_facilities
+        mutually_exclusive = {generic_mio_tank_23}
+        any_parent = {generic_mio_tank_21}
+        position = { x=3 y=2 }
+        organization_modifier = {
+            military_industrial_organization_task_capacity = 1
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_22
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_facilities
-		mutually_exclusive = {generic_mio_tank_23}
-		any_parent = {generic_mio_tank_21}
-		position = { x=4 y=2 }
-		organization_modifier = {
-			military_industrial_organization_task_capacity = 1
-		}
-	}
+    trait = {
+        token = generic_mio_tank_23
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_facilities
+        any_parent = {generic_mio_tank_21}
+        mutually_exclusive = {generic_mio_tank_22}
+        position = { x=4 y=2 }
+        organization_modifier = {
+            military_industrial_organization_research_bonus = 0.05
 
-	trait = {
-		token = generic_mio_tank_23
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_facilities
-		any_parent = {generic_mio_tank_21}
-		mutually_exclusive = {generic_mio_tank_22}
-		position = { x=5 y=2 }
-		organization_modifier = {
-			military_industrial_organization_task_capacity = 1
-			military_industrial_organization_funds_gain = 0.1
-		}
-	}
+        }
+    }
 
-	trait = {
-		token = generic_mio_tank_24
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_facilities
-		any_parent = {generic_mio_tank_22}
-		position = { x=4 y=3 }
+    trait = {
+        token = generic_mio_tank_24
+        name = generic_mio_tank_1_l
+        icon = GFX_generic_mio_department_icon_facilities
+        any_parent = {generic_mio_tank_22}
+        position = { x=3 y=3 }
 
-		organization_modifier = {
-			military_industrial_organization_task_capacity = 1
-			military_industrial_organization_size_up_requirement = -0.25		
-		}
-	}
+        organization_modifier = {
+            military_industrial_organization_task_capacity = 1}
+        }
 
-	trait = {
-		token = generic_mio_tank_25
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_department_icon_facilities
-		any_parent = {generic_mio_tank_23}
-		position = { x=5 y=3 }
+        trait = {
+            token = generic_mio_tank_25
+            name = generic_mio_tank_1_l
+            icon = GFX_generic_mio_department_icon_facilities
+            any_parent = {generic_mio_tank_23}
+            position = { x=4 y=3 }
 
-		organization_modifier = {
-			military_industrial_organization_task_capacity = 1
-			military_industrial_organization_research_bonus = 0.05
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_26
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_efficiency_gain
-		mutually_exclusive = {generic_mio_tank_29}
-		position = { x=6 y=0 }
-		production_bonus = {
-			production_efficiency_gain_factor = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_27
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_efficiency_gain
-		any_parent = {generic_mio_tank_26}
-		position = { x=6 y=1 }
-		production_bonus = {
-			production_efficiency_gain_factor = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_28
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_efficiency_gain
-		any_parent = {generic_mio_tank_27}
-		position = { x=6 y=2 }
-		production_bonus = {
-			production_efficiency_gain_factor = 0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_29
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_efficiency_cap
-		position = { x=7 y=0 }
-		mutually_exclusive = {generic_mio_tank_26}
-		production_bonus = {
-			production_efficiency_cap_factor = 0.025
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_30
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_efficiency_cap
-		any_parent = {generic_mio_tank_29}
-		position = { x=7 y=1 }
-		production_bonus = {
-			production_efficiency_cap_factor = 0.025
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_31
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_efficiency_cap
-		any_parent = {generic_mio_tank_30}
-		position = { x=7 y=2 }
-		production_bonus = {
-			production_efficiency_cap_factor = 0.025
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_32
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_resources
-		any_parent = {generic_mio_tank_28 generic_mio_tank_31}
-		position = { x=7 y=3 }
-		production_bonus = {
-			production_resource_need_factor = -0.1
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_33
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_production_capacity
-		any_parent = {generic_mio_tank_28 generic_mio_tank_31}
-		position = { x=6 y=3 }
-		production_bonus = {
-			production_cost_factor = -0.025
-		}
-	}
-
-	trait = {
-		token = generic_mio_tank_34
-		name = generic_mio_tank_1_l
-		icon = GFX_generic_mio_trait_icon_unique
-		any_parent = {generic_mio_tank_24 generic_mio_tank_25}
-		any_parent = {generic_mio_tank_33 generic_mio_tank_32}
-		special_trait_background = yes
-		position = { x=4 y=4 }
-		organization_modifier = {
-			military_industrial_organization_task_capacity = 3
-			military_industrial_organization_size_up_requirement = -0.25
-		}
-	}
-}
+            organization_modifier = {
+                military_industrial_organization_research_bonus = 0.05
+            }
+        }
+    }

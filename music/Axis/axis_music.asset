@@ -1,0 +1,91 @@
+
+# MAIN THEME
+music = {
+	name = "Erika"
+	file = "Erika.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Der Machtigste Konig Im Luftrevier"
+	file = "Der Machtigste Konig Im Luftrevier.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Grün ist unser Fallschirm"
+	file = "Grün ist unser Fallschirm.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Im Wald, im grünen Walde"
+	file = "Im Wald, im grünen Walde.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Panzerlied"
+	file = "Panzerlied.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Schwarzbraun Ist Die Haselnuss"
+	file = "Schwarzbraun Ist Die Haselnuss.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Unsere Rommel.ogg"
+	file = "Unsere Rommel.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Wir sind des Geyers schwarzer Haufen"
+	file = "Wir sind des Geyers schwarzer Haufen.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Funiculi Funicula"
+	file = "Funiculi Funicula.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Jääkärimarssi"
+	file = "Jääkärimarssi.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Maantie on Kova Kävellä"
+	file = "Maantie on Kova Kävellä.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Njet Molotoff"
+	file = "Njet Molotoff.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Uraliin"
+	file = "Uraliin.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Säkkijärven Polkka"
+	file = "Säkkijärven Polkka.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Vapaussoturin Valloituslaulu"
+	file = "Vapaussoturin Valloituslaulu.ogg"
+	volume = 0.65
+}

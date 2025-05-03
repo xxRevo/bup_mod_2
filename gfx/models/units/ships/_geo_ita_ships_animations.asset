@@ -1,0 +1,43 @@
+#############
+# �R���e�E�f�B�E�J�u�[��
+#############
+
+animation = {
+	name = "geo_conteDicavour_idle_animation"
+	file = "geo_conteDicavour_idle.anim"
+}
+
+animation = {
+	name = "geo_conteDicavour_attack_animation"
+	file = "geo_conteDicavour_attack.anim"
+}
+
+animation = {
+	name = "geo_conteDicavour_defend_animation"
+	file = "geo_conteDicavour_defend.anim"
+}
+
+animation = {
+	name = "geo_conteDicavour_death_animation"
+	file = "geo_conteDicavour_death.anim"
+}
+
+animation = {
+	name = "geo_DucadegliAbruzzi_death_animation"
+	file = "geo_DucadegliAbruzzi_death.anim"
+}
+
+animation = {
+	name = "geo_DucadegliAbruzzi_attack_animation"
+	file = "geo_DucadegliAbruzzi_attack.anim"
+}
+
+animation = {
+	name = "geo_DucadegliAbruzzi_defend_animation"
+	file = "geo_DucadegliAbruzzi_defend.anim"
+}
+
+animation = {
+	name = "geo_DucadegliAbruzzi_idle_animation"
+	file = "geo_DucadegliAbruzzi_idle.anim"
+}

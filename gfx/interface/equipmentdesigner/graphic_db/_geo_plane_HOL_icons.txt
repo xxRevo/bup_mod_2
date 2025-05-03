@@ -1,0 +1,22 @@
+HOL = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2.1
+			icons = { }
+			models= {
+				geo_hurricane_mk2b_HOL_entity
+				geo_hurricane_HOL_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2.1
+			icons = { }
+			models= {
+				geo_hurricane_mk2b_HOL_entity
+				geo_hurricane_HOL_entity
+			}
+		}
+	}
+}

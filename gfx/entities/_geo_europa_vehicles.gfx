@@ -1,0 +1,11 @@
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "geo_skoda_t21_apc_mesh"
+		file = "gfx/models/units/vehicles/geo_skoda_t21_apc.mesh"
+			
+		animation = { id = "idle"			type = "geo_skoda_t21_idle_animation" }
+		animation = { id = "move"			type = "geo_skoda_t21_move_animation" }
+	}
+}

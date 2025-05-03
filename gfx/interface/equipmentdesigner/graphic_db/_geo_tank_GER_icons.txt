@@ -1,0 +1,250 @@
+#(# GER Start
+	GER = {
+  #(# light tanks start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_h39_GER_entity
+					geo_r35_GER_entity
+					geo_35t_GER_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_panzer2_GER_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_38t_e_GER_entity
+					geo_38t_a_GER_entity
+				}
+			}
+		}
+		light_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { geo_hetzer_GER_entity }
+			}
+		}
+     #)#
+  #)# Light tanks end
+  #(# Medium tanks start
+     #(# 0
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				models = { geo_panzer3_e_GER_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		medium_tank_artillery_chassis_0 = {
+			pool = {
+				weight = 5
+				models = {  }
+			}
+			pool = {
+				weight = 4
+				models = { geo_stug3e_GER_entity }
+			}	
+		}
+		medium_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 5.1
+				models = { geo_stug3e_GER_entity }
+			}
+			pool = {
+				weight = 4
+				models = {  }
+			}	
+		}
+     #)#
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_panzer3_h_GER_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_PzKpfw_M15_GER_entity
+					geo_s35_GER_entity
+					geo_panzer3_n_with_schulzen_GER_entity
+					geo_panzer3_n_GER_entity
+					geo_panzer3_l_with_schulzen_GER_entity
+					geo_panzer3_l_GER_entity
+					geo_panzer3_j_GER_entity
+					geo_panzer3_e_GER_entity
+				}
+			}
+		}
+		medium_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { geo_stug3e_GER_entity }
+			}	
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+				models = { geo_stug3f_GER_entity }
+			}		
+			pool = {
+				weight = 4
+				models = {
+					geo_semovente_da7534_GER_entity
+					geo_stug3g_schulzen_GER_entity
+					geo_stug3g_GER_entity
+				}
+			}	
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_panzer4_f2_GER_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_p2640_GER_entity
+					geo_panzer4_h_GER_entity
+					geo_panzer4_g_GER_entity
+					geo_panzer4_f_GER_entity
+					geo_panzer4_c_GER_entity
+				}
+			}
+		}
+		medium_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+				models = { geo_jagdpanzer4_GER_entity }
+			}		
+			pool = {
+				weight = 4
+				models = {
+					geo_jagdpanzer4_70_schulzen_GER_entity
+					geo_jagdpanzer4_70_GER_entity
+					geo_jagdpanzer4_schulzen_GER_entity
+					geo_stug4_schulzen_GER_entity
+					geo_stug4_GER_entity
+				}
+			}
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				models = { geo_panther_d_ns_GER_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_panther_f_GER_entity
+					geo_panther_g_GER_entity
+					geo_panther_g_ns_GER_entity
+					geo_panther_a_GER_entity
+					geo_panther_a_ns_GER_entity
+					geo_panther_d_GER_entity
+				}
+			}
+		}
+     #)#
+  #)# Germany Medium tanks end
+  #(# Germany Heavy tanks start
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_b1bis_GER_entity }
+			}
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_tiger_GER_entity }
+			}
+			pool = {
+				weight = 2
+				models = { geo_tiger_camo_GER_entity }
+			}
+		}
+     #)#
+     #(# 3
+		heavy_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				models = { geo_tiger2_GER_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_tiger2_p_no_skirt_GER_entity
+					geo_tiger2_no_skirt_GER_entity
+					geo_tiger2_p_GER_entity
+				}
+			}
+		}
+     #)#
+  #)# Germany Heavy tanks end
+  #(# Germany Super modern amphibious start
+     #(# 1
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_m48a5_GER_entity
+					geo_leo1a5_GER_entity
+					geo_leo1a3_GER_entity
+					geo_leo1_GER_entity
+				}
+			}
+		}
+     #)#
+	 #(# 2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_leo2a6EX_GER_entity
+					geo_leo2a6_GER_entity
+					geo_leo2a4_GER_entity
+				}
+			}
+		}
+ #)#
+  #)# Germany Super modern amphibious end
+	}
+ #)# GER End

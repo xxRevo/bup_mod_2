@@ -1,0 +1,68 @@
+### NOTE ###
+# Chi means "Chu-Sensha" "medium-tank" "中-戦車";
+# Ke means "Ke-Sensha" "light-tank" "輕-戦車";
+# Ho means "artillery" "砲" ;
+# SR means "Special" "特";
+# Go means "number" "号";
+# Ka means "Amphibious"
+# (i):A1; (ro):B2; (ha):C3; (ni):D4; (ho):E5; (he):F6; (to):G7;
+
+
+##(# Main Start
+ #(# JAP Start
+  #(# halftrack
+   #(# aa
+   #)#
+  #)#
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+      animation = { # "JAP_light_tank_aa_type98tase_idle_animation"
+         name = "JAP_light_tank_aa_type98tase_idle_animation"
+         file = "JAP_light_tank_aa_type98tase_idle.anim"
+      }
+      animation = { # "JAP_light_tank_aa_type98tase_moving_animation"
+         name = "JAP_light_tank_aa_type98tase_moving_animation"
+         file = "JAP_light_tank_aa_type98tase_moving.anim"
+      }
+      animation = { # "JAP_light_tank_aa_type98tase_attack_animation"
+         name = "JAP_light_tank_aa_type98tase_attack_animation"
+         file = "JAP_light_tank_aa_type98tase_attack.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# JAP End
+##)# Main End
+
+	
+
+

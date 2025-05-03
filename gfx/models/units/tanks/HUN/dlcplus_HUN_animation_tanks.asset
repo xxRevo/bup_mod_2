@@ -1,0 +1,151 @@
+##(# DOD Start
+ #(# ROM Start
+  #(# light
+   #(# tank
+      animation = { # "HUN_light_tank_straussler_attack_animation"
+         name = "HUN_light_tank_straussler_attack_animation"
+         file = "HUN_light_tank_straussler_attack.anim"
+      }
+      animation = { # "HUN_light_tank_straussler_idle_animation"
+         name = "HUN_light_tank_straussler_idle_animation"
+         file = "HUN_light_tank_straussler_idle.anim"
+      }
+      animation = { # "HUN_light_tank_straussler_moving_animation"
+         name = "HUN_light_tank_straussler_moving_animation"
+         file = "HUN_light_tank_straussler_moving.anim"
+      }
+      animation = { # "HUN_light_tank_toldi2_attack_animation"
+         name = "HUN_light_tank_toldi2_attack_animation"
+         file = "HUN_light_tank_toldi2_attack.anim"
+      }
+      animation = { # "HUN_light_tank_toldi2_idle_animation"
+         name = "HUN_light_tank_toldi2_idle_animation"
+         file = "HUN_light_tank_toldi2_idle.anim"
+      }
+      animation = { # "HUN_light_tank_toldi2_moving_animation"
+         name = "HUN_light_tank_toldi2_moving_animation"
+         file = "HUN_light_tank_toldi2_moving.anim"
+      }
+      animation = { # "HUN_light_tank_toldi3_attack_animation"
+         name = "HUN_light_tank_toldi3_attack_animation"
+         file = "HUN_light_tank_toldi3_attack.anim"
+      }
+      animation = { # "HUN_light_tank_toldi3_idle_animation"
+         name = "HUN_light_tank_toldi3_idle_animation"
+         file = "HUN_light_tank_toldi3_idle.anim"
+      }
+      animation = { # "HUN_light_tank_toldi3_moving_animation"
+         name = "HUN_light_tank_toldi3_moving_animation"
+         file = "HUN_light_tank_toldi3_moving.anim"
+      }
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+      animation = { # "HUN_light_tank_destroyer_tolditd_attack_animation"
+         name = "HUN_light_tank_destroyer_tolditd_attack_animation"
+         file = "HUN_light_tank_destroyer_tolditd_attack.anim"
+      }
+      animation = { # "HUN_light_tank_destroyer_tolditd_idle_animation"
+         name = "HUN_light_tank_destroyer_tolditd_idle_animation"
+         file = "HUN_light_tank_destroyer_tolditd_idle.anim"
+      }
+      animation = { # "HUN_light_tank_destroyer_tolditd_moving_animation"
+         name = "HUN_light_tank_destroyer_tolditd_moving_animation"
+         file = "HUN_light_tank_destroyer_tolditd_moving.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "HUN_light_tank_aa_nimrod_attack_animation"
+         name = "HUN_light_tank_aa_nimrod_attack_animation"
+         file = "HUN_light_tank_aa_nimrod_attack.anim"
+      }
+      animation = { # "HUN_light_tank_aa_nimrod_idle_animation"
+         name = "HUN_light_tank_aa_nimrod_idle_animation"
+         file = "HUN_light_tank_aa_nimrod_idle.anim"
+      }
+      animation = { # "HUN_light_tank_aa_nimrod_moving_animation"
+         name = "HUN_light_tank_aa_nimrod_moving_animation"
+         file = "HUN_light_tank_aa_nimrod_moving.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "HUN_medium_tank_turan3_attack_animation"
+         name = "HUN_medium_tank_turan3_attack_animation"
+         file = "HUN_medium_tank_turan3_attack.anim"
+      }
+      animation = { # "HUN_medium_tank_turan3_idle_animation"
+         name = "HUN_medium_tank_turan3_idle_animation"
+         file = "HUN_medium_tank_turan3_idle.anim"
+      }
+      animation = { # "HUN_medium_tank_turan3_moving_animation"
+         name = "HUN_medium_tank_turan3_moving_animation"
+         file = "HUN_medium_tank_turan3_moving.anim"
+      }
+      animation = { # "HUN_medium_tank_t3462_attack_animation"
+         name = "HUN_medium_tank_t3462_attack_animation"
+         file = "HUN_medium_tank_t3462_attack.anim"
+      }
+      animation = { # "HUN_medium_tank_t3462_idle_animation"
+         name = "HUN_medium_tank_t3462_idle_animation"
+         file = "HUN_medium_tank_t3462_idle.anim"
+      }
+      animation = { # "HUN_medium_tank_t3462_moving_animation"
+         name = "HUN_medium_tank_t3462_moving_animation"
+         file = "HUN_medium_tank_t3462_moving.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "HUN_medium_tank_destroyer_zrinyi_attack_animation"
+         name = "HUN_medium_tank_destroyer_zrinyi_attack_animation"
+         file = "HUN_medium_tank_destroyer_zrinyi_attack.anim"
+      }
+      animation = { # "HUN_medium_tank_destroyer_zrinyi_idle_animation"
+         name = "HUN_medium_tank_destroyer_zrinyi_idle_animation"
+         file = "HUN_medium_tank_destroyer_zrinyi_idle.anim"
+      }
+      animation = { # "HUN_medium_tank_destroyer_zrinyi_moving_animation"
+         name = "HUN_medium_tank_destroyer_zrinyi_moving_animation"
+         file = "HUN_medium_tank_destroyer_zrinyi_moving.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "HUN_medium_tank_destroyer_tasroh_attack_animation"
+         name = "HUN_medium_tank_destroyer_tasroh_attack_animation"
+         file = "HUN_medium_tank_destroyer_tasroh_attack.anim"
+      }
+      animation = { # "HUN_medium_tank_destroyer_tasroh_idle_animation"
+         name = "HUN_medium_tank_destroyer_tasroh_idle_animation"
+         file = "HUN_medium_tank_destroyer_tasroh_idle.anim"
+      }
+      animation = { # "HUN_medium_tank_destroyer_tasroh_moving_animation"
+         name = "HUN_medium_tank_destroyer_tasroh_moving_animation"
+         file = "HUN_medium_tank_destroyer_tasroh_moving.anim"
+      }
+   #)#
+   #(# aa
+      
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# ROM End
+##)# DOD End
+
+	
+
+

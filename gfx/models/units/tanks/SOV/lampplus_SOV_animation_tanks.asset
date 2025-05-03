@@ -1,0 +1,106 @@
+##(# Main Start
+ #(# SOV Start
+  #(# light
+   #(# tank
+      animation = { # "SOV_light_tank_t18_attack_animation"
+         name = "SOV_light_tank_t18_attack_animation"
+         file = "SOV_light_tank_t18_attack.anim"
+      }
+      animation = { # "SOV_light_tank_t18_idle_animation"
+         name = "SOV_light_tank_t18_idle_animation"
+         file = "SOV_light_tank_t18_idle.anim"
+      }
+      animation = { # "SOV_light_tank_t18_moving_animation"
+         name = "SOV_light_tank_t18_moving_animation"
+         file = "SOV_light_tank_t18_moving.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "SOV_light_tank_artillery_bt7a_idle_animation"
+         name = "SOV_light_tank_artillery_bt7a_idle_animation"
+         file = "SOV_light_tank_artillery_bt7a_idle.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_bt7a_moving_animation"
+         name = "SOV_light_tank_artillery_bt7a_moving_animation"
+         file = "SOV_light_tank_artillery_bt7a_moving.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_bt7a_attack_animation"
+         name = "SOV_light_tank_artillery_bt7a_attack_animation"
+         file = "SOV_light_tank_artillery_bt7a_attack.anim"
+      }
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+      animation = { # "SOV_heavy_tank_artillery_su152_idle_animation"
+         name = "SOV_heavy_tank_artillery_su152_idle_animation"
+         file = "SOV_heavy_tank_artillery_su152_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_su152_moving_animation"
+         name = "SOV_heavy_tank_artillery_su152_moving_animation"
+         file = "SOV_heavy_tank_artillery_su152_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_su152_attack_animation"
+         name = "SOV_heavy_tank_artillery_su152_attack_animation"
+         file = "SOV_heavy_tank_artillery_su152_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "SOV_heavy_tank_destroyer_su100y_idle_animation"
+         name = "SOV_heavy_tank_destroyer_su100y_idle_animation"
+         file = "SOV_heavy_tank_destroyer_su100y_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_destroyer_su100y_moving_animation"
+         name = "SOV_heavy_tank_destroyer_su100y_moving_animation"
+         file = "SOV_heavy_tank_destroyer_su100y_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_destroyer_su100y_attack_animation"
+         name = "SOV_heavy_tank_destroyer_su100y_attack_animation"
+         file = "SOV_heavy_tank_destroyer_su100y_attack.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+      animation = { # "SOV_amphibious_tank_pt76_idle_animation"
+         name = "SOV_amphibious_tank_pt76_idle_animation"
+         file = "SOV_amphibious_tank_pt76_idle.anim"
+      }
+      animation = { # "SOV_amphibious_tank_pt76_moving_animation"
+         name = "SOV_amphibious_tank_pt76_moving_animation"
+         file = "SOV_amphibious_tank_pt76_moving.anim"
+      }
+      animation = { # "SOV_amphibious_tank_pt76_attack_animation"
+         name = "SOV_amphibious_tank_pt76_attack_animation"
+         file = "SOV_amphibious_tank_pt76_attack.anim"
+      }
+      animation = { # "SOV_amphibious_tank_pt76_amphibious_moving_animation"
+         name = "SOV_amphibious_tank_pt76_amphibious_moving_animation"
+         file = "SOV_amphibious_tank_pt76_amphibious_moving.anim"
+      }
+      animation = { # "SOV_amphibious_tank_pt76_amphibious_attack_animation"
+         name = "SOV_amphibious_tank_pt76_amphibious_attack_animation"
+         file = "SOV_amphibious_tank_pt76_amphibious_attack.anim"
+      }
+   #)#
+  #)#
+ #)# SOV End
+##)# Main End

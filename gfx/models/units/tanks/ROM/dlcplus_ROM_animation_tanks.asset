@@ -1,0 +1,67 @@
+##(# DOD Start
+ #(# ROM Start
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+      animation = { # "ROM_light_tank_destroyer_tacam_attack_animation"
+         name = "ROM_light_tank_destroyer_tacam_attack_animation"
+         file = "ROM_light_tank_destroyer_tacam_attack.anim"
+      }
+      animation = { # "ROM_light_tank_destroyer_tacam_idle_animation"
+         name = "ROM_light_tank_destroyer_tacam_idle_animation"
+         file = "ROM_light_tank_destroyer_tacam_idle.anim"
+      }
+      animation = { # "ROM_light_tank_destroyer_tacam_moving_animation"
+         name = "ROM_light_tank_destroyer_tacam_moving_animation"
+         file = "ROM_light_tank_destroyer_tacam_moving.anim"
+      }
+      animation = { # "ROM_light_tank_artillery_tacab_attack_animation"
+         name = "ROM_light_tank_artillery_tacab_attack_animation"
+         file = "ROM_light_tank_artillery_tacab_attack.anim"
+      }
+      animation = { # "ROM_light_tank_artillery_tacab_idle_animation"
+         name = "ROM_light_tank_artillery_tacab_idle_animation"
+         file = "ROM_light_tank_artillery_tacab_idle.anim"
+      }
+      animation = { # "ROM_light_tank_artillery_tacab_moving_animation"
+         name = "ROM_light_tank_artillery_tacab_moving_animation"
+         file = "ROM_light_tank_artillery_tacab_moving.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# ROM End
+##)# DOD End
+
+	
+
+

@@ -1,0 +1,31 @@
+
+animation = {
+	name = "geo_sdkfz250_attack_animation"
+	file = "geo_sdkfz250_attack.anim"
+}
+animation = {
+	name = "geo_sdkfz250_idle_animation"
+	file = "geo_sdkfz250_idle.anim"
+}
+animation = {
+	name = "geo_sdkfz250_move_animation"
+	file = "geo_sdkfz250_move.anim"
+}
+
+animation = {
+	name = "geo_krupp_protze_idle_animation"
+	file = "geo_krupp_protze_idle.anim"
+}
+animation = {
+	name = "geo_krupp_protze_move_animation"
+	file = "geo_krupp_protze_move.anim"
+}
+
+animation = {
+	name = "geo_ford_g917t_idle_animation"
+	file = "geo_ford_g917t_idle.anim"
+}
+animation = {
+	name = "geo_ford_g917t_move_animation"
+	file = "geo_ford_g917t_move.anim"
+}

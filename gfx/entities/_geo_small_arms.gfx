@@ -1,0 +1,143 @@
+
+objectTypes = {
+
+###M30
+
+	pdxmesh = {
+		name = "geo_m30_mesh"
+		file = "gfx/models/units/small_arms/geo_m30.mesh"
+	}
+
+###ZB26
+
+	pdxmesh = {
+		name = "geo_zb26_mesh"
+		file = "gfx/models/units/small_arms/geo_zb26.mesh"
+	}
+
+###ZB26
+
+	pdxmesh = {
+		name = "geo_brengun_mesh"
+		file = "gfx/models/units/small_arms/geo_brengun.mesh"
+	}
+
+###DP28
+
+	pdxmesh = {
+		name = "geo_dp28_mesh"
+		file = "gfx/models/units/small_arms/geo_dp28.mesh"
+	}
+
+###mg30 31M
+
+	pdxmesh = {
+		name = "geo_31m_mesh"
+		file = "gfx/models/units/small_arms/geo_31m.mesh"
+	}
+
+###mg34
+
+	pdxmesh = {
+		name = "geo_mg34_mesh"
+		file = "gfx/models/units/small_arms/geo_mg34.mesh"
+	}
+
+###mg42
+
+	pdxmesh = {
+		name = "geo_mg42_mesh"
+		file = "gfx/models/units/small_arms/geo_mg42.mesh"
+	}
+
+###m1928
+
+	pdxmesh = {
+		name = "geo_m1928_mesh"
+		file = "gfx/models/units/small_arms/geo_m1928.mesh"
+	}
+
+###wz1928
+
+	pdxmesh = {
+		name = "geo_wz1928_mesh"
+		file = "gfx/models/units/small_arms/geo_wz1928.mesh"
+	}
+
+###mle1924
+
+	pdxmesh = {
+		name = "geo_mle1924_mesh"
+		file = "gfx/models/units/small_arms/geo_mle1924.mesh"
+	}
+
+###11年式　
+
+	pdxmesh = {
+		name = "geo_type11_mesh"
+		file = "gfx/models/units/small_arms/geo_type11.mesh"
+	}
+
+###96式
+
+	pdxmesh = {
+		name = "geo_type96_mesh"
+		file = "gfx/models/units/small_arms/geo_type96.mesh"
+	}
+
+###Vz52
+	pdxmesh = {
+		name = "geo_vz52_mesh"
+		file = "gfx/models/units/small_arms/geo_vz52.mesh"
+	}
+
+###Vz58
+	pdxmesh = {
+		name = "geo_vz58_mesh"
+		file = "gfx/models/units/small_arms/geo_vz58.mesh"
+	}
+
+###Vz26
+	pdxmesh = {
+		name = "geo_vz26_mesh"
+		file = "gfx/models/units/small_arms/geo_vz26.mesh"
+	}
+
+###Ag M/42
+	pdxmesh = {
+		name = "geo_Ag_m42_mesh"
+		file = "gfx/models/units/small_arms/geo_Ag_m42.mesh"
+	}
+
+###38式歩兵銃
+	pdxmesh = {
+		name = "geo_type38_mesh"
+		file = "gfx/models/units/small_arms/geo_type38.mesh"
+	}
+
+###SKS
+	pdxmesh = {
+		name = "geo_sks_mesh"
+		file = "gfx/models/units/small_arms/geo_sks.mesh"
+	}
+	pdxmesh = {
+		name = "geo_sks_type56_mesh"
+		file = "gfx/models/units/small_arms/geo_sks_type56.mesh"
+	}
+
+###WZ39
+	pdxmesh = {
+		name = "geo_wz39_mesh"
+		file = "gfx/models/units/small_arms/geo_wz39.mesh"
+	}
+###WZ43
+	pdxmesh = {
+		name = "geo_wz43_mesh"
+		file = "gfx/models/units/small_arms/geo_wz43.mesh"
+	}
+###FAL
+	pdxmesh = {
+		name = "geo_FAL_mesh"
+		file = "gfx/models/units/small_arms/geo_fal_wood.mesh"
+	}
+}

@@ -1,0 +1,48 @@
+##(# Main Start
+ #(# USA Start
+  #(# light
+   #(# tank
+      animation = { # "USA_light_tank_m3a3stuart_attack_animation"
+         name = "USA_light_tank_m3a3stuart_attack_animation"
+         file = "USA_light_tank_m3a3stuart_attack.anim"
+      }
+      animation = { # "USA_light_tank_m3a3stuart_idle_animation"
+         name = "USA_light_tank_m3a3stuart_idle_animation"
+         file = "USA_light_tank_m3a3stuart_idle.anim"
+      }
+      animation = { # "USA_light_tank_m3a3stuart_moving_animation"
+         name = "USA_light_tank_m3a3stuart_moving_animation"
+         file = "USA_light_tank_m3a3stuart_moving.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "USA_medium_tank_m1_attack_animation"
+         name = "USA_medium_tank_m1_attack_animation"
+         file = "USA_medium_tank_m1_attack.anim"
+      }
+      animation = { # "USA_medium_tank_m1_idle_animation"
+         name = "USA_medium_tank_m1_idle_animation"
+         file = "USA_medium_tank_m1_idle.anim"
+      }
+      animation = { # "USA_medium_tank_m1_moving_animation"
+         name = "USA_medium_tank_m1_moving_animation"
+         file = "USA_medium_tank_m1_moving.anim"
+      }
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# USA End
+##)# Main End
+
+	
+
+

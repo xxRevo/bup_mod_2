@@ -1,0 +1,40 @@
+
+animation = {
+	name = "geo_fiat626_idle_animation"
+	file = "geo_fiat626_idle.anim"
+}
+
+animation = {
+	name = "geo_fiat626_move_animation"
+	file = "geo_fiat626_move.anim"
+}
+
+animation = {
+	name = "geo_cvp5_idle_animation"
+	file = "geo_cvp5_idle.anim"
+}
+
+animation = {
+	name = "geo_cvp5_move_animation"
+	file = "geo_cvp5_move.anim"
+}
+
+animation = {
+	name = "geo_as37_idle_animation"
+	file = "geo_as37_idle.anim"
+}
+
+animation = {
+	name = "geo_as37_move_animation"
+	file = "geo_as37_move.anim"
+}
+
+animation = {
+	name = "geo_spa35_idle_animation"
+	file = "geo_spa35_idle.anim"
+}
+
+animation = {
+	name = "geo_spa35_move_animation"
+	file = "geo_spa35_move.anim"
+}

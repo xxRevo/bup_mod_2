@@ -1,0 +1,103 @@
+##(# Main Start
+ #(# GEN Start
+  #(# light
+   #(# amphibious
+    #ENG_amphibious_mechanized_terrapin
+   
+   #)#
+   #(# tank
+      
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+      
+   #)#
+   #(# aa
+      
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      
+   #)#
+   #(# artillery
+      
+   #)#
+   #(# destroyer
+      
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+    animation = { # "GEN_heavy_tank_40tp_idle_animation"
+        name = "GEN_heavy_tank_40tp_idle_animation"
+        file = "GEN_heavy_tank_40tp_idle.anim"
+    }
+    animation = { # "GEN_heavy_tank_40tp_moving_animation"
+        name = "GEN_heavy_tank_40tp_moving_animation"
+        file = "GEN_heavy_tank_40tp_moving.anim"
+    }
+    animation = { # "GEN_heavy_tank_40tp_attack_animation"
+        name = "GEN_heavy_tank_40tp_attack_animation"
+        file = "GEN_heavy_tank_40tp_attack.anim"
+    }
+    animation = { # "GEN_heavy_tank_amx45_idle_animation"
+        name = "GEN_heavy_tank_amx45_idle_animation"
+        file = "GEN_heavy_tank_amx45_idle.anim"
+    }
+    animation = { # "GEN_heavy_tank_amx45_moving_animation"
+        name = "GEN_heavy_tank_amx45_moving_animation"
+        file = "GEN_heavy_tank_amx45_moving.anim"
+    }
+    animation = { # "GEN_heavy_tank_amx45_attack_animation"
+        name = "GEN_heavy_tank_amx45_attack_animation"
+        file = "GEN_heavy_tank_amx45_attack.anim"
+    }
+   #)#
+   #(# artillery
+      
+   #)#
+   #(# destroyer
+      
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+    animation = { # "GEN_superheavy_tank_e100_idle_animation"
+        name = "GEN_superheavy_tank_e100_idle_animation"
+        file = "GEN_superheavy_tank_e100_idle.anim"
+    }
+    animation = { # "GEN_superheavy_tank_e100_moving_animation"
+        name = "GEN_superheavy_tank_e100_moving_animation"
+        file = "GEN_superheavy_tank_e100_moving.anim"
+    }
+    animation = { # "GEN_superheavy_tank_e100_attack_animation"
+        name = "GEN_superheavy_tank_e100_attack_animation"
+        file = "GEN_superheavy_tank_e100_attack.anim"
+    }
+    animation = { # "GEN_modern_tank_tvpt50_idle_animation"
+        name = "GEN_modern_tank_tvpt50_idle_animation"
+        file = "GEN_modern_tank_tvpt50_idle.anim"
+    }
+    animation = { # "GEN_modern_tank_tvpt50_moving_animation"
+        name = "GEN_modern_tank_tvpt50_moving_animation"
+        file = "GEN_modern_tank_tvpt50_moving.anim"
+    }
+    animation = { # "GEN_modern_tank_tvpt50_attack_animation"
+        name = "GEN_modern_tank_tvpt50_attack_animation"
+        file = "GEN_modern_tank_tvpt50_attack.anim"
+    }
+   #)#
+  #)#
+ #)# GEN End
+##)# Main End
+
+	
+
+

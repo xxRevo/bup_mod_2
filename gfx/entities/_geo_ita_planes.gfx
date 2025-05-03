@@ -1,0 +1,13 @@
+
+#######################イタリア#######################
+
+######################戦術爆撃機######################
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "Geo_JP_BR20_mesh"
+		file = "gfx/models/units/planes/geo_ita_br20.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+}

@@ -1,0 +1,1563 @@
+
+objectTypes = {
+
+##フレーム
+
+	pdxmesh = {
+		name = "geo_motorized_frame_mesh"
+		file = "gfx/models/units/vehicles/motorized_frame.mesh"
+		
+		animation = { id = "idle"			type = "motorized_frame_idle_animation" }
+		animation = { id = "move"			type = "motorized_frame_move_animation" }
+		animation = { id = "attack"			type = "geo_motorized_frame_attack_animation" }
+	}
+
+##汎用車両
+
+	pdxmesh = {
+		name = "geo_m1151_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_generic.mesh"
+		
+		animation = { id = "idle"			type = "geo_m1151_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m1151_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_desert_generic.mesh"
+		
+		animation = { id = "idle"			type = "geo_m1151_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_move_animation" }
+	}
+	pdxmesh = {
+		name = "UKR_m1151_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151.mesh"
+		
+		animation = { id = "idle"			type = "geo_m1151_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_GRE_m1151_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_nt.mesh"
+		
+		animation = { id = "idle"			type = "geo_m1151_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_m1151_new_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_new.mesh"
+
+		animation = { id = "idle"			type = "geo_m1151_new_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_new_move_animation" }
+		animation = { id = "attack"			type = "geo_m1151_attack_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_m1151_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_new.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m1151_new_diffuse_desert.dds"
+			texture_normal = "geo_m1151_new_normal.dds"
+			texture_specular = "geo_m1151_new_specular.dds"
+		}
+
+		animation = { id = "idle"			type = "geo_m1151_new_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_new_move_animation" }
+		animation = { id = "attack"			type = "geo_m1151_attack_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_m1151_GEO_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_new.mesh"
+			meshsettings = {
+			texture_diffuse = "geo_m1151_GEO_diffuse.dds"
+			texture_normal = "geo_m1151_new_normal.dds"
+			texture_specular = "geo_m1151_new_specular.dds"
+		}
+	
+		animation = { id = "idle"			type = "geo_m1151_new_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_new_move_animation" }
+		animation = { id = "attack"			type = "geo_m1151_attack_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_m1151_SWE_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_new.mesh"
+			meshsettings = {
+			texture_diffuse = "geo_m1151_SWE_diffuse.dds"
+			texture_normal = "geo_m1151_new_normal.dds"
+			texture_specular = "geo_m1151_new_specular.dds"
+		}
+	
+		animation = { id = "idle"			type = "geo_m1151_new_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_new_move_animation" }
+		animation = { id = "attack"			type = "geo_m1151_attack_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_m1151_UKR_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_new.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m1151_UKR_diffuse.dds"
+			texture_normal = "geo_m1151_new_normal.dds"
+			texture_specular = "geo_m1151_new_specular.dds"
+		}
+
+		animation = { id = "idle"			type = "geo_m1151_new_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_new_move_animation" }
+		animation = { id = "attack"			type = "geo_m1151_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m1151_UKR_SF_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_new.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m1151_UKR_SF_diffuse.dds"
+			texture_normal = "geo_m1151_new_normal.dds"
+			texture_specular = "geo_m1151_new_specular.dds"
+		}
+
+		animation = { id = "idle"			type = "geo_m1151_new_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_new_move_animation" }
+		animation = { id = "attack"			type = "geo_m1151_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m1151_SIA_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_new.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m1151_SIA_diffuse.dds"
+			texture_normal = "geo_m1151_new_normal.dds"
+			texture_specular = "geo_m1151_new_specular.dds"
+		}
+
+		animation = { id = "idle"			type = "geo_m1151_new_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_new_move_animation" }
+		animation = { id = "attack"			type = "geo_m1151_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m1151_AFG_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_new.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m1151_AFG_diffuse.dds"
+			texture_normal = "geo_m1151_new_normal.dds"
+			texture_specular = "geo_m1151_new_specular.dds"
+		}
+
+		animation = { id = "idle"			type = "geo_m1151_new_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_new_move_animation" }
+		animation = { id = "attack"			type = "geo_m1151_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m1151_AFG_Border_Police_mesh"
+		file = "gfx/models/units/vehicles/geo_m1151_new.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m1151_AFG_Border_Police_diffuse.dds"
+			texture_normal = "geo_m1151_new_normal.dds"
+			texture_specular = "geo_m1151_new_specular.dds"
+		}
+
+		animation = { id = "idle"			type = "geo_m1151_new_idle_animation" }
+		animation = { id = "move"			type = "geo_m1151_new_move_animation" }
+		animation = { id = "attack"			type = "geo_m1151_attack_animation" }
+	}
+
+	##コザック２
+	pdxmesh = {
+		name = "geo_kozak2_UKR_mesh"
+		file = "gfx/models/units/vehicles/geo_kozak2.mesh"
+		
+		animation = { id = "idle"			type = "geo_kozak2_idle_animation" }
+		animation = { id = "move"			type = "geo_kozak2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_kipri_mesh"
+		file = "gfx/models/units/vehicles/geo_kipri.mesh"
+		
+		animation = { id = "attack"			type = "geo_kipri_attack_animation" }		
+		animation = { id = "idle"			type = "geo_kipri_idle_animation" }
+		animation = { id = "move"			type = "geo_kipri_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_kipri_TUR_mesh"
+		file = "gfx/models/units/vehicles/geo_kipri.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_kipri_TUR_diffuse.dds"
+			texture_normal = "geo_kipri_normal.dds"
+			texture_specular = "geo_kipri_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_kipri_attack_animation" }		
+		animation = { id = "idle"			type = "geo_kipri_idle_animation" }
+		animation = { id = "move"			type = "geo_kipri_move_animation" }
+	}
+
+
+##装甲兵員輸送車
+
+##m113a1
+
+	pdxmesh = {
+		name = "geo_m113a1_mesh"
+		file = "gfx/models/units/vehicles/geo_m113.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113_diffuse.dds"
+			texture_normal = "geo_m113_normal.dds"
+			texture_specular = "geo_m113_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_AFG_m113a1_mesh"
+		file = "gfx/models/units/vehicles/geo_m113.mesh"
+		
+		animation = { id = "attack"			type = "geo_m113_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m113a1_AFG_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a1.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113a1_with_turret_AFG_diffuse.dds"
+			texture_normal = "geo_m113a1_with_turret_normal.dds"
+			texture_specular = "geo_m113a1_with_turret_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_with_turret_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_with_turret_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_with_turret_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m113a1_BRA_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a1.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113a1_BRA_diffuse.dds"
+			texture_normal = "geo_m113a1_with_turret_normal.dds"
+			texture_specular = "geo_m113a1_with_turret_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_with_turret_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_with_turret_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_with_turret_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m113a1_LBA_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a1.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113a1_LBA_diffuse.dds"
+			texture_normal = "geo_m113a1_with_turret_normal.dds"
+			texture_specular = "geo_m113a1_with_turret_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_with_turret_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_with_turret_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_with_turret_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m113a1_SPR_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a1.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113a1_SPR_diffuse.dds"
+			texture_normal = "geo_m113a1_with_turret_normal.dds"
+			texture_specular = "geo_m113a1_with_turret_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_with_turret_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_with_turret_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_with_turret_move_animation" }
+	}
+
+##m113a1サイドスカート有
+	pdxmesh = {
+		name = "geo_m113a1_ws_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a1_ws.mesh"
+		
+		animation = { id = "attack"			type = "geo_m113_with_turret_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_with_turret_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_with_turret_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_m113a1_ws_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a1_ws.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113a1_with_turret_diffuse_desert.dds"
+			texture_normal = "geo_m113a1_with_turret_normal.dds"
+			texture_specular = "geo_m113a1_with_turret_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_with_turret_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_with_turret_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_with_turret_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m113a1_ws_TUN_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a1_ws.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113a1_with_turret_TUN_diffuse.dds"
+			texture_normal = "geo_m113a1_with_turret_normal.dds"
+			texture_specular = "geo_m113a1_with_turret_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_with_turret_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_with_turret_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_with_turret_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m113a1_ws_VIE_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a1_ws.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113a1_with_turret_VIE_diffuse.dds"
+			texture_normal = "geo_m113a1_with_turret_normal.dds"
+			texture_specular = "geo_m113a1_with_turret_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_with_turret_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_with_turret_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_with_turret_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m113a1_ws_PAK_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a1_ws.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113a1_with_turret_PAK_diffuse.dds"
+			texture_normal = "geo_m113a1_with_turret_normal.dds"
+			texture_specular = "geo_m113a1_with_turret_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_with_turret_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_with_turret_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_with_turret_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_GRE_m113a1_mesh"
+		file = "gfx/models/units/vehicles/geo_m113_ws.mesh"
+		
+		animation = { id = "attack"			type = "geo_m113_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_move_animation" }
+	}
+
+##m113a3サイドスカート有
+
+	pdxmesh = {
+		name = "geo_m113a3_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a3_ws.mesh"
+		
+		animation = { id = "attack"			type = "geo_m113_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_m113a3_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a3_ws.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_m113a3_ws_diffuse_desert.dds"
+			texture_normal = "geo_m113a3_ws_normal.dds"
+			texture_specular = "geo_m113a3_ws_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_m113_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113_idle_animation" }
+		animation = { id = "move"			type = "geo_m113_move_animation" }
+	}
+
+##m113ウルトラ
+	pdxmesh = {
+		name = "geo_m113ultra_mesh"
+		file = "gfx/models/units/vehicles/geo_m113ultra.mesh"
+		
+		animation = { id = "attack"			type = "geo_m113ultra_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113ultra_idle_animation" }
+		animation = { id = "move"			type = "geo_m113ultra_move_animation" }
+	}
+
+##M113AS4
+	pdxmesh = {
+		name = "geo_m113as4_mesh"
+		file = "gfx/models/units/vehicles/geo_m113as4.mesh"
+		
+		animation = { id = "attack"			type = "geo_m113as4_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113as4_idle_animation" }
+		animation = { id = "move"			type = "geo_m113as4_move_animation" }
+	}
+
+##AIFV B
+
+	pdxmesh = {
+		name = "geo_aifv_b_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv_b.mesh"
+		
+		animation = { id = "attack"			type = "geo_aifv_b_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_b_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_b_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_acv15_apc_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv_b.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_acv15apc_diffuse.dds"
+			texture_normal = "geo_aifv_b_normal.dds"
+			texture_specular = "geo_aifv_b_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_aifv_b_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_b_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_b_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_BEL_aifv_b_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv_b.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_aifv_b_BEL_diffuse.dds"
+			texture_normal = "geo_aifv_b_normal.dds"
+			texture_specular = "geo_aifv_b_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_aifv_b_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_b_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_b_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_aifv_UAE_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv_UAE.mesh"
+		
+		animation = { id = "attack"			type = "geo_k200_attack_animation" }		
+		animation = { id = "idle"			type = "geo_k200_idle_animation" }
+		animation = { id = "move"			type = "geo_k200_move_animation" }
+	}
+
+##BTR4
+
+	pdxmesh = {
+		name = "geo_btr4_mesh"
+		file = "gfx/models/units/vehicles/geo_btr4.mesh"
+
+		animation = { id = "attack"			type = "geo_btr4_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr4_idle_animation" }
+		animation = { id = "move"			type = "geo_btr4_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_IRA_btr4_mesh"
+		file = "gfx/models/units/vehicles/geo_btr4.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr4_IRA_diffuse.dds"
+			texture_normal = "geo_btr4_normal.dds"
+			texture_specular = "geo_btr4_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_btr4_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr4_idle_animation" }
+		animation = { id = "move"			type = "geo_btr4_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_btr4mv_mesh"
+		file = "gfx/models/units/vehicles/geo_btr4mv.mesh"
+
+		animation = { id = "attack"			type = "geo_btr4_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr4_idle_animation" }
+		animation = { id = "move"			type = "geo_btr4_move_animation" }
+	}
+
+##歩兵戦闘車
+
+##BMP1
+	pdxmesh = {
+		name = "geo_bmp1_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }	
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp1_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1_desert.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }	
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp1_UKR_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1_UKR.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp1_AFG_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1_AFG.mesh"
+		
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp1_GRE_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1_GRE.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp1_LBA_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1_LBA.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp1_CZE_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1_CZE.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp1_VIE_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1_VIE.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp1_POL_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1_POL.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_pbv501_mesh"
+		file = "gfx/models/units/vehicles/geo_pbv501.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp1_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1_move_animation" }
+	}
+
+##BMP1U
+	pdxmesh = {
+		name = "geo_bmp1u_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1u.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp1u_CHA_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1u_CHA.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+##BMP1TS
+	pdxmesh = {
+		name = "geo_bmp1ts_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp1ts.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp1ts_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp1ts_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp1ts_move_animation" }
+	}
+
+##BMP2
+
+	pdxmesh = {
+		name = "geo_bmp2_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_bmp2_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_desert.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp2_without_sideskirt_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_without_sideskirt.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp2_without_sideskirt_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_without_sideskirt_desert.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp2_UKR_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_UKR.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp2_FIN_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_FIN.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}	
+	pdxmesh = {
+		name = "geo_bmp2_ARM_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_ARM.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp2_GEO_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_GEO.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp2_CZE_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_CZE.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp2_VIE_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_VIE.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp2_POL_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_POL.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp2_NVA_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp2_NVA.mesh"
+
+		animation = { id = "attack"			type = "geo_bmp2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_bmp2_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp2_move_animation" }
+	}
+##AIFV
+
+	pdxmesh = {
+		name = "geo_aifv_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv.mesh"
+
+		animation = { id = "attack"			type = "geo_aifv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_aifv_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_aifv_CHL_diffuse.dds"
+			texture_normal = "geo_aifv_normal.dds"
+			texture_specular = "geo_aifv_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_aifv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_acv15_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_acv15_diffuse.dds"
+			texture_normal = "geo_aifv_normal.dds"
+			texture_specular = "geo_aifv_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_aifv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_aifv_BEL_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_aifv_BEL_diffuse.dds"
+			texture_normal = "geo_aifv_normal.dds"
+			texture_specular = "geo_aifv_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_aifv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_aifv_LEB_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_aifv_LEB_diffuse.dds"
+			texture_normal = "geo_aifv_normal.dds"
+			texture_specular = "geo_aifv_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_aifv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_aifv_MAY_mesh"
+		file = "gfx/models/units/vehicles/geo_aifv.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_aifv_MAY_diffuse.dds"
+			texture_normal = "geo_aifv_normal.dds"
+			texture_specular = "geo_aifv_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_aifv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_move_animation" }
+	}
+
+##YPT765
+	pdxmesh = {
+		name = "geo_ypr765_mesh"
+		file = "gfx/models/units/vehicles/geo_ypr765.mesh"
+
+		animation = { id = "attack"			type = "geo_aifv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_aifv_idle_animation" }
+		animation = { id = "move"			type = "geo_aifv_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ypr765pri50_mesh"
+		file = "gfx/models/units/vehicles/geo_ypr765pri50.mesh"
+
+		animation = { id = "attack"			type = "geo_ypr765pri50_attack_animation" }		
+		animation = { id = "idle"			type = "geo_ypr765pri50_idle_animation" }
+		animation = { id = "move"			type = "geo_ypr765pri50_move_animation" }
+	}
+
+##BVP M80
+
+	pdxmesh = {
+		name = "geo_m80_mesh"
+		file = "gfx/models/units/vehicles/geo_m80.mesh"
+
+		animation = { id = "attack"			type = "geo_m80_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m80_idle_animation" }
+		animation = { id = "move"			type = "geo_m80_move_animation" }
+	}
+
+##ロソマク
+
+	pdxmesh = {
+		name = "geo_rosomak_mesh"
+		file = "gfx/models/units/vehicles/geo_rosomak.mesh"
+
+		animation = { id = "attack"			type = "geo_rosomak_attack_animation" }		
+		animation = { id = "idle"			type = "geo_rosomak_idle_animation" }
+		animation = { id = "move"			type = "geo_rosomak_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_rosomak_m3_mesh"
+		file = "gfx/models/units/vehicles/geo_rosomak_m3.mesh"
+
+		animation = { id = "attack"			type = "geo_rosomak_m3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_rosomak_m3_idle_animation" }
+		animation = { id = "move"			type = "geo_rosomak_move_animation" }
+	}
+
+##パトリアAMV
+	pdxmesh = {
+		name = "geo_patoria_amv_ifv_mesh"
+		file = "gfx/models/units/vehicles/geo_rosomak.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_patoria_amv_ifv_diffuse.dds"
+			texture_normal = "geo_patoria_amv_normal.dds"
+			texture_specular = "geo_patoria_amv_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_rosomak_attack_animation" }		
+		animation = { id = "idle"			type = "geo_rosomak_idle_animation" }
+		animation = { id = "move"			type = "geo_rosomak_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_patoria_amv_mesh"
+		file = "gfx/models/units/vehicles/geo_patoria_amv.mesh"
+
+		animation = { id = "attack"			type = "geo_patoria_amv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_patoria_amv_idle_animation" }
+		animation = { id = "move"			type = "geo_patoria_amv_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_patoria_amv_FIN_mesh"
+		file = "gfx/models/units/vehicles/geo_patoria_amv_FIN.mesh"
+
+		animation = { id = "attack"			type = "geo_patoria_amv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_patoria_amv_idle_animation" }
+		animation = { id = "move"			type = "geo_patoria_amv_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_patoria_amv_UAE_mesh"
+		file = "gfx/models/units/vehicles/geo_patoria_amv_UAE.mesh"
+
+		animation = { id = "attack"			type = "geo_patoria_amv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_patoria_amv_idle_animation" }
+		animation = { id = "move"			type = "geo_patoria_amv_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_patoria_amv_bmp3_UAE_mesh"
+		file = "gfx/models/units/vehicles/geo_patoria_amv_bmp3.mesh"
+
+		animation = { id = "attack_30mm"	type = "geo_amv_bmp3_attack_30mm_animation" }
+		animation = { id = "attack_100mm"	type = "geo_amv_bmp3_attack_100mm_animation" }		
+		animation = { id = "idle"			type = "geo_amv_bmp3_idle_animation" }
+		animation = { id = "move"			type = "geo_amv_bmp3_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_patoria_amv_JAP_mesh"
+		file = "gfx/models/units/vehicles/geo_patoria_amv.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_patoria_amv_JAP_diffuse.dds"
+			texture_normal = "geo_patoria_amv_normal.dds"
+			texture_specular = "geo_patoria_amv_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_patoria_amv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_patoria_amv_idle_animation" }
+		animation = { id = "move"			type = "geo_patoria_amv_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_patoria_amv_SWE_mesh"
+		file = "gfx/models/units/vehicles/geo_patoria_amv.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_patoria_amv_SWE_diffuse.dds"
+			texture_normal = "geo_patoria_amv_normal.dds"
+			texture_specular = "geo_patoria_amv_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_patoria_amv_attack_animation" }		
+		animation = { id = "idle"			type = "geo_patoria_amv_idle_animation" }
+		animation = { id = "move"			type = "geo_patoria_amv_move_animation" }
+	}
+
+##BTR70
+	pdxmesh = {
+		name = "geo_btr70_mesh"
+		file = "gfx/models/units/vehicles/geo_btr70.mesh"
+
+		animation = { id = "attack"			type = "geo_btr80_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr80_idle_animation" }
+		animation = { id = "move"			type = "geo_btr80_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_btr70_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_btr70.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr70_diffuse_desert.dds"
+			texture_normal = "geo_btr70_normal.dds"
+			texture_specular = "geo_btr70_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_btr80_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr80_idle_animation" }
+		animation = { id = "move"			type = "geo_btr80_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_btr70_UKR_mesh"
+		file = "gfx/models/units/vehicles/geo_btr70.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr70_UKR_diffuse.dds"
+			texture_normal = "geo_btr70_normal.dds"
+			texture_specular = "geo_btr70_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_btr80_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr80_idle_animation" }
+		animation = { id = "move"			type = "geo_btr80_move_animation" }
+	}
+	
+	pdxmesh = {
+		name = "geo_btr70_ARM_mesh"
+		file = "gfx/models/units/vehicles/geo_btr70.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr70_ARM_diffuse.dds"
+			texture_normal = "geo_btr70_normal.dds"
+			texture_specular = "geo_btr70_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_btr80_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr80_idle_animation" }
+		animation = { id = "move"			type = "geo_btr80_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_btr70_GEO_mesh"
+		file = "gfx/models/units/vehicles/geo_btr70.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr70_GEO_diffuse.dds"
+			texture_normal = "geo_btr70_normal.dds"
+			texture_specular = "geo_btr70_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_btr80_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr80_idle_animation" }
+		animation = { id = "move"			type = "geo_btr80_move_animation" }
+	}
+
+##BTR80
+
+	pdxmesh = {
+		name = "geo_btr80_UKR_mesh"
+		file = "gfx/models/units/vehicles/geo_btr80_UKR.mesh"
+
+		animation = { id = "attack"			type = "geo_btr80_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr80_idle_animation" }
+		animation = { id = "move"			type = "geo_btr80_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_btr80_mesh"
+		file = "gfx/models/units/vehicles/geo_btr80_UKR.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr80_diffuse.dds"
+			texture_normal = "geo_btr80_normal.dds"
+			texture_specular = "geo_btr80_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_btr80_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr80_idle_animation" }
+		animation = { id = "move"			type = "geo_btr80_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_btr80_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_btr80_UKR.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr80_diffuse_desert.dds"
+			texture_normal = "geo_btr80_normal.dds"
+			texture_specular = "geo_btr80_specular.dds"
+		}
+		
+		animation = { id = "attack"			type = "geo_btr80_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr80_idle_animation" }
+		animation = { id = "move"			type = "geo_btr80_move_animation" }
+	}
+
+##BTR80A
+
+	pdxmesh = {
+		name = "geo_btr80a_mesh"
+		file = "gfx/models/units/vehicles/geo_btr80a.mesh"
+
+		animation = { id = "attack"			type = "geo_btr80a_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr80a_idle_animation" }
+		animation = { id = "move"			type = "geo_btr80a_move_animation" }
+	}
+
+##BTR3
+
+	pdxmesh = {
+		name = "geo_btr3_mesh"
+		file = "gfx/models/units/vehicles/geo_btr3.mesh"
+
+		animation = { id = "attack"			type = "geo_btr3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr3_idle_animation" }
+		animation = { id = "move"			type = "geo_btr3_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_btr3_UKR_mesh"
+		file = "gfx/models/units/vehicles/geo_btr3.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr3_UKR_diffuse.dds"
+			texture_normal = "geo_btr3_normal.dds"
+			texture_specular = "geo_btr3_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_btr3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr3_idle_animation" }
+		animation = { id = "move"			type = "geo_btr3_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_btr3_CHA_mesh"
+		file = "gfx/models/units/vehicles/geo_btr3.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr3_CHA_diffuse.dds"
+			texture_normal = "geo_btr3_normal.dds"
+			texture_specular = "geo_btr3_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_btr3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr3_idle_animation" }
+		animation = { id = "move"			type = "geo_btr3_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_btr3_SIA_mesh"
+		file = "gfx/models/units/vehicles/geo_btr3.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_btr3_SIA_diffuse.dds"
+			texture_normal = "geo_btr3_normal.dds"
+			texture_specular = "geo_btr3_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_btr3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_btr3_idle_animation" }
+		animation = { id = "move"			type = "geo_btr3_move_animation" }
+	}
+
+##60式
+
+	pdxmesh = {
+		name = "geo_type60_mesh"
+		file = "gfx/models/units/vehicles/geo_type60.mesh"
+		
+		animation = { id = "idle"			type = "geo_type60_idle_animation" }
+		animation = { id = "move"			type = "geo_type60_move_animation" }
+	}
+
+##イヴェコLMV　非武装
+	pdxmesh = {
+		name = "geo_ivecoLMV_mesh"
+		file = "gfx/models/units/vehicles/geo_ivecoLMV.mesh"
+		
+		animation = { id = "idle"			type = "geo_ivecoLMV_idle_animation" }
+		animation = { id = "move"			type = "geo_ivecoLMV_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ivecoLMV_BRA_mesh"
+		file = "gfx/models/units/vehicles/geo_ivecoLMV.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_ivecoLMV_BRA_diffuse.dds"
+			texture_normal = "geo_ivecoLMV_normal.dds"
+			texture_specular = "geo_ivecoLMV_specular.dds"
+		}
+
+		animation = { id = "idle"			type = "geo_ivecoLMV_idle_animation" }
+		animation = { id = "move"			type = "geo_ivecoLMV_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ivecoLMV_CZE_mesh"
+		file = "gfx/models/units/vehicles/geo_ivecoLMV.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_ivecoLMV_CZE_diffuse.dds"
+			texture_normal = "geo_ivecoLMV_normal.dds"
+			texture_specular = "geo_ivecoLMV_specular.dds"
+		}
+
+		animation = { id = "idle"			type = "geo_ivecoLMV_idle_animation" }
+		animation = { id = "move"			type = "geo_ivecoLMV_move_animation" }
+	}
+
+##EE9カスカベル
+	pdxmesh = {
+		name = "geo_ee9_mesh"
+		file = "gfx/models/units/vehicles/geo_ee9.mesh"
+
+		animation = { id = "attack"			type = "geo_ee9_attack_animation" }		
+		animation = { id = "idle"			type = "geo_ee9_idle_animation" }
+		animation = { id = "move"			type = "geo_ee9_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ee9_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_ee9.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_ee9_diffuse_desert.dds"
+			texture_normal = "geo_ee9_normal.dds"
+			texture_specular = "geo_ee9_specular.dds"
+		}
+	
+		animation = { id = "attack"			type = "geo_ee9_attack_animation" }		
+		animation = { id = "idle"			type = "geo_ee9_idle_animation" }
+		animation = { id = "move"			type = "geo_ee9_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ee9_BRA_mesh"
+		file = "gfx/models/units/vehicles/geo_ee9.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_ee9_BRA_diffuse.dds"
+			texture_normal = "geo_ee9_normal.dds"
+			texture_specular = "geo_ee9_specular.dds"
+		}
+	
+		animation = { id = "attack"			type = "geo_ee9_attack_animation" }		
+		animation = { id = "idle"			type = "geo_ee9_idle_animation" }
+		animation = { id = "move"			type = "geo_ee9_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ee9_LBA_mesh"
+		file = "gfx/models/units/vehicles/geo_ee9.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_ee9_LBA_diffuse.dds"
+			texture_normal = "geo_ee9_normal.dds"
+			texture_specular = "geo_ee9_specular.dds"
+		}
+	
+		animation = { id = "attack"			type = "geo_ee9_attack_animation" }		
+		animation = { id = "idle"			type = "geo_ee9_idle_animation" }
+		animation = { id = "move"			type = "geo_ee9_move_animation" }
+	}
+
+##ランドクルーザー70
+	pdxmesh = {
+		name = "geo_land_cruiser70_mesh"
+		file = "gfx/models/units/vehicles/geo_land_cruiser70.mesh"
+		
+		animation = { id = "idle"			type = "geo_landcruiser70_idle_animation" }
+		animation = { id = "move"			type = "geo_landcruiser70_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_land_cruiser70_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_land_cruiser70.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_landcruiser70_diffuse_desert.dds"
+			texture_normal = "geo_landcruiser70_normal.dds"
+			texture_specular = "geo_landcruiser70_specular.dds"
+		}
+	
+		animation = { id = "idle"			type = "geo_landcruiser70_idle_animation" }
+		animation = { id = "move"			type = "geo_landcruiser70_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_land_cruiser70_LBA_mesh"
+		file = "gfx/models/units/vehicles/geo_land_cruiser70.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_landcruiser70_LBA_diffuse.dds"
+			texture_normal = "geo_landcruiser70_normal.dds"
+			texture_specular = "geo_landcruiser70_specular.dds"
+		}
+	
+		animation = { id = "idle"			type = "geo_landcruiser70_idle_animation" }
+		animation = { id = "move"			type = "geo_landcruiser70_move_animation" }
+	}
+
+##BMP3
+	pdxmesh = {
+		name = "geo_bmp3_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp3.mesh"
+
+		animation = { id = "attack_30mm"	type = "geo_bmp3_attack_30mm_animation" }
+		animation = { id = "attack_100mm"	type = "geo_bmp3_attack_100mm_animation" }		
+		animation = { id = "idle"			type = "geo_bmp3_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp3_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp3_desert_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp3_desert.mesh"
+
+		animation = { id = "attack_30mm"	type = "geo_bmp3_attack_30mm_animation" }
+		animation = { id = "attack_100mm"	type = "geo_bmp3_attack_100mm_animation" }		
+		animation = { id = "idle"			type = "geo_bmp3_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp3_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp3_UAE_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp3_UAE.mesh"
+
+		animation = { id = "attack_30mm"	type = "geo_bmp3_attack_30mm_animation" }
+		animation = { id = "attack_100mm"	type = "geo_bmp3_attack_100mm_animation" }		
+		animation = { id = "idle"			type = "geo_bmp3_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp3_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp3_KOR_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp3_KOR.mesh"
+
+		animation = { id = "attack_30mm"	type = "geo_bmp3_attack_30mm_animation" }
+		animation = { id = "attack_100mm"	type = "geo_bmp3_attack_100mm_animation" }		
+		animation = { id = "idle"			type = "geo_bmp3_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp3_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmp3_VIE_mesh"
+		file = "gfx/models/units/vehicles/geo_bmp3_VIE.mesh"
+
+		animation = { id = "attack_30mm"	type = "geo_bmp3_attack_30mm_animation" }
+		animation = { id = "attack_100mm"	type = "geo_bmp3_attack_100mm_animation" }		
+		animation = { id = "idle"			type = "geo_bmp3_idle_animation" }
+		animation = { id = "move"			type = "geo_bmp3_move_animation" }
+	}
+
+##ピラーニャⅢＣ
+	pdxmesh = {
+		name = "geo_piranha3c_mesh"
+		file = "gfx/models/units/vehicles/geo_pranha3c.mesh"
+
+		animation = { id = "attack"			type = "geo_piranha3c_attack_animation" }	
+		animation = { id = "idle"			type = "geo_piranha3c_idle_animation" }
+		animation = { id = "move"			type = "geo_piranha3c_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_piranha3c_ROM_mesh"
+		file = "gfx/models/units/vehicles/geo_pranha3c.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_piranha3c_ROM_diffuse.dds"
+			texture_normal = "geo_piranha3c_normal.dds"
+			texture_specular = "geo_piranha3c_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_piranha3c_attack_animation" }	
+		animation = { id = "idle"			type = "geo_piranha3c_idle_animation" }
+		animation = { id = "move"			type = "geo_piranha3c_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_piranha3c_DEN_mesh"
+		file = "gfx/models/units/vehicles/geo_pranha3c.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_piranha3c_DEN_diffuse.dds"
+			texture_normal = "geo_piranha3c_normal.dds"
+			texture_specular = "geo_piranha3c_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_piranha3c_attack_animation" }	
+		animation = { id = "idle"			type = "geo_piranha3c_idle_animation" }
+		animation = { id = "move"			type = "geo_piranha3c_move_animation" }
+	}
+
+##CV90
+	pdxmesh = {
+		name = "geo_cv9035_mesh"
+		file = "gfx/models/units/vehicles/geo_cv9035.mesh"
+
+		animation = { id = "attack"			type = "geo_cv90_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cv90_idle_animation" }
+		animation = { id = "move"			type = "geo_cv90_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_cv9035_SWE_mesh"
+		file = "gfx/models/units/vehicles/geo_cv9035_SWE.mesh"
+
+		animation = { id = "attack"			type = "geo_cv90_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cv90_idle_animation" }
+		animation = { id = "move"			type = "geo_cv90_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_cv9035_DEN_mesh"
+		file = "gfx/models/units/vehicles/geo_cv9035_DEN.mesh"
+
+		animation = { id = "attack"			type = "geo_cv90_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cv90_idle_animation" }
+		animation = { id = "move"			type = "geo_cv90_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_cv9030_mk1_mesh"
+		file = "gfx/models/units/vehicles/geo_cv9030mk1.mesh"
+
+		animation = { id = "attack"			type = "geo_cv90_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cv90_idle_animation" }
+		animation = { id = "move"			type = "geo_cv90_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_cv9030_mk2_mesh"
+		file = "gfx/models/units/vehicles/geo_cv9030mk2.mesh"
+
+		animation = { id = "attack"			type = "geo_cv90_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cv90_idle_animation" }
+		animation = { id = "move"			type = "geo_cv90_move_animation" }
+	}
+		pdxmesh = {
+		name = "geo_cv9030_mk2_FIN_mesh"
+		file = "gfx/models/units/vehicles/geo_cv9030mk2_FIN.mesh"
+
+		animation = { id = "attack"			type = "geo_cv90_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cv90_idle_animation" }
+		animation = { id = "move"			type = "geo_cv90_move_animation" }
+	}
+		pdxmesh = {
+		name = "geo_cv9030_mk2_CZE_mesh"
+		file = "gfx/models/units/vehicles/geo_cv9030mk2_CZE.mesh"
+
+		animation = { id = "attack"			type = "geo_cv90_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cv90_idle_animation" }
+		animation = { id = "move"			type = "geo_cv90_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_cv9040c_SWE_mesh"
+		file = "gfx/models/units/vehicles/geo_cv9040c.mesh"
+
+		animation = { id = "attack"			type = "geo_cv90_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cv90_idle_animation" }
+		animation = { id = "move"			type = "geo_cv90_move_animation" }
+	}
+##BMR
+		pdxmesh = {
+		name = "geo_bmr_mesh"
+		file = "gfx/models/units/vehicles/geo_bmr.mesh"
+
+		animation = { id = "attack"			type = "geo_bmr_attack_animation" }	
+		animation = { id = "idle"			type = "geo_bmr_idle_animation" }
+		animation = { id = "move"			type = "geo_bmr_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_bmr_SAU_mesh"
+		file = "gfx/models/units/vehicles/geo_bmr.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_bmr_SAU_diffuse.dds"
+			texture_normal = "geo_bmr_normal.dds"
+			texture_specular = "geo_bmr_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_bmr_attack_animation" }	
+		animation = { id = "idle"			type = "geo_bmr_idle_animation" }
+		animation = { id = "move"			type = "geo_bmr_move_animation" }
+	}
+
+##ASCOD
+		pdxmesh = {
+		name = "geo_ascod_mesh"
+		file = "gfx/models/units/vehicles/geo_ascod.mesh"
+
+		animation = { id = "attack"			type = "geo_uran_attack_animation" }	
+		animation = { id = "idle"			type = "geo_uran_idle_animation" }
+		animation = { id = "move"			type = "geo_uran_move_animation" }
+	}
+		pdxmesh = {
+		name = "geo_ascod_uran_mesh"
+		file = "gfx/models/units/vehicles/geo_ascod_uran.mesh"
+
+		animation = { id = "attack"			type = "geo_uran_attack_animation" }	
+		animation = { id = "idle"			type = "geo_uran_idle_animation" }
+		animation = { id = "move"			type = "geo_uran_move_animation" }
+	}
+		pdxmesh = {
+		name = "geo_ascod_pizzaro_mesh"
+		file = "gfx/models/units/vehicles/geo_ascod_pizzaro.mesh"
+
+		animation = { id = "attack"			type = "geo_uran_attack_animation" }	
+		animation = { id = "idle"			type = "geo_uran_idle_animation" }
+		animation = { id = "move"			type = "geo_uran_move_animation" }
+	}
+
+##VAMTAC
+		pdxmesh = {
+		name = "geo_vamtac_mesh"
+		file = "gfx/models/units/vehicles/geo_vamtac.mesh"
+
+		animation = { id = "attack"			type = "geo_vamtac_attack_animation" }	
+		animation = { id = "idle"			type = "geo_vamtac_idle_animation" }
+		animation = { id = "move"			type = "geo_vamtac_move_animation" }
+	}
+
+##VEC
+		pdxmesh = {
+		name = "geo_vec_mesh"
+		file = "gfx/models/units/vehicles/geo_vec.mesh"
+
+		animation = { id = "attack"			type = "geo_vec_attack_animation" }	
+		animation = { id = "idle"			type = "geo_vec_idle_animation" }
+		animation = { id = "move"			type = "geo_vec_move_animation" }
+	}
+		pdxmesh = {
+		name = "geo_vec_GUY_mesh"
+		file = "gfx/models/units/vehicles/geo_vec.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_vec_GUY_diffuse.dds"
+			texture_normal = "geo_vec_normal.dds"
+			texture_specular = "geo_vec_specular.dds"
+		}
+
+		animation = { id = "attack"			type = "geo_vec_attack_animation" }	
+		animation = { id = "idle"			type = "geo_vec_idle_animation" }
+		animation = { id = "move"			type = "geo_vec_move_animation" }
+	}
+##HMV
+		pdxmesh = {
+		name = "geo_HMV_mesh"
+		file = "gfx/models/units/vehicles/geo_hmv.mesh"
+
+		animation = { id = "idle"			type = "geo_hmv_idle_animation" }
+		animation = { id = "move"			type = "geo_hmv_move_animation" }
+	}
+
+##Type96WAPC
+
+##VT323
+		pdxmesh = {
+		name = "geo_vt323_mesh"
+		file = "gfx/models/units/vehicles/geo_vt323.mesh"
+
+		animation = { id = "attack"			type = "geo_vt323_attack_animation" }	
+		animation = { id = "idle"			type = "geo_vt323_idle_animation" }
+		animation = { id = "move"			type = "geo_vt323_move_animation" }
+	}
+
+##CM32 series
+		pdxmesh = {
+		name = "geo_cm32_mesh"
+		file = "gfx/models/units/vehicles/geo_cm32.mesh"
+
+		animation = { id = "attack"			type = "geo_cm32_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cm32_idle_animation" }
+		animation = { id = "move"			type = "geo_cm32_move_animation" }
+	}
+		pdxmesh = {
+		name = "geo_cm34_mesh"
+		file = "gfx/models/units/vehicles/geo_cm34.mesh"
+
+		animation = { id = "attack"			type = "geo_cm34_attack_animation" }	
+		animation = { id = "idle"			type = "geo_cm34_idle_animation" }
+		animation = { id = "move"			type = "geo_cm34_move_animation" }
+	}
+
+##K200
+	pdxmesh = {
+		name = "geo_k200_mesh"
+		file = "gfx/models/units/vehicles/geo_k200.mesh"
+		
+		animation = { id = "attack"			type = "geo_k200_attack_animation" }		
+		animation = { id = "idle"			type = "geo_k200_idle_animation" }
+		animation = { id = "move"			type = "geo_k200_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_k200_MAL_mesh"
+		file = "gfx/models/units/vehicles/geo_k200_MAL.mesh"
+		
+		animation = { id = "attack"			type = "geo_k200_attack_animation" }		
+		animation = { id = "idle"			type = "geo_k200_idle_animation" }
+		animation = { id = "move"			type = "geo_k200_move_animation" }
+	}
+
+##ブラッドレー
+	pdxmesh = {
+		name = "geo_m2a1_bradley_mesh"
+		file = "gfx/models/units/vehicles/geo_m2a1_bradley.mesh"
+		
+		animation = { id = "attack"			type = "geo_m2_bradley_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m2_bradley_idle_animation" }
+		animation = { id = "move"			type = "geo_m2_bradley_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m2a2_bradley_mesh"
+		file = "gfx/models/units/vehicles/geo_m2a2_bradley.mesh"
+		
+		animation = { id = "attack"			type = "geo_m2_bradley_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m2_bradley_idle_animation" }
+		animation = { id = "move"			type = "geo_m2_bradley_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m2a2_bradley_UKR_mesh"
+		file = "gfx/models/units/vehicles/geo_m2a2_bradley_UKR.mesh"
+		
+		animation = { id = "attack"			type = "geo_m2_bradley_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m2_bradley_idle_animation" }
+		animation = { id = "move"			type = "geo_m2_bradley_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m2a2_bradley_47MB_mesh"
+		file = "gfx/models/units/vehicles/geo_m2a2_bradley_47MB.mesh"
+		
+		animation = { id = "attack"			type = "geo_m2_bradley_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m2_bradley_idle_animation" }
+		animation = { id = "move"			type = "geo_m2_bradley_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m2a2_bradley_SAU_mesh"
+		file = "gfx/models/units/vehicles/geo_m2a2_bradley_SAU.mesh"
+		
+		animation = { id = "attack"			type = "geo_m2_bradley_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m2_bradley_idle_animation" }
+		animation = { id = "move"			type = "geo_m2_bradley_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m2a2_era_bradley_mesh"
+		file = "gfx/models/units/vehicles/geo_m2a2_era_bradley.mesh"
+		
+		animation = { id = "attack"			type = "geo_m2_bradley_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m2_bradley_idle_animation" }
+		animation = { id = "move"			type = "geo_m2_bradley_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m2a2_era_bradley_UKR_mesh"
+		file = "gfx/models/units/vehicles/geo_m2a2_era_bradley_UKR.mesh"
+		
+		animation = { id = "attack"			type = "geo_m2_bradley_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m2_bradley_idle_animation" }
+		animation = { id = "move"			type = "geo_m2_bradley_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m2a2_era_bradley_47MB_mesh"
+		file = "gfx/models/units/vehicles/geo_m2a2_era_bradley_47MB.mesh"
+		
+		animation = { id = "attack"			type = "geo_m2_bradley_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m2_bradley_idle_animation" }
+		animation = { id = "move"			type = "geo_m2_bradley_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m2a2_era_bradley_SAU_mesh"
+		file = "gfx/models/units/vehicles/geo_m2a2_era_bradley_SAU.mesh"
+		
+		animation = { id = "attack"			type = "geo_m2_bradley_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m2_bradley_idle_animation" }
+		animation = { id = "move"			type = "geo_m2_bradley_move_animation" }
+	}
+##WZ551
+	pdxmesh = {
+		name = "geo_wz551_mesh"
+		file = "gfx/models/units/vehicles/geo_wz551.mesh"
+		
+		animation = { id = "attack"			type = "geo_wz551_attack_animation" }		
+		animation = { id = "idle"			type = "geo_wz551_idle_animation" }
+		animation = { id = "move"			type = "geo_wz551_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_wz551_CHI_mesh"
+		file = "gfx/models/units/vehicles/geo_wz551_CHI.mesh"
+		
+		animation = { id = "attack"			type = "geo_wz551_attack_animation" }		
+		animation = { id = "idle"			type = "geo_wz551_idle_animation" }
+		animation = { id = "move"			type = "geo_wz551_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_zsl92b_mesh"
+		file = "gfx/models/units/vehicles/geo_zsl92b.mesh"
+		
+		animation = { id = "attack"			type = "geo_zsl92b_attack_animation" }		
+		animation = { id = "idle"			type = "geo_zsl92b_idle_animation" }
+		animation = { id = "move"			type = "geo_zsl92b_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_zsl92b_CHI_mesh"
+		file = "gfx/models/units/vehicles/geo_zsl92b_CHI.mesh"
+		
+		animation = { id = "attack"			type = "geo_zsl92b_attack_animation" }		
+		animation = { id = "idle"			type = "geo_zsl92b_idle_animation" }
+		animation = { id = "move"			type = "geo_zsl92b_move_animation" }
+	}
+}

@@ -1,0 +1,38 @@
+ #(# Finland Start
+	FIN = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_t26obr1933_FIN_entity
+					geo_vickers6t_FIN_entity
+				}
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_panzer4_j_FIN_entity
+					geo_panzer4_g_FIN_entity
+					geo_t3485_FIN_entity
+					geo_t3476obr1943_FIN_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium Tank End
+	}
+ #)# Finland End

@@ -1,0 +1,2252 @@
+spriteTypes = {
+# 1 DLC # 2 Country # 4 Subcategory
+##(# XXX Content Start
+ #(# XXX Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      
+    #)#
+    #(# gallery
+      
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      
+   #)#
+   #(# anti-tank
+
+   #)#
+   #(# aa
+      
+   #)#
+   #(# rocket
+      
+   #)#
+   #(# missile
+      
+   #)#
+  #)#
+ #)# XXX End
+##)# XXX Content End
+
+##(# Generic Content Start
+ #(# Generic Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GEN/infantry_weapon/GEN_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/GEN/infantry_weapon/GEN_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GEN/infantry_weapon/GEN_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GEN/infantry_weapon/GEN_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/GEN/infantry_weapon/GEN_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/GEN/infantry_weapon/GEN_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/GEN/infantry_weapon/GEN_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/GEN/support/GEN_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_Art_01.dds" }
+      SpriteType = { name = "GFX_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_Art_02.dds" }
+      SpriteType = { name = "GFX_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_AT_01.dds"}
+      SpriteType = { name = "GFX_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_AT_02.dds" }
+      SpriteType = { name = "GFX_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_AA_01.dds" }
+      SpriteType = { name = "GFX_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_AA_02.dds" }
+      SpriteType = { name = "GFX_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      SpriteType = { name = "GFX_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_guided_missile_01.dds" }
+	    SpriteType = { name = "GFX_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_guided_missile_02.dds" }
+	    SpriteType = { name = "GFX_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/GEN/artillery/GEN_guided_missile_03.dds" }
+   #)#
+  #)#
+  #(#
+  #)#
+ #)# Generic End
+##)# Generic Content End
+
+##(# Main Countries Start
+ #(# GER Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_GER_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GER/infantry_weapon/GER_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_GER_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/GER/infantry_weapon/GER_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_GER_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GER/infantry_weapon/GER_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_GER_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GER/infantry_weapon/GER_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_GER_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/GER/infantry_weapon/GER_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_GER_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/GER/infantry_weapon/GER_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_GER_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/GER/infantry_weapon/GER_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_GER_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/GER/support/GER_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_GER_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_Art_01.dds" }
+      SpriteType = { name = "GFX_GER_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_Art_02.dds" }
+      SpriteType = { name = "GFX_GER_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	   SpriteType = { name = "GFX_GER_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_AT_01.dds"}
+      SpriteType = { name = "GFX_GER_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_AT_02.dds" }
+      SpriteType = { name = "GFX_GER_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_GER_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_AA_01.dds" }
+      SpriteType = { name = "GFX_GER_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_AA_02.dds" }
+      SpriteType = { name = "GFX_GER_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_GER_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_GER_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      SpriteType = { name = "GFX_GER_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_guided_missile_01.dds" }
+	   SpriteType = { name = "GFX_GER_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_guided_missile_02.dds" }
+	   SpriteType = { name = "GFX_GER_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/GER/artillery/GER_guided_missile_03.dds" }
+   #)#
+   #(# super art spg
+      SpriteType = { name = "GFX_GER_super_heavy_artillery_equipment_medium" texturefile = "gfx/interface/technologies/infantry/GER/special/ger_210mm_mrs_18.dds" }
+      SpriteType = { name = "GFX_GER_self_propelled_super_heavy_artillery_equipment_medium" texturefile = "gfx/interface/technologies/infantry/GER/special/ger_karl.dds" }
+   #)#
+  #)#
+  #(# Special
+   #(#
+    #(#
+      SpriteType = { name = "GFX_GER_helicopter_equipment_medium" texturefile = "gfx/interface/technologies/infantry/GER/special/GER_special_helicoptor_fl282.dds" }
+    #)#
+   #)#
+  #)#
+ #)# GER End
+
+ #(# SOV Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_SOV_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_SOV_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SOV_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SOV_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_SOV_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SOV_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SOV_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_SOV_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/SOV/support/SOV_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_SOV_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_01.dds" }
+      SpriteType = { name = "GFX_SOV_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_02.dds" }
+      SpriteType = { name = "GFX_SOV_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_SOV_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_01.dds"}
+      SpriteType = { name = "GFX_SOV_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_02.dds" }
+      SpriteType = { name = "GFX_SOV_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_SOV_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_01.dds" }
+      SpriteType = { name = "GFX_SOV_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_02.dds" }
+      SpriteType = { name = "GFX_SOV_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_SOV_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_SOV_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      SpriteType = { name = "GFX_SOV_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_01.dds" }
+	    SpriteType = { name = "GFX_SOV_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_02.dds" }
+	    SpriteType = { name = "GFX_SOV_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# SOV End
+
+ #(# USA Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_USA_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/USA/infantry_weapon/USA_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_USA_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/USA/infantry_weapon/USA_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_USA_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/USA/infantry_weapon/USA_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_USA_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/USA/infantry_weapon/USA_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_USA_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/USA/infantry_weapon/USA_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_USA_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/USA/infantry_weapon/USA_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_USA_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/USA/infantry_weapon/USA_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_USA_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/USA/support/USA_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_USA_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_Art_01.dds" }
+      SpriteType = { name = "GFX_USA_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_Art_02.dds" }
+      SpriteType = { name = "GFX_USA_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_USA_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_AT_01.dds"}
+      SpriteType = { name = "GFX_USA_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_AT_02.dds" }
+      SpriteType = { name = "GFX_USA_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_USA_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_AA_01.dds" }
+      SpriteType = { name = "GFX_USA_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_AA_02.dds" }
+      SpriteType = { name = "GFX_USA_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_USA_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_USA_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      SpriteType = { name = "GFX_USA_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_guided_missile_01.dds" }
+	    SpriteType = { name = "GFX_USA_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_guided_missile_02.dds" }
+	    SpriteType = { name = "GFX_USA_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_guided_missile_03.dds" }
+   #)#
+   #(# super art spg
+      SpriteType = { name = "GFX_USA_super_heavy_artillery_equipment_medium" texturefile = "gfx/interface/technologies/infantry/USA/special/usa_8_inch_m1.dds" }
+   #)#
+  #)#
+  #(# Special
+   #(#
+    #(#
+    SpriteType = { name = "GFX_USA_helicopter_equipment_medium" texturefile = "gfx/interface/technologies/infantry/USA/special/USA_special_helicoptor_r4.dds" }
+    #)#
+   #)#
+  #)#
+ #)# USA End
+
+ #(# ENG Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_ENG_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_ENG_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_ENG_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_ENG_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_ENG_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_ENG_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_ENG_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_ENG_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ENG/support/ENG_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_ENG_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_01.dds" }
+      SpriteType = { name = "GFX_ENG_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_02.dds" }
+      SpriteType = { name = "GFX_ENG_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_ENG_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_01.dds"}
+      SpriteType = { name = "GFX_ENG_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_02.dds" }
+      SpriteType = { name = "GFX_ENG_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_ENG_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_01.dds" }
+      SpriteType = { name = "GFX_ENG_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_02.dds" }
+      SpriteType = { name = "GFX_ENG_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_ENG_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_ENG_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_ENG_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_ENG_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_ENG_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# ENG End
+
+ #(# FRA Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_FRA_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/FRA/infantry_weapon/FRA_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_FRA_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/FRA/infantry_weapon/FRA_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_FRA_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/FRA/infantry_weapon/FRA_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_FRA_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/FRA/infantry_weapon/FRA_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_FRA_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/FRA/infantry_weapon/FRA_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_FRA_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/FRA/infantry_weapon/FRA_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_FRA_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/FRA/infantry_weapon/FRA_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_FRA_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/FRA/support/FRA_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_FRA_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_Art_01.dds" }
+      SpriteType = { name = "GFX_FRA_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_Art_02.dds" }
+      SpriteType = { name = "GFX_FRA_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_FRA_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_AT_01.dds"}
+      SpriteType = { name = "GFX_FRA_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_AT_02.dds" }
+      SpriteType = { name = "GFX_FRA_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_FRA_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_AA_01.dds" }
+      SpriteType = { name = "GFX_FRA_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_AA_02.dds" }
+      SpriteType = { name = "GFX_FRA_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_FRA_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_FRA_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_FRA_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_FRA_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_FRA_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/FRA/artillery/FRA_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# FRA End
+
+ #(# ITA Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_ITA_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ITA/infantry_weapon/ITA_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_ITA_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/ITA/infantry_weapon/ITA_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_ITA_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ITA/infantry_weapon/ITA_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_ITA_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ITA/infantry_weapon/ITA_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_ITA_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/ITA/infantry_weapon/ITA_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_ITA_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/ITA/infantry_weapon/ITA_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_ITA_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/ITA/infantry_weapon/ITA_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_ITA_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ITA/support/ITA_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_ITA_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_Art_01.dds" }
+      SpriteType = { name = "GFX_ITA_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_Art_02.dds" }
+      SpriteType = { name = "GFX_ITA_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_ITA_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_AT_01.dds"}
+      SpriteType = { name = "GFX_ITA_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_AT_02.dds" }
+      SpriteType = { name = "GFX_ITA_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_ITA_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_AA_01.dds" }
+      SpriteType = { name = "GFX_ITA_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_AA_02.dds" }
+      SpriteType = { name = "GFX_ITA_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_ITA_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_ITA_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_ITA_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_ITA_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_ITA_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ITA/artillery/ITA_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# ITA End
+
+ #(# JAP Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_JAP_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_JAP_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_JAP_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_JAP_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_JAP_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_JAP_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_JAP_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_JAP_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/JAP/support/JAP_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_JAP_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Art_01.dds" }
+      SpriteType = { name = "GFX_JAP_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Art_02.dds" }
+      SpriteType = { name = "GFX_JAP_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_JAP_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AT_01.dds"}
+      SpriteType = { name = "GFX_JAP_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AT_02.dds" }
+      SpriteType = { name = "GFX_JAP_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_JAP_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AA_01.dds" }
+      SpriteType = { name = "GFX_JAP_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AA_02.dds" }
+      SpriteType = { name = "GFX_JAP_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_JAP_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_JAP_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_JAP_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_JAP_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_JAP_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# JAP End
+##)# Main Countries End
+
+##(# Polish Content Start (dlc002)
+ #(# POL Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_POL_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/POL/infantry_weapon/POL_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_POL_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/POL/infantry_weapon/POL_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_POL_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/POL/infantry_weapon/POL_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_POL_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/POL/infantry_weapon/POL_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_POL_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/POL/infantry_weapon/POL_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_POL_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/POL/infantry_weapon/POL_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_POL_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/POL/infantry_weapon/POL_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_POL_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/POL/support/POL_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_POL_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_Art_01.dds" }
+      SpriteType = { name = "GFX_POL_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_Art_02.dds" }
+      SpriteType = { name = "GFX_POL_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_POL_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_AT_01.dds"}
+      SpriteType = { name = "GFX_POL_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_AT_02.dds" }
+      SpriteType = { name = "GFX_POL_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_POL_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_AA_01.dds" }
+      SpriteType = { name = "GFX_POL_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_AA_02.dds" }
+      SpriteType = { name = "GFX_POL_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_POL_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_POL_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_POL_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_POL_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_POL_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# POL End
+##)# Poland Content End
+
+##(# Together for Victory Start (dlc018)
+ #(# AST Start (semi copy of ENG)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_AST_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/AST/infantry_weapon/AST_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_AST_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/AST/infantry_weapon/AST_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_AST_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/AST/infantry_weapon/AST_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_AST_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/AST/infantry_weapon/AST_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_AST_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/AST/infantry_weapon/AST_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_AST_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/AST/infantry_weapon/AST_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_AST_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/AST/infantry_weapon/AST_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_AST_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ENG/support/ENG_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_AST_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_01.dds" }
+      SpriteType = { name = "GFX_AST_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_02.dds" }
+      SpriteType = { name = "GFX_AST_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_AST_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_01.dds"}
+      SpriteType = { name = "GFX_AST_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_02.dds" }
+      SpriteType = { name = "GFX_AST_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_AST_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_01.dds" }
+      SpriteType = { name = "GFX_AST_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_02.dds" }
+      SpriteType = { name = "GFX_AST_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_AST_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_AST_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_AST_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_AST_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_AST_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# AST End
+
+ #(# CAN Start (semi copy of ENG)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_CAN_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CAN/infantry_weapon/CAN_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_CAN_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/CAN/infantry_weapon/CAN_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_CAN_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CAN/infantry_weapon/CAN_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_CAN_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CAN/infantry_weapon/CAN_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_CAN_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/CAN/infantry_weapon/CAN_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_CAN_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/CAN/infantry_weapon/CAN_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_CAN_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/CAN/infantry_weapon/CAN_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_CAN_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ENG/support/ENG_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_CAN_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_01.dds" }
+      SpriteType = { name = "GFX_CAN_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_02.dds" }
+      SpriteType = { name = "GFX_CAN_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_CAN_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_01.dds"}
+      SpriteType = { name = "GFX_CAN_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_02.dds" }
+      SpriteType = { name = "GFX_CAN_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_CAN_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_01.dds" }
+      SpriteType = { name = "GFX_CAN_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_02.dds" }
+      SpriteType = { name = "GFX_CAN_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_CAN_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_CAN_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_CAN_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_CAN_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_CAN_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# CAN End
+
+ #(# NZL Start (full copy of ENG)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_NZL_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_NZL_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_NZL_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_NZL_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_NZL_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_NZL_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_NZL_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_NZL_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ENG/support/ENG_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_NZL_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_01.dds" }
+      SpriteType = { name = "GFX_NZL_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_02.dds" }
+      SpriteType = { name = "GFX_NZL_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_NZL_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_01.dds"}
+      SpriteType = { name = "GFX_NZL_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_02.dds" }
+      SpriteType = { name = "GFX_NZL_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_NZL_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_01.dds" }
+      SpriteType = { name = "GFX_NZL_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_02.dds" }
+      SpriteType = { name = "GFX_NZL_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_NZL_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_NZL_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_NZL_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_NZL_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_NZL_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# NZL End
+
+ #(# RAJ Start (full copy of ENG)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_RAJ_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_RAJ_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_RAJ_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_RAJ_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_RAJ_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_RAJ_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_RAJ_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_RAJ_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ENG/support/ENG_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_RAJ_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_01.dds" }
+      SpriteType = { name = "GFX_RAJ_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_02.dds" }
+      SpriteType = { name = "GFX_RAJ_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_RAJ_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_01.dds"}
+      SpriteType = { name = "GFX_RAJ_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_02.dds" }
+      SpriteType = { name = "GFX_RAJ_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_RAJ_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_01.dds" }
+      SpriteType = { name = "GFX_RAJ_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_02.dds" }
+      SpriteType = { name = "GFX_RAJ_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_RAJ_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_RAJ_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_RAJ_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_RAJ_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_RAJ_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# RAJ End
+
+ #(# SAF Start (full copy of ENG)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_SAF_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_SAF_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SAF_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SAF_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SAF/infantry_weapon/SAF_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_SAF_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SAF_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SAF_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_SAF_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ENG/support/ENG_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_SAF_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_01.dds" }
+      SpriteType = { name = "GFX_SAF_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_02.dds" }
+      SpriteType = { name = "GFX_SAF_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_SAF_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_01.dds"}
+      SpriteType = { name = "GFX_SAF_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_02.dds" }
+      SpriteType = { name = "GFX_SAF_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_SAF_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_01.dds" }
+      SpriteType = { name = "GFX_SAF_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_02.dds" }
+      SpriteType = { name = "GFX_SAF_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_SAF_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_SAF_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_SAF_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_SAF_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_SAF_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# SAF End
+
+ #(# MAL Start (full copy of ENG)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_MAL_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_MAL_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MAL_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MAL_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_MAL_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MAL_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MAL_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/infantry_weapon/ENG_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_MAL_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ENG/support/ENG_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_MAL_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_01.dds" }
+      SpriteType = { name = "GFX_MAL_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_02.dds" }
+      SpriteType = { name = "GFX_MAL_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_MAL_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_01.dds"}
+      SpriteType = { name = "GFX_MAL_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_02.dds" }
+      SpriteType = { name = "GFX_MAL_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_MAL_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_01.dds" }
+      SpriteType = { name = "GFX_MAL_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_02.dds" }
+      SpriteType = { name = "GFX_MAL_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_MAL_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_MAL_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_MAL_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_MAL_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_MAL_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# MAL End
+##)# Together for Victory End
+
+##(# DOD Death or Dishonor Start (dlc020)
+ #(# HUN Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_HUN_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/HUN/infantry_weapon/HUN_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_HUN_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/HUN/infantry_weapon/HUN_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_HUN_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/HUN/infantry_weapon/HUN_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_HUN_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/HUN/infantry_weapon/HUN_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_HUN_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/HUN/infantry_weapon/HUN_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_HUN_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/HUN/infantry_weapon/HUN_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_HUN_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/HUN/infantry_weapon/HUN_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_HUN_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/HUN/support/HUN_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_HUN_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_Art_01.dds" }
+      SpriteType = { name = "GFX_HUN_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_Art_02.dds" }
+      SpriteType = { name = "GFX_HUN_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_HUN_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_AT_01.dds"}
+      SpriteType = { name = "GFX_HUN_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_AT_02.dds" }
+      SpriteType = { name = "GFX_HUN_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_HUN_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_AA_01.dds" }
+      SpriteType = { name = "GFX_HUN_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_AA_02.dds" }
+      SpriteType = { name = "GFX_HUN_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_HUN_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_HUN_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_HUN_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_HUN_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_HUN_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/HUN/artillery/HUN_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# HUN End
+
+ #(# CZE Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_CZE_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CZE/infantry_weapon/CZE_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_CZE_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/CZE/infantry_weapon/CZE_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_CZE_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CZE/infantry_weapon/CZE_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_CZE_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CZE/infantry_weapon/CZE_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_CZE_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/CZE/infantry_weapon/CZE_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_CZE_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/CZE/infantry_weapon/CZE_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_CZE_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/CZE/infantry_weapon/CZE_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_CZE_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/CZE/support/CZE_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_CZE_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_Art_01.dds" }
+      SpriteType = { name = "GFX_CZE_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_Art_02.dds" }
+      SpriteType = { name = "GFX_CZE_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_CZE_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_AT_01.dds"}
+      SpriteType = { name = "GFX_CZE_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_AT_02.dds" }
+      SpriteType = { name = "GFX_CZE_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_CZE_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_AA_01.dds" }
+      SpriteType = { name = "GFX_CZE_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_AA_02.dds" }
+      SpriteType = { name = "GFX_CZE_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_CZE_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_CZE_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_CZE_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_CZE_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_CZE_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/CZE/artillery/CZE_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# CZE End
+
+ #(# ROM Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_ROM_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ROM/infantry_weapon/ROM_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_ROM_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/ROM/infantry_weapon/ROM_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_ROM_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ROM/infantry_weapon/ROM_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_ROM_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ROM/infantry_weapon/ROM_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_ROM_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/ROM/infantry_weapon/ROM_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_ROM_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/ROM/infantry_weapon/ROM_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_ROM_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/ROM/infantry_weapon/ROM_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_ROM_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ROM/support/ROM_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_ROM_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_Art_01.dds" }
+      SpriteType = { name = "GFX_ROM_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_Art_02.dds" }
+      SpriteType = { name = "GFX_ROM_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_ROM_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_AT_01.dds"}
+      SpriteType = { name = "GFX_ROM_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_AT_02.dds" }
+      SpriteType = { name = "GFX_ROM_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_ROM_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_AA_01.dds" }
+      SpriteType = { name = "GFX_ROM_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_AA_02.dds" }
+      SpriteType = { name = "GFX_ROM_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_ROM_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_ROM_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_ROM_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_ROM_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_ROM_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ROM/artillery/ROM_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# ROM End
+
+ #(# YUG Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_YUG_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/YUG/infantry_weapon/YUG_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_YUG_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/YUG/infantry_weapon/YUG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_YUG_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/YUG/infantry_weapon/YUG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_YUG_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/YUG/infantry_weapon/YUG_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_YUG_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/YUG/infantry_weapon/YUG_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_YUG_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/YUG/infantry_weapon/YUG_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_YUG_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/YUG/infantry_weapon/YUG_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_YUG_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/YUG/support/YUG_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_YUG_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_Art_01.dds" }
+      SpriteType = { name = "GFX_YUG_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_Art_02.dds" }
+      SpriteType = { name = "GFX_YUG_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_YUG_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_AT_01.dds"}
+      SpriteType = { name = "GFX_YUG_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_AT_02.dds" }
+      SpriteType = { name = "GFX_YUG_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_YUG_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_AA_01.dds" }
+      SpriteType = { name = "GFX_YUG_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_AA_02.dds" }
+      SpriteType = { name = "GFX_YUG_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_YUG_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_YUG_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_YUG_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_YUG_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_YUG_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/YUG/artillery/YUG_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# YUG End
+##)# DOD Death or Dishonor End
+
+##(# WTT Waking the Tiger Start (dlc022)
+ #(# CHI Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_CHI_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_CHI_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_CHI_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_CHI_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_CHI_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_CHI_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_CHI_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_CHI_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/CHI/support/CHI_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_CHI_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_01.dds" }
+      SpriteType = { name = "GFX_CHI_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_02.dds" }
+      SpriteType = { name = "GFX_CHI_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_CHI_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_01.dds"}
+      SpriteType = { name = "GFX_CHI_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_02.dds" }
+      SpriteType = { name = "GFX_CHI_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_CHI_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_01.dds" }
+      SpriteType = { name = "GFX_CHI_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_02.dds" }
+      SpriteType = { name = "GFX_CHI_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_CHI_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_CHI_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_CHI_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_CHI_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_CHI_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# CHI End
+
+ #(# PRC Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_PRC_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/PRC/infantry_weapon/PRC_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_PRC_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/PRC/infantry_weapon/PRC_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_PRC_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/PRC/infantry_weapon/PRC_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_PRC_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/PRC/infantry_weapon/PRC_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_PRC_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/PRC/infantry_weapon/PRC_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_PRC_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/PRC/infantry_weapon/PRC_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_PRC_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/PRC/infantry_weapon/PRC_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_PRC_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/PRC/support/PRC_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_PRC_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_Art_01.dds" }
+      SpriteType = { name = "GFX_PRC_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_Art_02.dds" }
+      SpriteType = { name = "GFX_PRC_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_PRC_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_AT_01.dds"}
+      SpriteType = { name = "GFX_PRC_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_AT_02.dds" }
+      SpriteType = { name = "GFX_PRC_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_PRC_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_AA_01.dds" }
+      SpriteType = { name = "GFX_PRC_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_AA_02.dds" }
+      SpriteType = { name = "GFX_PRC_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_PRC_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_PRC_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_PRC_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_guided_missile_01.dds" }
+	    SpriteType = { name = "GFX_PRC_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_guided_missile_02.dds" }
+	    SpriteType = { name = "GFX_PRC_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/PRC/artillery/PRC_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# PRC End
+
+ #(# SHX Start (semi copy of CHI)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_SHX_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SHX/infantry_weapon/SHX_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_SHX_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/SHX/infantry_weapon/SHX_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SHX_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SHX/infantry_weapon/SHX_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SHX_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_SHX_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/SHX/infantry_weapon/SHX_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SHX_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/SHX/infantry_weapon/SHX_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SHX_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_SHX_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/CHI/support/CHI_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_SHX_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SHX/artillery/SHX_Art_01.dds" }
+      SpriteType = { name = "GFX_SHX_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/SHX/artillery/SHX_Art_02.dds" }
+      SpriteType = { name = "GFX_SHX_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SHX/artillery/SHX_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_SHX_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_01.dds"}
+      SpriteType = { name = "GFX_SHX_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_02.dds" }
+      SpriteType = { name = "GFX_SHX_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_SHX_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_01.dds" }
+      SpriteType = { name = "GFX_SHX_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_02.dds" }
+      SpriteType = { name = "GFX_SHX_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_SHX_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_SHX_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_SHX_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_SHX_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_SHX_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# SHX End
+
+ #(# GXC Start (semi copy of CHI)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_GXC_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_GXC_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/GXC/infantry_weapon/GXC_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_GXC_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GXC/infantry_weapon/GXC_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_GXC_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_GXC_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/GXC/infantry_weapon/GXC_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_GXC_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/GXC/infantry_weapon/GXC_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_GXC_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_GXC_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/CHI/support/CHI_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_GXC_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_01.dds" }
+      SpriteType = { name = "GFX_GXC_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_02.dds" }
+      SpriteType = { name = "GFX_GXC_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_GXC_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_01.dds"}
+      SpriteType = { name = "GFX_GXC_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_02.dds" }
+      SpriteType = { name = "GFX_GXC_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_GXC_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_01.dds" }
+      SpriteType = { name = "GFX_GXC_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_02.dds" }
+      SpriteType = { name = "GFX_GXC_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_GXC_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_GXC_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_GXC_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_GXC_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_GXC_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# GXC End
+
+ #(# XSM Start (full copy of CHI)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_XSM_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_XSM_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_XSM_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_XSM_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_XSM_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_XSM_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_XSM_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_XSM_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/CHI/support/CHI_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_XSM_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_01.dds" }
+      SpriteType = { name = "GFX_XSM_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_02.dds" }
+      SpriteType = { name = "GFX_XSM_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_XSM_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_01.dds"}
+      SpriteType = { name = "GFX_XSM_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_02.dds" }
+      SpriteType = { name = "GFX_XSM_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_XSM_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_01.dds" }
+      SpriteType = { name = "GFX_XSM_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_02.dds" }
+      SpriteType = { name = "GFX_XSM_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_XSM_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_XSM_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_XSM_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_XSM_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_XSM_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# XSM End
+
+ #(# YUN Start (full copy of CHI)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_YUN_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_YUN_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_YUN_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_YUN_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_YUN_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_YUN_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_YUN_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_YUN_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/CHI/support/CHI_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_YUN_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_01.dds" }
+      SpriteType = { name = "GFX_YUN_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_02.dds" }
+      SpriteType = { name = "GFX_YUN_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_YUN_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_01.dds"}
+      SpriteType = { name = "GFX_YUN_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_02.dds" }
+      SpriteType = { name = "GFX_YUN_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_YUN_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_01.dds" }
+      SpriteType = { name = "GFX_YUN_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_02.dds" }
+      SpriteType = { name = "GFX_YUN_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_YUN_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_YUN_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_YUN_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_YUN_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_YUN_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# YUN End
+
+ #(# TIB Start (full copy of CHI)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_TIB_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_TIB_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_TIB_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_TIB_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_TIB_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_TIB_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_TIB_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/infantry_weapon/CHI_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_TIB_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/CHI/support/CHI_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_TIB_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_01.dds" }
+      SpriteType = { name = "GFX_TIB_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_02.dds" }
+      SpriteType = { name = "GFX_TIB_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_TIB_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_01.dds"}
+      SpriteType = { name = "GFX_TIB_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_02.dds" }
+      SpriteType = { name = "GFX_TIB_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_TIB_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_01.dds" }
+      SpriteType = { name = "GFX_TIB_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_02.dds" }
+      SpriteType = { name = "GFX_TIB_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_TIB_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_TIB_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_TIB_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_TIB_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_TIB_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/CHI/artillery/CHI_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# TIB End
+
+ #(# SIK Start (semi copy of SOV)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_SIK_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SIK/infantry_weapon/SIK_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_SIK_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/SIK/infantry_weapon/SIK_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SIK_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SIK/infantry_weapon/SIK_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SIK_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_SIK_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/SIK/infantry_weapon/SIK_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SIK_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/SIK/infantry_weapon/SIK_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SIK_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/SIK/infantry_weapon/SIK_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_SIK_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/SOV/support/SOV_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_SIK_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_01.dds" }
+      SpriteType = { name = "GFX_SIK_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_02.dds" }
+      SpriteType = { name = "GFX_SIK_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_SIK_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_01.dds"}
+      SpriteType = { name = "GFX_SIK_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_02.dds" }
+      SpriteType = { name = "GFX_SIK_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_SIK_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_01.dds" }
+      SpriteType = { name = "GFX_SIK_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_02.dds" }
+      SpriteType = { name = "GFX_SIK_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_SIK_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_SIK_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      SpriteType = { name = "GFX_SIK_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_01.dds" }
+	    SpriteType = { name = "GFX_SIK_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_02.dds" }
+	    SpriteType = { name = "GFX_SIK_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# SIK End
+
+ #(# MON Start (full copy of SOV)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_MON_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_MON_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MON_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MON_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_MON_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MON_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MON_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_MON_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/SOV/support/SOV_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_MON_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_01.dds" }
+      SpriteType = { name = "GFX_MON_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_02.dds" }
+      SpriteType = { name = "GFX_MON_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_MON_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_01.dds"}
+      SpriteType = { name = "GFX_MON_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_02.dds" }
+      SpriteType = { name = "GFX_MON_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_MON_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_01.dds" }
+      SpriteType = { name = "GFX_MON_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_02.dds" }
+      SpriteType = { name = "GFX_MON_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_MON_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_MON_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      SpriteType = { name = "GFX_MON_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_01.dds" }
+	    SpriteType = { name = "GFX_MON_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_02.dds" }
+	    SpriteType = { name = "GFX_MON_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# MON End
+
+ #(# TAN Start (full copy of SOV)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_TAN_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_TAN_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_TAN_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_TAN_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_TAN_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_TAN_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_TAN_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/SOV/infantry_weapon/SOV_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_TAN_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/SOV/support/SOV_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_TAN_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_01.dds" }
+      SpriteType = { name = "GFX_TAN_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_02.dds" }
+      SpriteType = { name = "GFX_TAN_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_TAN_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_01.dds"}
+      SpriteType = { name = "GFX_TAN_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_02.dds" }
+      SpriteType = { name = "GFX_TAN_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_TAN_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_01.dds" }
+      SpriteType = { name = "GFX_TAN_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_02.dds" }
+      SpriteType = { name = "GFX_TAN_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_TAN_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_TAN_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      SpriteType = { name = "GFX_TAN_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_01.dds" }
+	    SpriteType = { name = "GFX_TAN_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_02.dds" }
+	    SpriteType = { name = "GFX_TAN_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# TAN End
+
+ #(# MAN Start (semi copy of JAP)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_MAN_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_MAN_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/MAN/infantry_weapon/MAN_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MAN_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MAN_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_MAN_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/MAN/infantry_weapon/MAN_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MAN_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MAN_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_MAN_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/JAP/support/JAP_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_MAN_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/MAN/artillery/MAN_Art_01.dds" }
+      SpriteType = { name = "GFX_MAN_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Art_02.dds" }
+      SpriteType = { name = "GFX_MAN_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_MAN_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AT_01.dds"}
+      SpriteType = { name = "GFX_MAN_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AT_02.dds" }
+      SpriteType = { name = "GFX_MAN_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_MAN_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AA_01.dds" }
+      SpriteType = { name = "GFX_MAN_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AA_02.dds" }
+      SpriteType = { name = "GFX_MAN_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/MAN/artillery/MAN_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_MAN_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_MAN_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_MAN_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_MAN_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_MAN_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# MAN End
+
+ #(# MEN Start (full copy of JAP)
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_MEN_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_MEN_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MEN_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MEN_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_MEN_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MEN_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MEN_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/JAP/infantry_weapon/JAP_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_MEN_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/JAP/support/JAP_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      SpriteType = { name = "GFX_MEN_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Art_01.dds" }
+      SpriteType = { name = "GFX_MEN_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Art_02.dds" }
+      SpriteType = { name = "GFX_MEN_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    SpriteType = { name = "GFX_MEN_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AT_01.dds"}
+      SpriteType = { name = "GFX_MEN_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AT_02.dds" }
+      SpriteType = { name = "GFX_MEN_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AT_03.dds" }
+   #)#
+   #(# aa
+      SpriteType = { name = "GFX_MEN_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AA_01.dds" }
+      SpriteType = { name = "GFX_MEN_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AA_02.dds" }
+      SpriteType = { name = "GFX_MEN_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_AA_03.dds" }
+   #)#
+   #(# rocket
+      SpriteType = { name = "GFX_MEN_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Rocket_Art_01.dds" }
+      SpriteType = { name = "GFX_MEN_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_MEN_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_MEN_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_MEN_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/JAP/artillery/JAP_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# MEN End
+##)# WTT Waking the Tiger End
+
+##(# MTG Man the Guns Start (dlc023)
+ #(# HOL Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_HOL_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/HOL/infantry_weapon/HOL_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_HOL_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/HOL/infantry_weapon/HOL_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_HOL_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/HOL/infantry_weapon/HOL_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_HOL_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/HOL/infantry_weapon/HOL_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_HOL_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/HOL/infantry_weapon/HOL_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_HOL_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/HOL/infantry_weapon/HOL_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_HOL_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/HOL/infantry_weapon/HOL_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_HOL_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/HOL/support/HOL_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_HOL_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_Art_01.dds" }
+      #SpriteType = { name = "GFX_HOL_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_Art_02.dds" }
+      #SpriteType = { name = "GFX_HOL_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_HOL_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_AT_01.dds"}
+      #SpriteType = { name = "GFX_HOL_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_AT_02.dds" }
+      #SpriteType = { name = "GFX_HOL_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_HOL_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_AA_01.dds" }
+      #SpriteType = { name = "GFX_HOL_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_AA_02.dds" }
+      #SpriteType = { name = "GFX_HOL_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_HOL_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_HOL_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_HOL_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_HOL_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_HOL_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/HOL/artillery/HOL_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# HOL End
+
+ #(# MEX Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_MEX_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/MEX/infantry_weapon/MEX_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_MEX_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/MEX/infantry_weapon/MEX_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MEX_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/MEX/infantry_weapon/MEX_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MEX_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/MEX/infantry_weapon/MEX_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_MEX_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/MEX/infantry_weapon/MEX_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_MEX_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/MEX/infantry_weapon/MEX_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_MEX_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/MEX/infantry_weapon/MEX_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_MEX_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/MEX/support/MEX_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_MEX_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_Art_01.dds" }
+      #SpriteType = { name = "GFX_MEX_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_Art_02.dds" }
+      #SpriteType = { name = "GFX_MEX_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_MEX_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_AT_01.dds"}
+      #SpriteType = { name = "GFX_MEX_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_AT_02.dds" }
+      #SpriteType = { name = "GFX_MEX_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_MEX_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_AA_01.dds" }
+      #SpriteType = { name = "GFX_MEX_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_AA_02.dds" }
+      #SpriteType = { name = "GFX_MEX_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_MEX_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_MEX_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_MEX_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_MEX_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_MEX_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/MEX/artillery/MEX_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# MEX End
+##)# MTG Man the Guns End
+
+##(# LAR La Resistance Start (dlc028)
+ #(# POR Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_POR_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/POR/infantry_weapon/POR_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_POR_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/POR/infantry_weapon/POR_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_POR_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/POR/infantry_weapon/POR_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_POR_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/POR/infantry_weapon/POR_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_POR_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/POR/infantry_weapon/POR_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_POR_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/POR/infantry_weapon/POR_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_POR_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/POR/infantry_weapon/POR_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_POR_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/POR/support/POR_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_POR_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_Art_01.dds" }
+      #SpriteType = { name = "GFX_POR_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_Art_02.dds" }
+      #SpriteType = { name = "GFX_POR_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_POR_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_AT_01.dds"}
+      #SpriteType = { name = "GFX_POR_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_AT_02.dds" }
+      #SpriteType = { name = "GFX_POR_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_POR_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_AA_01.dds" }
+      #SpriteType = { name = "GFX_POR_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_AA_02.dds" }
+      #SpriteType = { name = "GFX_POR_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_POR_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_POR_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_POR_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_POR_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_POR_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/POR/artillery/POR_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# POR End
+
+ #(# SPR Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_SPR_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SPR/infantry_weapon/SPR_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_SPR_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/SPR/infantry_weapon/SPR_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SPR_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SPR/infantry_weapon/SPR_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SPR_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SPR/infantry_weapon/SPR_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_SPR_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/SPR/infantry_weapon/SPR_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SPR_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/SPR/infantry_weapon/SPR_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SPR_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/SPR/infantry_weapon/SPR_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_SPR_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/SPR/support/SPR_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_SPR_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_Art_01.dds" }
+      #SpriteType = { name = "GFX_SPR_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_Art_02.dds" }
+      #SpriteType = { name = "GFX_SPR_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_SPR_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_AT_01.dds"}
+      #SpriteType = { name = "GFX_SPR_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_AT_02.dds" }
+      #SpriteType = { name = "GFX_SPR_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_SPR_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_AA_01.dds" }
+      #SpriteType = { name = "GFX_SPR_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_AA_02.dds" }
+      #SpriteType = { name = "GFX_SPR_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_SPR_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_SPR_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_SPR_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_SPR_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_SPR_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/SPR/artillery/SPR_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# SPR End
+##)# LAR La Resistance End
+
+##(# BFB Battle for the Bosporus Start (dlc031)
+ ##BUL/GRE/TUR
+ #(# BUL Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_BUL_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/BUL/infantry_weapon/BUL_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_BUL_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/BUL/infantry_weapon/BUL_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_BUL_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/BUL/infantry_weapon/BUL_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_BUL_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/BUL/infantry_weapon/BUL_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_BUL_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/BUL/infantry_weapon/BUL_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_BUL_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/BUL/infantry_weapon/BUL_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_BUL_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/BUL/infantry_weapon/BUL_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_BUL_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/BUL/support/BUL_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_BUL_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_Art_01.dds" }
+      #SpriteType = { name = "GFX_BUL_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_Art_02.dds" }
+      #SpriteType = { name = "GFX_BUL_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_BUL_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_AT_01.dds"}
+      #SpriteType = { name = "GFX_BUL_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_AT_02.dds" }
+      #SpriteType = { name = "GFX_BUL_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_BUL_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_AA_01.dds" }
+      #SpriteType = { name = "GFX_BUL_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_AA_02.dds" }
+      #SpriteType = { name = "GFX_BUL_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_BUL_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_BUL_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_BUL_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_BUL_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_BUL_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/BUL/artillery/BUL_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# BUL End
+
+ #(# GRE Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_GRE_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GRE/infantry_weapon/GRE_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_GRE_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/GRE/infantry_weapon/GRE_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_GRE_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GRE/infantry_weapon/GRE_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_GRE_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/GRE/infantry_weapon/GRE_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_GRE_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/GRE/infantry_weapon/GRE_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_GRE_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/GRE/infantry_weapon/GRE_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_GRE_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/GRE/infantry_weapon/GRE_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_GRE_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/GRE/support/GRE_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_GRE_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_Art_01.dds" }
+      #SpriteType = { name = "GFX_GRE_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_Art_02.dds" }
+      #SpriteType = { name = "GFX_GRE_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_GRE_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_AT_01.dds"}
+      #SpriteType = { name = "GFX_GRE_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_AT_02.dds" }
+      #SpriteType = { name = "GFX_GRE_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_GRE_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_AA_01.dds" }
+      #SpriteType = { name = "GFX_GRE_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_AA_02.dds" }
+      #SpriteType = { name = "GFX_GRE_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_GRE_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_GRE_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_GRE_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_GRE_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_GRE_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/GRE/artillery/GRE_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# GRE End
+
+ #(# TUR Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_TUR_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/TUR/infantry_weapon/TUR_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_TUR_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/TUR/infantry_weapon/TUR_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_TUR_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/TUR/infantry_weapon/TUR_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_TUR_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/TUR/infantry_weapon/TUR_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_TUR_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/TUR/infantry_weapon/TUR_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_TUR_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/TUR/infantry_weapon/TUR_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_TUR_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/TUR/infantry_weapon/TUR_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_TUR_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/TUR/support/TUR_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_TUR_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_Art_01.dds" }
+      #SpriteType = { name = "GFX_TUR_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_Art_02.dds" }
+      #SpriteType = { name = "GFX_TUR_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_TUR_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_AT_01.dds"}
+      #SpriteType = { name = "GFX_TUR_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_AT_02.dds" }
+      #SpriteType = { name = "GFX_TUR_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_TUR_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_AA_01.dds" }
+      #SpriteType = { name = "GFX_TUR_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_AA_02.dds" }
+      #SpriteType = { name = "GFX_TUR_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_TUR_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_TUR_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_TUR_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_TUR_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_TUR_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/TUR/artillery/TUR_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# TUR End
+##)# BFB Battle for the Bosporus End
+
+##(# NSB No Step Back Start (dlc034)
+ ##EST/LAT/LIT
+ #(# EST Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_EST_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_EST_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_EST_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_02.dds" }
+      #SpriteType = { name = "GFX_EST_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_EST_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_EST_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_02.dds" }
+      #SpriteType = { name = "GFX_EST_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_EST_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/EST/support/EST_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_EST_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Art_01.dds" }
+      #SpriteType = { name = "GFX_EST_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Art_02.dds" }
+      #SpriteType = { name = "GFX_EST_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_EST_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AT_01.dds"}
+      #SpriteType = { name = "GFX_EST_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AT_02.dds" }
+      #SpriteType = { name = "GFX_EST_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_EST_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AA_01.dds" }
+      #SpriteType = { name = "GFX_EST_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AA_02.dds" }
+      #SpriteType = { name = "GFX_EST_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_EST_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_EST_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_EST_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_EST_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_EST_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# EST End
+
+ #(# LAT Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_LAT_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_LAT_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_LAT_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_02.dds" }
+      #SpriteType = { name = "GFX_LAT_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_LAT_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_LAT_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_02.dds" }
+      #SpriteType = { name = "GFX_LAT_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_LAT_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/EST/support/EST_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_LAT_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Art_01.dds" }
+      #SpriteType = { name = "GFX_LAT_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Art_02.dds" }
+      #SpriteType = { name = "GFX_LAT_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_LAT_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AT_01.dds"}
+      #SpriteType = { name = "GFX_LAT_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AT_02.dds" }
+      #SpriteType = { name = "GFX_LAT_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_LAT_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AA_01.dds" }
+      #SpriteType = { name = "GFX_LAT_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AA_02.dds" }
+      #SpriteType = { name = "GFX_LAT_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_LAT_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_LAT_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_LAT_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_LAT_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_LAT_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# LAT End
+
+ #(# EST Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_LIT_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_LIT_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_LIT_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_02.dds" }
+      #SpriteType = { name = "GFX_LIT_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_LIT_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_LIT_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_02.dds" }
+      #SpriteType = { name = "GFX_LIT_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/EST/infantry_weapon/EST_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_LIT_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/EST/support/EST_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_LIT_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Art_01.dds" }
+      #SpriteType = { name = "GFX_LIT_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Art_02.dds" }
+      #SpriteType = { name = "GFX_LIT_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_LIT_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AT_01.dds"}
+      #SpriteType = { name = "GFX_LIT_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AT_02.dds" }
+      #SpriteType = { name = "GFX_LIT_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_LIT_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AA_01.dds" }
+      #SpriteType = { name = "GFX_LIT_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AA_02.dds" }
+      #SpriteType = { name = "GFX_LIT_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_LIT_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_LIT_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_LIT_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_LIT_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_LIT_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/EST/artillery/EST_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# EST End
+
+##)# NSB No Step Back End
+
+##(# BBA By Blood Alone Start (dlc036)
+ ##ETH/SWI
+ #(# SWI Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_SWI_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SWI/infantry_weapon/SWI_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_SWI_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/SWI/infantry_weapon/SWI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SWI_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SWI/infantry_weapon/SWI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SWI_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SWI/infantry_weapon/SWI_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_SWI_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/SWI/infantry_weapon/SWI_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SWI_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/SWI/infantry_weapon/SWI_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SWI_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/SWI/infantry_weapon/SWI_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_SWI_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/SWI/support/SWI_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_SWI_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_Art_01.dds" }
+      #SpriteType = { name = "GFX_SWI_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_Art_02.dds" }
+      #SpriteType = { name = "GFX_SWI_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_SWI_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_AT_01.dds"}
+      #SpriteType = { name = "GFX_SWI_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_AT_02.dds" }
+      #SpriteType = { name = "GFX_SWI_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_SWI_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_AA_01.dds" }
+      #SpriteType = { name = "GFX_SWI_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_AA_02.dds" }
+      #SpriteType = { name = "GFX_SWI_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_SWI_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_SWI_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_SWI_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_SWI_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_SWI_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/SWI/artillery/SWI_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# SWI End
+
+##)# BBA By Blood Alone Start End
+
+##(# AAT To Arms Against Tyranny Start (dlc038)
+ #(# SWE Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      SpriteType = { name = "GFX_SWE_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SWE/infantry_weapon/SWE_infantry_equipment_00.dds" }
+      SpriteType = { name = "GFX_SWE_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/SWE/infantry_weapon/SWE_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SWE_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SWE/infantry_weapon/SWE_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SWE_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/SWE/infantry_weapon/SWE_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      SpriteType = { name = "GFX_SWE_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/SWE/infantry_weapon/SWE_infantry_equipment_01.dds" }
+      SpriteType = { name = "GFX_SWE_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/SWE/infantry_weapon/SWE_infantry_equipment_02.dds" }
+      SpriteType = { name = "GFX_SWE_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/SWE/infantry_weapon/SWE_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      #SpriteType = { name = "GFX_SWE_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/SWE/support/SWE_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_SWE_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_Art_01.dds" }
+      #SpriteType = { name = "GFX_SWE_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_Art_02.dds" }
+      #SpriteType = { name = "GFX_SWE_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_SWE_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_AT_01.dds"}
+      #SpriteType = { name = "GFX_SWE_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_AT_02.dds" }
+      #SpriteType = { name = "GFX_SWE_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_SWE_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_AA_01.dds" }
+      #SpriteType = { name = "GFX_SWE_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_AA_02.dds" }
+      #SpriteType = { name = "GFX_SWE_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_SWE_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_SWE_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_SWE_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_SWE_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_SWE_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/SWE/artillery/SWE_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# SWE End
+
+##)# AAT To Arms Against Tyranny End
+
+##(# Trial of Allegiance Start (dlc040)
+ #ARG/BRA/CHL
+ #(# ARG Start
+  #(# Infantry
+   #(# weapon
+    #(# tech tree
+      #SpriteType = { name = "GFX_ARG_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ARG/infantry_weapon/ARG_infantry_equipment_00.dds" }
+      #SpriteType = { name = "GFX_ARG_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/infantry/ARG/infantry_weapon/ARG_infantry_equipment_01.dds" }
+      #SpriteType = { name = "GFX_ARG_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ARG/infantry_weapon/ARG_infantry_equipment_02.dds" }
+      #SpriteType = { name = "GFX_ARG_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/infantry/ARG/infantry_weapon/ARG_infantry_equipment_03.dds" }
+    #)#
+    #(# gallery
+      #SpriteType = { name = "GFX_ARG_infantry1_medium" texturefile = "gfx/interface/technologies/infantry/ARG/infantry_weapon/ARG_infantry_equipment_01.dds" }
+      #SpriteType = { name = "GFX_ARG_infantry2_medium" texturefile = "gfx/interface/technologies/infantry/ARG/infantry_weapon/ARG_infantry_equipment_02.dds" }
+      #SpriteType = { name = "GFX_ARG_infantry3_medium" texturefile = "gfx/interface/technologies/infantry/ARG/infantry_weapon/ARG_infantry_equipment_03.dds" }
+    #)#
+   #)#
+   #(# support
+    #(# tech tree
+      ##SpriteType = { name = "GFX_ARG_tech_support_medium" texturefile = "gfx/interface/technologies/infantry/ARG/support/ARG_support_equipment_01.dds" }
+    #)#
+   #)#
+  #)#
+  #(# Artillery
+   #(# howitzer
+      #SpriteType = { name = "GFX_ARG_gw_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_Art_01.dds" }
+      #SpriteType = { name = "GFX_ARG_artillery1_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_Art_02.dds" }
+      #SpriteType = { name = "GFX_ARG_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_Art_03.dds" }
+   #)#
+   #(# anti-tank
+	    #SpriteType = { name = "GFX_ARG_interwar_antitank_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_AT_01.dds"}
+      #SpriteType = { name = "GFX_ARG_antitank2_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_AT_02.dds" }
+      #SpriteType = { name = "GFX_ARG_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_AT_03.dds" }
+   #)#
+   #(# aa
+      #SpriteType = { name = "GFX_ARG_interwar_antiair_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_AA_01.dds" }
+      #SpriteType = { name = "GFX_ARG_antiair2_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_AA_02.dds" }
+      #SpriteType = { name = "GFX_ARG_antiair5_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_AA_03.dds" }
+   #)#
+   #(# rocket
+      #SpriteType = { name = "GFX_ARG_rocket_artillery_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_Rocket_Art_01.dds" }
+      #SpriteType = { name = "GFX_ARG_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_Rocket_Art_02.dds" }
+   #)#
+   #(# missile
+      #SpriteType = { name = "GFX_ARG_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_guided_missile_01.dds" }
+	    #SpriteType = { name = "GFX_ARG_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_guided_missile_02.dds" }
+	    #SpriteType = { name = "GFX_ARG_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/ARG/artillery/ARG_guided_missile_03.dds" }
+   #)#
+  #)#
+ #)# ARG End
+##)# Trial of Allegiance End
+
+}

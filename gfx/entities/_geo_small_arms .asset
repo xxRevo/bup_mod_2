@@ -1,0 +1,136 @@
+entity = {
+	name = "geo_wz39_right_entity"
+	pdxmesh = "geo_wz39_mesh"
+	scale = 1
+
+	get_state_from_parent = yes
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "move"	}
+
+	state = { name = "attack"	animation = "attack"
+		event = { time = 0.5 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0.5 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0.5 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
+	}
+
+	state = { name = "defend"
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
+	}
+
+	state = { name = "support_attack"	animation = "support_attack"
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
+	}
+}
+
+	entity = {
+	name = "geo_wz39_long_idle_entity"
+	pdxmesh = "geo_wz39_mesh"
+	scale = 1
+}
+
+entity = {
+	name = "geo_wz39_left_entity"
+	pdxmesh = "geo_wz39_mesh"
+	scale = 1
+}
+
+entity = {
+	clone = "geo_wz39_right_entity"
+	name = "geo_wz43_right_entity"
+	pdxmesh = "geo_wz43_mesh"
+}
+entity = {
+	clone = "geo_wz39_long_idle_entity"
+	name = "geo_wz43_long_idle_entity"
+	pdxmesh = "geo_wz43_mesh"
+}
+entity = {
+	clone = "geo_wz39_left_entity"
+	name = "geo_wz43_left_entity"
+	pdxmesh = "geo_wz43_mesh"
+}
+##M1918
+entity = {
+	name = "geo_m1928_right_entity"
+	pdxmesh = "geo_m1928_mesh"
+	scale = 1.0
+
+	get_state_from_parent = yes
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "move"	}
+
+	state = { name = "attack"	animation = "attack"
+		event = { time = 0.5 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0.5 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0.5 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
+	}
+
+	state = { name = "defend"
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
+	}
+
+	state = {
+	name = "support_attack"	animation = "support_attack"
+	event = { time = 0 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+	event = { time = 0 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+	event = { time = 0 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
+	}
+}
+entity = {
+	name = "geo_m1928_long_idle_entity"
+	pdxmesh = "geo_m1928_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "geo_m1928_left_entity"
+	pdxmesh = "geo_m1928_mesh"
+	scale = 1.0
+}
+##FAL
+entity = {
+	name = "geo_FAL_right_entity"
+	pdxmesh = "geo_FAL_mesh"
+	scale = 1.0
+
+	get_state_from_parent = yes
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "move"	}
+
+	state = { name = "attack"	animation = "attack"
+		event = { time = 0.5 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0.5 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0.5 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
+	}
+
+	state = { name = "defend"
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+		event = { time = 0 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
+	}
+
+	state = {
+	name = "support_attack"	animation = "support_attack"
+	event = { time = 0 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+	event = { time = 0 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } }
+	event = { time = 0 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
+	}
+}
+entity = {
+	name = "geo_FAL_long_idle_entity"
+	pdxmesh = "geo_FAL_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "geo_FAL_left_entity"
+	pdxmesh = "geo_FAL_mesh"
+	scale = 1.0
+}

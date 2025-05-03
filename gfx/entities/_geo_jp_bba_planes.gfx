@@ -1,0 +1,15 @@
+
+###########################日本###########################
+
+######################ジェット戦闘機######################
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "geo_f87_JAP_mesh"
+		file = "gfx/models/units/planes/geo_jp_f86.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+}
+
+

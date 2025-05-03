@@ -1,0 +1,90 @@
+ #(# BUL Start (semi copy of USA)
+	BUL = {
+  #(# Light Tank Start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_35t_BUL_entity
+					geo_r35_BUL_entity
+					geo_vickers6t_BUL_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_38t_e_BUL_entity }
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_panzer3_j_BUL_entity }
+			}
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { geo_stug3_g_BUL_entity }
+			}		
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_panzer4_g_BUL_entity }
+			}
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_panther_d_BUL_entity }
+			}
+		}
+     #)#
+  #)# Medium Tank End
+  #(# Heavy Tank Start
+     #(# 0
+     #)#
+     #(# 1
+     #)#
+     #(# 2
+     #)#
+     #(# 3
+     #)#
+  #)# Heavy Tank End
+  #(# Super Heavy Modern Amphibious Start
+     #(# 1
+     #)#
+  #)# Super Heavy Modern Amphibious End
+	}
+ #)# BUL End

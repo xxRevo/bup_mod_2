@@ -1,0 +1,37 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "ITA_conteDicavour_mesh"
+		file = "gfx/models/units/ships/geo_conteDicavour.mesh"
+		
+		animation = { id = "idle"			type = "geo_conteDicavour_idle_animation" }
+		animation = { id = "attack"			type = "geo_conteDicavour_attack_animation" }
+		animation = { id = "defend"			type = "geo_conteDicavour_defend_animation" }
+		animation = { id = "damaged_attack"	type = "geo_conteDicavour_attack_animation" }
+		animation = { id = "damaged_defend"	type = "geo_conteDicavour_defend_animation" }
+		animation = { id = "death"			type = "geo_conteDicavour_death_animation" }
+		
+	}
+
+	pdxmesh = {
+		name = "geo_aquila_mesh"
+		file = "gfx/models/units/ships/geo_aquila.mesh"
+		
+		animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+		animation = { id = "death"			type = "generic_carrier_death_animation" }
+		animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_DucadegliAbruzzi_mesh"
+		file = "gfx/models/units/ships/geo_DucadegliAbruzzi.mesh"
+		
+		animation = { id = "idle"			type = "geo_DucadegliAbruzzi_idle_animation" }
+		animation = { id = "attack"			type = "geo_DucadegliAbruzzi_attack_animation" }
+		animation = { id = "defend"			type = "geo_DucadegliAbruzzi_defend_animation" }
+		animation = { id = "damaged_attack"	type = "geo_DucadegliAbruzzi_attack_animation" }
+		animation = { id = "damaged_defend"	type = "geo_DucadegliAbruzzi_defend_animation" }
+		animation = { id = "death"			type = "geo_DucadegliAbruzzi_death_animation" }
+		
+	}
+}

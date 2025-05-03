@@ -1,0 +1,45 @@
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "geo_sdkfz250_mesh"
+		file = "gfx/models/units/vehicles/geo_sdkfz250.mesh"
+		
+		animation = { id = "idle"			type = "geo_sdkfz250_idle_animation" }
+		animation = { id = "move"			type = "geo_sdkfz250_move_animation" }
+		animation = { id = "attack"			type = "geo_sdkfz250_attack_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_sdkfz251_early_mesh"
+		file = "gfx/models/units/vehicles/geo_sdkfz251_early.mesh"
+		
+		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_sdkfz251_late_mesh"
+		file = "gfx/models/units/vehicles/geo_sdkfz251_late.mesh"
+		
+		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_krupp_protze_mesh"
+		file = "gfx/models/units/vehicles/geo_krupp_protze.mesh"
+		
+		animation = { id = "idle"			type = "geo_krupp_protze_idle_animation" }
+		animation = { id = "move"			type = "geo_krupp_protze_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ford_g917t_mesh"
+		file = "gfx/models/units/vehicles/geo_ford_g917t.mesh"
+		
+		animation = { id = "idle"			type = "geo_ford_g917t_idle_animation" }
+		animation = { id = "move"			type = "geo_ford_g917t_move_animation" }
+	}
+}

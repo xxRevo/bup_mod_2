@@ -1,0 +1,588 @@
+spriteTypes = {
+# 2 DLC # 3 Country
+ ##(# Generic Content Start
+  #(# Generic Start
+   #(# small airframe
+    # generic small_airframe
+	spriteType = { name = "GFX_TC_small_plane_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_fighter_he50_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_fighter_he118_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_2/BEL_light_fighter_renardr40_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_3/YUG_light_fighter_s49_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_4/FRA_light_fighter_md450_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_5" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_4/SWE_light_fighter_saab32_blueprint.dds" legacy_lazy_load = no }
+	# generic small_plane_cas_airframe
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_0/USA_light_bomber_o2u_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_1/LIT_light_bomber_anboviii_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_2/JAP_medium_bomber_ki66_blueprint_v2.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/medium_3/HOL_medium_fighter_fokkerdxxiii_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_4/FRA_light_fighter_md450_blueprint.dds" legacy_lazy_load = no }
+	# generic small_plane_naval_bomber_airframe
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_0/USA_light_maritime_o2u_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_maritime_ar196_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/medium_2/YUG_medium_maritime_sim14h_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_3/ITA_medium_bomber_sm89_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_4/FRA_light_fighter_md450_blueprint.dds" legacy_lazy_load = no }
+	# cv airframe
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_0/ITA_light_fighter_cr20_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_1/ITA_light_fighter_c200_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_2/HOL_light_fighter_fk58_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_3/FRA_light_fighter_mb153_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_4/SWE_light_fighter_saab29_blueprint.dds" legacy_lazy_load = no }
+	# cv cas
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_0/ITA_light_bomber_ro37_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_1/ITA_light_bomber_ba65_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_2/HOL_light_bomber_fk56_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_3/SWI_light_bomber_ekwc36_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_4/SWE_light_fighter_saab29_blueprint.dds" legacy_lazy_load = no }
+	# cv naval bomber
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_bomber_ar195_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_bomber_he70_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_2/SWE_light_bomber_saab17_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_3/ITA_light_fighter_2005_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_4/SWE_light_fighter_saab29_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# medium airframe
+	# generic medium_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_0/GER_medium_bomber_do23_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_1/ENG_medium_bomber_blenheim_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_2/USA_medium_bomber_b25_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/medium_3/SWE_medium_bomber_saabb18_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_4/ENG_medium_bomber_canberra_blueprint.dds" legacy_lazy_load = no }
+	# generic medium_plane_fighter_airframe
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_0/GER_medium_bomber_do23_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_1/JAP_medium_fighter_ki45_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/medium_2/YUG_medium_fighter_r313_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_3/ENG_medium_bomber_mosquito_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_4/ENG_medium_bomber_canberra_blueprint.dds" legacy_lazy_load = no }
+	# generic medium_plane_scout_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_scout_plane_airframe" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_1/GER_medium_scout_fw189_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# large airframe
+	# generic large_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/large_0/FRA_heavy_bomber_f222_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/large_1/ITA_heavy_bomber_p50_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/large_2/HOL_heavy_bomber_fokkertvi_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_3/GER_heavy_bomber_fw300_blueprint_v2.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_4/ENG_heavy_bomber_valiant_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_large_plane_airframe_5" textureFile = "gfx/interface/equipmentdesigner/planes/generic/generic_strat_bomber_5.dds" legacy_lazy_load = no }
+	# generic large_plane_maritime_patrol_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_0" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_0/ITA_medium_maritime_s55_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_1" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_1/ITA_medium_maritime_cantz501_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_2" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/large_2/JAP_heavy_maritime_h8k_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_3" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_3/GER_heavy_bomber_fw300_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_4" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_4/ENG_heavy_bomber_valiant_blueprint.dds" legacy_lazy_load = no }
+   #)#
+  #)# Generic End
+
+ ##(# Main Country Start
+  #(# GER Start
+   #(# small airframe
+	# ger small_plane_airframe
+	spriteType = { name = "GFX_TC_small_plane_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_fighter_he51_blueprint_v2.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_fighter_bf109_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_2/GER_light_fighter_fw190_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_3/GER_light_fighter_ta152_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_4/GER_light_fighter_me262_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_5_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig17_blueprint.dds" legacy_lazy_load = no }
+	# ger small_plane_cas_airframe
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_bomber_hs123_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_bomber_ju87_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_2/GER_medium_bomber_hs129_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_3/GER_medium_bomber_do335_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_4/GER_light_fighter_hs132_blueprint.dds" legacy_lazy_load = no }
+	# ger small_plane_naval_bomber_airframe
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_maritime_he51_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_maritime_do22_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_2/GER_medium_maritime_he115_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_3/GER_medium_fighter_ju388j_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_4/GER_light_fighter_me262_blueprint.dds" legacy_lazy_load = no }
+	# cv airframe
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_fighter_ar197_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_fighter_bf109_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_2/GER_light_fighter_fw190_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_3/GER_light_fighter_bv155_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_4/GER_light_fighter_me262_blueprint.dds" legacy_lazy_load = no }
+	# cv cas
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_bomber_ar195_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_bomber_ju87d_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_2/GER_light_bomber_ju187_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_3/GER_light_bomber_bvp193_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_4/GER_light_fighter_hs132_blueprint.dds" legacy_lazy_load = no }
+	# cv naval bomber
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_bomber_fi167_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_bomber_ju87d_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_2/GER_light_fighter_fw190_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_3/GER_light_fighter_bv155_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_4/GER_light_fighter_me262_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# medium airframe
+	# ger medium_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_0/GER_medium_bomber_do23_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_1/GER_medium_bomber_he111_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_2/GER_medium_bomber_ju88_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_3/GER_medium_bomber_ju188_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_4/GER_medium_bomber_ar234_blueprint.dds" legacy_lazy_load = no }
+	# ger medium_plane_fighter_airframe
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_0/GER_medium_fighter_hs124_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_1/GER_medium_fighter_bf110_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_2/GER_medium_fighter_me210_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_3/GER_medium_fighter_he219_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_4/GER_medium_bomber_ar234_blueprint.dds" legacy_lazy_load = no }
+	# ger medium_plane_scout_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_scout_plane_airframe_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_1/GER_medium_scout_fw189_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# large airframe
+	# ger large_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_0/GER_heavy_bomber_d19_blueprint_v2.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_1/GER_heavy_bomber_fw200_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_2/GER_heavy_bomber_he177_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_3/GER_heavy_bomber_he277_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_4/GER_medium_bomber_ho229_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_large_plane_airframe_5_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_4/GER_heavy_bomber_ta400_blueprint.dds" legacy_lazy_load = no }
+	# ger large_plane_maritime_patrol_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_0/GER_medium_maritime_he59_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_1/GER_heavy_maritime_do18_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_2/GER_heavy_maritime_bv238_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_3/GER_heavy_bomber_ju390_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_4/GER_medium_bomber_ho229_blueprint.dds" legacy_lazy_load = no }
+   #)#
+  #)# GER End
+
+  #(# SOV Start
+   #(# small airframe
+	# sov small_plane_airframe
+	spriteType = { name = "GFX_TC_small_plane_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_0/SOV_light_fighter_i15_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_1/SOV_light_fighter_i16_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_2/SOV_light_fighter_lagg3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_3/SOV_light_fighter_yak3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig15_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_5_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig19_blueprint.dds" legacy_lazy_load = no }
+	# sov small_plane_cas_airframe
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_0/SOV_light_bomber_por5_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_1/SOV_light_bomber_lbsh_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_2/SOV_light_bomber_il2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_3/SOV_light_bomber_il10_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig15_blueprint.dds" legacy_lazy_load = no }
+	# sov small_plane_naval_bomber_airframe
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_0/SOV_light_bomber_po2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_1/SOV_medium_bomber_db3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_2/SOV_medium_bomber_il4_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_3/SOV_medium_bomber_il6_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig15_blueprint.dds" legacy_lazy_load = no }
+	# cv airframe
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_0/SOV_light_fighter_i5_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_1/SOV_light_fighter_i16_blueprint_v2.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_2/SOV_light_fighter_lagg3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_3/SOV_light_fighter_yak9_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig9_blueprint.dds" legacy_lazy_load = no }
+	# cv cas
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_0/SOV_light_bomber_por5_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_1/SOV_light_bomber_r10_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_2/SOV_light_bomber_su2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_3/SOV_light_bomber_il10_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig9_blueprint.dds" legacy_lazy_load = no }
+	# cv naval bomber
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_0/SOV_light_bomber_po2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_1/SOV_light_bomber_r10_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_2/SOV_light_bomber_su2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_3/SOV_light_bomber_il10_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig9_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# medium airframe
+	# sov medium_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/large_0/SOV_heavy_bomber_tb3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_1/SOV_medium_bomber_sb2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_2/SOV_medium_bomber_tu2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_3/SOV_medium_bomber_tu8_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_4/SOV_medium_bomber_il28_blueprint.dds" legacy_lazy_load = no }
+	# sov medium_plane_fighter_airframe
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_0/SOV_medium_fighter_ant29_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_1/SOV_medium_fighter_yak4_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_2/SOV_medium_fighter_pe2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_3/SOV_medium_fighter_tis_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_4/SOV_medium_bomber_tu14_blueprint.dds" legacy_lazy_load = no }
+	# sov medium_plane_scout_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_scout_plane_airframe_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_2/SOV_medium_bomber_tu2_blueprint_v2.dds" legacy_lazy_load = no }
+   #)#
+   #(# large airframe
+	# sov large_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/large_0/SOV_heavy_bomber_tb3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/large_1/SOV_heavy_bomber_pe8_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/large_2/SOV_heavy_bomber_yer2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/large_3/SOV_heavy_bomber_tu4_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/large_4/SOV_heavy_bomber_m4_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_large_plane_airframe_5_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/large_4/SOV_heavy_bomber_tu85_blueprint.dds" legacy_lazy_load = no }
+	# sov large_plane_maritime_patrol_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_0/SOV_medium_maritime_tb1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_1/SOV_medium_maritime_mbr2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_2/SOV_medium_maritime_mdr5_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/medium_3/SOV_medium_maritime_mdr6_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/sov/sov_maritime_patrol_plane_4.dds" legacy_lazy_load = no }
+   #)#
+  #)# SOV End
+
+  #(# USA Start
+   #(# small airframe
+	# usa small_plane_airframe
+	spriteType = { name = "GFX_TC_small_plane_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_0/USA_light_fighter_p5_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_1/USA_light_fighter_p36_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_2/USA_light_fighter_p40_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_3/USA_light_fighter_p51_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_f86_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_5_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_f100_blueprint.dds" legacy_lazy_load = no }
+	# usa small_plane_cas_airframe
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_0/USA_light_bomber_o2m_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_1/USA_light_bomber_bt_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_2/USA_medium_bomber_a20_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_3/USA_medium_bomber_a26_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_f86_blueprint.dds" legacy_lazy_load = no }
+	# usa small_plane_naval_bomber_airframe
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_0/USA_light_maritime_o2u_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_1/USA_light_maritime_n3pb_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_2/USA_medium_bomber_pv2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_3/USA_light_bomber_xtb2d_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_f86_blueprint.dds" legacy_lazy_load = no }
+	# cv airframe
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_0/USA_light_fighter_ff1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_1/USA_light_fighter_f4f_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_2/USA_light_fighter_f6f_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_3/USA_light_fighter_f8f_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_p80_blueprint.dds" legacy_lazy_load = no }
+	# cv cas
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_0/USA_light_bomber_xfd_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_1/USA_light_bomber_bt1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_2/USA_light_bomber_sbd_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_3/USA_light_bomber_sb2c_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_p80_blueprint.dds" legacy_lazy_load = no }
+	# cv naval bomber
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_0/USA_light_bomber_xtbg_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_1/USA_light_bomber_tbd_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_2/USA_light_bomber_tbf_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_3/USA_light_bomber_tby_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_p80_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# medium airframe
+	# usa medium_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_0/USA_medium_bomber_b6_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_1/USA_medium_bomber_b23_blueprint_v2.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_2/USA_medium_bomber_b25_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_3/USA_medium_bomber_b28_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_4/USA_medium_bomber_b45_blueprint.dds" legacy_lazy_load = no }
+	# usa medium_plane_fighter_airframe
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_0/USA_medium_bomber_b6_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_1/USA_medium_bomber_yfm1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_2/USA_medium_fighter_p38_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_3/USA_medium_fighter_p61_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_4/USA_medium_fighter_xp71_blueprint.dds" legacy_lazy_load = no }
+	# usa medium_plane_scout_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_scout_plane_airframe_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_3/USA_medium_scout_xf15_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# large airframe
+	# usa large_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/large_0/USA_heavy_bomber_xb15_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/large_1/USA_heavy_bomber_b17_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/large_2/USA_heavy_bomber_b24_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/large_3/USA_heavy_bomber_b29_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/large_4/USA_heavy_bomber_b47_blueprint.dds" legacy_lazy_load = no }
+	# usa large_plane_maritime_patrol_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_0_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_0/USA_medium_maritime_p2y_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_1_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_1/USA_medium_maritime_pby_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_2_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_2/USA_medium_maritime_pbm_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_3_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_3/USA_medium_maritime_xpbb_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_4_usa" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/large_4/USA_heavy_bomber_b48_blueprint.dds" legacy_lazy_load = no }
+   #)#
+  #)# USA End
+
+  #(# ENG Start
+   #(# small airframe
+	# eng small_plane_airframe
+	spriteType = { name = "GFX_TC_small_plane_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_0/ENG_light_fighter_gladiator_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_1/ENG_light_fighter_hurricane_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_2/ENG_light_fighter_spitfire9_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_3/ENG_light_fighter_spiteful_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_meteor_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_5_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_lightning_blueprint.dds" legacy_lazy_load = no }
+	# eng small_plane_cas_airframe
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_0/ENG_light_bomber_hector_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_1/ENG_light_bomber_battle_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_2/USA_medium_bomber_a20_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_3/ENG_light_fighter_tempestv_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_meteor_blueprint.dds" legacy_lazy_load = no }
+	# eng small_plane_naval_bomber_airframe
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_0/ENG_light_bomber_albacore_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_1/ENG_light_bomber_battle_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_2/USA_medium_bomber_pv2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_3/ENG_medium_bomber_brigand_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_meteor_blueprint.dds" legacy_lazy_load = no }
+	# cv airframe
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_0/ENG_light_fighter_nimrod_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_1/ENG_light_fighter_fulmar_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_2/ENG_light_fighter_firefly_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_3/ENG_light_fighter_tempest_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_vampire_blueprint.dds" legacy_lazy_load = no }
+	# cv cas
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_0/ENG_light_bomber_shark_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_1/ENG_light_bomber_skua_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_2/USA_light_bomber_sbd_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_3/ENG_light_bomber_spearfish_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_vampire_blueprint.dds" legacy_lazy_load = no }
+	# cv naval bomber
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_0/ENG_light_bomber_swordfish_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_1/ENG_light_bomber_barracuda_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_2/USA_light_bomber_tbf_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_3/ENG_light_bomber_firebrand_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_vampire_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# medium airframe
+	# eng medium_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_0/ENG_medium_bomber_whitley_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_1/ENG_medium_bomber_blenheim4_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_2/ENG_medium_bomber_beaufort_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_3/ENG_medium_bomber_mosquito_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_4/ENG_medium_bomber_canberra_blueprint.dds" legacy_lazy_load = no }
+	# eng medium_plane_fighter_airframe
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_0/ENG_medium_fighter_glosterf9_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_1/ENG_medium_bomber_blenheim_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_2/ENG_medium_fighter_beaufighter_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_3/ENG_medium_fighter_welkin_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_4/ENG_medium_bomber_canberra_blueprint.dds" legacy_lazy_load = no }
+	# eng medium_plane_scout_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_scout_plane_airframe_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_0/ENG_medium_bomber_whitley_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# large airframe
+	# eng large_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_0/ENG_heavy_bomber_heyford_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_1/ENG_heavy_bomber_stirling_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_2/ENG_heavy_bomber_lancaster_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_3/ENG_heavy_bomber_lincoln_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_4/ENG_heavy_bomber_valiant_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_large_plane_airframe_5_eng" textureFile = "gfx/interface/equipmentdesigner/planes/eng/eng_strat_bomber_5.dds" legacy_lazy_load = no }
+	# eng large_plane_maritime_patrol_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_0/ENG_medium_maritime_nanok_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_1/ENG_medium_maritime_sydney_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_2/ENG_medium_maritime_sunderland_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_3/ENG_medium_maritime_shetland_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_3/ENG_heavy_bomber_shackleton_blueprint_v2.dds" legacy_lazy_load = no }
+   #)#
+  #)# ENG End
+
+  #(# FRA Start
+   #(# small airframe
+	# fra small_plane_airframe
+	spriteType = { name = "GFX_TC_small_plane_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_0/FRA_light_fighter_nid62_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_1/FRA_light_fighter_ms406_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_2/FRA_light_fighter_d520_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_3/FRA_light_fighter_mb153_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_4/FRA_light_fighter_md450_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_5_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_4/FRA_light_fighter_md460_blueprint.dds" legacy_lazy_load = no }
+	# fra small_plane_cas_airframe
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_0/FRA_light_bomber_potez25_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_1/FRA_light_bomber_late299_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_2/FRA_medium_bomber_bre690_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_3/FRA_medium_bomber_n1500_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_4/FRA_light_bomber_nc1071_blueprint.dds" legacy_lazy_load = no }
+	# fra small_plane_naval_bomber_airframe
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_0/FRA_light_maritime_late290_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_1/FRA_light_maritime_late298_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_2/FRA_medium_bomber_d750_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_3/FRA_light_bomber_so8000_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_4/FRA_light_bomber_nc1071_blueprint.dds" legacy_lazy_load = no }
+	# cv airframe
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_0/FRA_light_fighter_d376_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_1/FRA_light_fighter_d510_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_2/FRA_light_fighter_d520_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_3/FRA_light_fighter_mb153_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_4/FRA_light_fighter_md450_blueprint.dds" legacy_lazy_load = no }
+	# cv cas
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_0/FRA_light_bomber_pl10_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_1/FRA_light_bomber_ni140_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_2/FRA_light_bomber_ln401_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_3/USA_light_bomber_xbtk_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_p80_blueprint.dds" legacy_lazy_load = no }
+	# cv naval bomber
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_0/FRA_light_bomber_pl10_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_1/USA_light_bomber_v11_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_2/FRA_light_bomber_ln401_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_3/FRA_light_bomber_so8000_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_p80_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# medium airframe
+	# fra medium_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_0/FRA_medium_bomber_mb200_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_1/FRA_medium_bomber_mb131_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_2/FRA_medium_bomber_leo451_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_3/FRA_medium_bomber_nc150_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_4/FRA_medium_bomber_so4050_blueprint.dds" legacy_lazy_load = no }
+	# fra medium_plane_fighter_airframe
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_0/FRA_medium_fighter_r110_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_1/FRA_medium_fighter_potez630_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_2/FRA_medium_fighter_nc600_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_3/FRA_medium_bomber_mb174_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_4/FRA_medium_bomber_so4050_blueprint.dds" legacy_lazy_load = no }
+	# fra medium_plane_scout_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_scout_plane_airframe_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_1/FRA_medium_bomber_mb131_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# large airframe
+	# fra large_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/large_0/FRA_heavy_bomber_f222_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/large_1/FRA_heavy_bomber_d338_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/large_2/FRA_heavy_bomber_mb162_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_3/GER_heavy_bomber_he277_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/large_4/FRA_heavy_bomber_so4000_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_large_plane_airframe_5_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/large_3/FRA_heavy_bomber_d800_blueprint_v2.dds" legacy_lazy_load = no }
+	# fra large_plane_maritime_patrol_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_0_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/small_0/FRA_light_maritime_mb26_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_1_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/large_1/FRA_heavy_maritime_leoh246_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_2_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/large_2/FRA_heavy_maritime_bre730_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_3_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/medium_3/FRA_medium_maritime_n1400_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_4_fra" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/FRA/large_4/FRA_heavy_bomber_so4000_blueprint.dds" legacy_lazy_load = no }
+   #)#
+  #)# FRA End
+
+  #(# ITA End
+   #(# small airframe
+	# ita small_plane_airframe
+	spriteType = { name = "GFX_TC_small_plane_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_0/ITA_light_fighter_cr32_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_1/ITA_light_fighter_c200_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_2/ITA_light_fighter_c202_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_3/ITA_light_fighter_g55_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_4/ITA_lighter_fighter_re2007.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_5_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_4/ITA_lighter_fighter_aerferariete.dds" legacy_lazy_load = no }
+	# ita small_plane_cas_airframe
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_0/ITA_light_bomber_ro37_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_1/ITA_light_bomber_ba65_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_2/ITA_medium_bomber_ba88_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_3/ITA_light_bomber_sm93_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_4/ITA_lighter_fighter_re2007.dds" legacy_lazy_load = no }
+	# ita small_plane_naval_bomber_airframe
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GEN/small_0/HOL_light_maritime_fokkercxi_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_1/ITA_medium_bomber_sm79_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_2/ITA_medium_bomber_sm84_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_3/ITA_medium_bomber_sm89_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_4/ITA_lighter_fighter_re2007.dds" legacy_lazy_load = no }
+	# cv airframe
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_0/ITA_light_fighter_cr20_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_1/ITA_light_fighter_c200_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_2/ITA_light_fighter_re2001_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_3/ITA_light_fighter_2005_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_4/ITA_lighter_fighter_re2007.dds" legacy_lazy_load = no }
+	# cv cas
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_0/ITA_light_bomber_br1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_1/ITA_light_bomber_ap1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_2/ITA_light_bomber_ba201_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_3/ITA_light_fighter_2005_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_p80_blueprint.dds" legacy_lazy_load = no }
+	# cv naval bomber
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_0/ITA_light_bomber_ro37_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_1/ITA_light_fighter_g50_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_2/ITA_light_bomber_ba201_blueprint.dds"legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/small_3/ITA_light_fighter_2005_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_4/USA_light_fighter_p80_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# medium airframe
+	# ita medium_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_0/ITA_medium_bomber_ca133_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_1/ITA_medium_bomber_br20_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_2/ITA_medium_bomber_cantz1007_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_3/ITA_medium_bomber_cantz1018_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_4/ENG_medium_bomber_canberra_blueprint.dds" legacy_lazy_load = no }
+	# ita medium_plane_fighter_airframe
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_0/ITA_medium_fighter_fiatr23_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_1/ITA_medium_fighter_ro57_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_2/ITA_medium_fighter_ro58_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_3/ITA_medium_fighter_sm92_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_4/ENG_medium_bomber_canberra_blueprint.dds" legacy_lazy_load = no }
+	# ita medium_plane_scout_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_scout_plane_airframe_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_1/ITA_medium_bomber_ca310_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# large airframe
+	# ita large_plane_airframe
+	
+	spriteType = { name = "GFX_TC_large_plane_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/large_0/ITA_heavy_bomber_p16_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/large_1/ITA_heavy_bomber_p50_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/large_2/ITA_heavy_bomber_p108a_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/large_3/ITA_heavy_bomber_z1014_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/large_4/USA_heavy_bomber_b47_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_large_plane_airframe_5_ita" textureFile = "gfx/interface/equipmentdesigner/planes/ita/ita_strat_bomber_5.dds" legacy_lazy_load = no }
+	# ita large_plane_maritime_patrol_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_0_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_0/ITA_medium_maritime_s57_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_1_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_1/ITA_medium_maritime_cantz501_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_2_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ITA/medium_2/ITA_medium_maritime_mc99_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_3_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_2/GER_heavy_maritime_bv238_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_4_ita" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/large_3/GER_heavy_bomber_ju390_blueprint.dds" legacy_lazy_load = no }
+   #)#
+  #)# ITA End
+
+  #(# JAP Start
+   #(# small airframe
+	# jap small_plane_airframe
+	spriteType = { name = "GFX_TC_small_plane_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_0/JAP_light_fighter_ki10_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_1/JAP_light_fighter_ki27_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_2/JAP_light_fighter_ki43_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_3/JAP_light_fighter_ki84_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_4/JAP_light_fighter_kikka_blueprint.dds" legacy_lazy_load = no }
+	# jap small_plane_cas_airframe
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_0/JAP_light_bomber_ki3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_1/JAP_light_bomber_ki32_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_2/JAP_light_bomber_ki51_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_3/JAP_light_bomber_ki98_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_4/JAP_light_bomber_r2y2_blueprint.dds" legacy_lazy_load = no }
+	# jap small_plane_naval_bomber_airframe
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_0/JAP_light_bomber_e8n_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_1/JAP_medium_bomber_g3m_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_2/JAP_medium_bomber_g4m_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_3/JAP_medium_bomber_p1y_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_4/JAP_light_bomber_r2y2_blueprint.dds" legacy_lazy_load = no }
+	# cv airframe
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_0/JAP_light_fighter_a4n_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_1/JAP_light_fighter_a5n_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_2/JAP_light_fighter_a6m_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_3/JAP_light_fighter_a7m_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_4/JAP_light_fighter_j7w_blueprint.dds" legacy_lazy_load = no }
+	# cv cas
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_0/JAP_light_bomber_d1a_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_1/JAP_light_bomber_d3a1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_2/JAP_light_bomber_d4y3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_3/JAP_light_bomber_b7a2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_4/JAP_light_bomber_r2y2_blueprint.dds" legacy_lazy_load = no }
+	# cv naval bomber
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_0/JAP_light_bomber_b2m_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_1/JAP_light_bomber_b5n_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_2/JAP_light_bomber_b6n_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_3/JAP_light_bomber_b7a_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_4/JAP_light_bomber_r2y2_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# medium airframe
+	# jap medium_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_0/JAP_medium_bomber_g2h1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_1/JAP_medium_bomber_ki21_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_2/JAP_medium_bomber_ki48_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_3/JAP_medium_bomber_ki67_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/small_4/JAP_light_bomber_r2y2_blueprint.dds" legacy_lazy_load = no }
+	# jap medium_plane_fighter_airframe
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_0/JAP_medium_bomber_g2h1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_1/JAP_medium_fighter_ki45_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_3/JAP_medium_fighter_j1n1_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_3/JAP_medium_fighter_ki102_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_fighter_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_4/JAP_medium_bomber_p1yj_blueprint.dds" legacy_lazy_load = no }
+	# jap medium_plane_scout_plane_airframe
+	spriteType = { name = "GFX_TC_medium_plane_scout_plane_airframe_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_1/JAP_medium_bomber_ki46_blueprint.dds" legacy_lazy_load = no }
+   #)#
+   #(# large airframe
+	# jap large_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/large_0/JAP_heavy_bomber_ki20_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_1/JAP_medium_bomber_ki49_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/large_2/JAP_heavy_bomber_g5n_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/large_3/JAP_heavy_bomber_g8n_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/large_4/JAP_heavy_bomber_g10n_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_large_plane_airframe_5_jap" textureFile = "gfx/interface/equipmentdesigner/planes/jap/jap_strat_bomber_5.dds" legacy_lazy_load = no }
+	# jap large_plane_maritime_patrol_plane_airframe
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_0_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/medium_0/JAP_medium_maritime_h4h_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_1_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/large_1/JAP_heavy_maritime_h6k_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_2_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/large_2/JAP_heavy_maritime_h8k_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_3_jap" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/JAP/large_3/JAP_heavy_maritime_h11k_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_large_plane_maritime_patrol_plane_airframe_4_jap" textureFile = "gfx/interface/equipmentdesigner/planes/jap/jap_maritime_patrol_plane_4.dds" legacy_lazy_load = no }
+   #)#
+  #)# JAP End
+ ##)#
+}

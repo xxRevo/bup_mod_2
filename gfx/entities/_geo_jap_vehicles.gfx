@@ -1,0 +1,46 @@
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "geo_nissan80_mesh"
+		file = "gfx/models/units/vehicles/geo_nissan80.mesh"
+		
+		animation = { id = "idle"			type = "geo_nissan80_idle_animation" }
+		animation = { id = "move"			type = "geo_nissan80_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_type94_truck_mesh"
+		file = "gfx/models/units/vehicles/geo_type94_truck.mesh"
+		
+		animation = { id = "idle"			type = "geo_type94_trcuk_idle_animation" }
+		animation = { id = "move"			type = "geo_type94_trcuk_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_type1_halftrcuk_mesh"
+		file = "gfx/models/units/vehicles/geo_type1_halftrcuk.mesh"
+		
+		animation = { id = "idle"			type = "geo_type1_halftrcuk_idle_animation" }
+		animation = { id = "move"			type = "geo_type1_halftrcuk_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_type1_halftrcuk_MAN_mesh"
+		file = "gfx/models/units/vehicles/geo_type1_halftrcuk_MAN.mesh"
+		
+		animation = { id = "idle"			type = "geo_type1_halftrcuk_idle_animation" }
+		animation = { id = "move"			type = "geo_type1_halftrcuk_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_type60_mesh"
+		file = "gfx/models/units/vehicles/geo_type60.mesh"
+		
+		animation = { id = "idle"			type = "geo_type60_idle_animation" }
+		animation = { id = "move"			type = "geo_type60_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_type60_MAN_mesh"
+		file = "gfx/models/units/vehicles/geo_type60_MAN.mesh"
+		
+		animation = { id = "idle"			type = "geo_type60_idle_animation" }
+		animation = { id = "move"			type = "geo_type60_move_animation" }
+	}
+}

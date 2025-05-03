@@ -1,0 +1,33 @@
+
+animation = {
+	name = "geo_nissan80_idle_animation"
+	file = "geo_nissan80_idle.anim"
+}
+animation = {
+	name = "geo_nissan80_move_animation"
+	file = "geo_nissan80_move.anim"
+}
+animation = {
+	name = "geo_type1_halftrcuk_idle_animation"
+	file = "geo_type1_halftrcuk_idle.anim"
+}
+animation = {
+	name = "geo_type1_halftrcuk_move_animation"
+	file = "geo_type1_halftrcuk_move.anim"
+}
+animation = {
+	name = "geo_type94_trcuk_idle_animation"
+	file = "geo_type94_trcuk_idle.anim"
+}
+animation = {
+	name = "geo_type94_trcuk_move_animation"
+	file = "geo_type94_trcuk_move.anim"
+}
+animation = {
+	name = "geo_type60_idle_animation"
+	file = "geo_type60_idle.anim"
+}
+animation = {
+	name = "geo_type60_move_animation"
+	file = "geo_type60_move.anim"
+}

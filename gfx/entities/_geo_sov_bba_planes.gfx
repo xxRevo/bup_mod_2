@@ -1,0 +1,24 @@
+
+###########################ソ連###########################
+
+######################ジェット戦闘機######################
+
+objectTypes = {
+	pdxmesh = {
+		name = "geo_hurricane_SOV_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_SOV.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_hurricane_mk2b_SOV_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_SOV.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_mig17_mesh"
+		file = "gfx/models/units/planes/geo_sov_mig17.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+}
+
+

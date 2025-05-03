@@ -1,0 +1,25 @@
+
+objectTypes = {
+##トルコ
+	pdxmesh = {
+		name = "geo_hurricane_TUR_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_TUR.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_hurricane_mk2b_TUR_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_TUR.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+##ユーゴスラビア
+	pdxmesh = {
+		name = "geo_hurricane_YUG_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_YUG.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_hurricane_mk2b_YUG_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_YUG.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+}

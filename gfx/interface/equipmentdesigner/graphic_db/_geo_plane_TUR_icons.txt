@@ -1,0 +1,22 @@
+TUR = {
+	small_plane_airframe = {
+		pool = {
+			weight = 2.1
+			icons = { }
+			models= {
+				geo_hurricane_mk2b_TUR_entity
+				geo_hurricane_TUR_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			weight = 2.1
+			icons = { }
+			models= {
+				geo_hurricane_mk2b_TUR_entity
+				geo_hurricane_TUR_entity
+			}
+		}
+	}
+}

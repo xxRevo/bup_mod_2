@@ -1,0 +1,33 @@
+##(# ASIA Content Start (dlc002)
+ #(# CHI Start
+	CHI = {
+  #(# Light tanks start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_vickers6t_CHI_entity }
+			}
+		}
+     #)#
+  #)# Light tank end
+  #(# Medium tank start
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_m4a4_CHI_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Medium tank end
+	}
+ #)# CHI End
+##)# ASIA Content End

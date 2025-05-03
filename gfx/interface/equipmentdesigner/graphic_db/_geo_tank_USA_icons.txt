@@ -1,0 +1,83 @@
+ #(# USA Start
+	USA = {
+  #(# Light Tanks Start
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_m3_stuart_USA_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)# 
+  #)# Light Tanks End
+  #(# Medium Tanks Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_m3lee_USA_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_m4a3_USA_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_m4a3e8_USA_entity
+					geo_m4a2late_76_USA_entity
+					geo_m4a3_76_camo_USA_entity
+					geo_m4a3_76_USA_entity
+					geo_m4a2late_USA_entity
+					geo_m4a2mid_USA_entity
+					geo_m4a2early_USA_entity
+					geo_m4a3_camo_sandbag_USA_entity
+					geo_m4a3_camo_USA_entity
+					geo_m4a3_sandbag_USA_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium Tanks End
+  #(# Heavy Tanks Start
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_m4a3e8_USA_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Heavy Tanks End
+  #(# Super Modern Amphibious Start
+     #(# special
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3.1
+				models = { geo_m48_USA_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {  }
+			}
+		}
+     #)#
+  #)# Super Modern Amphibious End
+	}
+ #)# USA End

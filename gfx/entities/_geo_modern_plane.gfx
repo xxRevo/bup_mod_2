@@ -1,0 +1,22 @@
+
+objectTypes = {
+	pdxmesh = {
+		name = "geo_jas39_mesh"
+		file = "gfx/models/units/planes/geo_jas39.mesh"
+		animation = { id = "idle" type = "geo_jas39_idle_animation" }
+		animation = { id = "geo_attack" type = "geo_jas39_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_jas39_camo_mesh"
+		file = "gfx/models/units/planes/geo_jas39_camo.mesh"
+		animation = { id = "idle" type = "geo_jas39_idle_animation" }
+		animation = { id = "geo_attack" type = "geo_jas39_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_jas39_BRA_mesh"
+		file = "gfx/models/units/planes/geo_jas39_BRA.mesh"
+		animation = { id = "idle" type = "geo_jas39_idle_animation" }
+		animation = { id = "geo_attack" type = "geo_jas39_attack_animation" }
+	}
+}
+

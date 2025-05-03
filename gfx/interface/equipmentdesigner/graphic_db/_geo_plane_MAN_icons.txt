@@ -1,0 +1,22 @@
+JAP = {
+	small_plane_airframe_4 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_f87_JAP_entity
+				geo_t1_JAP_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_f87_JAP_entity
+				geo_t1_JAP_entity
+			}
+		}
+	}
+}

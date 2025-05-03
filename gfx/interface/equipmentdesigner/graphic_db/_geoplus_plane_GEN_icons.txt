@@ -1,0 +1,80 @@
+default = {
+	small_plane_airframe_3 = {
+		pool = {
+			weight = 1
+			icons = { }
+			models= {
+				geo_mb157_GEN_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_3 = {
+		pool = {
+			weight = 1.1
+			icons = { }
+			models= {
+				geo_mb157_GEN_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			weight = 1.1
+			icons = { }
+			models= {
+				geo_mig17_GEN_entity
+				geo_f86_GEN_entity
+				geo_t1_GEN_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			weight = 1
+			icons = { }
+			models= {
+				geo_mig17_GEN_entity
+				geo_f86_GEN_entity
+				geo_t1_GEN_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_3 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_ln40_GEN_entity
+				geo_a1_GEN_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_3 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_ln40_GEN_entity
+				geo_a1_GEN_entity
+			}
+		}
+	}
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_blenheim_GEN_entity
+			}
+		}
+	}
+}
+ITA = {
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= { geo_br20_entity }
+		}
+	}
+}

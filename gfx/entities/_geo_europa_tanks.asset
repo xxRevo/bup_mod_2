@@ -1,0 +1,491 @@
+
+entity = { # "geo_r35_entity"
+	name = "geo_r35_entity"
+	pdxmesh = "geo_r35_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.7
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+entity = { # "geo_r39_entity"
+	clone = "geo_r35_entity"
+	name = "geo_r39_entity"
+	pdxmesh = "geo_r39_mesh"
+}
+
+##ポーランド
+
+entity = { # "geo_7tp_POL_entity"
+	name = "geo_7tp_POL_entity"
+	pdxmesh = "geo_7tp_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.7
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+entity = { # "geo_r35_POL_entity"
+	clone = "geo_r35_entity"
+	name = "geo_r35_POL_entity"
+	pdxmesh = "geo_r35_POL_mesh"
+}
+
+entity = { # "geo_10tp_POL_entity"
+	name = "geo_10tp_POL_entity"
+	pdxmesh = "geo_10tp_mesh"
+
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } }
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } }
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } }
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+
+	scale = 1.0
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+
+entity = { # "geo_m4a4_POL_entity"
+	name = "geo_m4a4_POL_entity"
+	pdxmesh = "geo_m4a4_POL_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+
+	scale = 1
+	version = 29
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+entity = { # "geo_fireflyVC_POL_entity"
+	clone = "geo_m4a4_POL_entity"
+	name = "geo_fireflyVC_POL_entity"
+	pdxmesh = "geo_fireflyVC_POL_mesh"
+}
+
+##チェコスロヴァキア
+entity = { # "geo_35t_CZE_entity"
+	clone = "geo_r35_entity"
+	name = "geo_35t_CZE_entity"
+	pdxmesh = "geo_35t_CZE_mesh"
+	scale = 0.8
+}
+entity = { # "geo_38t_a_CZE_entity"
+	clone = "geo_r35_entity"
+	name = "geo_38t_a_CZE_entity"
+	pdxmesh = "geo_38t_a_CZE_mesh"
+	scale = 0.8
+}
+entity = { # "geo_skoda_t21_CZE_entity"
+	name = "geo_skoda_t21_CZE_entity"
+	pdxmesh = "geo_skoda_t21_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.8
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+
+##スロヴァキア
+entity = { # "geo_35t_SLO_entity"
+	clone = "geo_35t_CZE_entity"
+	name = "geo_35t_SLO_entity"
+	pdxmesh = "geo_35t_SLO_mesh"
+}
+entity = { # "geo_38t_a_SLO_entity"
+	clone = "geo_38t_a_CZE_entity"
+	name = "geo_38t_a_SLO_entity"
+	pdxmesh = "geo_38t_a_SLO_mesh"
+}
+entity = { # "geo_skoda_t21_SLO_entity"
+	clone = "geo_skoda_t21_CZE_entity"
+	name = "geo_skoda_t21_SLO_entity"
+	pdxmesh = "geo_skoda_t21_SLO_mesh"
+}
+
+##ブルガリア
+##軽戦車
+entity = { # "geo_vickers6t_BUL_entity"
+	name = "geo_vickers6t_BUL_entity"
+	pdxmesh = "geo_vickers6t_BUL_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.7
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+entity = { # "geo_r35_BUL_entity"
+	clone = "geo_r35_entity"
+	name = "geo_r35_BUL_entity"
+	pdxmesh = "geo_r35_BUL_mesh"
+}
+entity = { # "geo_35t_BUL_entity"
+	clone = "geo_35t_CZE_entity"
+	name = "geo_35t_BUL_entity"
+	pdxmesh = "geo_35t_BUL_mesh"
+}
+entity = { # "geo_38t_e_BUL_entity"
+	clone = "geo_35t_CZE_entity"
+	name = "geo_38t_e_BUL_entity"
+	pdxmesh = "geo_38t_e_BUL_mesh"
+}
+##中戦車
+entity = { # "geo_panzer3_j_BUL_entity"
+	name = "geo_panzer3_j_BUL_entity"
+	pdxmesh = "geo_panzer3_j_BUL_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.8
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+entity = { # "geo_panzer4_g_BUL_entity"
+	name = "geo_panzer4_g_BUL_entity"
+	pdxmesh = "geo_panzer4_g_BUL_mesh"
+
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.8
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+entity = { # "geo_panther_d_BUL_entity"
+	name = "geo_panther_d_BUL_entity"
+	pdxmesh = "geo_panther_d_BUL_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 1.425
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+##突撃砲
+entity = { # "geo_stug3_g_BUL_entity"
+	clone = "geo_panzer3_j_BUL_entity"
+	name = "geo_stug3_g_BUL_entity"
+	pdxmesh = "geo_stug3g_BUL_mesh"
+}
+
+##ベルギー
+#Tier0 バニラ
+#Tier1
+
+#Tier2未定
+##中戦車
+#Tier0
+entity = { # "geo_s35_BEL_entity"
+	clone = "geo_r39_entity"
+	name = "geo_s35_BEL_entity"
+	pdxmesh = "geo_s35_BEL_mesh"
+}
+#Tier1
+entity = { # "geo_m4a4_BEL_entity"
+	clone = "geo_s35_BEL_entity"
+	name = "geo_m4a4_BEL_entity"
+	pdxmesh = "geo_m4a4_BEL_mesh"
+}
+#Tier2
+entity = { # "geo_m4a3e8_BEL_entity"
+	clone = "geo_s35_BEL_entity"
+	name = "geo_m4a3e8_BEL_entity"
+	pdxmesh = "geo_m4a3e8_BEL_mesh"
+}
+##重戦車
+#Tier0
+entity = { # "geo_b1bis_BEL_entity"
+	clone = "geo_s35_BEL_entity"
+	name = "geo_b1bis_BEL_entity"
+	pdxmesh = "geo_b1bis_BEL_mesh"
+}
+#Tier1
+entity = { # "geo_m4a3e2_BEL_entity"
+	clone = "geo_s35_BEL_entity"
+	name = "geo_m4a3e2_BEL_entity"
+	pdxmesh = "geo_m4a3e2_BEL_mesh"
+}

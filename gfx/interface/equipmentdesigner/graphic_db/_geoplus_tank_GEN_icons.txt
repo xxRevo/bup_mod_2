@@ -1,0 +1,147 @@
+ #(# Generic Start
+  default = {
+	#(# light tank start
+	   #(# 0
+		  light_tank_chassis_0 = {
+			  pool = {
+				  weight = 3
+				  models = {  }
+			  }		
+			  pool = {
+				  weight = 2
+				  models = {  }
+			  }
+		  }
+		  light_tank_destroyer_chassis_0 = {
+			  pool = {
+				  weight = 5
+			  }
+			  pool = {
+				  weight = 4
+				  models = {
+					  
+				  }
+			  }
+		  }
+	   #)#
+	   #(# 1
+		  light_tank_chassis_1 = {
+			  pool = {
+				  weight = 3
+				  models = {  }
+			  }
+			  pool = {
+				  weight = 2
+				  models = {
+					  
+					  
+				  }
+			  }
+		  }
+	   #)#
+	   #(# 2
+		  light_tank_artillery_chassis_2 = {
+			  pool = {
+				  weight = 5
+			  }
+			  pool = {
+				  weight = 4
+				  models = {
+					  
+				  }
+			  }
+		  }
+		  light_tank_destroyer_chassis_2 = {
+			  pool = {
+				  weight = 5
+			  }	
+			  pool = {
+				  weight = 4
+				  models = {
+					  
+				  }
+			  }		
+		  }
+	   #)#
+	#)# light tank end
+	#(# medium tank start
+	   #(# 1
+		  medium_tank_chassis_1 = {
+			  pool = {
+				  weight = 3
+				  models = {  }
+			  }
+			  pool = {
+				  weight = 2
+				  models = {
+					  
+				  }
+			  }
+		  }
+		  medium_tank_artillery_chassis_1 = {
+			  pool = {
+				  weight = 5
+				  models = {  }
+			  }	
+			  pool = {
+				  weight = 4
+				  models = {
+					  
+				  }
+			  }	
+		  }
+		  medium_tank_destroyer_chassis_1 = {
+			  pool = {
+				  weight = 5
+				  models = {  }
+			  }
+			  pool = {
+				  weight = 4
+				  models = {  }
+			  }	
+		  }
+	   #)#
+	   #(# 2
+		  medium_tank_chassis_2 = {
+			  pool = {
+				  weight = 3
+				  models = {  }
+			  }		
+			  pool = {
+				  weight = 2
+				  models = { geo_p2640_GEN_entity }
+			  }
+		  }
+	   #)#
+	   #(# 3
+		  medium_tank_chassis_3 = {
+			  pool = {
+				  weight = 3
+			  }
+			  pool = {
+				  weight = 2
+				  models = {
+					  
+				  }
+			  }
+		  }
+	   #)#
+	#)# medium tank end
+	#(# heavy tank start
+	   #(# 1
+		  heavy_tank_chassis_1 = {
+			  pool = {
+				  weight = 3
+				  models = {  }
+			  }		
+			  pool = {
+				  weight = 2
+				  models = {
+					  
+				  }
+			  }
+		  }
+	   #)#
+	#)# heavy tank end
+	  }
+ #)# Generic End

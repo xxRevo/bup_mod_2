@@ -1,0 +1,68 @@
+##(# Main Start
+ #(# FRA Start
+  #(# light
+   #(# halftrack
+   #)#
+   #(# tank
+   #)#
+   #(# artillery
+      animation = { # "FRA_light_tank_artillery_lorraine37l150_idle_animation"
+         name = "FRA_light_tank_artillery_lorraine37l150_idle_animation"
+         file = "FRA_light_tank_artillery_lorraine37l150_idle.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_lorraine37l150_moving_animation"
+         name = "FRA_light_tank_artillery_lorraine37l150_moving_animation"
+         file = "FRA_light_tank_artillery_lorraine37l150_moving.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_lorraine37l150_attack_animation"
+         name = "FRA_light_tank_artillery_lorraine37l150_attack_animation"
+         file = "FRA_light_tank_artillery_lorraine37l150_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "FRA_light_tank_destroyer_r3547_idle_animation"
+         name = "FRA_light_tank_destroyer_r3547_idle_animation"
+         file = "FRA_light_tank_destroyer_r3547_idle.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_r3547_moving_animation"
+         name = "FRA_light_tank_destroyer_r3547_moving_animation"
+         file = "FRA_light_tank_destroyer_r3547_moving.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_r3547_attack_animation"
+         name = "FRA_light_tank_destroyer_r3547_attack_animation"
+         file = "FRA_light_tank_destroyer_r3547_attack.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# FRA End
+##)# Main End
+
+	
+
+

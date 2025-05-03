@@ -1,0 +1,47 @@
+ #(# SOV Start
+	SOV = {
+  #(# Light Tanks start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_t26obr1933_SOV_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Light Tanks end
+  #(# Medium Tanks start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_m3lee_SOV_entity }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_t3476obr1943_SOV_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_m4a2late_76_SOV_entity
+					geo_m4a2late_SOV_entity
+					geo_t3485_SOV_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium tanks end
+  	}
+ #)# SOV End

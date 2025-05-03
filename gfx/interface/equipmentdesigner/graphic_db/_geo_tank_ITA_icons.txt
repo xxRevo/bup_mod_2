@@ -1,0 +1,174 @@
+ #(# Italy Start
+	ITA = {
+  #(# Italy light tank start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				models = { geo_l3_ITA_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { geo_l3_camo_ITA_entity }
+			}
+		}
+		light_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = {
+					geo_l3c_camo_ITA_entity
+					geo_l3c_ITA_entity
+				}
+			}
+		}
+     #)#
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_l6_ITA_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_r35_ITA_entity
+					geo_l6_camo_ITA_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_artillery_chassis_2 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = {
+					geo_semovente_da7534_m42_camo_ITA_entity
+					geo_semovente_da7518_m42_ITA_entity
+					geo_semovente_da7518_camo_ITA_entity
+					geo_semovente_da7518_ITA_entity
+				}
+			}
+		}
+		light_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = {
+					geo_semovente_da7534_m42_camo_ITA_entity
+					geo_semovente_da7518_m42_ITA_entity
+					geo_semovente_da7518_camo_ITA_entity
+					geo_semovente_da7518_ITA_entity
+				}
+			}		
+		}
+     #)#
+  #)# light tank end
+  #(# medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_m13_ITA_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_s35_ITA_entity
+					geo_panzer3_n_ITA_entity
+					geo_m15_modi_camo_ITA_entity
+					geo_m15_modi_od_ITA_entity
+					geo_m15_modi_ITA_entity
+					geo_m15_na_camo_ITA_entity
+					geo_m15_na_od_ITA_entity
+					geo_m15_na_ITA_entity
+					geo_m15_camo_ITA_entity
+					geo_m15_od_ITA_entity
+					geo_m15_ITA_entity
+					geo_m13_camo2_ITA_entity
+					geo_m13_camo_ITA_entity
+					geo_m13_od_ITA_entity
+				}
+			}
+		}
+		medium_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+				models = { geo_semovente_da7518_ITA_entity }
+			}	
+			pool = {
+				weight = 4
+				models = {
+					geo_semovente_da7534_m42_camo_ITA_entity
+					geo_semovente_da7518_m42_ITA_entity
+					geo_semovente_da7518_camo_ITA_entity
+				}
+			}	
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+				models = { geo_semovente_da7534_ITA_entity }
+			}
+			pool = {
+				weight = 4
+				models = { geo_semovente_da7534_camo_ITA_entity }
+			}	
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_p2640_camo_ITA_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_panzer4_g_ITA_entity
+					
+				}
+			}
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_panther_d_ITA_entity
+					geo_panther_d_ITA_ns_entity
+				}
+			}
+		}
+	 #)#
+  #)# Italy medium tank end
+  #(# Italy heavy tank start
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_p75_ITA_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_p75_camo_ITA_entity
+					geo_p75_od_ITA_entity
+				}
+			}
+		}
+     #)#
+  #)# Italy heavy tank end
+	}
+ #)# Italy End

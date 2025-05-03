@@ -1,0 +1,41 @@
+
+#######################北欧#######################
+
+objectTypes = {
+##フィンランド
+	pdxmesh = {
+		name = "geo_ms406_FIN_mesh"
+		file = "gfx/models/units/planes/geo_ms406.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_ms406_FIN_diffuse.dds"
+			texture_normal = "geo_ms406_normal.dds"
+			texture_specular = "geo_ms406_specular.dds"
+		}
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_hurricane_FIN_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_FIN.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_hurricane_FIN_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_FIN.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_hurricane_mk2b_FIN_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_FIN.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_blenheim_FIN_mesh"
+		file = "gfx/models/units/planes/geo_blenheim.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_blenheim_FIN_diffuse.dds"
+			texture_normal = "geo_blenheim_normal.dds"
+			texture_specular = "geo_blenheim_specular.dds"
+		}
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+}

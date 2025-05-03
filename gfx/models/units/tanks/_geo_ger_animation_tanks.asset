@@ -1,0 +1,172 @@
+
+animation = {
+	name = "geo_panther_idle_animation"
+	file = "geo_panther_idle.anim"
+}
+
+animation = {
+	name = "geo_panther_move_animation"
+	file = "geo_panther_move.anim"
+}
+
+animation = {
+	name = "geo_panther_attack_animation"
+	file = "geo_panther_attack.anim"
+}
+##２号戦車
+animation = {
+	name = "geo_panzer2_idle_animation"
+	file = "geo_panzer2_idle.anim"
+}
+
+animation = {
+	name = "geo_panzer2_move_animation"
+	file = "geo_panzer2_move.anim"
+}
+
+animation = {
+	name = "geo_panzer2_attack_animation"
+	file = "geo_panzer2_attack.anim"
+}
+##35t
+animation = {
+	name = "geo_35t_idle_animation"
+	file = "geo_35t_idle.anim"
+}
+animation = {
+	name = "geo_35t_move_animation"
+	file = "geo_35t_move.anim"
+}
+animation = {
+	name = "geo_35t_attack_animation"
+	file = "geo_35t_attack.anim"
+}
+
+##38t
+animation = {
+	name = "geo_38t_idle_animation"
+	file = "geo_38t_idle.anim"
+}
+animation = {
+	name = "geo_38t_move_animation"
+	file = "geo_38t_move.anim"
+}
+animation = {
+	name = "geo_38t_attack_animation"
+	file = "geo_38t_attack.anim"
+}
+
+animation = {
+	name = "geo_tiger_idle_animation"
+	file = "geo_tiger_idle.anim"
+}
+
+animation = {
+	name = "geo_tiger_move_animation"
+	file = "geo_tiger_move.anim"
+}
+
+animation = {
+	name = "geo_tiger_attack_animation"
+	file = "geo_tiger_attack.anim"
+}
+
+animation = {
+	name = "geo_tiger2_idle_animation"
+	file = "geo_tiger2_idle.anim"
+}
+
+animation = {
+	name = "geo_tiger2_move_animation"
+	file = "geo_tiger2_move.anim"
+}
+
+animation = {
+	name = "geo_tiger2_attack_animation"
+	file = "geo_tiger2_attack.anim"
+}
+
+##3号戦車
+animation = {
+	name = "geo_panzer3_idle_animation"
+	file = "geo_panzer3_idle.anim"
+}
+
+animation = {
+	name = "geo_panzer3_move_animation"
+	file = "geo_panzer3_move.anim"
+}
+
+animation = {
+	name = "geo_panzer3_attack_animation"
+	file = "geo_panzer3_attack.anim"
+}
+##ヘッツァー
+animation = {
+	name = "geo_hetzer_idle_animation"
+	file = "geo_hetzer_idle.anim"
+}
+animation = {
+	name = "geo_hetzer_move_animation"
+	file = "geo_hetzer_move.anim"
+}
+animation = {
+	name = "geo_hetzer_attack_animation"
+	file = "geo_hetzer_attack.anim"
+}
+##3号突撃砲
+animation = {
+	name = "geo_stug3_idle_animation"
+	file = "geo_stug3_idle.anim"
+}
+
+animation = {
+	name = "geo_stug3_move_animation"
+	file = "geo_stug3_move.anim"
+}
+
+animation = {
+	name = "geo_stug3_attack_animation"
+	file = "geo_stug3_attack.anim"
+}
+
+##4号戦車
+animation = {
+	name = "geo_panzer4_idle_animation"
+	file = "geo_panzer4_idle.anim"
+}
+animation = {
+	name = "geo_panzer4_move_animation"
+	file = "geo_panzer4_move.anim"
+}
+animation = {
+	name = "geo_panzer4_attack_animation"
+	file = "geo_panzer4_attack.anim"
+}
+##4号突撃砲
+animation = {
+	name = "geo_stug4_idle_animation"
+	file = "geo_stug4_idle.anim"
+}
+##4号駆逐戦車
+animation = {
+	name = "geo_Jagdpanzer4_idle_animation"
+	file = "geo_Jagdpanzer4_idle.anim"
+}
+##レオパルド1
+animation = {
+	name = "geo_leo1_idle_animation"
+	file = "geo_leo1_idle.anim"
+}
+animation = {
+	name = "geo_leo1_move_animation"
+	file = "geo_leo1_move.anim"
+}
+animation = {
+	name = "geo_leo1_attack_animation"
+	file = "geo_leo1_attack.anim"
+}
+animation = {
+	name = "geo_leo1_retreat_animation"
+	file = "geo_leo1_retreat.anim"
+}

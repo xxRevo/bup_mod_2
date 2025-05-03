@@ -1,0 +1,10 @@
+
+objectTypes = {
+	pdxmesh = {
+		name = "geo_m75_mesh"
+		file = "gfx/models/units/vehicles/geo_m75.mesh"
+		
+		animation = { id = "idle"			type = "geo_m75_idle_animation" }
+		animation = { id = "move"			type = "geo_m75_move_animation" }
+	}
+}

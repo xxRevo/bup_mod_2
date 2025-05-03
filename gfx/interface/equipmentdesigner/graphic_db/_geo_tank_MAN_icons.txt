@@ -1,0 +1,62 @@
+
+ #(# MAN Start
+	MAN = {
+  #(# light tank start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				models = { geo_type74_MAN_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_type97_teke_mg_MAN_entity
+					geo_type97_teke_mg_MAN_entity
+				}
+			}
+		}
+     #)#
+  #)# light tank end
+  #(# medium tank start
+     #(# 0
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_type97_chiha_MAN_entity }
+			}
+		}
+     #)#
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_type97_chiha_MAN_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_type1_MAN_entity
+					geo_type97_chiha_kai_MAN_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_type3_MAN_entity }
+			}
+			pool = {
+				weight = 2
+				models = {  }
+			}
+		}
+     #)#
+  #)#  Medium tank end
+	}
+ #)# MAN End

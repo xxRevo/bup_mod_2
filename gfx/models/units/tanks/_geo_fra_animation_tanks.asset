@@ -1,0 +1,43 @@
+##オチキスH35軽戦車
+animation = {
+	name = "geo_h35_idle_animation"
+	file = "geo_h35_idle.anim"
+}
+animation = {
+	name = "geo_h35_move_animation"
+	file = "geo_h35_move.anim"
+}
+animation = {
+	name = "geo_h35_attack_animation"
+	file = "geo_h35_attack.anim"
+}
+##ソミュアS35中戦車
+animation = {
+	name = "geo_s35_idle_animation"
+	file = "geo_s35_idle.anim"
+}
+animation = {
+	name = "geo_s35_move_animation"
+	file = "geo_s35_move.anim"
+}
+animation = {
+	name = "geo_s35_attack_animation"
+	file = "geo_s35_attack.anim"
+}
+##シャールB1重戦車
+animation = {
+	name = "geo_b1_idle_animation"
+	file = "geo_b1_idle.anim"
+}
+animation = {
+	name = "geo_b1_move_animation"
+	file = "geo_b1_move.anim"
+}
+animation = {
+	name = "geo_b1_attack_animation"
+	file = "geo_b1_attack.anim"
+}
+animation = {
+	name = "geo_b1_attack2_animation"
+	file = "geo_b1_attack2.anim"
+}

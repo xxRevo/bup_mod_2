@@ -1,0 +1,75 @@
+##(# AAT Start
+ #(# SWE Start
+  #(# light
+   #(# tank
+      
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "SWE_medium_tank_strvm42l_attack_animation"
+         name = "SWE_medium_tank_strvm42l_attack_animation"
+         file = "SWE_medium_tank_strvm42l_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_strvm42l_idle_animation"
+         name = "SWE_medium_tank_strvm42l_idle_animation"
+         file = "SWE_medium_tank_strvm42l_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_strvm42l_moving_animation"
+         name = "SWE_medium_tank_strvm42l_moving_animation"
+         file = "SWE_medium_tank_strvm42l_moving.anim"
+      }
+      animation = { # "SWE_medium_tank_lansen_attack_animation"
+         name = "SWE_medium_tank_lansen_attack_animation"
+         file = "SWE_medium_tank_lansen_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_lansen_idle_animation"
+         name = "SWE_medium_tank_lansen_idle_animation"
+         file = "SWE_medium_tank_lansen_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_lansen_moving_animation"
+         name = "SWE_medium_tank_lansen_moving_animation"
+         file = "SWE_medium_tank_lansen_moving.anim"
+      }
+      animation = { # "SWE_medium_tank_strv74_attack_animation"
+         name = "SWE_medium_tank_strv74_attack_animation"
+         file = "SWE_medium_tank_strv74_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_strv74_idle_animation"
+         name = "SWE_medium_tank_strv74_idle_animation"
+         file = "SWE_medium_tank_strv74_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_strv74_moving_animation"
+         name = "SWE_medium_tank_strv74_moving_animation"
+         file = "SWE_medium_tank_strv74_moving.anim"
+      }
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# SWE End
+##)# AAT End

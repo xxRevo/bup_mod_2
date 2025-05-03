@@ -1,0 +1,88 @@
+##(# DOD Start
+ #(# YUG Start
+  #(# light
+   #(# tank
+
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+      animation = { # "YUG_light_tank_destroyer_m3a3stuartpak_attack_animation"
+         name = "YUG_light_tank_destroyer_m3a3stuartpak_attack_animation"
+         file = "YUG_light_tank_destroyer_m3a3stuartpak_attack.anim"
+      }
+      animation = { # "YUG_light_tank_destroyer_m3a3stuartpak_idle_animation"
+         name = "YUG_light_tank_destroyer_m3a3stuartpak_idle_animation"
+         file = "YUG_light_tank_destroyer_m3a3stuartpak_idle.anim"
+      }
+      animation = { # "YUG_light_tank_destroyer_m3a3stuartpak_moving_animation"
+         name = "YUG_light_tank_destroyer_m3a3stuartpak_moving_animation"
+         file = "YUG_light_tank_destroyer_m3a3stuartpak_moving.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "YUG_light_tank_aa_m3a3stuartaa_attack_animation"
+         name = "YUG_light_tank_aa_m3a3stuartaa_attack_animation"
+         file = "YUG_light_tank_aa_m3a3stuartaa_attack.anim"
+      }
+      animation = { # "YUG_light_tank_aa_m3a3stuartaa_idle_animation"
+         name = "YUG_light_tank_aa_m3a3stuartaa_idle_animation"
+         file = "YUG_light_tank_aa_m3a3stuartaa_idle.anim"
+      }
+      animation = { # "YUG_light_tank_aa_m3a3stuartaa_moving_animation"
+         name = "YUG_light_tank_aa_m3a3stuartaa_moving_animation"
+         file = "YUG_light_tank_aa_m3a3stuartaa_moving.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "YUG_medium_tank_vozilo_attack_animation"
+         name = "YUG_medium_tank_vozilo_attack_animation"
+         file = "YUG_medium_tank_vozilo_attack.anim"
+      }
+      animation = { # "YUG_medium_tank_vozilo_idle_animation"
+         name = "YUG_medium_tank_vozilo_idle_animation"
+         file = "YUG_medium_tank_vozilo_idle.anim"
+      }
+      animation = { # "YUG_medium_tank_vozilo_moving_animation"
+         name = "YUG_medium_tank_vozilo_moving_animation"
+         file = "YUG_medium_tank_vozilo_moving.anim"
+      }
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+      animation = { # "YUG_modern_tank_condor_attack_animation"
+         name = "YUG_modern_tank_condor_attack_animation"
+         file = "YUG_modern_tank_condor_attack.anim"
+      }
+      animation = { # "YUG_modern_tank_condor_idle_animation"
+         name = "YUG_modern_tank_condor_idle_animation"
+         file = "YUG_modern_tank_condor_idle.anim"
+      }
+      animation = { # "YUG_modern_tank_condor_moving_animation"
+         name = "YUG_modern_tank_condor_moving_animation"
+         file = "YUG_modern_tank_condor_moving.anim"
+      }
+   #)#
+  #)#
+ #)# YUG End
+##)# DOD End

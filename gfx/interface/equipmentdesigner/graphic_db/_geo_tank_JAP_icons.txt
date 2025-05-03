@@ -1,0 +1,91 @@
+ #(# Japan Start
+	JAP = {
+  #(# Japan light tank start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				models = { geo_type94_JAP_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_type97_teke_mg_JAP_entity
+					geo_type97_teke_JAP_entity
+				}
+			}
+		}
+     #)#
+  #)# Japan light tank end
+  #(# Japan medium tank start
+     #(# 0
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_type97_chiha_JAP_entity }
+			}
+		}
+     #)#
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_type97_chiha_JAP_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_type1_JAP_entity
+					geo_type97_chiha_kai_JAP_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_type3_JAP_entity }
+			}
+			pool = {
+				weight = 2
+				models = { geo_m4a3e8_JAP_entity }
+			}
+		}
+     #)#
+  #)# Japan Medium tank end
+  #(# Super modern amphibious start
+     #(# 1
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {  }
+			}
+		}
+     #)#
+	 #(# 2
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_type90a2_JAP_entity
+					geo_type90_JAP_entity
+					geo_type74g_JAP_entity
+					geo_type74_searchlight_JAP_entity
+					geo_type74_JAP_entity
+				}
+			}
+		}
+ #)#
+  #)# Germany Super modern amphibious end
+	}
+ #)# Japan End

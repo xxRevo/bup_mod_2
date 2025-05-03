@@ -1,0 +1,49 @@
+
+###########################フランス###########################
+
+###########################戦闘機###########################
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "geo_ms406_mesh"
+		file = "gfx/models/units/planes/geo_ms406.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "geo_d520_mesh"
+		file = "gfx/models/units/planes/geo_fra_d520.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "geo_mb157_mesh"
+		file = "gfx/models/units/planes/geo_fra_mb157.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}	
+	
+###########################艦上戦闘機#######################	
+	
+	pdxmesh = {
+		name = "geo_ms406_navy_mesh"
+		file = "gfx/models/units/planes/geo_ms406_FRA_navy.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+
+###########################近接航空支援機#######################
+
+	pdxmesh = {
+		name = "geo_ln40_mesh"
+		file = "gfx/models/units/planes/geo_fra_ln40.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_br693_mesh"
+		file = "gfx/models/units/planes/geo_fra_br693.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+}
+
+

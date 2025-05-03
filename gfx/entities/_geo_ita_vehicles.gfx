@@ -1,0 +1,47 @@
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "geo_fiat626_mesh"
+		file = "gfx/models/units/vehicles/geo_fiat626.mesh"
+		
+		animation = { id = "idle"			type = "geo_fiat626_idle_animation" }
+		animation = { id = "move"			type = "geo_fiat626_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_fiat626_od_mesh"
+		file = "gfx/models/units/vehicles/geo_fiat626.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_fiat626_od_diffuse.dds"
+			texture_normal = "geo_fiat626_normal.dds"
+			texture_specular = "geo_fiat626_specular.dds"
+		}
+		animation = { id = "idle"			type = "geo_fiat626_idle_animation" }
+		animation = { id = "move"			type = "geo_fiat626_move_animation" }
+	}
+	
+	pdxmesh = {
+		name = "geo_spa35_mesh"
+		file = "gfx/models/units/vehicles/geo_spa35p.mesh"
+		
+		animation = { id = "idle"			type = "geo_spa35_idle_animation" }
+		animation = { id = "move"			type = "geo_spa35_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_as37_mesh"
+		file = "gfx/models/units/vehicles/geo_as37.mesh"
+		
+		animation = { id = "idle"			type = "geo_as37_idle_animation" }
+		animation = { id = "move"			type = "geo_as37_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_cvp5_mesh"
+		file = "gfx/models/units/vehicles/geo_cvp5.mesh"
+		
+		animation = { id = "idle"			type = "geo_cvp5_idle_animation" }
+		animation = { id = "move"			type = "geo_cvp5_move_animation" }
+	}
+}

@@ -1,0 +1,230 @@
+
+objectTypes = {
+
+###64式
+	pdxmesh = {
+		name = "geo_type64_mesh"
+		file = "gfx/models/units/small_arms/geo_type64.mesh"
+	}
+
+###89式
+	pdxmesh = {
+		name = "geo_type89_mesh"
+		file = "gfx/models/units/small_arms/geo_type89.mesh"
+	}
+
+###M16
+	pdxmesh = {
+		name = "geo_m16a1_mesh"
+		file = "gfx/models/units/small_arms/geo_m16a1.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_m16a2_mesh"
+		file = "gfx/models/units/small_arms/geo_m16a2.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_c7_mesh"
+		file = "gfx/models/units/small_arms/geo_c7.mesh"
+	}
+	
+	pdxmesh = {
+		name = "geo_c7_green_mesh"
+		file = "gfx/models/units/small_arms/geo_c7_green.mesh"
+	}
+
+###FAL
+	pdxmesh = {
+		name = "geo_fal_mesh"
+		file = "gfx/models/units/small_arms/geo_fal.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_fal_wood_mesh"
+		file = "gfx/models/units/small_arms/geo_fal_wood.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_fal_para_mesh"
+		file = "gfx/models/units/small_arms/geo_fal_para.mesh"
+	}
+
+###G3
+	pdxmesh = {
+		name = "geo_g3_mesh"
+		file = "gfx/models/units/small_arms/geo_g3a3.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_g3_wide_mesh"
+		file = "gfx/models/units/small_arms/geo_g3_wide.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_g3_bk_mesh"
+		file = "gfx/models/units/small_arms/geo_g3_bk.mesh"
+	}
+	pdxmesh = {
+		name = "geo_g3_wood_mesh"
+		file = "gfx/models/units/small_arms/geo_g3a3_wood.mesh"
+	}
+	pdxmesh = {
+		name = "geo_hk33_mesh"
+		file = "gfx/models/units/small_arms/geo_hk33.mesh"
+	}
+
+###g36
+	pdxmesh = {
+		name = "geo_g36_mesh"
+		file = "gfx/models/units/small_arms/geo_g36.mesh"
+	}
+	pdxmesh = {
+		name = "geo_g36e_mesh"
+		file = "gfx/models/units/small_arms/geo_g36e.mesh"
+	}
+
+##aug
+	pdxmesh = {
+		name = "geo_aug_mesh"
+		file = "gfx/models/units/small_arms/geo_aug.mesh"
+	}
+
+###AK
+	pdxmesh = {
+		name = "geo_akm_mesh"
+		file = "gfx/models/units/small_arms/geo_akm.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_akms_mesh"
+		file = "gfx/models/units/small_arms/geo_akms.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_akms_sf_mesh"
+		file = "gfx/models/units/small_arms/geo_akms_sf.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_ak47s_mesh"
+		file = "gfx/models/units/small_arms/geo_ak47s.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_ak74_mesh"
+		file = "gfx/models/units/small_arms/geo_ak74.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_aks74_mesh"
+		file = "gfx/models/units/small_arms/geo_aks74.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_aims74_mesh"
+		file = "gfx/models/units/small_arms/geo_aims74.mesh"
+	}
+	
+	pdxmesh = {
+		name = "geo_ak103_mesh"
+		file = "gfx/models/units/small_arms/geo_ak103.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_type88_mesh"
+		file = "gfx/models/units/small_arms/geo_type88.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_wz1996_mesh"
+		file = "gfx/models/units/small_arms/geo_wz1996.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_rk95_mesh"
+		file = "gfx/models/units/small_arms/geo_rk95.mesh"
+	}
+
+###マリューク
+
+	pdxmesh = {
+		name = "geo_Malyuk_mesh"
+		file = "gfx/models/units/small_arms/geo_Malyuk.mesh"
+	}
+
+##FAMAS
+	pdxmesh = {
+		name = "geo_FAMAS_mesh"
+		file = "gfx/models/units/small_arms/geo_famas.mesh"
+	}
+
+##ガリル
+	pdxmesh = {
+		name = "geo_galil_mesh"
+		file = "gfx/models/units/small_arms/geo_galil.mesh"
+	}
+	pdxmesh = {
+		name = "geo_galil_short_mesh"
+		file = "gfx/models/units/small_arms/geo_galil_short.mesh"
+	}
+
+##FNC
+	pdxmesh = {
+		name = "geo_fnc_mesh"
+		file = "gfx/models/units/small_arms/geo_fnc.mesh"
+	}
+	pdxmesh = {
+		name = "geo_ak5_mesh"
+		file = "gfx/models/units/small_arms/geo_ak5.mesh"
+	}
+
+##SG540
+	pdxmesh = {
+		name = "geo_sg540_mesh"
+		file = "gfx/models/units/small_arms/geo_sg540.mesh"
+	}
+
+##M21
+	pdxmesh = {
+		name = "geo_zastava_m21_mesh"
+		file = "gfx/models/units/small_arms/geo_zastava_m21.mesh"
+	}
+	pdxmesh = {
+		name = "geo_zastava_m21S_mesh"
+		file = "gfx/models/units/small_arms/geo_zastava_m21S.mesh"
+	}
+	pdxmesh = {
+		name = "geo_zastava_m21A_mesh"
+		file = "gfx/models/units/small_arms/geo_zastava_m21A.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_insas_mesh"
+		file = "gfx/models/units/small_arms/geo_insas.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_arx160_mesh"
+		file = "gfx/models/units/small_arms/geo_arx160.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_t91_mesh"
+		file = "gfx/models/units/small_arms/geo_t91.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_Vz58_mesh"
+		file = "gfx/models/units/small_arms/geo_vz58.mesh"
+	}
+
+	pdxmesh = {
+		name = "geo_Vz58p_mesh"
+		file = "gfx/models/units/small_arms/geo_vz58p.mesh"
+	}
+	pdxmesh = {
+		name = "geo_amd65_mesh"
+		file = "gfx/models/units/small_arms/geo_amd65.mesh"
+	}
+}

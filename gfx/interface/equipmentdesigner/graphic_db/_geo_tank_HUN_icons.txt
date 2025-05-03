@@ -1,0 +1,112 @@
+ #(# Hungary Start
+	HUN = {
+  #(# light tank start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_l3_HUN_entity }
+			}
+		}
+		light_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { geo_l3c_HUN_entity }
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_38t_e_HUN_entity }
+			}
+		}
+     #)#
+  #)# light tank end
+  #(# medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_40m_turan_OD_HUN_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_41m_turan_schulzen_HUN_entity
+					geo_41m_turan_HUN_entity
+					geo_41m_turan_OD_HUN_entity
+					geo_40m_turan_schulzen_HUN_entity
+					geo_40m_turan_HUN_entity
+				}
+			}
+		}
+		medium_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+				models = { geo_43m_zrinyi2_OD_HUN_entity }
+			}	
+			pool = {
+				weight = 4
+				models = {
+					geo_43m_zrinyi2_schulzen_HUN_entity
+					geo_43m_zrinyi2_HUN_entity
+				}
+			}	
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+				models = { geo_43m_zrinyi1_OD_HUN_entity }
+			}	
+			pool = {
+				weight = 4
+				models = {
+					geo_43m_zrinyi1_schulzen_HUN_entity
+					geo_43m_zrinyi1_HUN_entity
+				}
+			}	
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_43m_turan_OD_HUN_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_panzer4_f_HUN_entity
+					geo_43m_turan_schulzen_HUN_entity
+					geo_43m_turan_HUN_entity
+				}
+			}
+		}
+     #)#
+  #)# medium tank end
+  #(# heavy tank start
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_tiger_HUN_entity }
+			}
+		}
+     #)#
+  #)# heavy tank end
+	}
+ #)# Hungary End

@@ -1,0 +1,62 @@
+##(# DOD Start
+ #(# CZE Start
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+      animation = { # "CZE_light_tank_destroyer_skodasid_attack_animation"
+         name = "CZE_light_tank_destroyer_skodasid_attack_animation"
+         file = "CZE_light_tank_destroyer_skodasid_attack.anim"
+      }
+      animation = { # "CZE_light_tank_destroyer_skodasid_idle_animation"
+         name = "CZE_light_tank_destroyer_skodasid_idle_animation"
+         file = "CZE_light_tank_destroyer_skodasid_idle.anim"
+      }
+      animation = { # "CZE_light_tank_destroyer_skodasid_moving_animation"
+         name = "CZE_light_tank_destroyer_skodasid_moving_animation"
+         file = "CZE_light_tank_destroyer_skodasid_moving.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+      animation = { # "CZE_heavy_tank_tatra3_attack_animation"
+         name = "CZE_heavy_tank_tatra3_attack_animation"
+         file = "CZE_heavy_tank_tatra3_attack.anim"
+      }
+      animation = { # "CZE_heavy_tank_tatra3_idle_animation"
+         name = "CZE_heavy_tank_tatra3_idle_animation"
+         file = "CZE_heavy_tank_tatra3_idle.anim"
+      }
+      animation = { # "CZE_heavy_tank_tatra3_moving_animation"
+         name = "CZE_heavy_tank_tatra3_moving_animation"
+         file = "CZE_heavy_tank_tatra3_moving.anim"
+      }
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# CZE End
+##)# DOD End

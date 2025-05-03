@@ -1,0 +1,136 @@
+ #(# FRA Start
+	FRA = {
+  #(# France light tank start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_r35_FRA_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_h39_FRA_entity
+					geo_h38_FRA_entity
+					geo_h35_FRA_entity
+					geo_h39_FRA_entity
+				}
+			}
+		}
+     #)#
+  #)# France Light tank end
+  #(# France Medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_s35_FRA_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_m4a2late_76_FRA_entity
+					geo_m4a2late_FRA_entity
+					geo_m4a2mid_FRA_entity
+					geo_m4a4_FRA_entity
+				}
+			}
+		}
+     #)#
+  #)# France Medium tank end
+  #(# France Heavy tank start
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_b1bis_FRA_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_m4a3e2_FRA_entity }
+			}
+		}
+     #)#
+  #)# France Heavy tank end
+	}
+ #)# FRA End
+
+ #(# BEL Start
+	BEL = {
+  #(# Medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_s35_BEL_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_m4a3e8_BEL_entity
+					geo_m4a4_BEL_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium tank end
+  #(# Heavy tank start
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_m4a3e8_BEL_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_m4a3e2_BEL_entity }
+			}
+		}
+     #)#
+  #)# Heavy tank end
+	}
+ #)# BEL End

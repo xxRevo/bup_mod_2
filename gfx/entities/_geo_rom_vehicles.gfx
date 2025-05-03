@@ -1,0 +1,25 @@
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "geo_skoda_t21_apc_ROM_mesh"
+		file = "gfx/models/units/vehicles/geo_skoda_t21_apc_ROM.mesh"
+			
+		animation = { id = "idle"			type = "geo_skoda_t21_idle_animation" }
+		animation = { id = "move"			type = "geo_skoda_t21_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ford_g917t_ROM_mesh"
+		file = "gfx/models/units/vehicles/geo_ford_g917t_ROM.mesh"
+		
+		animation = { id = "idle"			type = "geo_ford_g917t_idle_animation" }
+		animation = { id = "move"			type = "geo_ford_g917t_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ford_g917t_ROM_camo_mesh"
+		file = "gfx/models/units/vehicles/geo_ford_g917t_ROM_camo.mesh"
+		
+		animation = { id = "idle"			type = "geo_ford_g917t_idle_animation" }
+		animation = { id = "move"			type = "geo_ford_g917t_move_animation" }
+	}
+}

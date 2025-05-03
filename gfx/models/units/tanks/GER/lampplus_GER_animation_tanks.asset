@@ -1,0 +1,16 @@
+##(# Main Start
+ #(# GER Start
+		animation = { # "GER_heavy_tank_tigerp_idle_animation"
+			name = "GER_heavy_tank_tigerp_idle_animation"
+			file = "GER_heavy_tank_tigerp_idle.anim"
+		}
+		animation = { # "GER_heavy_tank_tigerp_moving_animation"
+			name = "GER_heavy_tank_tigerp_moving_animation"
+			file = "GER_heavy_tank_tigerp_moving.anim"
+		}
+		animation = { # "GER_heavy_tank_tigerp_attack_animation"
+			name = "GER_heavy_tank_tigerp_attack_animation"
+			file = "GER_heavy_tank_tigerp_attack.anim"
+		}
+ #)# GER End
+##)# Main End

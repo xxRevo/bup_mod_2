@@ -1,0 +1,24 @@
+##(# Main Start
+ #(# ENG Start
+  #(# super modern amphibious
+   #(# tank
+    animation = { # "ENG_amphibious_tank_a4e12_idle_animation"
+        name = "ENG_amphibious_tank_a4e12_idle_animation"
+        file = "ENG_amphibious_tank_a4e12_idle.anim"
+    }
+    animation = { # "ENG_amphibious_tank_a4e12_moving_animation"
+        name = "ENG_amphibious_tank_a4e12_moving_animation"
+        file = "ENG_amphibious_tank_a4e12_moving.anim"
+    }
+    animation = { # "ENG_amphibious_tank_a4e12_amphibious_moving_animation"
+        name = "ENG_amphibious_tank_a4e12_amphibious_moving_animation"
+        file = "ENG_amphibious_tank_a4e12_amphibious_moving.anim"
+    }
+    animation = { # "ENG_amphibious_tank_a4e12_attack_animation"
+        name = "ENG_amphibious_tank_a4e12_attack_animation"
+        file = "ENG_amphibious_tank_a4e12_attack.anim"
+    }
+   #)#
+  #)#
+ #)# ENG End
+##)# Main End

@@ -1,0 +1,308 @@
+ENG = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_1 = {
+		pool = {
+			weight = 4.1
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+}
+CAN = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_1 = {
+		pool = {
+			weight = 4.1
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+}
+AST = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_1 = {
+		pool = {
+			weight = 4.1
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+}
+NZL = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_1 = {
+		pool = {
+			weight = 4.1
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+}
+RAJ = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_1 = {
+		pool = {
+			weight = 4.1
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+}
+SAF = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_1 = {
+		pool = {
+			weight = 4.1
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+}
+MAL = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+			 	geo_hurricane_ENG_entity
+			 	geo_hurricane_ENG2_entity
+			 	geo_hurricane_mk2b_entity
+				geo_hurricane_mk2c_entity
+			}
+		}
+	}
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_1 = {
+		pool = {
+			weight = 4.1
+			icons = { }
+			models= {
+				geo_blenheim_ENG_entity
+			}
+		}
+	}
+}

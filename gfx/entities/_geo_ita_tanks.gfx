@@ -1,0 +1,313 @@
+
+objectTypes = {
+###軽戦車
+##CV33軽戦車
+	pdxmesh = {
+		name = "geo_l3_mesh"
+		file = "gfx/models/units/tanks/geo_l3.mesh"
+		
+		animation = { id = "idle"			type = "geo_l3_idle_animation" }
+		animation = { id = "move"			type = "geo_l3_move_animation" }
+		animation = { id = "attack"			type = "geo_l3_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_l3_camo_mesh"
+		file = "gfx/models/units/tanks/geo_l3_camo.mesh"
+		
+		animation = { id = "idle"			type = "geo_l3_idle_animation" }
+		animation = { id = "move"			type = "geo_l3_move_animation" }
+		animation = { id = "attack"			type = "geo_l3_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_l3c_mesh"
+		file = "gfx/models/units/tanks/geo_l3c.mesh"
+		
+		animation = { id = "idle"			type = "geo_l3_idle_animation" }
+		animation = { id = "move"			type = "geo_l3_move_animation" }
+		animation = { id = "attack"			type = "geo_l3_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_l3c_camo_mesh"
+		file = "gfx/models/units/tanks/geo_l3c_camo.mesh"
+		
+		animation = { id = "idle"			type = "geo_l3_idle_animation" }
+		animation = { id = "move"			type = "geo_l3_move_animation" }
+		animation = { id = "attack"			type = "geo_l3_attack_animation" }
+	}
+##L6/40軽戦車
+	pdxmesh = {
+		name = "geo_l6_mesh"
+		file = "gfx/models/units/tanks/geo_l6.mesh"
+		
+		animation = { id = "idle"			type = "geo_l6_idle_animation" }
+		animation = { id = "move"			type = "geo_l6_move_animation" }
+		animation = { id = "attack"			type = "geo_l6_attack_animation" }
+	}
+	pdxmesh = {
+		name = "geo_l6_camo_mesh"
+		file = "gfx/models/units/tanks/geo_l6_camo.mesh"
+		
+		animation = { id = "idle"			type = "geo_l6_idle_animation" }
+		animation = { id = "move"			type = "geo_l6_move_animation" }
+		animation = { id = "attack"			type = "geo_l6_attack_animation" }
+	}
+###中戦車
+##M13/40中戦車
+	pdxmesh = {
+		name = "geo_m13_mesh"
+		file = "gfx/models/units/tanks/geo_m13.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m13_od_mesh"
+		file = "gfx/models/units/tanks/geo_m13_od.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m13_camo_mesh"
+		file = "gfx/models/units/tanks/geo_m13_camo.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m13_camo2_mesh"
+		file = "gfx/models/units/tanks/geo_m13_camo2.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+##M15/42中戦車
+	pdxmesh = {
+		name = "geo_m15_na_mesh"
+		file = "gfx/models/units/tanks/geo_m15_na.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m15_na_od_mesh"
+		file = "gfx/models/units/tanks/geo_m15_na_od.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m15_na_camo_mesh"
+		file = "gfx/models/units/tanks/geo_m15_na_camo.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m15_mesh"
+		file = "gfx/models/units/tanks/geo_m15.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m15_od_mesh"
+		file = "gfx/models/units/tanks/geo_m15_od.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m15_camo_mesh"
+		file = "gfx/models/units/tanks/geo_m15_camo.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m15_modi_mesh"
+		file = "gfx/models/units/tanks/geo_m15_modi.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m15_modi_od_mesh"
+		file = "gfx/models/units/tanks/geo_m15_modi_od.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m15_modi_camo_mesh"
+		file = "gfx/models/units/tanks/geo_m15_modi_camo.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+###重戦車
+##P75重戦車
+	pdxmesh = {
+		name = "geo_p75_mesh"
+		file = "gfx/models/units/tanks/geo_p75.mesh"
+		
+		animation = { id = "attack"			type = "geo_p75_attack_animation" }		
+		animation = { id = "idle"			type = "geo_p75_idle_animation" }
+		animation = { id = "move"			type = "geo_p75_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_p75_od_mesh"
+		file = "gfx/models/units/tanks/geo_p75_od.mesh"
+		
+		animation = { id = "attack"			type = "geo_p75_attack_animation" }		
+		animation = { id = "idle"			type = "geo_p75_idle_animation" }
+		animation = { id = "move"			type = "geo_p75_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_p75_camo_mesh"
+		file = "gfx/models/units/tanks/geo_p75_camo.mesh"
+		
+		animation = { id = "attack"			type = "geo_p75_attack_animation" }		
+		animation = { id = "idle"			type = "geo_p75_idle_animation" }
+		animation = { id = "move"			type = "geo_p75_move_animation" }
+	}
+##P26重戦車
+	pdxmesh = {
+		name = "geo_p2640_mesh"
+		file = "gfx/models/units/tanks/geo_p2640.mesh"
+		
+		animation = { id = "attack"			type = "geo_p2640_attack_animation" }		
+		animation = { id = "idle"			type = "geo_p2640_idle_animation" }
+		animation = { id = "move"			type = "geo_p2640_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_p2640_camo_mesh"
+		file = "gfx/models/units/tanks/geo_p2640_camo.mesh"
+		
+		animation = { id = "attack"			type = "geo_p2640_attack_animation" }		
+		animation = { id = "idle"			type = "geo_p2640_idle_animation" }
+		animation = { id = "move"			type = "geo_p2640_move_animation" }
+	}
+###突撃砲
+##セモベンテda75/18
+	pdxmesh = {
+		name = "geo_semovente_da7518_mesh"
+		file = "gfx/models/units/tanks/geo_semovente_da7518.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_semovente_da7618_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_semovente_da7518_camo_mesh"
+		file = "gfx/models/units/tanks/geo_semovente_da7518_camo.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_semovente_da7618_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+##セモベンテda75/18 M42
+	pdxmesh = {
+		name = "geo_semovente_da7518_m42_mesh"
+		file = "gfx/models/units/tanks/geo_semovente_da7518_m42.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_semovente_da7618_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_semovente_da7534_m42_camo_mesh"
+		file = "gfx/models/units/tanks/geo_semovente_da7534_m42_camo.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_semovente_da7618_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+##セモベンテda75/34
+	pdxmesh = {
+		name = "geo_semovente_da7534_mesh"
+		file = "gfx/models/units/tanks/geo_semovente_da7534.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_semovente_da7618_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_semovente_da7534_camo_mesh"
+		file = "gfx/models/units/tanks/geo_semovente_da7534_camo.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_semovente_da7618_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+
+###海外製戦車
+###フランス製戦車
+	pdxmesh = {
+		name = "geo_r35_ITA_mesh"
+		file = "gfx/models/units/tanks/geo_r35_ITA.mesh"
+		
+		animation = { id = "attack"			type = "geo_r35_attack_animation" }		
+		animation = { id = "idle"			type = "geo_r35_idle_animation" }
+		animation = { id = "move"			type = "geo_r35_move_animation" }
+	}
+###ドイツ製戦車
+##3号戦車N型
+	pdxmesh = {
+		name = "geo_panzer3_n_ITA_mesh"
+		file = "gfx/models/units/tanks/geo_panzer3_n_ITA.mesh"
+		
+		animation = { id = "attack"			type = "geo_panzer3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panzer3_idle_animation" }
+		animation = { id = "move"			type = "geo_panzer3_move_animation" }
+	}
+##ソミュアS35
+	pdxmesh = {
+		name = "geo_s35_ITA_mesh"
+		file = "gfx/models/units/tanks/geo_s35_ITA.mesh"
+		
+		animation = { id = "attack"			type = "geo_s35_attack_animation" }		
+		animation = { id = "idle"			type = "geo_s35_idle_animation" }
+		animation = { id = "move"			type = "geo_s35_move_animation" }
+	}
+##4号戦車G型
+	pdxmesh = {
+		name = "geo_panzer4_g_ITA_mesh"
+		file = "gfx/models/units/tanks/geo_panzer4_g_ITA.mesh"
+		
+		animation = { id = "attack"			type = "geo_panzer4_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panzer4_idle_animation" }
+		animation = { id = "move"			type = "geo_panzer4_move_animation" }
+	}
+##パンター
+	pdxmesh = {
+		name = "geo_panther_d_ITA_mesh"
+		file = "gfx/models/units/tanks/geo_panther_d_ITA.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_panther_d_ITA_ns_mesh"
+		file = "gfx/models/units/tanks/geo_panther_d_ns_ITA.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+	}
+}
+

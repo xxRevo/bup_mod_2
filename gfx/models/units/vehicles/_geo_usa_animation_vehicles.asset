@@ -1,0 +1,9 @@
+
+animation = {
+	name = "geo_m75_idle_animation"
+	file = "geo_m75_idle.anim"
+}
+animation = {
+	name = "geo_m75_move_animation"
+	file = "geo_m75_move.anim"
+}

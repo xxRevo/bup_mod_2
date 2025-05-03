@@ -1,0 +1,29 @@
+objectTypes = {
+##ハリケーン
+	pdxmesh = {
+		name = "geo_hurricane_mesh"
+		file = "gfx/models/units/planes/geo_hurricane.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_hurricane_ENG_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_ENG.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_hurricane_mk2b_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_hurricane_mk2c_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2c.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+##ブレニム
+	pdxmesh = {
+		name = "geo_blenheim_ENG_mesh"
+		file = "gfx/models/units/planes/geo_blenheim_ENG.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+}

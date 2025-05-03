@@ -1,0 +1,28 @@
+
+#######################イタリア#######################
+
+######################戦術爆撃機######################
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "Geo_JP_BR20_mesh"
+		file = "gfx/models/units/planes/geo_ita_br20.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_a1_mesh"
+		file = "gfx/models/units/planes/geo_a1.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_f86_JAP_mesh"
+		file = "gfx/models/units/planes/geo_jp_f86.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "geo_t1_mesh"
+		file = "gfx/models/units/planes/geo_t1.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+}

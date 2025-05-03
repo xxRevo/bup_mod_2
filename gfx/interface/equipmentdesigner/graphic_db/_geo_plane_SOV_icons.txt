@@ -1,0 +1,32 @@
+SOV = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			models= {
+			 	SOV_hurricane_SOV_entity
+			 	SOV_hurricane_SOV_mk2b_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			weight = 2.1
+			models= { geo_mig17_entity }
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2
+			models= {
+			 	SOV_hurricane_SOV_entity
+			 	SOV_hurricane_SOV_mk2b_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			weight = 2
+			models= { geo_mig17_entity }
+		}
+	}
+}

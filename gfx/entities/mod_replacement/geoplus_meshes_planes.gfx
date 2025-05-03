@@ -1,0 +1,67 @@
+objectTypes = {
+		pdxmesh = { # "geo_blenheim_GEN_mesh"
+			name = "geo_blenheim_GEN_mesh"
+			file = "gfx/models/units/planes/geo_blenheim_ENG.mesh"
+			animation = { id = "idle" type = "bomber_default_idle_animation" }
+			meshsettings = {
+				texture_diffuse = "GEN_medium_bomber_blenheim_diffuse.dds"
+			}
+		}
+		pdxmesh = { # "geo_t1_GEN_mesh"
+			name = "geo_t1_GEN_mesh"
+			file = "gfx/models/units/planes/geo_t1.mesh"
+			animation = { id = "idle" type = "bomber_default_idle_animation" }
+			meshsettings = {
+				texture_diffuse = "GEN_light_jetfighter_t1_diffuse.dds"
+			}
+		}
+		pdxmesh = { # "geo_f86_GEN_mesh"
+			name = "geo_f86_GEN_mesh"
+			file = "gfx/models/units/planes/geo_jp_f86.mesh"
+			animation = { id = "idle" type = "bomber_default_idle_animation" }
+			meshsettings = {
+				texture_diffuse = "GEN_light_jetfighter_f86_diffuse.dds"
+			}
+		}
+		pdxmesh = { # "geo_mig17_GEN_mesh"
+			name = "geo_mig17_GEN_mesh"
+			file = "gfx/models/units/planes/geo_sov_mig17.mesh"
+			animation = { id = "idle" type = "fighter_default_idle_animation" }
+			meshsettings = {
+				texture_diffuse = "GEN_light_jetfighter_mig17_diffuse.dds"
+			}
+		}
+		pdxmesh = { # "geo_a1_GEN_mesh"
+			name = "geo_a1_GEN_mesh"
+			file = "gfx/models/units/planes/geo_a1.mesh"
+			animation = { id = "idle" type = "bomber_default_idle_animation" }
+			meshsettings = {
+				texture_diffuse = "GEN_light_cas_a1_diffuse.dds"
+			}
+		}
+		pdxmesh = { # "geo_ln40_GEN_mesh"
+			name = "geo_ln40_GEN_mesh"
+			file = "gfx/models/units/planes/geo_fra_ln40.mesh"
+			animation = { id = "idle" type = "fighter_default_idle_animation" }
+			meshsettings = {
+				texture_diffuse = "GEN_light_cas_ln40_diffuse.dds"
+			}
+		}
+		pdxmesh = { # "geo_mb157_GEN_mesh"
+			name = "geo_mb157_GEN_mesh"
+			file = "gfx/models/units/planes/geo_fra_mb157.mesh"
+			animation = { id = "idle" type = "fighter_default_idle_animation" }
+			meshsettings = {
+				texture_diffuse = "GEN_light_fighter_mb157_diffuse.dds"
+			}
+		}
+
+		pdxmesh = { # "geo_f86_USA_mesh"
+			name = "geo_f86_USA_mesh"
+			file = "gfx/models/units/planes/geo_jp_f86.mesh"
+			animation = { id = "idle" type = "bomber_default_idle_animation" }
+			meshsettings = {
+				texture_diffuse = "USA_light_jetfighter_f86_diffuse.dds"
+			}
+		}
+}

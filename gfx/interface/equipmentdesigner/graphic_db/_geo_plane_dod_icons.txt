@@ -1,0 +1,47 @@
+ROM = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2.1
+			icons = { }
+			models= { geo_hurricane_ROM_entity }
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2.1
+			icons = { }
+			models= { geo_hurricane_ROM_entity }
+		}
+	}
+}
+HUN = {
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 2.1
+			icons = { }
+			models= { geo_br20_HUN_entity }
+		}
+	}
+}
+YUG = {
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 2.1
+			icons = { }
+			models= {
+				geo_hurricane_mk2b_YUG_entity
+				geo_hurricane_YUG_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2.1
+			icons = { }
+			models= {
+				geo_hurricane_mk2b_YUG_entity
+				geo_hurricane_YUG_entity
+			}
+		}
+	}
+}

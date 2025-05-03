@@ -1,0 +1,225 @@
+##(# DOD Death or Dishonor start (dlc020)
+ #(# Poland Start
+	POL = { #bicolor #brown_yellow #dot
+  #(# light tank start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_7tp_POL_entity }
+			}
+			pool = {
+				weight = 2
+				models = { geo_r35_POL_entity }
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_10tp_POL_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# light tank end
+  #(# medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_10tp_POL_entity }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_fireflyVC_POL_entity
+					geo_m4a4_POL_entity
+				}
+			}
+		}
+		medium_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { geo_fireflyVC_POL_entity }
+			}
+		}
+     #)#
+  #)# medium tank end
+	}
+ #)# Poland End
+
+ #(# Romania start
+	ROM = { #plain #khaki
+  #(# Light Tanks start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_35t_ROM_entity
+					geo_r35_ROM_entity
+				}
+			}
+		}
+     #)#
+  #)# Light Tank end
+  #(# Medium Tank Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_skoda_t21_ROM_entity }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_panzer4_h_ROM_entity
+					geo_panzer4_g_ROM_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium Tanks end
+	}
+ #)# Romania end
+
+ #(# Czech Start
+	CZE = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_35t_CZE_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_38t_a_CZE_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_skoda_t21_CZE_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Medium Tank End
+	}
+ #)# Czech End
+
+ #(# Slovakia Start
+	SLO = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_35t_SLO_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_38t_a_SLO_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_skoda_t21_SLO_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Medium Tank End
+	}
+ #)# Slovakia End
+
+ #(# Yugoslavia start
+	YUG = { #plain #Grey #White
+  #(# Light Tanks start
+     #(# 0
+     #)#
+     #(# 1
+     #)#
+     #(# 2
+     #)#
+     #(# 3
+     #)#
+  #)# Light Tank end
+  #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
+     #)#
+	}
+  #)# Super_Heavy Modern Tank end
+ #)# Yugoslavia end
+##)# DOD Death or Dishonor end

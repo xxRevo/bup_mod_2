@@ -1,0 +1,258 @@
+spriteTypes = {
+
+ #(Nazi Germany#
+ 
+	#(German landcruiser#
+        SpriteType = {
+            name = "GFX_GER_land_cruiser_armor_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/landcruiser/ger_p1000.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_GER_land_cruiser_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/landcruiser/ger_p1000.dds"
+        }
+	#)#	
+		
+	#(German support vehicle#
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_medium"
+            texturefile = "gfx/interface/technologies/ger/tank/ger_minenraumpanzer_3.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_recovery_medium"
+            texturefile = "gfx/interface/technologies/ger/tank/ger_berge_panzer4.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_recovery_1_medium"
+            texturefile = "gfx/interface/technologies/ger/tank/ger_berge_panzer4.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_recovery_2_medium"
+            texturefile = "gfx/interface/technologies/ger/tank/ger_berge_panzer4.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_crossing_medium"
+            texturefile = "gfx/interface/technologies/ger/tank/ger_bruckenleger_1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_command_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_2/ger_pzbfwg4_ausf_h.dds"
+        }
+	#)#	
+
+	#(German super-heavy SPH#
+        SpriteType = {
+            name = "GFX_GER_self_propelled_super_heavy_artillery_equipment_medium"
+            texturefile = "gfx/interface/technologies/ger/tank/ger_karl.dds"
+        }
+	#)#	
+	
+    #(German howitzer#		
+		SpriteType = {
+		    name = "GFX_GER_super_heavy_artillery_equipment_medium"
+		    texturefile = "gfx/interface/technologies/ger/art/ger_210mm_mrs_18.dds"
+	    }
+	#)#	 
+
+    #(German flame tank#		
+	SpriteType = {
+		name = "GFX_GER_light_flame_tank_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_2/ger_flammpanzer2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_medium_flame_tank_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_1/ger_flammpanzer3.dds" 
+	}
+	#)#	
+
+	#(German mothership#
+		SpriteType = {
+			name = "GFX_GER_mothership_equipment_medium"
+			texturefile = "gfx/interface/technologies/ger/aircraft/ger_db_project_b.dds"
+		}
+	#)#	
+	
+	#(German intercontinental bomber#
+		SpriteType = {
+			name = "GFX_GER_strat_bomber_intercontinental_equipment_medium"
+			texturefile = "gfx/interface/technologies/ger/aircraft/ger_ho_xviii.dds"
+		}
+	#)#	
+
+	#(German helicopter#
+		SpriteType = {
+			name = "GFX_GER_helicopter_equipment_medium"
+			texturefile = "gfx/interface/technologies/ger/aircraft/ger_fl282.dds"
+		}
+	#)#	
+	
+    #(German supersonic fighter#
+        SpriteType = {
+            name = "GFX_GER_small_plane_airframe_5_medium"
+            texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_5/ger_li_p_13a.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_GER_supersonic_fighter1_medium"
+            texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_5/ger_li_p_13a.dds"
+        }
+	#)#	
+
+	#(German missile#	
+	    SpriteType = {
+	    	name = "GFX_GER_nuclear_missile_equipment_2_medium"
+		    texturefile = "gfx/interface/technologies/ger/missile/ger_a9_a10.dds"
+	    }		
+	#)#	 
+#)#
+
+ #(USA#
+ 
+	#(American support vehicle#
+        SpriteType = {
+            name = "GFX_USA_armored_support_vehicle_medium"
+            texturefile = "gfx/interface/technologies/usa/tank/usa_t1e3.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_USA_armored_support_vehicle_recovery_medium"
+            texturefile = "gfx/interface/technologies/usa/tank/usa_m31_arv.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_USA_armored_support_vehicle_recovery_1_medium"
+            texturefile = "gfx/interface/technologies/usa/tank/usa_m31_arv.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_USA_armored_support_vehicle_recovery_2_medium"
+            texturefile = "gfx/interface/technologies/usa/tank/usa_m31_arv.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_USA_armored_support_vehicle_crossing_medium"
+            texturefile = "gfx/interface/technologies/usa/tank/usa_sherman_spab.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_USA_armored_support_vehicle_command_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/light_2/usa_m5_com.dds"
+        }
+	#)#	 
+	
+	#(American landcruiser#
+        SpriteType = {
+            name = "GFX_USA_land_cruiser_armor_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/landcruiser/usa_heavy_t50.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_USA_land_cruiser_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/landcruiser/usa_heavy_t50.dds"
+        }
+	#)#		
+
+	
+    #(American howitzer#
+		SpriteType = {
+		    name = "GFX_USA_super_heavy_artillery_equipment_medium"
+		    texturefile = "gfx/interface/technologies/usa/art/usa_8_inch_m1.dds"
+	    }
+	#)#	 
+	
+	#(American mothership#
+		SpriteType = {
+			name = "GFX_USA_mothership_equipment_medium"
+			texturefile = "gfx/interface/technologies/usa/aircraft/usa_grb_36.dds"
+		}
+	#)#	
+
+	#(American intercontinental bomber#
+		SpriteType = {
+			name = "GFX_USA_strat_bomber_intercontinental_equipment_medium"
+			texturefile = "gfx/interface/technologies/usa/aircraft/usa_b_36.dds"
+		}
+	#)#	
+	
+	#(American helicopter#
+		SpriteType = {
+			name = "GFX_USA_helicopter_equipment_medium"
+			texturefile = "gfx/interface/technologies/usa/aircraft/usa_r_4.dds"
+		}
+	#)#	
+
+    #(American supersonic fighter#
+        SpriteType = {
+            name = "GFX_USA_small_plane_airframe_5_medium"
+            texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_5/usa_f_100a.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_USA_supersonic_fighter1_medium"
+            texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_5/usa_f_100a.dds"
+        }
+	#)#	
+  
+  #(American missle#
+	    SpriteType = {
+		    name = "GFX_USA_ballistic_missile_equipment_1_medium"
+		    texturefile = "gfx/interface/technologies/usa/missile/usa_pgm_11.dds"
+	    }
+		
+	    SpriteType = {
+	    	name = "GFX_USA_ballistic_missile_equipment_2_medium"
+		    texturefile = "gfx/interface/technologies/usa/missile/usa_pgm_17_con.dds"
+	    }
+		
+	    SpriteType = {
+	    	name = "GFX_USA_sam_missile_equipment_medium"
+		    texturefile = "gfx/interface/technologies/usa/missile/usa_mim_3.dds"
+	    }
+
+	    SpriteType = {
+	    	name = "GFX_USA_nuclear_missile_equipment_1_medium"
+		    texturefile = "gfx/interface/technologies/usa/missile/usa_pgm_17.dds"
+	    }
+		
+	    SpriteType = {
+	    	name = "GFX_USA_nuclear_missile_equipment_2_medium"
+		    texturefile = "gfx/interface/technologies/usa/missile/usa_sm_65.dds"
+	    }
+		
+	    SpriteType = {
+		    name = "GFX_USA_guided_missile_equipment_3_medium"
+		    texturefile = "gfx/interface/technologies/usa/missile/usa_pgm_17_con.dds"
+	    }
+		
+	    SpriteType = {
+		    name = "GFX_USA_guided_missile_equipment_2_medium"
+		    texturefile = "gfx/interface/technologies/usa/missile/usa_pgm_11.dds"
+	    }
+		
+	    SpriteType = {
+		    name = "GFX_USA_guided_missile_equipment_1_medium"
+		    texturefile = "gfx/interface/technologies/usa/missile/usa_jb_2.dds"
+	    }   
+
+  #)#    
+
+  
+#)#
+	
+}
+
+
+
+
+
+
+
+
+
+

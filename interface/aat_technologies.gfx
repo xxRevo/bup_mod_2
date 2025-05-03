@@ -1,0 +1,438 @@
+spriteTypes = {
+
+ #(Sweden#
+
+  #(Swedish tank#
+
+    #(Swedish great war tank#
+        SpriteType = {
+            name = "GFX_SWE_gwtank_medium"
+            texturefile = "gfx/interface/technologies/swe_gwtank.dds"
+        } 
+	#)#	    
+
+    #(Swedish light tank#
+        SpriteType = {
+            name = "GFX_SWE_basic_light_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_basic_light_tank.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_basic_light_td_medium"
+            texturefile = "gfx/interface/technologies/swe_basic_light_tank_td.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_basic_light_art_medium"
+            texturefile = "gfx/interface/technologies/swe_basic_light_tank_spa.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_basic_light_spaa_medium"
+            texturefile = "gfx/interface/technologies/swe_basic_light_tank_aa.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_SWE_improved_light_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_imp_light_tank.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_improved_light_td_medium"
+            texturefile = "gfx/interface/technologies/swe_imp_light_tank_td.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_SWE_improved_light_spaa_medium"
+            texturefile = "gfx/interface/technologies/swe_imp_light_tank_aa.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_advanced_light_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_adv_light_tank.dds"	
+        }
+		
+		SpriteType = {
+            name = "GFX_SWE_advanced_light_spaa_medium"
+            texturefile = "gfx/interface/technologies/swe_adv_light_tank_aa.dds"
+        }
+	#)#	
+
+    #(Swedish medium tank#
+        SpriteType = {
+            name = "GFX_SWE_basic_medium_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_basic_main_tank.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_basic_medium_td_medium"
+            texturefile = "gfx/interface/technologies/swe_basic_main_tank_td.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_SWE_basic_medium_art_medium"
+            texturefile = "gfx/interface/technologies/swe_basic_main_tank_spa.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_improved_medium_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_imp_main_tank.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_improved_medium_td_medium"
+            texturefile = "gfx/interface/technologies/swe_imp_main_tank_td.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_SWE_improved_medium_art_medium"
+            texturefile = "gfx/interface/technologies/swe_imp_main_tank_spa.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_advanced_medium_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_adv_main_tank.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_advanced_medium_td_medium"
+            texturefile = "gfx/interface/technologies/swe_adv_main_tank_td.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_SWE_advanced_medium_art_medium"
+            texturefile = "gfx/interface/technologies/swe_adv_main_tank_spa.dds"
+        }
+	#)#	
+
+    #(Swedish heavy tank#
+        SpriteType = {
+            name = "GFX_SWE_basic_heavy_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_basic_heavy_tank.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_improved_heavy_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_imp_heavy_tank.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_advanced_heavy_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_adv_heavy_tank.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_SWE_advanced_heavy_art_medium"
+            texturefile = "gfx/interface/technologies/swe_adv_heavy_tank_spa.dds"
+        }
+	#)#	
+
+	#(Swedish main battle tank#
+        SpriteType = {
+            name = "GFX_SWE_main_battle_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_main_battle_tank.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_SWE_modern_art_medium"
+            texturefile = "gfx/interface/technologies/swe_main_battle_tank_spa.dds"
+        }	
+		
+		SpriteType = {
+            name = "GFX_SWE_modern_spaa_medium"
+            texturefile = "gfx/interface/technologies/swe_main_battle_tank_aa.dds"
+        }
+	#)#	 	
+  
+    #(Swedish super heavy tank#
+        SpriteType = {
+            name = "GFX_SWE_super_heavy_tank_medium"
+            texturefile = "gfx/interface/technologies/swe_superheavy_tank.dds"
+        }
+	#)#	
+
+	#(Swedish amphibious tank#		
+		SpriteType = {
+		    name = "GFX_SWE_amphibious_tank_medium"
+		    texturefile = "gfx/interface/technologies/swe_amphibious_tank_1.dds"
+	    }
+	
+	    SpriteType = {
+		    name = "GFX_SWE_amphibious_tank_2_medium"
+		    texturefile = "gfx/interface/technologies/swe_amphibious_tank_2.dds"
+	    }
+	#)#
+	
+  #)#
+  
+  #(Swedish aircraft#
+
+    #(Swedish CAS/carrier-based CAS#
+        SpriteType = {
+            name = "GFX_SWE_CAS1_medium"
+            texturefile = "gfx/interface/technologies/SWE_CAS1.dds"
+        }	
+		
+        SpriteType = {
+            name = "GFX_SWE_cv_CAS1_medium"
+            texturefile = "gfx/interface/technologies/SWE_CAS1_cv.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_SWE_CAS2_medium"
+            texturefile = "gfx/interface/technologies/SWE_CAS2.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_CAS3_medium"
+            texturefile = "gfx/interface/technologies/SWE_CAS3.dds"
+        }
+	#)#	
+
+    #(Swedish fighter#
+        SpriteType = {
+            name = "GFX_SWE_early_fighter_medium"
+            texturefile = "gfx/interface/technologies/SWE_early_fighter.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_fighter1_medium"
+            texturefile = "gfx/interface/technologies/SWE_fighter1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_fighter2_medium"
+            texturefile = "gfx/interface/technologies/SWE_fighter2.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_fighter3_medium"
+            texturefile = "gfx/interface/technologies/SWE_fighter3.dds"
+        }
+	#)#	
+
+    #(Swedish naval bomber#
+        SpriteType = {
+            name = "GFX_SWE_naval_bomber1_medium"
+            texturefile = "gfx/interface/technologies/SWE_naval_bomber1.dds"
+        }	
+
+        SpriteType = {
+            name = "GFX_SWE_naval_bomber2_medium"
+            texturefile = "gfx/interface/technologies/SWE_naval_bomber2.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_naval_bomber3_medium"
+            texturefile = "gfx/interface/technologies/SWE_naval_bomber3.dds"
+        }
+	#)#	
+		
+    #(Swedish heavy fighter#		
+	    SpriteType = {
+	    	name = "GFX_SWE_heavy_fighter1_medium"
+		    texturefile = "gfx/interface/technologies/SWE_heavy_fighter1.dds"
+	    }
+	
+	    SpriteType = {
+		    name = "GFX_SWE_heavy_fighter2_medium"
+		    texturefile = "gfx/interface/technologies/SWE_heavy_fighter2.dds"
+	    }
+	
+	    SpriteType = {
+		    name = "GFX_SWE_heavy_fighter3_medium"
+		    texturefile = "gfx/interface/technologies/SWE_heavy_fighter3.dds"
+	    }
+	#)#	
+		
+	#(Swedish tactical bomber#	
+	    SpriteType = {
+		    name = "GFX_SWE_early_bomber_medium"
+		    texturefile = "gfx/interface/technologies/SWE_early_bomber.dds"
+	    }
+	
+	    SpriteType = {
+			name = "GFX_SWE_tactical_bomber1_medium"
+			texturefile = "gfx/interface/technologies/SWE_tactical_bomber1.dds"
+		}
+	
+		SpriteType = {
+			name = "GFX_SWE_tactical_bomber2_medium"
+			texturefile = "gfx/interface/technologies/SWE_tactical_bomber2.dds"
+		}
+	
+		SpriteType = {
+			name = "GFX_SWE_tactical_bomber3_medium"
+			texturefile = "gfx/interface/technologies/SWE_tactical_bomber3.dds"
+		}
+	#)#	
+		
+	#(Swedish strategic bomber#
+		SpriteType = {
+			name = "GFX_SWE_strategic_bomber1_medium"
+			texturefile = "gfx/interface/technologies/SWE_strategic_bomber1.dds"
+		}
+	
+		SpriteType = {
+			name = "GFX_SWE_strategic_bomber2_medium"
+			texturefile = "gfx/interface/technologies/SWE_strategic_bomber2.dds"
+		}	
+	
+		SpriteType = {
+			name = "GFX_SWE_strategic_bomber3_medium"
+			texturefile = "gfx/interface/technologies/SWE_strategic_bomber3.dds"
+		}
+	#)#	
+		
+	#(Swedish jet fighter#
+        SpriteType = {
+            name = "GFX_SWE_jet_fighter1_medium"
+            texturefile = "gfx/interface/technologies/SWE_jet_fighter1.dds"
+        }	
+
+        SpriteType = {
+            name = "GFX_SWE_jet_fighter2_medium"
+            texturefile = "gfx/interface/technologies/SWE_jet_fighter2.dds"
+        }
+	#)#	
+
+    #(Swedish jet tactical bomber#
+        SpriteType = {
+            name = "GFX_SWE_jet_tactical_bomber1_medium"
+            texturefile = "gfx/interface/technologies/SWE_jet_tactical_bomber1.dds"
+        }
+	#)#	
+		
+	#(Swedish transport plane#	
+	    SpriteType = {
+		    name = "GFX_SWE_transport_plane_equipment_medium"
+		    texturefile = "gfx/interface/technologies/swe_transport_plane_equipment.dds"
+	    }
+		SpriteType = {
+		    name = "GFX_SWE_transport_plane_equipment_1_medium"
+		    texturefile = "gfx/interface/technologies/swe_transport_plane_equipment.dds"
+	    }
+	#)#	
+
+    #(Swedish scout plane#
+	    SpriteType = {
+		    name = "GFX_SWE_scout_plane1_medium"
+		    texturefile = "gfx/interface/technologies/swe_scout_plane_1.dds"
+	    }
+
+	    SpriteType = {
+		    name = "GFX_SWE_scout_plane2_medium"
+		    texturefile = "gfx/interface/technologies/swe_scout_plane_2.dds"
+	    }
+    #)#
+	
+  #)#  
+
+  #(Swedish infantry#
+  
+    #(Swedish infantry weapon#
+        SpriteType = {
+            name = "GFX_SWE_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/SWE_infantry_equipment_0.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_infantry_weapons1_medium"
+            texturefile = "gfx/interface/technologies/SWE_infantry_equipment_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_improved_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/SWE_infantry_equipment_2.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_advanced_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/SWE_infantry_equipment_3.dds"
+        }
+	#)#	    
+	
+    #(Swedish mobile infantry vehicle#
+        SpriteType = {
+            name = "GFX_SWE_motorised_infantry_medium"
+            texturefile = "gfx/interface/technologies/SWE_motorized_equipment_1.dds"
+        }
+        SpriteType = {
+            name = "GFX_SWE_motorized_equipment_1_medium"
+            texturefile = "gfx/interface/technologies/SWE_motorized_equipment_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_mechanised_infantry_medium"
+            texturefile = "gfx/interface/technologies/SWE_mechanized_equipment_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_mechanised_infantry2_medium"
+            texturefile = "gfx/interface/technologies/SWE_mechanized_equipment_2.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWE_mechanised_infantry3_medium"
+            texturefile = "gfx/interface/technologies/SWE_mechanized_equipment_3.dds"
+        }
+	#)#	    
+
+    #(Swedish armored car#
+		SpriteType = {
+		    name = "GFX_SWE_armored_car1_medium"
+		    texturefile = "gfx/interface/technologies/swe_armored_car_equipment_1.dds"
+	    }
+
+	    SpriteType = {
+		    name = "GFX_SWE_armored_car2_medium"
+		    texturefile = "gfx/interface/technologies/swe_armored_car_equipment_2.dds"
+	    }	
+
+	    SpriteType = {
+		    name = "GFX_SWE_armored_car3_medium"
+		    texturefile = "gfx/interface/technologies/swe_armored_car_equipment_3.dds"
+	    }
+
+	    SpriteType = {
+		    name = "GFX_SWE_armored_car_at_upgrade_medium"
+		    texturefile = "gfx/interface/technologies/swe_armored_car_at_equipment.dds"
+	    }		
+	#)#
+	
+  #)#
+  
+ #)#
+
+	
+ #(Finland#
+
+  #(Finnish infantry#
+  
+    #(Finnish infantry weapon#
+        SpriteType = {
+            name = "GFX_FIN_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/FIN_infantry_equipment_0.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_FIN_infantry_weapons1_medium"
+            texturefile = "gfx/interface/technologies/FIN_infantry_equipment_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_FIN_improved_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/FIN_infantry_equipment_2.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_FIN_advanced_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/FIN_infantry_equipment_3.dds"
+        }
+	#)#	    
+	
+  #)#
+  
+ #)#
+
+}

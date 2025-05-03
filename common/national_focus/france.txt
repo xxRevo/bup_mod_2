@@ -1931,10 +1931,11 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			declare_war_on = {
-				type = topple_government
-				target = EFR
-			}
+				set_state_controller = 461
+                set_state_controller = 462
+
+				GER = { annex_country = { target = EFR } }
+			
 		}
 	}
 

@@ -19,7 +19,7 @@ state = {
 			13243 1 
 		}
 		
-		owner = ITA
+		owner = ENG
 	}
 
 	provinces = {

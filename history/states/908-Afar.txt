@@ -5,12 +5,11 @@ state = {
 	history = {
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
 		}
 		victory_points = {
 			13240 2 
 		}
-		owner = ITA
+		owner = ENG
 	}
 
 	provinces = {

@@ -872,6 +872,7 @@ ideas = {
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
 				ai_get_ally_desire_factor = -100
+				enemy_justify_war_goal_time = 100
 			}
 		}
 

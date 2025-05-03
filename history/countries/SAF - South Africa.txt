@@ -36,6 +36,7 @@ set_technology = {
 	motorised_infantry = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
+	basic_train = 1
 }
 add_timed_idea = {
 	idea = GER_peace_time_train

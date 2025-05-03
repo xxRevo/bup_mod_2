@@ -9,7 +9,6 @@ state = {
 
 	history = {
 		buildings = {
-			industrial_complex = 1
 			air_base = 1
 		}
 		
@@ -23,7 +22,7 @@ state = {
 			12812 1
 		}
 		
-		owner = ITA
+		owner = ENG
 	}
 
 	provinces = {

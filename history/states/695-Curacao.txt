@@ -12,7 +12,7 @@ state = {
 	history = {
 		
         add_core_of = COG
-		owner = HOL
+		owner = ENG
 
 		victory_points = {
 			153 1 # Willemstad

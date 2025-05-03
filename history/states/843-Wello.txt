@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			5097 1 
 		}
-		owner = ITA
+		owner = ENG
 	}
 
 	provinces={

@@ -4,6 +4,8 @@ oob = "MAL_1936"
 
 set_research_slots = 0
 
+add_ideas = MAL_capitulate 
+
 # Starting tech
 # clone of UK
 set_technology = {

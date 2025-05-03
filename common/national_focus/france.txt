@@ -608,55 +608,6 @@
 		}
 	}
 	focus = {
-		id = FRA_invest_in_syria
-		icon = GFX_focus_generic_industry_1
-		x = 4
-		y = 1
-		offset = {
-			x = 0
-			y = 0
-		}
-		prerequisite = {focus = FRA_invest_in_the_colonies }
-		mutually_exclusive = { }
-		relative_position_id = FRA_invest_in_the_colonies
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			FRA = {
-				controls_state = 553
-			}
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			random_state = {
-				limit = { 
-					OR = {
-						state = 553
-					}
-					OWNER = { is_owned_or_subject_trigger = yes }	
-					NOT = {
-						has_state_flag = FRA_colonial_industry_target
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				set_state_flag = FRA_colonial_industry_target
-			}
-		}
-	}
-	focus = {
 		id = FRA_colonial_industry
 		icon = GFX_focus_generic_industry_3
 		available = {
@@ -1894,6 +1845,8 @@
 			else = {
 				add_ideas = war_economy
 			}
+			add_ideas = FRA_armor_high_com
+			army_experience = 500
 			add_war_support = 0.20
 			add_state_core = 539
 			add_equipment_to_stockpile = {
@@ -1981,41 +1934,41 @@
 
 		completion_reward = {
 			539 = {
-				add_extra_state_shared_building_slots = 8
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 			772 = {
-				add_extra_state_shared_building_slots = 8
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 			773 = {
-				add_extra_state_shared_building_slots = 8
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}

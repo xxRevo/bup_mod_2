@@ -18,6 +18,24 @@ ideas = {
 				conscription_factor = -0.25
 			}
 		}
+		FRA_armor_high_com = {
+			picture = generic_production_bonus
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = FRA #stays with main country
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_armor_attack_factor = 0.08
+				army_armor_defence_factor = 0.08
+			}
+		}
 		FRA_worker_shortage = {
 			picture = FRA_factory_strikes
 			allowed = {

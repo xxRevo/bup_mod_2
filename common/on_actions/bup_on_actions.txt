@@ -207,5 +207,43 @@ on_actions = {
                 }
             }
         }
-    }
+        effect = {
+			if = {
+				limit = {
+                    AND = {
+                        tag = MAL
+                        NOT = {has_global_flag = MAL_already_surrendered}
+                    }
+                }
+                set_global_flag = MAL_already_surrendered
+				JAP = {
+                    set_state_controller = 672
+                    set_state_controller = 336
+                    set_state_controller = 335
+                    set_state_controller = 334
+                    set_state_controller = 333
+                    set_state_controller = 333
+                    set_state_controller = 673
+                    set_state_controller = 667
+                    set_state_controller = 738
+                    set_state_controller = 668
+				}
+			}
+		}
+        effect = {
+			if = {
+				limit = {
+                    AND = {
+                        tag = PHI
+                        NOT = {has_global_flag = PHI_already_surrendered}
+                    }
+                }
+                set_global_flag = PHI_already_surrendered
+				JAP = {
+                    set_state_controller = 628
+                    set_state_controller = 626
+				}
+			}
+		}
+	}
 }

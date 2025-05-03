@@ -6933,104 +6933,6 @@ focus = {
 			custom_effect_tooltip = GER_rhineland_ultimatum
 			custom_effect_tooltip = generic_skip_one_line_tt
 			add_political_power = 150
-			army_experience = 5
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_named_threat = { threat = 5 name = GER_rhineland }
-
-			hidden_effect = {
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
-					}
-					mark_focus_tree_layout_dirty = yes
-				}
-			}
-
-		}
-	}
-
-	focus = {
-		id = GER_legion_condor
-		icon = GFX_focus_intervention_spain_nationalists
-		prerequisite = { focus = GER_remilitarize_the_rhineland focus = GER_oppose_hitler_ww focus = GER_oppose_hitler }
-
-		offset = {
-			x = -25
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = GER_oppose_hitler_ww
-			}
-		}
-		offset = {
-			x = -28
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = GER_oppose_hitler
-			}
-		}
-		offset = {
-			x = -5
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = GER_monarchist_sentiment
-			}
-		}
-
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = GER_start_the_proletarian_revolution
-			}
-		}
-
-		offset = {
-			x = -7
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = GER_reestablish_free_elections
-			}
-		}
-
-		x = 5
-		y = 1
-		relative_position_id = GER_remilitarize_the_rhineland
-
-		cost = 1
-
-		available = {
-
-		}
-
-		continue_if_invalid = yes
-
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP }
-
-		completion_reward = {
 			army_experience = 500
 			air_experience = 500
 			navy_experience = 100
@@ -7089,13 +6991,25 @@ focus = {
 				air_experience = 250
 				navy_experience = 100
 			}	
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_named_threat = { threat = 5 name = GER_rhineland }
+
+			hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
+
 		}
 	}
-	
-	
-
-
-	
+		
 	focus = {
 		id = GER_anschluss
 
@@ -8221,7 +8135,31 @@ focus = {
 			}
 			add_named_threat = { threat = 5 name = GER_danzig_or_war }
 			declare_war_on = {
-				target = POL  # Country tag to declare war on (e.g. GER, SOV, USA)
+				target = POL  
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ENG 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AST  
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NZL  
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAN  
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SAF
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RAJ 
 				type = annex_everything
 			}
 		}
@@ -9293,6 +9231,64 @@ focus = {
 		}
 	}
 
+		focus = { 
+		id = GER_fate_of_iraq
+
+		icon = GFX_focus_GER_fate_of_yugoslavia
+
+		prerequisite = { focus = GER_danzig_or_war }
+		x = 3
+		y = 2
+		relative_position_id = GER_danzig_or_war
+
+		cost = 1
+
+		bypass = {
+			OR = {
+				has_war_with = IRQ
+				NOT = { country_exists = IRQ }
+				any_other_country = {
+					is_in_faction_with = ROOT
+					OR = {
+						has_war_with = IRQ
+						IRQ = {
+							is_puppet_of = PREV
+						}
+					}
+				}
+			}
+		}
+
+		will_lead_to_war_with = IRQ
+		
+		available = {
+			has_full_control_of_state = 680
+			has_full_control_of_state = 455
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = communism
+				}
+			}
+		}
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }	
+		
+		completion_reward = {
+			ENG = {
+				add_to_faction = IRQ }
+			declare_war_on = {
+				target = IRQ  # Country tag to declare war on (e.g. GER, SOV, USA)
+				type = annex_everything
+			}
+		}
+	}
+
 	focus = {
 		id = GER_reorganize_the_wehrmacht #von Ribbentrop
 
@@ -9393,146 +9389,6 @@ focus = {
 			}
 		}
 	}
-
-	focus = {
-		id = GER_anti_comintern_pact
-
-		icon = GFX_goal_anti_comintern_pact
-		alternate_icon = GFX_focus_GER_anti_comintern_pact
-
-		prerequisite = { focus = GER_remilitarize_the_rhineland }
-
-		x = 2
-		y = 0
-		relative_position_id = GER_reorganize_the_wehrmacht
-		cost = 5
-		
-		bypass = {
-			SOU = {
-				OR = {
-					NOT = {
-						has_government = communism
-					}
-					exists = no
-				}
-			}
-		}
-
-		available = {
-			is_subject = no
-			NOT = { has_government = communism }
-			NOT = { is_in_faction_with = SOU }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					has_government = democratic
-					has_government = communism
-				}
-			}
-		}
-
-		search_filters = { FOCUS_FILTER_HISTORICAL }
-
-		completion_reward = {
-			SOU = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
-			add_named_threat = { threat = 2 name = GER_anti_comintern_pact }
-			every_other_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { has_war_with = GER }
-					NOT = { is_in_faction_with = SOU }
-					is_subject = no
-					OR = {
-						capital_scope = {
-							is_on_continent = europe
-						}
-						capital_scope = {
-							is_on_continent = asia
-						}
-						num_of_factories > 30
-					}
-					OR = {
-						has_government = fascism 
-						AND = {
-							is_neighbor_of = SOU
-							NOT = { has_government = communism }
-						}
-					}
-				}
-				country_event = germany.5
-			}
-		}
-	}
-
-	focus = {
-		id = GER_anti_soviet_pact
-		icon = GFX_focus_ger_bulwark_against_bolshevism
-		prerequisite = { focus = GER_anti_comintern_pact }
-		mutually_exclusive = { focus = GER_molotov_ribbentrop_pact }
-		x = 0
-		y = 1
-		relative_position_id = GER_anti_comintern_pact
-		cost = 5
-		
-		available = {
-			always = no
-			is_subject = no
-			SOU = {
-				has_government = communism
-			}
-		}
-
-		ai_will_do = {
-			factor = 2.5
-			modifier = {
-				factor = 0.1
-				has_idea = SOV_soviet_german_trade_agreement
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					has_government = democratic
-					has_government = communism
-				}
-			}
-		}
-		
-		search_filters = {}
-		
-		completion_reward = {
-			hidden_effect = {
-				SOV = { remove_opinion_modifier = { target = ROOT modifier = pact_against_us } }
-				add_ideas = anti_soviet_pact
-			}
-			SOU = { add_opinion_modifier = { target = ROOT modifier = worse_pact_against_us } }
-			custom_effect_tooltip = GER_anti_soviet_pact_tt_3
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			custom_effect_tooltip = GER_anti_soviet_pact_tt
-			custom_effect_tooltip = GER_anti_soviet_pact_tt_2
-			every_other_country = {
-				limit = {
-					has_opinion_modifier = anti_comintern_pact_opinion
-					OR = {
-						NOT = { is_in_faction = yes }
-						is_in_faction_with = GER
-					}
-					NOT = { tag = GER }
-					NOT = { has_war_with = GER }
-				}
-				country_event = germany.83
-			}
-			hidden_effect = {
-				news_event = { hours = 12 id = news.215 }
-			}
-		}
-	}
-
 
 	focus = {
 		id = GER_war_with_the_ussr
@@ -9892,154 +9748,7 @@ focus = {
 
 	
 
-	focus = {
-		id = GER_befriend_japan
 
-		icon = GFX_focus_chi_collaboration_with_the_japanese
-		alternate_icon = GFX_focus_GER_befriend_japan
-
-		prerequisite = { focus = GER_anti_comintern_pact }
-		x = 2
-		y = 0
-		relative_position_id = GER_anti_soviet_pact
-		cost = 5
-		
-		available_if_capitulated = yes
-
-		available = {
-			is_subject = no
-			AND = {
-				country_exists = JAP
-				JAP = { is_subject = no }
-				NOT = { has_war_with = JAP }
-				JAP = {
-					custom_trigger_tooltip = {
-						tooltip = GER_alone_or_peace_faction_tt
-						is_alone_or_in_faction_at_peace_with_GER = yes
-					}
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_in_faction_with = JAP
-				factor = 0 #GER-sempai has already noticed you!
-			}
-		}
-
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_POLITICAL FOCUS_FILTER_MILITARY_CHARACTER }
-
-		completion_reward = {
-			JAP = {
-				country_event = {
-					id = wuw_GER_diplomacy.90
-					hours = 12
-				}
-				set_country_flag = GER_JAP_nap_request_flag
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-			effect_tooltip = {
-				JAP = {
-					add_opinion_modifier = { target = GER modifier = ger_jap_diplomacy_focus }
-				}
-				diplomatic_relation = { 
-					country = JAP
-					relation = non_aggression_pact 
-				}
-
-			}
-
-			event_target:WTT_current_china_leader = {
-				add_opinion_modifier = { target = GER modifier = withdrew_advisors }
-				country_event = { id = china.3 hours = 6 }
-			}
-			custom_effect_tooltip = GER_japan_friend_tt
-			set_global_flag = falkenhausen_recalled
-			if = {
-				limit = {
-					has_dlc = "Waking the Tiger"
-				}
-				show_unit_leaders_tooltip = GER_alexander_von_falkenhausen
-			}
-
-			hidden_effect = {
-				delete_unit_template_and_units = {
-					division_template = "Afrikanische Schutztruppe"
-					disband = yes #if yes, will refund equipment/manpower.
-				}
-
-				division_template = {
-					name = "Afrikanische Schutztruppe"	
-					division_names_group = GER_MIL_02
-					template_counter = 98
-					is_locked = yes
-					regiments = {
-						militia = { x = 0 y = 0 }
-						militia = { x = 0 y = 1 }
-						militia = { x = 0 y = 2 }
-						militia = { x = 1 y = 0 }
-						militia = { x = 1 y = 1 }
-					}
-					support = {
-					}
-					override_model = GER_infantry_alt_1_entity
-				}
-
-				delete_unit_template_and_units = {
-					division_template = "Askari Schutztruppe"
-					disband = yes #if yes, will refund equipment/manpower.
-				}
-
-				division_template = {
-					name = "Askari Schutztruppe"	
-					division_names_group = GER_MIL_02
-					template_counter = 67
-					is_locked = yes
-					regiments = {
-						militia = { x = 0 y = 0 }
-						militia = { x = 0 y = 1 }
-						militia = { x = 1 y = 0 }
-						militia = { x = 1 y = 1 }
-					}
-					support = {
-					}
-					override_model = GER_infantry_alt_2_entity
-				}
-
-				delete_unit_template_and_units = {
-					division_template = "Asiatische Schutztruppe"
-					disband = yes #if yes, will refund equipment/manpower.
-				}
-
-				division_template = {
-					name = "Asiatische Schutztruppe"	
-					division_names_group = GER_MIL_02
-					template_counter = 99
-					is_locked = yes
-					regiments = {
-						militia = { x = 0 y = 0 }
-						militia = { x = 0 y = 1 }
-						militia = { x = 0 y = 2 }
-						militia = { x = 1 y = 0 }
-						militia = { x = 1 y = 1 }
-					}
-					support = {
-					}
-					override_model = GER_infantry_alt_3_entity
-				}
-			}
-			
-		}
-	}
-
-	
-
-
-
-	
 	
 	
 	

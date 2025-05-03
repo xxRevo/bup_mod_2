@@ -16,7 +16,7 @@ state = {
 			1984 2
 		}
 		
-		owner = ITA
+		owner = ENG
 	}
 
 	provinces = {

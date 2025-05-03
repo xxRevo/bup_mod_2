@@ -11,8 +11,8 @@ state={
 
 	history= {
         add_core_of = COG
-		owner = INS
-		add_core_of = INS
+		owner = MAL
+		add_core_of = MAL
 		victory_points = {
 			10263 3 
 		}

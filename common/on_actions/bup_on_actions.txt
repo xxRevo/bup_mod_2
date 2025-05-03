@@ -1,51 +1,57 @@
-on_actions = {	
+on_actions = {
     on_capitulation = {
         # Partition of Poland
-		effect = {
-			if = {
-				limit = {
+        effect = {
+            if = {
+                limit = {
                     AND = {
                         tag = POL
                         NOT = {has_global_flag = POL_already_surrendered}
                     }
                 }
                 set_global_flag = POL_already_surrendered
-				SOV = {
-					transfer_state = 784
-					transfer_state = 96
-					transfer_state = 95
-					transfer_state = 94
-					transfer_state = 93
-					transfer_state = 91
-					transfer_state = 89
-					transfer_state = 97
-				}
-			}
-		}
+                SOV = {
+                    transfer_state = 784
+                    transfer_state = 96
+                    transfer_state = 95
+                    transfer_state = 94
+                    transfer_state = 93
+                    transfer_state = 91
+                    transfer_state = 89
+                    transfer_state = 97
+                }
+            }
+        }
         # Partition of Yugoslavia
-		effect = {
-			if = {
-				limit = {
-					AND = {
+        effect = {
+            if = {
+                limit = {
+                    AND = {
                         tag = YUG
                         NOT = {has_global_flag = YUG_already_surrendered}
-				    }
+                    }
                 }
                 set_global_flag = YUG_already_surrendered
-				GER = {
-					set_state_controller = 102
-					set_state_controller = 853
-				}
+                GER = {
+                    set_state_controller = 102
+                    set_state_controller = 853
+                }
                 ITA = {
                     set_state_controller = 103
                     set_state_controller = 104
                     set_state_controller = 105
                     set_state_controller = 109
                     set_state_controller = 804
+                    set_state_controller = 107
+                    set_state_controller = 108
+                    set_state_controller = 802
+                    set_state_controller = 970
+                }
+                HUN = {
+                    set_state_controller = 45
                 }
                 ROM = {
                     set_state_controller = 764
-                    set_state_controller = 45
                 }
                 if = {
                     limit = {
@@ -54,30 +60,22 @@ on_actions = {
                         }
                     }
                     BUL = {
-                        set_state_controller = 108
-                        set_state_controller = 802
                         set_state_controller = 803
                         set_state_controller = 106
-                        set_state_controller = 970
-                        set_state_controller = 107
                     }
                 }
                 else {
                     ROM = {
-                        set_state_controller = 108
-                        set_state_controller = 802
                         set_state_controller = 803
                         set_state_controller = 106
-                        set_state_controller = 970
-                        set_state_controller = 107
                     }
                 }
-			}
-		}
+            }
+        }
         # Partition of Greece
         effect = {
-			if = {
-				limit = {
+            if = {
+                limit = {
                     AND = {
                         NOT = {has_global_flag = GRE_already_surrendered}
                         tag = GRE
@@ -158,8 +156,8 @@ on_actions = {
                     }
                     set_politics = {
                         ruling_party = fascism
-                        elections_allowed = no 
-			        }
+                        elections_allowed = no
+                    }
                     set_popularities = {
                         democratic = 0
                         fascism = 100
@@ -199,7 +197,7 @@ on_actions = {
                         count = all
                     }
                     destroy_ships = {
-                        type = ship_hull_carrier 
+                        type = ship_hull_carrier
                         count = all
                     }
                     destroy_ships = {
@@ -209,5 +207,5 @@ on_actions = {
                 }
             }
         }
-	}
+    }
 }

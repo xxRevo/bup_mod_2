@@ -319,19 +319,19 @@ NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.75
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.05 									            
 NDefines.NNavy.COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.90					
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
-	175.0,    -- big guns
-	310.0,    -- torpedos
-	255.0,    -- small guns
+	95.0,    -- big guns
+	120.0,    -- torpedos
+	40.0,    -- small guns
 }		
 NDefines.NNavy.DEPTH_CHARGES_HIT_PROFILE = 225.0  
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready after shooting
 	3.0,	-- big guns
-	4.0,	-- torpedos
+	9.0,	-- torpedos
 	2.0,	-- small guns
 }
 NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.95                                   
-NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.30	
-NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 1.0	
+NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.4
+NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 0.6
 NDefines.NNavy.COMBAT_MIN_DURATION = 8
 NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 2					
 NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.001									
@@ -357,8 +357,8 @@ NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR = 1.25
 NDefines.NNavy.POSITIONING_PENALTY_FOR_SHIPS_JOINED_COMBAT_AFTER_IT_STARTS		= 0.0 
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS 					= 0.0 
 NDefines.NNavy.POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS			= 1.0
-NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.75		
-NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.6  	
+NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.80		
+NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.9  	
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.7  		
 NDefines.NNavy.CONVOY_HIT_PROFILE = 250.0  									
 NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 1.5                 								

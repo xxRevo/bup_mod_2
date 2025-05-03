@@ -1,7 +1,7 @@
 state={
 	id=723
 	name="STATE_723"
-	manpower = 9547198
+	manpower = 20000000
 	resources={
 		tungsten = 15 # was: 6
 		steel = 25
@@ -10,7 +10,7 @@ state={
 		aluminium = 15
 	}
 
-	state_category = rural
+	state_category = metropolis
 
 
 	history={

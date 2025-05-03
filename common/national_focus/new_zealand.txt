@@ -1121,7 +1121,7 @@
 		y = 3
 		relative_position_id = NZL_national_roads_board
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1791,7 +1791,7 @@
 		y = 1
 		relative_position_id = NZL_the_first_labor_government
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1849,7 +1849,6 @@
 			723 = {
 				add_extra_state_shared_building_slots = 3
 			}
-			add_stability = -0.05
 		}
 	}
 
@@ -1950,7 +1949,7 @@
 			723 = {
 				add_extra_state_shared_building_slots = 2
 			}
-			add_stability = -0.05
+			add_stability = 0.05
 		}
 	}
 
@@ -1962,7 +1961,7 @@
 		y = 3
 		relative_position_id = NZL_ratana_alliance
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 8
@@ -1994,7 +1993,7 @@
 		y = 4
 		relative_position_id = NZL_ratana_alliance
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25

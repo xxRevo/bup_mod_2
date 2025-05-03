@@ -3316,7 +3316,7 @@
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER }
 
 		completion_reward = {
-			add_stability = 0.5
+			add_stability = 0.1
 			add_manpower = 5000
 			}
 	}

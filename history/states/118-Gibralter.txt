@@ -1,27 +1,31 @@
 state=
 {
-	id=118
-	name="STATE_118"
-	manpower=21372
-	
-	state_category = enclave
-	history={
-        add_core_of = COG
-		owner = ENG
-		victory_points = { 4135 10 }
-		buildings = {
-			infrastructure = 3
-			air_base = 2
-			4135 = {
-				naval_base = 5
-				coastal_bunker = 2
-			}
-		}
-		add_claim_by = SPR
-	}
-	provinces={
-		4135
-	}
+    id=118
+    name="STATE_118"
+    manpower=21372
 
-	local_supplies=10.0 
+    state_category = enclave
+    history={
+        add_core_of = COG
+        owner = ENG
+        victory_points = { 4135 10 }
+        buildings = {
+            infrastructure = 3
+            air_base = 3
+            4135 = {
+                naval_base = 5
+                coastal_bunker = 5
+            }
+            13228 = {
+                naval_base = 5
+                coastal_bunker = 5
+            }
+        }
+        add_claim_by = SPR
+    }
+    provinces={
+        4135 13228
+    }
+
+    local_supplies=10.0
 }

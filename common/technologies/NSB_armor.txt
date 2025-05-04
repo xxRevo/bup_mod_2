@@ -883,6 +883,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_high_velocity_cannon_3
+			tank_medium_cannon_3
 			auto_loader
             squeezebore_adaptor
 		}

@@ -11,7 +11,7 @@ state={
 
 	history={
         add_core_of = COG
-		owner = IRQ
+		owner = ENG
 		buildings = {
 			infrastructure = 2
 		}

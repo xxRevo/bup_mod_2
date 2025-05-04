@@ -7,6 +7,9 @@ state={
 	history = {
 		buildings = {
 			infrastructure = 1
+			1644 = {
+				naval_base = 4
+			}
 		}
 		owner = AST
 		add_core_of = AST

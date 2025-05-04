@@ -13,7 +13,8 @@ if = {
 	}
 }
 
-add_ideas = MAL_capitulate 
+add_ideas = MAL_capitulate
+add_ideas = no_training
 
 # Starting tech
 set_technology = {

@@ -50,9 +50,6 @@ division_template = {
 }
 
 
-
-
-units = {
 	##### Österreichisches Bundesheer #####
 	# I Korps
 	division= {	#Cavalry schnelle
@@ -122,7 +119,6 @@ units = {
 
 	}
 }
-
 
 ### Starting Production ###
 instant_effect = {

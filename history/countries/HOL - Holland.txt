@@ -30,21 +30,7 @@ set_technology = {
 
 
 # DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = INS
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = INS
-	}
-}
+
 
 set_politics = {
 	ruling_party = democratic

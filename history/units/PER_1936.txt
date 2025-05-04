@@ -57,60 +57,6 @@ division_template = {
 }
 
 
-units = {
-	######## LAND OOB ########
-	##### Royal Iranian Army #####
-	division = {
-		name = "1st Cavalry Division"
-		location = 1896
-		division_template = "Cavalry Division"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division = {
-		name = "2nd Cavalry Division"
-		location = 1896
-		division_template = "Cavalry Division"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division = {
-		name = "1st Infantry Division"
-		location = 10913
-		division_template = "Infantry Division"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division = {
-		name = "2nd Infantry Division"
-		location = 10913
-		division_template = "Infantry Division"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division = {
-		name = "3rd Infantry Division"
-		location = 10913
-		division_template = "Infantry Division"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division = {
-		name = "1st Iranian Gendarmerie"
-		location = 10837
-		division_template = "Iranian Gendarmerie"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-
-	######## No Naval OOB ########
-}
 
 
 

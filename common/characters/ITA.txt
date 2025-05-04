@@ -343,7 +343,6 @@ characters = {
 		corps_commander = {
 	traits = {  panzer_leader panzer_expert desert_fox trait_engineer }
 	skill = 5
-	rank = 1
 	attack_skill = 6
 	defense_skill = 3
 	planning_skill = 2

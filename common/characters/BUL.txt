@@ -197,41 +197,6 @@ characters = {
 			legacy_id = 1201
 		}
 	}
-
-	BUL_georgi_popov = {
-		instance = {
-
-			name = BUL_georgi_popov
-			portraits = {
-				army = {
-					large = "GFX_portrait_bul_georgi_popov"
-					small = GFX_portrait_BUL_georgi_popov_small
-				}
-			}
-		}
-		instance = {
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			name = BUL_georgi_popov
-			portraits = {
-				army = {
-					large = GFX_portrait_BUL_georgi_popov
-					small = GFX_portrait_BUL_georgi_popov_small
-				}
-			}
-			corps_commander = {
-				traits = { panzer_leader infantry_leader trait_engineer ranger urban_assault_specialist}
-				skill = 5
-				attack_skill = 5
-				defense_skill = 3
-				planning_skill = 2
-				logistics_skill = 4
-				legacy_id = -1
-			}
-		}
-	}
-
 	BUL_ivan_markov = {
 		name = BUL_ivan_markov
 		portraits = {

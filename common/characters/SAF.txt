@@ -82,8 +82,8 @@ characters={
 		
 		corps_commander={
 			traits = { desert_fox panzer_leader organizer }
-			skill = 4
-			attack_skill = 4
+			skill = 6
+			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 3
@@ -124,7 +124,7 @@ characters={
 		}
 		corps_commander={
 			traits = { desert_fox panzer_leader ranger trickster trait_engineer }
-			skill = 4
+			skill = 5
 			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4

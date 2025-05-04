@@ -215,7 +215,7 @@ characters = {
 
 		field_marshal = {
 	traits = { defensive_doctrine infantry_leader commando organizer }
-	skill = 4
+	skill = 6
 	attack_skill = 2
 	defense_skill = 5
 	planning_skill = 3
@@ -398,7 +398,7 @@ characters = {
 
 		corps_commander = {
 	traits = { inflexible_strategist infantry_leader desert_fox }
-	skill = 4
+	skill = 6
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 3

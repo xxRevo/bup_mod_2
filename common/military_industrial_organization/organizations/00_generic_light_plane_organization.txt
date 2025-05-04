@@ -217,20 +217,7 @@ generic_light_plane_organization = {
             naval_strike_targetting = 0.1
         }
     }
-
-    trait = {
-        token = generic_mio_tank_16
-        name = generic_mio_tank_1_l
-        icon = GFX_generic_mio_trait_icon_air_superiority
-        any_parent = {generic_mio_tank_7}
-        any_parent = {generic_mio_tank_11 generic_mio_tank_15}
-        special_trait_background = yes
-        position = { x=0 y=4 }
-        equipment_bonus = {
-            build_cost_ic = -0.05
-            thrust = 0.15
-        }
-    }
+    
     trait = {
         token = generic_mio_tank_20
         name = generic_mio_tank_1_l

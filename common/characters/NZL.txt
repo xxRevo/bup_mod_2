@@ -79,7 +79,7 @@ characters={
 		}
 		corps_commander={
 			traits = { infantry_leader panzer_leader }
-			skill=4
+			skill=6
 			attack_skill=4
 			defense_skill=4
 			planning_skill=4
@@ -98,7 +98,7 @@ characters={
 		}
 	corps_commander={
 			traits = { naval_invader infantry_leader }
-			skill=4
+			skill=6
 			attack_skill=4
 			defense_skill=3
 			planning_skill=3
@@ -117,7 +117,7 @@ characters={
 		}
 		corps_commander={
 			traits = { panzer_leader jungle_rat trait_engineer}
-			skill=4
+			skill=6
 			attack_skill=5
 			defense_skill=4
 			planning_skill=3
@@ -140,7 +140,7 @@ characters={
 			attack_skill = 5
 			defense_skill = 1
 			maneuvering_skill = 9
-			coordination_skill = 62
+			coordination_skill = 9
 			legacy_id=-1
 		}
 	}

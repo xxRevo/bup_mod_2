@@ -340,7 +340,7 @@ characters={
 		
 		corps_commander={
 			traits = {  armor_officer media_personality panzer_leader naval_invader desert_fox }
-		skill = 5
+		skill = 6
 	attack_skill = 5
 	defense_skill = 3
 	planning_skill = 3
@@ -377,9 +377,9 @@ characters={
 		
 		corps_commander={
 	traits = {  armor_officer trait_reckless panzer_leader }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 3
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 3
 			legacy_id=0

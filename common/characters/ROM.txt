@@ -132,7 +132,7 @@ characters={
 		}
 		corps_commander={
 	traits = { swamp_fox infantry_leader trickster panzer_leader }
-	skill = 4
+	skill = 6
 	attack_skill = 5
 	defense_skill = 3
 	planning_skill = 3
@@ -253,7 +253,7 @@ characters={
 		
 		field_marshal={
 	traits = { infantry_leader organizer panzer_leader trait_engineer}
-	skill = 4
+	skill = 6
 	attack_skill = 5
 	defense_skill = 3
 	planning_skill = 2

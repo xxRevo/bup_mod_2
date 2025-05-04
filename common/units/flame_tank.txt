@@ -47,10 +47,10 @@ sub_units = {
 		breakthrough = -0.5 #Was -0.75
 		hard_attack = -0.75
 		defense = -0.75
-		armor_value = -0.75
+		armor_value = -0.9
 
 		need = {
-			light_tank_flame_chassis = 15
+			light_tank_flame_chassis = 20
 		}
 
 		forest = {
@@ -76,7 +76,7 @@ sub_units = {
 			movement = 0.1
 		}
 		river = {
-			attack = 0.1
+			attack = 0.05
 		}
 		amphibious = {
 			attack = 0.1
@@ -133,14 +133,14 @@ sub_units = {
 		breakthrough = -0.45 #Was -0.7
 		hard_attack = -0.7
 		defense = -0.7
-		armor_value = -0.7
+		armor_value = -0.9
 
 		need = {
-			medium_tank_flame_chassis = 15
+			medium_tank_flame_chassis = 24
 		}
 
 		forest = {
-			attack = 0.1
+			attack = 0.05
 		}
 		mountain = {
 			attack = 0.05
@@ -149,20 +149,20 @@ sub_units = {
 			attack = 0.05
 		}
 		jungle = {
-			attack = 0.15
+			attack = 0.1
 		}
 		marsh = {
 			attack = 0.05
 		}
 		urban = {
-			attack = 0.15
+			attack = 0.1
 		}
 		fort = {
 			attack = 0.2
 			movement = 0.1
 		}
 		river = {
-			attack = 0.1
+			attack = 0.05
 		}
 		amphibious = {
 			attack = 0.1
@@ -219,15 +219,15 @@ sub_units = {
 		soft_attack = -0.4 #Was -0.625
 		hard_attack = -0.625
 		defense = -0.625
-		armor_value = -0.625
+		armor_value = -0.9
 
 
 		need = {
-			heavy_tank_flame_chassis = 15
+			heavy_tank_flame_chassis = 24
 		}
 
 		forest = {
-			attack = 0.1
+			attack = 0.05
 		}
 		hills = {
 			attack = 0.05

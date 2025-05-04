@@ -1347,7 +1347,7 @@ instant_effect = {
 		requested_factories = 10
 		progress = 0.1
 		efficiency = 100
-		industrial_manufacturer = mio:ITA_beretta_organization
+		industrial_manufacturer = 
 	}
 
 	add_equipment_production = {
@@ -1358,7 +1358,7 @@ instant_effect = {
 		requested_factories = 4
 		progress = 0.3
 		efficiency = 100
-		industrial_manufacturer = mio:ITA_brescia_arsenal_organization
+		industrial_manufacturer = 
 	}
 
 	add_equipment_production = {
@@ -1370,7 +1370,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.4
 		efficiency = 100
-		industrial_manufacturer = mio:ITA_fiat_organization
+		industrial_manufacturer = 
 	}
 
 	add_equipment_production = {
@@ -1381,7 +1381,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.4
 		efficiency = 100
-		industrial_manufacturer = mio:ITA_lancia_organization
+		industrial_manufacturer = 
 	}
 }
 	#####################

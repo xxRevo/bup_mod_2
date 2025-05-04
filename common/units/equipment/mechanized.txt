@@ -26,8 +26,8 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 26
-		breakthrough = 6
+		defense = 12
+		breakthrough = 12
 		hardness = 0.60
 		armor_value = 10
 
@@ -70,17 +70,17 @@ equipments = {
 		maximum_speed = 10
 
 		#Defensive Abilities
-		defense = 30
-		breakthrough = 8
+		defense = 15
+		breakthrough = 16
 		hardness = 0.70
-		armor_value = 15
+		armor_value = 20
 
 		#Offensive Abilities
 		ap_attack = 16
 
 		build_cost_ic = 10
 		resources = {
-			steel = 3
+			steel = 2
 			rubber = 1
 			#oil = 1
 		}
@@ -98,17 +98,17 @@ equipments = {
 		maximum_speed = 12
 
 		#Defensive Abilities
-		defense = 34
-		breakthrough = 10
+		defense = 18
+		breakthrough = 21
 		hardness = 0.75
-		armor_value = 20
+		armor_value = 30
 
 		#Offensive Abilities
 		ap_attack = 21
 
 		build_cost_ic = 12
 		resources = {
-			steel = 4
+			steel = 2
 			rubber = 1
 			#oil = 2
 		}

@@ -28,8 +28,8 @@ sub_units = {
 		combat_width = 1
 		
 		#Size Definitions
-		max_strength = -20
-		max_organisation = -10
+		max_strength = 1
+		max_organisation = 0
 		max_strength = 0.6
 		manpower = 500
 		training_time = 120

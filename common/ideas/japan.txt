@@ -859,17 +859,14 @@ ideas = {
 
 			picture = generic_naval_manufacturer_1
 			
-			modifier = {
-				
+			modifier = { 	invasion_preparation = -0.5
 			}
 			equipment_bonus = {
 			category_special_forces = {
-		    		breakthrough = 0.10
-		
-		
-		}
-			}
-		}
+		    breakthrough = 0.10
+		    }
+		}	
+	}
 
 		JAP_intervene_in_china_1 = {
 			

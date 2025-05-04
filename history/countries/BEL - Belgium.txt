@@ -4,13 +4,6 @@
 add_ideas = neutrality_idea
 add_timed_idea = { idea = no_training days= 730 }
 
-if = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	give_guarantee = FRA
-	give_guarantee = ENG
-}
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 3600

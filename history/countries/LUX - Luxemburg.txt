@@ -2,6 +2,9 @@
 
 oob = "LUX_1936"
 
+add_ideas = neutrality_idea
+add_ideas = no_training
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -995,7 +995,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			max_planning = 0.1
+			max_planning = 0.05
 		}
 		
 		slot = army_chief
@@ -1212,7 +1212,7 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			army_infantry_defence_factor = 0.13
+			army_infantry_defence_factor = 0.1
 		}
 		
 		slot = high_command
@@ -1395,7 +1395,7 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			army_armor_speed_factor = 0.05 
-			army_armor_attack_factor = 0.16 
+			army_armor_attack_factor = 0.1 
 		}
 		ai_will_do = {
 			factor = 1
@@ -1446,8 +1446,8 @@ leader_traits = {
 		modifier = {
 			desert = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 		}
 		new_commander_weight = {
@@ -1474,8 +1474,8 @@ leader_traits = {
 		modifier = {
 			marsh = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 		}
 		
@@ -1495,8 +1495,8 @@ leader_traits = {
 		modifier = {
 			mountain = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 		}
 		
@@ -1516,8 +1516,8 @@ leader_traits = {
 		modifier = {
 			hills = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 		}
 		
@@ -1537,8 +1537,8 @@ leader_traits = {
 		modifier = {
 			jungle = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 		}
 		
@@ -1558,8 +1558,8 @@ leader_traits = {
 		modifier = {
 			forest = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 		}
 		
@@ -1579,8 +1579,8 @@ leader_traits = {
 		modifier = {
 			urban = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 		}
 		
@@ -1783,6 +1783,7 @@ leader_traits = {
 		cost = 500
 		modifier = {
 			recon_factor_while_entrenched = 0.25
+			army_infantry_defence_factor = 0.05
 		}
 		
 		ai_will_do = {
@@ -1824,7 +1825,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			shore_bombardment_bonus = 0.25
+			shore_bombardment_bonus = 0.5
 		}
 		
 		ai_will_do = {

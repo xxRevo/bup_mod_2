@@ -343,7 +343,7 @@ characters={
 		}
 		corps_commander={
 			traits = { hill_fighter infantry_leader }
-			skill = 5
+			skill = 6
 			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4

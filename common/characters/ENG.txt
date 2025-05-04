@@ -319,7 +319,7 @@ characters={
 		
 		corps_commander={
 			traits = { inflexible_strategist infantry_leader trickster desert_fox}
-	skill = 5
+	skill = 6
 	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 3
@@ -338,7 +338,7 @@ characters={
 		}
 		corps_commander={
 			traits = { trait_reckless panzer_leader politically_connected  }
-	skill = 4
+	skill = 6
 	attack_skill = 5
 	defense_skill = 3
 	planning_skill = 4
@@ -357,7 +357,7 @@ characters={
 		}
 		corps_commander={
 			traits = {infantry_leader commando}
-	skill = 5
+	skill = 6
 	attack_skill = 6
 	defense_skill = 2
 	planning_skill = 4

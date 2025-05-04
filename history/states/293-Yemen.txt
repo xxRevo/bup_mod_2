@@ -14,7 +14,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			air_base = 5
-		}
+		
         1920 = {
         coastal_bunker = 2
         }
@@ -32,5 +32,5 @@ state={
 	}
 
 
-	local_supplies=0.0 
+	local_supplies=3.0 
 }

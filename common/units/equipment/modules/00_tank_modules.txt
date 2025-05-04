@@ -943,6 +943,36 @@ equipment_modules = {
 			chromium = 0
 		}
 	}
+ 
+	# ileride bir gun belki
+	#tank_modern_cannon = {
+	##	abbreviation = "mc4"
+	##	category = tank_medium_main_armament
+	##	sfx = sfx_ui_sd_module_turret
+	##	allow_equipment_type = anti_tank
+	##	dismantle_cost_ic = 1
+	##	add_stats = {
+	##		soft_attack = 40
+	##		hard_attack = 40
+	##		ap_attack = 180
+	##		build_cost_ic = 5
+	##		reliability = -0.15
+	##		breakthrough = 4
+	##	}
+	##	dismantle_cost_ic = 1
+	##	xp_cost = 0
+	##	can_convert_from = {
+	##		module_category = tank_medium_main_armament
+	##		convert_cost_ic = 5
+	##	}
+	##	build_cost_resources = {
+	##		tungsten = 0
+	##		steel = 0
+	##		chromium = 0
+	##	}
+	##}
+    
+
 
 	tank_medium_howitzer = {
 		abbreviation = "mh1"

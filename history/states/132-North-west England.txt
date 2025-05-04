@@ -8,7 +8,7 @@ state= {
 	resources={
 		steel=31 # was: 56
 		aluminium=2 # was: 4
-		chromium=90 # was: 168
+		chromium=140 # was: 168
 	}
 
 	history= {
@@ -23,7 +23,7 @@ state= {
 		
 		buildings = {
 			infrastructure = 4 #was: 8
-			arms_factory = 1
+			arms_factory = 3
 			industrial_complex = 1
 			dockyard = 3
 			air_base = 3

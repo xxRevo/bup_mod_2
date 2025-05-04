@@ -130,7 +130,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = GER_autobahn
-		cost = 10
+		cost = 5
 		available = {
 			51 = { 
 				is_fully_controlled_by = ROOT
@@ -415,7 +415,7 @@ focus_tree = {
 		relative_position_id = GER_rocketry_innovations
 		x = -1
 		y = 1
-		cost = 10
+		cost = 5
 		available = {
 			industrial_complex > 49
 			date > 1939.3.30
@@ -2614,7 +2614,7 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = GER_instill_auftragstaktik
-		cost = 10
+		cost = 5
 		available = {
 		}
 
@@ -3834,13 +3834,7 @@ focus = {
 				uses = 1
 				category = battlefield_support_tree
 			}
-			add_tech_bonus = {
-				name = GER_dive_bombers
-				bonus = 1
-				uses = 1
-				category = light_air
-			}
-
+			
 			if = {
 				limit = {
 					has_dlc = "By Blood Alone"
@@ -4481,7 +4475,7 @@ focus = {
 		x = -1
 		y = 2
 		relative_position_id = GER_reorganize_the_luftwaffe
-		cost = 10
+		cost = 5
 		available = {
 			GER_hermann_goring = {
 				is_air_chief = no
@@ -4635,7 +4629,7 @@ focus = {
 		x = 2
 		y = 2
 		relative_position_id = GER_reorganize_the_luftwaffe
-		cost = 10
+		cost = 5
 		available = {
 			has_war_with_major = yes
 		}
@@ -7398,7 +7392,13 @@ focus = {
 		
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = GER_dive_bombers
+				bonus = 1
+				uses = 1
+				category = light_air
+			}
+
 			air_experience = 300
 							
 				55 = {

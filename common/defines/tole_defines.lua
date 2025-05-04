@@ -1,7 +1,7 @@
 NDefines.NResistance.RESISTANCE_ACTIVITY_MIN_GARRISON_PENETRATE_CHANCE = 0.1
-NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 3
+NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 0
 
-NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
+NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 300
 NDefines.NGame.GAME_SPEED_SECONDS = { 0.28, 0.22, 0.16, 0.055, 0.0 } -- game speeds for each level. Must be 5 entries with last one 0 for unbound
@@ -170,6 +170,7 @@ NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.08
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 2400
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 30
 NDefines.NCountry.VP_TO_SUPPLY_BASE = 2
+NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0  
 
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 15
 
@@ -181,19 +182,19 @@ NDefines.NMilitary.TRAINING_ATTRITION = 0.01
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 4999
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 4999
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 4999
-NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2
+NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 0.5
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.05        -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03    -- global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03   -- global damage modifier
 NDefines.NMilitary.COST_INCREASE_PER_ACTIVE_MEDAL = 5.0 -- medal cost multiplier per active medal	
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.05
 NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 0		
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.2
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.3
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.2
 NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.02
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0001
 NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.025
@@ -211,6 +212,8 @@ NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.45 -- max extr
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 25			-- Min cap for planes that can join naval combat
 NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 8					-- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip)
 --NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.1	-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
+NDefines.NAir.ESCORT_FACTOR = 3
+NDefines.NAir.DISRUPTION_FACTOR = 3.5
 NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 4        	-- how often carrier planes do battle inside naval combat
 NDefines.NAir.AIR_WING_MAX_SIZE = 6400
 NDefines.NAir.THRUST_WEIGHT_AGILITY_FACTOR = 0 -- For plane designs, additive agility bonus per point of thrust exceeding weight #was 0.5
@@ -220,7 +223,6 @@ NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.5
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.7	-- Vanilla 0,75
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2
 NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.2
-NDefines.NAir.AGGRESSION_THRESHOLD = { 0.0, 0.25, 0.4 }
 
 --Logistics
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.02
@@ -502,7 +504,7 @@ NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CIVILWAR = 0
 NDefines.NSupply.INFRA_TO_SUPPLY = 0.36							-- each level of infra gives this many supply
 NDefines.NSupply.VP_TO_SUPPLY_BASE = 0.24							-- Bonus to supply from a VP, no matter the level
 NDefines.NSupply.VP_TO_SUPPLY_BONUS_CONVERSION = 0.075		-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer
-NDefines.NSupply.TRAIN_ANTI_AIR_HIT_CHANCE = 0.035 -- train anti-air hit chance reduced to %50
+NDefines.NSupply.TRAIN_ANTI_AIR_HIT_CHANCE = 0.1 -- train anti-air hit chance reduced to %50
 NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.4
 NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.56
 NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.68

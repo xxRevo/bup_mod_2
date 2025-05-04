@@ -1125,6 +1125,7 @@ equipment_modules = {
                 attack_logistics
             }
             add_stats = {
+
                 air_agility = -20
                 weight = 6
                 air_ground_attack = 2

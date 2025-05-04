@@ -57,21 +57,6 @@ if = {
 		}
 	}
 }
-if = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	give_guarantee = BEL
-}
-if = {
-	limit = {
-		has_dlc = "Graveyard of Empires"
-	}
-	give_guarantee = IRQ
-	IRQ = {
-		give_military_access = ENG
-	}
-}
 
 set_research_slots = 4
 
@@ -392,15 +377,6 @@ if = {
 		}
 	}
 	if = {
-		limit = {
-			has_dlc = "Gotterdammerung"
-			has_guaranteed = BEL
-		}
-		diplomatic_relation = { 
-			country = BEL
-			relation = guarantee 
-			active = no
-		}
 	}
 
 	complete_special_project = {

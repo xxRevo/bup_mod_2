@@ -223,12 +223,7 @@ if = {
 		armored_car1 = 1
 	}
 }
-if = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	give_guarantee = BEL
-}
+
 1939.1.1 = {
 
 	add_political_power = 899
@@ -404,15 +399,7 @@ if = {
 		add_ideas = MTG_naval_treaty_adherent_reduced
 	}
 	if = {
-		limit = {
-			has_dlc = "Gotterdammerung"
-			has_guaranteed = BEL
-		}
-		diplomatic_relation = { 
-			country = BEL
-			relation = guarantee 
-			active = no
-		}
+		
 	}
 }
 

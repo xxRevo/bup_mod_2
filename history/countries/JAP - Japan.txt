@@ -125,6 +125,7 @@ set_technology = {
 	fuel_refining = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
+	mountaineers = 1
 }
 
 complete_special_project = {

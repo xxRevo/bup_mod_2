@@ -78,6 +78,7 @@ set_technology = {
 	fuel_refining = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
+	mountaineers = 1
 }
 if = {
 	limit = {

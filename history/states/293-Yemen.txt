@@ -25,6 +25,7 @@ state={
 		10752 = {
         coastal_bunker = 2
         }
+	  }
 	}
 
 	provinces={
@@ -33,4 +34,5 @@ state={
 
 
 	local_supplies=3.0 
+ 
 }

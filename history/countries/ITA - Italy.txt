@@ -543,12 +543,20 @@ if = {
 
 ### STOCKPILE ###
 add_equipment_to_stockpile = {
-	type = motorized_equipment_1
-	amount = 150
+	type = infantry_equipment_1
+	amount = 15000
 }
 add_equipment_to_stockpile = {
-	type = gw_armored_car_equipment
-	amount = 150
+	type = support_equipment_1
+	amount = 500
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 400
+}
+add_equipment_to_stockpile = {
+	type = light_tank_equipment_1
+	amount = 200
 }
 
 

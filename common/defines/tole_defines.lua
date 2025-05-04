@@ -249,6 +249,7 @@ NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 0	
 
 
+---
 NDefines.NNavy.SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.10		-- enemy spotting is multiplied by this value to simulate running away
 NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 6.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 3.0	-- this screen ratio to num capital/carriers is needed for full screening beyond screen line
@@ -301,12 +302,15 @@ NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_DECAY_RATE = 1.0
 NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 1.0			
 
 -- Naval Defines Related to Convoys and Escorts	
-				
+NDefines.NNavy.CONVOY_HIT_PROFILE = 100
+NDefines.NNavy.COMBAT_MAX_GROUPS = 120
+NDefines.NNavy.CONVOY_ROUTE_SIZE_CONVOY_SCALE = 0.7 
+NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.40
+NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 0.65		
 NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 15.0				
 NDefines.NNavy.COMBAT_DETECTED_CONVOYS_FROM_SURFACE_DETECTION_STAT = 0.10		
 NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_AFTER_DAYS = 5							
-NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_BASE_SPEED = 0.04						
-NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.25                             	
+NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_BASE_SPEED = 0.04						                           	
 NDefines.NNavy.BASE_JOIN_COMBAT_HOURS = 2 										
 NDefines.NNavy.DEPTH_CHARGES_HIT_CHANCE_MULT = 2.0 								
 NDefines.NNavy.DEPTH_CHARGES_DAMAGE_MULT = 1.0 									
@@ -342,7 +346,6 @@ NDefines.NNavy.MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS 					= 0.0
 NDefines.NNavy.POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS			= 1.0
   		
   									
-NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 1.5                 								
 NDefines.NNavy.PRIDE_OF_THE_FLEET_LOST_TEMP_MODIFIER_DURATION = 0			
 NDefines.NNavy.MAX_ORG_ON_MANUAL_MOVE = 1.0									
 NDefines.NNavy.INITIAL_ALLOWED_DOCKYARD_RATIO_FOR_REPAIRS = 1.0				
@@ -358,7 +361,6 @@ NDefines.NNavy.CONVOY_DEFENSE_MAX_CONVOY_TO_SHIP_RATIO = 30
 
 NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 0.5
 
-NDefines.NNavy.COMBAT_MAX_GROUPS = 1
 NDefines.NNavy.COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.9
 NDefines.NNavy.CONVOY_EFFICIENCY_LOSS_MODIFIER = 1
 
@@ -394,7 +396,6 @@ NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.75
 NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.95
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 3
 
-NDefines.NNavy.CONVOY_HIT_PROFILE = 150
 
 NDefines.NNavy.GUN_HIT_PROFILES = {
 	100.0,  -- big guns

@@ -10,7 +10,7 @@ equipment_modules = {
         sfx = sfx_ui_sd_module_engine
 
         add_stats = {
-            thrust = 11
+            thrust = 12
             build_cost_ic = 24
             fuel_consumption = 0.16
         }
@@ -72,7 +72,7 @@ equipment_modules = {
         parent = engine_1_1x
 
         add_stats = {
-            thrust = 16
+            thrust = 18
             build_cost_ic = 28
             fuel_consumption = 0.16
         }

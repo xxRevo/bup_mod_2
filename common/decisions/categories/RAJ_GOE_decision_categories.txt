@@ -50,7 +50,10 @@ RAJ_GOE_sikh_recruitment_cat = {
 	}
 
 	visible = {
-		has_completed_focus = RAJ_punjab_autonomy
+		OR = {
+			has_completed_focus = RAJ_punjab_autonomy
+			has_completed_focus = RAJ_the_punjab_accord
+		}
 	}
 }
 
@@ -99,6 +102,7 @@ RAJ_GOE_india_indivisible_cat = {
 			has_completed_focus = RAJ_india_indivisible
 			has_completed_focus = RAJ_trade_federation_of_india
 			has_completed_focus = RAJ_integrate_the_princes
+			has_completed_focus = RAJ_integrate_the_princes2
 		}
 	}
 }
@@ -178,7 +182,55 @@ RAJ_GOE_eic_hostile_takeover_cat = {
 }
 
 RAJ_GOE_mughal_independence_category = {
-	icon = GFX_decision_category_jap_intervene_in_china
+	#SECURE WESTERN INDIA
+	on_map_area = {
+		targets = { 443 989 }
+		name = RAJ_GOE_secure_western_india
+		zoom = 150
+	}
+
+	#SECURE CENTRAL WESTERN INDIA
+	on_map_area = {
+		targets = {  433 428 437 }
+		name = RAJ_GOE_secure_western_central_india
+		zoom = 150
+	}
+
+	#SOUTHERN INDIA
+	on_map_area = {
+		targets = { 429 427 424 425 423 982 983 }
+		name = RAJ_GOE_secure_southern_india
+		zoom = 150
+	}
+	#CENTRAL INDIA
+	on_map_area = {
+		targets = { 436 984 426 438 435 }
+		name = RAJ_GOE_secure_central_india
+		zoom = 150
+	}
+
+	#EASTERN INDIA
+	on_map_area = {
+		targets = { 431 985 430 432 990 434 }
+		name = RAJ_GOE_secure_eastern_india
+		zoom = 150
+	}
+
+	#NORTHERN INDIA
+	on_map_area = {
+		targets = { 441 787 }
+		name = RAJ_GOE_secure_northern_india
+		zoom = 150
+	}
+
+	#NORTHERN CENTRAL INDIA
+	on_map_area = {
+		targets = { 440 986 439  }
+		name = RAJ_GOE_secure_northern_central_india
+		zoom = 150
+	}
+
+	icon = GFX_decision_category_NOR_fascist_deploy_prep
 	priority = 100
 	allowed = {
 		has_dlc = "Graveyard of Empires"
@@ -187,4 +239,91 @@ RAJ_GOE_mughal_independence_category = {
 			tag = ENG
 		}
 	}	
+}
+
+RAJ_GOE_communism_infiltration_cat = {
+	icon = GFX_decision_category_jap_intervene_in_china
+	priority = 100
+	allowed = {
+		has_dlc = "Graveyard of Empires"
+		OR = {
+			is_raj_or_raj_inheritor = yes
+			tag = RAJ
+		}
+	}
+
+	visible = {
+		NOT = {
+			has_country_flag = RAJ_hide_communist_infiltration
+		}
+	}		
+}
+
+RAJ_GOE_communism_border_clashes_cat ={
+	icon = GFX_decision_category_generic_communism
+	priority = 100
+	allowed = {
+		has_dlc = "Graveyard of Empires"
+		OR = {
+			is_raj_or_raj_inheritor = yes
+			tag = RAJ
+		}
+	}
+
+	visible = {
+		OR = {
+			has_completed_focus = RAJ_red_punjab_operation
+			has_completed_focus = RAJ_secure_rajahsthan
+			has_completed_focus = RAJ_strike_eastern_pakistan
+			
+		}
+	}		
+}
+
+RAJ_peasant_uprisings_cat = {
+	icon = GFX_decision_category_NOR_fascist_deploy_prep
+	priority = 100
+	allowed = {
+		has_dlc = "Graveyard of Empires"
+		OR = {
+			is_raj_or_raj_inheritor = yes
+			tag = RAJ
+		}
+	}
+
+	visible = {
+		has_completed_focus = RAJ_the_red_curtain_falls_over_asia	
+	}		
+}
+
+### LOYALIST BRANCH
+RAJ_work_with_local_leaders_cat = {
+	icon = GFX_decision_category_generic_industry
+	priority = 110
+	allowed = {
+		has_dlc = "Graveyard of Empires"
+		original_tag = RAJ
+	}
+
+	visible = {
+		has_completed_focus = RAJ_work_with_local_leaders	
+	}
+
+	scripted_gui = raj_local_leaders_investments_decision_ui
+}
+
+RAJ_concessions_to_the_congress_cat = {
+	icon = eng_concessions_to_the_trade_unions
+	picture = GFX_decision_cat_picture_concessions_to_the_trade_unions
+	priority = 105
+
+	allowed = {
+		has_dlc = "Graveyard of Empires"
+		original_tag = RAJ
+	}
+
+	visible = {
+		has_completed_focus = RAJ_confer_with_the_congress
+		has_capitulated = no
+	}
 }

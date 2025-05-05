@@ -689,7 +689,7 @@ characters={
 				small=GFX_portrait_ENG_oliver_leese_small
 			}
 		}
-		field_marshalr={
+		field_marshal={
 			traits = {  panzer_leader harsh_leader politically_connected desert_fox}
 	skill = 5
 	attack_skill = 4
@@ -1964,10 +1964,6 @@ characters={
 							has_power_balance = {
 								id = ETH_centralization_balance
 							}
-						}
-						
-						hidden_effect = {
-							ETH_BOP_decentralization_large_effect = yes
 						}
 					}				
 				}

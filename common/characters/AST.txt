@@ -96,7 +96,7 @@ characters={
 			}
 		}
 		corps_commander={
-			straits = { commando cavalry_leader panzer_leader}
+			traits = { commando cavalry_leader panzer_leader}
 			skill = 6
 			attack_skill = 5
 			defense_skill = 4

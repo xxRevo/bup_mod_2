@@ -1817,29 +1817,6 @@ on_actions = {
 				}
 			}  
 		}
-
-		# Creates the Colonial Template Divisions for Belgium
-		effect = {
-			IF = {
-				limit = {
-					has_dlc = "Gotterdammerung"
-				}
-				295 = {
-					create_unit = {
-					    division = "name = \"1. Groupes de Force Publique du Congo Belge\" division_template = \"Force Publique\" start_experience_factor = 0.1 start_equipment_factor = 0.6"
-					    owner = BEL
-					    prioritize_location = 5117 # Leopoldville
-					}
-					create_unit = {
-					    division = "name = \"2. Groupes de Force Publique du Congo Belge\" division_template = \"Force Publique\" start_experience_factor = 0.1 start_equipment_factor = 0.4"
-					    owner = BEL
-					    prioritize_location = 10968 # Fort de Shinakasa
-					}
-				}
-			}
-			
-		}
-
 		effect = {
 			IF = {
 				limit = { has_dlc = "Gotterdammerung" }

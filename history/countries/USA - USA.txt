@@ -410,7 +410,7 @@ set_autonomy = {
 	}
 }
 
-recruit_character = USA_earl_browder
+
 recruit_character = USA_william_dudley_pelley
 recruit_character = USA_franklin_delano_roosevelt
 recruit_character = USA_george_s_patton
@@ -460,7 +460,7 @@ recruit_character = USA_carl_spaatz
 recruit_character = USA_marc_mitscher
 recruit_character = USA_jimmy_doolittle
 recruit_character = USA_claire_lee_chennault
-recruit_character = USA_john_winant
+
 recruit_character = USA_henry_morgenthau
 recruit_character = USA_william_donovan
 recruit_character = USA_whittaker_chambers
@@ -473,7 +473,7 @@ recruit_character = USA_william_regnery
 recruit_character = USA_joseph_patterson
 recruit_character = USA_henry_stimson
 recruit_character = USA_victor_perlo
-recruit_character = USA_charles_coughlin
+
 recruit_character = USA_harry_white
 recruit_character = USA_native_american_council
 recruit_character = USA_leslie_skinner

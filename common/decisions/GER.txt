@@ -19089,21 +19089,7 @@ GER_realpolitik_cat = {
 					}	
 				}
 			}
-
-			UKR = {
-				UKR_mykhailo_omelianovych_pavlenko = {
-					add_country_leader_role = {
-						promote_leader = yes
-						country_leader = {
-							ideology = despotism
-							expire = 1965.1.1
-							traits = { POL_cossack_king } 
-						}
-					}
-				}
-			}
 		}
-	
 	}
 
 	# Found a Transcaucasian Satellite

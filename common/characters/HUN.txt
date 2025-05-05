@@ -2714,56 +2714,7 @@ characters = {
 				small = "GFX_idea_HUN_gusztav_gratz"
 			}
 		}
-
-		advisor = {
-
-			slot = political_advisor
-
-			idea_token = HUN_gusztav_gratz
-
-			allowed = {
-				original_tag = HUN
-				has_dlc = "Death or Dishonor"
-			}
-
-			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = wuw_HUN_continue_the_regency
-						has_completed_focus = wuw_HUN_end_the_white_terror
-					}
-				}
-				NOT = {
-					has_cosmetic_tag = vojvodina
-				}
-			}
-
-			available = {
-				IF = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-				IF = {
-					limit = {
-						# TODO:JA: Change this later!
-						has_dlc = "By Blood Alone"
-					}
-					has_completed_focus = wuw_HUN_end_the_regency
-				}
-			}
-
-			traits = {
-				staunch_monarchist 
-			}
-
-			ai_will_do = {
-				base = 1
-			}
-		}
+		
 	corps_commander = {
 		traits = {   panzer_leader trickster trait_reckless ranger harsh_leader war_hero}
 		skill = 5
@@ -2865,188 +2816,6 @@ characters = {
 			}
 
 		}
-	}
-
-	HUN_zoltan_tildy = {
-
-		name = HUN_zoltan_tildy
-
-		portraits = {
-			army = {
-				small="GFX_idea_HUN_zoltan_tildy"
-			}
-		}
-
-		advisor = {
-
-			slot = political_advisor
-
-			idea_token = HUN_zoltan_tildy
-
-			allowed = {
-				original_tag = HUN
-			}
-
-			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = wuw_HUN_elect_a_fascist_king
-						has_completed_focus = wuw_HUN_continue_the_regency
-						has_completed_focus = wuw_HUN_reinstate_the_pragmatic_sanction
-					}
-				}
-			}
-
-			available = {
-				IF = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-				OR = {
-					has_completed_focus = wuw_HUN_elect_a_democratic_king
-					has_completed_focus = wuw_HUN_elections_in_the_revolutionary_council
-				}
-			}
-
-			traits = {
-				democratic_reformer 
-			}
-
-			ai_will_do = {
-				base = 0
-			}
-
-		}
-	}
-
-	HUN_laszlo_rajk = {
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "Gotterdammerung"
-				}
-			}
-
-			name = HUN_laszlo_rajk
-
-			portraits = {
-				army = {
-					small = "GFX_idea_HUN_laszlo_rajk"
-				}
-			}
-
-			advisor = {
-
-				slot = political_advisor
-
-				idea_token = HUN_laszlo_rajk
-
-				allowed = {
-					original_tag = HUN
-				}
-
-				available = {
-					IF = {
-						limit = {
-							has_dlc = "Man the Guns"
-						}
-						NOT = {
-							has_autonomy_state = autonomy_supervised_state
-						}
-					}
-				}
-
-				traits = {
-					communist_revolutionary 
-				}
-
-				ai_will_do = {
-					base = 0
-					modifier = {
-						add = 100
-						OR = {
-							has_country_flag = HUN_AI_RANDOM_COMMUNIST
-							has_game_rule = {
-								rule = HUN_ai_behavior
-								option = COMMUNIST
-							}
-						}
-					}
-				}
-
-			}
-
-		}
-		instance = {
-			allowed = {
-				has_dlc = "Gotterdammerung"
-			}
-
-			name = HUN_laszlo_rajk
-
-			portraits = {
-				army = {
-					small = "GFX_idea_HUN_laszlo_rajk"
-				}
-			}
-
-			advisor = {
-
-				slot = political_advisor
-
-				idea_token = HUN_laszlo_rajk
-
-				allowed = {
-					original_tag = HUN
-				}
-
-				visible = {
-					NOT = {
-						OR = {
-							has_completed_focus = wuw_HUN_end_the_regency
-							has_completed_focus = wuw_HUN_continue_the_regency
-						}
-					}
-				}
-
-				available = {
-					IF = {
-						limit = {
-							has_dlc = "Man the Guns"
-						}
-						NOT = {
-							has_autonomy_state = autonomy_supervised_state
-						}
-					}
-					has_completed_focus = wuw_HUN_elections_in_the_revolutionary_council
-				}
-
-				traits = {
-					marxist_philosopher 
-				}
-
-				ai_will_do = {
-					base = 0
-					modifier = {
-						add = 100
-						OR = {
-							has_country_flag = HUN_AI_RANDOM_COMMUNIST
-							has_game_rule = {
-								rule = HUN_ai_behavior
-								option = COMMUNIST
-							}
-						}
-					}
-				}
-				
-			}
-
-		}
-
 	}
 
 	HUN_jozsef_szell = {
@@ -3212,55 +2981,6 @@ characters = {
 
 			traits = {
 				HUN_moderate_lawyer
-			}
-
-			ai_will_do = {
-				base = 1
-			}
-
-		}
-
-	}
-
-	HUN_erno_gero = {
-
-		name = HUN_erno_gero
-
-		portraits = {
-			civilian = {
-				small = "GFX_portrait_HUN_erno_gero_small"
-			}
-		}
-
-		advisor = {
-
-			slot = political_advisor
-
-			idea_token = HUN_erno_gero
-
-			allowed = {
-				original_tag = HUN
-				has_dlc = "La Resistance"
-			}
-
-			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = wuw_HUN_restore_the_socialist_federative_republic
-						has_completed_focus = wuw_HUN_establish_the_second_republic
-						has_completed_focus = wuw_HUN_continue_the_regency
-						has_completed_focus = wuw_HUN_end_the_regency
-					}
-				}
-			}
-
-			available = {
-				has_government = communism 
-				has_completed_focus = wuw_HUN_join_the_comintern
-			}
-
-			traits = {
-				HUN_stalinist_agent
 			}
 
 			ai_will_do = {
@@ -3620,55 +3340,6 @@ characters = {
 
 	}
 
-	HUN_gyula_kadar = {
-
-		name = HUN_gyula_kadar
-
-		portraits = {
-			civilian = {
-				small = "GFX_portrait_HUN_gyula_kadar_small"
-			}
-		}
-
-		advisor = {
-
-			slot = political_advisor
-
-			idea_token = HUN_gyula_kadar
-
-			allowed = {
-				original_tag = HUN
-				has_dlc = "La Resistance"
-			}
-
-			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = wuw_HUN_restore_the_socialist_federative_republic
-						has_completed_focus = wuw_HUN_join_the_comintern
-					}
-				}
-			}
-
-			available = {
-				has_intelligence_agency  = yes 
-				NOT = {
-					has_government = communism
-				}
-			}
-
-			traits = {
-				HUN_military_intelligence_officer
-			}
-
-			ai_will_do = {
-				base = 1
-			}
-
-		}
-
-	}
-
 	HUN_imre_nagy = {
 
 		name = HUN_imre_nagy
@@ -3873,10 +3544,6 @@ characters = {
 			}
 
 			available = {
-				OR = {
-					has_completed_focus = wuw_HUN_end_the_regency
-					has_completed_focus = wuw_HUN_continue_the_regency
-				}
 			}
 
 			traits = {
@@ -3885,56 +3552,6 @@ characters = {
 
 			ai_will_do = {
 				base = 1
-			}
-
-		}
-
-	}
-
-	HUN_lennart_bernadotte = {
-
-		name = HUN_lennart_bernadotte
-
-		portraits = {
-			civilian = {
-				small = "GFX_portrait_HUN_lennart_bernadotte_small"
-			}
-		}
-
-		advisor = {
-
-			slot = political_advisor
-
-			idea_token = HUN_lennart_bernadotte
-
-			allowed = {
-				original_tag = HUN
-			}
-
-			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = wuw_HUN_reinstate_the_pragmatic_sanction
-						has_completed_focus = wuw_HUN_end_the_white_terror
-						has_completed_focus = wuw_HUN_continue_the_regency
-					}
-				}
-			}
-
-			available = {
-				has_completed_focus = wuw_HUN_a_responsible_government
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
-			}
-
-			traits = {
-				HUN_filmmaker
-			}
-
-			ai_will_do = {
-				base = 5
 			}
 
 		}

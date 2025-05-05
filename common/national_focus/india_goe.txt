@@ -1514,12 +1514,11 @@ focus_tree = {
                     trait = panzer_leader
                 }
             }
-            add_tech_bonus = {
+             add_tech_bonus = {
                 name = RAJ_armoured_corps_center_and_school
-                bonus = 0.3
+                bonus = 1
                 uses = 2
-                category = armor # optional 
-                # technology  = technology_id # optional
+                category = cat_medium_armor
             }
         }
     }
@@ -1770,6 +1769,7 @@ focus_tree = {
                 bonus = 1
                 uses = 1
                 category = cat_mechanized_equipment # optional 
+				ahead_reduction = 1
                 # technology  = technology_id # optional
             }
             army_experience = 20

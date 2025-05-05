@@ -87,7 +87,7 @@ set_technology = {
 	basic_train = 1
 	engine_tech_1 = 1
 	interwar_antitank = 1
-	mountaineers = 1
+	tech_mountaineers = 1
 }
 
 add_breakthrough_progress = {

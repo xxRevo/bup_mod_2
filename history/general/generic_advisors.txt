@@ -43,13 +43,6 @@ every_possible_country = {
 			traits = { communist_revolutionary }
 			available = {
 				IF = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_the_lee_affair
-				}
-				IF = {
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
@@ -108,10 +101,6 @@ every_possible_country = {
 					limit = { 
 						original_tag = NZL
 						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
 					}
 				}
 				IF = {
@@ -189,54 +178,6 @@ every_possible_country = {
 		}
 	}
 }
-
-every_possible_country = {
-	limit = {
-		has_dlc = "La Resistance"
-		# china gets a special one via focus
-		NOT = { original_tag = CHI }
-		# Germany as Wilhelm Canaris
-		NOT = { original_tag = GER }
-		NOT = { is_chinese_warlord = yes }
-		IF = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			NOT = {
-				tag = GRE
-				tag = TUR
-			}
-		}
-		IF = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-
-		IF = {
-			limit = { has_dlc = "Arms Against Tyranny" }
-			NOT = { OR = { tag = SWE } }
-		}
-
-		IF = {
-			limit = { has_dlc = "Trial of Allegiance" }
-			NOT = { OR = { tag = CHL tag = ARG tag = BRA } }
-		}
-
-		IF = {
-			limit = { has_dlc = "Gotterdammerung" }
-			NOT = { OR = { tag = HUN tag = AUS tag = BEL } }
-		}
-		IF = {
-			limit = { has_dlc = "Graveyard of Empires" }
-			NOT = { tag = AFG tag = IRQ tag = PER tag = RAJ }
-		}
-
-		NOT = {
-			has_allowed_idea_with_traits = { idea = head_of_intelligence characters = yes }
-		}
-
-		is_dynamic_country = no
-	}
 	generate_character = {
 		token_base = generic_head_of_intelligence # token will be TAG_token_base
 		advisor = {

@@ -78,7 +78,6 @@ set_technology = {
 	fuel_refining = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
-	mountaineers = 1
 }
 if = {
 	limit = {
@@ -941,6 +940,11 @@ if = {
 	recruit_character = GER_otto_grotewohl
 
 	recruit_character = GER_henrich_focke #Heli Scientist
+}
+
+add_equipment_to_stockpile = {
+	type = tac_bomber_equipment_1
+	amount = 500
 }
 
 if = {

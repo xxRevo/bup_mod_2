@@ -4,7 +4,7 @@ state={
 	name="STATE_534" # Hokuriku
 	manpower = 1933000
 	
-	state_category = large_city
+	state_category = metropolis
 
 	history={
         add_core_of = COG

@@ -1799,7 +1799,6 @@ instant_effect = {
 		requested_factories = 7
 		progress = 0.1
 		efficiency = 50
-		industrial_manufacturer = 
 	}
 
 	add_equipment_production = {
@@ -1810,7 +1809,6 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.3
 		efficiency = 50
-		industrial_manufacturer = 
 	}
 
 	add_equipment_production = {
@@ -1821,7 +1819,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.3
 		efficiency = 50
-		industrial_manufacturer = 
 	}
 
 	add_equipment_production = {
@@ -1832,7 +1829,6 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.4
 		efficiency = 50
-		industrial_manufacturer = 
 	}
 
 	add_equipment_production = {
@@ -1843,7 +1839,6 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.4
 		efficiency = 50
-		industrial_manufacturer = 
 	}
 }
 	#####################

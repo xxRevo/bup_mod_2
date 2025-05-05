@@ -5302,7 +5302,7 @@ focus = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 			add_timed_idea = {
 				idea = idea_RAJ_great_depression_2
-				days = 1095
+				days = 730
 			}
 		}
 
@@ -5432,7 +5432,7 @@ focus = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 			add_timed_idea = {
 				idea = idea_RAJ_great_depression_2
-				days = 1095
+				days = 730
 			}
 		}
 

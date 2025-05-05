@@ -122,6 +122,10 @@ add_timed_idea = {
 	idea = GER_production_base
 	days = 30
 }
+add_dynamic_modifier = {
+	modifier = sealion_score_modifier_spirit
+}
+
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }

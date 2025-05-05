@@ -26,6 +26,14 @@
 #	can be added to countries, states, unit leaders or special projects
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
+###Sea Lion Score###
+sealion_score_modifier_spirit = {
+	enable = { always = yes }
+	icon = "GFX_sealion_score_modifier"
+	army_core_attack_factor = sealion_score_modifier
+	army_core_defence_factor = sealion_score_modifier
+}
+
 sabotaged_resources = {
 	remove_trigger = { 
 		ROOT = {

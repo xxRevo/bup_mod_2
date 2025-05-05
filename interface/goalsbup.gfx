@@ -11,7 +11,10 @@ spriteType = {
 		name = "GFX_GER_SS_armed_branch"
 		texturefile = "gfx/interface/goals/ger_waffen_ss.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_sealion_score_modifier"
+		texturefile = "gfx/interface/goals/sealion_score_modifier.dds"
+	}
 spriteType = {
 		name = "GFX_GER_mobile_fortresses"
 		texturefile = "gfx/interface/goals/GER_tigers_in_the_east.dds"

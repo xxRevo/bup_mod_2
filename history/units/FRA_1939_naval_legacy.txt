@@ -350,7 +350,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.15
 		amount = 1
-		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	# DD: Le Hardi variant (x6) ("Le Hardi" "Fleuret" "Epée" "Casque" "Lansquenet" "Mameluk")
 	add_equipment_production = {
@@ -362,7 +361,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.9
 		amount = 1
-		industrial_manufacturer = mio:FRA_acl_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -373,7 +371,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.8
 		amount = 1
-		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -384,7 +381,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.7
 		amount = 1
-		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -395,7 +391,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.7
 		amount = 1
-		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -406,7 +401,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.4
 		amount = 1
-		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -417,7 +411,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.4
 		amount = 1
-		industrial_manufacturer = mio:FRA_acl_organization
 	}
 	 # BB: Richelieu class (x1) ("Richelieu")
 	add_equipment_production = {
@@ -428,7 +421,6 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.4
 		amount = 1
-		industrial_manufacturer = mio:FRA_acl_organization
 	}
-
+}
 #####################

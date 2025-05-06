@@ -884,7 +884,6 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = CHI
-					is_chinese_warlord = yes
 				}
 				has_dlc = "La Resistance"
 			}
@@ -903,7 +902,6 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = CHI
-					is_chinese_warlord = yes
 				}
 				NOT = { has_dlc = "La Resistance" }
 				has_dlc = "Waking the Tiger"
@@ -923,7 +921,6 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = CHI
-					is_chinese_warlord = yes
 				}
 				has_dlc = "La Resistance"
 				has_dlc = "Waking the Tiger"
@@ -982,7 +979,6 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = CHI
-					is_chinese_warlord = yes
 				}
 				has_dlc = "Waking the Tiger"
 			}

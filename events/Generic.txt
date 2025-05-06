@@ -455,7 +455,6 @@ country_event = {
 				ROOT = {
 					original_tag = GER
 					has_government = neutrality
-					has_completed_focus = GER_ally_the_shade
 				}
 			}
 			set_global_flag = ENG_accepted_GER_diplomatic_overtures
@@ -480,7 +479,6 @@ country_event = {
 				ROOT = {
 					original_tag = GER
 					has_government = neutrality
-					has_completed_focus = GER_ally_the_shade
 				}
 			}
 			set_global_flag = ENG_accepted_GER_diplomatic_overtures
@@ -505,7 +503,6 @@ country_event = {
 				ROOT = {
 					original_tag = GER
 					has_government = neutrality
-					has_completed_focus = GER_ally_the_shade
 				}
 			}
 			set_global_flag = ENG_accepted_GER_diplomatic_overtures
@@ -544,7 +541,6 @@ country_event = {
 				ROOT = {
 					original_tag = GER
 					has_government = neutrality
-					has_completed_focus = GER_ally_the_shade
 				}
 			}
 			set_global_flag = ENG_accepted_GER_diplomatic_overtures
@@ -588,10 +584,8 @@ country_event = {
 			limit = {
 				original_tag = LAT
 				FROM = { original_tag = GER }
-				has_completed_focus = LAT_alignment_with_germany
 			}
 			uncomplete_national_focus = {
-				focus = LAT_alignment_with_germany
 				uncomplete_children = yes
 			}
 			complete_national_focus = LAT_the_thunder_strikes_alone
@@ -636,10 +630,8 @@ country_event = {
 			limit = {
 				original_tag = LAT
 				FROM = { original_tag = GER }
-				has_completed_focus = LAT_alignment_with_germany
 			}
 			uncomplete_national_focus = {
-				focus = LAT_alignment_with_germany
 				uncomplete_children = yes
 			}
 			complete_national_focus = LAT_the_thunder_strikes_alone
@@ -746,7 +738,6 @@ country_event = {
 				factor = 0
 				original_tag = FRA
 				is_in_faction_with = POL
-				POL = { has_completed_focus = POL_morges_pact }
 			}
 		}
 		FROM = {
@@ -821,7 +812,6 @@ country_event = {
 				factor = 0
 				original_tag = FRA
 				is_in_faction_with = POL
-				POL = { has_completed_focus = POL_morges_pact }
 			}
 		}
 		FROM = { 
@@ -897,7 +887,6 @@ country_event = {
 				factor = 0
 				original_tag = FRA
 				is_in_faction_with = POL
-				POL = { has_completed_focus = POL_morges_pact }
 			}
 		}
 		FROM = { 

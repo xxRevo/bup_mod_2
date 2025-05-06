@@ -16,7 +16,6 @@ FRA_civil_unrest_category = {
 						has_war = yes
 						NOT = {
 							AND = {
-								SPR_scw_in_progress = yes
 								any_enemy_country = {
 									original_tag = SPR #civil war still fires if in intervention in Spain
 								}
@@ -38,7 +37,6 @@ FRA_civil_unrest_category = {
 				AND = {
 					has_war = yes
 					AND = {
-						SPR_scw_in_progress = yes
 						any_enemy_country = {
 							original_tag = SPR #civil war still fires if in intervention in Spain
 						}
@@ -80,7 +78,6 @@ FRA_civil_unrest_category = {
 						has_war = yes
 						NOT = {
 							AND = {
-								SPR_scw_in_progress = yes
 								any_enemy_country = {
 									original_tag = SPR #civil war still fires if in intervention in Spain
 								}
@@ -101,7 +98,6 @@ FRA_civil_unrest_category = {
 				AND = {
 					has_war = yes
 					AND = {
-						SPR_scw_in_progress = yes
 						any_enemy_country = {
 							original_tag = SPR #civil war still fires if in intervention in Spain
 						}
@@ -1312,272 +1308,6 @@ economy_decisions = {
 				}
 				country_event = lar_france_political_violence.2
 			}
-		}
-	}
-
-	FRA_reorganize_aviation_industry_north = {
-		available = {  }
-
-		visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }
-
-		remove_effect = { 
-			set_country_flag = FRA_SNCAN_formed
-			random_owned_state = {
-				limit = { 
-					OR = {
-						state = 29 
-						state = 785 
-						state = 15 
-						state = 16
-					}
-					is_fully_controlled_by = ROOT 
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				mio:FRA_amiot_organization = {
-					set_mio_name_key = SNCAN
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.05
-					
-				}
-				hidden_effect = {
-					mio:FRA_amiot_organization = {
-						set_mio_icon = GFX_idea_FRA_sncan
-					}
-				}
-
-			}
-		}
-		days_remove = 120
-		cost = 50
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 5
-		}
-		
-	}
-	FRA_reorganize_aviation_industry_west = {
-		available = {  }
-
-		visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }
-
-		remove_effect = { 
-			set_country_flag = FRA_SNCAO_formed
-			random_owned_state = {
-				limit = { 
-					OR = {
-						state = 30
-						state = 14
-						state = 23
-					}
-					is_fully_controlled_by = ROOT 
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				mio:FRA_bloch_organization = {
-					set_mio_name_key = SNCAO
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.05
-					
-				}
-				hidden_effect = {
-					mio:FRA_bloch_organization = {
-						set_mio_icon = GFX_idea_FRA_sncao
-					}
-				}
-
-			}
-		}
-		days_remove = 120
-		cost = 50
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	FRA_reorganize_aviation_industry_center = {
-		available = {  }
-
-		visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }
-
-		remove_effect = { 
-			set_country_flag = FRA_SNCAC_formed
-			random_owned_state = {
-				limit = { 
-					OR = {
-						state = 24
-						state = 33
-						state = 27
-						state = 26
-						state = 25
-					}
-					is_fully_controlled_by = ROOT 
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				custom_effect_tooltip = invites_mio_tt
-				show_mio_tooltip = FRA_SNCAC_organization
-				mio:FRA_SNCAC_organization = {
-					add_mio_size = 2
-					add_mio_funds_gain_factor = 0.05
-				}
-			}
-		}
-		days_remove = 120
-		cost = 50
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	FRA_reorganize_aviation_industry_south_east = {
-		available = {  }
-
-		visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }
-
-		remove_effect = { 
-			set_country_flag = FRA_SNCASE_formed
-			random_owned_state = {
-				limit = { 
-					OR = {
-						state = 735
-						state = 32
-						state = 20
-						state = 21
-						state = 851
-					}
-					is_fully_controlled_by = ROOT 
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				mio:FRA_morane_saulnier_organization = {
-					set_mio_name_key = SNCASE
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.05
-					
-				}
-				hidden_effect = {
-					mio:FRA_morane_saulnier_organization = {
-						set_mio_icon = GFX_idea_FRA_sncase
-					}
-				}
-
-			}
-		}
-		days_remove = 120
-		cost = 50
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	FRA_reorganize_aviation_industry_south_west = {
-		available = {  }
-
-		visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }
-
-		remove_effect = { 
-			set_country_flag = FRA_SNCASO_formed
-			random_owned_state = {
-				limit = { 
-					OR = {
-						state = 22
-						state = 31
-						state = 19
-						state = 25
-					}
-					is_fully_controlled_by = ROOT 
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				mio:FRA_levasseur_organization = {
-					set_mio_name_key = SNCASO
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.05
-				}
-				hidden_effect = {
-					mio:FRA_levasseur_organization = {
-						set_mio_icon = GFX_idea_FRA_sncaso
-					}
-				}
-
-			}
-		}
-		days_remove = 120
-		cost = 50
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 5
 		}
 	}
 }

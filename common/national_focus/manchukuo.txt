@@ -514,7 +514,6 @@
 					}
 					create_intelligence_agency = yes
 				}
-				add_ideas = MAN_hoankyoku_idea
 			}
 		}
 	}

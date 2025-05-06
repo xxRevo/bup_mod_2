@@ -16,7 +16,7 @@ if = {
 
 # Starting tech
 add_ideas = neutrality_idea
-add_timed_idea = { idea = no_training days= 730 }
+add_ideas = no_training
 IF = {
 	limit = {
 		has_dlc = "Graveyard of Empires"
@@ -56,13 +56,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
-	democratic = PER_democratic_popularity
-	fascism = PER_fascism_popularity
-	communism = PER_communism_popularity
-	neutrality = PER_neutrality_popularity
-}
-
 create_country_leader = {
 	name = "Reza Shah Pahlavi"
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"

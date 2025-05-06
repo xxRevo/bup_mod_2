@@ -920,7 +920,7 @@ ideas = {
 			allowed = {
 				original_tag = GER
 			}
-			on_add={if={limit{NOT={has_country_flag=speer_taken}}
+			on_add={if={limit = {NOT={has_country_flag=speer_taken}}
 				add_timed_idea={idea=GER_Albert_Speer_idea days=60}
 				set_country_flag=speer_taken 
 			}}

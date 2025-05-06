@@ -125,7 +125,7 @@ set_technology = {
 	fuel_refining = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
-	mountaineers = 1
+	tech_mountaineers = 1
 }
 
 complete_special_project = {
@@ -741,90 +741,6 @@ IF = {
 		}	
 }
 IF = {
-	limit = {
-		has_dlc = "By Blood Alone"
-	}
-	create_equipment_variant = {
-		name = "Ki-10"
-		type = small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-	}
-	create_equipment_variant = {
-		name = "Ki-2"
-		type = small_plane_cas_airframe_0
-		modules = {
-			fixed_main_weapon_slot = small_bomb_bay
-			engine_type_slot = engine_1_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		icon = "GFX_JAP_CAS1_medium"
-	}
-	create_equipment_variant = {
-		name = "Ki-1"
-		type = medium_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			engine_type_slot = engine_1_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-	}
-	create_equipment_variant = {
-		name = "Ki-3"
-		type = small_plane_cas_airframe_0
-		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		icon = "GFX_JAP_CAS1_medium"
-	}
-	create_equipment_variant = {
-		name = "Aichi D1A2"
-		type = cv_small_plane_cas_airframe_0
-		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = dive_brakes_small
-		}
-		icon = "GFX_JAP_CAS1_medium"
-	}
-	create_equipment_variant = {
-		name = "A4N"
-		type = cv_small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-	}
-	create_equipment_variant = {
-		name = "B2M"
-		type = cv_small_plane_naval_bomber_airframe_0
-		modules = {
-			fixed_main_weapon_slot = torpedo_mounting
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-		icon = "GFX_JAP_cv_naval_bomber1_medium"
-	}
-	create_equipment_variant = {
-		name = "B4Y"
-		type = cv_small_plane_naval_bomber_airframe_1
-		modules = {
-			fixed_main_weapon_slot = torpedo_mounting
-			fixed_auxiliary_weapon_slot_1 = bomb_locks
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-		icon = "GFX_JAP_cv_naval_bomber1_medium"
-	}
-}
-IF = {
 	limit = { has_dlc = "Man the Guns"}
 	### VARIANTS ###
 	# 1936 Start #
@@ -1288,7 +1204,6 @@ IF = {
 			name = "I-1 Class"
 			type = ship_hull_cruiser_submarine
 			name_group = JAP_SS_HISTORICAL
-			design_team = mio:JAP_sasebo_naval_arsenal_organization
 			parent_version = 0
 			modules = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -1301,71 +1216,6 @@ IF = {
 }
 # 1939 Start #			
 	1939.1.1 = {
-		IF = {
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-			create_equipment_variant = {
-				name = "Ki-27"
-				type = small_plane_airframe_1
-				modules = {
-					fixed_main_weapon_slot = light_mg_2x
-					engine_type_slot = engine_2_1x
-					special_type_slot_1 = empty
-				}
-			}
-			create_equipment_variant = {
-				name = "A5M"
-				type = cv_small_plane_airframe_1
-				modules = {
-					fixed_main_weapon_slot = light_mg_2x
-					engine_type_slot = engine_2_1x
-					special_type_slot_1 = empty
-				}
-				icon = "GFX_JAP_cv_fighter1_medium"
-			}
-			create_equipment_variant = {
-				name = "B5N"
-				type = cv_small_plane_naval_bomber_airframe_1
-				modules = {
-					fixed_main_weapon_slot = torpedo_mounting
-					fixed_auxiliary_weapon_slot_1 = bomb_locks
-					engine_type_slot = engine_2_1x
-					special_type_slot_1 = fuel_tanks_small
-				}
-				icon = "GFX_JAP_cv_naval_bomber1_medium"
-			}
-			create_equipment_variant = {
-				name = "Ki-30/32"
-				type = small_plane_cas_airframe_1
-				modules = {
-					fixed_main_weapon_slot = small_bomb_bay
-					engine_type_slot = engine_2_1x
-					special_type_slot_1 = empty
-				}
-			}
-			create_equipment_variant = {
-				name = "Ki-21"
-				type = medium_plane_airframe_1
-				modules = {
-					fixed_main_weapon_slot = medium_bomb_bay
-					engine_type_slot = engine_2_2x
-					special_type_slot_1 = lmg_defense_turret
-				}
-			}
-			create_equipment_variant = {
-				name = "G3M2"
-				type = medium_plane_airframe_1
-				modules = {
-					fixed_main_weapon_slot = medium_bomb_bay
-					fixed_auxiliary_weapon_slot_1 = torpedo_mounting
-					engine_type_slot = engine_3_2x #Increased tier due to thrust/weight issues
-					special_type_slot_1 = lmg_defense_turret_2x
-					special_type_slot_2 = fuel_tanks_medium
-				}
-				icon = "GFX_JAP_early_bomber_medium"
-			}
-		}
 		IF = {
 			limit = {
 				NOT = { has_dlc = "Man the Guns" }

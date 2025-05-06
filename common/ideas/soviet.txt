@@ -654,13 +654,6 @@ ideas = {
             allowed_civil_war = {
                 has_government = communism
             }
-
-            modifier = {
-                air_interception_attack_factor = -0.9
-                air_air_superiority_attack_factor = -0.9
-                air_close_air_support_attack_factor = -0.9
-            }
-
             equipment_bonus = {
 
                 fighter_equipment = {
@@ -1126,13 +1119,6 @@ ideas = {
             allowed_civil_war = {
                 has_government = communism
             }
-
-            modifier = {
-                air_interception_attack_factor = -0.9
-                air_air_superiority_attack_factor = -0.9
-                air_close_air_support_attack_factor = -0.9
-            }
-
             equipment_bonus = {
 
                 fighter_equipment = {

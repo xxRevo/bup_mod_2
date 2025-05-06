@@ -87,7 +87,7 @@ set_technology = {
 	basic_train = 1
 	engine_tech_1 = 1
 	interwar_antitank = 1
-	mountaineers = 1
+	tech_mountaineers = 1
 }
 
 add_breakthrough_progress = {
@@ -410,7 +410,7 @@ set_autonomy = {
 	}
 }
 
-recruit_character = USA_earl_browder
+
 recruit_character = USA_william_dudley_pelley
 recruit_character = USA_franklin_delano_roosevelt
 recruit_character = USA_george_s_patton
@@ -460,7 +460,7 @@ recruit_character = USA_carl_spaatz
 recruit_character = USA_marc_mitscher
 recruit_character = USA_jimmy_doolittle
 recruit_character = USA_claire_lee_chennault
-recruit_character = USA_john_winant
+
 recruit_character = USA_henry_morgenthau
 recruit_character = USA_william_donovan
 recruit_character = USA_whittaker_chambers
@@ -473,7 +473,7 @@ recruit_character = USA_william_regnery
 recruit_character = USA_joseph_patterson
 recruit_character = USA_henry_stimson
 recruit_character = USA_victor_perlo
-recruit_character = USA_charles_coughlin
+
 recruit_character = USA_harry_white
 recruit_character = USA_native_american_council
 recruit_character = USA_leslie_skinner
@@ -591,184 +591,6 @@ if = {
 			ship_engine_upgrade = 1
 			ship_reliability_upgrade = 1
 		}
-	}
-}
-if = {
-	limit = {
-		has_dlc = "By Blood Alone"
-	}
-	create_equipment_variant = {
-		name = "P-6" #export models only
-		type = small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "P-26A" # Boeing P-26 Peashooter
-		type = small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_1_1x
-			fixed_auxiliary_weapon_slot_1 = bomb_locks
-		}
-		obsolete = yes
-		icon = "GFX_USA_light_plane_2_medium"
-	}
-	create_equipment_variant = {
-		name = "O2U" #
-		type = small_plane_cas_airframe_0
-		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			fixed_auxiliary_weapon_slot_1 = light_mg_2x
-			engine_type_slot = engine_1_1x
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "SBU Corsair" #
-		type = cv_small_plane_cas_airframe_0
-		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = dive_brakes_small
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "BM-2" #
-		type = cv_small_plane_naval_bomber_airframe_0
-		modules = {
-			fixed_main_weapon_slot = torpedo_mounting
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "A-12" #
-		type = small_plane_cas_airframe_0
-		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			fixed_auxiliary_weapon_slot_1 = light_mg_4x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-		icon = "GFX_USA_CAS1_medium"
-	}
-	create_equipment_variant = {
-		name = "A-17" #
-		type = small_plane_cas_airframe_1
-		modules = {
-			fixed_main_weapon_slot = small_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = light_mg_4x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-		icon = "GFX_USA_CAS1_medium"
-	}
-	create_equipment_variant = {
-		name = "P-35A" #
-		type = small_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-		icon = "GFX_USA_light_plane_4_medium"
-	}
-	create_equipment_variant = {
-		name = "P-36A" #
-		type = small_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = light_mg_4x
-			fixed_auxiliary_weapon_slot_1 = light_mg_2x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-		icon = "GFX_USA_fighter1_medium"
-	}
-	create_equipment_variant = {
-		name = "B-6A" #also covers other Keystone bombers
-		type = medium_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			engine_type_slot = engine_1_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "B-10" #
-		type = medium_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			engine_type_slot = engine_1_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		icon = "GFX_medium_plane_1_medium"
-	}
-	create_equipment_variant = {
-		name = "B-18" #
-		type = medium_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		icon = "GFX_USA_early_bomber_medium"
-	}
-	create_equipment_variant = {
-		name = "P2Y" #
-		type = medium_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = bomb_locks
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = flying_boat_medium
-			special_type_slot_2 = lmg_defense_turret
-		}
-		obsolete = yes
-		icon = "GFX_USA_naval_bomber1_medium"
-	}
-	create_equipment_variant = {
-		name = "PBY" #
-		type = medium_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = torpedo_mounting
-			fixed_auxiliary_weapon_slot_2 = torpedo_mounting
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = flying_boat_medium
-			special_type_slot_2 = lmg_defense_turret
-		}
-		icon = "GFX_USA_naval_bomber1_medium"
-	}
-	create_equipment_variant = {
-		name = "F4B" #also covers F2F
-		type = cv_small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-		icon = "GFX_USA_cv_fighter1_medium"
-	}
-	create_equipment_variant = {
-		name = "F3F" #
-		type = cv_small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-		icon = "GFX_USA_cv_fighter1_medium"
 	}
 }
 if = {
@@ -1208,16 +1030,6 @@ if = {
 			}
 		}
 		create_equipment_variant = {
-			name = "B-23" #
-			type = medium_plane_airframe_1
-			modules = {
-				fixed_main_weapon_slot = medium_bomb_bay
-				engine_type_slot = engine_2_2x
-				special_type_slot_1 = lmg_defense_turret
-			}
-			icon = "GFX_USA_tactical_bomber1_medium"
-		}
-		create_equipment_variant = {
 			name = "YA-19" #
 			type = small_plane_cas_airframe_1
 			modules = {
@@ -1227,30 +1039,6 @@ if = {
 				special_type_slot_1 = empty
 			}
 			obsolete = yes
-		}
-		create_equipment_variant = {
-			name = "A-20" #
-			type = small_plane_cas_airframe_2
-			modules = {
-				fixed_main_weapon_slot = small_bomb_bay
-				fixed_auxiliary_weapon_slot_1 = small_bomb_bay
-				fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
-				engine_type_slot = engine_2_2x
-				special_type_slot_1 = hmg_defense_turret
-			}
-			icon = "GFX_USA_CAS2_medium"
-		}
-		create_equipment_variant = {
-			name = "B-17" #
-			type = large_plane_airframe_1
-			modules = {
-				fixed_main_weapon_slot = large_bomb_bay
-				fixed_auxiliary_weapon_slot_1 = large_bomb_bay
-				engine_type_slot = engine_3_4x
-				special_type_slot_1 = hmg_defense_turret_2x
-				special_type_slot_2 = hmg_defense_turret_2x
-				special_type_slot_3 = bomb_sights_1
-			}
 		}
 	}
 	if = {

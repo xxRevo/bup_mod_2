@@ -24,12 +24,6 @@ ENG_historical_plan = {
 			}
 		}
 	}
-	abort = {
-		OR = {
-			GER = { has_completed_focus = GER_oppose_hitler }
-			GER = { has_completed_focus = GER_oppose_hitler_ww }
-		}
-	}
 
 	ai_national_focuses = {
 		limited_rearmament_focus #March 10 1936	

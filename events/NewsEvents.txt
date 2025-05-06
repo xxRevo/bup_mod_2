@@ -1325,77 +1325,6 @@ news_event = {
 }
 
 # Trotsky Assassination
-news_event = {
-	id = news.37
-	title = news.37.t
-	desc = news.37.d
-	picture = GFX_news_event_024
-	
-	major = yes
-	
-	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = {
-					tag = SOV
-				}
-				SOV_kill_trotsky_effect = yes
-			}
-		}
-	}
-	
-	option = {
-		name = news.37.a
-		trigger = { 
-			NOT = { 
-				TAG = SOV 
-				is_in_faction_with = SOV
-				tag = MEX
-			} 
-		}
-	}
-	option = {
-		name = news.37.a
-		trigger = {
-			tag = MEX
-			NOT = { is_in_faction_with = SOV }
-		}
-
-		effect_tooltip = {
-			retire_character = MEX_leon_trotsky
-		}
-	}
-
-	option = {
-		name = news.37.b
-		trigger = { TAG = SOV }
-
-		if = {
-			limit = {
-				has_idea = trotskyite_plot_nsb
-			}
-			effect_tooltip = {
-				retire_character = SOV_lev_trotsky
-				swap_ideas = {
-					remove_idea = trotskyite_plot_nsb
-					add_idea = trotskyite_plot_purged
-				}
-			}
-		}
-	}
-
-	option = {
-		name = news.37.c
-		trigger = { 
-			is_in_faction_with = SOV
-			NOT = {
-				tag = SOV
-			} 
-		}
-	}
-}
 
 # Trotsky Survives Assassination
 news_event = {
@@ -1934,7 +1863,6 @@ news_event = {
 		}
 		GER = {
 			has_completed_focus = GER_reassert_eastern_claims
-			NOT = { has_completed_focus = GER_befriend_poland }
 		}
 	}
 	

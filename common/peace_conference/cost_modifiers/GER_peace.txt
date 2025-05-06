@@ -10,7 +10,6 @@ peace_action_modifiers = {
             ROOT = {
                 original_tag = SOV #yes, this is to increase the cost for sov taking stuff in GER soi
             }
-            GER = { has_completed_focus = GER_spheres_of_influence }
             FROM.FROM.FROM = {
                 is_in_array = {
                     array = GER.GER_sphere_of_influence_array                    
@@ -27,7 +26,6 @@ peace_action_modifiers = {
         enable = {
             ROOT = {
                 original_tag = GER #yes, this is to increase the cost for ger taking stuff in sov soi
-                has_completed_focus = GER_spheres_of_influence
             }
             
             FROM.FROM.FROM = {
@@ -50,7 +48,6 @@ peace_action_modifiers = {
                     original_tag = CHI
                 }
             }
-            GER = { has_completed_focus = GER_divide_and_conquer }
             FROM.FROM.FROM = {
                 is_in_array = {
                     array = GER.GER_asia_sphere_of_influence_array                    
@@ -67,7 +64,6 @@ peace_action_modifiers = {
         enable = {
             ROOT = {
                 original_tag = GER #yes, this is to increase the cost for ger taking stuff in sov soi
-                has_completed_focus = GER_divide_and_conquer
             }
             
             FROM.FROM.FROM = {
@@ -86,7 +82,6 @@ peace_action_modifiers = {
         enable = {
             ROOT = {
                 original_tag = GER
-                has_completed_focus = GER_liberate_oppressed_people  
             }
             FROM = { 
                 OR = {
@@ -157,7 +152,6 @@ peace_action_modifiers = {
         enable = {
             ROOT = {
                 original_tag = GER
-                has_completed_focus = GER_liberate_oppressed_people  
             }
             FROM = { 
                 OR = {

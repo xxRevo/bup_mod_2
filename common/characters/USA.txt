@@ -558,52 +558,6 @@ characters={
 			logistics_skill = 4
 		}
 	}
-
-	USA_joseph_stilwell={
-		name=USA_joseph_stilwell
-		portraits={
-			army={
-				small="GFX_idea_joseph_stilwell"
-			}
-			army={
-				large=GFX_portrait_USA_joseph_stilwell
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = joseph_stilwell
-			ledger = army
-			allowed = {
-				OR = {
-					is_literally_china = yes
-					original_tag = USA
-				}
-			}
-			available = {
-				NOT = {
-					has_country_flag = joseph_stilwell_sent_to_china
-				}
-			}
-			traits = {
-				army_logistics_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-
-		corps_commander={
-			traits={ career_officer harsh_leader infantry_officer politically_connected }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=601
-		}
-	}
-
 	USA_oscar_griswold={
 		name=USA_oscar_griswold
 		portraits={

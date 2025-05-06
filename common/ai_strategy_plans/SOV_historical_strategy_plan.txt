@@ -26,12 +26,6 @@ SOV_historical_plan = {
 			is_subject = yes
 			# They will switch to a plan that excludes the trade treaty if Germany goes against Ribbentrop
 			AND = {
-				GER = {
-					OR = {
-						has_completed_focus = GER_heed_von_neuraths_concerns
-						has_completed_focus = GER_monarchist_sentiment
-					}
-				}
 				has_game_rule = {
 					rule = SOV_ai_behavior
 					option = DEFAULT

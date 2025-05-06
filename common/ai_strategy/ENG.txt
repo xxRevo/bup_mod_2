@@ -2572,11 +2572,6 @@ ENG_dont_kick_russia_out_from_triple_entente_due_to_gobbling_up_breakaway_states
 		original_tag = ENG
 	}
 
-	enable = {
-		is_in_faction_with = SOV
-		SOV = { has_completed_focus = SOV_the_triple_entente }
-	}
-
 	abort = {
 		NOT = { is_in_faction_with = SOV }
 	}

@@ -2023,7 +2023,6 @@ bba_get_tac_GER_effect = { #creates a tac design if necessary and exports a numb
 						fixed_auxiliary_weapon_slot_2 = bomb_locks
 						engine_type_slot = engine_3_2x
 						special_type_slot_1 = armor_plate_medium
-						special_type_slot_2 = lmg_defense_turret_2x
 					}
 					icon = "GFX_GER_tactical_bomber3_medium"
 				}
@@ -2100,7 +2099,6 @@ bba_get_heavy_fighter_GER_effect = { #creates a heavy_fighter design if necessar
 						fixed_auxiliary_weapon_slot_1 = light_mg_4x
 						fixed_auxiliary_weapon_slot_2 = bomb_locks
 						engine_type_slot = engine_3_2x
-						special_type_slot_1 = lmg_defense_turret_2x
 					}
 					icon = "GFX_GER_tactical_bomber2_medium"
 				}
@@ -2136,7 +2134,6 @@ bba_get_heavy_fighter_GER_effect = { #creates a heavy_fighter design if necessar
 						fixed_auxiliary_weapon_slot_3 = rocket_rails
 						engine_type_slot = engine_3_2x
 						special_type_slot_1 = empty
-						special_type_slot_2 = hmg_defense_turret
 					}
 					icon = "GFX_GER_heavy_fighter2_medium"
 				}
@@ -2499,7 +2496,6 @@ bba_get_heavy_fighter_ENG_effect = { #creates a heavy_fighter design if necessar
 					modules = {
 						fixed_main_weapon_slot = light_mg_4x
 						engine_type_slot = engine_2_2x
-						special_type_slot_1 = lmg_defense_turret
 					}
 					icon = "GFX_ENG_heavy_fighter1_medium"
 				}
@@ -2537,7 +2533,6 @@ bba_get_heavy_fighter_ENG_effect = { #creates a heavy_fighter design if necessar
 						fixed_auxiliary_weapon_slot_2 = bomb_locks
 						fixed_auxiliary_weapon_slot_3 = torpedo_mounting
 						engine_type_slot = engine_3_2x
-						special_type_slot_1 = lmg_defense_turret
 					}
 					icon = "GFX_ENG_heavy_fighter2_medium"
 				}
@@ -2717,7 +2712,6 @@ bba_get_cas_USA_effect = { #creates a CAS design if necessary and exports a numb
 						fixed_main_weapon_slot = small_bomb_bay
 						fixed_auxiliary_weapon_slot_1 = small_bomb_bay
 						engine_type_slot = engine_2_2x
-						special_type_slot_1 = hmg_defense_turret
 					}
 					icon = "GFX_USA_CAS2_medium"
 				}
@@ -2750,8 +2744,7 @@ bba_get_cas_USA_effect = { #creates a CAS design if necessary and exports a numb
 						fixed_main_weapon_slot = bomb_locks
 						fixed_auxiliary_weapon_slot_1 = small_bomb_bay
 						fixed_auxiliary_weapon_slot_2 = small_bomb_bay
-						engine_type_slot = engine_4_2x
-						special_type_slot_1 = hmg_defense_turret_2x
+						engine_type_slot = engine_4_2x_2x
 					}
 					icon = "GFX_USA_CAS3_medium"
 				}
@@ -2807,7 +2800,6 @@ bba_get_tac_USA_effect = { #creates a tac design if necessary and exports a numb
 						fixed_auxiliary_weapon_slot_1 = torpedo_mounting
 						fixed_auxiliary_weapon_slot_2 = empty
 						engine_type_slot = engine_3_2x #Increased tier due to thrust/weight issues
-						special_type_slot_1 = hmg_defense_turret
 					}
 					icon = "GFX_USA_medium_plane_2_medium"
 				}
@@ -2842,8 +2834,7 @@ bba_get_tac_USA_effect = { #creates a tac design if necessary and exports a numb
 						fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
 						fixed_auxiliary_weapon_slot_3 = heavy_mg_4x
 						fixed_auxiliary_weapon_slot_4 = bomb_locks
-						engine_type_slot = engine_3_2x
-						special_type_slot_1 = hmg_defense_turret_2x
+						engine_type_slot = engine_3_2x_2x
 						special_type_slot_2 = empty
 					}
 					icon = "GFX_USA_tactical_bomber2_medium"
@@ -2882,7 +2873,6 @@ bba_get_heavy_fighter_USA_effect = { #creates a heavy_fighter design if necessar
 					modules = {
 						fixed_main_weapon_slot = aircraft_cannon_1_2x
 						engine_type_slot = engine_2_2x
-						special_type_slot_1 = hmg_defense_turret
 					}
 					icon = "GFX_USA_heavy_fighter1_medium"
 				}
@@ -2920,7 +2910,6 @@ bba_get_heavy_fighter_USA_effect = { #creates a heavy_fighter design if necessar
 						fixed_auxiliary_weapon_slot_2 = empty
 						fixed_auxiliary_weapon_slot_3 = empty
 						engine_type_slot = engine_3_2x
-						special_type_slot_1 = hmg_defense_turret
 					}
 					icon = "GFX_USA_medium_plane_3_medium"
 				}
@@ -2955,7 +2944,6 @@ bba_get_heavy_fighter_USA_effect = { #creates a heavy_fighter design if necessar
 						fixed_auxiliary_weapon_slot_2 = bomb_locks
 						fixed_auxiliary_weapon_slot_3 = rocket_rails
 						engine_type_slot = engine_3_2x
-						special_type_slot_1 = hmg_defense_turret
 						special_type_slot_2 = empty
 					}
 					icon = "GFX_USA_heavy_fighter3_medium"
@@ -3097,7 +3085,6 @@ bba_get_cas_ITA_effect = { #creates a CAS design if necessary and exports a numb
 						fixed_main_weapon_slot = small_bomb_bay
 						fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
 						engine_type_slot = engine_2_2x
-						special_type_slot_1 = lmg_defense_turret
 					}
 					icon = "GFX_ITA_CAS2_medium"
 				}
@@ -3187,8 +3174,6 @@ bba_get_tac_ITA_effect = { #creates a tac design if necessary and exports a numb
 						fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
 						fixed_auxiliary_weapon_slot_2 = empty
 						engine_type_slot = engine_2_3x
-						special_type_slot_1 = hmg_defense_turret
-						special_type_slot_2 = lmg_defense_turret_2x
 					}
 					icon = "GFX_ITA_strategic_bomber2_medium"
 				}
@@ -3223,8 +3208,7 @@ bba_get_tac_ITA_effect = { #creates a tac design if necessary and exports a numb
 						fixed_auxiliary_weapon_slot_2 = torpedo_mounting
 						fixed_auxiliary_weapon_slot_3 = empty
 						fixed_auxiliary_weapon_slot_4 = empty
-						engine_type_slot = engine_3_3x
-						special_type_slot_1 = hmg_defense_turret_2x
+						engine_type_slot = engine_3_3x_2x
 						special_type_slot_2 = empty
 					}
 					icon = "GFX_ITA_naval_bomber1_medium"
@@ -3302,7 +3286,6 @@ bba_get_heavy_fighter_ITA_effect = { #creates a heavy_fighter design if necessar
 						fixed_auxiliary_weapon_slot_2 = empty
 						fixed_auxiliary_weapon_slot_3 = empty
 						engine_type_slot = engine_3_2x
-						special_type_slot_1 = hmg_defense_turret
 					}
 					icon = "GFX_ITA_heavy_fighter2_medium"
 				}
@@ -3515,7 +3498,6 @@ bba_get_cas_FRA_effect = { #creates a CAS design if necessary and exports a numb
 						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
 						fixed_auxiliary_weapon_slot_2 = light_mg_2x
 						engine_type_slot = engine_2_2x
-						special_type_slot_1 = lmg_defense_turret
 						special_type_slot_2 = armor_plate_small
 					}
 					icon = "GFX_FRA_CAS2_medium"
@@ -3550,7 +3532,6 @@ bba_get_cas_FRA_effect = { #creates a CAS design if necessary and exports a numb
 						fixed_auxiliary_weapon_slot_1 = small_bomb_bay
 						fixed_auxiliary_weapon_slot_2 = light_mg_2x
 						engine_type_slot = engine_2_2x
-						special_type_slot_1 = lmg_defense_turret
 					}
 					icon = "GFX_FRA_heavy_fighter1_medium"
 				}
@@ -3596,19 +3577,6 @@ bba_get_tac_FRA_effect = { #creates a tac design if necessary and exports a numb
 				FRA = { NOT = { has_country_flag = FRA_improved_export_tac_template } }
 			}
 			FRA = {
-				create_equipment_variant = {
-					name = "LeO 451" #
-					type = medium_plane_airframe_2
-					allow_without_tech = yes #Makes no difference since effect requires appropriate tech (above), but it improves tooltip
-					modules = {
-						fixed_main_weapon_slot = medium_bomb_bay
-						fixed_auxiliary_weapon_slot_1 = empty
-						engine_type_slot = engine_2_2x
-						special_type_slot_1 = lmg_defense_turret
-						special_type_slot_2 = cannon_defense_turret
-					}
-					icon = "GFX_FRA_tactical_bomber2_medium"
-				}
 				set_country_flag = FRA_improved_export_tac_template #to avoid double templates if this effect is run from different countries
 			}
 		}
@@ -3630,22 +3598,6 @@ bba_get_tac_FRA_effect = { #creates a tac design if necessary and exports a numb
 				FRA = { NOT = { has_country_flag = FRA_advanced_export_tac_template } }
 			}
 			FRA = {
-				create_equipment_variant = {
-					name = "NC.150"
-					type = medium_plane_airframe_3
-					allow_without_tech = yes #Makes no difference since effect requires appropriate tech (above), but it improves tooltip
-					modules = {
-						fixed_main_weapon_slot = medium_bomb_bay
-						fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
-						fixed_auxiliary_weapon_slot_2 = empty
-						fixed_auxiliary_weapon_slot_3 = empty
-						fixed_auxiliary_weapon_slot_4 = empty
-						engine_type_slot = engine_2_3x
-						special_type_slot_1 = lmg_defense_turret_2x
-						special_type_slot_2 = cannon_defense_turret
-					}
-					icon = "GFX_FRA_tactical_bomber3_medium"
-				}
 				set_country_flag = FRA_advanced_export_tac_template
 			}
 		}
@@ -3681,7 +3633,6 @@ bba_get_heavy_fighter_FRA_effect = { #creates a heavy_fighter design if necessar
 						fixed_main_weapon_slot = light_mg_4x
 						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
 						engine_type_slot = engine_2_2x
-						special_type_slot_1 = lmg_defense_turret
 					}
 					icon = "GFX_FRA_heavy_fighter1_medium"
 				}
@@ -3709,20 +3660,7 @@ bba_get_heavy_fighter_FRA_effect = { #creates a heavy_fighter design if necessar
 				FRA = { NOT = { has_country_flag = FRA_improved_export_heavy_fighter_template } }
 			}
 			FRA = {
-				create_equipment_variant = {
-					name = "SE.100"
-					type = medium_plane_fighter_airframe_2
-					allow_without_tech = yes #Makes no difference since effect requires appropriate tech (above), but it improves tooltip
-					modules = {
-						fixed_main_weapon_slot = aircraft_cannon_1_2x
-						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
-						fixed_auxiliary_weapon_slot_2 = empty
-						fixed_auxiliary_weapon_slot_3 = empty
-						engine_type_slot = engine_3_2x
-						special_type_slot_1 = cannon_defense_turret
-					}
-					icon = "GFX_FRA_medium_plane_1_medium"
-				}
+
 				set_country_flag = FRA_improved_export_heavy_fighter_template #to avoid double templates if this effect is run from different countries
 			}
 		}

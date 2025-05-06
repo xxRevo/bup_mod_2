@@ -247,16 +247,6 @@ country_event = {
 			modifier = broken_naval_treaty_opinion_mod
 		}
 	}
-	option = {# fine
-		name = MTG_naval_treaty.6.b 
-		ai_chance = {
-			factor = 30
-			modifier = {
-				has_completed_focus = ENG_enforce_the_naval_treaties
-				factor = 0
-			}
-		}
-	}
 }
 #country leaves treaty, notification for other countries
 country_event = {

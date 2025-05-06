@@ -1863,7 +1863,6 @@ news_event = {
 		}
 		GER = {
 			has_completed_focus = GER_reassert_eastern_claims
-			NOT = { has_completed_focus = GER_befriend_poland }
 		}
 	}
 	

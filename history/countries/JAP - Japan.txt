@@ -1204,7 +1204,6 @@ IF = {
 			name = "I-1 Class"
 			type = ship_hull_cruiser_submarine
 			name_group = JAP_SS_HISTORICAL
-			design_team = mio:JAP_sasebo_naval_arsenal_organization
 			parent_version = 0
 			modules = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub_1

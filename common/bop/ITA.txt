@@ -56,8 +56,6 @@ ITA_power_balance = {
 						limit = {
 							OR = {
 								has_completed_focus = ITA_culto_del_duce
-								has_completed_focus = ITA_dino_grandi_focus
-								has_completed_focus = ITA_italo_balbo_focus
 							}
 						}
 						country_event = BBA_italy_council_deposes_duce.2
@@ -88,7 +86,6 @@ ITA_power_balance = {
 								ruling_only = yes
 							}
 						}
-						NOT = { has_completed_focus = ITA_crush_opposition }
 					}
 					hidden_effect = {
 						country_event = BBA_italy_council_deposes_duce.1
@@ -111,9 +108,6 @@ ITA_power_balance = {
 			}
 			on_activate = {
 				if = {
-					limit = {
-						NOT = { has_completed_focus = ITA_crush_opposition }
-					}
 					hidden_effect = {
 						country_event = BBA_italy_civil_war.1
 					}
@@ -455,18 +449,12 @@ ITA_power_balance = {
 						}
 					}
 					if = {
-						limit = {
-							has_completed_focus = ITA_christian_democracy
-						}
 						promote_character = {
 							character = ITA_alcide_de_gasperi
 							ideology = democratic
 						}
 					}
 					else_if = {
-						limit = {
-							has_completed_focus = ITA_democratic_king
-						}
 						promote_character = {
 							character = ITA_vittorio_emanuele_iii
 							ideology = democratic

@@ -3240,10 +3240,6 @@ focus = {
 							rule = obsolete_focus_branches_visibility
 							option = HIDE
 						}
-						OR = {
-							has_completed_focus = ITA_culto_del_duce
-							has_completed_focus = ITA_convene_the_grand_council
-						}
 					}
 				}
 			}
@@ -3291,10 +3287,6 @@ focus = {
 						has_game_rule = {
 							rule = obsolete_focus_branches_visibility
 							option = HIDE
-						}
-						OR = {
-							has_completed_focus = ITA_culto_del_duce
-							has_completed_focus = ITA_convene_the_grand_council
 						}
 					}
 				}
@@ -3382,7 +3374,6 @@ focus = {
 				}
 				if = {
 					limit = {
-						NOT = { has_completed_focus = ITA_defy_the_duce	}
 					}
 					ITA_initiate_balance_of_power_effect = yes
 				}
@@ -3441,7 +3432,6 @@ focus = {
 		icon = GFX_focus_ITA_culto_del_duce
 		prerequisite = { focus = ITA_triumph_in_africa_bba }
 
-		mutually_exclusive = { focus = ITA_convene_the_grand_council focus = ITA_defy_the_duce }
 
 		allow_branch = {
 			if = {
@@ -3452,8 +3442,6 @@ focus = {
 						option = HIDE
 					}
 				}
-				NOT = { has_completed_focus = ITA_defy_the_duce }
-				NOT = { has_completed_focus = ITA_convene_the_grand_council }
 			}
 		}
 
@@ -3782,7 +3770,7 @@ focus = {
 	focus = {
 		id = ITA_ministero_della_cultura_popolare #Alt name would be Ministry of Popular Culture (1937-1943)
 		icon = GFX_focus_generic_italy_propaganda
-		prerequisite = { focus = ITA_culto_del_duce focus = ITA_convene_the_grand_council }
+		prerequisite = { focus = ITA_culto_del_duce }
 
 		x = 3
 		y = 1
@@ -3796,7 +3784,6 @@ focus = {
 					rule = obsolete_focus_branches_visibility
 					option = HIDE
 				}
-				has_completed_focus = ITA_convene_the_grand_council
 			}
 		}
 
@@ -3884,7 +3871,6 @@ focus = {
 						option = HIDE
 					}
 				}
-				NOT = { has_completed_focus = ITA_defy_the_duce }
 			}
 		}
 
@@ -3944,7 +3930,6 @@ focus = {
 						option = HIDE
 					}
 				}
-				NOT = { has_completed_focus = ITA_defy_the_duce }
 			}
 		}
 
@@ -3967,7 +3952,7 @@ focus = {
 	focus = {
 		id = ITA_security_militias
 		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = ITA_culto_del_duce focus = ITA_convene_the_grand_council }
+		prerequisite = { focus = ITA_culto_del_duce }
 
 		x = 6
 		y = 2
@@ -3981,7 +3966,6 @@ focus = {
 					rule = obsolete_focus_branches_visibility
 					option = HIDE
 				}
-				has_completed_focus = ITA_convene_the_grand_council
 			}
 		}
 
@@ -4003,7 +3987,6 @@ focus = {
 			}
 			if = {
 				limit = {
-					NOT = { has_completed_focus = ITA_disband_the_blackshirts }
 				}
 				custom_effect_tooltip = available_political_advisor
 				show_ideas_tooltip = ITA_renato_ricci
@@ -4028,7 +4011,6 @@ focus = {
 					rule = obsolete_focus_branches_visibility
 					option = HIDE
 				}
-				has_completed_focus = ITA_convene_the_grand_council
 			}
 		}
 
@@ -4163,7 +4145,6 @@ focus = {
 					rule = obsolete_focus_branches_visibility
 					option = HIDE
 				}
-				has_completed_focus = ITA_convene_the_grand_council
 			}
 		}
 
@@ -5114,7 +5095,6 @@ focus = {
 						option = HIDE
 					}
 				}
-				NOT = { has_completed_focus = ITA_defy_the_duce }
 			}
 		}
 
@@ -5144,17 +5124,10 @@ focus = {
 					rule = obsolete_focus_branches_visibility
 					option = HIDE
 				}
-				has_completed_focus = ITA_convene_the_grand_council
 			}
 		}
 		relative_position_id = ITA_triumph_in_africa_bba
 		cost = 5
-		available = {
-			NOT = {
-				has_completed_focus = ITA_unite_the_opposition
-				has_completed_focus = ITA_defy_the_duce
-			}
-		}
 
 		search_filters = {FOCUS_FILTER_POLITICAL}
 
@@ -5382,9 +5355,6 @@ focus = {
 				set_country_flag = ITA_rds_cw_flag
 				#Leader back
 				if = {
-					limit = {
-						has_completed_focus = ITA_monarchia_d_italia
-					}
 					if = { #Safety check for ideology
 						limit = {
 							NOT = { has_government = neutrality }
@@ -5420,9 +5390,6 @@ focus = {
 					}
 				}
 				else_if = {
-					limit = {
-						has_completed_focus = ITA_unite_the_opposition
-					}
 					set_politics = {
 						ruling_party = communism
 						elections_allowed = no
@@ -6133,9 +6100,6 @@ focus = {
 				set_country_flag = ITA_rsi_cw_flag
 				#Leader back
 				if = {
-					limit = {
-						has_completed_focus = ITA_monarchia_d_italia
-					}
 					if = { #Safety check for ideology
 						limit = {
 							NOT = { has_government = neutrality }
@@ -6172,14 +6136,12 @@ focus = {
 				}
 				else_if = {
 					limit = {
-						has_completed_focus = ITA_dino_grandi_focus
 						has_character = ITA_dino_grandi
 					}
 					promote_character = ITA_dino_grandi
 				}
 				else_if = {
 					limit = {
-						has_completed_focus = ITA_italo_balbo_focus
 						has_character = ITA_italo_balbo
 					}
 					promote_character = ITA_italo_balbo

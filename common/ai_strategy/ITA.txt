@@ -172,91 +172,7 @@ ITA_trade_with_germany = {
 	}
 }
 
-ITA_stresa_front = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_ratify_the_stresa_front
-	}
-	abort_when_not_enabled = yes
 
-	ai_strategy = {
-		type = alliance
-		id = ENG
-		value = 400
-	}
-	ai_strategy = {
-		type = alliance
-		id = FRA
-		value = 400
-	}
-}
-
-ITA_stresa_front_ENG_FRA = {
-	allowed = {
-		OR = {
-			original_tag = FRA
-			original_tag = ENG
-		}
-	}
-	enable = {
-		ITA = {
-			has_completed_focus = ITA_ratify_the_stresa_front
-		}
-	}
-	abort = {
-		always = no
-	}
-
-	ai_strategy = {
-		type = alliance
-		id = ITA
-		value = 400
-	}
-}
-
-ITA_albania_war_goal = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_albanian_occupation
-		country_exists = ALB
-	}
-	abort = {
-		NOT = {
-			country_exists = ALB
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = ALB
-		value = 200
-	}
-}
-
-ITA_greece_war_goal = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_war_with_greece
-		country_exists = GRE
-	}
-	abort = {
-		NOT = {
-			country_exists = GRE
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = GRE
-		value = 200
-	}
-}
 
 ITA_shore_up_against_france = {
 	allowed = {
@@ -322,48 +238,6 @@ ITA_slow_going_against_france = {
 	}
 }
 
-ITA_anti_uk_war_goals = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_war_with_the_uk
-		country_exists = ENG
-	}
-	abort = {
-		NOT = {
-			country_exists = ENG
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = ENG
-		value = 200
-	}
-}
-
-ITA_yugoslavia_war_goal = { 
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_balkan_ambition
-		has_completed_focus = ITA_war_with_greece
-		country_exists = YUG
-	}
-	abort = {
-		NOT = {
-			country_exists = YUG
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = YUG
-		value = 200
-	}
-}
 
 ITA_germany_ally = {
 	allowed = {
@@ -389,149 +263,6 @@ ITA_germany_ally = {
 	}
 }
 
-ITA_romania_ally = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_potential_allies_in_the_balkans
-		country_exists = ROM
-	}
-	abort = {
-		NOT = { country_exists = ROM }
-	}
-
-	ai_strategy = {
-		type = befriend
-		id = ROM
-		value = 200
-	}
-	ai_strategy = {
-		type = alliance
-		id = ROM
-		value = 200
-	}
-}
-
-ITA_bulgaria_ally = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_potential_allies_in_the_balkans
-		country_exists = BUL
-	}
-	abort = {
-		NOT = { country_exists = BUL }
-	}
-
-	ai_strategy = {
-		type = befriend
-		id = BUL
-		value = 200
-	}
-	ai_strategy = {
-		type = alliance
-		id = BUL
-		value = 200
-	}
-}
-
-ITA_yugoslavia_ally = { 
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_potential_allies_in_the_balkans
-		country_exists = YUG
-	}
-	abort = {
-		NOT = { country_exists = YUG }
-	}
-
-	ai_strategy = {
-		type = befriend
-		id = YUG
-		value = 100
-	}
-	ai_strategy = {
-		type = alliance
-		id = YUG
-		value = 100
-	}
-}
-
-ITA_greece_ally = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_befriend_greece
-		country_exists = GRE
-	}
-	abort = {
-		NOT = { country_exists = GRE }
-	}
-
-	ai_strategy = {
-		type = befriend
-		id = GRE
-		value = 100
-	}
-	ai_strategy = {
-		type = alliance
-		id = GRE
-		value = 100
-	}
-}
-
-ITA_turkey_ally = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_befriend_turkey
-		country_exists = TUR
-	}
-	abort = {
-		NOT = { country_exists = TUR }
-	}
-
-	ai_strategy = {
-		type = befriend
-		id = TUR
-		value = 100
-	}
-	ai_strategy = {
-		type = alliance
-		id = TUR
-		value = 100
-	}
-}
-
-ITA_portugal_ally = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_befriend_portugal
-		country_exists = POR
-	}
-	abort = {
-		NOT = { country_exists = POR }
-	}
-
-	ai_strategy = {
-		type = befriend
-		id = POR
-		value = 100
-	}
-	ai_strategy = {
-		type = alliance
-		id = POR
-		value = 100
-	}
-}
 
 ITA_template_design_1 = {
 	allowed = {
@@ -851,33 +582,6 @@ ITA_share_borders_with_GER_against_SOV = {
 	}
 }
 
-ITA_spain_scw_support_la_resistance = {
-	allowed = {
-		original_tag = ITA
-		has_dlc = "La Resistance"
-	}
-	enable = {
-		has_government = fascism
-		country_exists = SPA
-	}
-	abort = {
-		OR = {
-			NOT = { country_exists = SPA }
-			SPA = { has_completed_focus = SPA_join_the_allies }
-		}
-	}
-
-	ai_strategy = {
-		type = support
-		id = SPA
-		value = 100
-	}
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = SPA
-		value = 100
-	}
-}
 
 ITA_stockpile_less_early_game = {
 	allowed = {
@@ -1126,7 +830,6 @@ ITA_attack_north = {
 	}
 	enable = {
 		has_war_with = ETH
-		has_active_mission = ITA_conquer_the_north_mission
 		ITA_is_communist_ai = no
 		ITA_is_socialist_ai = no
 	}
@@ -1151,7 +854,6 @@ ITA_attack_south = {
 	}
 	enable = {
 		has_war_with = ETH
-		has_active_mission = ITA_conquer_the_south_mission
 		ITA_is_communist_ai = no
 		ITA_is_socialist_ai = no
 	}
@@ -1176,7 +878,6 @@ ITA_attack_addis = {
 	}
 	enable = {
 		has_war_with = ETH
-		has_active_mission = ETH_conquer_addis_ababa_mission
 		ITA_is_communist_ai = no
 		ITA_is_socialist_ai = no
 	}
@@ -1201,7 +902,6 @@ ITA_attack_harar = {
 	}
 	enable = {
 		has_war_with = ETH
-		has_active_mission = ETH_conquer_harar_mission
 		ITA_is_communist_ai = no
 		ITA_is_socialist_ai = no
 	}
@@ -1247,7 +947,6 @@ ITA_communists_downplay_ethiopian_theatre = {
 			ITA_is_communist_ai = yes
 			ITA_is_socialist_ai = yes
 		}
-		NOT = { has_completed_focus = ITA_defy_the_duce }
 	}
 	abort = {
 		NOT = { has_war_with = ETH }
@@ -1287,7 +986,6 @@ ITA_prepare_yugoslavian_invasion = {
 		}
 		OR = {
 			focus_progress = { focus = ITA_balkan_ambition progress > 0.5 }
-			has_decision = ITA_send_ultimatum_to_country_balkan
 			has_wargoal_against = YUG
 			is_justifying_wargoal_against = YUG
 		}
@@ -1389,7 +1087,6 @@ ITA_prepare_british_invasion = {
 		NOT = {	has_war_with = ENG }
 		OR = {
 			focus_progress = { focus = ITA_war_with_the_uk progress > 0.1}
-			has_completed_focus = ITA_war_with_the_uk
 		}
 	}
 

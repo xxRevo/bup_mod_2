@@ -1445,7 +1445,7 @@ equipment_modules = {
 			hard_attack = 0.1
 		}
 		add_stats = {
-			build_cost_ic = 3
+			build_cost_ic = 2
 		}	
 		xp_cost = 0
 

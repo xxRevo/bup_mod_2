@@ -2689,7 +2689,7 @@ focus_tree = {
 	}	
 		focus = {
 		id = JAP_no_navy_allies
-		icon = GFX_AFG_Afghan_Royal_Air_Force
+		icon = GFX_goal_generic_navy_cruiser
 		x = 5
 		y = 7
 		Text = "No Navy Allies"

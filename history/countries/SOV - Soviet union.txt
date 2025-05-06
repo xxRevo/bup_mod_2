@@ -162,8 +162,6 @@ if = {
 		set_naval_oob = "SOV_1936_naval_legacy"
 	}
 }
-add_ideas = peace_training
-
 set_research_slots = 4
 set_stability = 0.51
 set_war_support = 0.95
@@ -305,10 +303,6 @@ create_country_leader = {
 	}
 }
 
-add_namespace = {
-	name = "unit_leader_sov"
-	type = unit_leader
-}
 
 if = {
 	limit = {

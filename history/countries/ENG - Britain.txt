@@ -1419,7 +1419,6 @@ if = {
 			modules = {
 				fixed_main_weapon_slot = medium_bomb_bay
 				engine_type_slot = engine_2_2x
-				special_type_slot_1 = lmg_defense_turret
 			}
 			icon = "GFX_ENG_heavy_fighter1_medium"
 		}
@@ -1788,7 +1787,6 @@ if = {
 			modules = {
 				fixed_main_weapon_slot = light_mg_4x
 				engine_type_slot = engine_2_2x
-				special_type_slot_1 = lmg_defense_turret
 			}
 			icon = "GFX_ENG_heavy_fighter1_medium"
 		}
@@ -1799,7 +1797,6 @@ if = {
 				fixed_main_weapon_slot = medium_bomb_bay
 				fixed_auxiliary_weapon_slot_1 = torpedo_mounting
 				engine_type_slot = engine_2_2x
-				special_type_slot_1 = lmg_defense_turret
 			}
 		}
 	}

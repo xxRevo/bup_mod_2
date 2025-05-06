@@ -1020,8 +1020,8 @@ technologies = {
 			modern_armor
 		}
 
-		research_cost = 2.5
-		start_year = 1945
+		research_cost = 10
+		start_year = 1950
 
 		folder = {
 			name = nsb_armour_folder

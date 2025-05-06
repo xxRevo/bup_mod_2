@@ -676,7 +676,7 @@ equipments = {
 			tank_nsb_armor_upgrade
 		}
 		maximum_speed = 5
-		build_cost_ic = 9
+		build_cost_ic = 10
 		reliability = 0.75
 		armor_value = 35
 	}
@@ -704,7 +704,7 @@ equipments = {
 		parent = heavy_tank_chassis_1
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 10
+		build_cost_ic = 11
 		maximum_speed = 4
 		reliability = 1.1
 		armor_value = 100
@@ -723,7 +723,7 @@ equipments = {
 		parent = heavy_tank_chassis_2
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 11
+		build_cost_ic = 13
 		maximum_speed = 4
 		reliability = 1.2
 		armor_value = 120

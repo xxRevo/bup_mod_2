@@ -252,20 +252,21 @@ NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 0	
 
 
----
 NDefines.NNavy.SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.10		-- enemy spotting is multiplied by this value to simulate running away
-NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 6.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 2.5              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 3.0	-- this screen ratio to num capital/carriers is needed for full screening beyond screen line
 NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CARRIERS = 2.0
-NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 800
-NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 1
+
+NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 350
+NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 200
+
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
 NDefines.NNavy.NAVAL_MINES_PLANTING_SPEED_MULT = 0.00001
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.01 --  
 NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.8 -- 
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.07 -- 
-NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.5 -- 
+NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75 -- 
 NDefines.NNavy.MISSION_SUPREMACY_RATIOS = { -- supremacy multipliers for different mission types
 	0.0, -- HOLD
 	1.0, -- PATROL		
@@ -305,15 +306,12 @@ NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_DECAY_RATE = 1.0
 NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 1.0			
 
 -- Naval Defines Related to Convoys and Escorts	
-NDefines.NNavy.CONVOY_HIT_PROFILE = 100
-NDefines.NNavy.COMBAT_MAX_GROUPS = 120
-NDefines.NNavy.CONVOY_ROUTE_SIZE_CONVOY_SCALE = 0.7 
-NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.40
-NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 0.65		
+				
 NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 15.0				
 NDefines.NNavy.COMBAT_DETECTED_CONVOYS_FROM_SURFACE_DETECTION_STAT = 0.10		
 NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_AFTER_DAYS = 5							
-NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_BASE_SPEED = 0.04						                           	
+NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_BASE_SPEED = 0.04						
+NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.40                             	
 NDefines.NNavy.BASE_JOIN_COMBAT_HOURS = 2 										
 NDefines.NNavy.DEPTH_CHARGES_HIT_CHANCE_MULT = 2.0 								
 NDefines.NNavy.DEPTH_CHARGES_DAMAGE_MULT = 1.0 									
@@ -349,6 +347,7 @@ NDefines.NNavy.MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS 					= 0.0
 NDefines.NNavy.POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS			= 1.0
   		
   									
+NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 0.9              								
 NDefines.NNavy.PRIDE_OF_THE_FLEET_LOST_TEMP_MODIFIER_DURATION = 0			
 NDefines.NNavy.MAX_ORG_ON_MANUAL_MOVE = 1.0									
 NDefines.NNavy.INITIAL_ALLOWED_DOCKYARD_RATIO_FOR_REPAIRS = 1.0				
@@ -359,29 +358,32 @@ NDefines.NNavy.SUPPLY_PRIORITY = 2
 NDefines.NNavy.RESOURCE_EXPORT_PRIORITY = 3									                 
 NDefines.NNavy.RESOURCE_ORIGIN_PRIORITY = 4	
 
--- Main
-NDefines.NNavy.CONVOY_DEFENSE_MAX_CONVOY_TO_SHIP_RATIO = 30
 
-NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 0.5
+NDefines.NNavy.CONVOY_ROUTE_SIZE_CONVOY_SCALE = 0.7
+NDefines.NNavy.CONVOY_DEFENSE_MAX_CONVOY_TO_SHIP_RATIO = 10
 
+NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 0.25
+NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.35
+
+NDefines.NNavy.COMBAT_MAX_GROUPS = 120
 NDefines.NNavy.COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.9
 NDefines.NNavy.CONVOY_EFFICIENCY_LOSS_MODIFIER = 1
 
 NDefines.NNavy.ANTI_AIR_TARGETING = 0.9
-NDefines.NNavy.CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 4
+NDefines.NNavy.CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 6
 NDefines.NNavy.RESOURCE_LENDLEASE_PRIORITY = 2
 NDefines.NNavy.DETECTION_CHANCE_MULT_AIR_SUPERIORITY_BONUS = 0.3
 NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 0.3
 
 NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 10
-NDefines.NNavy.COMBAT_MIN_DURATION = 24
-NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.5
+NDefines.NNavy.COMBAT_MIN_DURATION = 36
+NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.3
 NDefines.NNavy.AGGRESION_MULTIPLIER_FOR_COMBAT = 2
 NDefines.NNavy.AGGRESSION_ARMOR_EFFICIENCY_MULTIPLIER = 1
 
 NDefines.NNavy.AGGRESSION_LIGHT_GUN_EFFICIENCY_ON_LIGHT_SHIPS = 1
 NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_LIGHT_SHIPS = 0.40
-NDefines.NNavy.AGGRESSION_TORPEDO_EFFICIENCY_ON_LIGHT_SHIPS = 1
+NDefines.NNavy.AGGRESSION_TORPEDO_EFFICIENCY_ON_LIGHT_SHIPS = 2
 NDefines.NNavy.AGGRESSION_LIGHT_GUN_EFFICIENCY_ON_HEAVY_SHIPS = 0.1
 NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_HEAVY_SHIPS = 2
 NDefines.NNavy.AGGRESSION_TORPEDO_EFFICIENCY_ON_HEAVY_SHIPS = 2
@@ -393,12 +395,13 @@ NDefines.NNavy.TRAINING_ACCIDENT_STRENGTH_LOSS = 0
 NDefines.NNavy.TRAINING_ACCIDENT_STRENGTH_LOSS_FACTOR = 0
 NDefines.NNavy.TRAINING_ACCIDENT_ORG_LOSS_FACTOR = 0
 
-NDefines.NNavy.BASE_SPOTTING_SPEED = 0.15
+NDefines.NNavy.BASE_SPOTTING_SPEED = 0.25
 
 NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.75
 NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.95
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 3
 
+NDefines.NNavy.CONVOY_HIT_PROFILE = 100
 
 NDefines.NNavy.GUN_HIT_PROFILES = {
 	100.0,  -- big guns
@@ -409,31 +412,21 @@ NDefines.NNavy.GUN_HIT_PROFILES = {
 NDefines.NNavy.DEPTH_CHARGES_HIT_PROFILE = 150
 
 NDefines.NNavy.BASE_GUN_COOLDOWNS = {
-	3.0,    -- big guns
-	6.0,    -- torpedoes
+	2.0,    -- big guns
+	4.0,    -- torpedoes
 	2.0     -- small guns
 }
 
-NDefines.NNavy.PIERCING_THRESHOLD_DAMAGE_VALUES = {
-	10, 1.3, 1.2, 1.1, 1.00, 0.90, 0.80, 0.70, 0.6, 0.50, 0.35, 0.25, 0.15, 0.1, 0.05
-}
 
-NDefines.NNavy.PIERCING_THRESHOLDS = {
-	45, 1.35, 1.2, 1.1, 1.00, 0.9, 0.8, 0.7, 0.6, 0.50, 0.40, 0.30, 0.20, 0.10, 0.00
-}
 
-NDefines.NNavy.PIERCING_THRESHOLD_CRITICAL_VALUES = {
-	20.00, 2.00, 1.6, 1.3, 1.00, 0.9, 0.8, 0.7, 0.6, 0.50, 0.35, 0.25, 0.15, 0.10, 0.00
-}
 
--- Fleet Composition Configurations (best at 4 carrier, 8 bb, 24 LC )
 NDefines.NNavy.BEST_CAPITALS_TO_CARRIER_RATIO = 2.0  -- Vanilla: 1.0 (Carrier ve capital gemi oranı)
 NDefines.NNavy.BEST_CAPITALS_TO_SCREENS_RATIO = 0.33  -- Vanilla: 0.25 (Ekran gemileri ile capital gemi oranı)
 NDefines.NNavy.MAX_CAPITALS_PER_AUTO_TASK_FORCE = 8  -- Vanilla: 5 (Otomatik görev gücünde BB sayısı)
 NDefines.NNavy.MAX_SUBMARINES_PER_AUTO_TASK_FORCE = 0  -- Vanilla: 30 (Otomatik görev gücünde denizaltı sayısı)
 NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.1  -- Vanilla: 0.1 (Temel isabet şansı)
 NDefines.NNavy.COMBAT_EVASION_TO_HIT_CHANCE = 0.007  -- Vanilla: 0.007 (Kaçınma etkisi)
-NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.6  -- Vanilla: 0.6 (Hasar gücü)
+  -- Vanilla: 0.6 (Hasar gücü)
 NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 32  -- Vanilla: 35 (Amiral başına görev gücü limiti)
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.5  -- Vanilla: 0.5 (Naval supremacy ile işgal etkisi)
 NDefines.NNavy.CARRIER_STACK_PENALTY = 4  -- Vanilla: 4 (Carrier yığılma cezası)
@@ -443,7 +436,7 @@ NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM = 0.5  -- Vanilla: 0.5 (Orta gemile
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH = 0.9  -- Vanilla: 0.9 (Yüksek gemiler için onarım önceliği)
 NDefines.NNavy.CARRIER_STACK_PENALTY_MAX = 4  -- Vanilla: 4 (Maksimum carrier yığılma cezası)
 
--- Supremacy Calculation
+-- Carrier'ların Naval Supremacy Katkısını Artırma
 NDefines.NNavy.SUPREMACY_PER_SHIP_PER_MANPOWER = 0.08  -- Vanilla: 0.05 (Manpower başına supremacy)
 NDefines.NNavy.SUPREMACY_PER_SHIP_PER_IC = 0.006  -- Vanilla: 0.005 (IC başına supremacy)
 

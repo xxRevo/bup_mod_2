@@ -86,6 +86,8 @@ on_actions = {
                     set_state_controller = 185
                     set_state_controller = 47
                     set_state_controller = 186
+                    set_state_controller = 182
+                    set_state_controller = 187
                 }
                 if = {
                     limit = {
@@ -257,7 +259,6 @@ on_actions = {
                         tag=GRE
                         tag=YUG
                         tag=POL
-                        tag=IRQ
                         tag=MAL
                         tag=PHI
                     }}

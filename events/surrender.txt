@@ -28,9 +28,11 @@ tag=DEN
 tag=NOR
 tag=YUG
 tag=GRE
-tag=IRQ
 tag=MAL
 tag=PHI
+tag=BEL
+tag=LUX
+tag=POL
 
 
 }}
@@ -61,6 +63,7 @@ add_state_modifier = {
   }
 }
 GER={set_state_owner=PREV}}}
+ENG={annex_country={target=ROOT transfer_troops=yes}}
 else_if={limit = {
 OR={tag=POL tag=LUX
 }}
@@ -73,6 +76,20 @@ add_state_modifier = {
 }
 GER={set_state_owner=PREV}}
 ENG={annex_country={target=ROOT transfer_troops=yes}}
+}
+else_if={limit = {
+OR={tag=GRE tag=YUG
+}}
+every_owned_state={limit={is_core_of=ROOT}
+GER={set_state_owner=PREV}}
+ENG={annex_country={target=ROOT}}
+}
+else_if={limit = {
+OR={tag=MAL tag=PHI
+}}
+every_owned_state={limit={is_core_of=ROOT}
+JAP={set_state_owner=PREV}}
+ENG={annex_country={target=ROOT}}
 }
 }
 }

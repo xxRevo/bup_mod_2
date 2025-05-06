@@ -19,7 +19,8 @@ mio_policy_land_armor_welding_specialists = {
 	available = { has_mio_size > 5}
 	equipment_bonus = {
 		same_as_mio = {
-			armor_value = 0.05
+			armor_value = 0.15
+			build_cost_ic = 0.025
 		}
 	}
 }
@@ -68,15 +69,15 @@ mio_policy_land_heavy_gantry_cranes = {
 	available = { has_mio_size > 5}
 	equipment_bonus = {
 		heavy_tank_chassis = {
-			production_efficiency_cap_factor = 0.05
+			production_efficiency_cap_factor = 0.1
 		}
 
 		train_equipment = {
-			production_efficiency_cap_factor = 0.05
+			production_efficiency_cap_factor = 0.1
 		}
 
 		railway_gun_equipment = {
-			production_efficiency_cap_factor = 0.05
+			production_efficiency_cap_factor = 0.1
 		}
 	}
 }
@@ -104,8 +105,9 @@ mio_policy_land_factory_applied_camouflage  = {
 	available = { has_mio_size > 5}
 	equipment_bonus = {
 		same_as_mio = {
-			defense = 0.02
-			breakthrough = 0.02
+			soft_attack = 0.05
+			hard_attack = 0.05
+			build_cost_ic = 0.075
 		}
 	}
 }
@@ -133,11 +135,11 @@ mio_policy_land_cutting_corners  = {
 	available = { has_mio_size > 5}
 	equipment_bonus = {
 		same_as_mio = {
-			build_cost_ic = -0.1
-			reliability = -0.05
+			build_cost_ic = -0.05
+			armor_value = -0.15
+			reliability = -0.15
 			soft_attack = -0.05
 			hard_attack = -0.05
-			armor_value = -0.05
 		}
 	}
 }

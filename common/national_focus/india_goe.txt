@@ -4904,7 +4904,7 @@ focus = {
 	x = 1
 	y = 1
 	relative_position_id = RAJ_favor_the_muslim_league 
-	cost = 10
+	cost = 5
 	search_filters = { FOCUS_FILTER_POLITICAL_CHARACTER }
 
 	completion_reward = {
@@ -5057,7 +5057,7 @@ focus = {
 	x = 0
 	y = 1
 	relative_position_id = RAJ_the_integrity_of_india_act 
-	cost = 10
+	cost = 5
 
 	search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_TFV_AUTONOMY FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_MANPOWER }
 
@@ -5102,7 +5102,6 @@ focus = {
 
 	available = {
 		is_subject_of = ENG
-		has_autonomy_state = autonomy_dominion
 	}
 
 	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MANPOWER FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_TFV_AUTONOMY }
@@ -5115,13 +5114,25 @@ focus = {
 		custom_effect_tooltip = generic_skip_one_line_tt
 		add_stability = 0.1
 		add_war_support = 0.1
-		add_popularity = {
-			ideology = democratic
-			popularity = 0.1
-		}
+
 
 		custom_effect_tooltip = generic_skip_one_line_tt
 		custom_effect_tooltip = RAJ_the_dominion_of_india_every_owned_state_compliance_tt
+		add_state_core = 440  
+		add_state_core = 989  
+		add_state_core = 445
+		add_state_core = 441
+		add_state_core = 433
+		add_state_core = 428
+		add_state_core = 437
+		add_state_core = 426
+		add_state_core = 429
+		add_state_core = 427
+		add_state_core = 423
+		add_state_core = 438
+		add_state_core = 444
+		add_state_core = 436
+
 		every_owned_state = {
 			limit = {
 				has_resistance = yes
@@ -5291,7 +5302,7 @@ focus = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 			add_timed_idea = {
 				idea = idea_RAJ_great_depression_2
-				days = 1095
+				days = 730
 			}
 		}
 
@@ -5421,7 +5432,7 @@ focus = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 			add_timed_idea = {
 				idea = idea_RAJ_great_depression_2
-				days = 1095
+				days = 730
 			}
 		}
 
@@ -6235,7 +6246,7 @@ focus = {
 	search_filters = { FOCUS_FILTER_ARMY_XP }
 
 	completion_reward = {
-		army_experience = 35
+		army_experience = 70
 		custom_effect_tooltip = generic_skip_one_line_tt
 		add_dynamic_modifier = { modifier = RAJ_indian_gentlemen_officers_goe }
 	}
@@ -6249,7 +6260,7 @@ focus = {
 	x = -2
 	y = 2
 	relative_position_id = RAJ_indian_gentleman_officers 
-	cost = 10
+	cost = 5
 
 	available = {
 		992 = { is_fully_controlled_by = ROOT }

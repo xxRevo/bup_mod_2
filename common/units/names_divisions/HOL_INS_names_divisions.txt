@@ -78,7 +78,7 @@ HOL_CAV_01 =
 {
 	name = "Cavalry Division"
 
-	for_countries = { HOL INS }
+	for_countries = { HOL }
 
 	can_use = { always = yes }
 
@@ -110,7 +110,7 @@ HOL_MOT_01 =
 {
 	name = "Motorized Division"
 
-	for_countries = { HOL INS }
+	for_countries = { HOL }
 
 	can_use = { always = yes }
 
@@ -143,7 +143,7 @@ HOL_MEC_01 =
 {
 	name = "Mechanized Division"
 
-	for_countries = { HOL INS }
+	for_countries = { HOL }
 
 	can_use = { always = yes }
 
@@ -176,7 +176,7 @@ HOL_ARM_01 =
 {
 	name = "Armored Division"
 
-	for_countries = { HOL INS }
+	for_countries = { HOL }
 
 	can_use = { always = yes }
 
@@ -208,7 +208,7 @@ HOL_PAR_01 =
 {
 	name = "Paratrooper Division"
 
-	for_countries = { HOL INS }
+	for_countries = { HOL }
 
 	can_use = { always = yes }
 
@@ -240,7 +240,7 @@ HOL_MAR_01 =
 {
 	name = "Marine Division"
 
-	for_countries = { HOL INS }
+	for_countries = { HOL }
 
 	can_use = { always = yes }
 
@@ -272,7 +272,7 @@ HOL_MNT_01 =
 {
 	name = "Mountain Division"
 
-	for_countries = { HOL INS }
+	for_countries = { HOL }
 
 	can_use = { always = yes }
 
@@ -337,65 +337,5 @@ HOL_GAR_01 =
 }
 
 
-INS_INF_01 = 
-{
-	name = "Colonial Division"
 
-	for_countries = { HOL INS }
 
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { INS_INF_01 }
-
-	fallback_name = "%se KNIL Divisie"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%se KNIL Divisie 'Java'" }
-		2 = { "%se KNIL Divisie 'Java'" }
-		3 = { "%se KNIL Divisie 'Java'" }
-		4 = { "%se KNIL Divisie 'Sumatra'" }
-		5 = { "%se KNIL Divisie 'Sumatra'" }
-		6 = { "%se KNIL Divisie 'Borneo'" }
-		7 = { "%se KNIL Divisie 'Borneo'" }
-		8 = { "%se KNIL Divisie 'Celebes'" }
-		9 = { "%se KNIL Divisie 'Sumatra'" }
-		10 = { "%se KNIL Divisie 'Java'" }
-	}
-}
-INS_GAR_01 = 
-{
-	name = "Colonial Garrison"
-
-	for_countries = { HOL INS }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { INS_INF_01 }
-
-	fallback_name = "%se Territoriaal Commando"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%se Territoriaal Commando 'Sumatra'" }
-		2 = { "%se Territoriaal Commando 'Sumatra'" }
-		3 = { "%se Territoriaal Commando 'Borneo'" }
-		4 = { "%se Territoriaal Commando 'Celebes'" }
-		5 = { "%se Territoriaal Commando 'Sumatra'" }
-		6 = { "%se Territoriaal Commando 'Borneo'" }
-		7 = { "%se Territoriaal Commando 'Java'" }
-		8 = { "%se Territoriaal Commando 'Java'" }
-		9 = { "%se Territoriaal Commando 'Sumatra'" }
-		10 = { "%se Territoriaal Commando 'Sumatra'" }
-	}
-}

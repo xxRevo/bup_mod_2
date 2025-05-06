@@ -177,10 +177,6 @@ add_timed_idea = {
 		modifier = BFTB_incongruous_neighbors
 	}
 	add_opinion_modifier = { 
-		target = TUR
-		modifier = BFTB_incongruous_neighbors
-	}
-	add_opinion_modifier = { 
 		target = YUG
 		modifier = BFTB_incongruous_neighbors
 	}

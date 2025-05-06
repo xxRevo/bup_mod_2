@@ -1766,7 +1766,7 @@ GER_create_operative_norman_stewart = { #Operation Sea Lion
 		traits = { operative_natural_orator operative_tough }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { ENG SCO }
+		nationalities = { ENG }
 		gender = male
 	}
 }
@@ -1778,22 +1778,11 @@ GER_create_operative_johannes_becker = { #Influence in South America
 		traits = { operative_natural_orator operative_linguist }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GER AUS ARG BRA }
+		nationalities = { GER AUS }
 		gender = male
 	}
 }
 
-GER_create_operative_eleysa_bazna = { #Absorb the Abwehr / Expand SS Security Duties
-	create_operative_leader = {
-		name = GER_eleysa_bazna
-		GFX = GFX_portrait_eleysa_bazna
-		traits = { operative_infiltrator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { GER TUR KOS ALB }
-		gender = male
-	}
-}
 
 GER_create_operative_savitri_devi = { #Propaganda Master
 	create_operative_leader = {
@@ -1814,7 +1803,7 @@ GER_create_operative_otto_von_bolschwing = { #Subversive Infiltrators
 		traits = { operative_natural_orator operative_well_groomed }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GER PAL ROM }
+		nationalities = { GER ROM }
 		gender = male
 	}
 }

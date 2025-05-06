@@ -18,24 +18,6 @@ if = {
 	add_ideas = MAN_low_legitimacy_5
 	recruit_character = MAN_songgotu_zhanshan
 }
-
-recruit_character = MAN_aisin_gioro_puyi
-recruit_character = MAN_zhang_haipeng
-recruit_character = MAN_zhang_jinghui
-recruit_character = MAN_aisin_gioro_xiqia
-recruit_character = MAN_yoshiko_kawashima
-recruit_character = MAN_zhao_shangzhi
-recruit_character = MAN_changlin_linge
-recruit_character = MAN_kyoiji_tomonaga
-recruit_character = MAN_yonimitsu_kasahara
-recruit_character = MAN_deng_linge
-recruit_character = MAN_hung_zhehuang
-recruit_character = MAN_nakajima_kesago
-recruit_character = MAN_yin_zuoqian
-recruit_character = MAN_hesehn_tiemei
-recruit_character = MAN_xian_yuan
-recruit_character = MAN_guan_xingde
-recruit_character = MAN_megata_toshiro
 add_ideas = {
 	partial_economic_mobilisation
 }

@@ -122,7 +122,7 @@ color = rgb { 71 113 97 }
 color_ui = rgb { 92 147 126 }
 }
 USA = {
-color = rgb { 50 35 255 }
+color = rgb { 16 35 215 }
 color_ui = rgb { 50 108 255 }
 }
 RAJ = {

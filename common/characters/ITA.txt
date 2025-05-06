@@ -1649,20 +1649,6 @@ characters = {
 			traits = {
 				hierarch_minister_of_foreign_affairs
 			}
-			on_add = {
-				owner = {
-					hidden_effect = {
-						ITA_bop_medium_decrease_effect = yes
-					}
-				}
-			}
-			on_remove = {
-				owner = {
-					hidden_effect = {
-						ITA_bop_medium_increase_effect = yes
-					}
-				}
-			}
 			ai_will_do = {
 				base = 0.3
 				modifier = {
@@ -1711,20 +1697,6 @@ characters = {
 			traits = {
 				hierarch_minister_of_justice 
 			}
-			on_add = {
-				owner = {
-					hidden_effect = {
-						ITA_bop_medium_decrease_effect = yes
-					}
-				}
-			}
-			on_remove = {
-				owner = {
-					hidden_effect = {
-						ITA_bop_medium_increase_effect = yes
-					}
-				}
-			}
 			ai_will_do = {
 				base = 0.3
 				modifier = {
@@ -1761,20 +1733,6 @@ characters = {
 			cost = 75
 			traits = {
 				hierarch_minister_of_education # Hierarch / Minister of Education
-			}
-			on_add = {
-				owner = {
-					hidden_effect = {
-						ITA_bop_medium_decrease_effect = yes
-					}
-				}
-			}
-			on_remove = {
-				owner = {
-					hidden_effect = {
-						ITA_bop_medium_increase_effect = yes
-					}
-				}
 			}
 			ai_will_do = {
 				base = 0.300
@@ -1813,20 +1771,6 @@ characters = {
 			cost = 75
 			traits = {
 				hierarch_minister_of_corporations # Leader of Blackshirts and Military Police
-			}
-			on_add = {
-				owner = {
-					hidden_effect = {
-						ITA_bop_medium_decrease_effect = yes
-					}
-				}
-			}
-			on_remove = {
-				owner = {
-					hidden_effect = {
-						ITA_bop_medium_increase_effect = yes
-					}
-				}
 			}
 			ai_will_do = {
 				base = 0.300

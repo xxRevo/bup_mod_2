@@ -902,17 +902,6 @@ focus_tree = {
                 uses = 2
                 category = light_air
             }
-            IF = {
-                limit = {
-                    has_dlc = "Arms Against Tyranny"
-                }
-                custom_effect_tooltip = available_mio_tt
-                show_mio_tooltip = BUL_dar_organization
-
-                mio:BUL_dar_organization = {
-                    add_mio_size = 3
-                }
-            }
             ELSE = {
                 custom_effect_tooltip = available_designer
                 show_ideas_tooltip = BUL_dar
@@ -1039,17 +1028,6 @@ focus_tree = {
                 category = cat_strategic_bomber
                 category = tactical_bomber
             }
-            IF = {
-                limit = {
-                    has_dlc = "Arms Against Tyranny"
-                }
-                custom_effect_tooltip = available_mio_tt
-                show_mio_tooltip = BUL_kaproni_bulgarski_organization
-
-                mio:BUL_kaproni_bulgarski_organization = {
-                    add_mio_size = 3
-                }
-            }
             else = {
                 custom_effect_tooltip = available_designer
                 show_ideas_tooltip = BUL_kaproni_bulgarski
@@ -1090,17 +1068,6 @@ focus_tree = {
                 category = infantry_weapons
                 category = support_tech
             }
-            IF = {
-                limit = {
-                    has_dlc = "Arms Against Tyranny"
-                }
-                custom_effect_tooltip = available_mio_tt
-                show_mio_tooltip = BUL_dvf_organization
-
-                mio:BUL_dvf_organization = {
-                    add_mio_size = 3
-                }
-            }
             ELSE = {
                 custom_effect_tooltip = available_designer
                 show_ideas_tooltip = BUL_dvf
@@ -1140,17 +1107,6 @@ focus_tree = {
                 uses = 2
                 category = artillery
             }
-            IF = {
-                limit = {
-                    has_dlc = "Arms Against Tyranny"
-                }
-                custom_effect_tooltip = available_mio_tt
-                show_mio_tooltip = BUL_dvf_sopot_organization
-
-                mio:BUL_dvf_sopot_organization = {
-                    add_mio_size = 3
-                }
-            }
             ELSE = {
                 custom_effect_tooltip = available_designer
                 show_ideas_tooltip = BUL_dvf_sopot
@@ -1174,10 +1130,6 @@ focus_tree = {
         search_filters = {FOCUS_FILTER_INDUSTRY}
         completion_reward = {
             effect_tooltip = {
-                IF = {
-                    limit = { has_dlc = "Arms Against Tyranny"}
-                    unlock_decision_category_tooltip = foreign_mio_decisions_category
-                }
                 ELSE = {
                     if = {
                         limit = {
@@ -1343,17 +1295,6 @@ focus_tree = {
             if = {
                 limit = {
                     has_dlc = "Arms Against Tyranny"
-                }
-                every_military_industrial_organization = {
-                    limit = {
-                        OR = {
-                            is_military_industrial_organization = BUL_dar_organization
-                            is_military_industrial_organization = BUL_kaproni_bulgarski_organization
-                            is_military_industrial_organization = BUL_dvf_organization
-                            is_military_industrial_organization = BUL_dvf_sopot_organization
-                        }
-                    }
-                    complete_mio_trait = BUL_mio_trait_prussia_of_the_balkans
                 }
             }
             else = {
@@ -2405,17 +2346,6 @@ focus_tree = {
                     province = 9783
                 }
             }
-            IF = {
-                limit = {
-                    has_dlc = "Arms Against Tyranny"
-                }
-                custom_effect_tooltip = available_mio_tt
-                show_mio_tooltip = BUL_varna_naval_dockyard_organization
-
-                mio:BUL_varna_naval_dockyard_organization = {
-                    add_mio_size = 3
-                }
-            }
             ELSE = {
                 custom_effect_tooltip = available_designer
                 show_ideas_tooltip = BUL_varna_naval_dockyard
@@ -2484,15 +2414,6 @@ focus_tree = {
                 uses = 2
                 category = cl_tech
                 category = ca_tech
-            }
-
-            if = {
-                limit = {
-                    has_dlc = "Arms Against Tyranny"
-                }
-                mio:BUL_varna_naval_dockyard_organization = {
-                    complete_mio_trait = BUL_mio_trait_an_aegean_sea_fleet
-                }
             }
             else = {
                 BUL_replace_national_naval_designer = yes

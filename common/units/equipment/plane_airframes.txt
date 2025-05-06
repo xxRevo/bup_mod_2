@@ -236,7 +236,7 @@ equipments = {
 		parent = small_plane_airframe_0
 		priority = 5
 
-		air_range = 650
+		air_range = 450
 		maximum_speed = 425
 		air_agility = 40
 		air_defence = 9 #was 9
@@ -313,7 +313,7 @@ equipments = {
 		parent = small_plane_airframe_1
 		priority = 5
 
-		air_range = 800
+		air_range = 600
 		maximum_speed = 450
 		air_agility = 45
 		air_defence = 9 #was 11
@@ -417,7 +417,7 @@ equipments = {
 		parent = small_plane_airframe_2
 		priority = 5
 
-		air_range = 1000
+		air_range = 800
 		maximum_speed = 475
 		air_agility = 50
 		air_defence = 10 #was 12
@@ -541,7 +541,7 @@ equipments = {
 		parent = small_plane_airframe_3
 		priority = 5
 
-		air_range = 1400
+		air_range = 1200
 		maximum_speed = 500
 		air_agility = 55
 		air_defence = 11 #was 18
@@ -667,7 +667,7 @@ equipments = {
 		parent = small_plane_airframe_4
 		priority = 5
 
-		air_range = 1400
+		air_range = 1200
 		maximum_speed = 900
 		air_agility = 65
 		air_defence = 13 #was 25
@@ -1040,7 +1040,7 @@ equipments = {
 		parent = cv_small_plane_airframe_0
 		priority = 5
 
-		air_range = 550
+		air_range = 350
 		maximum_speed = 425
 		air_agility = 35
 		air_defence = 9 #was 9
@@ -1116,7 +1116,7 @@ equipments = {
 		parent = cv_small_plane_airframe_1
 		priority = 5
 
-		air_range = 650
+		air_range = 450
 		maximum_speed = 450
 		air_agility = 40
 		air_defence = 9 #was 11
@@ -1219,7 +1219,7 @@ equipments = {
 		parent = cv_small_plane_airframe_2
 		priority = 5
 
-		air_range = 750
+		air_range = 550
 		maximum_speed = 475
 		air_agility = 45
 		air_defence = 10 #was 12
@@ -1328,7 +1328,7 @@ equipments = {
 		parent = cv_small_plane_airframe_3
 		priority = 5
 
-		air_range = 900
+		air_range = 700
 		maximum_speed = 500
 		air_agility = 50
 		air_defence = 11 #was 18
@@ -1695,7 +1695,7 @@ equipments = {
 		module_slots = inherit
 		priority = 5
 
-		air_range = 1000
+		air_range = 800
 		maximum_speed = 200
 		air_agility = 25
 		air_defence = 10 #was 15
@@ -1715,7 +1715,7 @@ equipments = {
 		parent = medium_plane_airframe_0
 		priority = 5
 
-		air_range = 1200
+		air_range = 1000
 		maximum_speed = 325
 		air_agility = 30
 		air_defence = 10 #was 18
@@ -1846,7 +1846,7 @@ equipments = {
 		parent = medium_plane_airframe_1
 		priority = 5
 
-		air_range = 1500
+		air_range = 1300
 		maximum_speed = 375
 		air_agility = 35
 		air_defence = 10 #was 20
@@ -1994,7 +1994,7 @@ equipments = {
 		parent = medium_plane_airframe_2
 		priority = 5
 
-		air_range = 1800
+		air_range = 1600
 		maximum_speed = 425
 		air_agility = 40
 		air_defence = 10 #was 24
@@ -2154,7 +2154,7 @@ equipments = {
 		parent = medium_plane_airframe_3
 		priority = 5
 
-		air_range = 2500
+		air_range = 2300
 		maximum_speed = 500
 		air_agility = 45
 		air_defence = 10 #was 24

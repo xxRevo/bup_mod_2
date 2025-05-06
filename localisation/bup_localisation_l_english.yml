@@ -139,3 +139,9 @@
  SOV_mechanized_wave:0 "Mechanized Wave"
  SOV_human_wave:0 "Human Wave"
  SOV_portray_a_global_image:0 "Portray a Global Image"
+ generic_light_plane_organization:0 "Light Plane Manufacturer"
+ generic_light_plane_organization_jap:0 "Mitsubishi"
+ generic_light_plane_organization_sov:0 "MIG Design Bureau"
+ generic_light_plane_organization_axis:0 "Messerschmitt"
+ generic_light_plane_organization_allies:0 "Supermarine"
+

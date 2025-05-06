@@ -1226,11 +1226,11 @@ focus_tree = {
 	
 	focus = {
 		id = USA_highway_west
-		icon = GFX_AFG_Afghan_Royal_Army
+		icon = GFX_focus_USA_infrastructure_west
 		relative_position_id = USA_highway_program
 		x = -2
 		y = 1
-		Text = "Develop Kanye West"
+		Text = "Develop West"
 		prerequisite = {focus = USA_highway_program}
 		prerequisite = {focus = USA_finish_hoover_dam}
 		offset = {
@@ -1266,13 +1266,7 @@ focus_tree = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
-				}
-			    add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			    add_extra_state_shared_building_slots = 3			
+				}	
 			}
 			379 = {
 				
@@ -1280,13 +1274,7 @@ focus_tree = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
-				}
-			    add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			    add_extra_state_shared_building_slots = 3				
+				}			
 			}
 			377 = {
 				
@@ -1295,12 +1283,6 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-			    add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			    add_extra_state_shared_building_slots = 3			
 				set_state_flag = USA_USACE_projects_3Inf
 			}
 			380 = {
@@ -1309,13 +1291,7 @@ focus_tree = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
-				}
-			    add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			    add_extra_state_shared_building_slots = 3				
+				}		
 			}
 		}
 	}

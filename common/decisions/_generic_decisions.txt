@@ -519,16 +519,6 @@ propaganda_efforts = {
 				threat > 0.25
 				has_tech = radio
 			}
-		
-
-			IF = {
-				limit = {
-					tag = AFG
-				}
-				threat > 0.25
-				#has_tech = radio
-				has_completed_focus = AFG_establish_radio_networks
-			}
 			ELSE = {
 				threat > 0.25
 				has_tech = radio

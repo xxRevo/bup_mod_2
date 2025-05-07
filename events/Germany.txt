@@ -6261,10 +6261,6 @@ country_event = {
 					special_type_slot_2 = additional_machine_guns
 					special_type_slot_3 = sloped_armor
 				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 6
-					tank_nsb_armor_upgrade = 6
-				}
 				icon = "GFX_GER_improved_heavy_tank_medium"
 			}
 			create_equipment_variant = {
@@ -6282,10 +6278,6 @@ country_event = {
 					special_type_slot_2 = additional_machine_guns
 					special_type_slot_3 = squeezebore_adaptor
 					special_type_slot_4 = sloped_armor
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 6
-					tank_nsb_armor_upgrade = 6
 				}
 				icon = "GFX_GER_improved_heavy_tank_medium"
 			}

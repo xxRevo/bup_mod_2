@@ -255,10 +255,6 @@ IF = {
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = secondary_turret_hmg
 		}
-		upgrades = {
-			tank_nsb_engine_upgrade = 0
-			tank_nsb_armor_upgrade = 1
-		}
 		#icon = "GFX_gwtank_medium"
 	}
 
@@ -797,10 +793,6 @@ add_breakthrough_progress = {
 				suspension_type_slot = tank_torsion_bar_suspension
 				armor_type_slot = tank_riveted_armor
 				engine_type_slot = tank_diesel_engine
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 3
-				tank_nsb_armor_upgrade = 2
 			}
 			icon = "GFX_generic_light_BAA_camo"
 		}

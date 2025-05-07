@@ -234,10 +234,6 @@ give_SOV_armor_research_bonuses = { #this effect is run for the Soviets!
 				engine_type_slot = tank_diesel_engine
 				special_type_slot_1 = sloped_armor
 			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 8
-				tank_nsb_armor_upgrade = 2
-			}
 			icon = "GFX_SOV_basic_medium_tank_medium"
 		}
 		create_equipment_variant = {
@@ -250,10 +246,6 @@ give_SOV_armor_research_bonuses = { #this effect is run for the Soviets!
 				suspension_type_slot = tank_torsion_bar_suspension
 				armor_type_slot = tank_welded_armor
 				engine_type_slot = tank_diesel_engine		
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 10
-				tank_nsb_armor_upgrade = 9
 			}
 			icon = "GFX_SOV_improved_heavy_tank_medium"
 		}

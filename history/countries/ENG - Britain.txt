@@ -801,10 +801,6 @@ if = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		upgrades = {
-			tank_nsb_engine_upgrade = 2
-			tank_nsb_armor_upgrade = 1
-		}
 		icon = "GFX_ENG_basic_light_tank_medium"
 		obsolete = yes #used for oob
 	}
@@ -823,10 +819,6 @@ if = {
 			special_type_slot_2 = smoke_launchers
 		}
 		icon = "GFX_ENG_basic_light_tank_medium"
-		upgrades = {
-			tank_nsb_engine_upgrade = 2
-			tank_nsb_armor_upgrade = 2
-		}
 	}
 
 	create_equipment_variant = {
@@ -841,10 +833,6 @@ if = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = tank_radio_1
-		}
-		upgrades = {
-			tank_nsb_armor_upgrade = 1
-			tank_nsb_engine_upgrade = 2
 		}
 		icon = "GFX_ENG_basic_light_tank_medium"
 	}
@@ -861,10 +849,6 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = secondary_turret_hmg
 		}
-		upgrades = {
-			tank_nsb_armor_upgrade = 3
-			tank_nsb_engine_upgrade = 2
-		}
 		icon = "GFX_ENG_light_BAB_camo"
 		obsolete = yes #export only
 	}
@@ -879,10 +863,6 @@ if = {
 			suspension_type_slot = tank_bogie_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
-		}
-		upgrades = {
-			tank_nsb_armor_upgrade = 3
-			tank_nsb_engine_upgrade = 2
 		}
 		icon = "GFX_ENG_light_BAB_camo"
 		obsolete = yes #export only
@@ -1635,10 +1615,6 @@ if = {
 				armor_type_slot = tank_riveted_armor
 				engine_type_slot = tank_gasoline_engine
 			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 2
-				tank_nsb_armor_upgrade = 6
-			}
 			icon = "GFX_ENG_improved_light_tank_medium"
 			obsolete = yes
 		}
@@ -1656,10 +1632,6 @@ if = {
 				engine_type_slot = tank_diesel_engine
 				special_type_slot_1 = tank_radio_1
 				special_type_slot_2 = smoke_launchers
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 4
-				tank_nsb_armor_upgrade = 8
 			}
 			icon = "GFX_ENG_improved_light_tank_medium"
 		}
@@ -1679,10 +1651,6 @@ if = {
 				special_type_slot_1 = tank_radio_1
 				special_type_slot_2 = secondary_turret_hmg
 				special_type_slot_3 = secondary_turret_hmg
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 3
-				tank_nsb_armor_upgrade = 1
 			}
 			obsolete = yes
 			icon = "GFX_ENG_light_CCA_camo"
@@ -1704,10 +1672,6 @@ if = {
 				special_type_slot_2 = smoke_launchers
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 7
-				tank_nsb_armor_upgrade = 3
 			}
 			icon = "GFX_ENG_light_CCA_camo"
 		}

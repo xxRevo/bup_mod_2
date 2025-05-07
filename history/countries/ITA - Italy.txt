@@ -354,13 +354,7 @@ if = {
 	add_ideas = MTG_naval_treaty_cheating
 }
 
-# DIPLOMACY / WAR 36
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
-	give_guarantee = ALB
-}
+
 
 
 set_convoys = 800
@@ -1077,10 +1071,6 @@ if = {
 				armor_type_slot = tank_riveted_armor
 				engine_type_slot = tank_gasoline_engine
 			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 2
-				tank_nsb_armor_upgrade = 4
-			}
 			icon = "GFX_ITA_improved_light_tank_medium"
 		}
 
@@ -1095,10 +1085,6 @@ if = {
 				armor_type_slot = tank_riveted_armor
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = secondary_turret_hmg
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 2
-				tank_nsb_armor_upgrade = 3
 			}
 			icon = "GFX_ITA_basic_medium_tank_medium"
 		}

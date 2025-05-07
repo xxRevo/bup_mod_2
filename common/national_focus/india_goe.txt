@@ -6998,7 +6998,6 @@ focus = {
 				requested_factories = 1
 				progress = 0.75
 				amount = 3
-				industrial_manufacturer = mio:RAJ_garden_reach_shipbuilders_organization
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -7033,7 +7032,6 @@ focus = {
 				requested_factories = 1
 				progress = 0.75
 				amount = 1
-				industrial_manufacturer = mio:RAJ_garden_reach_shipbuilders_organization
 			}
 		}
 		#NO MTG
@@ -7061,7 +7059,6 @@ focus = {
 				requested_factories = 1
 				progress = 0.75
 				amount = 3
-				industrial_manufacturer = mio:RAJ_garden_reach_shipbuilders_organization
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -7098,7 +7095,6 @@ focus = {
 				requested_factories = 1
 				progress = 0.75
 				amount = 1
-				industrial_manufacturer = mio:RAJ_garden_reach_shipbuilders_organization
 			}
 		}
 
@@ -7140,7 +7136,6 @@ focus = {
 				requested_factories = 1
 				progress = 0.75
 				amount = 3
-				industrial_manufacturer = mio:RAJ_garden_reach_shipbuilders_organization
 			}
 		}
 	}

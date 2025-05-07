@@ -85,7 +85,6 @@ set_technology = {
 	fuel_refining = 1
 	marines = 1
 	basic_train = 1
-	engine_tech_1 = 1
 	interwar_antitank = 1
 	tech_mountaineers = 1
 }
@@ -609,10 +608,6 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = tank_radio_1
 		}
-		upgrades = {
-			tank_nsb_armor_upgrade = 2
-			tank_nsb_engine_upgrade = 5
-		}
 		icon = "GFX_USA_basic_light_tank_medium"
 	}
 	create_equipment_variant = { #Note: There is a copy of this variant in Finnish National Focus file (FIN_bring_foreign_armor_experts). Any changes here should also be applied there
@@ -627,10 +622,6 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = secondary_turret_hmg
 			special_type_slot_2 = tank_radio_1
-		}
-		upgrades = {
-			tank_nsb_armor_upgrade = 2
-			tank_nsb_engine_upgrade = 4
 		}
 		icon = "GFX_USA_basic_light_tank_medium"
 	}

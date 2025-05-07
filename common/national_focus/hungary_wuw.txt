@@ -4850,10 +4850,6 @@ focus_tree = {
 							special_type_slot_1 = additional_machine_guns
 							special_type_slot_2 = additional_machine_guns
 						}
-						upgrades = {
-							tank_nsb_engine_upgrade = 3
-							tank_nsb_armor_upgrade = 3
-						}
 						#icon = "GFX_ITA_basic_medium_tank_medium"
 					}
 				}
@@ -4873,10 +4869,6 @@ focus_tree = {
 								engine_type_slot = tank_gasoline_engine
 								special_type_slot_1 = additional_machine_guns
 								special_type_slot_2 = additional_machine_guns
-							}
-							upgrades = {
-								tank_nsb_engine_upgrade = 3
-								tank_nsb_armor_upgrade = 3
 							}
 							#icon = "GFX_ITA_basic_medium_tank_medium"
 						}
@@ -4900,10 +4892,6 @@ focus_tree = {
 							special_type_slot_1 = secondary_turret_hmg
 							special_type_slot_2 = additional_machine_guns
 						}
-						upgrades = {
-							tank_nsb_engine_upgrade = 3
-							tank_nsb_armor_upgrade = 7
-						}
 						#icon = "GFX_ITA_basic_medium_tank_medium"
 					}
 				}
@@ -4923,10 +4911,6 @@ focus_tree = {
 								engine_type_slot = tank_gasoline_engine
 								special_type_slot_1 = secondary_turret_hmg
 								special_type_slot_2 = additional_machine_guns
-							}
-							upgrades = {
-								tank_nsb_engine_upgrade = 3
-								tank_nsb_armor_upgrade = 7
 							}
 							#icon = "GFX_ITA_basic_medium_tank_medium"
 						}
@@ -5022,10 +5006,6 @@ focus_tree = {
 							armor_type_slot = tank_riveted_armor
 							engine_type_slot = tank_gasoline_engine
 						}
-						upgrades = {
-							tank_nsb_engine_upgrade = 3
-							tank_nsb_armor_upgrade = 3
-						}
 						#icon = "GFX_ITA_advanced_medium_art_medium"
 					}
 				}
@@ -5043,10 +5023,6 @@ focus_tree = {
 								suspension_type_slot = tank_torsion_bar_suspension
 								armor_type_slot = tank_riveted_armor
 								engine_type_slot = tank_gasoline_engine
-							}
-							upgrades = {
-								tank_nsb_engine_upgrade = 3
-								tank_nsb_armor_upgrade = 3
 							}
 							#icon = "GFX_ITA_advanced_medium_art_medium"
 						}
@@ -5070,10 +5046,6 @@ focus_tree = {
 							special_type_slot_1 = auto_loader
 							special_type_slot_2 = secondary_turret_small_cannon
 						}
-						upgrades = {
-							tank_nsb_engine_upgrade = 6
-							tank_nsb_armor_upgrade = 2
-						}
 						#icon = "GFX_ITA_advanced_medium_spaa_medium"
 					}
 				}
@@ -5093,10 +5065,6 @@ focus_tree = {
 								engine_type_slot = tank_gasoline_engine
 								special_type_slot_1 = auto_loader
 								special_type_slot_2 = secondary_turret_small_cannon
-							}
-							upgrades = {
-								tank_nsb_engine_upgrade = 6
-								tank_nsb_armor_upgrade = 2
 							}
 							#icon = "GFX_ITA_advanced_medium_spaa_medium"
 						}
@@ -5173,10 +5141,6 @@ focus_tree = {
 							engine_type_slot = tank_gasoline_engine
 							special_type_slot_2 = tank_radio_1
 						}
-						upgrades = {
-							tank_nsb_engine_upgrade = 3
-							tank_nsb_armor_upgrade = 2
-						}
 						#icon = "GFX_ITA_improved_light_tank_medium"
 					}
 				}
@@ -5195,10 +5159,6 @@ focus_tree = {
 								armor_type_slot = tank_riveted_armor
 								engine_type_slot = tank_gasoline_engine
 								special_type_slot_2 = tank_radio_1
-							}
-							upgrades = {
-								tank_nsb_engine_upgrade = 3
-								tank_nsb_armor_upgrade = 2
 							}
 							#icon = "GFX_ITA_improved_light_tank_medium"
 						}

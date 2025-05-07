@@ -2108,10 +2108,6 @@ focus = {
 						armor_type_slot = tank_welded_armor
 						engine_type_slot = tank_gasoline_engine
 					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 2
-					}
 					icon = "GFX_GER_basic_medium_art_medium"
 				}
 
@@ -2126,10 +2122,6 @@ focus = {
 						suspension_type_slot = tank_bogie_suspension
 						armor_type_slot = tank_welded_armor
 						engine_type_slot = tank_gasoline_engine
-					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 2
 					}
 					icon = "GFX_GER_basic_light_td"
 				}
@@ -3319,10 +3311,6 @@ focus = {
 						special_type_slot_1 = tank_radio_1
 						special_type_slot_2 = smoke_launchers
 					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 3
-					}
 					icon = "GFX_GER_basic_medium_tank_medium"
 				}
 				create_equipment_variant = {
@@ -3339,10 +3327,6 @@ focus = {
 						special_type_slot_1 = tank_radio_1
 						special_type_slot_2 = smoke_launchers
 					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 2
-					}
 					icon = "GFX_GER_basic_medium_tank_medium"
 				}
 				create_equipment_variant = {
@@ -3357,10 +3341,6 @@ focus = {
 						armor_type_slot = tank_welded_armor
 						engine_type_slot = tank_gasoline_engine
 						special_type_slot_1 = tank_radio_1
-					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 4
-						tank_nsb_armor_upgrade = 3
 					}
 					icon = "GFX_GER_basic_medium_td_medium"
 				}
@@ -3482,10 +3462,6 @@ focus = {
 						special_type_slot_2 = sloped_armor
 						special_type_slot_3 = smoke_launchers
 					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 4
-					}
 					icon = "GFX_GER_advanced_medium_tank_medium"
 				}
 				create_equipment_variant = {
@@ -3501,10 +3477,6 @@ focus = {
 						special_type_slot_1 = tank_radio_1
 						special_type_slot_2 = smoke_launchers
 						special_type_slot_3 = additional_machine_guns
-					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 8
-						tank_nsb_armor_upgrade = 6
 					}
 					icon = "GFX_GER_advanced_heavy_tank_medium"
 				}
@@ -5334,7 +5306,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.3
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 				add_equipment_production = {
 					equipment = {
@@ -5346,7 +5317,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.15
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 			}
 			else_if = {
@@ -5387,7 +5357,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.3
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 				add_equipment_production = {
 					equipment = {
@@ -5399,7 +5368,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.15
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 			}
 			else_if = {
@@ -5440,7 +5408,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.3
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 				add_equipment_production = {
 					equipment = {
@@ -5452,7 +5419,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.15
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 			}
 			else_if = {
@@ -5493,7 +5459,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.3
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 				add_equipment_production = {
 					equipment = {
@@ -5505,7 +5470,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.15
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 			}
 
@@ -5646,7 +5610,6 @@ focus = {
 						requested_factories = 1
 						progress = 0.3
 						amount = 1
-						industrial_manufacturer = mio:GER_deutsche_werke_organization
 					}
 				}
 				if = { 
@@ -5680,7 +5643,6 @@ focus = {
 						requested_factories = 1
 						progress = 0.3
 						amount = 1
-						industrial_manufacturer = mio:GER_deutsche_werke_organization
 					}
 				}
 				if = { 
@@ -5712,7 +5674,6 @@ focus = {
 						requested_factories = 1
 						progress = 0.3
 						amount = 1
-						industrial_manufacturer = mio:GER_deutsche_werke_organization
 					}
 				}
 			}
@@ -5847,7 +5808,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.2
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 				add_equipment_production = {
 					equipment = {
@@ -5859,7 +5819,6 @@ focus = {
 					requested_factories = 1
 					progress = 0.1
 					amount = 1
-					industrial_manufacturer = mio:GER_germaniawerft_organization
 				}
 			}
 
@@ -9674,10 +9633,6 @@ focus = {
 							special_type_slot_2 = additional_machine_guns
 							special_type_slot_3 = sloped_armor
 						}
-						upgrades = {
-							tank_nsb_engine_upgrade = 6
-							tank_nsb_armor_upgrade = 6
-						}
 						icon = "GFX_GER_improved_heavy_tank_medium"
 					}
 					create_equipment_variant = {
@@ -9695,10 +9650,6 @@ focus = {
 							special_type_slot_2 = additional_machine_guns
 							special_type_slot_3 = squeezebore_adaptor
 							special_type_slot_4 = sloped_armor
-						}
-						upgrades = {
-							tank_nsb_engine_upgrade = 6
-							tank_nsb_armor_upgrade = 6
 						}
 						icon = "GFX_GER_improved_heavy_tank_medium"
 					}	

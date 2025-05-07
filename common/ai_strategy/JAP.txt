@@ -292,20 +292,16 @@ southern_expansion = {
 		OR = {
 			country_exists = HOL
 			country_exists = ENG
-			country_exists = BRM
 			country_exists = RAJ
 			country_exists = MAL
-			country_exists = INS
 		}
 	}
 	abort = {
 		NOT = {
 			country_exists = HOL
 			country_exists = ENG
-			country_exists = BRM
 			country_exists = RAJ
 			country_exists = MAL
-			country_exists = INS 
 		}
 	}
 
@@ -322,11 +318,6 @@ southern_expansion = {
 
 	ai_strategy = {
 		type = antagonize
-		id = "BRM"
-		value = 200
-	}
-	ai_strategy = {
-		type = antagonize
 		id = "RAJ"
 		value = 100
 	}
@@ -335,11 +326,7 @@ southern_expansion = {
 		id = "MAL"
 		value = 200
 	}
-	ai_strategy = {
-		type = antagonize
-		id = "INS"
-		value = 100
-	}
+
 
 
 }
@@ -452,33 +439,7 @@ JAP_leave_raj_a_bit = {
 	}
 }
 
-JAP_dei = {
-	allowed = {
-		original_tag = JAP
-	}
-	enable = {
-		is_historical_focus_on = yes
-		has_war_with = INS
-		OR = {
-			PHI = { has_capitulated = yes }
-			date > 1942.3.1
-		}
-		date > 1941.1.1
-	}
-	abort_when_not_enabled = yes
 
-	ai_strategy = {
-		type = area_priority
-		id = east_indies
-		value = 220
-	}
-
-	ai_strategy = {
-		type = invade
-		id = "INS"
-		value = 120
-	}
-}
 
 jap_conserve_fuel_for_usa_fight = {
 	allowed = {
@@ -568,300 +529,7 @@ JAP_template_design = {
 	}
 }
 
-# hey dynamic targets would be swole as f*
-all_china_must_prosper_in_my_prosperity_sphere_SIK = {
-	allowed = {
-		original_tag = JAP
-	}
-	enable = {
-		OR = {
-			NOT = { country_exists = CHI }
-			CHI = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-		country_exists = SIK
-		NOT = {
-			SIK = {
-				OR = {
-					is_in_faction_with = JAP
-					is_puppet_of = JAP
-				}
-			}
-			AND = {
-				OR = {
-					AND = {
-						has_global_flag = SOV_soviet_japanese_reconciliation_flag
-						NOT = { has_war_with = SOU }
-					}
-					has_non_aggression_pact_with = SOU
-					is_in_faction_with = SOU
-				}
-				SIK = {
-					OR = {
-						is_in_faction_with = SOU
-						is_puppet_of = SOU
-					}
-				}
-			}
-		}
-	}
 
-	abort = {
-		OR = {
-			NOT = { country_exists = SIK }
-			SIK = {
-				OR = {
-					is_in_faction_with = JAP
-					is_puppet_of = JAP
-				}
-			}
-			AND = {
-				OR = {
-					AND = {
-						has_global_flag = SOV_soviet_japanese_reconciliation_flag
-						NOT = { has_war_with = SOU }
-					}
-					has_non_aggression_pact_with = SOU
-					is_in_faction_with = SOU
-				}
-				SIK = {
-					OR = {
-						is_in_faction_with = SOU
-						is_puppet_of = SOU
-					}
-				}
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = "SIK"
-		value = 5000
-	}
-}
-all_china_must_prosper_in_my_prosperity_sphere_XSM = {
-	allowed = {
-		original_tag = JAP
-	}
-	enable = {
-		OR = {
-			NOT = { country_exists = CHI }
-			CHI = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-		country_exists = XSM
-		NOT = {
-			XSM = {
-				OR = {
-					is_in_faction_with = JAP
-					is_puppet_of = JAP
-				}
-			}
-		}
-	}
-
-	abort = {
-		NOT = { country_exists = XSM }
-		XSM = {
-			OR = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = "XSM"
-		value = 5000
-	}
-}
-all_china_must_prosper_in_my_prosperity_sphere_GXC = {
-	allowed = {
-		original_tag = JAP
-	}
-	enable = {
-		OR = {
-			NOT = { country_exists = CHI }
-			CHI = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-		country_exists = GXC
-		NOT = {
-			GXC = {
-				OR = {
-					is_in_faction_with = JAP
-					is_puppet_of = JAP
-				}
-			}
-		}
-	}
-
-	abort = {
-		NOT = { country_exists = GXC }
-		GXC = {
-			OR = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = "GXC"
-		value = 5000
-	}
-}
-all_china_must_prosper_in_my_prosperity_sphere_SHX = {
-	allowed = {
-		original_tag = JAP
-	}
-	enable = {
-		OR = {
-			NOT = { country_exists = CHI }
-			CHI = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-		country_exists = SHX
-		NOT = {
-			SHX = {
-				OR = {
-					is_in_faction_with = JAP
-					is_puppet_of = JAP
-				}
-			}
-		}
-	}
-
-	abort = {
-		NOT = { country_exists = SHX }
-		SHX = {
-			OR = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = "SHX"
-		value = 5000
-	}
-}
-all_china_must_prosper_in_my_prosperity_sphere_YUN = {
-	allowed = {
-		original_tag = JAP
-	}
-	enable = {
-		OR = {
-			NOT = { country_exists = CHI }
-			CHI = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-		country_exists = YUN
-		NOT = {
-			YUN = {
-				OR = {
-					is_in_faction_with = JAP
-					is_puppet_of = JAP
-				}
-			}
-		}
-	}
-
-	abort = {
-		NOT = { country_exists = YUN }
-		YUN = {
-			OR = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = "YUN"
-		value = 5000
-	}
-
-}
-all_china_must_prosper_in_my_prosperity_sphere_PRC = {
-	allowed = {
-		original_tag = JAP
-	}
-	enable = {
-		OR = {
-			NOT = { country_exists = CHI }
-			CHI = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-		country_exists = PRC
-		NOT = {
-			PRC = {
-				OR = {
-					is_in_faction_with = JAP
-					is_puppet_of = JAP
-				}
-			}
-		}
-	}
-
-	abort = {
-		NOT = { country_exists = PRC }
-		PRC = {
-			OR = {
-				is_in_faction_with = JAP
-				is_puppet_of = JAP
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = "PRC"
-		value = 5000
-	}
-}
-
-jap_china_is_weak = {
-	allowed = {
-		original_tag = JAP
-	}
-
-	enable = {
-		date < 1939.10.1
-		NOT = { has_war_with = CHI } # only underestimate the japanese before the war
-	}
-
-	abort = {
-		OR = {
-			date > 1939.10.1
-			has_war_with = CHI # only underestimate the japanese before the war
-		}
-	}
-
-	ai_strategy = {
-		type = consider_weak
-		id = "CHI"
-		value = 50
-	}
-}
 
 
 jap_building_boats_is_great = {
@@ -1354,7 +1022,6 @@ JAP_hold_up_in_china = { #We got this far but there are bigger targets to worry 
 		}
 
 		OR = {
-			INS = { has_capitulated = no }
 			PHI = { has_capitulated = no }
 		}
 	}

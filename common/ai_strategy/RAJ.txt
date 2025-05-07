@@ -40,11 +40,7 @@ commonwealth_let_raj_defend_itself = {
 		id = RAJ
 		value = 300
 	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = BRM
-		value = 300
-	}
+
 
 	ai_strategy = {
 		type = area_priority

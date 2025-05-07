@@ -515,7 +515,7 @@ if = {
 		traits = { operative_infiltrator operative_commando }
 		bypass_recruitment = no
 		available_to_spy_master = no
-		nationalities = { FRA QUE }
+		nationalities = { FRA }
 	}
 
 	create_operative_leader = {
@@ -1057,10 +1057,6 @@ if = {
 				special_type_slot_1 = tank_radio_1
 				special_type_slot_2 = secondary_turret_small_cannon
 			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 6
-				tank_nsb_armor_upgrade = 6
-			}
 			icon = "GFX_FRA_basic_heavy_tank_medium"
 		}
 
@@ -1077,10 +1073,6 @@ if = {
 				special_type_slot_1 = sloped_armor
 
 			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 2
-				tank_nsb_armor_upgrade = 4
-			}
 			icon = "GFX_FRA_improved_light_tank_medium"
 		}
 
@@ -1095,10 +1087,6 @@ if = {
 				armor_type_slot = tank_welded_armor
 				engine_type_slot = tank_gasoline_engine
 
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 4
-				tank_nsb_armor_upgrade = 3
 			}
 			icon = "GFX_FRA_basic_medium_tank_medium"
 		}

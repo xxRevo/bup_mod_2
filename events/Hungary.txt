@@ -166,3 +166,617 @@ country_event = {
 
 	}
 }
+
+country_event = {
+	id = DOD_hungary.130
+	title = DOD_hungary.130.t
+	desc = DOD_hungary.130.desc 
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+
+	option = {# alright then
+		name = DOD_hungary.130.a
+	}
+}
+
+#Bled Agreement - Hungary asks for rearmament - France or Romania asked first
+country_event = {
+	id = DOD_hungary.140
+	title = DOD_hungary.140.t
+	desc = DOD_hungary.140.desc 
+	picture = GFX_report_event_hungary_parliament
+	
+	is_triggered_only = yes
+
+	option = {# allow
+		name = DOD_hungary.140.a
+		ai_chance = {
+			base = 75
+			modifier = {
+				threat < 0.5
+				factor = 2 #what's the worst that could happen
+			}
+			modifier = {
+				has_war = yes
+				factor = 0.25
+			}
+			modifier = {
+				HUN = {
+					has_government = democratic
+				}
+				factor = 3
+			}
+		}
+		if = { 
+			limit = { tag = FRA }
+			set_global_flag = HUN_FRA_engaged
+			ROM = { country_event = { id = DOD_hungary.141 days = 4 } }
+			YUG = { country_event = { id = DOD_hungary.141 days = 4 } }
+			if = {
+				limit = {
+					CZE = {
+						is_subject = no
+					}
+				}
+				CZE = { country_event = { id = DOD_hungary.141 days = 4 } }
+			}
+		}
+		if = { 
+			limit = { tag = ROM }
+			YUG = { country_event = { id = DOD_hungary.141 days = 4 } }
+			if = {
+				limit = {
+					CZE = {
+						is_subject = no
+					}
+				}
+				CZE = { country_event = { id = DOD_hungary.141 days = 4 } }
+			}
+		}
+		HUN = {
+			country_event = { id = DOD_hungary.142 days = 3 }
+		}
+	}
+
+	option = {# refuse
+		name = DOD_hungary.140.b
+		ai_chance = {
+			base = 25
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+		}
+		HUN = { country_event = { id = DOD_hungary.144 days = 3 } }
+	}
+}
+
+#Bled Agreement - ROM/FRA has agreed, minors get to issue a response
+country_event = {
+	id = DOD_hungary.141
+	title = DOD_hungary.141.t
+	desc = DOD_hungary.141.desc 
+	picture = GFX_report_event_journalists_speech
+	
+	is_triggered_only = yes
+
+	option = {# intervene
+		name = DOD_hungary.141.a
+		trigger = {
+			HUN = {
+				OR = {
+					has_government = fascism
+					has_added_tension_amount > 0.05 #hungary has been bad
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+		}
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = HUN
+		}
+		add_political_power = -200
+		add_stability = -0.15
+		add_war_support = -0.1
+		add_threat = 5
+	}
+	option = {# issue a protest
+		name = DOD_hungary.141.b
+		ai_chance = {
+			factor = 45
+		}
+		add_opinion_modifier = { target = HUN modifier = protest_action }
+		HUN = { country_event = DOD_hungary.143 }
+	}
+
+	option = {# accept it
+		name = DOD_hungary.141.c
+		ai_chance = {
+			factor = 45
+		}
+	}
+}
+
+#Bled Agreement - HUN permitted to rearm
+country_event = {
+	id = DOD_hungary.142
+	title = DOD_hungary.142.t
+	desc = DOD_hungary.142.desc 
+	picture = GFX_report_event_generic_military_parade
+	
+	is_triggered_only = yes
+
+	option = {# 
+		name = DOD_hungary.142.a
+
+		IF = {
+			limit = {
+				NOT = {
+					has_dlc = "Gotterdammerung"
+				}
+			}
+			IF = {
+				limit = { 
+					OR = {
+						has_idea = HUN_treaty_of_triannon 
+						has_idea = HUN_treaty_of_triannon_aat
+					}
+				}
+				IF = {
+					limit = {
+						has_dlc = "Arms Against Tyranny"
+					}
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon_aat
+						add_idea = Hun_treaty_of_triannon_3
+					}
+				}
+				ELSE = {
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon
+						add_idea = Hun_treaty_of_triannon_3
+					}
+				}
+			}
+			IF = {
+				limit = { has_idea = HUN_treaty_of_triannon_2 }
+				swap_ideas = {
+					remove_idea = HUN_treaty_of_triannon_2
+					add_idea = HUN_treaty_of_triannon_3
+				}
+			}
+		}
+
+		ELSE_IF = {
+			limit = {
+				has_dlc = "Gotterdammerung"
+			}
+			IF = {
+				limit = {
+					OR = {
+						has_idea = HUN_treaty_of_triannon_wuw
+						has_idea = HUN_treaty_of_triannon_aat_wuw
+						has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff
+						has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff
+						has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff
+						has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff
+						has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff
+						has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = HUN_treaty_of_triannon_wuw
+					}
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon_wuw
+						add_idea = HUN_bled_agreement_wuw
+					}	
+				}
+				ELSE_IF = {
+					limit = {
+						has_idea = HUN_treaty_of_triannon_aat_wuw
+					}
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon_aat_wuw
+						add_idea = HUN_bled_agreement_wuw
+					}
+				}
+				ELSE_IF = {
+					limit = {
+						has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff
+					}
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff
+						add_idea = HUN_bled_agreement_wuw
+					}
+				}
+				ELSE_IF = {
+					limit = {
+						has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff
+					}
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff
+						add_idea = HUN_bled_agreement_wuw
+					}
+				}
+				ELSE_IF = {
+					limit = {
+						has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff
+					}
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon_wuw_no_air_debuff
+						add_idea = HUN_bled_agreement_wuw
+					}
+				}
+				ELSE_IF = {
+					limit = {
+						has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff
+					}
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff
+						add_idea = HUN_bled_agreement_wuw
+					}
+				}
+				ELSE_IF = {
+					limit = {
+						has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff
+					}
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff
+						add_idea = HUN_bled_agreement_wuw
+					}
+				}
+				ELSE_IF = {
+					limit = {
+						has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff
+					}
+					swap_ideas = {
+						remove_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff
+						add_idea = HUN_bled_agreement_wuw
+					}
+				}
+			}
+		}
+		
+	}
+	
+}
+
+#Bled Agreement - Neighbours issue a protest
+country_event = {
+	id = DOD_hungary.143
+	title = DOD_hungary.143.t
+	desc = DOD_hungary.143.desc 
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+
+	option = {# good for them
+		name = DOD_hungary.143.a
+	}
+	
+}
+
+#Bled Agreement - Hungary denied rearmament
+country_event = {
+	id = DOD_hungary.144
+	title = DOD_hungary.144.t
+	desc = DOD_hungary.144.desc 
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+
+	option = {# accept
+		name = DOD_hungary.144.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				has_completed_focus = HUN_rapproachement_with_little_entente
+				factor = 0
+			}
+		}
+		add_stability = -0.1
+	}
+
+	option = {# appeal
+		name = DOD_hungary.144.b
+		ai_chance = {
+			factor = 90
+		}
+		HUN = { country_event = DOD_hungary.145 }
+	}
+
+}
+
+#Bled Agreement - Hungary appeals
+country_event = {
+	id = DOD_hungary.145
+	title = DOD_hungary.145.t
+	desc = DOD_hungary.145.desc 
+	picture = GFX_report_event_hungary_refused
+	
+	is_triggered_only = yes
+
+	option = {# appeal to Germany
+		name = DOD_hungary.145.a
+		ai_chance = {
+			factor = 35
+			modifier = {
+				is_in_faction_with = GER
+				factor = 10
+			}
+		}
+		trigger = {
+			NOT = {
+				has_war_with = GER
+			}
+			NOT = { has_government = communism }
+		}
+		GER = { country_event = DOD_hungary.146 }
+	}
+
+	option = {# appeal to France
+		name = DOD_hungary.145.b
+		ai_chance = {
+			factor = 35
+			modifier = {
+				is_in_faction_with = FRA
+				factor = 10
+			}
+		}
+		trigger = {
+		 	NOT = { 
+		 		has_global_flag = HUN_FRA_engaged 
+		 		has_war_with = FRA
+		 	}
+		}
+		FRA = { country_event = DOD_hungary.146 }
+	}
+	option = {# appeal to Soviet Union
+		name = DOD_hungary.145.c
+		trigger = {
+			has_government = communism
+			SOV = { has_government = communism }
+		}
+		ai_chance = {
+			factor = 35
+			modifier = {
+				is_in_faction_with = SOV
+				factor = 10
+			}
+		}
+
+		SOV = { country_event = DOD_hungary.146 }
+	}
+	option = {# appeal to Italy
+		name = DOD_hungary.145.d
+		ai_chance = {
+			factor = 35
+			modifier = {
+				is_in_faction_with = ITA
+				factor = 10
+			}
+		}
+		trigger = {
+			ITA = {
+				NOT = { is_in_faction_with = GER }
+			}
+			NOT = {
+				has_war_with = ITA
+			}
+		}
+		ITA = { country_event = DOD_hungary.146 }
+	}
+	option = {# appeal to Britain
+		name = DOD_hungary.145.e
+		ai_chance = {
+			factor = 35
+			modifier = {
+				is_in_faction_with = ENG
+				factor = 10
+			}
+		}
+		trigger = {
+			ENG = {
+				has_completed_focus = uk_balkan_strategy
+			}
+			NOT = {
+				has_war_with = ENG
+			}
+		}
+		ENG = { country_event = DOD_hungary.146 }
+	}
+
+}
+
+#Bled Agreement - Hungary appeals to a major
+country_event = {
+	id = DOD_hungary.146
+	title = DOD_hungary.146.t
+	desc = DOD_hungary.146.desc 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+
+	option = {# put pressure on the minors
+		name = DOD_hungary.146.a
+		ai_chance = {
+			factor = 70
+			modifier = {
+				is_in_faction_with = HUN
+				factor = 10
+			}
+		}
+		IF = { limit = { has_global_flag = HUN_FRA_engaged} 
+			FRA = { country_event = { id = DOD_hungary.147 days = 1} }
+		}
+		IF = { limit = { NOT = { has_global_flag = HUN_FRA_engaged } }
+			ROM = { country_event = { id = DOD_hungary.147 days = 1} }
+		}
+
+		add_threat = 1
+	}
+
+	option = {# Hungary has to fend for themselves
+		name = DOD_hungary.146.b
+		ai_chance = {
+			factor = 30
+		}
+		HUN = { country_event = { id = DOD_hungary.148 days = 2 } }
+	}
+
+}
+
+#Bled Agreement - Someone applies pressure to minors to let Hungary rearm
+country_event = {
+	id = DOD_hungary.147
+	title = DOD_hungary.147.t
+	desc = DOD_hungary.147.desc 
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+
+	option = {# yield
+		name = DOD_hungary.147.a
+		ai_chance = {
+			factor = 80
+		}
+		HUN = { country_event = DOD_hungary.142 }
+		HUN = { add_opinion_modifier = { target = FROM modifier = offered_support } }
+		if = { 
+			limit = { tag = FRA }
+			set_global_flag = HUN_FRA_engaged
+			ROM = { country_event = DOD_hungary.141 }
+			YUG = { country_event = DOD_hungary.141 }
+			CZE = { country_event = DOD_hungary.141 }
+		}
+		if = { 
+			limit = { tag = ROM }
+			YUG = { country_event = DOD_hungary.141 }
+			CZE = { country_event = DOD_hungary.141 }
+		}
+	}
+
+	option = {# be firm
+		name = DOD_hungary.147.b
+		ai_chance = {
+			factor = 20
+		}
+		HUN = { country_event = DOD_hungary.148 }
+		FROM = { add_opinion_modifier = { target = PREV modifier = HUN_stubborn_fools } }
+		HUN = { add_opinion_modifier = { target = FROM modifier = offered_support } }
+	}
+
+}
+
+#Bled Agreement - Hungary denied rearmament
+country_event = {
+	id = DOD_hungary.148
+	title = DOD_hungary.148.t
+	desc = DOD_hungary.148.desc 
+	picture = GFX_report_event_hungary_refused
+	
+	is_triggered_only = yes
+
+	option = {# yield
+		name = DOD_hungary.148.a
+		ai_chance = {
+			factor = 20
+			modifier = {
+				has_government = fascism
+				factor = 0
+			}
+		}
+	}
+
+	option = {# rearm anyway
+		name = DOD_hungary.148.b
+		ai_chance = {
+			factor = 80
+		}
+
+		add_threat = 5
+
+		IF = {
+			limit = {
+				NOT = {
+					has_dlc = "Gotterdammerung"
+				}
+			}
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				remove_ideas = HUN_treaty_of_triannon_aat
+			}
+			ELSE = {
+				remove_ideas = HUN_treaty_of_triannon
+			}
+		}
+
+		ELSE_IF = {
+			limit = {
+				has_dlc = "Gotterdammerung"
+			}
+			IF = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_wuw
+				}
+				remove_ideas = HUN_treaty_of_triannon_wuw
+			}
+			ELSE_IF = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_aat_wuw
+				}
+				remove_ideas = HUN_treaty_of_triannon_aat_wuw
+			}
+			ELSE_IF = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff
+				}
+				remove_ideas = HUN_treaty_of_triannon_wuw_no_army_exp_debuff
+			}
+			ELSE_IF = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff
+				}
+				remove_ideas = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff
+			}
+			ELSE_IF = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff
+				}
+				remove_ideas = HUN_treaty_of_triannon_wuw_no_air_debuff
+			}
+			ELSE_IF = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff
+				}
+				remove_ideas = HUN_treaty_of_triannon_aat_wuw_no_air_debuff
+			}
+			ELSE_IF = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff
+				}
+				remove_ideas = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff
+			}
+			ELSE_IF = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff
+				}
+				remove_ideas = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff
+			}
+		}
+		
+
+	}
+
+}

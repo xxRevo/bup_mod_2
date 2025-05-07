@@ -1336,7 +1336,6 @@ SOV_molotov_active_hostile_others = {
 			original_tag = USA
 			original_tag = POL
 			original_tag = FIN
-			original_tag = SAU #Khakimov incident
 		}
 	}
 
@@ -1437,7 +1436,6 @@ SOV_litvinov_active_friendly_others = {
 			original_tag = USA
 			original_tag = POL
 			original_tag = FIN
-			original_tag = SAU #Khakimov incident
 		}
 	}
 
@@ -1497,84 +1495,10 @@ SOV_litvinov_active_hostile_others = {
 #########################
 
 #Soviets
-SOV_khakimov_proposal_sov = {
-	allowed = {
-		original_tag = SOV
-	}
 
-	enable = {
-		has_idea = SOV_maksim_litvinov
-		SAU = {
-			has_opinion = {
-				target = SOV
-				value < 0
-			}
-			is_subject = no
-		}
-		is_subject = no
-	}
-
-	abort = {
-		OR = {
-			NOT = { has_idea = SOV_maksim_litvinov }
-			is_in_faction_with = SAU
-			SAU = { has_capitulated = yes }
-			SAU = { is_subject = no }
-			SAU = {
-				has_opinion = {
-					target = SOV
-					value > 75
-				}
-			}
-			is_subject = yes
-		}
-	}
-
-	ai_strategy = {
-		type = diplo_action_desire
-		id = SAU
-		target = befriend
-		value = 50
-	}
-	ai_strategy = {
-		type = diplo_action_desire
-		id = SAU
-		target = improve_relation
-		value = 50
-	}
-}
 
 #Soviets
-SOV_khakimov_proposal_sau = {
-	allowed = {
-		original_tag = SAU
-	}
 
-	enable = {
-		SOV = {
-			has_idea = SOV_maksim_litvinov
-			has_completed_focus = SOV_the_khakimov_proposal
-			is_subject = no
-		}
-		is_subject = no
-	}
-
-	abort = {
-		OR = {
-			SOV = { NOT = { has_idea = SOV_maksim_litvinov } }
-			is_in_faction_with = SOV
-			SOV = { has_capitulated = yes }
-			is_subject = yes
-		}
-	}
-
-	ai_strategy = {
-		type = diplo_action_desire
-		id = SOV
-		target = befriend
-		value = 25
-	}
-}
 
 SOV_unit_buffer_for_asian_threat = {
 	allowed = {

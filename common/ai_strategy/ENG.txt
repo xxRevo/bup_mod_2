@@ -1889,31 +1889,7 @@ ENG_allies_dont_ask_for_diplo_access_to_SOV = {
 	}
 	ai_strategy = {
 		type = diplo_action_desire
-		id = TAN
-		target = military_access
-		value = -5000
-	}
-	ai_strategy = {
-		type = diplo_action_desire
-		id = MON
-		target = military_access
-		value = -5000
-	}
-	ai_strategy = {
-		type = diplo_action_desire
 		id = SOV
-		target = docking_rights
-		value = -5000
-	}
-	ai_strategy = {
-		type = diplo_action_desire
-		id = TAN
-		target = docking_rights
-		value = -5000
-	}
-	ai_strategy = {
-		type = diplo_action_desire
-		id = MON
 		target = docking_rights
 		value = -5000
 	}
@@ -2073,43 +2049,6 @@ ENG_prepare_for_war_with_iraq = {
 	}
 }
 
-ENG_ALLIES_norway_is_not_THAT_important = {
-	allowed = {
-		always = yes
-	}
-	enable = {
-		date < 1945.1.1
-		is_in_faction_with = ENG
-		NOT = { original_tag = NOR }  # Let (exiled) Norway do what they want if they are in the Allies
-		any_allied_country = {
-			NORDIC_is_nordic = yes
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = area_priority
-		id = scandinavia
-		value = -150
-	}
-
-	ai_strategy = {
-		type = front_unit_request
-		area = scandinavia
-		value = -40
-	}
-
-	#ai_strategy = {
-	#	type = naval_invasion_focus
-	#	value = -100
-	#}
-
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 173 #eastern north sea
-		value = 600
-	}
-}
 
 ENG_super_boost_armor_div = { #lets make sure the uk upgrades rtr to divs
 	allowed = {
@@ -2567,27 +2506,6 @@ ENG_disregard_france_a_bit = {
 	}
 }
 
-ENG_dont_kick_russia_out_from_triple_entente_due_to_gobbling_up_breakaway_states = {
-	allowed = {
-		original_tag = ENG
-	}
-
-	abort = {
-		NOT = { is_in_faction_with = SOV }
-	}
-
-	ai_strategy = {
-		type =  alliance
-		id = SOV
-		value = 200
-	}
-
-	ai_strategy = {
-		type =  befriend
-		id = SOV
-		value = 200
-	}
-}
 
 ENG_the_baltic_is_a_terrible_holiday_destination = {
 
@@ -2665,44 +2583,6 @@ ENG_chill_on_the_pacific = {
 	}
 }
 
-ENG_ethiopian_continuation_war = {
-	# Fight more cautiously/defensively in the Ethiopian region
-	allowed = { original_tag = ENG }
-	enable = {
-		is_historical_focus_on = yes  # Don't like locking it behind a checkbox...
-		date < 1941.5.1  # Historically, the main Italian forces in Ethiopia surrendered in November 1941. (After that, there were remnants fighting a guerilla war until September 1943.)
-		ETH = { is_exiled_in = ENG }
-		has_war = yes
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = front_control
-
-		strategic_region = 17  # Ethiopian Highlands
-		strategic_region = 273  # Danakil
-		strategic_region = 274  # Ogaden
-
-		ratio = 0.9
-
-		priority = 100
-		ordertype = front
-		execution_type = careful
-		execute_order = yes
-	}
-
-	ai_strategy = {
-		type = front_unit_request
-
-		strategic_region = 17  # Ethiopian Highlands
-		strategic_region = 273  # Danakil
-		strategic_region = 274  # Ogaden
-
-		ratio = 0.9
-
-		value = -30
-	}
-}
 
 ENG_no_naval_landings_in_libya_yet = {
 	allowed = { original_tag = ENG }

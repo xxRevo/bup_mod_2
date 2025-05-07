@@ -434,10 +434,7 @@ set_war_support = 0.3
 	
 	
 	# Slovakia is set up as a subject manually
-	set_autonomy = {
-		target = SLO
-		autonomous_state = autonomy_puppet
-	}
+
 	give_military_access = SLO
 
 	# So that the war can fire immediately 
@@ -1014,10 +1011,6 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = tank_radio_1
 		}
-		upgrades = {
-			tank_nsb_engine_upgrade = 2
-			tank_nsb_armor_upgrade = 2
-		}
 		obsolete = yes
 		icon = "GFX_GER_gwtank_medium"
 	}
@@ -1032,10 +1025,6 @@ if = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = tank_radio_1
-		}
-		upgrades = {
-			tank_nsb_engine_upgrade = 5
-			tank_nsb_armor_upgrade = 1
 		}
 		icon = "GFX_GER_basic_light_tank_medium"
 		obsolete = yes
@@ -1053,10 +1042,6 @@ if = {
 			special_type_slot_1 = tank_radio_1
 			special_type_slot_2 = secondary_turret_hmg
 		}
-		upgrades = {
-			tank_nsb_engine_upgrade = 6
-			tank_nsb_armor_upgrade = 2
-		}
 		icon = "GFX_GER_basic_heavy_tank_medium"
 	}
 	create_equipment_variant = {
@@ -1072,10 +1057,6 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = tank_radio_1
 		}
-		upgrades = {
-			tank_nsb_engine_upgrade = 3
-			tank_nsb_armor_upgrade = 2
-		}
 		icon = "GFX_GER_improved_light_tank_medium"
 	}
 	create_equipment_variant = {
@@ -1090,10 +1071,6 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = tank_radio_1
 		}
-		upgrades = {
-			tank_nsb_engine_upgrade = 3
-			tank_nsb_armor_upgrade = 3
-		}
 		icon = "GFX_GER_improved_light_tank_medium"
 	}
 }
@@ -1102,7 +1079,6 @@ if = {
 	create_equipment_variant = {
 		name = "Deutschland"
 		type = ship_hull_cruiser_panzerschiff
-		name_group = GER_PZ_HISTORICAL
 		parent_version = 0
 		modules = {
         	fixed_ship_anti_air_slot = ship_anti_air_1
@@ -1298,7 +1274,6 @@ if = {
 	create_equipment_variant = {
 		name = "Deutschland"
 		type = ship_hull_pre_dreadnought
-		name_group = GER_PZ_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -1502,10 +1477,6 @@ if = {
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
 			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 6
-				tank_nsb_armor_upgrade = 3
-			}
 			icon = "GFX_GER_basic_medium_tank_medium"
 		}
 		create_equipment_variant = {
@@ -1522,10 +1493,6 @@ if = {
 				special_type_slot_2 = smoke_launchers
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 6
-				tank_nsb_armor_upgrade = 3
 			}
 			icon = "GFX_GER_improved_medium_tank_medium"
 		}
@@ -1544,10 +1511,6 @@ if = {
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
 			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 3
-				tank_nsb_armor_upgrade = 2
-			}
 			obsolete = yes
 			icon = "GFX_CZE_basic_light_tank_medium"
 		}
@@ -1565,12 +1528,7 @@ if = {
 				special_type_slot_2 = smoke_launchers
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 3
-				tank_nsb_armor_upgrade = 3
-			}
-			
+			}	
 			icon = "GFX_CZE_improved_light_tank_medium"
 		}
 	}

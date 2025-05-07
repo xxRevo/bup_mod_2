@@ -10,16 +10,6 @@ state = {
         add_core_of = COG
 		owner = BEL
 
-		IF = {
-			limit = {
-				has_dlc = "Gotterdammerung"
-			}
-			transfer_state_to = COG
-			add_dynamic_modifier = {
-				modifier = COG_burundian_separatism_modifier
-			}	
-		}
-		
 
 		victory_points = {
 			2220 1

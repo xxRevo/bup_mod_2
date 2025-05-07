@@ -417,7 +417,6 @@ equipments = {
 		lend_lease_cost = 12
 
 		manpower = 2
-
 	}
 	medium_tank_chassis_0 = { #used for interwar tanks
 		abbreviation = "mt0"
@@ -485,6 +484,9 @@ equipments = {
 			module = tank_medium_howitzer_2
 			count < 1
 		}
+		upgrades = {
+			tank_nsb_armor_upgrade
+		}
 	}
 	medium_tank_chassis_2 = {
 		abbreviation = "mt2"
@@ -519,6 +521,9 @@ equipments = {
 			module = tank_heavy_howitzer
 			count < 1
 		}
+		upgrades = {
+			tank_nsb_armor_upgrade
+		}
 	}
 	medium_tank_chassis_3 = {
 		abbreviation = "mt3"
@@ -536,6 +541,9 @@ equipments = {
 		resources = {
 			steel = 3
 			tungsten = 2
+		}
+		upgrades = {
+			tank_nsb_armor_upgrade
 		}
 	}
 
@@ -794,6 +802,9 @@ equipments = {
 			module = tank_heavy_howitzer
 			count < 1
 		}
+		upgrades = {
+			tank_nsb_armor_upgrade
+		}
 	}
 
 	heavy_tank_chassis_2 = {
@@ -825,6 +836,9 @@ equipments = {
 			module = tank_heavy_cannon_3
 			count < 1
 		}
+		upgrades = {
+			tank_nsb_armor_upgrade
+		}
 	}
 
 	heavy_tank_chassis_3 = {
@@ -843,6 +857,9 @@ equipments = {
 		resources = {
 			steel = 3
 			chromium = 3
+		}
+		upgrades = {
+			tank_nsb_armor_upgrade
 		}
 	}
 

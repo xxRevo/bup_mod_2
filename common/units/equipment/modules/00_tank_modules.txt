@@ -1444,7 +1444,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			entrenchment = 1
+			entrenchment = 0.5
+			reliability = -0.075
 			build_cost_ic = 1
 		}
 		xp_cost = 0

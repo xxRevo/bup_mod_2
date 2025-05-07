@@ -12,35 +12,6 @@ on_actions = {
 			}
 		}
 
-		effect = { #Check for Turkish state modifiers for non-Turkish occupiers
-			if = {
-				limit = {
-					FROM = { original_tag = TUR }
-					ROOT = { NOT = { tag = TUR } }
-					FROM.FROM = { 
-						TUR_has_turkish_state_modifier = yes 
-					}
-				}
-				FROM.FROM = { 
-					TUR_remove_state_modifier_effect = yes
-				}
-			}
-		}
-		effect = { #Check for lost Turkish state modifiers
-			if = {
-				limit = {
-					FROM.FROM = { 
-						AND = { 
-							is_owned_and_controlled_by = TUR
-							TUR_has_former_turkish_state_modifier = yes
-						}
-					}
-				}
-				FROM.FROM = {
-					TUR_restore_dynamic_modifiers_effect = yes
-				}
-			}		
-		}
 		effect = { #Check for Macedonian state modifiers
 			if = {
 				limit = {
@@ -900,24 +871,6 @@ on_actions = {
 						has_government = communism
 					}
 					set_cosmetic_tag = YUG_puppet_5
-				}
-			}
-			if = {
-				limit = { 
-					FROM = {
-						original_tag = TUR 
-					}
-					ROOT = {
-						original_tag = TUR
-					}
-					YUG = { has_completed_focus = YUG_recognize_the_soviet_union }
-				}
-				random_country = {
-					limit = {
-						original_tag = TUR
-						has_government = communism
-					}
-					set_cosmetic_tag = YUG_puppet_6
 				}
 			}
 		}

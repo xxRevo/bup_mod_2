@@ -192,7 +192,6 @@ equipments = {
 		module_slots = inherit
 
 		upgrades = {
-			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 	}
@@ -429,7 +428,6 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		upgrades = {
-			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 		maximum_speed = 9
@@ -720,7 +718,6 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		upgrades = {
-			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 		maximum_speed = 5
@@ -1029,7 +1026,6 @@ equipments = {
 		module_slots = inherit
 
 		upgrades = {
-			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 	}
@@ -1211,7 +1207,6 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		upgrades = {
-			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 	}
@@ -1390,7 +1385,6 @@ equipments = {
 		archetype = amphibious_tank_chassis
 		priority = 2000
 		upgrades = {
-			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 		module_slots = inherit
@@ -1597,7 +1591,6 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		upgrades = {
-			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 	}

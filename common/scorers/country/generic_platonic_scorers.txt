@@ -141,10 +141,6 @@ communist_major_scorer = { # Finds biggest Communist
 				tag = SOV # If the Soviet Union is still communist, they are something to be vary about - always 
 				factor = 1.5
 			}
-			modifier = { # Communist China should have preference, but not as much as SOV  
-				tag = PRC
-				factor = 1.3
-			}
 			modifier = {
 				is_major = yes
 				add = 100

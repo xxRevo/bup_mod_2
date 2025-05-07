@@ -1729,7 +1729,6 @@ focus_tree = {
 
         search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
         completion_reward = {
-            custom_effect_tooltip = BUL_dominance_in_the_black_sea_claims_tt
             every_state = {
                 limit = {
                     BUL_state_is_in_the_black_sea = yes
@@ -1758,7 +1757,6 @@ focus_tree = {
                         NOT = { is_in_faction_with = ROOT }
                     }
                 }
-                custom_effect_tooltip = BUL_dominance_in_the_black_sea_wargoals_tt
                 every_other_country = {
                     limit = {
                         any_controlled_state = {
@@ -1829,7 +1827,6 @@ focus_tree = {
 
         search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
         completion_reward = {
-            custom_effect_tooltip = BUL_dominance_in_the_aegean_sea_claims_tt
             every_state = {
                 limit = {
                     BUL_state_is_in_the_aegean_sea = yes
@@ -1858,7 +1855,6 @@ focus_tree = {
                         NOT = { is_in_faction_with = ROOT }
                     }
                 }
-                custom_effect_tooltip = BUL_dominance_in_the_black_sea_wargoals_tt
                 every_other_country = {
                     limit = {
                         any_controlled_state = {
@@ -1877,9 +1873,6 @@ focus_tree = {
                         }
                     }
                 }
-            }
-            effect_tooltip = {
-                activate_mission = BUL_dominance_in_the_aegean_sea_mission
             }
         }
     }
@@ -1929,7 +1922,6 @@ focus_tree = {
 
         search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
         completion_reward = {
-            custom_effect_tooltip = BUL_dominance_in_the_adriatic_sea_claims_tt
             every_state = {
                 limit = {
                     BUL_state_is_in_the_adriatic_sea = yes
@@ -1958,7 +1950,6 @@ focus_tree = {
                         NOT = { is_in_faction_with = ROOT }
                     }
                 }
-                custom_effect_tooltip = BUL_dominance_in_the_black_sea_wargoals_tt
                 every_other_country = {
                     limit = {
                         any_controlled_state = {
@@ -1977,9 +1968,6 @@ focus_tree = {
                         }
                     }
                 }
-            }
-            effect_tooltip = {
-                activate_mission = BUL_dominance_in_the_adriatic_sea_mission
             }
         }
     }
@@ -3239,7 +3227,6 @@ focus_tree = {
                         tag = GRE
                         tag = YUG
                         tag = ROM
-                        tag = TUR
                     }
                     NOT = { is_subject_of = ROOT }
                     NOT = {	is_in_faction_with = ROOT }
@@ -3320,7 +3307,6 @@ focus_tree = {
                             original_tag = YUG
                             original_tag = GRE
                             original_tag = ROM
-                            original_tag = TUR
                         }
                     }
                     ROOT = {
@@ -3338,7 +3324,6 @@ focus_tree = {
                         original_tag = YUG
                         original_tag = GRE
                         original_tag = ROM
-                        original_tag = TUR
                     }
                 }
             }

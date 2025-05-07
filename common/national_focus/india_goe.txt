@@ -4734,7 +4734,6 @@ focus = {
 	completion_reward = {
 		add_political_power = 70
 
-		activate_mission = RAJ_investments_from_local_leaders
 	}
 }
 

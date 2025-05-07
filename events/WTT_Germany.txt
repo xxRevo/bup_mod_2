@@ -491,7 +491,7 @@ country_event = {
 				has_government = fascism
 			}
 			set_cosmetic_tag = GER_civil_war
-			hidden_effect = { activate_mission = GER_mefo_bills_mission }
+			
 		}
 
 		custom_effect_tooltip = generic_skip_one_line_tt

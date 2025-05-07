@@ -1766,14 +1766,6 @@ BUL_add_hidden_targeted_ns = {
 	}
 	else_if = {
 		limit = {
-			original_tag = TUR
-		}
-		ROOT = {
-			add_ideas = BUL_anti_capitalism_tur
-		}
-	}
-	else_if = {
-		limit = {
 			original_tag = ROM
 		}
 		ROOT = {

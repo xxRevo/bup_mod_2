@@ -515,14 +515,6 @@ propaganda_efforts = {
 		icon = generic_prepare_civil_war
 
 		available = {
-			IF = {
-				limit = {
-					tag = BRA
-				}
-				threat > 0.25
-				#has_tech = radio
-				has_completed_focus = BRA_radio_nacional
-			}
 			ELSE = {
 				threat > 0.25
 				has_tech = radio

@@ -39,7 +39,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -262,7 +261,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -368,7 +366,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -551,7 +548,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -868,7 +864,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 			}
 			NOT = { original_tag = GRE }
-			NOT = { original_tag = TUR }
 		}
 		NOT = {
 			AND = {
@@ -1017,7 +1012,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -1123,7 +1117,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -1209,7 +1202,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -1524,7 +1516,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -1693,7 +1684,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -1851,7 +1841,6 @@ country_event = {
 				has_dlc = "Battle for the Bosporus"
 				OR = {
 					original_tag = GRE
-					original_tag = TUR
 				}
 			}
 		}
@@ -2144,10 +2133,6 @@ country_event = {
 			AND = {
 				original_tag = SOV
 				has_global_flag = SOV_soviet_civil_war # Stalin doesn't really want to reconciliate with Trotsky/Bukharin at this point
-			}
-			AND = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = TUR
 			}
 			AND = {
 				has_dlc = "By Blood Alone"

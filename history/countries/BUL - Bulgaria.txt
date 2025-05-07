@@ -177,6 +177,10 @@ add_timed_idea = {
 		modifier = BFTB_incongruous_neighbors
 	}
 	add_opinion_modifier = { 
+		target = TUR
+		modifier = BFTB_incongruous_neighbors
+	}
+	add_opinion_modifier = { 
 		target = YUG
 		modifier = BFTB_incongruous_neighbors
 	}
@@ -191,7 +195,7 @@ add_timed_idea = {
 
 	recruit_character = BUL_boris_iii
 	recruit_character = BUL_georgi_dimitrov
-	recruit_character = BUL_nikola_mushanov
+	
 	recruit_character = BUL_hristo_lukov
 	recruit_character = BUL_atanas_shalapatov
 	recruit_character = BUL_nikola_mihov
@@ -228,16 +232,15 @@ add_timed_idea = {
 	recruit_character = BUL_dobri_bozhilov
 	recruit_character = BUL_dimitrana_ivanova
 	recruit_character = BUL_bogdan_filov
-	recruit_character = BUL_stoycho_mushanov
+	
 	recruit_character = BUL_aleksandar_tsankov
-	recruit_character = BUL_todor_pavlov
+	
 	recruit_character = BUL_kimon_georgiev
 	recruit_character = BUL_ivan_dochev
 	recruit_character = BUL_georgi_ivanov_kyoseivanov
 	recruit_character = BUL_stefan_stefanov
 	recruit_character = BUL_nikola_zhekov
-	recruit_character = BUL_valko_chervenkov
-	recruit_character = BUL_vasil_kolarov
+
 	recruit_character = BUL_konstantin_muraviev
 	recruit_character = BUL_nikola_petkov
 

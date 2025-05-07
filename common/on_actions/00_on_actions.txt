@@ -745,31 +745,6 @@ on_actions = {
 		}
 
 		#GERMANY - Set Flag in capitulated countries and add them to array for Seize Gold Reserves Decision purposes
-		effect = {
-			if = {
-				limit = {
-					FROM = {
-						OR = {
-							original_tag = GER
-							is_ally_with = GER
-						}
-					}
-					ROOT = {
-						OR = {
-							capital_scope = { is_on_continent = europe }
-							original_tag = TUR
-						}
-					}
-				}
-				ROOT = {
-					set_country_flag = GER_has_capitulated_to_germany
-					add_to_array = { 
-						array = GER.GER_seize_gold_targets_array 
-						value = THIS
-					}
-				}
-			}
-		}
 
 		effect = { #if Austria resists Anschluss, give Germany cores on Austria once they capitulate
 			IF = {
@@ -1011,147 +986,7 @@ on_actions = {
 	}
 
 	#ROOT is winner #FROM gets annexed - This will also fire on_annex
-	on_civil_war_end = {
-		effect = {
 
-			#End of SCW
-			if = {
-				limit = {
-					NOT = { has_dlc = "La Resistance" }
-					FROM = {
-						original_tag = SPR
-					}
-					ROOT = {
-						original_tag = SPR
-						has_government = fascism
-					}
-				}
-				if = {
-					limit = {
-						OR = {
-							is_historical_focus_on = no
-							has_completed_focus = SPA_supremacy_of_the_communion
-						}
-					}
-					add_timed_idea = { idea = SPA_recovering_from_civil_war days = 2190 }
-				}
-				if = {
-					limit = {
-						is_historical_focus_on = yes
-						NOT = {
-							has_completed_focus = SPA_supremacy_of_the_communion
-						}
-					}
-					add_ideas = SPA_recovering_from_civil_war #keep the spirit on historical mode, keeping them out of the war
-				}
-			}
-			#End of SCW
-			if = {
-				limit = {
-					FROM = {
-						original_tag = SPR
-					}
-					ROOT = {
-						original_tag = SPR
-						OR = {
-							has_government = democratic
-							has_government = communism
-						}
-					}
-				}
-				ROOT = {
-					set_country_flag = achievement_won_spanish_civil_war
-				}
-			}
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-				}
-			}
-			#End of German Civil War
-			if = {
-				limit = {
-					FROM = {
-						original_tag = GER
-						has_government = fascism
-					}
-					original_tag = GER
-					has_government = neutrality
-					NOT = { is_subject_of = HOL }
-				}
-				set_global_flag = { flag = civil_war_olympics value = 1 days = 30 }
-				country_event = { id = wtt_germany.18 days = 1 }
-			}
-			#End of US civil war
-			if = {
-				limit = {
-					original_tag = USA
-					OR = {
-						has_government = neutrality
-						has_government = fascism
-					}
-				}
-				news_event = { id = mtg_news.7 days = 4 random_days = 5 }
-			}
-			#End of Balkan war
-			if = {
-				limit = {
-					has_dlc = "Death or Dishonor"
-					original_tag = YUG
-				}
-				every_other_country = {
-					limit = {
-						has_country_flag = yugoslav_puppet_flag
-					}
-					white_peace = PREV
-					PREV = { puppet = PREV }
-					set_autonomy = { target = THIS autonomy_state = autonomy_integrated_puppet }
-				}
-				if = {
-					limit = {
-						FROM = { has_focus_tree = yugoslavian_focus }
-					}
-					load_focus_tree = { tree = yugoslavian_focus keep_completed = yes }
-					unlock_national_focus = YUG_end_the_regency
-				}
-			}
-			#End of ideology Civil War
-			if = {
-				limit = {
-					has_country_flag = ideology_civil_war
-				}
-				clr_country_flag = ideology_civil_war
-				set_country_flag = { flag = won_ideology_civil_war value = 1 days = 365 }
-				country_event = { id = generic.11 days = 1 }
-			}
-			if = {
-				limit = {
-					original_tag = BUL
-					has_focus_tree = generic_focus
-				}
-				if = {
-					limit = { has_idea = BUL_second_national_catastrophe }
-					remove_ideas = BUL_second_national_catastrophe
-				}
-				if = {
-					limit = { has_idea = BUL_second_national_catastrophe_02 }
-					remove_ideas = BUL_second_national_catastrophe_02
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "Graveyard of Empires"
-					original_tag = PER
-					has_cosmetic_tag = PER_loyalist_iran
-				}
-				drop_cosmetic_tag = yes
-			}
-		}
-	}
 
 	#used when puppeting in a peace conference
 	#ROOT = nation being puppeted, FROM = overlord
@@ -4376,21 +4211,6 @@ on_actions = {
 			#} #This would add a unit medal to the history entry you just received
 		}
 	}
-
-	on_weekly_GER = {
-		effect = {
-			GER = {
-				every_core_state = {
-					limit = {
-						has_dynamic_modifier = {
-							modifier = GER_poor_iron_quality
-						}
-					}
-					SWE_update_iron_ore_calc = yes
-				}
-			}
-		}
-	}
 	
 	# root is the state that was dropped into
 	# from is the dropping country
@@ -4489,59 +4309,6 @@ on_actions = {
 					635 = { has_state_flag = prevent_auto_flip_after_capitulation }
 				}
 				635 = { clr_state_flag = prevent_auto_flip_after_capitulation }
-			}
-		}
-	}
-
-
-
-	on_monthly_GER = {
-		effect = {
-			if = {
-				limit = {
-					144 = { is_fully_controlled_by = GER }
-					check_variable = { GER_narvik_civs < 8 }
-					
-					666 = {
-						NOT = {
-							has_dynamic_modifier = {
-								modifier = SWE_blown_up_mines
-							}
-						}
-					}
-				}
-
-				add_to_variable = { GER_narvik_shipments = 1 }
-				if = {
-					limit = {
-						check_variable = { GER_narvik_shipments > 5 }
-					}
-
-					add_offsite_building = {
-						type = industrial_complex
-						level = 1
-					}
-
-					set_variable = { GER_narvik_shipments = 0 }
-					add_to_variable = { GER_narvik_civs = 1 }
-				}
-			}
-			#MEFO BILLS and ECONOMY OF CONQUEST increasing CG
-			if = {
-				limit = {
-					OR = {
-						has_dynamic_modifier = { modifier = GER_mefo_bills_modifier }
-						has_dynamic_modifier = { modifier = GER_economy_of_conquest_modifier }
-					}
-				}
-				if = {
-					limit = {
-						check_variable = { GER_industrial_consumer_goods_factor < 1 }
-					}
-					add_to_variable = { GER_industrial_consumer_goods_factor = GER_monthly_consumer_goods_increase }
-					GER_add_mefo_bills_penalty = yes #Clamps CGFF too 100% and adds penalties
-				}
-				GER_reduce_mefo_bills_penalty = yes #This is a fail-safe, in case it wasn't lowered elsewhere but should have been
 			}
 		}
 	}

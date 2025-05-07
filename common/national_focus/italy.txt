@@ -243,7 +243,6 @@ focus_tree = {
 			custom_effect_tooltip = ITA_ministry_of_italian_africa_occupation_law_tt
 			show_ideas_tooltip = ITA_fake_colonial_police_law
 
-			unlock_decision_category_tooltip = ITA_colonial_management_dec_cat
 
 			hidden_effect = {
 				country_event = BBA_italy_colonial_management.1
@@ -3356,17 +3355,6 @@ focus = {
 			add_stability = 0.05
 			add_political_power = 50
 
-			unlock_decision_category_tooltip = ETH_italian_occupation_category
-
-			hidden_effect = {
-				every_controlled_state = {
-					limit = {
-						is_fully_controlled_by = ROOT
-						is_core_of = ETH
-					}
-					set_state_flag = ITA_can_electrify_state_flag
-				}
-			}
 
 			if = {
 				limit = {
@@ -5154,48 +5142,8 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = ITA_foreign_affairs
-		cost = 5
+		cost = 1
 		available = {
-		}
-
-		search_filters = {}
-
-		completion_reward = {
-			add_state_claim = 102 #NORTH SLOVENIA
-			add_state_claim = 853 #LJUBLJANA
-			add_state_claim = 103 #DALMATIA
-			add_state_claim = 105 #MONTENEGRO
-
-			if = {
-				limit = {
-					country_exists = CRO
-					OR = {
-						103 = { is_fully_controlled_by = CRO }
-						105 = { is_fully_controlled_by = CRO }
-					}
-				}
-				activate_targeted_decision = { target = CRO decision = ITA_send_ultimatum_to_country_balkan }
-			}
-			if = {
-				limit = {
-					country_exists = MNT
-					OR = {
-						103 = { is_fully_controlled_by = MNT }
-						105 = { is_fully_controlled_by = MNT }
-					}
-				}
-				activate_targeted_decision = { target = MNT decision = ITA_send_ultimatum_to_country_balkan }
-			}
-			if = {
-				limit = {
-					country_exists = YUG
-					OR = {
-						103 = { is_fully_controlled_by = YUG }
-						105 = { is_fully_controlled_by = YUG }
-					}
-				}
-				activate_targeted_decision = { target = YUG decision = ITA_send_ultimatum_to_country_balkan }
-			}	
 		}
 	}
 

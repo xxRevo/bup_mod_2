@@ -162,7 +162,9 @@ if = {
 		set_naval_oob = "SOV_1936_naval_legacy"
 	}
 }
-set_research_slots = 4
+
+
+set_research_slots = 3
 set_stability = 0.51
 set_war_support = 0.95
 # Starting tech
@@ -189,7 +191,6 @@ set_technology = {
 	fuel_refining = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
-	tech_mountaineers = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -241,7 +242,6 @@ if = {
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
 		basic_heavy_tank_chassis = 1
-		engine_tech_1 = 1
 	}
 }
 
@@ -303,6 +303,10 @@ create_country_leader = {
 	}
 }
 
+add_namespace = {
+	name = "unit_leader_sov"
+	type = unit_leader
+}
 
 if = {
 	limit = {

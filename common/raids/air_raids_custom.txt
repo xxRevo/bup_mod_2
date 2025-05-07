@@ -1615,12 +1615,6 @@ types = {
 					var:target_state = {
 						custom_effect_tooltip = operation_huansheng_limited_success_tt
 					}
-					var:victim_country = {
-						add_timed_idea = {
-							idea = JAP_public_awareness_of_war_ns
-							days = 35
-						}	
-					}
 				}
 				actor_effects = {
 					raid_damage_units = {
@@ -1642,12 +1636,6 @@ types = {
 					var:target_state = {
 						custom_effect_tooltip = operation_huansheng_success_tt
 					}
-					var:victim_country = {
-						add_timed_idea = {
-							idea = JAP_public_awareness_of_war_worse_ns
-							days = 70
-						}
-					}
 				}
 				actor_effects = {
 					raid_damage_units = {
@@ -1668,12 +1656,6 @@ types = {
 			    victim_effects = {
 					var:target_state = {
 						custom_effect_tooltip = operation_huansheng_critical_success_tt
-					}
-					var:victim_country = {
-						add_timed_idea = {
-							idea = JAP_public_awareness_of_war_worst_ns
-							days = 140
-						}	
 					}
 				}
 				actor_effects = {

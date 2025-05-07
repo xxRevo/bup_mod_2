@@ -322,17 +322,6 @@ instant_effect = {
 			efficiency = 50 
 		}
 
-		add_equipment_production = { 
-			equipment = { 
-				type = light_tank_chassis_1 
-				creator = "ITA" 
-				version_name = "L3/35"
-			}
-
-			requested_factories = 1 
-			progress = 0.4 
-			efficiency = 50
-		}
 
 		add_equipment_production = { 
 			equipment = { 

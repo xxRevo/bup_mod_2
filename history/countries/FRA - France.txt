@@ -134,7 +134,7 @@ if = {
 		basic_heavy_tank_chassis = 1
 		improved_light_tank_chassis = 1
 		armor_tech_1 = 1
-		engine_tech_1 = 1
+
 	}
 }
 

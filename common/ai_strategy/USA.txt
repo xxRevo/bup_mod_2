@@ -1911,10 +1911,5 @@ USA_dont_guarantee_SA_unless_everyhting_is_shit = {
 		id = URG
 		value = -200
 	}
-	ai_strategy = {
-		type = protect
-		id = BRA
-		value = -200
-	}
 }
 

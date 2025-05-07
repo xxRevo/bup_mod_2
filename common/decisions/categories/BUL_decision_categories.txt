@@ -233,10 +233,6 @@ BUL_dominance_in_the_seas = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	
-	visible = {
-		has_completed_focus = BUL_dominance_in_the_black_sea
-		is_subject = no
-	}
 }
 
 BUL_balkan_confederation = {

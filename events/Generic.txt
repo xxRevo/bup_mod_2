@@ -230,21 +230,6 @@ country_event = {
 					has_country_flag = NORDIC_requesting_through_NORDIC_shared
 				}
 			}
-			modifier = {
-				factor = 2
-				original_tag = SOV
-				FROM = { has_completed_focus = NOR_join_the_comintern }
-			}
-			modifier = {
-				factor = 5
-				original_tag = SOV 
-				FROM = { has_country_flag = AAT_trotsky_sent_to_stalin }
-			}
-			modifier = {
-				factor = 10
-				original_tag = SOV 
-				FROM = { has_completed_focus = wuw_HUN_join_the_comintern }
-			}
 		}
 		add_to_faction = FROM
 		FROM = { country_event = { id = generic.3 hours = 6 } }
@@ -403,22 +388,6 @@ country_event = {
 						is_in_faction = yes
 					}
 				}
-			}
-
-			modifier = { # It ruins the entire path if SOV says no so just don't
-				factor = 0
-				FROM = {
-					original_tag = HUN
-					has_completed_focus = wuw_HUN_join_the_comintern
-				}
-			}
-
-			modifier = {
-				FROM = {
-					original_tag = RAJ
-					has_completed_focus = RAJ_tryst_with_destiny
-				}
-				factor = 0
 			}
 		}
 		FROM = { 
@@ -985,15 +954,6 @@ country_event = {
 				factor = 0.1
 				FROM = {
 					is_major = yes
-				}
-			}
-
-			modifier = {
-				factor = 0
-				tag = SPC
-				FROM = {
-					original_tag = SOV
-					has_completed_focus = SOV_covert_support_for_spanish_poum
 				}
 			}
 

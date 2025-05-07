@@ -99,7 +99,6 @@ if = {
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
 		basic_heavy_tank_chassis = 1
-		engine_tech_1 = 1
 	}
 }
 if = {
@@ -785,7 +784,6 @@ add_ideas = {
 }
 
 # Activates the MEFO Bills Mission
-activate_mission = GER_mefo_bills_mission
 
 # Character Recruitment
 recruit_character = GER_wilhelm_pieck

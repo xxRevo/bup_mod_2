@@ -1601,11 +1601,6 @@ USA_war_plans = {
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}
-		targeted_modifier = {
-			tag = MEN
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
 	}
 	USA_execute_war_plan_yellow = {
 		icon = generic_operation
@@ -1631,11 +1626,6 @@ USA_war_plans = {
 		days_remove = 180
 		targeted_modifier = {
 			tag = CHI
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
-		targeted_modifier = {
-			tag = PRC
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}

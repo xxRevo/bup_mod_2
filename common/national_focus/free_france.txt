@@ -200,7 +200,6 @@
 		completion_reward = {
 			unlock_decision_tooltip = { decision = FRA_prepare_coup_in_syria }
 			unlock_decision_tooltip = { decision = FRA_promise_independence_to_syria }
-			unlock_decision_tooltip = { decision = FRA_invasion_in_syria }
 		}
 	}
 	focus = {

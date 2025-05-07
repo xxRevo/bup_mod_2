@@ -55,15 +55,12 @@ country_event = {
 						is_historical_focus_on = yes
 						OR = {
 							tag = ENG
-							tag = TUR
 							tag = FRA
 							original_tag = ITA #puppetry can mess with this
 							tag = HOL
 							tag = BEL
 							tag = LUX
-							tag = ICE
 							tag = DEN
-							tag = POR
 							tag = NOR
 							tag = USA
 						}

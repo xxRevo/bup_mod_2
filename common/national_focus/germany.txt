@@ -9122,10 +9122,7 @@ focus = {
 			}
 			custom_effect_tooltip = generic_skip_one_line_tt
 
-			unlock_decision_tooltip = GER_reichskommissariat_klein_venedig
-			unlock_decision_tooltip = GER_reichskommissariat_anden
-			unlock_decision_tooltip = GER_reichskommissariat_kolumbus
-			unlock_decision_tooltip = GER_reichskommissariat_nordamerika
+
 
 		}
 	}

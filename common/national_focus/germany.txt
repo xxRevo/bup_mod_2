@@ -9186,63 +9186,6 @@ focus = {
 		}
 	}
 
-		focus = { 
-		id = GER_fate_of_iraq
-
-		icon = GFX_focus_GER_fate_of_yugoslavia
-
-		prerequisite = { focus = GER_danzig_or_war }
-		x = 3
-		y = 2
-		relative_position_id = GER_danzig_or_war
-
-		cost = 1
-
-		bypass = {
-			OR = {
-				has_war_with = IRQ
-				NOT = { country_exists = IRQ }
-				any_other_country = {
-					is_in_faction_with = ROOT
-					OR = {
-						has_war_with = IRQ
-						IRQ = {
-							is_puppet_of = PREV
-						}
-					}
-				}
-			}
-		}
-
-		will_lead_to_war_with = IRQ
-		
-		available = {
-			has_full_control_of_state = 680
-			has_full_control_of_state = 455
-		}
-
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				OR = {
-					has_government = democratic
-					has_government = communism
-				}
-			}
-		}
-
-		search_filters = { FOCUS_FILTER_ANNEXATION }	
-		
-		completion_reward = {
-			ENG = {
-				add_to_faction = IRQ }
-			declare_war_on = {
-				target = IRQ  # Country tag to declare war on (e.g. GER, SOV, USA)
-				type = annex_everything
-			}
-		}
-	}
 
 	focus = {
 		id = GER_reorganize_the_wehrmacht #von Ribbentrop

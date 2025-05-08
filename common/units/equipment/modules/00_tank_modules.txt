@@ -1104,7 +1104,7 @@ equipment_modules = {
 			soft_attack = 22
 			hard_attack = 28
 			ap_attack = 132
-			build_cost_ic = 6
+			build_cost_ic = 4
 			reliability = -0.25
 		}
 		dismantle_cost_ic = 1
@@ -1126,7 +1126,7 @@ equipment_modules = {
 			soft_attack = 30
 			hard_attack = 35
 			ap_attack = 165
-			build_cost_ic = 7
+			build_cost_ic = 5
 			reliability = -0.25
 		}
 		dismantle_cost_ic = 1
@@ -1148,7 +1148,7 @@ equipment_modules = {
 			soft_attack = 40
 			hard_attack = 45
 			ap_attack = 200
-			build_cost_ic = 9
+			build_cost_ic = 6
 			reliability = -0.25
 		}
 		dismantle_cost_ic = 1

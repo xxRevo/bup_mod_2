@@ -106,6 +106,17 @@ check_has_focus_tree_to_switch_to_fascism = {
 	}
 	NOT = {
 		AND = {
+			original_tag = SPR
+			OR = {
+				has_completed_focus = SPA_the_phalanx_ascendant
+				has_completed_focus = SPA_supremacy_of_the_communion
+				has_completed_focus = SPR_the_popular_front
+			}
+			has_dlc = "La Resistance"
+		}
+	}
+	NOT = {
+		AND = {
 			tag = HUN
 			has_dlc = "Gotterdammerung"
 		}
@@ -214,7 +225,7 @@ check_has_focus_tree_to_switch_to_communism = {
 is_controlled_by_ROOT_or_subject = {
 	custom_trigger_tooltip = {
 		tooltip = is_controlled_by_ROOT_or_subject
-		FROM = {
+		CONTROLLER = {
 			OR = {
 				tag = ROOT
 				is_subject_of = ROOT
@@ -226,7 +237,7 @@ is_controlled_by_ROOT_or_subject = {
 is_not_controlled_by_ROOT_or_subject = {
 	custom_trigger_tooltip = {
 		tooltip = is_not_controlled_by_ROOT_or_subject
-		FROM = {
+		CONTROLLER = {
 			NOT = {
 				OR = {
 					tag = ROOT
@@ -249,7 +260,7 @@ is_free_or_subject_of_root = {
 is_controlled_by_ROOT_or_ally = {
 	custom_trigger_tooltip = {
 		tooltip = is_controlled_by_ROOT_or_ally
-		FROM = {
+		CONTROLLER = {
 			OR = {
 				tag = ROOT
 				is_subject_of = ROOT
@@ -263,7 +274,7 @@ is_controlled_by_ROOT_or_ally = {
 is_not_controlled_by_ROOT_or_ally = {
 	custom_trigger_tooltip = {
 		tooltip = is_not_controlled_by_ROOT_or_ally
-		FROM = {
+		CONTROLLER = {
 			NOT = {
 				tag = ROOT
 				is_subject_of = ROOT
@@ -624,16 +635,27 @@ enemy_has_equal_or_better_radar_tech_trigger = {
 }
 
 is_available_to_collaboration_government = { # occupied_countries.1 should be updated along with this
-	NOT = {
-		AND = {
-			FROM = { original_tag = YUG }
+	is_subject = no
+	if = {
+		limit = {
 			original_tag = ITA
 		}
-		AND = {
-			FROM = { original_tag = DNZ }
+		NOT = { FROM = { original_tag = YUG } }
+	}
+
+	if = {
+		limit = {
 			original_tag = POL
 		}
-		TUR_cannot_form_kurdish_collaboration_government = yes
+		NOT = { FROM = { original_tag = DNZ } }
+	}
+	if = {
+		limit = {
+			original_tag = TUR
+		}
+		NOT = { FROM = { original_tag = KUR } }
+	}
+	NOT = {
 		any_country_with_original_tag = {
 			original_tag_to_check = FROM
 			is_puppet_of = PREV # if already created one do not create another
@@ -666,7 +688,7 @@ owns_or_subject_of = {
 controls_or_subject_of = {
 	custom_trigger_tooltip = {
 		tooltip = controls_or_subject_of_tt
-		FROM = {
+		controller = {
 			OR = {
 				tag = ROOT
 				is_subject_of = ROOT
@@ -679,7 +701,7 @@ is_core_or_compliance_60 = {
 	custom_trigger_tooltip = {
 		tooltip = is_core_or_compliance_60_tt
 		OR = {
-			FROM = {
+			controller = {
 				PREV = { is_core_of = PREV }
 			}
 			compliance > 60
@@ -958,7 +980,7 @@ state_is_fully_controlled_by_ROOT_or_subject = {
 		tooltip = state_is_fully_controlled_by_ROOT_or_subject_tt
 		OR = {
 			is_fully_controlled_by = ROOT
-			FROM = {
+			controller = {
 				is_subject_of = ROOT
 				has_full_control_of_state = PREV
 			}
@@ -972,7 +994,7 @@ state_is_fully_controlled_by_ROOT_subject_or_faction_member = {
 		tooltip = state_is_fully_controlled_by_ROOT_subject_or_faction_member_tt
 		OR = {
 			is_fully_controlled_by = ROOT
-			FROM = {
+			controller = {
 				OR = {
 					is_subject_of = ROOT
 					is_in_faction_with = ROOT

@@ -171,94 +171,10 @@ country_event = {
 	}
 }
 
-# Invitation to French Faction
-country_event = {
-	id = france.17
-	title = france.17.t
-	desc = france.17.d
-	picture = GFX_report_event_worried_french
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = france.17.a
-		ai_chance = { factor = 90 }
-		FRA = {
-			country_event = france.18
-			add_to_faction = ROOT
-		}
-		add_ai_strategy = {
-			type = alliance
-			id = "FRA"
-			value = 200
-		}
-	}
+### The Fall of France
 
-	option = {
-		name = france.17.b
-		ai_chance = { factor = 10 }
-		FRA = { country_event = france.19 }
-	}
-}
+#hidden pre-event to check before capitulation
 
-# [Country] Accepts
-country_event = {
-	id = france.18
-	title = france.18.t
-	desc = france.18.d
-	picture = GFX_report_event_soldiers_in_france
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = france.18.a
-		effect_tooltip = {
-			add_to_faction = FROM
-		}
-	}
-}
-
-# [Country] Refuses
-country_event = {
-	id = france.19
-	title = france.19.t
-	desc = france.19.d
-	picture = GFX_report_event_finnish_letter
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = france.19.a
-	}
-}
-
-# De Gaulle becomes leader
-country_event = {
-	id = france.20
-	title = france.20.t
-	desc = france.20.d
-	picture = GFX_report_event_degaulle_churchill
-	
-	is_triggered_only = yes
-	
-	option = {
-		custom_effect_tooltip = france.20.a_tt
-		set_country_flag = france_de_gaulle
-		hidden_effect =  {
-			add_country_leader_role = {
-				character = FRA_charles_de_gaulle
-				country_leader = {
-					expire = "1965.1.1"
-					ideology = conservatism
-					traits = {
-					}	
-				}
-				promote_leader = yes				
-			}		
-		}
-		name = france.20.a
-	}
-}
 
 # French strikes
 country_event = {
@@ -397,7 +313,158 @@ country_event = {
 #}
 
 # British abandon yugoslavia
+country_event = {
+	id = france.25
+	title = france.25.t
+	desc = france.25.d
+	picture = GFX_report_event_generic_croatia_handshake
 
+	is_triggered_only	= yes	
+	option = { # Follow Britain's lead
+		name = france.25.a
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = YUG
+					has_war_with = GER
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_guaranteed = YUG
+			}
+			diplomatic_relation = {
+   				country = YUG
+   				relation = guarantee
+   				active = no
+  			}
+		}
+		if = {
+			limit = {
+				ITA = {
+					OR = {
+						NOT = { has_completed_focus = ITA_balkan_ambition }						
+						is_in_faction_with = GER
+						exists = no
+					}
+				}
+			}
+			YUG = {
+				add_opinion_modifier = { target = FRA modifier = western_betrayal }
+				country_event = { id = yugoslavia.5 hours = 6 }
+			}			
+		}
+		if = {
+			limit = { 
+				ITA = {
+					has_completed_focus = ITA_balkan_ambition
+					NOT = { is_in_faction_with = GER }
+					NOT = { has_war_with = YUG }
+				}
+			}
+			ITA = { country_event = { id = italy.12 } }
+		}
+	}
+	option = { # Support the Yugoslavs alone
+		name = france.25.b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_in_faction_with = GER
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_war_with = GER
+				}
+			}
+			add_political_power = -200
+			add_opinion_modifier = { target = GER modifier = condemn_aggression }
+		}
+		YUG = { 
+			country_event = { id = yugoslavia.4 days = 1 }
+			add_opinion_modifier = { target = FRA modifier = offered_support }
+		}
+		GER = {
+			country_event = { id = germany.97 hours = 6 } #Generate wargoal
+			effect_tooltip = {
+				create_wargoal = {
+					type = take_state_focus
+					target = YUG
+					generator = { 102 853 }
+				}
+			}
+		}
+		if = {
+			limit = { 
+				is_in_faction_with = ENG 
+			}
+			if = {
+				limit = { ENG = { is_faction_leader = yes } }
+				ENG = { 
+					country_event = { id = britain.15 hours = 6 }
+					remove_from_faction = FRA
+				}
+				else_if = {
+					limit = {
+						is_faction_leader = yes
+					}
+					remove_from_faction = ENG
+				}
+			}
+		}
+		if = {
+			limit = { is_in_faction_with = GER }
+			GER = { 
+				remove_from_faction = FRA
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction = yes
+				is_faction_leader = yes
+				NOT = { is_in_faction_with = ENG }
+				NOT = { is_in_faction_with = GER }
+			}
+			add_to_faction = YUG
+			YUG = {
+				add_ai_strategy = {
+					type = alliance
+					id = "FRA"
+					value = 200
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					is_in_faction = no
+					is_faction_leader = no
+					is_in_faction_with = ENG
+					is_in_faction_with = GER
+				}
+			}
+			create_faction = "french_alliance"
+			add_to_faction = YUG
+			YUG = {
+				add_ai_strategy = {
+					type = alliance
+					id = "FRA"
+					value = 200
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { has_completed_focus = FRA_strengthen_the_little_entente } }
+			add_stability = 0.05
+		}
+	}
+}
 
 # British support yugoslavia
 country_event = {

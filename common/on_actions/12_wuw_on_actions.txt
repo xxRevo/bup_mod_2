@@ -1,0 +1,111 @@
+on_weekly_GER = {
+
+		# INNER CIRCLE - Make sure AI doesn't get stuck with focuses paused due to focus triggers (focuses need to be paused when events are pending)		# INNER CIRCLE - Make sure AI doesn't get stuck with focuses paused due to focus triggers (focuses need to be paused when events are pending)
+		effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				if = {
+					limit = {
+						has_country_flag = { flag = GER_todt_ascension_flag days > 20 }
+					}
+					#This looks ridiculous but it's the only way
+					unlock_national_focus = GER_ascension_of_todt
+					uncomplete_national_focus = {
+						focus = GER_ascension_of_todt
+						refund_political_power = yes
+					}
+					clr_country_flag = GER_todt_ascension_flag
+				}
+				else_if = {
+					limit = {
+						has_country_flag = { flag = GER_speer_ascension_flag days > 20 }
+					}
+					unlock_national_focus = GER_ascension_of_speer
+					uncomplete_national_focus = {
+						focus = GER_ascension_of_speer
+						refund_political_power = yes
+					}
+					clr_country_flag = GER_speer_ascension_flag
+				}
+				else_if = {
+					limit = {
+						has_country_flag = { flag = GER_goring_ascension_flag days > 20 }
+					}
+					unlock_national_focus = GER_ascension_of_goring
+					uncomplete_national_focus = {
+						focus = GER_ascension_of_goring
+						refund_political_power = yes
+					}
+					clr_country_flag = GER_goring_ascension_flag
+				}
+				else_if = {
+					limit = {
+						has_country_flag = { flag = GER_himmler_ascension_flag days > 20 }
+					}
+					unlock_national_focus = GER_ascension_of_himmler
+					uncomplete_national_focus = {
+						focus = GER_ascension_of_himmler
+						refund_political_power = yes
+					}
+					clr_country_flag = GER_himmler_ascension_flag
+				}
+				else_if = {
+					limit = {
+						has_country_flag = { flag = GER_goebbels_ascension_flag days > 20 }
+					}
+					unlock_national_focus = GER_ascension_of_goebbels
+					uncomplete_national_focus = {
+						focus = GER_ascension_of_goebbels
+						refund_political_power = yes
+					}
+					clr_country_flag = GER_goebbels_ascension_flag
+				}
+				else_if = {
+					limit = {
+						has_country_flag = { flag = GER_hess_ascension_flag days > 20 }
+					}
+					unlock_national_focus = GER_party_chancellor_hess
+					uncomplete_national_focus = {
+						focus = GER_party_chancellor_hess
+						refund_political_power = yes
+					}
+					clr_country_flag = GER_hess_ascension_flag
+				}
+				else_if = {
+					limit = {
+						has_country_flag = { flag = GER_bormann_ascension_flag days > 20 }
+					}
+					unlock_national_focus = GER_party_chancellor_bormann
+					uncomplete_national_focus = {
+						focus = GER_party_chancellor_bormann
+						refund_political_power = yes
+					}
+					clr_country_flag = GER_bormann_ascension_flag
+				}
+				else_if = {
+					limit = {
+						has_country_flag = { flag = GER_a_strong_successor_flag days > 40 }
+					}
+					unlock_national_focus = GER_a_strong_successor
+					uncomplete_national_focus = {
+						focus = GER_a_strong_successor
+						refund_political_power = yes
+					}
+					clr_country_flag = GER_a_strong_successor_flag
+				}
+				else_if = {
+					limit = {
+						has_country_flag = { flag = GER_loyalty_to_the_fuhrer_flag days > 40 }
+					}
+					unlock_national_focus = GER_loyalty_to_the_fuhrer
+					uncomplete_national_focus = {
+						focus = GER_loyalty_to_the_fuhrer
+						refund_political_power = yes
+					}
+					clr_country_flag = GER_loyalty_to_the_fuhrer_flag
+				}
+			}	
+		}
+    }

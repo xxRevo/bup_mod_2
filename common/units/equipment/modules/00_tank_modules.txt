@@ -188,7 +188,6 @@ equipment_modules = {
 		dismantle_cost_ic  = 2
 
 		multiply_stats =  {
-			soft_attack = 0.05
 		}
 
 		can_convert_from = {
@@ -850,7 +849,7 @@ equipment_modules = {
 
 		add_stats = {
 			soft_attack = 28
-			hard_attack = 25
+			hard_attack = 23
 			ap_attack = 96
 			build_cost_ic = 3
 			reliability = -0.15
@@ -873,7 +872,7 @@ equipment_modules = {
 		dismantle_cost_ic = 1
 		add_stats = {
 			soft_attack = 35
-			hard_attack = 30
+			hard_attack = 28
 			ap_attack = 100
 			build_cost_ic = 4
 			reliability = -0.15
@@ -896,7 +895,7 @@ equipment_modules = {
 		dismantle_cost_ic = 1
 		add_stats = {
 			soft_attack = 45
-			hard_attack = 38
+			hard_attack = 35
 			ap_attack = 150
 			build_cost_ic = 6
 			reliability = -0.15
@@ -1038,7 +1037,7 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 25
+			soft_attack = 23
 			hard_attack = 28
 			ap_attack = 120
 			build_cost_ic = 3
@@ -1059,7 +1058,7 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 30
+			soft_attack = 26
 			hard_attack = 35
 			ap_attack = 135
 			build_cost_ic = 5
@@ -1080,7 +1079,7 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 38
+			soft_attack = 35
 			hard_attack = 45
 			ap_attack = 175
 			build_cost_ic = 7
@@ -1102,7 +1101,7 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 25
+			soft_attack = 22
 			hard_attack = 28
 			ap_attack = 132
 			build_cost_ic = 6

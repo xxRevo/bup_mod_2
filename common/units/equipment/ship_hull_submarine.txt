@@ -601,7 +601,7 @@ equipments = {
 		
 		naval_range = 3000
 		
-		max_strength = 30
+		max_strength = 20
 
 
 		

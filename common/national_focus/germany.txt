@@ -9100,6 +9100,8 @@ focus = {
 		
 		available = {
 			has_full_control_of_state = 16
+			ITA = { has_war_with = ENG
+			}
 		}
 
 		ai_will_do = {
@@ -9140,6 +9142,8 @@ focus = {
 		
 		available = {
 			has_full_control_of_state = 16
+			ITA = { has_war_with = ENG
+			}
 		}
 
 

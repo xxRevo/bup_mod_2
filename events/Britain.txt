@@ -241,7 +241,6 @@ country_event = {
 		NOT = {
 			has_completed_focus = uk_scandinavian_focus
 		}
-		POL = { has_capitulated = yes }
 		OR = {
 			FRA = { surrender_progress > 0.1 }
 			HOL = { surrender_progress > 0.1 }

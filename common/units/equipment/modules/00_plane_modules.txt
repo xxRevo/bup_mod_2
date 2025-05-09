@@ -780,7 +780,6 @@ equipment_modules = {
 
         add_stats = {
             air_attack = 20
-            air_defence = 0.25
             air_agility = 15
             build_cost_ic = 2
             weight = 1
@@ -822,7 +821,6 @@ equipment_modules = {
         add_equipment_type = { fighter heavy_fighter }
 
         add_stats = {
-            air_defence = 0.5
             air_attack = 40
             air_agility = 30
             build_cost_ic = 3
@@ -924,7 +922,6 @@ equipment_modules = {
         parent = aircraft_cannon_1_1x
         add_equipment_type = { fighter heavy_fighter }
         add_stats = {
-            air_defence 1.0
             air_attack = 70
             air_agility = 60
             build_cost_ic = 6

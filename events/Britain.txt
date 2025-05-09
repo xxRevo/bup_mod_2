@@ -243,7 +243,6 @@ country_event = {
 		}
 		POL = { has_capitulated = yes }
 		OR = {
-			has_global_flag = fall_of_france
 			FRA = { surrender_progress > 0.1 }
 			HOL = { surrender_progress > 0.1 }
 			BEL = { surrender_progress > 0.1 }

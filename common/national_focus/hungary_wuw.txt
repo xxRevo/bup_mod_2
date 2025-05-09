@@ -477,9 +477,6 @@ focus_tree = {
 			factor = 15
 		}
 
-		available = {
-			has_country_flag = HUN_gombos_has_died_flag
-		}
 
 		bypass = {
 

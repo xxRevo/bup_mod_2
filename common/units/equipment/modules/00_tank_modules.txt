@@ -1101,10 +1101,10 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 22
-			hard_attack = 28
+			soft_attack = 20
+			hard_attack = 25
 			ap_attack = 132
-			build_cost_ic = 4
+			build_cost_ic = 5
 			reliability = -0.25
 		}
 		dismantle_cost_ic = 1
@@ -1353,7 +1353,7 @@ equipment_modules = {
 			hard_attack = 0.1
 		}
 		add_stats = {
-			build_cost_ic = 2
+			build_cost_ic = 1
 		}	
 		xp_cost = 0
 
@@ -1365,7 +1365,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 1
+			reliability = -0.1
 			breakthrough = 2
 		}
 		xp_cost = 0
@@ -1380,7 +1380,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			reliability = -0.1
+			build_cost_ic = 1
 			breakthrough = 3
 		}
 		xp_cost = 0
@@ -1468,7 +1468,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			reliability = -0.075
+			reliability = -0.15
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 0

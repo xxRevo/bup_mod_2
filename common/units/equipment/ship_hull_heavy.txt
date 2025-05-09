@@ -658,7 +658,6 @@ equipments = {
 		}
 		naval_range = 4500
 		naval_speed = 24
-		surface_visibility = 35
 		max_strength = 700
 		fuel_consumption = 75
 		reliability = 0.80

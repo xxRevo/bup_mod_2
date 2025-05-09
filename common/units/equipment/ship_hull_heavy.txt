@@ -657,12 +657,11 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		naval_range = 4500
-		naval_speed = 19
-		surface_visibility = 45
-		max_strength = 500
-		fuel_consumption = 150
+		naval_speed = 24
+		max_strength = 700
+		fuel_consumption = 75
 		reliability = 0.80
-		build_cost_ic = 10000
+		build_cost_ic = 5500
 		resources = {
 			steel = 6
 			chromium = 2

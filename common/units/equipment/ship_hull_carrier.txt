@@ -158,7 +158,6 @@ equipments = {
 		priority = 1000
 
 		module_slots = inherit
-		manpower = 10400
 
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
@@ -224,7 +223,7 @@ equipments = {
 			steel = 4
 			chromium = 1
 		}
-		manpower = 12000
+		manpower = 5000
 	}
 
 	ship_hull_carrier_3 = {
@@ -295,7 +294,7 @@ equipments = {
 			steel = 4
 			chromium = 2
 		}
-		manpower = 12000
+		manpower = 5500
 	}
 
 	#MODERN CARRIER
@@ -640,7 +639,7 @@ equipments = {
 			chromium = 1
 		}
 
-		manpower = 10400
+		manpower = 4500
 	}
 
 	carrier_2 = {

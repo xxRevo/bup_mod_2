@@ -452,7 +452,7 @@ ideas = {
 			}
 		    targeted_modifier = {
 			    tag = JAP
-				attack_bonus_against = 0.075
+				attack_bonus_against = 0.05
 			}
 		}
 		USA_department_of_defense = {	

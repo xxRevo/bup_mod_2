@@ -2472,7 +2472,6 @@ focus = {
 		}
 
 		available = {
-			has_idea = ROM_king_carol_ii_hedonist
 			OR = {
 				democratic > 0.35
 				communism > 0.35

@@ -9697,7 +9697,50 @@ political_actions = {
 			hidden_effect = { news_event = { id = mtg_news.57 hours = 6 } }
 		}
 	}
+    police_action = {
 
+		icon = generic_prepare_civil_war
+
+		cost = 50
+
+		available = {
+			FROM = {
+				is_puppet_of = ROOT
+			}
+			FROM = {
+				democratic > 0.6
+			}
+			FROM = {
+				NOT = { has_government = democratic }
+			}
+		}
+
+		visible = {
+          tag = ENG
+		}
+
+		target_array = subjects
+
+		target_trigger = {
+			FROM = {
+				is_puppet_of = ROOT
+			}
+		}
+
+		complete_effect = {
+			FROM = { country_event = { id = mtg_generic.1 } }
+			FROM = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
 }
 
 operations = {

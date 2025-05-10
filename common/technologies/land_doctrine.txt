@@ -1189,9 +1189,8 @@ technologies = {
 		
 		category_line_artillery = {
 			default_morale = 0.2
-			hard_attack = 0.05
-			max_organisation = 5
-			max_strength = 0.5
+			max_organisation = 2
+			max_strength = 0.25
 		}
 		category_line
 		

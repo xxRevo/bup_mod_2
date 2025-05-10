@@ -1192,7 +1192,6 @@ technologies = {
 			max_organisation = 2
 			max_strength = 0.25
 		}
-		category_line
 		
 		path = {
 			leads_to_tech = overwhelming_firepower 

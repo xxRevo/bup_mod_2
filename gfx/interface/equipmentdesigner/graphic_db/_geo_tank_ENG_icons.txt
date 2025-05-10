@@ -59,6 +59,30 @@ ENG = {
             }
         }
     }
+    medium_tank_chassis_3 = {
+        pool = {
+            weight = 3
+        }
+        pool = {
+            weight = 2
+            models = {
+                geo_fireflyVC_ENG_entity
+                geo_m4a2mid_ENG_entity
+                geo_m4a2early_ENG_entity
+                geo_m4a4_ENG_entity
+                geo_m4a3e8_USA_entity
+                geo_m4a2late_76_USA_entity
+                geo_m4a3_76_camo_USA_entity
+                geo_m4a3_76_USA_entity
+                geo_m4a2late_USA_entity
+                geo_m4a2mid_USA_entity
+                geo_m4a2early_USA_entity
+                geo_m4a3_camo_sandbag_USA_entity
+                geo_m4a3_camo_USA_entity
+                geo_m4a3_sandbag_USA_entity
+            }
+        }
+    }
     medium_tank_destroyer_chassis_2 = {
         pool = {
             weight = 5
@@ -150,6 +174,30 @@ CAN = {
             }
         }
     }
+    medium_tank_chassis_3 = {
+        pool = {
+            weight = 3
+        }
+        pool = {
+            weight = 2
+            models = {
+                geo_fireflyVC_ENG_entity
+                geo_m4a2mid_ENG_entity
+                geo_m4a2early_ENG_entity
+                geo_m4a4_ENG_entity
+                geo_m4a3e8_USA_entity
+                geo_m4a2late_76_USA_entity
+                geo_m4a3_76_camo_USA_entity
+                geo_m4a3_76_USA_entity
+                geo_m4a2late_USA_entity
+                geo_m4a2mid_USA_entity
+                geo_m4a2early_USA_entity
+                geo_m4a3_camo_sandbag_USA_entity
+                geo_m4a3_camo_USA_entity
+                geo_m4a3_sandbag_USA_entity
+            }
+        }
+    }
     medium_tank_destroyer_chassis_2 = {
         pool = {
             weight = 5
@@ -195,6 +243,30 @@ AST = {
     #)#
     #(# 2
     medium_tank_chassis_2 = {
+        pool = {
+            weight = 3
+        }
+        pool = {
+            weight = 2
+            models = {
+                geo_fireflyVC_ENG_entity
+                geo_m4a2mid_ENG_entity
+                geo_m4a2early_ENG_entity
+                geo_m4a4_ENG_entity
+                geo_m4a3e8_USA_entity
+                geo_m4a2late_76_USA_entity
+                geo_m4a3_76_camo_USA_entity
+                geo_m4a3_76_USA_entity
+                geo_m4a2late_USA_entity
+                geo_m4a2mid_USA_entity
+                geo_m4a2early_USA_entity
+                geo_m4a3_camo_sandbag_USA_entity
+                geo_m4a3_camo_USA_entity
+                geo_m4a3_sandbag_USA_entity
+            }
+        }
+    }
+    medium_tank_chassis_3 = {
         pool = {
             weight = 3
         }
@@ -286,6 +358,30 @@ NZL = {
             }
         }
     }
+    medium_tank_chassis_3 = {
+        pool = {
+            weight = 3
+        }
+        pool = {
+            weight = 2
+            models = {
+                geo_fireflyVC_ENG_entity
+                geo_m4a2mid_ENG_entity
+                geo_m4a2early_ENG_entity
+                geo_m4a4_ENG_entity
+                geo_m4a3e8_USA_entity
+                geo_m4a2late_76_USA_entity
+                geo_m4a3_76_camo_USA_entity
+                geo_m4a3_76_USA_entity
+                geo_m4a2late_USA_entity
+                geo_m4a2mid_USA_entity
+                geo_m4a2early_USA_entity
+                geo_m4a3_camo_sandbag_USA_entity
+                geo_m4a3_camo_USA_entity
+                geo_m4a3_sandbag_USA_entity
+            }
+        }
+    }
     medium_tank_destroyer_chassis_2 = {
         pool = {
             weight = 5
@@ -331,6 +427,30 @@ SAF = {
     #)#
     #(# 2
     medium_tank_chassis_2 = {
+        pool = {
+            weight = 3
+        }
+        pool = {
+            weight = 2
+            models = {
+                geo_fireflyVC_ENG_entity
+                geo_m4a2mid_ENG_entity
+                geo_m4a2early_ENG_entity
+                geo_m4a4_ENG_entity
+                geo_m4a3e8_USA_entity
+                geo_m4a2late_76_USA_entity
+                geo_m4a3_76_camo_USA_entity
+                geo_m4a3_76_USA_entity
+                geo_m4a2late_USA_entity
+                geo_m4a2mid_USA_entity
+                geo_m4a2early_USA_entity
+                geo_m4a3_camo_sandbag_USA_entity
+                geo_m4a3_camo_USA_entity
+                geo_m4a3_sandbag_USA_entity
+            }
+        }
+    }
+    medium_tank_chassis_3 = {
         pool = {
             weight = 3
         }

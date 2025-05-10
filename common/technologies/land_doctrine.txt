@@ -577,6 +577,11 @@ technologies = {
 		category_support_battalions = {
 			max_organisation = 15
 		}
+		category_line_artillery = {
+			default_morale = 0.2
+			max_organisation = 2
+			max_strength = 0.25
+		}
 		# faster planning
 		planning_speed = 0.2
 		
@@ -2458,6 +2463,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		supply_consumption_factor = -0.10
+		max_planning = 0.1
 		category_army = {
 			maximum_speed = 0.1
 		}
@@ -3018,7 +3024,7 @@ technologies = {
 	vast_offensives = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		supply_consumption_factor = -0.20
+		supply_consumption_factor = -0.15
 		
 		infantry = {
 			combat_width = -0.3
@@ -3132,7 +3138,7 @@ technologies = {
 	
 	mechanized_wave = {
 		motorized = {
-			max_strength = 4
+			max_strength = 1
 		}
 		category_all_armor = {
 			default_morale = 0.1
@@ -3162,7 +3168,8 @@ technologies = {
 
 		doctrine = yes	
 		research_cost = 4.5
-		
+		xp_research_type = army
+		xp_unlock_cost = 100
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -3208,7 +3215,7 @@ technologies = {
 		}
 		enable_tactic = tactic_backhand_blow
         infantry = {
-			max_strength = 5
+			max_strength = 1
 		}
 		doctrine = yes	
 		research_cost = 4.5

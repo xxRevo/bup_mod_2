@@ -2463,11 +2463,7 @@ technologies = {
 
 		xp_research_type = army
 		xp_unlock_cost = 100
-		supply_consumption_factor = -0.10
-		max_planning = 0.1
-		category_army = {
-			maximum_speed = 0.1
-		}
+		max_planning = 0.05
 		
 		recon = {
 			battalion_mult = {
@@ -2527,7 +2523,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		#reduce land night combat penalty
-		land_night_attack = 0.25 # negates half of base penalty
+		land_night_attack = 0.2 # negates half of base penalty
 	
 	
 		path = {

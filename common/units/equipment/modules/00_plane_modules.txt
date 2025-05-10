@@ -785,7 +785,6 @@ equipment_modules = {
 
         add_stats = {
             air_attack = 20
-            air_agility = 15
             build_cost_ic = 2
             weight = 1
         }
@@ -795,7 +794,6 @@ equipment_modules = {
             interception
         }
     }
-
     light_mg_4x = {
         abbreviation = "lmg4"
         category = fighter_weapon
@@ -819,7 +817,7 @@ equipment_modules = {
         }
     }
 
-    heavy_mg_2x = {
+     heavy_mg_2x = {
         abbreviation = "hmg2"
         category = fighter_weapon
         sfx = sfx_ui_sd_module_turret

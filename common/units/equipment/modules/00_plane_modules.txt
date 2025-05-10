@@ -10,6 +10,7 @@ equipment_modules = {
         sfx = sfx_ui_sd_module_engine
 
         add_stats = {
+            air_agility = 10
             thrust = 12
             build_cost_ic = 20
             fuel_consumption = 0.16
@@ -72,6 +73,7 @@ equipment_modules = {
         parent = engine_1_1x
 
         add_stats = {
+            air_agility = 20
             thrust = 18
             build_cost_ic = 23
             fuel_consumption = 0.16
@@ -182,6 +184,7 @@ equipment_modules = {
         parent = engine_2_1x
 
         add_stats = {
+            air_agility = 30
             thrust = 26
             build_cost_ic = 26
             fuel_consumption = 0.16
@@ -292,6 +295,7 @@ equipment_modules = {
         parent = engine_3_1x
 
         add_stats = {
+            air_agility = 40
             thrust = 36
             build_cost_ic = 28
             fuel_consumption = 0.16
@@ -402,6 +406,7 @@ equipment_modules = {
         parent = engine_4_1x
 
         add_stats = {
+            air_agility = 50
             thrust = 40
             build_cost_ic = 23
             fuel_consumption = 0.3
@@ -789,7 +794,6 @@ equipment_modules = {
             interception
         }
     }
-
     light_mg_4x = {
         abbreviation = "lmg4"
         category = fighter_weapon
@@ -812,7 +816,7 @@ equipment_modules = {
         }
     }
 
-    heavy_mg_2x = {
+     heavy_mg_2x = {
         abbreviation = "hmg2"
         category = fighter_weapon
         sfx = sfx_ui_sd_module_turret

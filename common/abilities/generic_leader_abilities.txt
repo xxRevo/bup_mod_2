@@ -16,7 +16,7 @@ ability = {
 		duration = 168
 		
 		unit_modifiers = {
-			planning_speed = 0.5
+			planning_speed = 1
 		}
 		
 		

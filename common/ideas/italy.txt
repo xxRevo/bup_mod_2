@@ -113,6 +113,24 @@ ideas = {
 				army_armor_defence_factor = 0.10
 			}
 		}
+		ITA_expand_the_repair_yards = {
+			picture = ITA_medi
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			removal_cost = -1
+			modifier = {
+				refit_ic_cost = -0.25
+				refit_speed = 0.25
+				repair_speed_factor = 0.25
+				industrial_capacity_dockyard = 0.15
+			}
+		}
 
 		ITA_hidden_spg_production_ns = { #Hidden idea to apply armored SPG and AT production bonuses. Communicated in ITA_military_industry_dynamic_modifier (used as NS)
  			name = ITA_military_industry_dynamic_modifier #Just in case it shows up anywhere

@@ -2877,6 +2877,7 @@ focus = {
 
 		completion_reward = {
 			navy_experience = 150
+			add_ideas = ITA_expand_the_repair_yards
 			random_owned_controlled_state = {
 				limit = {
 					NOT={OR={state=115 state=114}}

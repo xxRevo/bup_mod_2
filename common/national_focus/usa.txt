@@ -2766,6 +2766,33 @@ focus_tree = {
 			add_ideas = liberty_ships_focus
 		}
 	}
+	focus = {
+		id = USA_ships_for_victory
+		icon = GFX_yards1
+		prerequisite = { focus = USA_liberty_ships }
+		x = 0
+		y = 1
+		relative_position_id = USA_liberty_ships
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			date > 1940.11.1
+		}
+
+		completion_reward = {
+			add_ideas = USA_ships_for_victory_idea
+			ENG = { add_ideas = USA_ships_for_victory_idea }
+			CAN = { add_ideas = USA_ships_for_victory_idea }
+			SAF = { add_ideas = USA_ships_for_victory_idea }
+			RAJ = { add_ideas = USA_ships_for_victory_idea }
+			AST = { add_ideas = USA_ships_for_victory_idea }
+			NZL = { add_ideas = USA_ships_for_victory_idea }
+			FRA = { add_ideas = USA_ships_for_victory_idea }
+		}
+	}
 
 	focus = {
 		id = USA_bureau_of_ships

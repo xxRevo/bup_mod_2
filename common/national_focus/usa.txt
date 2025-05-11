@@ -2990,7 +2990,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_bureau_of_aeronautics
-		icon = GFX_buaer
+		icon = GFX_america_domain
 		prerequisite = { focus = USA_carrier_primacy }
 		x = 0
 		y = 1
@@ -3092,7 +3092,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_convoy_tactics
-		icon = GFX_america_goal_coast_guard
+		icon = GFX_america_domain
 		prerequisite = { focus = USA_escort_effort }
 		x = 0
 		y = 1
@@ -3115,7 +3115,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_fleet_submarines
-		icon = GFX_fleet_submarines
+		icon = GFX_america_domain
 		x = 3
 		y = 1
 		prerequisite = { focus = USA_bureau_of_ships }

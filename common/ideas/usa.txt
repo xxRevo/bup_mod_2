@@ -1,7 +1,15 @@
 ideas = {
 
 	country = {
-
+		USA_ships_for_victory_idea = {
+			picture = generic_navy_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_dockyard = 0.30
+			}
+		}
 
 		USA_war_plans_1 = {
 			picture = generic_war_preparation

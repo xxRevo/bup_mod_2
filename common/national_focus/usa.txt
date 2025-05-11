@@ -2769,7 +2769,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_bureau_of_ships
-		icon = GFX_america_goal_navy
+		icon = GFX_liberty_ships
 		x = 2
 		y = 1
 		cost = 5
@@ -2829,7 +2829,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_advanced_mahanian_doctrine
-		icon = GFX_alfredtmahan
+		icon = GFX_battleship_primacy
 		prerequisite = { focus = USA_battleship_primacy }
 		x = 0
 		y = 1

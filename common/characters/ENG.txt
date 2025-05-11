@@ -798,36 +798,17 @@ characters={
 		}
 	}
 
-	ENG_james_fownes_somerville={
-		name=ENG_james_fownes_somerville
-		portraits={
-			army={
-				large=GFX_portrait_ENG_james_fownes_somerville
-				small=GFX_portrait_ENG_james_fownes_somerville_small
+	ENG_henry_harwood = {
+		name = ENG_henry_harwood
+		portraits = {
+			navy = {
+				small = "GFX_idea_henry_harwood"
+			}
+			army = {
+				large = GFX_portrait_ENG_henry_harwood
 			}
 		}
-		navy_leader={
-	traits = { }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 3
-	maneuvering_skill = 6
-	coordination_skill = 5
-			legacy_id=983
-		}
-	}
-
-	ENG_henry_harwood={
-		name=ENG_henry_harwood
-		portraits={
-			navy={
-				small="GFX_idea_henry_harwood"
-			}
-			army={
-				large=GFX_portrait_ENG_henry_harwood
-			}
-		}
-		advisor={
+		advisor = {
 			slot = high_command
 			idea_token = henry_harwood
 			ledger = navy
@@ -837,34 +818,35 @@ characters={
 			traits = {
 				navy_screen_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
-				base = 0.7
+				factor = 0.7
 			}
 		}
-		
-		navy_leader={
-	traits = {  }
-	skill = 3
-	attack_skill = 5
-	defense_skill = 2
-	maneuvering_skill = 6
-	coordination_skill = 2
-			legacy_id=984
+		navy_leader = {
+			traits = {
+				bold
+				fly_swatter
+				blue_water_expert
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
 		}
 	}
-
-	ENG_andrew_cunningham={
-		name=ENG_andrew_cunningham
-		portraits={
-			navy={
-				small="GFX_idea_andrew_cunningham"
+	ENG_andrew_cunningham = {
+		name = ENG_andrew_cunningham
+		portraits = {
+			navy = {
+				small = "GFX_idea_andrew_cunningham"
 			}
-			army={
-				large=GFX_portrait_ENG_andrew_cunningham
+			army = {
+				large = GFX_portrait_ENG_andrew_cunningham
 			}
 		}
-		advisor={
+		advisor = {
 			slot = navy_chief
 			idea_token = andrew_cunningham
 			allowed = {
@@ -873,162 +855,173 @@ characters={
 			traits = {
 				navy_chief_naval_aviation_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
-				base = 0.5
-
-				modifier = {
-					# Increase weight of navy chief after army chief is hired
-					factor = 2
-					amount_taken_ideas = {
-						amount > 0
-						slots = { army_chief }
-					}
-				}
+				factor = 0.5
 			}
 		}
-		
-		navy_leader={
-	traits = { }
-	skill = 5
-	attack_skill = 6
-	defense_skill = 4
-	maneuvering_skill = 5
-	coordination_skill = 4
-			legacy_id=985
+		navy_leader = {
+			traits = {
+				bold
+				blockade_runner
+				superior_tactician
+				ironside
+				air_controller
+				inshore_fighter
+			}
+			skill = 8
+			attack_skill = 7
+			defense_skill = 4
+			maneuvering_skill = 6
+			coordination_skill = 6
 		}
 	}
-
-	ENG_bruce_fraser={
-		name=ENG_bruce_fraser
-		portraits={
-			army={
-				large=GFX_portrait_ENG_bruce_fraser
-				small=GFX_portrait_ENG_bruce_fraser_small
+	ENG_bruce_fraser = {
+		name = ENG_bruce_fraser
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_bruce_fraser
+				small = GFX_portrait_ENG_bruce_fraser_small
 			}
 		}
-		navy_leader={
-	traits = { naval_lineage blockade_runner hunter_killer }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 6
-	coordination_skill = 6
-			legacy_id=986
+		navy_leader = {
+			traits = {
+				blockade_runner
+				air_controller
+				arctic_water_expert
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			maneuvering_skill = 4
+			coordination_skill = 4
 		}
 	}
-
-	ENG_john_tovey={
-		name=ENG_john_tovey
-		portraits={
-			army={
-				large=GFX_portrait_ENG_john_tovey
-				small=GFX_portrait_ENG_john_tovey_small
+	ENG_john_tovey = {
+		name = ENG_john_tovey
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_john_tovey
+				small = GFX_portrait_ENG_john_tovey_small
 			}
 		}
-		navy_leader={
-	traits = { gentlemanly naval_lineage superior_tactician }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	maneuvering_skill = 2
-	coordination_skill = 5
-			legacy_id=987
+		navy_leader = {
+			traits = {
+				superior_tactician
+				spotter
+				fly_swatter
+				arctic_water_expert
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 5
 		}
 	}
-
-	ENG_bernard_rawlings={
-		name=ENG_bernard_rawlings
-		portraits={
-			army={
-				large=GFX_portrait_ENG_bernard_rawlings
-				small=GFX_portrait_ENG_bernard_rawlings_small
+	ENG_bernard_rawlings = {
+		name = ENG_bernard_rawlings
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_bernard_rawlings
+				small = GFX_portrait_ENG_bernard_rawlings_small
 			}
 		}
-		navy_leader={
-	traits = { gentlemanly }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 2
-			legacy_id=988
+		navy_leader = {
+			traits = {
+				fleet_protector
+				spotter
+				green_water_expert
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 6
 		}
 	}
-
-	ENG_john_cunningham={
-		name=ENG_john_cunningham
-		portraits={
-			army={
-				large=GFX_portrait_ENG_john_cunningham
-				small=GFX_portrait_ENG_john_cunningham_small
+	ENG_john_cunningham = {
+		name = ENG_john_cunningham
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_john_cunningham
+				small = GFX_portrait_ENG_john_cunningham_small
 			}
 		}
-		navy_leader={
-			traits={ navy_career_officer green_water_expert }
-			skill=4
-			attack_skill=2
-			defense_skill=4
-			maneuvering_skill=4
-			coordination_skill=3
-			legacy_id=989
+		navy_leader = {
+			traits = {
+				navy_career_officer
+				green_water_expert
+				ironside
+			}
+			skill = 6
+			attack_skill = 8
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = 989
 		}
 	}
-
-	ENG_charles_forbes={
-		name=ENG_charles_forbes
-		portraits={
-			army={
-				large=GFX_portrait_ENG_charles_forbes
-				small=GFX_portrait_ENG_charles_forbes_small
+	ENG_charles_forbes = {
+		name = ENG_charles_forbes
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_charles_forbes
+				small = GFX_portrait_ENG_charles_forbes_small
 			}
 		}
-		navy_leader={
-			traits={ gunnery_expert fly_swatter }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			maneuvering_skill=2
-			coordination_skill=3
-			legacy_id=990
+		navy_leader = {
+			traits = {
+				gunnery_expert
+				fly_swatter
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id = 990
 		}
 	}
-
-	ENG_algernon_willis={
-		name=ENG_algernon_willis
-		portraits={
-			army={
-				large=GFX_portrait_ENG_algernon_willis
-				small=GFX_portrait_ENG_algernon_willis_small
+	ENG_algernon_willis = {
+		name = ENG_algernon_willis
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_algernon_willis
+				small = GFX_portrait_ENG_algernon_willis_small
 			}
 		}
-		navy_leader={
-			traits={ battleship_adherent spotter }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=2
-			legacy_id=991
+		navy_leader = {
+			traits = {
+				battleship_adherent
+				spotter
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = 991
 		}
 	}
-
-	ENG_arthur_power={
-		name=ENG_arthur_power
-		portraits={
-			army={
-				large=GFX_portrait_ENG_arthur_power
-				small=GFX_portrait_ENG_arthur_power_small
+	ENG_arthur_power = {
+		name = ENG_arthur_power
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_arthur_power
+				small = GFX_portrait_ENG_arthur_power_small
 			}
 		}
-		navy_leader={
-			traits={ gunnery_expert }
-			skill=2
-			attack_skill=3
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=2
-			legacy_id=992
+		navy_leader = {
+			traits = {
+				gunnery_expert
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id = 992
 		}
 	}
 

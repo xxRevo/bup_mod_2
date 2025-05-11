@@ -1360,7 +1360,7 @@ characters = {
 				small = GFX_portrait_GER_karl_donitz_small
 			}
 			army = {
-				small = GFX_idea_donitz
+				small = "GFX_idea_donitz"
 			}
 		}
 		advisor = {
@@ -1369,29 +1369,28 @@ characters = {
 			allowed = {
 				original_tag = GER
 			}
-			available = {
-				has_completed_focus = GER_trade_interdiction
-			}
 			traits = {
 				navy_chief_commerce_raiding_3
 			}
-			cost = 200
+			cost = 150
 			ai_will_do = {
-				base = 2
+				factor = 0.1
 			}
 		}
-		
 		navy_leader = {
-			traits = { navy_career_officer seawolf }
-			skill = 5
-			attack_skill = 5
-			defense_skill = 3
-			maneuvering_skill = 3
-			coordination_skill = 5
-			legacy_id = 26
+			traits = {
+				seawolf
+				superior_tactician
+				spotter
+				blue_water_expert
+			}
+			skill = 7
+			attack_skill = 7
+			defense_skill = 2
+			maneuvering_skill = 5
+			coordination_skill = 8
 		}
 	}
-
 	GER_erich_raeder = {
 		name = GER_erich_raeder
 		portraits = {
@@ -1400,7 +1399,7 @@ characters = {
 				small = GFX_portrait_GER_erich_raeder_small
 			}
 			army = {
-				small = GFX_idea_raeder
+				small = "GFX_idea_raeder"
 			}
 		}
 		advisor = {
@@ -1412,31 +1411,27 @@ characters = {
 			traits = {
 				navy_chief_decisive_battle_2
 			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						ruling_only = yes
-						character = GER_erich_raeder
-					}	
-				}
-			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
-				base = 1
+				factor = 0.1
 			}
 		}
-		
 		navy_leader = {
-			traits = { battleship_adherent naval_lineage }
-			skill = 4
-			attack_skill = 3
+			traits = {
+				old_guard_navy
+				gunnery_expert
+				fly_swatter
+				superior_tactician
+				ironside
+				fleet_protector
+			}
+			skill = 6
+			attack_skill = 5
 			defense_skill = 4
-			maneuvering_skill = 3
-			coordination_skill = 3
-			legacy_id = 27
+			maneuvering_skill = 5
+			coordination_skill = 7
 		}
 	}
-
 	GER_alfred_saalwachter = {
 		name = GER_alfred_saalwachter
 		portraits = {
@@ -1445,7 +1440,7 @@ characters = {
 				small = GFX_portrait_GER_alfred_saalwachter_small
 			}
 			army = {
-				small = GFX_idea_alfred_saalwachter
+				small = "GFX_idea_alfred_saalwachter"
 			}
 		}
 		advisor = {
@@ -1456,25 +1451,25 @@ characters = {
 			allowed = {
 				original_tag = GER
 			}
-			available = {
-				has_completed_focus = GER_wolfpack_tactics
-			}
 			traits = {
 				submarine_specialist
 			}
 		}
-		
 		navy_leader = {
-			traits = { old_guard_navy bold }
+			traits = {
+				bold
+				fleet_protector
+				blockade_runner
+				ironside
+				blue_water_expert
+			}
 			skill = 4
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 2
-			maneuvering_skill = 3
+			maneuvering_skill = 5
 			coordination_skill = 4
-			legacy_id = 28
 		}
 	}
-
 	GER_hermann_boehm = {
 		name = GER_hermann_boehm
 		portraits = {
@@ -1484,16 +1479,18 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { craven superior_tactician }
+			traits = {
+				craven
+				superior_tactician
+				seawolf
+			}
 			skill = 4
 			attack_skill = 3
 			defense_skill = 4
-			maneuvering_skill = 4
+			maneuvering_skill = 5
 			coordination_skill = 2
-			legacy_id = 29
 		}
 	}
-
 	GER_wilhelm_marschall = {
 		name = GER_wilhelm_marschall
 		portraits = {
@@ -1503,16 +1500,20 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { old_guard_navy bold }
-			skill = 4
-			attack_skill = 4
+			traits = {
+				navy_career_officer
+				bold
+				spotter
+				fly_swatter
+				blue_water_expert
+			}
+			skill = 5
+			attack_skill = 5
 			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 4
-			legacy_id = 30
+			maneuvering_skill = 5
+			coordination_skill = 5
 		}
 	}
-
 	GER_gunther_lutjens = {
 		name = GER_gunther_lutjens
 		portraits = {
@@ -1521,7 +1522,7 @@ characters = {
 				small = GFX_portrait_GER_gunther_lutjens_small
 			}
 			army = {
-				small = GFX_idea_gunther_lutjens
+				small = "GFX_idea_gunther_lutjens"
 			}
 		}
 		advisor = {
@@ -1534,20 +1535,47 @@ characters = {
 			traits = {
 				navy_fleet_logistics_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
-				factor = 1.000
+				factor = 1
 			}
 		}
-		
 		navy_leader = {
-			traits = { gentlemanly navy_career_officer superior_tactician }
+			traits = {
+				navy_media_personality
+				battleship_adherent
+				superior_tactician
+				ironside
+				blue_water_expert
+			}
+			skill = 6
+			attack_skill = 7
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 2
+		}
+	}
+	GER_alexander_von_falkenhausen = {
+		name = CHI_alexander_von_falkenhausen
+		portraits = {
+			army = {
+				large = "GFX_portrait_chi_alexander_von_falkenhausen"
+				small = "GFX_idea_CHI_alexander_von_falkenhausen"
+			}
+		}
+		corps_commander = {
 			skill = 3
-			attack_skill = 4
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 4
-			legacy_id = 31
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 603
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				has_global_flag = falkenhausen_recalled
+			}
 		}
 	}
 

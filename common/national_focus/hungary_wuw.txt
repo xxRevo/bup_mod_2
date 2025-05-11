@@ -2734,7 +2734,6 @@ focus_tree = {
 		}
 
 		available = {
-			num_of_factories > 30
 		}
 
 		bypass = {
@@ -4793,18 +4792,6 @@ focus_tree = {
 		}
 
 		available = {
-			#has_country_flag = HUN_reverse_engineered_skoda_tanks
-			IF = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				has_tech = basic_medium_tank_chassis
-			}
-			ELSE_IF = {
-				limit = {
-					has_tech = basic_medium_tank
-				}
-			}
 		}
 
 		bypass = {
@@ -5104,11 +5091,10 @@ focus_tree = {
 		completion_reward = {
 
 			add_tech_bonus = {
-				name = wuw_HUN_the_toldi
-				ahead_reduction = 1
+				name = HUN_develop_tanks
 				bonus = 1
 				uses = 1
-				category = cat_light_armor
+				category = armor
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt

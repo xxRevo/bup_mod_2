@@ -22,7 +22,7 @@ technologies = {
 		force_use_small_tech_layout = yes
 		
 		xp_research_type = army
-		xp_unlock_cost = 999
+		xp_unlock_cost = 60
 		
 		xor = { special_forces_marines special_forces_paratroopers }
 		
@@ -78,7 +78,7 @@ technologies = {
 	ski_troops = {
 
 		xp_research_type = army
-		xp_unlock_cost = 999
+		xp_unlock_cost = 60
 		
 		force_use_small_tech_layout = yes
 		
@@ -124,7 +124,7 @@ technologies = {
 	rangers = {
 
 		xp_research_type = army
-		xp_unlock_cost = 999
+		xp_unlock_cost = 60
 		
 		force_use_small_tech_layout = yes
 		
@@ -169,7 +169,7 @@ technologies = {
 	special_forces_recon = {
 
 		xp_research_type = army
-		xp_unlock_cost = 999
+		xp_unlock_cost = 60
 		
 		category_mountaineers = {
 			initiative = 0.01
@@ -215,7 +215,7 @@ technologies = {
 	mountaineers_combat_1 = {
 
 		xp_research_type = army
-		xp_unlock_cost = 999
+		xp_unlock_cost = 60
 		
 		force_use_small_tech_layout = yes
 		
@@ -259,7 +259,7 @@ technologies = {
 	mountaineers_combat_2 = {
 
 		xp_research_type = army
-		xp_unlock_cost = 999
+		xp_unlock_cost = 60
 		
 		force_use_small_tech_layout = yes
 		
@@ -310,7 +310,7 @@ technologies = {
 	mountaineers_combat_3 = {
 
 		xp_research_type = army
-		xp_unlock_cost = 999
+		xp_unlock_cost = 60
 		
 		category_mountaineers = {
 			max_organisation = 10
@@ -354,7 +354,7 @@ technologies = {
 	mountaineers_keystone_1 = {
 
 		xp_research_type = army
-		xp_unlock_cost = 999
+		xp_unlock_cost = 60
 		
 		force_use_small_tech_layout = yes
 		
@@ -393,7 +393,7 @@ technologies = {
 	mountaineers_keystone_2 = {
 
 		xp_research_type = army
-		xp_unlock_cost = 999
+		xp_unlock_cost = 60
 		
 		special_forces_cap = 0.06
 		special_forces_out_of_supply_factor = -0.1

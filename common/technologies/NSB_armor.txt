@@ -706,6 +706,7 @@ technologies = {
 			tank_medium_cannon_2
 			tank_medium_howitzer_2
 			tank_high_velocity_cannon_2
+			tank_heavy_cannon_2
 		}
 
 		path = {
@@ -861,6 +862,7 @@ technologies = {
 			tank_medium_cannon_3
 			auto_loader
             squeezebore_adaptor
+			tank_heavy_cannon_3
 		}
 
 		path = {

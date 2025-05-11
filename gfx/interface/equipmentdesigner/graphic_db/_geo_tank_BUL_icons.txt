@@ -70,6 +70,37 @@
 				models = { geo_panther_d_BUL_entity }
 			}
 		}
+     heavy_tank_chassis_2 = {
+         pool = {
+             weight = 3
+         }
+         pool = {
+             weight = 2
+             models = {
+                 geo_tiger_HUN_entity
+                 geo_tiger2_p_no_skirt_GER_entity
+                 geo_tiger2_no_skirt_GER_entity
+                 geo_tiger2_p_GER_entity
+             }
+         }
+     }
+     heavy_tank_chassis_3 = {
+         pool = {
+             weight = 3
+         }
+         pool = {
+             weight = 2
+             models = {
+                 geo_tiger_HUN_entity
+                 geo_tiger2_p_no_skirt_GER_entity
+                 geo_tiger2_no_skirt_GER_entity
+                 geo_tiger2_p_GER_entity
+                 geo_tiger2_p_no_skirt_GER_entity
+                 geo_tiger2_no_skirt_GER_entity
+                 geo_tiger2_p_GER_entity
+             }
+         }
+     }
      #)#
   #)# Medium Tank End
   #(# Heavy Tank Start

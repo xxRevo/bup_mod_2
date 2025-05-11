@@ -39,7 +39,6 @@ equipment_modules = {
 			fuel_consumption = 2
 			build_cost_ic = 2
 			maximum_speed = 1
-			reliability = -0.1
 			breakthrough = 2
 			defense = 2
 		}
@@ -180,9 +179,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 2
-			breakthrough = 4
-			reliability = -0.05
+			build_cost_ic = 1.5
+			defense = 2
+			breakthrough = 2
 		}
 		dismantle_cost_ic  = 2
 
@@ -1124,7 +1123,7 @@ equipment_modules = {
 		add_stats = {
 			soft_attack = 30
 			hard_attack = 35
-			ap_attack = 165
+			ap_attack = 170
 			build_cost_ic = 5
 			reliability = -0.25
 		}
@@ -1146,7 +1145,7 @@ equipment_modules = {
 		add_stats = {
 			soft_attack = 40
 			hard_attack = 45
-			ap_attack = 200
+			ap_attack = 215
 			build_cost_ic = 6
 			reliability = -0.25
 		}
@@ -1233,6 +1232,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.5
+			reliability = 0.05
 		}
 		xp_cost = 0
 		multiply_stats = {
@@ -1248,7 +1248,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			build_cost_ic = 1.5
+			build_cost_ic = 1
+			reliability = 0.1
 		}
 		xp_cost = 0
 		multiply_stats = {
@@ -1264,7 +1265,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 2.5
+			build_cost_ic = 1.5
+			reliability = 0.15
 		}
 		xp_cost = 0
 		multiply_stats = {
@@ -1288,11 +1290,11 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 2
-			reliability = -0.15
+			reliability = -0.2
 		}
 		xp_cost = 0
 		multiply_stats = {
-			build_cost_ic = 0.1
+			build_cost_ic = 0.25
 		}
 	}
 
@@ -1333,7 +1335,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			hardness_value = 0.025
+			defense = 2
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 00
@@ -1424,6 +1426,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
+			defense = 1
 			build_cost_ic = 1
 		}
 		xp_cost = 0
@@ -1438,8 +1441,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
+			defense = 2
 			entrenchment = 0.5
-			reliability = -0.075
 			build_cost_ic = 1
 		}
 		xp_cost = 0
@@ -1455,8 +1458,8 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1
-			breakthrough = 6
-			defense = 6
+			breakthrough = 3
+			defense = 3
 		}
 		xp_cost = 0
 		

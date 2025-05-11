@@ -412,7 +412,7 @@ NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0.00									-- Chances one ship get 
 
 
 
-NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.5								-- amphibious landing penalty
+NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.7								-- amphibious landing penalty
 
 NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admirals not level up in battles, similarly to generals
 

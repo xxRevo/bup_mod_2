@@ -12,7 +12,7 @@
 
 		#modifier = {
 		#	add = 10
-		#	original_tag = AST
+		#	original_tag = ASAST_Royal_Australian_NavyT
 		#	has_dlc = "Together for Victory"
 		#}
 	}
@@ -1522,7 +1522,7 @@
 
 	focus = {
 		id = AST_cockatoo_island_shipyards
-		icon = GFX_Noras_cockatoo_shipyards
+		icon = GFX_AST_Royal_Australian_Navy
 		x = 12
 		y = 0
 
@@ -1624,7 +1624,7 @@
 
 	focus = {
 		id = AST_Radar
-		icon = GFX_naval_radar
+		icon = GFX_focus_GER_sentinels_of_the_pacific
 		relative_position_id = AST_navy_spending
 		x = 0
 		y = 1
@@ -1659,7 +1659,7 @@
 	
 	focus = {
 		id = AST_protect_overseas_commerce
-		icon = GFX_goal_AST_state_of_RAN
+		icon = GFX_focus_generic_navy_battleship2
 		prerequisite = { focus = AST_cockatoo_island_shipyards }
 		
 		x = 0
@@ -1710,7 +1710,7 @@
 
 	focus = {
 		id = AST_fly_the_jolly_roger
-		icon = GFX_Noras_Jolly_Roger
+		icon = GFX_goal_generic_navy_anti_submarine
 		prerequisite = { focus = AST_cockatoo_island_shipyards }
 		x = 2
 		y = 1
@@ -1897,12 +1897,6 @@
 					amount = 5
 				}				
 			}
-			519 = {
-				add_resource = {
-					type = rubber
-					amount = 10
-				}				
-			}
 			add_ideas = AST_naval_auxiliary_patrol
 		}
 	}
@@ -1915,7 +1909,7 @@
 		y = 4
 		relative_position_id = AST_cockatoo_island_shipyards
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -1942,7 +1936,15 @@
 				add_resource = {
 					type = oil
 					amount = 5
-				}				
+				}		
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+				add_resource = {
+					type = oil
+					amount = 5
+				}			
 			}	
 			519 = {
 				add_extra_state_shared_building_slots = 3
@@ -1958,46 +1960,7 @@
 				uses = 2
 				category = cl_tech
 			}
-		}
-	}
-	focus = {
-		id = AST_dock
-		icon = GFX_AST_Dock
-		prerequisite = { focus = AST_cruisers focus = AST_pacific_area_navy focus = AST_Heavy_ships }
-		x = 0
-		y = 1
-		relative_position_id = AST_cruisers
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = {
-		285 = {
-				add_resource = {
-					type = chromium
-					amount = 10
-				}
-				add_resource = {
-					type = oil
-					amount = 5
-				}				
-			}
-		522 = {
+			522 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
@@ -2007,15 +1970,16 @@
 			}			
 		}
 	}
+
 	focus = {
 		id = AST_pacific_area_navy
-		icon = GFX_goal_base_strike
+		icon = GFX_focus_generic_refit_civilian_ships
 		prerequisite = { focus = AST_naval_auxiliary_patrol }
 		x = 2
 		y = 4
 		relative_position_id = AST_cockatoo_island_shipyards
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2034,23 +1998,17 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-		285 = {
-				add_resource = {
-					type = steel
-					amount = 10
+			285 = {
+					add_resource = {
+						type = steel
+						amount = 10
+					}
+					add_resource = {
+						type = oil
+						amount = 5
+					}				
 				}
-				add_resource = {
-					type = oil
-					amount = 5
-				}				
-			}
-		519 = {
-				add_resource = {
-					type = rubber
-					amount = 10
-				}				
-			}
-		 add_tech_bonus = {
+		 	add_tech_bonus = {
 				name = AST_pacific_area_navy
 				bonus = 1.5
 				uses = 1
@@ -2062,53 +2020,31 @@
 				uses = 2
 				category = naval_doctrine
 			}
-		}
-	}
-	focus = {
-		id = AST_fleet_coop
-		icon = GFX_usa_amphib
-		relative_position_id = AST_pacific_area_navy
-		x = 0
-		y = 1
-		prerequisite = { focus = AST_pacific_area_navy }
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		complete_tooltip = {
-		}
-
-		completion_reward = {	
-		522 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
+			522 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
 				}
-			}
-		add_tech_bonus = {
-				name = AST_USMC
-				bonus = 1.00
-				uses = 1
-				category = tp_tech
+			add_tech_bonus = {
+					name = AST_USMC
+					bonus = 1.00
+					uses = 1
+					category = tp_tech
 			}	
 		}
 	}
+
 	focus = {
 		id = AST_Heavy_ships
-		icon = GFX_america_goal_navy
+		icon = GFX_focus_generic_chromium
 		relative_position_id = AST_naval_auxiliary_patrol
 		x = -2
 		y = 1
 		prerequisite = { focus = AST_naval_auxiliary_patrol }
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2148,28 +2084,6 @@
 				category = bb_tech
 			}	
 		}
-	}
-	focus = {
-		id = AST_guns
-		icon = GFX_ITA_Dominance
-		relative_position_id = AST_Heavy_ships
-		x = 0
-		y = 1
-		prerequisite = { focus = AST_Heavy_ships }
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		complete_tooltip = {
-		}
-
-		completion_reward = {	
 		285 = {
 				add_resource = {
 					type = chromium
@@ -2185,9 +2099,10 @@
 				bonus = 1.00
 				uses = 2
 				category = ship_modules_tech
-			}		
-		}
+		}		
+		
 	}
+
 
 
 	############################

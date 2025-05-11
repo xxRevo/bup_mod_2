@@ -231,9 +231,9 @@ NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2
 NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.2
 
 --Logistics
-NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.1
+NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.05
+NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.01
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRAIN_DAMAGE_FACTOR = 0.02
-NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.02
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_INFRA_DAMAGE_SPILL_FACTOR = 0
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_RAILWAY_DAMAGE_SPILL_FACTOR = 0
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DIRECT_DISRUPTION_DAMAGE_FACTOR = 0
@@ -574,7 +574,7 @@ NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CIVILWAR = 0
 NDefines.NSupply.INFRA_TO_SUPPLY = 0.36							-- each level of infra gives this many supply
 NDefines.NSupply.VP_TO_SUPPLY_BASE = 0.24							-- Bonus to supply from a VP, no matter the level
 NDefines.NSupply.VP_TO_SUPPLY_BONUS_CONVERSION = 0.075		-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer
-NDefines.NSupply.TRAIN_ANTI_AIR_HIT_CHANCE = 0.1 -- train anti-air hit chance reduced to %50
+NDefines.NSupply.TRAIN_ANTI_AIR_HIT_CHANCE = 0.21 -- train anti-air hit chance reduced to %50
 NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.4
 NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.56
 NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.68

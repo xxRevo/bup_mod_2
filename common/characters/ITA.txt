@@ -947,7 +947,6 @@ characters = {
 				large = GFX_portrait_ITA_inigo_campioni
 			}
 		}
-
 		advisor = {
 			slot = navy_chief
 			idea_token = inigo_campioni
@@ -955,25 +954,28 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			traits = {
-				navy_chief_decisive_battle_1
+				navy_chief_decisive_battle_2
 			}
-			cost = 50
+			cost = 150
 			ai_will_do = {
-				base = 1.000
+				base = 1
 			}
 		}
-		
 		navy_leader = {
-	traits = {  }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	maneuvering_skill = 3
-	coordination_skill = 3
-			legacy_id = 0
+			traits = {
+				superior_tactician
+				spotter
+				fleet_protector
+				fly_swatter
+				green_water_expert
+			}
+			skill = 8
+			attack_skill = 6
+			defense_skill = 6
+			maneuvering_skill = 5
+			coordination_skill = 6
 		}
 	}
-
 	ITA_alberto_da_zara = {
 		name = ITA_alberto_da_zara
 		portraits = {
@@ -982,7 +984,6 @@ characters = {
 				large = GFX_portrait_ITA_alberto_da_zara
 			}
 		}
-
 		advisor = {
 			slot = high_command
 			idea_token = alberto_da_zara
@@ -993,23 +994,24 @@ characters = {
 			traits = {
 				navy_anti_submarine_1
 			}
-			cost = 50
+			cost = 150
 			ai_will_do = {
-				base = 1.000
+				base = 1
 			}
 		}
-		
 		navy_leader = {
-	traits = { gentlemanly green_water_expert inshore_fighter }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 3
-	maneuvering_skill = 6
-	coordination_skill = 2
-			legacy_id = 0
+			traits = {
+				blockade_runner
+				air_controller
+				green_water_expert
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 3
+			maneuvering_skill = 5
+			coordination_skill = 7
 		}
 	}
-
 	ITA_prince_aimone = {
 		name = ITA_prince_aimone
 		portraits = {
@@ -1021,18 +1023,18 @@ characters = {
 				large = GFX_portrait_ITA_prince_aimone
 			}
 		}
-		 
 		navy_leader = {
-			traits = { gentlemanly inshore_fighter }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-			legacy_id = 0
+			traits = {
+				ironside
+				green_water_expert
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 8
+			maneuvering_skill = 4
+			coordination_skill = 6
 		}
 	}
-
 	ITA_giuseppe_fioravanzo = {
 		name = ITA_giuseppe_fioravanzo
 		portraits = {
@@ -1041,7 +1043,6 @@ characters = {
 				small = GFX_portrait_ITA_giuseppe_fioravanzo_small
 			}
 		}
-
 		advisor = {
 			cost = 150
 			slot = theorist
@@ -1050,22 +1051,28 @@ characters = {
 			allowed = {
 				ITA_is_italian_tag = yes
 			}
+			research_bonus = {
+				cat_fleet_in_being = 0.15
+			}
 			traits = {
 				grand_fleet_proponent
 			}
 		}
-
 		navy_leader = {
-	traits = { }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 3
-	maneuvering_skill = 6
-	coordination_skill = 2
-			legacy_id = 0
+			traits = {
+				bold
+				superior_tactician
+				spotter
+				ironside
+				green_water_expert
+			}
+			skill = 4
+			attack_skill = 7
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 7
 		}
 	}
-
 	ITA_carlo_bergamini = {
 		name = ITA_carlo_bergamini
 		portraits = {
@@ -1074,8 +1081,7 @@ characters = {
 				large = GFX_portrait_ITA_carlo_bergamini
 			}
 		}
-
-		advisor = {	
+		advisor = {
 			slot = high_command
 			idea_token = carlo_bergamini
 			ledger = navy
@@ -1085,23 +1091,25 @@ characters = {
 			traits = {
 				navy_capital_ship_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
-				base = 1.000
+				base = 1
 			}
 		}
-		
 		navy_leader = {
-	traits = { battleship_adherent ironside superior_tactician }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 4
-	maneuvering_skill = 3
-	coordination_skill = 1
+			traits = {
+				gunnery_expert
+				battleship_adherent
+				ironside
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
 			legacy_id = 0
 		}
 	}
-
 	ITA_angelo_iachino = {
 		name = ITA_angelo_iachino
 		portraits = {
@@ -1110,9 +1118,8 @@ characters = {
 				large = GFX_portrait_ITA_angelo_iachino
 			}
 		}
-
 		advisor = {
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = angelo_iachino
 			ledger = navy
@@ -1120,23 +1127,34 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
+			}
+			research_bonus = {
+				naval_doctrine = 0.1
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+		navy_leader = {
+			traits = {
+				bold
+				navy_career_officer
+				superior_tactician
+				spotter
+				ironside
+				green_water_expert
+			}
+			skill = 8
+			attack_skill = 8
+			defense_skill = 6
+			maneuvering_skill = 6
+			coordination_skill = 7
+			legacy_id = 0
+			visible = {
 				has_government = fascism
 			}
-			traits = { naval_theorist }
-		}
-
-		navy_leader = {
-	traits = { superior_tactician spotter seawolf }
-	skill = 3
-	attack_skill = 5
-	defense_skill = 2
-	maneuvering_skill = 6
-	coordination_skill = 7
-			legacy_id = 0
-			visible = { has_government = fascism }
 		}
 	}
-
 	ITA_giuseppe_di_bartolo = {
 		name = ITA_giuseppe_di_bartolo
 		portraits = {
@@ -1145,9 +1163,12 @@ characters = {
 				large = GFX_portrait_ITA_giuseppe_di_bartolo
 			}
 		}
-
 		navy_leader = {
-			traits = { old_guard_navy bold fleet_protector }
+			traits = {
+				old_guard_navy
+				bold
+				fleet_protector
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -1155,12 +1176,10 @@ characters = {
 			coordination_skill = 1
 			legacy_id = 0
 			visible = {
-				#has_government = fascism
-				#has_completed_focus = ITA_supermarina #Maybe Escort focus? Or maybe available from start
-			} 
+				always = no
+			}
 		}
 	}
-
 	ITA_junio_valerio_borghese = {
 		name = ITA_junio_valerio_borghese
 		portraits = {
@@ -1169,20 +1188,24 @@ characters = {
 				large = GFX_portrait_ITA_junio_valerio_borghese
 			}
 		}
-
 		navy_leader = {
-			traits = { cuts_corners seawolf silent_hunter } #Submarines, Human torpedos, Torpedo boats, etc.
-			skill = 3
-			attack_skill = 4
-			defense_skill = 1
-			maneuvering_skill = 3
-			coordination_skill = 2
+			traits = {
+				cuts_corners
+				seawolf
+				silent_hunter
+			}
+			#Submarines, Human torpedos, Torpedo boats, etc.
+			skill = 6
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 7
+			coordination_skill = 4
 			legacy_id = 0
-			visible = { has_completed_focus = ITA_decima_flottiglia_mas }
+			visible = {
+				always = yes
+			}
 		}
 	}
-
-
 	### THEORISTS ###
 
 	# Messe up there

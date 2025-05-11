@@ -9,7 +9,7 @@ technologies = {
 
 	basic_battery = {
 		
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50		
@@ -74,7 +74,7 @@ technologies = {
 
 	basic_light_battery = {
 
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50	
@@ -116,7 +116,7 @@ technologies = {
 
 	basic_light_shell = {
 		
-		research_cost = 0.5
+		research_cost = 0.25
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -174,7 +174,7 @@ technologies = {
 
 	improved_light_battery = {
 
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -217,7 +217,7 @@ technologies = {
 
 	improved_light_shell = {
 
-		research_cost = 0.5
+		research_cost = 0.25
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -274,7 +274,7 @@ technologies = {
 
 	advanced_light_battery = {
 
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -313,7 +313,7 @@ technologies = {
 
 	basic_medium_battery = {
 
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -360,7 +360,7 @@ technologies = {
 
 	basic_medium_shell = {
 
-		research_cost = 0.5
+		research_cost = 0.25
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -400,7 +400,7 @@ technologies = {
 
 	improved_medium_battery = {
 
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -443,7 +443,7 @@ technologies = {
 
 	improved_medium_shell = {
 
-		research_cost = 0.5
+		research_cost = 0.25
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -489,7 +489,7 @@ technologies = {
 
 	advanced_medium_battery = {
 
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -525,7 +525,7 @@ technologies = {
 
 	basic_heavy_battery = {
 
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -573,7 +573,7 @@ technologies = {
 	}
 	improved_heavy_battery = {
 
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -620,7 +620,7 @@ technologies = {
 	}
 	advanced_heavy_battery = {
 
-		research_cost = 1
+		research_cost = 0.5
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -664,7 +664,7 @@ technologies = {
 	}
 	basic_heavy_shell = {
 
-		research_cost = 0.5
+		research_cost = 0.25
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -705,7 +705,7 @@ technologies = {
 	}
 	improved_heavy_shell = {
 
-		research_cost = 0.5
+		research_cost = 0.25
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -752,7 +752,7 @@ technologies = {
 
 	basic_torpedo = {
 
-		research_cost = 1.5
+		research_cost = 0.75
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -802,7 +802,7 @@ technologies = {
 	
 	improved_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 0.75
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -849,7 +849,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 0.75
 
 		start_year = 1936
 
@@ -912,7 +912,7 @@ technologies = {
 	
 	advanced_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 0.75
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -958,7 +958,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 0.75
 		
 		path = {
 			leads_to_tech = modern_ship_torpedo_launcher	
@@ -1011,7 +1011,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 0.75
 
 		start_year = 1942
 
@@ -1045,7 +1045,7 @@ technologies = {
 	
 	modern_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 0.75
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1091,7 +1091,7 @@ technologies = {
 
 	damage_control_1 = {
 
-		research_cost = 2.5
+		research_cost = 1.25
 		path = {
 			leads_to_tech = damage_control_2
 			research_cost_coeff = 1
@@ -1131,7 +1131,7 @@ technologies = {
 
 	damage_control_2 = {
 
-		research_cost = 2.5
+		research_cost = 1.25
 		path = {
 			leads_to_tech = damage_control_3
 			research_cost_coeff = 1
@@ -1171,7 +1171,7 @@ technologies = {
 
 	damage_control_3 = {
 
-		research_cost = 2.5
+		research_cost = 1.25
 		critical_receive_chance = -0.1
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
@@ -1215,7 +1215,7 @@ technologies = {
 
 	fire_control_methods_1 = {
 
-		research_cost = 2.5
+		research_cost = 1.25
 		path = {
 			leads_to_tech = fire_control_methods_2
 			research_cost_coeff = 1
@@ -1258,7 +1258,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.25
 		path = {
 			leads_to_tech = fire_control_methods_3
 			research_cost_coeff = 1
@@ -1301,7 +1301,7 @@ technologies = {
 
 	fire_control_methods_3 = {
 
-		research_cost = 2.5
+		research_cost = 1.25
 		battleship = {
 			lg_attack = 0.15
 			hg_attack = 0.15

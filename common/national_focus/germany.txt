@@ -5163,6 +5163,14 @@ focus = {
 		complete_tooltip = {
 		}
 		completion_reward = {
+			59 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 			add_doctrine_cost_reduction = {
 				name = GER_plan_z
 				cost_reduction = 0.25
@@ -5193,7 +5201,7 @@ focus = {
 		x = -2
 		y = 1
 		relative_position_id = GER_plan_z
-		cost = 10
+		cost = 4
 		available = {
 			#NOT = { has_completed_focus = GER_high_seas_fleet }
 		}
@@ -5201,6 +5209,7 @@ focus = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
+
 			if = {
 				limit = {
 					56 = {
@@ -5499,7 +5508,7 @@ focus = {
 		x = -1
 		y = 1
 		relative_position_id = GER_expand_kriegsmarinewerft
-		cost = 5
+		cost = 4
 		available = {
 			NOT = { has_completed_focus = GER_high_seas_fleet }
 			has_tech = early_ship_hull_carrier
@@ -5519,10 +5528,10 @@ focus = {
 					}
 				}
 				prioritize = { 807 }
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -5704,7 +5713,7 @@ focus = {
 		x = 1
 		y = 1
 		relative_position_id = GER_expand_kriegsmarinewerft
-		cost = 10
+		cost = 4
 		available = {
 			NOT = { has_completed_focus = GER_high_seas_fleet }
 			has_tech = improved_ship_hull_heavy
@@ -5724,10 +5733,10 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -5869,13 +5878,21 @@ focus = {
 		x = 1
 		y = 1
 		relative_position_id = GER_construct_aircraft_carriers
-		cost = 10
+		cost = 4
 		available = {
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
+			59 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 			if = {
 				limit = {
 					NOT = { has_completed_focus = GER_trade_interdiction }
@@ -6275,6 +6292,14 @@ focus = {
 		complete_tooltip = {
 		}
 		completion_reward = {
+			59 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 			add_doctrine_cost_reduction = {
 				name = GER_trade_interdiction
 				cost_reduction = 0.25

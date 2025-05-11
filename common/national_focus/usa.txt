@@ -2613,11 +2613,10 @@ focus_tree = {
 #  # #  #  # #    #         # #   #  #  #   #  #  # #  # 
 #  # #  #   #     #       ##  ###  ##   #  ###  ##  #  # 
 
-
-focus = {
+	focus = {
 		id = USA_two_ocean_navy_act
-		icon = GFX_USA_US_Navy
-		x = 8
+		icon = GFX_goal_usa_navy
+		x = 12
 		y = 1
 		prerequisite = { focus = USA_war_department }
 		relative_position_id = USA_war_department
@@ -2633,15 +2632,17 @@ focus = {
 					threat < 0.5
 					has_war = no
 				}
-				congress_high_support_trigger = yes
+				has_political_power > 25
 			}
 			else = {
-				congress_low_support_trigger = yes
+				has_political_power > -25
 			}
-			controls_state = 385
-			controls_state = 364
+			OR = {
+				date < 1936.11.1
+				date > 1937.5.2
+			}
 		}
-		
+
 		bypass = {
 
 		}
@@ -2651,19 +2652,19 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			385 = { 
-				add_extra_state_shared_building_slots = 5
+			378 = {
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 5
+					level = 3
 					instant_build = yes
 				}
 			}
-			364 = { 
-				add_extra_state_shared_building_slots = 5
+			358 = {
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 5
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -2672,67 +2673,89 @@ focus = {
 		completion_reward = {
 			if = {
 				limit = {
-					 has_war_support < 0.4 
+					 has_war_support < 0.4
 				}
-				USA_congress_medium_opposition = yes
+				add_political_power = -15
 			}
-				385 = { 
-					add_extra_state_shared_building_slots = 5
+			if = {
+				limit = {
+					378 = {
+						free_building_slots = {
+							building = dockyard
+							size > 4
+							include_locked = yes
+						}
+					}
+				}
+				378 = {
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = dockyard
-						level = 5
+						level = 4
 						instant_build = yes
 					}
 				}
-				364 = { 
-					add_extra_state_shared_building_slots = 5
+			}
+			if = {
+				limit = {
+					358 = {
+						free_building_slots = {
+							building = dockyard
+							size > 4
+							include_locked = yes
+						}
+					}
+				}
+				358 = {
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = dockyard
-						level = 5
+						level = 4
 						instant_build = yes
 					}
 				}
 			}
+		}
 	}
-	
+
 	focus = {
-		id = USA_maritime_commission
-		icon = GFX_GENERIC_Expand_the_Canal
-		x = -3
+		id = USA_magic
+		icon = GFX_magic
+		x = -1
 		y = 1
 		prerequisite = { focus = USA_two_ocean_navy_act }
 		relative_position_id = USA_two_ocean_navy_act
-		cost = 1
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-           date > 1940.1.1
+
 		}
-		
+
 		bypass = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = USA_maritime_commission
+			add_ideas = USA_magic
 		}
 	}
-	
+
 	focus = {
 		id = USA_liberty_ships
-		icon = GFX_goal_generic_amphibious_assault
-		prerequisite = { focus = USA_maritime_commission }
+		icon = GFX_liberty_ships
+		prerequisite = { focus = USA_two_ocean_navy_act }
 		x = -3
-		y = 2
+		y = 1
 		relative_position_id = USA_two_ocean_navy_act
-		cost = 3
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -2746,7 +2769,7 @@ focus = {
 
 	focus = {
 		id = USA_bureau_of_ships
-		icon = GFX_GENERIC_Navy
+		icon = GFX_liberty_ships
 		x = 2
 		y = 1
 		cost = 5
@@ -2758,19 +2781,35 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			navy_experience = 50
 			add_ideas = bureau_of_ships_focus
+			navy_experience = 50
+			378 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			358 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
-	
+
 	focus = {
 		id = USA_battleship_primacy
-		icon = GFX_GENERIC_Battleship
+		icon = GFX_battleship_primacy
 		prerequisite = { focus = USA_bureau_of_ships }
 		x = -3
 		y = 1
 		relative_position_id = USA_bureau_of_ships
-		cost = 3
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -2781,20 +2820,21 @@ focus = {
 			add_tech_bonus = {
 				name = USA_battleship_primacy
 				bonus = 1.0
-				uses = 2
-				category = bb_tech
+				uses = 1
+				ahead_reduction = 0.5
+				technology = improved_ship_hull_heavy
 			}
 		}
 	}
 
 	focus = {
 		id = USA_advanced_mahanian_doctrine
-		icon = GFX_GENERIC_Fleet_in_Being
+		icon = GFX_battleship_primacy
 		prerequisite = { focus = USA_battleship_primacy }
 		x = 0
 		y = 1
 		relative_position_id = USA_battleship_primacy
-		cost = 3
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -2804,7 +2844,6 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_advanced_mahanian_doctrine
-				uses = 2
 				bonus = 1.0
 				category = naval_doctrine
 			}
@@ -2813,12 +2852,12 @@ focus = {
 
 	focus = {
 		id = USA_advanced_basing
-		icon = GFX_goal_generic_occupy_states_coastal
+		icon = GFX_america_domain
 		x = 0
 		y = 2
 		prerequisite = { focus = USA_advanced_mahanian_doctrine }
 		relative_position_id = USA_battleship_primacy
-		cost = 2
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2827,22 +2866,39 @@ focus = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
 		completion_reward = {
-			636 = {
+			638 = {
 				add_building_construction = {
 					type = naval_base
-					province = 7302
-					level = 19
+					province = 2441
+					level = 2
 					instant_build = yes
+				}
+			}
+			if = {
+				limit = {
+					327 = {
+						CONTROLLER = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+				327 = {
+					add_building_construction = {
+						type = naval_base
+						province = 5295
+						level = 2
+						instant_build = yes
+					}
 				}
 			}
 		}
@@ -2850,12 +2906,12 @@ focus = {
 
 	focus = {
 		id = USA_carrier_primacy
-		icon = GFX_GENERIC_Carrier
+		icon = GFX_Noras_usacarrierprimacy
 		prerequisite = { focus = USA_bureau_of_ships }
 		x = -1
 		y = 1
 		relative_position_id = USA_bureau_of_ships
-		cost = 3
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -2865,21 +2921,81 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_carrier_primacy
-				bonus = 1.5
+				bonus = 1.0
 				uses = 1
-				category = cv_tech
+				ahead_reduction = 0.5
+				technology = improved_ship_hull_carrier
 			}
+			set_technology = {
+				ship_hull_super_heavy_cv = 1
+			}
+			create_equipment_variant = {
+				name = "Yorktown Class"
+				type = ship_hull_super_heavy_carrier
+				name_group = USA_CV_HISTORICAL
+				parent_version = 0
+				icon = "GFX_ship_hull_super_heavy_cv"
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = empty
+					fixed_ship_armor_slot = ship_armor_shbb
+					mid_1_custom_slot = ship_deck_space
+					mid_2_custom_slot = ship_deck_space
+					mid_3_custom_slot = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					front_1_custom_slot = ship_deck_space
+				}
+			}
+			custom_effect_tooltip = USA_Yorktown
+			hidden_effect = {
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_super_heavy_carrier
+						creator = "USA"
+						version_name = "Yorktown Class"
+					}
+					name = "USS Enterprise"
+					requested_factories = 1
+					progress = 0.90
+					amount = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_super_heavy_carrier
+						creator = "USA"
+						version_name = "Yorktown Class"
+					}
+					name = "USS Hornet"
+					requested_factories = 1
+					progress = 0.40
+					amount = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_super_heavy_carrier
+						creator = "USA"
+						version_name = "Yorktown Class"
+					}
+					name = "USS Yorktown"
+					requested_factories = 1
+					progress = 0.40
+					amount = 1
+				}
+			}			
 		}
 	}
 
 	focus = {
 		id = USA_bureau_of_aeronautics
-		icon = GFX_GENERIC_High_Seas_Airforce
+		icon = GFX_america_domain
 		prerequisite = { focus = USA_carrier_primacy }
 		x = 0
 		y = 1
 		relative_position_id = USA_carrier_primacy
-		cost = 3
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -2891,19 +3007,31 @@ focus = {
 				name = USA_bureau_of_aeronautics
 				bonus = 1.0
 				uses = 1
-				category = naval_bomber
+				ahead_reduction = 0.5
+				technology = air_torpedoe_1
+				technology = air_torpedoe_2
+				technology = air_torpedoe_3
 				category = naval_air
 			}
+			add_tech_bonus = {
+				name = USA_bureau_of_aeronautics
+				bonus = 1.0
+				uses = 1
+				technology = air_torpedoe_1
+				technology = air_torpedoe_2
+				technology = air_torpedoe_3
+				category = naval_air
+			}			
 		}
 	}
 	focus = {
 		id = USA_naval_radar
-		icon = GFX_goal_generic_radar
+		icon = GFX_usa_radar
 		x = 0
 		y = 1
 		prerequisite = { focus = USA_bureau_of_aeronautics }
 		relative_position_id = USA_bureau_of_aeronautics
-		cost = 3
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2912,13 +3040,13 @@ focus = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -2928,18 +3056,18 @@ focus = {
 				bonus = 1.0
 				category = radar_tech
 			}
-			
+
 		}
 	}
 
 	focus = {
 		id = USA_escort_effort
-		icon = GFX_GENERIC_Destroyer
+		icon = GFX_escort_effort
 		prerequisite = { focus = USA_bureau_of_ships }
 		x = 1
 		y = 1
 		relative_position_id = USA_bureau_of_ships
-		cost = 3
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -2947,19 +3075,29 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = escort_effort_focus
-			
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				uses = 2
+				category = cl_tech
+			}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				uses = 2
+				category = dd_tech
+			}
 		}
 	}
 
 	focus = {
 		id = USA_convoy_tactics
-		icon = GFX_GENERIC_Large_Navy
+		icon = GFX_america_domain
 		prerequisite = { focus = USA_escort_effort }
 		x = 0
 		y = 1
 		relative_position_id = USA_escort_effort
-		cost = 3
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -2967,89 +3105,63 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			navy_experience = 25
 			add_tech_bonus = {
 				name = USA_convoy_tactics
 				bonus = 1.0
-				uses = 2
-				category = convoy_defense_tree
+				uses = 1
+				category = naval_doctrine
 			}
 		}
 	}
 	focus = {
 		id = USA_fleet_submarines
-		icon = GFX_GENERIC_Attack_Sub
+		icon = GFX_america_domain
 		x = 3
 		y = 1
 		prerequisite = { focus = USA_bureau_of_ships }
 		relative_position_id = USA_bureau_of_ships
-		cost = 3
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-		date>1941.1.1
+
 		}
-		
+
 		bypass = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_fleet_submarines
 				bonus = 1.0
-				uses = 2
-				category = ss_tech
+				uses = 1
+				ahead_reduction = 0.5
+				technology = improved_ship_hull_submarine
+			}			
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				set_technology = { cruiser_submarines = 1 }
 			}
-			
-		}
-	}
-
-	focus = {
-		id = USA_unrestricted_submarine_warfare
-		icon = GFX_GENERIC_Trade_Interdiction
-		x = 3
-		y = 2
-		prerequisite = { focus = USA_fleet_submarines }
-		relative_position_id = USA_bureau_of_ships
-		cost = 3
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		has_navy_size={size<201}
-		date>1942.1.1
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = USA_unrestricted_submarine_warfare
 		}
 	}
 
 	focus = {
 		id = USA_fund_the_navy
-		icon = GFX_GENERIC_Naval_School
+		icon = GFX_usa_navy
 		x = 7
 		y = 1
 		relative_position_id = USA_two_ocean_navy_act
-		cost = 3
+		cost = 5
 		prerequisite = { focus = USA_two_ocean_navy_act }
 		ai_will_do = {
 			factor = 1
@@ -3062,19 +3174,19 @@ focus = {
 				name = USA_fund_the_navy
 				uses = 3
 				bonus = 1.0
-				category = naval_doctrine
+				category = naval_doctrine				  
 			}
 		}
 	}
 
 	focus = {
 		id = USA_expand_the_USMC
-		icon = GFX_USA_USMC
+		icon = GFX_america_goal_usmc
 		prerequisite = { focus = USA_fund_the_navy }
 		x = 0
 		y = 1
 		relative_position_id = USA_fund_the_navy
-		cost = 3
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -3085,7 +3197,7 @@ focus = {
 			add_tech_bonus = {
 				name = USA_expand_the_USMC
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				technology = marines2
 				technology = marines3
 			}
@@ -3094,28 +3206,62 @@ focus = {
 
 	focus = {
 		id = USA_amphibious_operations
-		icon = GFX_goal_generic_amphibious_assault
+		icon = GFX_usa_amphib
 		prerequisite = { focus = USA_expand_the_USMC }
 		x = 0
 		y = 1
 		relative_position_id = USA_expand_the_USMC
-		cost = 3
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
 
 		available_if_capitulated = yes
-		
+
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_amphibious_operations
 				bonus = 1.0
 				uses = 2
-				category = tp_tech 
+				category = tp_tech
 			}
 		}
 	}
+	
+	focus = {
+		id = USA_me262
+		icon = GFX_goal_ger_me262
+		prerequisite = { focus = USA_air_war_plans_division }
+		relative_position_id = USA_air_war_plans_division
+		x = 0
+		y = 2	
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+        available = {
+			date > 1941.10.1
+			
+		}
 
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_technology = { jet_engines = 1 }
+			add_tech_bonus = {
+				name = fighter3_bonus
+				bonus = 0.5
+				uses = 1
+				technology = advanced_small_airframe
+			}			
+			add_tech_bonus = {
+				name = jet_fighter_bonus
+				bonus = 2.5
+				uses = 1
+				technology = modern_small_airframe
+			}		
+		}
+	}
 	
 
 	

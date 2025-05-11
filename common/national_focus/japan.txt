@@ -2048,20 +2048,14 @@ focus_tree = {
 
 	focus = {
 		id = JAP_new_naval_estimates
-		icon = GFX_JAP_Imperial_Navy
-		x = 9
+		icon = GFX_goal_jap_navy
+		x = 11
 		y = 0
 		relative_position_id = JAP_army_expansion_law
 
-		cost = 10
+		cost = 5
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				has_completed_focus = JAP_purge_the_kodoha_faction
-			}
-		}
+
 
 		available = {
 
@@ -2071,11 +2065,10 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		complete_tooltip = {
 			random_state = {
 				limit = {
@@ -2083,7 +2076,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = dockyard
-					level = 5
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -2093,38 +2086,24 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = dockyard
-					level = 5
+					level = 3
 					instant_build = yes
 				}
+			}
+			add_tech_bonus = {
+				name = jap_amphibious_focus
+				ahead_reduction = 5
+				uses = 2
+				technology = mtg_landing_craft
+				technology = mtg_tank_landing_craft
 			}
 		}
 
 		completion_reward = {
-			if = {
-				limit = {
-					not = { has_dlc = "Man the Guns" }
-				}
-				add_tech_bonus = {
-					name = JAP_supremacy_of_the_battlefleet
-					bonus = 1.0
-					uses = 1
-					category = shbb_tech	
-				}
-			}
-			else = {
-				navy_experience = 50
-			}
 			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					is_core_of = ROOT
-					not = {
-						OR = {
-							state = 646
-							state = 645
-							state = 555
-						}
-					}
 					free_building_slots = {
 						building = dockyard
 						size > 1
@@ -2142,14 +2121,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
-					is_core_of = ROOT	
-					not = {
-						OR = {
-							state = 646
-							state = 645
-							state = 555
-						}
-					}				
+					is_core_of = ROOT
 					free_building_slots = {
 						building = dockyard
 						size > 1
@@ -2163,35 +2135,27 @@ focus_tree = {
 					instant_build = yes
 				}
 				set_state_flag = JAP_new_naval_estimates_DY2
-				
-						add_resource = {
-				type = steel
-				amount = 120
-				state = 282
-		    }
-				
+			}
+			add_tech_bonus = {
+				name = jap_amphibious_focus
+				ahead_reduction = 5
+				uses = 2
+				technology = mtg_landing_craft
+				technology = mtg_tank_landing_craft
 			}
 		}
 	}
 
 	focus = {
 		id = JAP_carrier_warfare_experiments
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_JAP_navy
 		prerequisite = { focus = JAP_new_naval_estimates }
-		
 		x = -1
 		y = 1
 		relative_position_id = JAP_new_naval_estimates
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				has_completed_focus = JAP_purge_the_kodoha_faction
-			}
-		}
 
 		available = {
 
@@ -2201,33 +2165,71 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		complete_tooltip = {
+
+		}
+
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_carrier_warfare_experiments
-				bonus = 1.00
+				bonus = 1.0
 				uses = 2
 				category = naval_doctrine
 			}
-		      add_tech_bonus = {
-                name = JAP_carrier_warfare_experiments
-                bonus = 1.00
-                uses = 1
-                category = cv_tech
-        }
-		
-		
-		
+			add_tech_bonus = {
+				name = JAP_carrier_warfare_experiments
+				bonus = 1.5
+				uses = 1
+				category = cv_tech
+			}
+			set_technology = {
+				ship_hull_super_heavy_cv = 1
+			}
+			create_equipment_variant = {
+				name = "Shinano"
+				type = ship_hull_super_heavy_carrier
+				name_group = JAP_CV_HISTORICAL
+				parent_version = 0
+				icon = "GFX_ship_hull_super_heavy_cv"
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = empty
+					fixed_ship_armor_slot = ship_armor_shbb
+					mid_1_custom_slot = ship_deck_space
+					mid_2_custom_slot = ship_deck_space
+					mid_3_custom_slot = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					front_1_custom_slot = ship_deck_space
+				}
+			}
+			custom_effect_tooltip = JAP_Shinano
+			hidden_effect = {
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_super_heavy_carrier
+						creator = "JAP"
+						version_name = "Shinano"
+					}
+					name = "Shinano"
+					requested_factories = 1
+					progress = 0.95
+					amount = 1
+				}
+			}
+			navy_experience = 50
 		}
 	}
 
 	focus = {
 		id = JAP_expand_the_snlf
-		icon = GFX_goal_generic_amphibious_assault
+		icon = GFX_focus_japan_marines
 		prerequisite = { focus = JAP_carrier_warfare_experiments focus = JAP_supremacy_of_the_battlefleet }
 		x = 0
 		y = 2
@@ -2235,13 +2237,7 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				has_completed_focus = JAP_purge_the_kodoha_faction
-			}
-		}
+
 
 		available = {
 
@@ -2251,75 +2247,31 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		complete_tooltip = {
+
+		}
+
 		completion_reward = {
-			add_ideas = JAP_expand_the_snlf	
+			add_ideas = JAP_expand_the_snlf
 			add_tech_bonus = {
 				name = JAP_expand_the_snlf
-				bonus = 2.0
-				uses = 2
-				category = marine_tech	
+				bonus = 1.0
+				uses = 1
+				category = marine_tech
 			}
-			set_technology={jungle_warfare=1}
-				hidden_effect={
-					division_template = {
-					name = "Rikuhentai"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
-					division_names_group = JAP_MAR_01
-					regiments = {
-						marine = { x = 0 y = 0 }
-						marine = { x = 0 y = 1 }
-						marine = { x = 0 y = 2 }
-						marine = { x = 0 y = 3 }
-						artillery_brigade = { x = 0 y = 4 }
-						marine = { x = 1 y = 0 }
-						marine = { x = 1 y = 1 }
-						marine = { x = 1 y = 2 }
-						marine = { x = 1 y = 3 }
-						artillery_brigade = { x = 1 y = 4 }
-						marine = { x = 2 y = 0 }
-						marine = { x = 2 y = 1 }
-						marine = { x = 2 y = 2 }
-						artillery_brigade = { x = 2 y = 3 }
-						marine = { x = 3 y = 0 }
-						marine = { x = 3 y = 1 }
-						marine = { x = 3 y = 2 }
-						artillery_brigade = { x = 3 y = 3 }
-					}
-					support = {
-						engineer = { x = 0 y = 0 }
-						artillery = { x = 0 y = 1 }
-						recon = { x = 0 y = 2  } 
-						anti_air = { x = 0 y = 3  }
-						logistics_company = { x = 0 y = 4  }
-						signal_company = { x = 0 y = 5  }
-						
-					}
-					priority = 2
-				}
-				282 = {
-					for_loop_effect = {
-					end = 20 				
-					create_unit = {
-						division = "name = \"Rikuhentai\" division_template = \"Rikuhentai\" start_experience_factor = 2.0" 
-						owner = JAP
-						}
-					}}
+			hidden_effect = {
+				add_to_variable = { ROOT.SpecOpsLimit = 385 }
 			}
-			custom_effect_tooltip="10 Marine Divisions spawn in Kanto"
-				
-		
-		
-		
-	}	
+		}
 	}
 
 	focus = {
 		id = JAP_first_air_fleet
-		icon = GFX_goal_generic_navy_carrier
+		icon = GFX_first_aircraft
 		prerequisite = { focus = JAP_carrier_warfare_experiments }
 		x = 0
 		y = 2
@@ -2327,12 +2279,42 @@ focus_tree = {
 
 		cost = 5
 
+
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = JAP_first_air_fleet
+			navy_experience = 50
+		}
+	}
+
+	focus = {
+		id = JAP_naval_bomber_effort
+		icon = GFX_JAP_focus_Naval_bomber_eff
+		prerequisite = { focus = JAP_first_air_fleet }
+		x = 0
+		y = 2
+		relative_position_id = JAP_first_air_fleet
+
+		cost = 5
+
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				has_completed_focus = JAP_purge_the_kodoha_faction
-			}
 		}
 
 		available = {
@@ -2343,19 +2325,28 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
+		complete_tooltip = {
+
+		}
 
 		completion_reward = {
-			add_ideas = JAP_first_air_fleet
+			add_tech_bonus = {
+				name = JAP_nav_bomber_effort
+				bonus = 2.0
+				uses = 2
+				technology = air_torpedoe_1
+				technology = air_torpedoe_2
+			}
 		}
 	}
 
 	focus = {
 		id = JAP_modern_escorts
-		icon = GFX_goal_generic_navy_anti_submarine
+		icon = GFX_JAP_modern_escorts
 		prerequisite = { focus = JAP_first_air_fleet focus = JAP_the_ultimate_battleship }
 		x = 1
 		y = 1
@@ -2375,90 +2366,28 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		complete_tooltip = {
+
+		}
+
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_modern_escorts
 				bonus = 1.0
 				uses = 1
-				category = dd_tech	
-			}
-			add_tech_bonus = {
-				name = "Japanese ASW"
-				bonus = 1.0
-				uses = 2
-				category = asw_tech
-			}
-		}
-	}
-	
-	focus = {
-		id = JAP_build_escorts
-		icon = GFX_focus_generic_destroyer
-		prerequisite = { focus = JAP_modern_escorts }
-		x = 0
-		y = 1
-		relative_position_id = JAP_modern_escorts
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			has_tech = improved_ship_hull_light
-			has_tech = improved_sonar
-			has_tech = improved_depth_charges
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = {
-			add_ideas = CAN_degauss_ship_hulls
-			set_technology = {
-				advanced_sonar = 1
-				advanced_depth_charges = 1
-			}
-			create_equipment_variant = {
-				name = "ASW Class"
-				type = ship_hull_light_3
-				name_group = JAP_DD_HISTORICAL
-				parent_version = 0
-				modules={
-					fixed_ship_battery_slot=ship_light_battery_2
-					fixed_ship_fire_control_system_slot=ship_sonar_3
-					fixed_ship_engine_slot=light_ship_engine_3
-					fixed_ship_torpedo_slot=ship_torpedo_2
-					mid_1_custom_slot=ship_depth_charge_3
-					rear_1_custom_slot=ship_depth_charge_3
-					front_1_custom_slot=ship_depth_charge_3
-					fixed_ship_anti_air_slot=ship_anti_air_2
-				}
-			}
-			custom_effect_tooltip="Builds twenty ASW destroyers in Nagasaki"
-			hidden_effect = {
-				load_oob = "JAP_asw_destroyers"
+				category = dd_tech
 			}
 		}
 	}
 
 	focus = {
 		id = JAP_supremacy_of_the_battlefleet
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_JAP_navy
 		prerequisite = { focus = JAP_new_naval_estimates }
-		
 		x = 1
 		y = 1
 		relative_position_id = JAP_new_naval_estimates
@@ -2477,11 +2406,14 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		complete_tooltip = {
+
+		}
+
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_supremacy_of_the_battlefleet
@@ -2489,14 +2421,12 @@ focus_tree = {
 				uses = 1
 				category = bb_tech
 			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = kure_naval_arsenal
 		}
 	}
 
 	focus = {
 		id = JAP_the_ultimate_battleship
-		icon = GFX_focus_JAP_battlefleet
+		icon = GFX_Japanese_Fleet
 		prerequisite = { focus = JAP_supremacy_of_the_battlefleet }
 		x = 0
 		y = 2
@@ -2513,66 +2443,83 @@ focus_tree = {
 		}
 
 		bypass = {
-			AND = {
-				has_tech = ship_hull_super_heavy
-			}
+
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		complete_tooltip = {
+
+		}
+
 		completion_reward = {
-			add_ideas = JAP_big_gun
-			set_technology = {
-				ship_hull_super_heavy = 1
-			}
-			create_equipment_variant = {
-				name = "Yamato Class"
-				type = ship_hull_super_heavy_1
-				name_group = JAP_BB_HISTORICAL
-				parent_version = 0
-				modules = {
-					fixed_ship_battery_slot = ship_super_heavy_battery_1
-					fixed_ship_anti_air_slot = ship_anti_air_2
-					fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-					fixed_ship_radar_slot = empty
-					fixed_ship_engine_slot = heavy_ship_engine_2
-					fixed_ship_secondaries_slot = ship_secondaries_2
-					fixed_ship_armor_slot = ship_armor_shbb
-					front_1_custom_slot = ship_super_heavy_battery_1
-					front_2_custom_slot = ship_super_heavy_battery_1
-					mid_1_custom_slot = ship_anti_air_1
-					mid_2_custom_slot = ship_secondaries_2
-					mid_3_custom_slot = ship_secondaries_2
-					rear_1_custom_slot = ship_super_heavy_battery_1
-					rear_2_custom_slot = ship_airplane_launcher_1
+			if = {
+				limit = {
+					not = { has_dlc = "Man the Guns" }
+				}
+				add_tech_bonus = {
+					name = JAP_the_ultimate_battleship
+					bonus = 3.0
+					uses = 1
+					category = shbb_tech
 				}
 			}
-			custom_effect_tooltip = JAP_yamato_tt
-			hidden_effect = {
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_super_heavy_1
-						creator = "JAP" 
-						version_name = "Yamato Class"
+			else = {
+				if = {
+					set_technology = {
+						ship_hull_super_heavy = 1
+						ship_hull_super_heavy_japtech = 1
 					}
-					name = "Yamato" 
-					requested_factories = 1
-					progress = 0.9
-					amount = 1
 				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_super_heavy_1
-						creator = "JAP" 
-						version_name = "Yamato Class"
+				create_equipment_variant = {
+					name = "Yamato Class"
+					type = ship_hull_super_heavy_jap
+					name_group = JAP_BB_HISTORICAL
+					parent_version = 0
+					icon = "GFX_JAP_ship_hull_super_heavy_1_medium"
+					modules = {
+						fixed_ship_battery_slot = ship_super_heavy_battery_1
+						fixed_ship_anti_air_slot = ship_anti_air_2
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = heavy_ship_engine_2
+						fixed_ship_secondaries_slot = ship_secondaries_2
+						fixed_ship_armor_slot = ship_armor_shbb
+						front_1_custom_slot = ship_super_heavy_battery_1
+						front_2_custom_slot = ship_super_heavy_battery_1
+						mid_1_custom_slot = ship_anti_air_2
+						mid_2_custom_slot = ship_airplane_launcher_2
+						mid_3_custom_slot = ship_airplane_launcher_2
+						rear_1_custom_slot = ship_super_heavy_battery_1
+						rear_2_custom_slot = ship_super_heavy_battery_1
 					}
-					name = "Musashi" 
-					requested_factories = 1
-					progress = 0.9
-					amount = 1
+				}
+				custom_effect_tooltip = JAP_yamato_tt
+				hidden_effect = {
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_super_heavy_jap
+							creator = "JAP"
+							version_name = "Yamato Class"
+						}
+						name = "Gerardo's Pride"
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_super_heavy_jap
+							creator = "JAP"
+							version_name = "Yamato Class"
+						}
+						name = "Gerardo's Joy"
+						requested_factories = 1
+						progress = 0.9
+						amount = 1
+					}
 				}
 			}
 		}
@@ -2580,7 +2527,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_cruiser_modernization
-		icon = GFX_goal_generic_navy_cruiser
+		icon = GFX_JAP_focus_upgrade_cruisers
 		prerequisite = { focus = JAP_new_naval_estimates }
 		x = 3
 		y = 1
@@ -2600,25 +2547,27 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		complete_tooltip = {
+
+		}
+
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_cruiser_modernization
-				bonus = 3.0
+				bonus = 1.5
 				uses = 1
-				category = cl_tech	
-				category = ca_tech	
+				category = ca_tech
 			}
 		}
 	}
 
 	focus = {
 		id = JAP_long_lance_torpedoes
-		icon = GFX_goal_generic_occupy_start_war
+		icon = GFX_Jap_long_lance
 		prerequisite = { focus = JAP_cruiser_modernization }
 		x = 0
 		y = 1
@@ -2638,98 +2587,8 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = {
-			add_ideas = the_long_lance
-		}
-	}
-
-	focus = {
-		id = JAP_torpedo_cruisers
-		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = JAP_long_lance_torpedoes }
-		x = 0
-		y = 1
-		relative_position_id = JAP_long_lance_torpedoes
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			if = {
-				limit = {
-					not = { has_dlc = "Man the Guns" }
-				}
-				set_technology = { torpedo_cruiser = 1 }
-			}
-			else = {
-				set_technology = { torpedo_cruiser_mtg = 1 }
-			}
-		}
-	}	
-		focus = {
-		id = JAP_no_navy_allies
-		icon = GFX_goal_generic_navy_cruiser
-		x = 5
-		y = 7
-		Text = "No Navy Allies"
-		cost = 1
-
-		ai_will_do = {
-			factor = 4
-		}
-
-		available = {
-			date > 1940.9.1
-			date < 1941.1.1
-
-			OR = {
-				AND = {
-					JAP = { num_of_naval_factories > 100 }
-					USA = { num_of_naval_factories < 100 }
-				}
-				AND = {
-					JAP = { num_of_naval_factories > 150 }
-					USA = { num_of_naval_factories < 150 }
-							}	
-				
-				AND = {
-					JAP = { num_of_naval_factories > 200 }
-					USA = { num_of_naval_factories < 200 }
-						}
-					
-						
-						
-					}
-				}
-			
-		
-		bypass = {
-
-		}
-
 		cancel_if_invalid = no
-		continue_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
 		complete_tooltip = {
@@ -2737,9 +2596,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = JAP_no_navy_allies
+			add_ideas = the_long_lance
 		}
 	}
+
+
+
+
 }
 	
 	

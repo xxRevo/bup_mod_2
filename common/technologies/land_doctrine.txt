@@ -2967,8 +2967,6 @@ technologies = {
 			max_organisation = 15
 		}
 		category_line_artillery = {
-			soft_attack = 0.025
-			hard_attack = 0.025
 			max_organisation = 5
 			max_strength = 0.5
 		}

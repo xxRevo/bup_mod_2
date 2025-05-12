@@ -2100,6 +2100,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			282 = {
+				add_resource = {
+					type = steel
+					amount = 120
+				}
+			}
 			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
@@ -2256,17 +2262,60 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = JAP_expand_the_snlf
+			add_ideas = JAP_expand_the_snlf	
 			add_tech_bonus = {
 				name = JAP_expand_the_snlf
-				bonus = 1.0
-				uses = 1
-				category = marine_tech
+				bonus = 2.0
+				uses = 2
+				category = marine_tech	
 			}
-			hidden_effect = {
-				add_to_variable = { ROOT.SpecOpsLimit = 385 }
+			set_technology={jungle_warfare=1}
+				hidden_effect={
+					division_template = {
+					name = "Rikuhentai"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
+					division_names_group = JAP_MAR_01
+					regiments = {
+						marine = { x = 0 y = 0 }
+						marine = { x = 0 y = 1 }
+						marine = { x = 0 y = 2 }
+						marine = { x = 0 y = 3 }
+						artillery_brigade = { x = 0 y = 4 }
+						marine = { x = 1 y = 0 }
+						marine = { x = 1 y = 1 }
+						marine = { x = 1 y = 2 }
+						marine = { x = 1 y = 3 }
+						artillery_brigade = { x = 1 y = 4 }
+						marine = { x = 2 y = 0 }
+						marine = { x = 2 y = 1 }
+						marine = { x = 2 y = 2 }
+						artillery_brigade = { x = 2 y = 3 }
+						marine = { x = 3 y = 0 }
+						marine = { x = 3 y = 1 }
+						marine = { x = 3 y = 2 }
+						artillery_brigade = { x = 3 y = 3 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						recon = { x = 0 y = 2  } 
+						anti_air = { x = 0 y = 3  }
+						logistics_company = { x = 0 y = 4  }
+						signal_company = { x = 0 y = 5  }
+						
+					}
+					priority = 2
+				}
+				282 = {
+					for_loop_effect = {
+					end = 20 				
+					create_unit = {
+						division = "name = \"Rikuhentai\" division_template = \"Rikuhentai\" start_experience_factor = 2.0" 
+						owner = JAP
+						}
+					}}
 			}
-		}
+			custom_effect_tooltip="10 Marine Divisions spawn in Kanto"
+		}	
 	}
 
 	focus = {

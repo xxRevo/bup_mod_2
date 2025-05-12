@@ -617,53 +617,84 @@ characters={
 		}
 	}
 
-	USA_ernest_king={
-		name=USA_ernest_king
-		portraits={
-			navy={
-				small="GFX_idea_ernest_king"
+	USA_ernest_king = {
+		name = USA_ernest_king
+		portraits = {
+			navy = {
+				small = "GFX_idea_ernest_king"
 			}
-			army={
-				large=GFX_portrait_USA_ernest_king
+			army = {
+				large = GFX_portrait_USA_ernest_king
 			}
 		}
-		advisor={
+		advisor = {
 			slot = navy_chief
-			idea_token = ernest_king
+			idea_token = ernest_king_1
 			allowed = {
 				original_tag = USA
 			}
 			traits = {
-				navy_chief_reform_2
+				anglophobe
 			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
+			can_be_fired = no
+			cost = 0
+			visible = {
+				always = no
 			}
-		}
-
-		navy_leader={
-			traits = { caustic_personality blockade_runner superior_tactician }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			maneuvering_skill = 3
-			coordination_skill = 6
-			legacy_id=0
 		}
 	}
-
-	USA_chester_w_nimitz={
-		name=USA_chester_w_nimitz
-		portraits={
-			army={
-				large=GFX_portrait_USA_chester_w_nimitz
+	ernest_king_2 = {
+		name = ernest_king_2
+		portraits = {
+			navy = {
+				small = "GFX_idea_ernest_king"
 			}
-			army={
-				small="GFX_idea_chester_nimitz"
+			army = {
+				large = GFX_portrait_USA_ernest_king
 			}
 		}
-		advisor={
+		advisor = {
+			slot = navy_chief
+			idea_token = ernest_king_2
+			allowed = {
+				original_tag = USA
+			}
+			#visible = { always = yes }
+			cost = 150
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+		}
+		navy_leader = {
+			traits = {
+				navy_career_officer
+				fleet_protector
+				ironside
+				ground_pounder
+				big_guns_expert
+				caustic_personality
+				blockade_runner
+				superior_tactician
+			}
+			skill = 5
+			attack_skill = 10
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+	USA_chester_w_nimitz = {
+		name = USA_chester_w_nimitz
+		portraits = {
+			army = {
+				large = GFX_portrait_USA_chester_w_nimitz
+			}
+			army = {
+				small = "GFX_idea_chester_nimitz"
+			}
+		}
+		advisor = {
 			slot = navy_chief
 			idea_token = chester_nimitz
 			allowed = {
@@ -672,45 +703,78 @@ characters={
 			traits = {
 				navy_chief_commerce_raiding_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
-				factor = 1.000
+				factor = 1
 			}
 		}
-
-		navy_leader={
-			traits = { gentlemanly blue_water_expert naval_lineage}
+	}
+	USA_chester_w_nimitz_2 = {
+		name = USA_chester_w_nimitz_2
+		portraits = {
+			army = {
+				large = GFX_portrait_USA_chester_w_nimitz
+			}
+			army = {
+				small = "GFX_idea_chester_nimitz"
+			}
+		}
+		navy_leader = {
+			visible = {
+				has_completed_focus = Nimitz
+			}
+			traits = {
+				gunnery_expert
+				battleship_adherent
+				bold
+				superior_tactician
+				spotter
+				ironside
+				inshore_fighter
+				navy_career_officer
+				aviation_enthusiast
+				air_controller
+				blue_water_expert
+			}
 			skill = 9
+			attack_skill = 7
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 10
+		}
+	}
+	USA_william_halsey_jr = {
+		name = USA_william_halsey_jr
+		portraits = {
+			navy = {
+				large = GFX_portrait_USA_william_halsey_jr
+				small = GFX_portrait_USA_william_halsey_jr_small
+			}
+			army = {
+				large = GFX_portrait_USA_william_halsey_jr
+				small = GFX_portrait_USA_william_halsey_jr_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				gunnery_expert
+				battleship_adherent
+				bold
+				superior_tactician
+				spotter
+				ironside
+				inshore_fighter
+				navy_career_officer
+				aviation_enthusiast
+				air_controller
+			}
+			skill = 7
 			attack_skill = 6
 			defense_skill = 4
 			maneuvering_skill = 5
-			coordination_skill = 7
-			legacy_id=0
+			coordination_skill = 6
 		}
-	}
-
-	USA_william_halsey_jr={
-		name=USA_william_halsey_jr
-		portraits={
-			navy={
-				large=GFX_portrait_USA_william_halsey_jr
-				small=GFX_portrait_USA_william_halsey_jr_small
-			}
-			army={
-				large=GFX_portrait_USA_william_halsey_jr
-				small=GFX_portrait_USA_william_halsey_jr_small
-			}
-		}
-		navy_leader={
-			traits={ bold aviation_enthusiast superior_tactician spotter }
-			skill = 8
-			attack_skill = 6
-			defense_skill = 3
-			maneuvering_skill = 7
-			coordination_skill = 3
-			legacy_id=0
-		}
-		advisor={
+		advisor = {
 			slot = navy_chief
 			idea_token = william_halsey
 			allowed = {
@@ -719,24 +783,23 @@ characters={
 			traits = {
 				navy_chief_naval_aviation_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
-				factor = 1.000
+				factor = 1
 			}
 		}
 	}
-
-	USA_frank_jack_fletcher={
-		name=USA_frank_jack_fletcher
-		portraits={
-			navy={
-				small="GFX_idea_frank_jack_fletcher"
+	USA_frank_jack_fletcher = {
+		name = USA_frank_jack_fletcher
+		portraits = {
+			navy = {
+				small = "GFX_idea_frank_jack_fletcher"
 			}
-			army={
-				large=GFX_portrait_USA_frank_jack_fletcher
+			army = {
+				large = GFX_portrait_USA_frank_jack_fletcher
 			}
 		}
-		advisor={
+		advisor = {
 			slot = high_command
 			idea_token = frank_jack_fletcher
 			ledger = air
@@ -746,32 +809,35 @@ characters={
 			traits = {
 				navy_carrier_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
-				factor = 1.000
+				factor = 1
 			}
 		}
-
-		navy_leader={
-			traits = { superior_tactician spotter ironside }
-			skill = 5
+		navy_leader = {
+			traits = {
+				aviation_enthusiast
+				fly_swatter
+				spotter
+				superior_tactician
+				air_controller
+			}
+			skill = 7
 			attack_skill = 5
 			defense_skill = 5
-			maneuvering_skill = 3
-			coordination_skill = 3
-			legacy_id=0
+			maneuvering_skill = 5
+			coordination_skill = 2
 		}
 	}
-
-	USA_raymond_a_spruance={
-		name=USA_raymond_a_spruance
-		portraits={
-			army={
-				large=GFX_portrait_USA_raymond_a_spruance
-				small=GFX_portrait_USA_raymond_a_spruance_small
+	USA_raymond_a_spruance = {
+		name = USA_raymond_a_spruance
+		portraits = {
+			army = {
+				large = GFX_portrait_USA_raymond_a_spruance
+				small = GFX_portrait_USA_raymond_a_spruance_small
 			}
 		}
-		advisor={
+		advisor = {
 			slot = high_command
 			idea_token = raymond_spruance
 			ledger = navy
@@ -781,75 +847,94 @@ characters={
 			traits = {
 				navy_naval_air_defense_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
-				factor = 1.000
+				factor = 1
 			}
 		}
-		navy_leader={
-			traits = { gentlemanly superior_tactician fly_swatter }
+		navy_leader = {
+			traits = {
+				gentlemanly
+				navy_career_officer
+				superior_tactician
+			}
 			skill = 4
 			attack_skill = 4
-			defense_skill = 5
+			defense_skill = 3
 			maneuvering_skill = 3
 			coordination_skill = 3
-			legacy_id=0
+			legacy_id = 0
 		}
 	}
-
-	USA_harold_rainsford_stark={
-		name=USA_harold_rainsford_stark
-		portraits={
-			army={
-				large=GFX_portrait_USA_harold_rainsford_stark
-				small=GFX_portrait_USA_harold_rainsford_stark_small
+	USA_harold_rainsford_stark = {
+		name = USA_harold_rainsford_stark
+		portraits = {
+			army = {
+				large = GFX_portrait_USA_harold_rainsford_stark
+				small = GFX_portrait_USA_harold_rainsford_stark_small
 			}
 		}
-		navy_leader={
-			traits = { cuts_corners blockade_runner spotter seawolf }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 7
-			legacy_id=0
+		navy_leader = {
+			traits = {
+				cuts_corners
+				blockade_runner
+				spotter
+			}
+			traits = {
+				gentlemanly
+				superior_tactician
+				fly_swatter
+				air_controller
+				blue_water_expert
+			}
+			skill = 7
+			attack_skill = 6
+			defense_skill = 6
+			maneuvering_skill = 5
+			coordination_skill = 5
 		}
 	}
-
-	USA_arleigh_burke={
-		name=USA_arleigh_burke
-		portraits={
-			army={
-				large=GFX_portrait_USA_arleigh_burke
-				small=GFX_portrait_USA_arleigh_burke_small
+	USA_arleigh_burke = {
+		name = USA_arleigh_burke
+		portraits = {
+			army = {
+				large = GFX_portrait_USA_arleigh_burke
+				small = GFX_portrait_USA_arleigh_burke_small
 			}
 		}
-		navy_leader={
-			traits={ old_guard_navy bold fleet_protector superior_tactician }
-			skill=4
-			attack_skill=3
-			defense_skill=3
-			maneuvering_skill=3
-			coordination_skill=4
-			legacy_id=0
-		}
-	}
-
-	USA_charles_m_cooke_jr={
-		name=USA_charles_m_cooke_jr
-		portraits={
-			army={
-				large=GFX_portrait_USA_charles_m_cooke_jr
-				small=GFX_portrait_USA_charles_m_cooke_jr_small
+		navy_leader = {
+			traits = {
+				old_guard_navy
+				bold
+				fleet_protector
+				superior_tactician
 			}
-		}
-		navy_leader={
-			traits = { fleet_protector superior_tactician }
-			skill = 6
-			attack_skill = 7
+			skill = 4
+			attack_skill = 3
 			defense_skill = 3
-			maneuvering_skill = 8
+			maneuvering_skill = 3
 			coordination_skill = 4
+			legacy_id = 0
+		}
+	}
+	USA_charles_m_cooke_jr = {
+		name = USA_charles_m_cooke_jr
+		portraits = {
+			army = {
+				large = GFX_portrait_USA_charles_m_cooke_jr
+				small = GFX_portrait_USA_charles_m_cooke_jr_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				navy_career_officer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id = 0
 		}
 	}
 

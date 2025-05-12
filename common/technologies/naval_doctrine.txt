@@ -42,8 +42,10 @@
 		}
 		
 
+		xp_research_type = navy
+		xp_unlock_cost = 100
 		doctrine = yes	
-		research_cost = 0.01
+		research_cost = 0.1
 		
 		categories = {
 			naval_doctrine
@@ -815,8 +817,10 @@
 		}
 		
 
+		xp_research_type = navy
+		xp_unlock_cost = 100
 		doctrine = yes	
-		research_cost = 0.01 
+		research_cost = 0.1
 		
 		categories = {
 			naval_doctrine
@@ -1584,8 +1588,10 @@
 		}
 		
 
+		xp_research_type = navy
+		xp_unlock_cost = 100
 		doctrine = yes	
-		research_cost = 0.01 
+		research_cost = 0.1
 		
 		categories = {
 			naval_doctrine

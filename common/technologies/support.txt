@@ -891,7 +891,7 @@ technologies = {
 		armored_maintenance = {
 			reliability_factor = 0.02
 			recovery = 0.03
-			equipment_capture_factor = 0.1
+			equipment_capture_factor = 0.05
 		}
 
 		enable_equipment_modules = {
@@ -940,14 +940,6 @@ technologies = {
 
 		maintenance_company = {
 			reliability_factor = 0.05
-
-			battalion_mult = {
-				category = category_all_armor
-				equipment_capture_factor = 0.01
-				add = yes
-				display_as_percentage = yes
-			}
-
 		}
 
 		armored_maintenance = {
@@ -956,7 +948,7 @@ technologies = {
 
 			battalion_mult = {
 				category = category_all_armor
-				equipment_capture_factor = 0.02
+				equipment_capture_factor = 0.05
 				add = yes
 				display_as_percentage = yes
 			}

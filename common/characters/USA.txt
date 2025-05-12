@@ -629,32 +629,6 @@ characters={
 		}
 		advisor = {
 			slot = navy_chief
-			idea_token = ernest_king_1
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				anglophobe
-			}
-			can_be_fired = no
-			cost = 0
-			visible = {
-				always = no
-			}
-		}
-	}
-	ernest_king_2 = {
-		name = ernest_king_2
-		portraits = {
-			navy = {
-				small = "GFX_idea_ernest_king"
-			}
-			army = {
-				large = GFX_portrait_USA_ernest_king
-			}
-		}
-		advisor = {
-			slot = navy_chief
 			idea_token = ernest_king_2
 			allowed = {
 				original_tag = USA
@@ -684,6 +658,7 @@ characters={
 			legacy_id = 0
 		}
 	}
+	
 	USA_chester_w_nimitz = {
 		name = USA_chester_w_nimitz
 		portraits = {

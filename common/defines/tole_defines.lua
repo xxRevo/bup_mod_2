@@ -210,6 +210,28 @@ NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.15
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.05
 NDefines.NMilitary.DIG_IN_FACTOR = 0.01
 NDefines.NMilitary.NAVAL_INVASION_PLANNING_BONUS_GAIN = 0.1
+NDefines.NMilitary.PIERCING_THRESHOLDS = {
+	1.00,
+	0.90,
+	0.80,
+	0.70,
+	0.60,
+	0.50,
+	0.40,
+	0.30,
+	0.00
+}
+NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = {
+	1.00,
+	0.95,
+	0.85,
+	0.75,
+	0.65,
+	0.55,
+	0.45,
+	0.35,
+	0.25
+}
 
 --naval defines
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0

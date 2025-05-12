@@ -94,6 +94,26 @@ ENG = {
     }
     #)#
     #)# medium tank end
+    heavy_tank_chassis_2 = {
+        pool = {
+            weight = 3
+            models = { geo_m4a3e8_USA_entity }
+        }
+        pool = {
+            weight = 2
+            models = { }
+        }
+    }
+    heavy_tank_chassis_3 = {
+        pool = {
+            weight = 3
+            models = { geo_m4a3e8_USA_entity }
+        }
+        pool = {
+            weight = 2
+            models = { }
+        }
+    }
 }
 #)# ENG End
 #(# RAJ Start
@@ -205,6 +225,26 @@ CAN = {
         pool = {
             weight = 4
             models = { geo_fireflyVC_ENG_entity }
+        }
+    }
+    heavy_tank_chassis_2 = {
+        pool = {
+            weight = 3
+            models = { geo_m4a3e8_USA_entity }
+        }
+        pool = {
+            weight = 2
+            models = { }
+        }
+    }
+    heavy_tank_chassis_3 = {
+        pool = {
+            weight = 3
+            models = { geo_m4a3e8_USA_entity }
+        }
+        pool = {
+            weight = 2
+            models = { }
         }
     }
 }
@@ -391,6 +431,26 @@ NZL = {
             models = { geo_fireflyVC_ENG_entity }
         }
     }
+    heavy_tank_chassis_2 = {
+        pool = {
+            weight = 3
+            models = { geo_m4a3e8_USA_entity }
+        }
+        pool = {
+            weight = 2
+            models = { }
+        }
+    }
+    heavy_tank_chassis_3 = {
+        pool = {
+            weight = 3
+            models = { geo_m4a3e8_USA_entity }
+        }
+        pool = {
+            weight = 2
+            models = { }
+        }
+    }
 }
 SAF = {
     light_tank_chassis_2 = {
@@ -481,6 +541,26 @@ SAF = {
         pool = {
             weight = 4
             models = { geo_fireflyVC_ENG_entity }
+        }
+    }
+    heavy_tank_chassis_2 = {
+        pool = {
+            weight = 3
+            models = { geo_m4a3e8_USA_entity }
+        }
+        pool = {
+            weight = 2
+            models = { }
+        }
+    }
+    heavy_tank_chassis_3 = {
+        pool = {
+            weight = 3
+            models = { geo_m4a3e8_USA_entity }
+        }
+        pool = {
+            weight = 2
+            models = { }
         }
     }
 }

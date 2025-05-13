@@ -209,6 +209,42 @@ equipments = {
 		build_cost_ic = 2
 		reliability = 0.95
 		armor_value = 15
+		module_count_limit = {
+			module = tank_high_velocity_cannon
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_high_velocity_cannon_3
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_high_velocity_cannon_2
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_medium_cannon_3
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_medium_cannon_2
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_heavy_cannon_3
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_heavy_cannon_2
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_heavy_howitzer
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_medium_howitzer_2
+			count < 1
+		}
 	}
 
 	light_tank_chassis_2 = {
@@ -226,6 +262,42 @@ equipments = {
 		armor_value = 20
 		resources = {
 			steel = 1
+		}
+		module_count_limit = {
+			module = tank_high_velocity_cannon
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_high_velocity_cannon_3
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_high_velocity_cannon_2
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_medium_cannon_3
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_medium_cannon_2
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_heavy_cannon_3
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_heavy_cannon_2
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_heavy_howitzer
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_medium_howitzer_2
+			count < 1
 		}
 	}
 
@@ -436,6 +508,38 @@ equipments = {
 		resources = {
 			steel = 2
 			tungsten = 2
+		}
+		module_count_limit = {
+			module = tank_high_velocity_cannon_3
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_high_velocity_cannon_2
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_medium_cannon_3
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_medium_cannon_2
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_heavy_cannon_3
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_heavy_cannon_2
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_heavy_howitzer
+			count < 1
+		}
+		module_count_limit = {
+			module = tank_medium_howitzer_2
+			count < 1
 		}
 	}
 

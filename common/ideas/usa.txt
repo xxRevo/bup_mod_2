@@ -27,7 +27,7 @@ ideas = {
 			air_cas_present_factor = 0.2
 			amphibious_invasion = 0.1
 			invasion_preparation = -0.25
-land_reinforce_rate = 0.1
+			land_reinforce_rate = 0.1
 		}
 			targeted_modifier = {
 			tag = ITA

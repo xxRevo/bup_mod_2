@@ -1781,6 +1781,7 @@ date > 1943.1.1
 			add_ideas = USA_war_plans_1
 
 	}
+}
 	focus = {
 		id = USA_war_plan_black
 		icon = GFX_focus_attack_germany

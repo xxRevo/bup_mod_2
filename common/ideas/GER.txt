@@ -1315,6 +1315,25 @@ ideas = {
 			}
 		}
 
+		GER_barbarossa_building = {
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = EST_exploit_the_banks
+
+			modifier = {
+				production_speed_air_base_factor = 1 	
+				production_speed_rail_way_factor = 1
+			}
+		}
+
 		GER_mefo_bills_1 = {
 			name = GER_mefo_bills
 			allowed = {

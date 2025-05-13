@@ -9381,7 +9381,7 @@ focus = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ANNEXATION }
 
 		completion_reward = {
-
+			
 			SOV = {
 				add_timed_idea = {
    					 idea = SOV_airports_devastated
@@ -9409,7 +9409,13 @@ focus = {
 				}
 			}
 			sound_effect = barbarossa_begin
-			GER={declare_war_on = { target = SOV type = annex_everything }}
+			GER={
+					add_timed_idea = {
+					idea = GER_barbarossa_building
+					days = 90	
+				}
+				declare_war_on = { target = SOV type = annex_everything }
+			}
 			IF = {
 				limit = {
 					KUB = {

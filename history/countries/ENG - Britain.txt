@@ -63,7 +63,9 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.1
 add_command_power = 20
-
+118 = {
+	add_dynamic_modifier = { modifier = natural_fortress }
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

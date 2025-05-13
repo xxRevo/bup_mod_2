@@ -1,4 +1,172 @@
 on_actions = {
+    on_startup = {
+        effect = {
+            set_variable = { global.pacific_superiority = 0.0 }
+            set_variable = { global.pacific_superiority_neg = 0.0 }
+            USA = {
+                add_dynamic_modifier = { modifier = pacific_superiority_idea }
+            }
+            ENG = {
+                add_dynamic_modifier = { modifier = pacific_superiority_idea }
+            }
+            FRA = {
+                add_dynamic_modifier = { modifier = pacific_superiority_idea }
+            }
+            RAJ = {
+                add_dynamic_modifier = { modifier = pacific_superiority_idea }
+            }
+            AST = {
+                add_dynamic_modifier = { modifier = pacific_superiority_idea }
+            }
+            NZL = {
+                add_dynamic_modifier = { modifier = pacific_superiority_idea }
+            }
+            CAN = {
+                add_dynamic_modifier = { modifier = pacific_superiority_idea }
+            }
+            SAF = {
+                add_dynamic_modifier = { modifier = pacific_superiority_idea }
+            }
+        }
+    }
+    
+    on_state_control_changed = {
+        effect = {
+            if = {
+                limit = {
+                    tag = JAP
+                    FROM.FROM = {
+                        OR = {
+                            # JAP EASY
+                            state = 995
+                            state = 640
+                            state = 990
+                            state = 336
+                            state = 672
+                            state = 335
+                            state = 667
+                            state = 334
+                            state = 333
+                            state = 673
+                            state = 668
+                            state = 738
+                            state = 638
+                            state = 627
+                            state = 327
+                            # JAP MID
+                            state = 430
+                            state = 431
+                            state = 435
+                            state = 422
+                            state = 669
+                            state = 979
+                            state = 523
+                            state = 737
+                            state = 634
+                            state = 635
+                            state = 734
+                            state = 636
+                            state = 643
+                            state = 639
+                            state = 725
+                            state = 726
+                            state = 632
+                            state = 631
+                            state = 650
+                            state = 630
+                            state = 642
+                            # JAP HARD
+                            state = 727
+                            state = 641
+                            state = 427
+                            state = 425
+                            state = 429
+                            state = 428
+                            state = 443
+                            state = 438
+                            state = 439
+                            state = 629
+                            state = 522
+                            state = 519
+                            state = 517
+                            state = 285
+                            state = 521
+                            state = 520
+                        }
+                    }
+                }
+                subtract_from_variable = { var = global.pacific_superiority value = 0.006 }
+                add_to_variable = { var = global.pacific_superiority_neg value = 0.006 }
+            }
+            if = {
+                limit = {
+                    FROM = { tag = JAP }
+                    FROM.FROM = {
+                        OR = {
+                            # JAP EASY
+                            state = 995
+                            state = 640
+                            state = 990
+                            state = 336
+                            state = 672
+                            state = 335
+                            state = 667
+                            state = 334
+                            state = 333
+                            state = 673
+                            state = 668
+                            state = 738
+                            state = 638
+                            state = 627
+                            state = 327
+                            # JAP MID
+                            state = 430
+                            state = 431
+                            state = 435
+                            state = 422
+                            state = 669
+                            state = 979
+                            state = 523
+                            state = 737
+                            state = 634
+                            state = 635
+                            state = 734
+                            state = 636
+                            state = 643
+                            state = 639
+                            state = 725
+                            state = 726
+                            state = 632
+                            state = 631
+                            state = 650
+                            state = 630
+                            state = 642
+                            # JAP HARD
+                            state = 727
+                            state = 641
+                            state = 427
+                            state = 425
+                            state = 429
+                            state = 428
+                            state = 443
+                            state = 438
+                            state = 439
+                            state = 629
+                            state = 522
+                            state = 519
+                            state = 517
+                            state = 285
+                            state = 521
+                            state = 520
+                        }
+                    }
+                }
+                add_to_variable = { var = global.pacific_superiority value = 0.006 }
+                subtract_from_variable = { var = global.pacific_superiority_neg value = 0.006 }
+            }
+        }
+    }
+
     on_capitulation = {
         # Partition of Poland
         effect = {

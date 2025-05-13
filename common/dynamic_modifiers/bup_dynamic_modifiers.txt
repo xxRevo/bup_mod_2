@@ -1,0 +1,34 @@
+natural_fortress = {
+    icon = GFX_modifiers_generic_defense
+    enable = { always = yes }
+    army_defence_factor = 0.25
+    max_dig_in_factor = 1
+    cas_damage_reduction = 0.5
+}
+
+defend_motherland = {
+    icon = GFX_modifiers_SOV_defend_moscow
+    enable = { always = yes }
+    dig_in_speed_factor = 0.5  	
+    max_dig_in_factor = 0.5
+}
+
+pacific_superiority_idea = {
+    icon = GFX_idea_GER_proud_eagle_that_ate_the_sun
+    enable = { always = yes }
+    remove_trigger = {
+        JAP = {
+            has_capitulated = yes
+        }
+    }
+    custom_modifier_tooltip = war_in_pacific_tt
+
+    stability_factor = global.pacific_superiority
+    war_support_factor = global.pacific_superiority
+    production_speed_buildings_factor = global.pacific_superiority
+    industrial_capacity_factory = global.pacific_superiority
+    industrial_capacity_dockyard = global.pacific_superiority_neg
+    production_speed_synthetic_refinery_factor = global.pacific_superiority
+
+}
+

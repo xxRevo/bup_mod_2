@@ -212,4 +212,6 @@
  CAN_fleet_coop_desc:0 "Ultimately, the fleet is needed to support the land forces. We must include the air-land-navy cooperation iff we wantt to succeed in fighting in the Pacific theatre!"
  CAN_pacific_area_navy:0 "Pacific Area Navy"
  CAN_pacific_area_navy_desc:0 "Though His Majesty fights for survival in Europe, our immediate priority should be a navy that can fight our enemies here in the Pacific. We must develop strategies that are in line with that objective."
-
+ natural_fortress:0 "Natural Fortress"
+ pacific_superiority_idea:0 "§4War In The Pacific§!"
+ war_in_pacific_tt:0 "§4The War in the Pacific is taking its toll on our nation, we must end the Japanese supremacy in the Pacific.\n§!"

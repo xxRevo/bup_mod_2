@@ -20,7 +20,7 @@ mio_policy_land_armor_welding_specialists = {
 	equipment_bonus = {
 		same_as_mio = {
 			armor_value = 0.15
-			build_cost_ic = 0.025
+			build_cost_ic = 0.05
 		}
 	}
 }

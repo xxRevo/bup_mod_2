@@ -424,7 +424,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
-
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = light_fighter
+			}
 			add_research_slot = 1
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -8032,7 +8036,9 @@ focus = {
 		y = 1
 		relative_position_id = GER_molotov_ribbentrop_pact
 		cost = 1
-
+		available = {
+			date > 1939.8.1
+		}
 		will_lead_to_war_with = POL
 
 		bypass = {

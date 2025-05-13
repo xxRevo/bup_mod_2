@@ -295,7 +295,7 @@ NDefines.NNavy.RESOURCE_LENDLEASE_PRIORITY = 5								-- Default convoy priority
 NDefines.NNavy.RESOURCE_EXPORT_PRIORITY = 3									-- Default convoy priority for export trade                   - was 4 in vanilla
 NDefines.NNavy.RESOURCE_ORIGIN_PRIORITY = 4									-- Default convoy priority for resources shipped internally   - was 5 in vanilla
 NDefines.NNavy.DETECTION_CHANCE_MULT_BASE = 0.025 -- Vanilla was 0.1, lowered to avoid battles happening consecutively
-NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.40
+NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.25
 
 NDefines.NNavy.HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT							= 0.008 -- vanilla was 0.1 -- heavy gun attack value is divided by this value * 100 and added to shore bombardment modifier 
 NDefines.NNavy.LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT							= 0.002 -- vanilla was 0.05 -- light gun attack value is divided by this value * 100 and added to shore bombardment modifier 

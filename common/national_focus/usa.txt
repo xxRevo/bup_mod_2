@@ -85,6 +85,10 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 			add_ideas = USA_new_deal
+		  annex_country = {
+         	 target = PHI
+         	 transfer_troops = no
+          	}
 		}
 	}
 
@@ -1707,7 +1711,10 @@ focus_tree = {
 		}
 
 		available = {
+OR = {
+date > 1942.1.1
 
+	}
 		}
 		
 		bypass = {
@@ -1720,6 +1727,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = USA_intervention_in_europe
+
+
 		}
 	}
 	
@@ -1731,13 +1740,33 @@ focus_tree = {
 		prerequisite = { focus = USA_intervention_in_europe }
 		relative_position_id = USA_intervention_in_europe
 		cost = 5
-
 		ai_will_do = {
 			factor = 1
 		}
 	
 		available = {
-			
+OR = {
+date > 1943.1.1
+	OR = {
+		NOT = {
+			SOV = { 
+				controls_state = 219
+				}
+	}
+		NOT = {
+
+			SOV = { 
+				controls_state = 195
+				}
+}
+		NOT = {
+
+			SOV = { 
+				controls_state = 217
+				}
+}
+		}
+	}		
 		}
 			
 		bypass = {
@@ -1749,15 +1778,36 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			unlock_decision_tooltip = { decision = USA_execute_war_plan_silver show_effect_tooltip = yes show_modifiers = yes }
-		}
+			add_ideas = USA_war_plans_1
+
 	}
 	focus = {
 		id = USA_war_plan_black
 		icon = GFX_focus_attack_germany
 		prerequisite = { focus = USA_intervention_in_europe }
 		available = {
-		
+OR = {
+date > 1943.1.1
+	OR = {
+		NOT = {
+			SOV = { 
+				controls_state = 219
+				}
+	}
+		NOT = {
+
+			SOV = { 
+				controls_state = 195
+				}
+}
+		NOT = {
+
+			SOV = { 
+				controls_state = 217
+				}
+}
+		}
+	}		
 		ITA ={ not ={has_full_control_of_state = 448}}
 		}
 
@@ -1772,10 +1822,11 @@ focus_tree = {
 		#	factor = 1
 		#}
 		completion_reward = {
+			add_ideas = USA_war_plans_2
+
 			GER = {
 				add_opinion_modifier = { target = USA modifier = war_plan_black }
 			}
-			unlock_decision_tooltip = { decision = USA_execute_war_plan_black show_effect_tooltip = yes show_modifiers = yes }
 		}
 	}
 	

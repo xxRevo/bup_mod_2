@@ -54,6 +54,7 @@ set_stability = 0.75
 set_war_support = 0
 add_command_power = 20
 
+
 set_variable = { var = senators_support value = 48 }
 set_variable = { var = senators_total value = 96 }
 set_variable = { var = representatives_support value = 218 }
@@ -198,6 +199,43 @@ if = {
 #	give_guarantee = ARG
 #	give_guarantee = URG
 #}
+
+add_intel = {
+	target = ENG
+	civilian_intel = 1000
+	army_intel = 1000
+	navy_intel = 1000
+	airforce_intel = 1000
+}
+
+add_intel = {
+	target = SOV
+	civilian_intel = 1000
+	army_intel = 1000
+	navy_intel = 1000
+	airforce_intel = 1000
+}
+add_intel = {
+	target = AST
+	civilian_intel = 1000
+	army_intel = 1000
+	navy_intel = 1000
+	airforce_intel = 1000
+}
+add_intel = {
+	target = RAJ
+	civilian_intel = 1000
+	army_intel = 1000
+	navy_intel = 1000
+	airforce_intel = 1000
+}
+add_intel = {
+	target = CAN
+	civilian_intel = 1000
+	army_intel = 1000
+	navy_intel = 1000
+	airforce_intel = 1000
+}
 
 
 1939.1.1 = {

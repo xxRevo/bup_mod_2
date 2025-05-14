@@ -1510,8 +1510,8 @@ technologies = {
 			cannon_defense_turret_2x
 		}
 		
-		research_cost = 1.5
-		start_year = 2021
+		research_cost = 1
+		start_year = 1943
 
 		folder = {
 			name = bba_air_techs_folder

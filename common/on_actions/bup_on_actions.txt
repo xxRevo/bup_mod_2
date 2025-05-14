@@ -168,6 +168,16 @@ on_actions = {
                             state = 285
                             state = 521
                             state = 520
+                            
+                            # JAP DEF
+                            state = 524
+                            state = 526
+                            state = 645
+                            state = 646
+                            state = 647
+                            state = 684
+                            state = 633
+                            state = 648
                         }
                     }
                 }

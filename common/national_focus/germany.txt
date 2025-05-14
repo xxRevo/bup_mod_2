@@ -7613,6 +7613,9 @@ focus = {
 		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 producer = AUS }
+			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 3000 producer = AUS }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 1500 producer = AUS }
 			HUN {
 				transfer_state = 70
 				transfer_state = 71
@@ -8088,6 +8091,9 @@ focus = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ANNEXATION }
 		
 		completion_reward = {
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 20000 producer = AUS }
+			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = AUS }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 800 producer = AUS }
 			sound_effect = ww2_begins
 			ENG = {
 				add_to_faction = POL

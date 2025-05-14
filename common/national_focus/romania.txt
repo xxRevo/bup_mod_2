@@ -3315,7 +3315,6 @@ focus = {
 					add_tech_bonus = {
 						name = ROM_iar_80
 						bonus = 1.0
-						ahead_reduction = 2
 						uses = 1
 						category = light_fighter
 					}
@@ -3323,7 +3322,6 @@ focus = {
 						add_tech_bonus = {
 							name = ROM_iar_80
 							bonus = 1.0
-							ahead_reduction = 2
 							uses = 1
 							technology = fighter2
 						}
@@ -3339,7 +3337,6 @@ focus = {
 					add_tech_bonus = {
 						name = ROM_iar_80
 						bonus = 1.0
-						ahead_reduction = 2
 						uses = 1
 						technology = improved_small_airframe
 					}
@@ -4178,7 +4175,7 @@ focus = {
 			add_tech_bonus = {
 				name = ROM_the_maresal
 				bonus = 1.0
-				ahead_reduction = 2
+				ahead_reduction = 1
 				uses = 1
 				category = cat_heavy_armor
 			}

@@ -49,28 +49,89 @@ ideas = {
 	country = {
 		
 		JAP_banzai = {
-		 
-		 picture = generic_infantry_bonus
-		 allowed = {
+
+			picture = JAP_Hakko_Ichiu
+			allowed = {
 				always = no
 			}
-		 
-		 removal_cost = -1
-		 allowed_civil_war = {
+
+			removal_cost = -1
+			allowed_civil_war = {
 				always = yes
 			}
-		 modifier = {
-				amphibious_invasion = 0.5
-				invasion_preparation = -0.5
-				land_reinforce_rate = 0.1
-				special_forces_attack_factor = 0.25
-				special_forces_defence_factor = 0.25
-				army_core_attack_factor = 0.45
-				army_core_defence_factor = 0.45
-		 
-		 
-		 }
-		 }
+			modifier = {
+				amphibious_invasion = 0.15
+				invasion_preparation = -0.1
+				land_reinforce_rate = 0.025
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		JAP_banzai_2 = {
+
+			picture = JAP_Hakko_Ichiu
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				amphibious_invasion = 0.15
+				invasion_preparation = -0.1
+				land_reinforce_rate = 0.025
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		JAP_banzai_3 = {
+
+			picture = JAP_Hakko_Ichiu
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				amphibious_invasion = 0.15
+				invasion_preparation = -0.1
+				land_reinforce_rate = 0.025
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		JAP_banzai_4 = {
+
+			picture = JAP_Hakko_Ichiu
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				amphibious_invasion = 0.15
+				invasion_preparation = -0.1
+				land_reinforce_rate = 0.025
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
 
 		 JAP_big_gun = {
 		 name = JAP_big_gun
@@ -1083,18 +1144,99 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_navy_carrier_bonus
+			picture = JAP_The_Divine_Waves_Shall_Protect_Us
 			
 			modifier = {
-				port_strike = 1
-				navy_capital_ship_attack_factor = 0.1
-				navy_capital_ship_defence_factor = 0.1
-				navy_screen_attack_factor = 0.1
-				navy_screen_defence_factor = 0.1
-				sortie_efficiency = 0.5
-				naval_strike_attack_factor = 0.12
-				naval_strike_targetting_factor = 0.12
-				naval_strike_agility_factor = 0.12
+				port_strike = 0.2
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+				navy_screen_attack_factor = 0.05
+				navy_screen_defence_factor = 0.05
+				sortie_efficiency = 0.2
+				naval_strike_attack_factor = 0.03
+				naval_strike_targetting_factor = 0.03
+				naval_strike_agility_factor = 0.03
+			}
+		}
+
+		JAP_tora_tora_tora_idea_2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = JAP_The_Divine_Waves_Shall_Protect_Us
+			
+			modifier = {
+				port_strike = 0.2
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+				navy_screen_attack_factor = 0.05
+				navy_screen_defence_factor = 0.05
+				sortie_efficiency = 0.2
+				naval_strike_attack_factor = 0.03
+				naval_strike_targetting_factor = 0.03
+				naval_strike_agility_factor = 0.03
+			}
+		}
+
+		JAP_tora_tora_tora_idea_3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = JAP_The_Divine_Waves_Shall_Protect_Us
+			
+			modifier = {
+				port_strike = 0.2
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+				navy_screen_attack_factor = 0.05
+				navy_screen_defence_factor = 0.05
+				sortie_efficiency = 0.2
+				naval_strike_attack_factor = 0.03
+				naval_strike_targetting_factor = 0.03
+				naval_strike_agility_factor = 0.03
+			}
+		}
+
+		JAP_tora_tora_tora_idea_4 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = JAP_The_Divine_Waves_Shall_Protect_Us
+			
+			modifier = {
+				port_strike = 0.2
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+				navy_screen_attack_factor = 0.05
+				navy_screen_defence_factor = 0.05
+				sortie_efficiency = 0.2
+				naval_strike_attack_factor = 0.03
+				naval_strike_targetting_factor = 0.03
+				naval_strike_agility_factor = 0.03
 			}
 		}
 

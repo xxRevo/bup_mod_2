@@ -10484,7 +10484,14 @@ SpriteType = {
 		name = "GFX_idea_KUW_anglo_kuwaiti_treaty"
 		texturefile = "gfx/interface/ideas/idea_KUW_anglo_kuwaiti_treaty.dds"
 	}
-	
+    spriteType = {
+        name = "GFX_idea_JAP_The_Divine_Waves_Shall_Protect_Us"
+        texturefile = "gfx/interface/ideas/Spirits/JAP_The_Divine_Waves_Shall_Protect_Us.png"
+    }
+    spriteType = {
+        name = "GFX_idea_JAP_Hakko_Ichiu"
+        texturefile = "gfx/interface/ideas/Spirits/JAP_Hakko_Ichiu.png"
+    }	
 
 	#######################
 	####  PLACEHOLDER  ####

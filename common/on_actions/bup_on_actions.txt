@@ -1,37 +1,4 @@
 on_actions = {
-
-    on_monthly = {
-        effect = {
-            if = {
-                limit = {
-                    USA = {
-                        has_dynamic_modifier = {modifier = pacific_superiority_idea}
-                    }
-                }
-                USA = {
-                    remove_dynamic_modifier = {modifier = pacific_superiority_idea}
-                }
-                ENG = {
-                    remove_dynamic_modifier = {modifier = pacific_superiority_idea}
-                }
-                AST = {
-                    remove_dynamic_modifier = {modifier = pacific_superiority_idea}
-                }
-                SAF = {
-                    remove_dynamic_modifier = {modifier = pacific_superiority_idea}
-                }
-                RAJ = {
-                    remove_dynamic_modifier = {modifier = pacific_superiority_idea}
-                }
-                CAN = {
-                    remove_dynamic_modifier = {modifier = pacific_superiority_idea}
-                }
-                FRA = {
-                    remove_dynamic_modifier = {modifier = pacific_superiority_idea}
-                }
-            }
-        }
-    }
     on_startup = {
         effect = {
             set_variable = { global.pacific_superiority = 0.0 }
@@ -138,8 +105,8 @@ on_actions = {
                         }
                     }
                 }
-                subtract_from_variable = { var = global.pacific_superiority value = 0 }
-                add_to_variable = { var = global.pacific_superiority_neg value = 0 }
+                subtract_from_variable = { var = global.pacific_superiority value = 0.0075 }
+                add_to_variable = { var = global.pacific_superiority_neg value = 0.0075 }
             }
             if = {
                 limit = {
@@ -214,8 +181,8 @@ on_actions = {
                         }
                     }
                 }
-                add_to_variable = { var = global.pacific_superiority value = 0 }
-                subtract_from_variable = { var = global.pacific_superiority_neg value = 0 }
+                add_to_variable = { var = global.pacific_superiority value = 0.0075 }
+                subtract_from_variable = { var = global.pacific_superiority_neg value = 0.0075 }
             }
         }
     }

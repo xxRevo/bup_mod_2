@@ -299,16 +299,14 @@ on_actions = {
                     set_state_controller = 28
                     set_state_controller = 27
                 }
-                ITA = {
-                    set_state_controller = 735
-                    set_state_controller = 32
-                    set_state_controller = 21
-                    set_state_controller = 851
-                    set_state_controller = 1
-                    set_state_controller = 665
-                    set_state_controller = 458
-                }
                 EFR = {
+                    transfer_state = 735
+                    transfer_state = 32
+                    transfer_state = 21
+                    transfer_state = 851
+                    transfer_state = 1
+                    transfer_state = 665
+                    transfer_state = 458
                     transfer_state = 31
                     transfer_state = 25
                     transfer_state = 26

@@ -1941,10 +1941,10 @@ political_actions = {
 	
 		modifier = {
 			fascism_drift = -0.05
-			stability_weekly = 0.007
+			stability_weekly = 0.0085
 		}
 	
-		days_remove = 120
+		days_remove = 180
 		cost = 50
 
 		cancel_trigger = {
@@ -2041,10 +2041,10 @@ political_actions = {
 	
 		modifier = {
 			democratic_drift = -0.05
-			stability_weekly = 0.007
+			stability_weekly = 0.0085
 		}
 	
-		days_remove = 120
+		days_remove = 180
 		cost = 50
 
 		complete_effect = {
@@ -2081,10 +2081,10 @@ political_actions = {
 	
 		modifier = {
 			communism_drift = -0.05
-			stability_weekly = 0.007
+			stability_weekly = 0.0085
 		}
 	
-		days_remove = 120
+		days_remove = 180
 		cost = 50
 
 		complete_effect = {
@@ -2139,10 +2139,10 @@ political_actions = {
 	
 		modifier = {
 			neutrality_drift = -0.05
-			stability_weekly = 0.007
+			stability_weekly = 0.0085
 		}
 	
-		days_remove = 120
+		days_remove = 180
 		cost = 50
 
 		complete_effect = {

@@ -1,0 +1,233 @@
+﻿###########################
+# South-African TFV events Events
+###########################
+
+add_namespace = tfv_south_africa
+
+# SAF_secure_interests_in_africa completed
+# South-African National focus
+country_event = {
+	id = tfv_south_africa.1
+	title = tfv_south_africa.1.t	# Ask ENG for control over british South-East Africa strip. 
+	desc = tfv_south_africa.1.d		#
+	picture = GFX_report_event_saf_soldiers					#
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tfv_south_africa.1.a	# ENG accepts the proposal
+		
+		ai_chance = {
+			base = 80
+
+		}
+		
+		effect_tooltip = {
+			SAF = {
+				transfer_state = 542
+				transfer_state = 545
+				transfer_state = 546
+				transfer_state = 547
+				transfer_state = 903
+				transfer_state = 904
+				transfer_state = 905
+				transfer_state = 548
+				transfer_state = 771
+				transfer_state = 770
+				transfer_state = 981
+			}
+		}
+		hidden_effect = {
+			SAF = {
+				country_event = { id = tfv_south_africa.2 }
+			}
+		}
+	}
+	
+	option = {
+		name = tfv_south_africa.1.b # ENG refuses the proposal
+		
+		ai_chance = {
+			base = 0
+		}
+		
+		hidden_effect = {
+			SAF = {
+				country_event = { id = tfv_south_africa.3 }
+			}
+		}
+	}
+	option = {
+		name = tfv_south_africa.1.c # ENG compromises
+		trigger = {
+			KEN = { exists = no }
+			ZIM = { exists = no }
+			BOT = { exists = no }
+			ZAM = { exists = no }
+			MLW = { exists = no }
+			TZN = { exists = no }
+			UGA = { exists = no }
+		}
+		
+		ai_chance = {
+			base = 20
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0 #don't do this if we are historical!
+			}
+			modifier = {
+				SAF = { NOT = { has_government = democratic} }
+				factor = 4
+			}
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = SAF_colonies_tt
+		}
+		hidden_effect = {
+			SAF = {
+				country_event = { id = tfv_south_africa.4 }
+			}
+		}
+	}
+}
+
+#ENG transfers colonies
+country_event = {
+	id = tfv_south_africa.2
+	title = tfv_south_africa.2.t	#
+	desc = tfv_south_africa.2.d		#
+	picture = GFX_report_event_saf_soldiers_2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tfv_south_africa.2.a
+		if = {
+			limit = { 
+				ZIM = { exists = no }
+			}
+			transfer_state = 545
+		}
+		if = {
+			limit = { 
+				ZIM = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = ZIM
+		}
+		if = {
+			limit = { 
+				BOT = { exists = no }
+			}
+			transfer_state = 542
+		}
+		if = {
+			limit = { 
+				BOT = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = BOT
+		}
+		if = {
+			limit = { 
+				ZAM = { exists = no }
+			}
+			transfer_state = 771
+			transfer_state = 981
+		}
+		if = {
+			limit = { 
+				ZAM = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = ZAM
+		}
+		if = {
+			limit = { 
+				MLW = { exists = no }
+			}
+			transfer_state = 770
+		}
+		if = {
+			limit = { 
+				MLW = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = MLW
+		}
+		if = {
+			limit = { 
+				TZN = { exists = no }
+			}
+			transfer_state = 546
+		}
+		if = {
+			limit = { 
+				TZN = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = TZN
+		}
+		if = {
+			limit = { 
+				KEN = { exists = no }
+			}
+			transfer_state = 547
+			transfer_state = 903
+			transfer_state = 904
+			transfer_state = 905
+		}
+		if = {
+			limit = { 
+				KEN = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = KEN
+		}
+		if = {
+			limit = { 
+				UGA = { exists = no }
+			}
+			transfer_state = 548
+		}
+		if = {
+			limit = { 
+				UGA = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = UGA
+		}
+		hidden_effect = {
+			news_event = { id = news.260 hours = 6 }
+		}
+	}
+		
+	
+}
+#ENG refuses
+country_event = {
+	id = tfv_south_africa.3
+	title = tfv_south_africa.3.t	#
+	desc = tfv_south_africa.3.d		#
+	picture = GFX_report_event_saf_soldiers_3
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tfv_south_africa.3.a
+	}
+}

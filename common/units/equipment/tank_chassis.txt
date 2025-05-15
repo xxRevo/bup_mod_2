@@ -876,7 +876,7 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		armor_value = 50
-		maximum_speed = 4
+		maximum_speed = 6
 		reliability = 0.8
 		module_count_limit = {
 			module = tank_high_velocity_cannon_3
@@ -906,6 +906,10 @@ equipments = {
 			module = tank_heavy_howitzer
 			count < 1
 		}
+		module_count_limit = {
+			module = tank_christie_suspension
+			count < 1
+		}
 		upgrades = {
 			tank_nsb_armor_upgrade
 		}
@@ -921,7 +925,7 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		build_cost_ic = 16
-		maximum_speed = 4
+		maximum_speed = 6
 		reliability = 1.1
 		armor_value = 100
 		resources = {
@@ -940,6 +944,10 @@ equipments = {
 			module = tank_heavy_cannon_3
 			count < 1
 		}
+		module_count_limit = {
+			module = tank_christie_suspension
+			count < 1
+		}
 		upgrades = {
 			tank_nsb_armor_upgrade
 		}
@@ -955,12 +963,16 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		build_cost_ic = 18
-		maximum_speed = 4
+		maximum_speed = 6
 		reliability = 1.2
 		armor_value = 120
 		resources = {
 			steel = 3
 			chromium = 3
+		}
+		module_count_limit = {
+			module = tank_christie_suspension
+			count < 1
 		}
 		upgrades = {
 			tank_nsb_armor_upgrade

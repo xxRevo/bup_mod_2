@@ -5,7 +5,7 @@ generic_artillery_organization  = {
         always = no
     }
 
-    equipment_type = {artillery_equipment anti_tank_equipment anti_air_equipment rocket_artillery}
+    equipment_type = {artillery_equipment anti_tank_equipment anti_air_equipment rocket_artillery_equipment}
     research_categories = { mio_cat_all_artillery_equipment}
 
     initial_trait = {

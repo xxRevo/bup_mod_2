@@ -1,6 +1,42 @@
 ﻿
 
-
+air_wings = {
+	763 = {
+		medium_plane_airframe_1 = {
+			owner = "GER" 
+			amount = 100
+			version_name = "Do 23"
+		}
+	}
+		763 = {
+		medium_plane_airframe_1 = {
+			owner = "GER" 
+			amount = 100
+			version_name = "Do 23"
+		}
+	}
+		763 = {
+		medium_plane_airframe_1 = {
+			owner = "GER" 
+			amount = 100
+			version_name = "Do 23"
+		}
+	}
+		763 = {
+		medium_plane_airframe_1 = {
+			owner = "GER" 
+			amount = 100
+			version_name = "Do 23"
+		}
+	}
+		763 = {
+		medium_plane_airframe_1 = {
+			owner = "GER" 
+			amount = 100
+			version_name = "Do 23"
+		}
+	}
+}
 #########################
 ## STARTING PRODUCTION ##
 #########################

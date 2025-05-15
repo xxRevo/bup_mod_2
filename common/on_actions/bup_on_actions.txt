@@ -1,6 +1,8 @@
 on_actions = {
     on_startup = {
         effect = {
+            set_variable = { global.atlantic_wall_var_neg = 0.0 }
+            set_variable = { global.atlantic_wall_var = 0.0 }
             set_variable = { global.pacific_superiority = 0.0 }
             set_variable = { global.pacific_superiority_neg = 0.0 }
             USA = {
@@ -105,8 +107,12 @@ on_actions = {
                         }
                     }
                 }
+                subtract_from_variable = { var = global.atlantic_wall_var value = 0.05 }
                 subtract_from_variable = { var = global.pacific_superiority value = 0.007 }
-                add_to_variable = { var = global.pacific_superiority_neg value = 0.007 }
+                set_variable = { var = global.pacific_superiority_neg value = global.pacific_superiority }
+                set_variable = { var = global.atlantic_wall_var_neg value = global.atlantic_wall_var }
+                multiply_variable = { var = global.pacific_superiority_neg value = -1 }
+                multiply_variable = { var = global.atlantic_wall_var_neg value = -1 }
             }
             if = {
                 limit = {
@@ -181,8 +187,29 @@ on_actions = {
                         }
                     }
                 }
+                add_to_variable = { var = global.atlantic_wall_var value = 0.05 }
                 add_to_variable = { var = global.pacific_superiority value = 0.007 }
-                subtract_from_variable = { var = global.pacific_superiority_neg value = 0.007 }
+                set_variable = { var = global.pacific_superiority_neg value = global.pacific_superiority }
+                set_variable = { var = global.atlantic_wall_var_neg value = global.atlantic_wall_var }
+                multiply_variable = { var = global.pacific_superiority_neg value = -1 }
+                multiply_variable = { var = global.atlantic_wall_var_neg value = -1 }
+            }
+        }
+    }
+
+    #Dummy tag to prevent multiple executinos monthly
+    on_weekly_SWE = {
+        effect = {
+            if = {
+                limit = {
+                    # if variable negative
+                    check_variable = {
+                        global.atlantic_wall_var < 0.0
+                    }
+                }
+                add_to_variable = { var = global.atlantic_wall_var value = 0.01 }
+                set_variable = { var = global.atlantic_wall_var_neg value = global.atlantic_wall_var }
+                multiply_variable = { var = global.atlantic_wall_var_neg value = -1 }
             }
         }
     }

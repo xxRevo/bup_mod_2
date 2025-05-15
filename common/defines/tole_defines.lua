@@ -159,7 +159,7 @@ NDefines.NProduction.BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.01
 
 
 
-
+NDefines.NCountry.BASE_MOBILIZATION_SPEED = 0.1
 NDefines.NCountry.GIE_CONVOY_ON_CREATION = 200
 NDefines.NCountry.COUNTRY_SCORE_MULTIPLIER = 0				-- Weight of the country score.
 NDefines.NCountry.ARMY_SCORE_MULTIPLIER = 0					-- Based on number of armies.

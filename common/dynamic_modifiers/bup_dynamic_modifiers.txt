@@ -23,12 +23,23 @@ pacific_superiority_idea = {
     }
     custom_modifier_tooltip = war_in_pacific_tt
 
-    stability_factor = global.pacific_superiority
-    war_support_factor = global.pacific_superiority
+    production_speed_synthetic_refinery_factor = global.pacific_superiority
     production_speed_buildings_factor = global.pacific_superiority
     industrial_capacity_factory = global.pacific_superiority
     industrial_capacity_dockyard = global.pacific_superiority_neg
-    production_speed_synthetic_refinery_factor = global.pacific_superiority
+}
 
+atlantic_wall_idea = {
+    icon = GFX_modifiers_generic_defense
+    enable = { always = yes }
+    remove_trigger = {
+        check_variable = {
+            global.atlantic_wall_var > 0.0
+        }
+    }
+    custom_modifier_tooltip = atlantic_wall_idea_tt
+
+    amphibious_invasion_defence = global.atlantic_wall_var
+    naval_invasion_penalty = global.atlantic_wall_var_neg
 }
 

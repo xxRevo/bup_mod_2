@@ -8714,6 +8714,84 @@ focus = {
 			}
 		}
 	}
+
+	focus = {
+		id = GER_atlantikwall
+		icon = GFX_GER_Atlantikwall
+		prerequisite = { focus = GER_war_with_france }
+		x = 1
+		y = 1
+		relative_position_id = GER_war_with_france
+		cost = 5
+		available = {
+			FRA = {
+				has_capitulated = yes
+			}
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = atlantic_wall_focus_tt
+			hidden_effect = {
+				806 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				19 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				23 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				30 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				14 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				15 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				785 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				29 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				6 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				977 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				35 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				7 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				36 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				56 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				59 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				58 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				909 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				912 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+				99 = {
+					add_dynamic_modifier = { modifier = atlantic_wall_idea }
+				}
+			}
+		}
+	}
 	
 	
 

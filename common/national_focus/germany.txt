@@ -7458,6 +7458,9 @@ focus = {
 				transfer_state = 664
 				transfer_state = 73
 				transfer_state = 76
+				transfer_state = 71
+				transfer_state = 70
+				
 			}
 			custom_effect_tooltip = generic_skip_one_line_tt
 			every_other_country = {
@@ -7548,14 +7551,7 @@ focus = {
 		relative_position_id = GER_anschluss
 		cost = 5
 		available = {
-			surrender_progress < 0.1
-			custom_trigger_tooltip = { 
-				tooltip = GER_demonstration_of_military_achievements_trigger
-				OR = {
-					num_subjects > 2
-					check_variable = { GER_occupied_states_europe > 19 }
-				}
-			}
+        has_full_control_of_state = 16
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER }
@@ -7580,14 +7576,7 @@ focus = {
 		relative_position_id = GER_demonstration_of_military_achievements
 		cost = 5
 		available = {
-			surrender_progress < 0.05
-			custom_trigger_tooltip = {
-				tooltip = GER_an_invincible_army_trigger
-				OR = {
-					num_subjects > 5
-					check_variable = { GER_occupied_states_europe > 49 }
-				}
-			}
+        has_full_control_of_state = 16
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_MANPOWER }

@@ -1,4 +1,5 @@
 add_namespace = surrender
+add_namespace = surrender2
 
 # Spanish Civil War
 country_event = {
@@ -26,10 +27,6 @@ OR={
 tag=HOL
 tag=DEN
 tag=NOR
-tag=YUG
-tag=GRE
-tag=MAL
-tag=PHI
 tag=BEL
 tag=LUX
 tag=POL
@@ -44,7 +41,7 @@ add_state_modifier = {
        local_building_slots_factor = 0.5
   }
 }
-GER={set_state_owner=PREV}}
+GER={set_state_controller=PREV}}
 if={limit={tag=DEN}
 }
 ENG={annex_country={target=ROOT transfer_troops=yes}}
@@ -62,7 +59,7 @@ add_state_modifier = {
        local_building_slots_factor = 0.5
   }
 }
-GER={set_state_owner=PREV}}}
+GER={set_state_controller=PREV}}}
 ENG={annex_country={target=ROOT transfer_troops=yes}}
 else_if={limit = {
 OR={tag=POL tag=LUX
@@ -74,22 +71,43 @@ add_state_modifier = {
        local_building_slots_factor = 0.5
   }
 }
-GER={set_state_owner=PREV}}
+GER={set_state_controller=PREV}}
 ENG={annex_country={target=ROOT transfer_troops=yes}}
 }
-else_if={limit = {
-OR={tag=GRE tag=YUG
+}
+}
+
+  country_event = {
+id = surrender.2
+title = surrender.2.t
+desc = surrender.2.d
+picture = GFX_report_event_spain_civil_war_soldiers
+hidden=yes
+fire_only_once = no
+
+is_triggered_only = yes
+immediate = {
+if={limit={ENG={has_war=no}}
+JAP={declare_war_on = {
+    target = ENG
+    type = annex_everything
 }}
-every_owned_state={limit={is_core_of=ROOT}
-GER={set_state_owner=PREV}}
-ENG={annex_country={target=ROOT}}
 }
-else_if={limit = {
-OR={tag=MAL tag=PHI
+if={limit = {
+OR={
+tag=PHI
+tag=MAL
+}
+}
+every_owned_state={limit={is_core_of=ROOT}
+add_state_modifier = {
+    modifier = {
+       local_building_slots_factor = 0.5
+  }
+}
+JAP={set_state_controller=PREV}}
+if={limit={tag=PHI tag=MAL}
+}
+ENG={annex_country={target=ROOT transfer_troops=yes}}
+}
 }}
-every_owned_state={limit={is_core_of=ROOT}
-JAP={set_state_owner=PREV}}
-ENG={annex_country={target=ROOT}}
-}
-}
-}

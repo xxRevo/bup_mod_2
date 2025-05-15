@@ -445,11 +445,59 @@ on_actions = {
                         tag=GRE
                         tag=YUG
                         tag=POL
-                        tag=MAL
-                        tag=PHI
                     }}
                     country_event={id=surrender.1 days=2}
             }
+            if = {
+                limit = {
+                    OR={
+                        tag=PHI
+                        tag=MAL
+                    }}
+                   country_event={id=surrender.2 days=2}
+            }
         }
-	}
+            ## Norway
+            effect = {
+            if = {
+                limit = {
+                    AND = {
+                        tag = NOR
+                        NOT = {has_global_flag = NOR_already_surrendered}
+                    }
+                }
+                set_global_flag = NOR_already_surrendered
+                GER = {
+                    set_state_controller = 110
+                    set_state_controller = 921
+                    set_state_controller = 920 
+                    set_state_controller = 922
+                    set_state_controller = 142
+                    set_state_controller = 143
+                    set_state_controller = 923
+                    set_state_controller = 144
+                    set_state_controller = 924
+                    set_state_controller = 925
+                } 
+            }
+        }
+            ## Denmark
+            effect = {
+            if = {
+                limit = {
+                    AND = {
+                        tag = DEN
+                        NOT = {has_global_flag = DEN_already_surrendered}
+                    }
+                }
+                set_global_flag = DEN_already_surrendered
+                GER = {
+                    set_state_controller = 37
+                    set_state_controller = 911
+                    set_state_controller = 99
+                    set_state_controller = 912
+                } 
+            }
+        }
+    }
 }

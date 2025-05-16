@@ -12,7 +12,7 @@ state = {
 		add_core_of = SOV
 
 		victory_points = {
-			11225 3 # Kuybyshev
+			11225 35 # Kuybyshev
 		}
 
 		buildings = {

@@ -7,13 +7,10 @@ state={
         add_core_of = COG
 		owner = EST
 		victory_points = {
-			9221 10
+			9221 1 
 		}
 		victory_points = {
 			592 1 #Voru
-		}
-		victory_points = {
-			6408 1 #Voru
 		}
 		buildings = {
 			infrastructure = 3 #was: 5

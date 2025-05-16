@@ -8,7 +8,10 @@ state=
     history={
         add_core_of = COG
         owner = ENG
-        victory_points = { 4135 10 }
+        victory_points = { 4135 10
+        }
+        victory_points = { 13228 1
+        }
         buildings = {
             infrastructure = 3
             air_base = 3

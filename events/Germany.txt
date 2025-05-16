@@ -6242,7 +6242,7 @@ country_event = {
 		else = { #NO STEP BACK EFFECTS
 			add_tech_bonus = {
 				name = armor_bonus
-				bonus = 2.0
+				bonus = 1.0
 				uses = 1
 				category = armor
 			}

@@ -4798,7 +4798,6 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = HUN_develop_tanks
-				ahead_reduction = 1
 				bonus = 1
 				uses = 1
 				category = armor

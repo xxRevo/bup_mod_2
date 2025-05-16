@@ -6,16 +6,7 @@ state={
         add_core_of = COG
 		owner = RAJ
 		victory_points = {
-			11929 5 
-		}
-		victory_points = {
-			4162 1 
-		}
-		victory_points = {
-			7124 1 
-		}
-		victory_points = {
-			11968 1
+			11929 1 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5

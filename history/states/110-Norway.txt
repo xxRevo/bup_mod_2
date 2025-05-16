@@ -16,7 +16,7 @@ state = {
 			6115 25
 		}
 		victory_points = {
-			11151 5
+			11151 2
 		}
 		
 		owner = NOR

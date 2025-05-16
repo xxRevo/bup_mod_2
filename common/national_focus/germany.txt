@@ -6856,6 +6856,375 @@ focus = {
 			add_named_threat = { threat = 5 name = GER_rhineland }
 
 			hidden_effect = {
+				GER = {
+					add_intel = {
+						target = JAP
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				ITA = {
+					add_intel = {
+						target = JAP
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				HUN = {
+					add_intel = {
+						target = JAP
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				ROM = {
+					add_intel = {
+						target = JAP
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				BUL = {
+					add_intel = {
+						target = JAP
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				JAP = {
+					add_intel = {
+						target = GER
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				JAP = {
+					add_intel = {
+						target = ITA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				JAP = {
+					add_intel = {
+						target = HUN
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				JAP = {
+					add_intel = {
+						target = ROM
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				JAP = {
+					add_intel = {
+						target = BUL
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				USA = {
+					add_intel = {
+						target = SOV
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				USA = {
+					add_intel = {
+						target = ENG
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+                USA = {
+					add_intel = {
+						target = CAN
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				USA = {
+					add_intel = {
+						target = SAF
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				USA = {
+					add_intel = {
+						target = AST
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				USA = {
+					add_intel = {
+						target = RAJ
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				USA = {
+					add_intel = {
+						target = NZL
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				USA = {
+					add_intel = {
+						target = FRA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SOV = {
+					add_intel = {
+						target = USA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SOV = {
+					add_intel = {
+						target = ENG
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SOV = {
+					add_intel = {
+						target = CAN
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SOV = {
+					add_intel = {
+						target = SAF
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SOV = {
+					add_intel = {
+						target = FRA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SOV = {
+					add_intel = {
+						target = AST
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SOV = {
+					add_intel = {
+						target = NZL
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SOV = {
+					add_intel = {
+						target = RAJ
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				USA = {
+					add_intel = {
+						target = SOV
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				ENG = {
+					add_intel = {
+						target = SOV
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SAF = {
+					add_intel = {
+						target = SOV
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				FRA = {
+					add_intel = {
+						target = SOV
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				AST = {
+					add_intel = {
+						target = SOV
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				NZL = {
+					add_intel = {
+						target = SOV
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				RAJ = {
+					add_intel = {
+						target = SOV
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				CAN = {
+					add_intel = {
+						target = SOV
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				CAN = {
+					add_intel = {
+						target = USA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				ENG = {
+					add_intel = {
+						target = USA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				SAF = {
+					add_intel = {
+						target = USA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				RAJ = {
+					add_intel = {
+						target = USA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				FRA = {
+					add_intel = {
+						target = USA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				AST = {
+					add_intel = {
+						target = USA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
+				NZL = {
+					add_intel = {
+						target = USA
+						army_intel = 100
+						civilian_intel = 100
+						navy_intel = 100
+						airforce_intel = 100
+					}
+				}
 				if = {
 					limit = {
 						has_game_rule = {

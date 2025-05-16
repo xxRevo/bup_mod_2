@@ -210,6 +210,7 @@ NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.15
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.05
 NDefines.NMilitary.DIG_IN_FACTOR = 0.01
 NDefines.NMilitary.NAVAL_INVASION_PLANNING_BONUS_GAIN = 0.1
+NDefines.NMilitary.OUT_OF_SUPPLY_SPEED = -0.4
 NDefines.NMilitary.PIERCING_THRESHOLDS = {
 	1.00,
 	0.90,

@@ -9367,22 +9367,22 @@ focus = {
 			SOV = {
 				add_timed_idea = {
    					 idea = SOV_airports_devastated
-   					 days = 20
+   					 days = 60
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				add_timed_idea = {
    					 idea = SOV_short_debuff
-   					 days = 40
+   					 days = 60
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				add_timed_idea = {
    					 idea = SOV_short_debuff_2
-   					 days = 100
+   					 days = 120
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				add_timed_idea = {
    					 idea = SOV_short_debuff_3
-   					 days = 135
+   					 days = 150
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				add_timed_idea = {

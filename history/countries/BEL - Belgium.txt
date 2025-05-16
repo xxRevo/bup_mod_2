@@ -32,16 +32,7 @@ set_technology = {
 }
 
 
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	set_autonomy = {
-		target = COG
-		autonomous_state = autonomy_colony
-		freedom_level = 0.2
-	}
-}
+
 
 
 

@@ -26,6 +26,9 @@ state = {
 		victory_points = {
 			6488 20 # Frankfurt
 		}
+		victory_points = {
+			9486 10 
+		}
 
 		victory_points = {
 			564 3 # Kassel

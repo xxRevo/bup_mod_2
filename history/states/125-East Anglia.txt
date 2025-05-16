@@ -14,6 +14,9 @@ state = {
 		victory_points = { 
 			271 2 # Ipswich
 		}
+		victory_points = { 
+			11253 10 
+		}
 
 		victory_points = { 
 			322 3 # Norwich

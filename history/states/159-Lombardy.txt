@@ -16,6 +16,9 @@ state = {
 		victory_points = { #Brescia
 			773 3
 		}
+		victory_points = { #Brescia
+			3776 20
+		}
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 7

@@ -24,7 +24,10 @@ state = {
 		}
 
 		victory_points = {
-			4329 3 # Port Moresby
+			4329 10 # Port Moresby
+		}
+		victory_points = {
+			12135 5 
 		}
 
 		victory_points = {

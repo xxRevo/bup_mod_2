@@ -1,4 +1,5 @@
 on_actions = {
+    # BUP PACIFIC BALANCE
     on_startup = {
         effect = {
             set_variable = { global.atlantic_wall_var_neg = 0.0 }
@@ -111,7 +112,7 @@ on_actions = {
                 subtract_from_variable = { var = global.pacific_superiority value = 0.007 }
                 set_variable = { var = global.pacific_superiority_neg value = global.pacific_superiority }
                 set_variable = { var = global.atlantic_wall_var_neg value = global.atlantic_wall_var }
-                multiply_variable = { var = global.pacific_superiority_neg value = -1 }
+                multiply_variable = { var = global.pacific_superiority_neg value = -2 }
                 multiply_variable = { var = global.atlantic_wall_var_neg value = -1 }
             }
             if = {
@@ -191,13 +192,13 @@ on_actions = {
                 add_to_variable = { var = global.pacific_superiority value = 0.007 }
                 set_variable = { var = global.pacific_superiority_neg value = global.pacific_superiority }
                 set_variable = { var = global.atlantic_wall_var_neg value = global.atlantic_wall_var }
-                multiply_variable = { var = global.pacific_superiority_neg value = -1 }
+                multiply_variable = { var = global.pacific_superiority_neg value = -2 }
                 multiply_variable = { var = global.atlantic_wall_var_neg value = -1 }
             }
         }
     }
 
-    #Dummy tag to prevent multiple executinos monthly
+    #Dummy tag to prevent multiple executions monthly
     on_weekly_SWE = {
         effect = {
             if = {

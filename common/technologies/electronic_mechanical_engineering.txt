@@ -269,7 +269,8 @@ technologies = {
 		start_year = 1938
 		enable_equipment_modules = { 
 			ship_radar_2
-			
+			air_air_radar_1
+			air_ground_radar_1
 		}
 		
 		folder = {
@@ -372,11 +373,6 @@ technologies = {
 		special_project_specialization = { specialization_air specialization_nuclear }
 		coordination_bonus = 0.02
 		static_anti_air_hit_chance_factor = 0.2
-
-		enable_equipment_modules = { 
-			air_air_radar_1
-			air_ground_radar_1
-		}
 		
 		path = {
 			leads_to_tech = phased_array 
@@ -426,8 +422,9 @@ technologies = {
 		}
 		coordination_bonus = 0.01
 		enable_equipment_modules = {
-			air_air_radar_2
 			ship_radar_3
+			air_air_radar_2
+			air_ground_radar_2
 		}
 
 		special_project_specialization = { specialization_air specialization_nuclear }

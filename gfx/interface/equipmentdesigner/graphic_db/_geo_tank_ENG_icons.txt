@@ -115,27 +115,6 @@ ENG = {
         }
     }
 }
-#)# ENG End
-#(# RAJ Start
-RAJ = {
-    #(# medium tank start
-    #(# 1
-    medium_tank_chassis_1 = {
-        pool = {
-            weight = 3
-            models = {  }
-        }
-        pool = {
-            weight = 2
-            models = {
-                geo_m3lee_grand_RAJ_entity
-            }
-        }
-    }
-    #)#
-    #)# medium tank end
-}
-#)#
 CAN = {
     light_tank_chassis_2 = {
         pool = {

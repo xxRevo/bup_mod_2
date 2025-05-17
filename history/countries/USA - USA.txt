@@ -70,6 +70,7 @@ USA = {
 
 # Starting tech
 set_technology = {
+	photo_reconnaisance = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_trucks = 1

@@ -1147,7 +1147,17 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 2 }
+			position = { x = 4 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = range_improvements
+			research_cost_coeff = 1			
+		}
+
+		path = {
+			leads_to_tech = aircraft_construction
+			research_cost_coeff = 1			
 		}
 
 		allow_branch = { has_dlc = "La Resistance" }
@@ -1222,7 +1232,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 5 }
 		}
 
 		path = {
@@ -1613,7 +1623,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = -2 y = 4 }
+			position = { x = 3 y = 4 }
 		}
 
 		categories = {
@@ -1677,7 +1687,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = -2 y = 2 }
+			position = { x = 5 y = 4 }
 		}
 
 		categories = {

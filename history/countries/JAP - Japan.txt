@@ -108,6 +108,8 @@ IF = {
 ### Starting Technology ###
 
 set_technology = {
+	photo_reconnaisance = 1
+	aa_hmg = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1		

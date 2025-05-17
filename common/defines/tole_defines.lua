@@ -187,6 +187,9 @@ NDefines.NBuildings.MAX_SHARED_SLOTS = 99 --max building slots in a state
 NDefines.NBuildings.MAX_BUILDING_LEVELS=20
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 
+NDefines.NMilitary.ARMY_MAX_FUEL_FLOW_MULT = 5.0
+NDefines.NMilitary.OUT_OF_FUEL_SPEED_MULT = 0.75
+NDefnies.NMilitary.OUT_OF_FUEL_EQUIPMENT_MULT = 0.25
 NDefines.NMilitary.SLOWEST_SPEED = 4
 NDefines.NMilitary.TRAINING_ATTRITION = 0.01
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 4999
@@ -216,7 +219,7 @@ NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.15
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.05
 NDefines.NMilitary.DIG_IN_FACTOR = 0.01
 NDefines.NMilitary.NAVAL_INVASION_PLANNING_BONUS_GAIN = 0.1
-NDefines.NMilitary.OUT_OF_SUPPLY_SPEED = -0.4
+NDefines.NMilitary.OUT_OF_SUPPLY_SPEED = -0.25
 NDefines.NMilitary.PIERCING_THRESHOLDS = {
 	1.00,
 	0.90,

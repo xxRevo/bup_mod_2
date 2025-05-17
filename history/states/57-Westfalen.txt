@@ -25,9 +25,6 @@ state = {
 			industrial_complex = 5
 			air_base = 3
 
-			# Möhne Reservoir
-			11431 = { dam = 1 }
-
 		}
 
 		1939.1.1 = {

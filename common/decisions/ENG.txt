@@ -8040,10 +8040,10 @@ ENG_move_to_secure_the_dominions = {
 		}
 
 		complete_effect = {
-			FROM = {
-				hidden_effect = { set_country_flag = { flag = ENG_cannot_leave_faction value = 1 days = 180 } }
-				custom_effect_tooltip = ENG_impose_martial_law_tt
-				country_event = { id = mtg_britain.63 }
+			RAJ = {
+				set_politics = {
+					ruling_party = democratic
+				}
 			}
 		}
 

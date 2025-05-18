@@ -202,7 +202,7 @@ characters = {
 			# Basically only available if country leader
 			field_marshal = {
 				traits = { politically_connected }
-				skill = 2
+				skill = 6
 				attack_skill = 2
 				defense_skill = 1
 				planning_skill = 3
@@ -249,7 +249,7 @@ characters = {
 
 		field_marshal = {
 			traits = { inflexible_strategist politically_connected old_guard }
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
@@ -348,7 +348,7 @@ characters = {
 		# Basically only available if country leader
 		field_marshal = {
 			traits = { infantry_officer politically_connected }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 2
@@ -629,7 +629,7 @@ characters = {
 
 			corps_commander = {
 	traits = { infantry_leader infantry_expert }
-	skill = 4
+	skill = 6
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 3
@@ -655,7 +655,7 @@ characters = {
 			# Will be upgradeable through various focuses
 			corps_commander = {
 	traits = { infantry_leader infantry_expert }
-	skill = 4
+	skill = 6
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 3
@@ -716,7 +716,7 @@ characters = {
 			# Will be upgradeable thorugh the focus tree
 			corps_commander = {
 	traits = {  trait_engineer panzer_leader urban_assault_specialist trickster}
-	skill = 5
+	skill = 6
 	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 2
@@ -764,7 +764,7 @@ characters = {
 
 			corps_commander = {
 	traits = { cavalry_leader  }
-	skill = 4
+	skill = 6
 	attack_skill = 3
 	defense_skill = 1
 	planning_skill = 2
@@ -789,7 +789,7 @@ characters = {
 			
 			corps_commander = {
 				traits = { trait_HUN_fascist_sympathies }
-				skill = 1
+				skill = 6
 				attack_skill = 1
 				defense_skill = 1
 				planning_skill = 1
@@ -851,7 +851,7 @@ characters = {
 
 			corps_commander = {
 				traits = { armor_officer }
-				skill = 2
+				skill = 6
 				attack_skill = 2
 				defense_skill = 1
 				planning_skill = 2
@@ -876,7 +876,7 @@ characters = {
 			
 			corps_commander = {
 				traits = { armor_officer cavalry_leader }
-				skill = 2
+				skill = 6
 				attack_skill = 2
 				defense_skill = 1
 				planning_skill = 2
@@ -911,7 +911,7 @@ characters = {
 			}
 
 			field_marshal = {
-				skill = 2
+				skill = 6
 				attack_skill = 2
 				defense_skill = 1
 				planning_skill = 2
@@ -937,7 +937,7 @@ characters = {
 			# Can become a field marshal through the military promotions focus
 			corps_commander = {
 				traits = { trait_HUN_vitez trait_HUN_fascist_sympathies }
-				skill = 2
+				skill = 6
 				attack_skill = 2
 				defense_skill = 1
 				planning_skill = 2
@@ -995,7 +995,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { armor_officer cavalry_leader }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 1
@@ -1046,7 +1046,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { organizer trait_HUN_vitez }
-			skill = 2
+			skill = 6
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 3
@@ -1072,7 +1072,7 @@ characters = {
 		# Should be upgraded to field marshal through the focus wuw_HUN_award_military_promotions
 		corps_commander = {
 			traits = { inflexible_strategist trait_HUN_vitez }
-			skill = 1
+			skill = 6
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
@@ -1097,7 +1097,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { trait_HUN_fascist_sympathies }
-			skill = 1
+			skill = 6
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
@@ -1128,7 +1128,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { old_guard trait_HUN_fascist_sympathies trait_HUN_vitez }
-			skill = 2
+			skill = 6
 			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 2
@@ -1159,7 +1159,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { trickster }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 2
@@ -1184,7 +1184,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { skilled_staffer trait_HUN_vitez }
-			skill = 2
+			skill = 6
 			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 2
@@ -1209,7 +1209,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { infantry_officer inflexible_strategist }
-			skill = 1
+			skill = 6
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
@@ -1235,7 +1235,7 @@ characters = {
 		# Should prob be promoteable etc by Joseph August as he was close to him through marriage
 		corps_commander = {
 			traits = { trait_mountaineer trait_HUN_vitez }
-			skill = 1
+			skill = 6
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
@@ -1260,7 +1260,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { cavalry_leader }
-			skill = 1
+			skill = 6
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
@@ -1285,7 +1285,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { cavalry_leader trickster trait_HUN_vitez }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 2
@@ -1310,7 +1310,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { trait_HUN_vitez cavalry_leader old_guard inflexible_strategist }
-			skill = 4
+			skill = 6
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 3
@@ -1336,7 +1336,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { cavalry_leader trait_mountaineer old_guard }
-			skill = 4
+			skill = 6
 			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 3
@@ -1397,7 +1397,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { trickster militias_officer }
-			skill = 1
+			skill = 6
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 1
@@ -1426,7 +1426,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { winter_specialist militias_officer }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 1
@@ -1620,7 +1620,7 @@ characters = {
 			# Can become a general through the military promotions focus
 			corps_commander = {
 				traits = { hill_fighter }
-				skill = 3
+				skill = 6
 				attack_skill = 2
 				defense_skill = 3
 				planning_skill = 2
@@ -1715,7 +1715,7 @@ characters = {
 
 			corps_commander = {
 				traits = { trait_HUN_vitez trait_engineer }
-				skill = 2
+				skill = 6
 				attack_skill = 2
 				defense_skill = 2
 				planning_skill = 2
@@ -2059,7 +2059,7 @@ characters = {
 
 			corps_commander = {
 				traits = { trait_HUN_vitez infantry_leader armor_officer }
-				skill = 2
+				skill = 6
 				attack_skill = 3
 				defense_skill = 1
 				planning_skill = 2
@@ -2157,7 +2157,7 @@ characters = {
 
 			corps_commander = {
 				traits = { trait_HUN_vitez trait_HUN_fascist_sympathies organizer }
-				skill = 1
+				skill = 6
 				attack_skill = 1
 				defense_skill = 1
 				planning_skill = 1
@@ -2255,7 +2255,7 @@ characters = {
 
 			corps_commander = {
 				traits = { trait_HUN_vitez infantry_leader }
-				skill = 1
+				skill = 6
 				attack_skill = 1
 				defense_skill = 1
 				planning_skill = 1
@@ -2445,7 +2445,7 @@ characters = {
 
 			corps_commander = {
 				traits = { trait_HUN_fascist_sympathies militias_officer }
-				skill = 2
+				skill = 6
 				attack_skill = 3
 				defense_skill = 1
 				planning_skill = 2
@@ -2668,7 +2668,7 @@ characters = {
 
 			corps_commander = {
 				traits = { infantry_officer }
-				skill = 1
+				skill = 6
 				attack_skill = 1
 				defense_skill = 1
 				planning_skill = 1
@@ -2717,7 +2717,7 @@ characters = {
 		
 	corps_commander = {
 		traits = {   panzer_leader trickster trait_reckless ranger harsh_leader war_hero}
-		skill = 5
+		skill = 6
 		attack_skill = 5
 		defense_skill = 4
 		planning_skill = 2

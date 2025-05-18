@@ -127,12 +127,12 @@ characters = {
 			}
 		}
 		field_marshal = { 
-			traits = { old_guard thorough_planner organisational_leader }
-			skill = 4
-			attack_skill = 3
+			traits = { old_guard thorough_planner organisational_leader infantry_leader }
+			skill = 6
+			attack_skill = 6
 			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
+			planning_skill = 5
+			logistics_skill = 5
 			visible = {
 				has_government = neutrality
 				NOT = {
@@ -248,7 +248,7 @@ characters = {
 
 		field_marshal = { 
 			traits = { defensive_doctrine thorough_planner }
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
@@ -329,7 +329,7 @@ characters = {
 		}
 		field_marshal = { 
 			traits = { offensive_doctrine panzer_leader brilliant_strategist }
-			skill = 4
+			skill = 6
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 2
@@ -348,7 +348,7 @@ characters = {
 		}
 		corps_commander = { 
 			traits = { defensive_doctrine organizer commando }
-			skill = 4
+			skill = 6
 			attack_skill = 2
 			defense_skill = 6
 			planning_skill = 2
@@ -373,11 +373,11 @@ characters = {
 		}
 		field_marshal = { 
 			traits = { infantry_officer trait_reckless politically_connected }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 6
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			visible = {
 				has_completed_focus = GER_reorganize_nationale_volksarmee
 			}
@@ -466,7 +466,7 @@ characters = {
 
 		corps_commander = {
 			traits = { trait_cautious old_guard }
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 2
@@ -489,7 +489,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { cavalry_leader combined_arms_expert }
-			skill = 3
+			skill = 6
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 2
@@ -512,7 +512,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { commando trait_cautious infantry_leader urban_assault_specialist }
-			skill = 4
+			skill = 6
 			attack_skill = 5
 			defense_skill = 3
 			planning_skill = 3
@@ -645,7 +645,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_leader }
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 4
 			planning_skill = 1
@@ -664,7 +664,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { armor_officer trait_cautious cavalry_leader }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 2
@@ -702,7 +702,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_leader }
-			skill = 4
+			skill = 6
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 3
@@ -721,7 +721,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { old_guard infantry_officer infantry_leader }
-			skill = 3
+			skill = 6
 			attack_skill = 4
 			defense_skill = 5
 			planning_skill = 1
@@ -740,7 +740,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { armor_officer defensive_doctrine }
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
@@ -779,7 +779,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { commando infantry_leader }
-			skill = 5
+			skill = 6
 			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
@@ -801,7 +801,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { career_officer infantry_officer }
-			skill = 4
+			skill = 6
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 2
@@ -820,7 +820,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { trait_reckless armor_officer }
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 3
@@ -844,7 +844,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 4
+			skill = 6
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 4
@@ -863,7 +863,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { career_officer }
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 3
@@ -882,7 +882,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { career_officer trait_cautious armor_officer }
-			skill = 4
+			skill = 6
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 3
@@ -922,7 +922,7 @@ characters = {
 		
 		corps_commander = {
 			traits = { inflexible_strategist trait_cautious war_hero }
-			skill = 4
+			skill = 6
 			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 4
@@ -941,7 +941,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { old_guard infantry_officer inflexible_strategist }
-			skill = 4
+			skill = 6
 			attack_skill = 3
 			defense_skill = 4
 			planning_skill = 4
@@ -960,7 +960,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_officer inflexible_strategist }
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
@@ -983,7 +983,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_officer }
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
@@ -1002,7 +1002,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_officer }
-			skill = 3
+			skill = 6
 			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 1
@@ -1051,7 +1051,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { politically_connected winter_specialist }
-			skill = 3
+			skill = 6
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 3
@@ -1074,7 +1074,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { militias_officer }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 1
@@ -1097,7 +1097,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_officer ranger }
-			skill = 3
+			skill = 6
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 2
@@ -1147,7 +1147,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { militias_officer brilliant_strategist trait_reckless armor_officer politically_connected }
-			skill = 4
+			skill = 6
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 4
@@ -1198,7 +1198,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 3
@@ -1222,7 +1222,7 @@ characters = {
 		}
 
 		corps_commander = {
-			skill = 4
+			skill = 6
 			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 2
@@ -1267,7 +1267,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { armor_officer panzer_leader }
-			skill = 3
+			skill = 6
 			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 2
@@ -1288,7 +1288,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { politically_connected }
-			skill = 2
+			skill = 6
 			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 2
@@ -1309,7 +1309,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { politically_connected }
-			skill = 1
+			skill = 6
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
@@ -1330,7 +1330,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { politically_connected armor_officer cavalry_leader }
-			skill = 3
+			skill = 6
 			attack_skill = 4
 			defense_skill = 1
 			planning_skill = 3
@@ -1564,7 +1564,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 3
+			skill = 6
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 3
@@ -3311,7 +3311,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { militias_officer }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 2

@@ -116,7 +116,7 @@ characters={
 		}
 		corps_commander={
 			traits = {panzer_leader desert_fox trait_engineer}
-			skill = 5
+			skill = 6
 			attack_skill = 4
 			defense_skill = 4
 			planning_skill = 3
@@ -135,7 +135,7 @@ characters={
 		}
 		corps_commander={
 			traits = { hill_fighter infantry_leader naval_invader }
-			skill = 5
+			skill = 6
 			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 3
@@ -154,7 +154,7 @@ characters={
 		}
 		corps_commander={
 			traits = { desert_fox infantry_leader }
-			skill = 4
+			skill = 6
 			attack_skill = 5
 			defense_skill = 3
 			planning_skill = 4
@@ -172,7 +172,7 @@ characters={
 		}
 		corps_commander={
 			traits = { armor_officer panzer_leader jungle_rat}
-			skill = 4
+			skill = 6
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 3
@@ -190,7 +190,7 @@ characters={
 		}
 		navy_leader={
 			traits={ aviation_enthusiast naval_lineage }
-			skill=4
+			skill = 6
 			attack_skill=3
 			defense_skill=3
 			maneuvering_skill=3

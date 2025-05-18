@@ -113,7 +113,7 @@ characters={
 		}
 		field_marshal={
 	traits = { commando panzer_leader trait_engineer ranger infantry_leader}
-	skill = 4
+	skill = 6
 	attack_skill = 2
 	defense_skill = 5
 	planning_skill = 2
@@ -215,7 +215,7 @@ characters={
 
 		corps_commander={
 	traits = {  infantry_leader trickster panzer_leader}
-	skill = 4
+	skill = 6
 	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 3
@@ -400,7 +400,7 @@ characters={
 
 		corps_commander={
 	traits = { naval_invader infantry_leader }
-	skill = 4
+	skill = 6
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 3

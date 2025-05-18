@@ -120,7 +120,7 @@ characters={
 		}
 		corps_commander={
 			traits = { infantry_leader naval_invader }
-	skill = 4
+	skill = 6
     attack_skill = 4
     defense_skill = 4
     planning_skill = 3
@@ -139,7 +139,7 @@ characters={
 		}
 		corps_commander={
 			traits={ hill_fighter }
-			skill=4
+			skill=6
 			attack_skill=4
 			defense_skill=3
 			planning_skill=3
@@ -157,7 +157,7 @@ characters={
 			}
 		}
 		navy_leader={
-			skill=4
+			skill=6
 			attack_skill=4
 			defense_skill=3
 			maneuvering_skill=3

@@ -78,12 +78,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { infantry_leader panzer_leader }
+			traits = { infantry_leader panzer_leader trait_engineer trait_mountaineer}
 			skill=6
-			attack_skill=4
+			attack_skill=5
 			defense_skill=4
 			planning_skill=4
-			logistics_skill=3
+			logistics_skill=6
 			legacy_id=-1
 		}
 	}
@@ -97,12 +97,12 @@ characters={
 			}
 		}
 	corps_commander={
-			traits = { naval_invader infantry_leader }
+			traits = { naval_invader infantry_leader panzer_leader}
 			skill=6
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			attack_skill=5
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=8
 			legacy_id=-1
 		}
 	}
@@ -116,12 +116,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { panzer_leader jungle_rat trait_engineer}
+			traits = { panzer_leader jungle_rat trait_engineer infantry_leader trait_mountaineer}
 			skill=6
-			attack_skill=5
+			attack_skill=6
 			defense_skill=4
-			planning_skill=3
-			logistics_skill=4
+			planning_skill=6
+			logistics_skill=10
 			legacy_id=-1
 		}
 	}

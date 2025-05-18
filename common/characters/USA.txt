@@ -118,7 +118,7 @@ characters={
 
 		corps_commander={
 				traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader infantry_leader }
-				skill = 5
+				skill = 6
 
 				attack_skill = 4
 				defense_skill = 5
@@ -179,7 +179,7 @@ characters={
 		}
 		corps_commander={
 			traits = { armor_officer infantry_leader }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 4
 			planning_skill = 2
@@ -198,7 +198,7 @@ characters={
 		}
 		corps_commander={
 			traits = { trait_engineer commando cavalry_leader }
-			skill = 3
+			skill = 6
 			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 2
@@ -235,7 +235,7 @@ characters={
 
 		corps_commander={
 				traits = { infantry_officer trait_reckless infantry_leader }
-			skill = 5
+			skill = 6
 			attack_skill = 5
 			defense_skill = 3
 			planning_skill = 2
@@ -322,7 +322,7 @@ characters={
 
 		corps_commander={
 			traits = { armor_officer brilliant_strategist infantry_leader }
-			skill=5
+			skill=6
 			attack_skill=4
 			defense_skill=4
 			planning_skill=3
@@ -341,7 +341,7 @@ characters={
 		}
 		corps_commander={
 			traits = { old_guard infantry_officer naval_invader infantry_leader inflexible_strategist }
-			skill = 2
+			skill = 6
 
 			attack_skill = 4
 			defense_skill = 2
@@ -361,7 +361,7 @@ characters={
 		}
 		corps_commander={
 			traits = {  old_guard armor_officer }
-			skill = 3
+			skill = 6
 
 			attack_skill = 1
 			defense_skill = 2
@@ -381,7 +381,7 @@ characters={
 		}
 		corps_commander={
 			traits = { infantry_leader  }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 2
@@ -400,7 +400,7 @@ characters={
 		}
 		corps_commander={
 			traits = { skilled_staffer }
-			skill = 2
+			skill = 6
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
@@ -419,7 +419,7 @@ characters={
 		}
 		corps_commander={
 			traits={ infantry_officer }
-			skill = 3
+			skill = 6
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 2
@@ -438,7 +438,7 @@ characters={
 		}
 		corps_commander={
 			traits = { armor_officer trait_reckless }
-			skill = 2
+			skill = 6
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 2
@@ -456,7 +456,7 @@ characters={
 		}
 		corps_commander={
 			traits = { old_guard harsh_leader }
-			skill = 2
+			skill = 6
 			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 2
@@ -475,7 +475,7 @@ characters={
 		}
 		corps_commander={
 			traits = {  commando infantry_officer }
-			skill = 3
+			skill = 6
 
 			attack_skill = 3
 			defense_skill = 2
@@ -495,7 +495,7 @@ characters={
 		}
 		corps_commander={
 			traits={ infantry_officer }
-			skill=3
+			skill=6
 			attack_skill=2
 			defense_skill=4
 			planning_skill=2
@@ -514,7 +514,7 @@ characters={
 		}
 		corps_commander={
 			traits = { infantry_officer infantry_leader }
-			skill = 3
+			skill = 6
 			
 			attack_skill = 2
 			defense_skill = 4
@@ -551,7 +551,7 @@ characters={
 
 		corps_commander={
 			traits = {  panzer_leader infantry_officer }
-			skill = 4
+			skill = 6
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 2
@@ -568,7 +568,7 @@ characters={
 		}
 		corps_commander={
 			traits={ infantry_officer }
-			skill=2
+			skill=6
 			attack_skill=2
 			defense_skill=1
 			planning_skill=2
@@ -587,7 +587,7 @@ characters={
 		}
 		corps_commander={
 			traits = { armor_officer trait_reckless brilliant_strategist panzer_leader }
-			skill = 4
+			skill = 6
 			attack_skill = 4
 			defense_skill = 1
 			planning_skill = 2
@@ -606,7 +606,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { brilliant_strategist infantry_officer naval_invader }
-			skill = 4
+			skill = 6
 			attack_skill = 5
 			defense_skill = 1
 			planning_skill = 3

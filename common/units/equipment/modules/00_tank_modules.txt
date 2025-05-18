@@ -1338,7 +1338,7 @@ equipment_modules = {
 		xp_cost = 00
 		multiply_stats = {
 			armor_value = 0.25
-			build_cost_ic = 0.05
+			build_cost_ic = 0.075
 		}
 	}
 
@@ -1427,7 +1427,7 @@ equipment_modules = {
 		xp_cost = 0
 		multiply_stats = {
 			armor_value = 0.125
-			build_cost_ic = 0.025
+			build_cost_ic = 0.05
 		}
 	}
 

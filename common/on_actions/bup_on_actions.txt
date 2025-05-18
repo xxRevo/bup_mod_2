@@ -34,6 +34,26 @@ on_actions = {
     }
     
     on_state_control_changed = {
+        ### AXIS WON AFRICA IDEA REMOVAL
+        effect = {
+            if = {
+                limit = {
+                    FROM.FROM = {
+                        state = 907
+                    }
+                    GER = {
+                        has_idea = ITA_axis_won_africa
+                    }
+                }
+                GER = {
+                    remove_ideas = ITA_axis_won_africa
+                }
+                ITA = {
+                    remove_ideas = ITA_axis_won_africa
+                }
+            }
+        }
+        ### PACIFIC ON ACTIONS
         effect = {
             if = {
                 limit = {

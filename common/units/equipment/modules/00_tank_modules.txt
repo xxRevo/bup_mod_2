@@ -200,7 +200,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			reliability = -0.5
+			reliability = -0.3
 		}
 		dismantle_cost_ic  = 0.5
 
@@ -215,12 +215,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			reliability = -0.1
+			reliability = -0.15
 		}
 		dismantle_cost_ic  = 0.5
 
 		multiply_stats =  {
-			build_cost_ic = -0.05
+			build_cost_ic = -0.025
 		}
 
 		can_convert_from = {

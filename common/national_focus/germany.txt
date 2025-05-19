@@ -7352,7 +7352,7 @@ focus = {
 	focus = {
 		id = GER_bribe_senior_officers
 		text = "SS On The Field"
-		icon = goal_generic_SS_focus.dds
+		icon = GFX_focus_GER_new_reforms_in_the_wehrmacht
 		prerequisite = { focus = GER_remilitarize_the_rhineland }
 
 		x = -6
@@ -9263,8 +9263,8 @@ focus = {
 	
 	focus = {
 		id = GER_establish_control_over_halifax
-
-		icon = GER_focus_GER_rhineland
+		text = "Establish Control Over Halifax"
+		icon = GFX_focus_GER_establish_protectorates_in_america
 
 		prerequisite = { focus = GER_crossing_the_atlantic}
 		x = 1
@@ -9375,7 +9375,7 @@ focus = {
 	focus = {
 		id = GER_establish_protectorates_in_america
 		text = "The Man In The High Castle"
-		icon = GFX_focus_GER_establish_protectorates_in_america
+		icon = GFX_focus_GER_tend_to_the_future
 		
 		prerequisite = { focus = GER_challenge_the_monroe_doctrine }
 		prerequisite = { focus = GER_shatter_usas_hegemony}

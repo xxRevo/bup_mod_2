@@ -1520,7 +1520,7 @@
 
 	focus = {
 		id = AST_cockatoo_island_shipyards
-		icon = GFX_Noras_cockatoo_shipyards
+		icon = GFX_AST_Royal_Australian_Navy
 		x = 12
 		y = 0
 
@@ -1622,7 +1622,7 @@
 
 	focus = {
 		id = AST_Radar
-		icon = GFX_naval_radar
+		icon = GFX_focus_generic_naval_discipline
 		relative_position_id = AST_navy_spending
 		x = 0
 		y = 1
@@ -1657,7 +1657,7 @@
 	
 	focus = {
 		id = AST_protect_overseas_commerce
-		icon = GFX_goal_AST_state_of_RAN
+		icon = GFX_GENERIC_Expand_the_Canal
 		prerequisite = { focus = AST_cockatoo_island_shipyards }
 		
 		x = 0
@@ -1708,7 +1708,7 @@
 
 	focus = {
 		id = AST_fly_the_jolly_roger
-		icon = GFX_Noras_Jolly_Roger
+		icon = GFX_goal_generic_navy_submarine
 		prerequisite = { focus = AST_cockatoo_island_shipyards }
 		x = 2
 		y = 1
@@ -1960,7 +1960,7 @@
 	}
 	focus = {
 		id = AST_dock
-		icon = GFX_AST_Dock
+		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = AST_cruisers focus = AST_pacific_area_navy focus = AST_Heavy_ships }
 		x = 0
 		y = 1
@@ -2007,7 +2007,7 @@
 	}
 	focus = {
 		id = AST_pacific_area_navy
-		icon = GFX_goal_base_strike
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = AST_naval_auxiliary_patrol }
 		x = 2
 		y = 4
@@ -2101,7 +2101,7 @@
 	}
 	focus = {
 		id = AST_Heavy_ships
-		icon = GFX_america_goal_navy
+		icon = GFX_focus_generic_refit_civilian_ships
 		relative_position_id = AST_naval_auxiliary_patrol
 		x = -2
 		y = 1
@@ -2149,7 +2149,7 @@
 	}
 	focus = {
 		id = AST_guns
-		icon = GFX_ITA_Dominance
+		icon = GFX_goal_generic_construct_naval_dockyard
 		relative_position_id = AST_Heavy_ships
 		x = 0
 		y = 1

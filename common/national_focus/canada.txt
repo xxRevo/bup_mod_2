@@ -3610,7 +3610,7 @@ focus_tree = {
 
 		focus = {
 		id = CAN_royal_Navy
-		icon = GFX_Noras_cockatoo_shipyards
+		icon = GFX_CAN_Royal_Canadian_Navy
 		x = 33
 		y = 0
 
@@ -3712,7 +3712,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_Radar
-		icon = GFX_naval_radar
+		icon = GFX_focus_generic_naval_discipline
 		relative_position_id = CAN_navy_spending
 		x = 0
 		y = 1
@@ -3749,7 +3749,7 @@ focus_tree = {
 	
 	focus = {
 		id = CAN_protect_convoy
-		icon = GFX_goal_AST_state_of_RAN
+		icon = GFX_GENERIC_Expand_the_Canal
 		prerequisite = { focus = CAN_royal_Navy }
 		
 		x = 0
@@ -3805,7 +3805,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_doctrine
-		icon = GFX_AST_Dock
+		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = CAN_royal_Navy }
 		x = 2
 		y = 1
@@ -3939,7 +3939,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_naval_patrol
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_goal_generic_navy_anti_submarine
 		prerequisite = { focus = CAN_royal_submarine_service focus = CAN_destr focus = CAN_Radar }
 		x = 0
 		y = 3
@@ -4032,7 +4032,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAN_dock
-		icon = GFX_AST_Dock
+		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = CAN_lessons_naval_war focus = CAN_pacific_area_navy focus = CAN_Heavy_ships }
 		x = 0
 		y = 1
@@ -4079,7 +4079,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAN_pacific_area_navy
-		icon = GFX_goal_base_strike
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = CAN_naval_patrol }
 		x = 2
 		y = 4
@@ -4157,7 +4157,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAN_Heavy_ships
-		icon = GFX_america_goal_navy
+		icon = GFX_focus_generic_refit_civilian_ships
 		relative_position_id = CAN_naval_patrol
 		x = -2
 		y = 1
@@ -4196,7 +4196,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAN_guns
-		icon = GFX_ITA_Dominance
+		icon = GFX_goal_generic_construct_naval_dockyard
 		relative_position_id = CAN_Heavy_ships
 		x = 0
 		y = 1

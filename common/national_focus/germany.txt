@@ -7398,7 +7398,7 @@ focus = {
 
 	focus = {
 		id = GER_strafbataillon
-		text = "Recruits From Occipied States"
+		text = "Recruits From Occupied States"
 		icon = GFX_focus_GER_strafbataillon
 
 		prerequisite = { focus = GER_army_indoctrination }

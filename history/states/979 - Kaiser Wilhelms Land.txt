@@ -5,6 +5,10 @@ state = {
 	manpower = 359000
 	state_category = "rural"
 
+	resources = {
+		steel = 50
+	}
+	
 	history = {
 
         add_core_of = COG

@@ -65,7 +65,7 @@
 
 	focus = {
 		id = NZL_royal_Navy
-		icon = GFX_Noras_cockatoo_shipyards
+		icon = GFX_NZL_Royal_New_Zealand_Navy
 		x = 15
 	
 		y = 0
@@ -167,7 +167,7 @@
 
 	focus = {
 		id = NZL_Radar
-		icon = GFX_naval_radar
+		icon = GFX_focus_generic_naval_discipline
 		relative_position_id = NZL_navy_spending
 		x = 0
 		y = 1
@@ -204,7 +204,7 @@
 	
 	focus = {
 		id = NZL_protect_convoy
-		icon = GFX_goal_AST_state_of_RAN
+		icon = GFX_GENERIC_Expand_the_Canal
 		prerequisite = { focus = NZL_royal_Navy }
 		
 		x = 0
@@ -260,7 +260,7 @@
 
 	focus = {
 		id = NZL_doctrine
-		icon = GFX_AST_Dock
+		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = NZL_royal_Navy }
 		x = 2
 		y = 1
@@ -393,7 +393,7 @@
 
 	focus = {
 		id = NZL_naval_patrol
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_goal_generic_navy_anti_submarine
 		prerequisite = { focus = NZL_royal_submarine_service focus = NZL_destr focus = NZL_Radar }
 		x = 0
 		y = 3
@@ -486,7 +486,7 @@
 	}
 	focus = {
 		id = NZL_dock
-		icon = GFX_AST_Dock
+		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = NZL_lessons_naval_war focus = NZL_pacific_area_navy focus = NZL_Heavy_ships }
 		x = 0
 		y = 1
@@ -533,7 +533,7 @@
 	}
 	focus = {
 		id = NZL_pacific_area_navy
-		icon = GFX_goal_base_strike
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = NZL_naval_patrol }
 		x = 2
 		y = 4
@@ -611,7 +611,7 @@
 	}
 	focus = {
 		id = NZL_Heavy_ships
-		icon = GFX_america_goal_navy
+		icon = GFX_focus_generic_refit_civilian_ships
 		relative_position_id = NZL_naval_patrol
 		x = -2
 		y = 1
@@ -650,7 +650,7 @@
 	}
 	focus = {
 		id = NZL_guns
-		icon = GFX_ITA_Dominance
+		icon = GFX_goal_generic_construct_naval_dockyard
 		relative_position_id = NZL_Heavy_ships
 		x = 0
 		y = 1

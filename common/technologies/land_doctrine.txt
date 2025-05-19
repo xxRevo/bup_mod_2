@@ -61,9 +61,11 @@ technologies = {
 		xp_unlock_cost = 100
 		additional_brigade_column_size = 2
 		category_all_infantry = {
-			max_organisation = 15
+			max_organisation = 5
 		}
-		
+		mechanized = {
+			max_organisation = 10
+		}
 		
 		enable_tactic = tactic_delay
 		

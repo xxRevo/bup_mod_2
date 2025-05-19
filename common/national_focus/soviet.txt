@@ -150,6 +150,7 @@ focus = {
  
 	focus = {
 		id = SOV_great_figher
+		text = "Order 227"
 		icon = GFX_Goal_Positive_heroism
 		relative_position_id = SOV_move_industry_to_urals
 		x = 0
@@ -298,8 +299,9 @@ focus = {
 		cost = 10
 		completion_reward = {
 		    add_ideas = sov_human_wave
-			    sound_effect = soviet_begin
-
+				hidden_effect = {
+			sound_effect = soviet_begin
+			}
 		}
 	}
 	

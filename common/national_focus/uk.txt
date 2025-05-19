@@ -331,7 +331,7 @@ focus_tree = {
         y = 1
         relative_position_id = limited_rearmament_focus
 
-        cost = 10
+        cost = 1
 
         available_if_capitulated = no
 
@@ -2166,6 +2166,12 @@ focus = {
     relative_position_id = uk_service_focus
     cost = 5
     completion_reward = {
+        454 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        553 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
         if = {
             limit = {
                 has_idea = ENG_fortify_the_empire_1

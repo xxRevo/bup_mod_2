@@ -24,7 +24,7 @@ add_ideas = {
 }
 add_timed_idea = {
     idea = GER_no_trade_back
-    days = 1247
+    days = 1760
 }
 add_timed_idea = {
 	idea = GER_peace_time_train

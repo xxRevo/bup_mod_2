@@ -2355,6 +2355,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_naval_bomber_effort
+		text = "Naval Bomber Effort"
 		icon = GFX_JAP_focus_Naval_bomber_eff
 		prerequisite = { focus = JAP_first_air_fleet }
 		x = 0

@@ -208,7 +208,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GER_Volksgemeinschaft
+			picture = GER_autarky
 
 			modifier = {
 				production_speed_synthetic_refinery_factor=0.1

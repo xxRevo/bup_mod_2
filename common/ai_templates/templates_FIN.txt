@@ -1,0 +1,22 @@
+
+infantry_CHI = {
+
+	available_for = {
+		FIN
+	}
+
+	role = {
+		infantry
+	}
+	
+	upgrade_prio = {
+		factor = 2
+
+		modifier = {
+			factor = 5
+		}
+	}
+	
+}
+	
+

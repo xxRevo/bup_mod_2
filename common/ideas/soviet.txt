@@ -62,10 +62,14 @@ ideas = {
 
 
         Fast_Training = {
+			
+			picture = SOV_war_heroes
+
             modifier = {
                 training_time_army_factor = -0.50
             }
         }
+		
         war_in_our_neigbour = {
             picture = generic_spy_intel
             allowed = {
@@ -153,7 +157,7 @@ ideas = {
             allowed_civil_war = {
                 has_government = communism
             }
-            picture = SOV_Hearing_Walls
+            picture = SOV_soviet_railways
 
 
             modifier = {
@@ -1245,7 +1249,7 @@ ideas = {
         SOV_collectivist_propaganda = {
             removal_cost = -1
 
-            picture = SOV_A_Revitalized_Ideal
+            picture = SOV_soviet_hegemony
 
             allowed = {
                 always = no # Added via focus

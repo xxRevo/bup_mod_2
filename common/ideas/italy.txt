@@ -649,7 +649,6 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 		
 		}
 		ITA_eco_buff_2 = { #Hidden idea to apply light cruisers production bonuses. Communicated in ITA_military_industry_dynamic_modifier (used as NS)
- 			name = ITA_eco_buff_2 #Just in case it shows up anywhere
 			removal_cost = -1
 
 			picture = SOV_third_five_year_plan_military #Icon needs to match the one in ITA_military_industry_dynamic_modifier (NS icon shows up in tech tab)
@@ -669,8 +668,6 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 		
 		}
 		ITA_axis_won_africa = {
-			name = axis_won_africa
-
 			removal_cost = -1
 
 			picture = generic_stockpile_fuel
@@ -690,8 +687,6 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			}
 		}
 		ITA_ind_reforms_1 = {
-			name = ind_reforms1
-
 			removal_cost = -1
 
 			picture = generic_stockpile_fuel

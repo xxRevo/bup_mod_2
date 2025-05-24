@@ -3,7 +3,7 @@ strategic_region={
 	id=299
 	name="MATSAH_MATRUH"
 	provinces={
-		7148 10061 12091 11967 12033 9989 5078 7079 11910 13376
+		7148 10061 12091 11967 12033 9989 5078 7079 11910
 	}
 	weather={
 		period={

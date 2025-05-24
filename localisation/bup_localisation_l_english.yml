@@ -242,3 +242,8 @@
  sealion_defense:0 "Defend the Isles"
  SOV_home_fleet:0 "Home Fleet"
  GER_production_base:0 "Fresh Production Lines"
+ JAP_defense_of_homeland:0 "Warrior Spirit"
+ Fast_Training:0 "All Hands to the Front"
+ ITA_eco_buff_1:0 "Initial Economical Increase"
+ ITA_eco_buff_2:0 "Continued Economical Increase"
+ ITA_axis_won_africa:0 "Axis Victory in Africa!"

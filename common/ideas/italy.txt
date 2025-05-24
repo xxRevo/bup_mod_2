@@ -114,7 +114,7 @@ ideas = {
 			}
 		}
 		ITA_expand_the_repair_yards = {
-			picture = ITA_medi
+			picture = NORDIC_navy_democratic
 			allowed = {
 				always = no
 			}

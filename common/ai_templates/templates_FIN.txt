@@ -1,6 +1,7 @@
-infantry_generic = {
 
-	blocked_for = {
+infantry_CHI = {
+
+	available_for = {
 		FIN
 	}
 
@@ -15,4 +16,7 @@ infantry_generic = {
 			factor = 5
 		}
 	}
+	
 }
+	
+

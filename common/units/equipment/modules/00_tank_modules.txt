@@ -846,9 +846,9 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 34
-			hard_attack = 23
-			ap_attack = 96
+			soft_attack = 33
+			hard_attack = 25
+			ap_attack = 110
 			build_cost_ic = 3.5
 			reliability = -0.15
 		}
@@ -869,9 +869,9 @@ equipment_modules = {
 		parent = tank_medium_cannon
 		dismantle_cost_ic = 1
 		add_stats = {
-			soft_attack = 39
-			hard_attack = 28
-			ap_attack = 100
+			soft_attack = 36
+			hard_attack = 32
+			ap_attack = 125
 			build_cost_ic = 4.5
 			reliability = -0.15
 		}
@@ -892,9 +892,9 @@ equipment_modules = {
 		parent = tank_medium_cannon_2
 		dismantle_cost_ic = 1
 		add_stats = {
-			soft_attack = 49
-			hard_attack = 35
-			ap_attack = 150
+			soft_attack = 46
+			hard_attack = 42
+			ap_attack = 165
 			build_cost_ic = 6.5
 			reliability = -0.15
 		}

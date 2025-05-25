@@ -208,7 +208,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GER_Volksgemeinschaft
+			picture = GER_autarky
 
 			modifier = {
 				production_speed_synthetic_refinery_factor=0.1
@@ -1329,8 +1329,8 @@ ideas = {
 			modifier = {
 				production_speed_air_base_factor = 1 	
 				production_speed_rail_way_factor = 1
-				industry_free_repair_factor = 1
-				industry_repair_factor = 1
+				industry_free_repair_factor = 100
+				industry_repair_factor = 100
 			}
 		}
 

@@ -210,6 +210,19 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13058;12512;impassable;-1;-1;-1;-1;-1;;Greenland Glacier
 13058;10636;impassable;-1;-1;-1;-1;-1;;Greenland Glacier
 13058;13066;impassable;-1;-1;-1;-1;-1;;Greenland Glacier
+1473;5060;impassable;-1;-1;-1;-1;-1;;Africa
+7919;5060;impassable;-1;-1;-1;-1;-1;;Africa
+7919;1960;impassable;-1;-1;-1;-1;-1;;Africa
+5084;1960;impassable;-1;-1;-1;-1;-1;;Africa
+5084;10857;impassable;-1;-1;-1;-1;-1;;Africa
+12719;10857;impassable;-1;-1;-1;-1;-1;;Africa
+12719;10764;impassable;-1;-1;-1;-1;-1;;Africa
+2034;10764;impassable;-1;-1;-1;-1;-1;;Africa
+2034;1953;impassable;-1;-1;-1;-1;-1;;Africa
+2034;7996;impassable;-1;-1;-1;-1;-1;;Africa
+2034;7133;impassable;-1;-1;-1;-1;-1;;Africa
+2154;7133;impassable;-1;-1;-1;-1;-1;;Africa
+12783;7133;impassable;-1;-1;-1;-1;-1;;Africa
 12960;13292;sea;2580;-1;-1;-1;-1;;Falklands
 7683;13293;sea;8642;-1;-1;-1;-1;;Cote Nord
 8198;13295;sea;5473;-1;-1;-1;-1;;Aysen

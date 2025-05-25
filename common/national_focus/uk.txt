@@ -841,7 +841,7 @@ focus_tree = {
                     has_war = yes
                     has_idea = ENG_no_further_appeasement_idea
                     NOT = { has_government = democratic }
-                    date > 1938.3.1
+                    date > 1937.3.1
                 }
             }
             if = {

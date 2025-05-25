@@ -2,10 +2,46 @@ on_actions = {
     # BUP PACIFIC BALANCE
     on_startup = {
         effect = {
+            set_variable = { global.fortress_italy_var = -0.15 }
+            set_variable = { global.fortress_italy_var_neg = 0.15}
             set_variable = { global.atlantic_wall_var_neg = 0.0 }
             set_variable = { global.atlantic_wall_var = 0.0 }
             set_variable = { global.pacific_superiority = 0.0 }
             set_variable = { global.pacific_superiority_neg = 0.0 }
+
+            # fortress italy
+            115 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+            156 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+            849 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+            117 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+            157 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+            2 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+            162 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+            158 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+            161 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+            160 = {
+                add_dynamic_modifier = { modifier = fortress_italy_idea }
+            }
+
+            # War in pacific
             USA = {
                 add_dynamic_modifier = { modifier = pacific_superiority_idea }
             }
@@ -33,6 +69,120 @@ on_actions = {
         }
     }
     
+    on_state_control_changed = {
+        effect = {
+            if = {
+                limit = {
+                    OR = {
+                        tag = ROM
+                        tag = GER
+                        tag = HUN
+                        tag = ITA   
+                    }
+                    OR = {
+                        FROM = { tag = FRA}
+                        FROM = { tag = ENG}
+                        FROM = { tag = GRE}
+                        FROM = { tag = AST}
+                        FROM = { tag = RAJ}
+                        FROM = { tag = USA}
+                        FROM = { tag = CAN}
+                        FROM = { tag = SAF}
+                    }
+                    FROM.FROM = {
+                        OR = {
+                            state = 448
+                            state = 449
+                            state = 450
+                            state = 451
+                            state = 116
+                            state = 114
+                            state = 1
+                            state = 118
+                            state = 182
+                            state = 164
+                            state = 187
+                            state = 183
+                            state = 452
+                            state = 447
+                            state = 907
+                            state = 446
+                            state = 453
+                            state = 454
+                            state = 553
+                            state = 677
+                            state = 291
+                            state = 656
+                            state = 457
+                            state = 456
+                            state = 883
+                            state = 271
+                            state = 992
+                        }
+                    }
+                }
+                subtract_from_variable = { var = global.fortress_italy_var value = 0.025 }
+                set_variable = { var = global.fortress_italy_var_neg value = global.fortress_italy_var }
+                multiply_variable = { var = global.fortress_italy_var_neg value = -1 }
+            }
+        }
+        effect = {
+            if = {
+                limit = {
+                    OR = {
+                        tag = ENG
+                        tag = FRA
+                        tag = USA
+                        tag = CAN
+                        tag = SAF
+                        tag = RAJ
+                        tag = AST
+                    }
+                    OR = {
+                        FROM = { tag = ROM}
+                        FROM = { tag = HUN}
+                        FROM = { tag = ITA}
+                        FROM = { tag = GER}
+                    }
+                    FROM.FROM = {
+                        OR = {
+                            state = 448
+                            state = 449
+                            state = 450
+                            state = 451
+                            state = 116
+                            state = 114
+                            state = 1
+                            state = 118
+                            state = 182
+                            state = 164
+                            state = 187
+                            state = 183
+                            state = 452
+                            state = 447
+                            state = 907
+                            state = 446
+                            state = 453
+                            state = 454
+                            state = 553
+                            state = 677
+                            state = 291
+                            state = 656
+                            state = 457
+                            state = 456
+                            state = 883
+                            state = 271
+                            state = 992
+                        }
+                    }
+                }
+                add_to_variable = { var = global.fortress_italy_var value = 0.025 }
+                set_variable = { var = global.fortress_italy_var_neg value = global.fortress_italy_var }
+                multiply_variable = { var = global.fortress_italy_var_neg value = -1 }    
+            }
+        }
+    }
+
     on_state_control_changed = {
         ### AXIS WON AFRICA IDEA REMOVAL
         effect = {

@@ -29,11 +29,6 @@ sound = {
 	always_load = yes
 }
 sound = {
-	name = "ww2_begins"
-	file = "rm_sound/ww2_begins.wav"
-	always_load = yes
-}
-sound = {
 	name = "rhineland"
 	file = "rm_sound/rhineland.wav"
 	always_load = yes

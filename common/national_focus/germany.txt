@@ -8361,7 +8361,6 @@ focus = {
 			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 20000 producer = AUS }
 			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = AUS }
 			add_equipment_to_stockpile = { type = support_equipment_1 amount = 800 producer = AUS }
-			sound_effect = ww2_begins
 			ENG = {
 				add_to_faction = POL
 			}

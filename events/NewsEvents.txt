@@ -2226,9 +2226,7 @@ news_event = {
 		}
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	immediate = {
 		set_global_flag = nationalist_victory
@@ -2274,9 +2272,7 @@ news_event = {
 		}
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	immediate = {
 		set_global_flag = republican_victory
@@ -2329,9 +2325,7 @@ news_event = {
 		USA = { has_war = no }
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	immediate = {
 		set_global_flag = olympics_1936 
@@ -2375,9 +2369,7 @@ news_event = {
 		JAP = { has_war = no }
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	immediate = {
 		set_global_flag = olympics_jap_1940
@@ -2418,9 +2410,7 @@ news_event = {
 		USA = { has_war = no }
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	immediate = {
 		set_global_flag = olympics_fin_1940
@@ -2574,9 +2564,7 @@ news_event = {
 		set_global_flag = fall_of_warsaw_ger
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.100.a
@@ -2617,9 +2605,7 @@ news_event = {
 		set_global_flag = fall_of_paris_ger
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.101.a
@@ -2660,9 +2646,7 @@ news_event = {
 		set_global_flag = fall_of_london_ger
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -2734,9 +2718,7 @@ news_event = {
 		set_global_flag = fall_of_budapest_sov
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.401.a
@@ -2777,9 +2759,7 @@ news_event = {
 		set_global_flag = fall_of_leningrad
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -2821,9 +2801,7 @@ news_event = {
 		set_global_flag = fall_of_kiev
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -2872,9 +2850,7 @@ news_event = {
 		set_global_flag = fall_of_stalingrad
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -2915,9 +2891,7 @@ news_event = {
 		set_global_flag = fall_of_moscow
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.106.a
@@ -2958,9 +2932,7 @@ news_event = {
 		set_global_flag = fall_of_sevastopol
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3001,9 +2973,7 @@ news_event = {
 		set_global_flag = fall_of_baku
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3044,9 +3014,7 @@ news_event = {
 		set_global_flag = fall_of_cairo
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3087,9 +3055,7 @@ news_event = {
 		set_global_flag = fall_of_washington
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3130,9 +3096,7 @@ news_event = {
 		set_global_flag = fall_of_new_york
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3173,9 +3137,7 @@ news_event = {
 		set_global_flag = fall_of_gibraltar_ger
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3216,9 +3178,7 @@ news_event = {
 		set_global_flag = fall_of_cairo_ita
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3259,9 +3219,7 @@ news_event = {
 		set_global_flag = fall_of_paris_ita
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3302,9 +3260,7 @@ news_event = {
 		set_global_flag = fall_of_london_ita
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3345,9 +3301,7 @@ news_event = {
 		set_global_flag = fall_of_gibraltar_ita
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3396,9 +3350,7 @@ news_event = {
 		set_global_flag = fall_of_singapore
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3445,9 +3397,7 @@ news_event = {
 		set_global_flag = fall_of_pearl_harbor
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3488,9 +3438,7 @@ news_event = {
 		set_global_flag = fall_of_sydney
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3531,9 +3479,7 @@ news_event = {
 		set_global_flag = fall_of_los_angeles
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3574,9 +3520,7 @@ news_event = {
 		set_global_flag = fall_of_nanjing
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3617,9 +3561,7 @@ news_event = {
 		set_global_flag = fall_of_vladivostok
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3660,9 +3602,7 @@ news_event = {
 		set_global_flag = fall_of_hong_kong
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3703,9 +3643,7 @@ news_event = {
 		set_global_flag = fall_of_manila
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3760,9 +3698,7 @@ news_event = {
 		set_global_flag = fall_of_calcutta
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3817,9 +3753,7 @@ news_event = {
 		set_global_flag = fall_of_new_delhi
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3866,9 +3800,7 @@ news_event = {
 		set_global_flag = fall_of_panama
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -3909,9 +3841,7 @@ news_event = {
 		set_global_flag = fall_of_berlin_usa
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.139.a
@@ -3952,9 +3882,7 @@ news_event = {
 		set_global_flag = fall_of_berlin_eng
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.139.a
@@ -3995,9 +3923,7 @@ news_event = {
 		set_global_flag = fall_of_berlin_fra
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4038,9 +3964,7 @@ news_event = {
 		set_global_flag = fall_of_berlin_pol
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4090,9 +4014,7 @@ news_event = {
 		set_global_flag = fall_of_rome_allies
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4153,9 +4075,7 @@ news_event = {
 		set_global_flag = fall_of_rome_fra
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4189,7 +4109,6 @@ news_event = {
 
 	trigger = {
 		NOT = { has_global_flag = liberation_of_paris }
-		has_global_flag = fall_of_france
 	}
 	
 	immediate = {
@@ -4251,9 +4170,7 @@ news_event = {
 		set_global_flag = fall_of_tokyo_usa
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4301,9 +4218,7 @@ news_event = {
 		set_global_flag = fall_of_moscow_allies
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4395,9 +4310,7 @@ news_event = {
 		set_global_flag = fall_of_warsaw_sov
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.100.a
@@ -4476,9 +4389,7 @@ news_event = {
 		play_victory_parade_effect = yes
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.140.a
@@ -4519,9 +4430,7 @@ news_event = {
 		set_global_flag = fall_of_rome_sov
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.140.a
@@ -4562,9 +4471,7 @@ news_event = {
 		set_global_flag = fall_of_paris_sov
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.140.a
@@ -4605,9 +4512,7 @@ news_event = {
 		set_global_flag = liberation_of_paris_sov
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.143.a
@@ -4648,9 +4553,7 @@ news_event = {
 		set_global_flag = fall_of_london_sov
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.140.a
@@ -4691,9 +4594,7 @@ news_event = {
 		set_global_flag = liberation_of_london_sov
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4734,9 +4635,7 @@ news_event = {
 		set_global_flag = fall_of_tokyo_sov
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4777,9 +4676,7 @@ news_event = {
 		set_global_flag = fall_of_leningrad_fin
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4820,9 +4717,7 @@ news_event = {
 		set_global_flag = fall_of_tokyo_chi
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -4872,9 +4767,7 @@ news_event = {
 		set_global_flag = fall_of_gibraltar_spa
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.145.a
@@ -5022,9 +4915,7 @@ news_event = {
 		NOT = { has_global_flag = MR_pact_broken_event_flag }
 	}
 
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 
 	immediate = {
 		hidden_effect = {
@@ -5103,9 +4994,7 @@ news_event = {
 		NOT = { has_global_flag = MR_pact_broken_event_flag }
 	}
 
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 
 	immediate = {
 		hidden_effect = {
@@ -5180,9 +5069,7 @@ news_event = {
 	}
 	
 
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		trigger = { NOT = { tag = GER } }
@@ -5210,9 +5097,7 @@ news_event = {
 		is_special_project_completed = sp:sp_rocket_interceptor
 	}
 
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.156.a
@@ -5355,11 +5240,6 @@ news_event = {
 		set_global_flag = rhineland_militarized_war
 	}
 	
-
-	mean_time_to_happen = {
-		days = 2
-	}
-	
 	option = {
 		trigger = { NOT = { tag = GER } }
 		name = news.160.a
@@ -5425,10 +5305,6 @@ news_event = {
 			original_tag = SPR
 			NOT = { has_government = fascism }
 		}
-	}
-	
-	mean_time_to_happen = {
-		days = 2
 	}
 	
 	immediate = {
@@ -12998,9 +12874,7 @@ news_event = {
 		set_global_flag = remember_the_alamo
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	
 	
 	option = {
 		name = news.336.a

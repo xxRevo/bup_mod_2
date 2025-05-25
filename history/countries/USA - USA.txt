@@ -431,7 +431,7 @@ recruit_character = USA_alexander_patch
 recruit_character = USA_william_simpson
 recruit_character = USA_j_lawton_collins
 recruit_character = USA_courtney_hodges
-recruit_character = USA_joseph_stilwell
+
 recruit_character = USA_oscar_griswold
 recruit_character = USA_maurice_rose
 recruit_character = USA_alexander_vandegrift
@@ -462,7 +462,7 @@ recruit_character = USA_claire_lee_chennault
 
 recruit_character = USA_henry_morgenthau
 recruit_character = USA_william_donovan
-recruit_character = USA_whittaker_chambers
+
 recruit_character = USA_robert_taft
 recruit_character = USA_donald_nelson
 recruit_character = USA_joseph_mccarthy

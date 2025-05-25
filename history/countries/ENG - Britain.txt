@@ -548,7 +548,7 @@ recruit_character = ENG_oliver_leese
 recruit_character = ENG_miles_dempsey
 recruit_character = ENG_brian_horrocks
 recruit_character = ENG_archibald_wavell
-recruit_character = ENG_james_fownes_somerville
+
 recruit_character = ENG_henry_harwood
 recruit_character = ENG_andrew_cunningham
 recruit_character = ENG_bruce_fraser

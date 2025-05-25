@@ -1,0 +1,9 @@
+SOV_we_want_to_send_ultimatums = {
+	OR = {
+		has_completed_focus = SOV_claims_in_baltic
+		focus_progress = {
+			focus = SOV_claims_in_baltic
+			progress > 0.01
+		}
+	}
+}

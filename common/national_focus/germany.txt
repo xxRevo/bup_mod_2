@@ -1483,7 +1483,7 @@ focus = {
 
 	focus = {
 		id = GER_autobahn
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_GER_reichsautobahn
 		prerequisite = { focus = GER_autarky }
 		x = -2
 		y = 1

@@ -2074,9 +2074,11 @@ equipment_modules = {
         }
         multiply_stats ={
             air_attack = 0.1
-
-            xp_cost = 0
         }
+
+        xp_cost = 0
+		
+		}
 
         air_ground_radar_1 = {
             abbreviation = "agr1"
@@ -2468,4 +2470,3 @@ equipment_modules = {
         }
 
     }
-}

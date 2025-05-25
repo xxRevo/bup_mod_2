@@ -199,7 +199,6 @@ add_timed_idea = {
 	recruit_character = BUL_hristo_lukov
 	recruit_character = BUL_atanas_shalapatov
 	recruit_character = BUL_nikola_mihov
-	recruit_character = BUL_georgi_popov
 	recruit_character = BUL_vasil_boydev
 	recruit_character = BUL_ivan_markov
 	recruit_character = BUL_georgi_markov

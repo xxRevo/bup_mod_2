@@ -890,8 +890,8 @@ recruit_character = GER_eva_braun
 recruit_character = GER_peter_adolf_thiessen
 recruit_character = GER_gustav_ludwig_hertz
 recruit_character = GER_eduard_grote
-recruit_character = GER_ferdinand_porsche 
-recruit_character = GER_erwin_aders
+ 
+
 recruit_character = GER_hermann_burkhardt
 recruit_character = GER_ulrich_gabler
 recruit_character = GER_hans_von_ohain

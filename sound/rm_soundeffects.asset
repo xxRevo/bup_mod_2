@@ -50,14 +50,7 @@ soundeffect = {
 	}
 	volume = 0.95
 }
-soundeffect = {
-	name = "ww2_begins"
-	sounds = {
-		sound = 
-			ww2_begins
-	}
-	volume = 0.95
-}
+
 soundeffect = {
 	name = "soviet_debuffs"
 	sounds = {

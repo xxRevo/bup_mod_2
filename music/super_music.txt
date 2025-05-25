@@ -1,0 +1,109 @@
+music_station = "super_station"
+music = {
+	song = "super_ww2"
+	chance = {
+		factor = 0
+	}
+}
+
+music = {
+	song = "super_british_collapse"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_fall_germany"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_soviet_end"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_japanese_surrender"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_fall_america"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_nuke"
+	chance = {
+		factor = 0
+	}
+}
+
+music = {
+	song = "super_fall_france"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_fall_poland"
+	chance = {
+		factor = 0
+	}
+}
+
+music = {
+	song = "super_fall_of_new_york"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_fall_of_washington"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_fall_of_los_angeles"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_fall_of_london"
+	chance = {
+		factor = 0
+	}
+}
+
+music = {
+	song = "super_paris_liberated"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "super_london_liberated"
+	chance = {
+		factor = 0
+	}
+}
+
+music = {
+	song = "super_tokyo_america"
+	chance = {
+		factor = 0
+	}
+}
+
+music = {
+	song = "super_fascist"
+	chance = {
+		factor = 0
+	}
+}

@@ -1,0 +1,77 @@
+music = {
+	name = "super_ww2"
+	file = "ww2.ogg"
+}
+
+music = {
+	name = "super_british_collapse"
+	file = "british_collapse.ogg"
+}
+music = {
+	name = "super_fall_germany"
+	file = "fall_germany.ogg"
+}
+music = {
+	name = "super_soviet_end"
+	file = "soviet_end.ogg"
+}
+music = {
+	name = "super_japanese_surrender"
+	file = "japanese_surrender.ogg"
+}
+music = {
+	name = "super_fall_america"
+	file = "fall_america.ogg"
+}
+music = {
+	name = "super_nuke"
+	file = "super_nuke.ogg"
+}
+
+music = {
+	name = "super_fall_france"
+	file = "fall_france.ogg"
+}
+music = {
+	name = "super_fall_poland"
+	file = "fall_poland.ogg"
+}
+
+music = {
+	name = "super_fall_of_new_york"
+	file = "fall_ny.ogg"
+}
+
+music = {
+	name = "super_fall_of_washington"
+	file = "fall_washington.ogg"
+}
+
+music = {
+	name = "super_fall_of_london"
+	file = "fall_london.ogg"
+}
+
+music = {
+	name = "super_fall_of_los_angeles"
+	file = "fall_la.ogg"
+}
+
+music = {
+	name = "super_paris_liberated"
+	file = "paris_liberated.ogg"
+}
+music = {
+	name = "super_london_liberated"
+	file = "london_liberated.ogg"
+}
+
+music = {
+	name = "super_tokyo_america"
+	file = "tokyo_america.ogg"
+}
+
+music = {
+    name = "super_fascist"
+	file = "tno.ogg"
+}

@@ -1,0 +1,504 @@
+################
+# SUPER EVENTS #
+################
+
+add_namespace = super
+add_namespace = super_info
+
+country_event = {	#ww2
+	id = super.1
+	title = super.1.t
+	desc = super.1.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			GER = { has_government = fascism }
+			OR = {
+				GER = { has_offensive_war_with = ENG }
+				GER = { has_offensive_war_with = FRA }
+			}
+			NOT = {
+				has_global_flag = Super_WW2
+			}
+		}
+	}
+
+	option = {
+		name = super.1.a
+		
+        set_global_flag = GER_WW2
+		set_global_flag = Super_Event_Visible
+		play_song = "super_fascist"
+		
+		#WW2 Flag
+		set_global_flag = Super_WW2
+	}
+}
+
+country_event = {	#Pacific War
+	id = super.4
+	title = super.4.t
+	desc = super.4.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		USA = { has_defensive_war_with = JAP }
+	}
+	
+	option = {
+		name = super.4.a
+		
+        set_global_flag = USA_Pacific_War
+		set_global_flag = Super_Event_Visible
+	}
+}
+
+country_event = {	#Barb
+	id = super.5
+	title = super.5.t
+	desc = super.5.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			GER = { has_offensive_war_with = SOV }
+			GER = { has_government = fascism }
+		}
+	}
+	
+	option = {
+		name = super.5.a
+		
+        set_global_flag = GER_Barbarossa
+		set_global_flag = Super_Event_Visible
+	}
+}
+
+country_event = {	#Fall of UK
+	id = super.13
+	title = super.13.t
+	desc = super.13.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			NOT = {
+				country_exists = ENG
+			}
+			ENG = { has_capitulated = yes }
+		}
+	}
+	
+	option = {
+		name = super.13.a
+		
+        set_global_flag = ENG_fall
+		set_global_flag = Super_Event_Visible
+		play_song = "super_british_collapse"
+	}
+}
+
+country_event = {	#Fall of Germany
+	id = super.14
+	title = super.14.t
+	desc = super.14.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			NOT = {
+				country_exists = GER
+			}
+			GER = { has_capitulated = yes }
+		}
+	}
+	
+	option = {
+		name = super.14.a
+		
+        set_global_flag = GER_fall
+		set_global_flag = Super_Event_Visible
+		play_song = "super_fall_germany"
+	}
+}
+
+country_event = {	#Fall of Russia
+	id = super.15
+	title = super.15.t
+	desc = super.15.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			NOT = {
+				country_exists = SOV
+			}
+			SOV = { has_capitulated = yes }
+		}
+	}
+	
+	option = {
+		name = super.15.a
+		
+        set_global_flag = SOV_fall
+		set_global_flag = Super_Event_Visible
+		play_song = "super_soviet_end"
+	}
+}
+
+country_event = {	#Fall of Japan
+	id = super.16
+	title = super.16.t
+	desc = super.16.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			NOT = {
+				country_exists = JAP
+			}
+			JAP = { has_capitulated = yes }
+		}
+	}
+	
+	option = {
+		name = super.16.a
+		
+        set_global_flag = JAP_fall
+		set_global_flag = Super_Event_Visible
+		play_song = "super_japanese_surrender"
+	}
+}
+
+country_event = {	#Fall of USA
+	id = super.17
+	title = super.17.t
+	desc = super.17.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			NOT = {
+				country_exists = USA
+			}
+			USA = { has_capitulated = yes }
+		}
+	}
+	
+	option = {
+		name = super.17.a
+		
+        set_global_flag = USA_fall
+		set_global_flag = Super_Event_Visible
+		play_song = "super_fall_america"
+	}
+}
+
+country_event = {	#1st Nuke
+	id = super.18
+	title = super.18.t
+	desc = super.18.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = first_nuke_dropped
+	}
+	
+	option = {
+		name = super.18.a
+		
+        set_global_flag = SP_Nuke
+		set_global_flag = Super_Event_Visible
+		play_song = "super_nuke"
+	}
+}
+
+country_event = { #Fall of France
+	id = super.29
+	title = super.29.t
+	desc = super.29.d 
+	picture = GFX_report_event_diplomatic_message
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			NOT = {
+				country_exists = FRA
+			}
+			FRA = { has_capitulated = yes }
+		}
+	}
+	
+	option = {
+		name = super.29.a 
+		
+		set_global_flag = FRA_Fall
+		set_global_flag = Super_Event_Visible
+		play_song = "super_fall_france"
+	}
+}
+
+country_event = { #Fall of Poland
+	id = super.30
+	title = super.30.t
+	desc = super.30.d 
+	picture = GFX_report_event_diplomatic_message
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			NOT = {
+				country_exists = POL
+			}
+			POL = { has_capitulated = yes }
+		}
+	}
+	
+	option = {
+		name = super.30.a 
+		
+		set_global_flag = POL_Fall
+		set_global_flag = Super_Event_Visible
+		play_song = "super_fall_poland"
+	}
+}
+
+country_event = {	#Fall of New York
+	id = super.56
+	title = super.56.t
+	desc = super.56.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = fall_of_new_york
+	}
+	
+	option = {
+		name = super.56.a
+		
+        set_global_flag = fall_of_new_york_se
+		set_global_flag = Super_Event_Visible
+		play_song = "super_fall_of_new_york"
+	}
+}
+
+country_event = {	#Fall of Los Angeles
+	id = super.61
+	title = super.61.t
+	desc = super.61.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = fall_of_los_angeles
+	}
+	
+	option = {
+		name = super.61.a
+		
+        set_global_flag = fall_of_los_angeles_se
+		set_global_flag = Super_Event_Visible
+		play_song = "super_fall_of_los_angeles"
+	}
+}
+
+country_event = {	#Fall of Washington
+	id = super.83
+	title = super.83.t
+	desc = super.83.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = fall_of_washington
+	}
+	
+	option = {
+		name = super.56.a
+		
+        set_global_flag = fall_of_washington_se
+		set_global_flag = Super_Event_Visible
+		play_song = "super_fall_of_washington"
+	}
+}
+
+country_event = {	#Fall of London
+	id = super.90
+	title = super.90.t
+	desc = super.90.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = fall_of_london_ger
+	}
+	
+	option = {
+		name = super.90.a
+		
+        set_global_flag = fall_of_london_se
+		set_global_flag = Super_Event_Visible
+		play_song = "super_fall_of_london"
+	}
+}
+
+country_event = {	#Fall of Tokyo (USA)
+	id = super.66
+	title = super.66.t
+	desc = super.66.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = fall_of_tokyo_usa
+	}
+	
+	option = {
+		name = super.66.a
+		
+        set_global_flag = tokyo_america
+		set_global_flag = Super_Event_Visible
+		play_song = "super_tokyo_america"
+	}
+}
+
+country_event = {	#Liberation of Paris (Allies)
+	id = super.64
+	title = super.64.t
+	desc = super.64.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = liberation_of_paris
+	}
+	
+	option = {
+		name = super.64.a
+		
+        set_global_flag = Paris_Liberated
+		set_global_flag = Super_Event_Visible
+		play_song = "super_paris_liberated"
+	}
+}
+
+country_event = {	#Liberation of London (Allies)
+	id = super.84
+	title = super.84.t
+	desc = super.84.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = liberation_of_london
+	}
+	
+	option = {
+		name = super.84.a
+		
+        set_global_flag = London_Liberated
+		set_global_flag = Super_Event_Visible
+		play_song = "super_london_liberated"
+	}
+}

@@ -185,6 +185,7 @@ NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 15
 
 NDefines.NBuildings.MAX_SHARED_SLOTS = 99 --max building slots in a state
 NDefines.NBuildings.MAX_BUILDING_LEVELS=20
+NDefines.NBuildings.NAVALBASE_REPAIR_MULT = 0.2
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 
 NDefines.NMilitary.ARMY_MAX_FUEL_FLOW_MULT = 5.0

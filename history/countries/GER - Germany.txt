@@ -126,8 +126,6 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_cruiser = 1
@@ -1233,9 +1231,9 @@ if = {
 			fixed_auxiliary_weapon_slot_3 = torpedo_mounting
 			engine_type_slot = engine_2_4x
 			special_type_slot_1 = radio_navigation_1 
-			special_type_slot_2 = floats
-			special_type_slot_3 = fuel_tanks_small
-			special_type_slot_4 = fuel_tanks_small
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
 		}
 		obsolete = yes
 	}

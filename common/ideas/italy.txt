@@ -3845,7 +3845,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 158 #PIEMONT (Torino)
-				ITA_is_northern_designer = yes
+				
 			}
 			
 			research_bonus = {
@@ -3871,7 +3871,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 158 #PIEMONT (Torino)
-				ITA_is_northern_designer_improved = yes
+				
 			}
 			
 			research_bonus = {
@@ -3911,7 +3911,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 736 #LITORALE (Trieste)
-				ITA_is_northern_designer = yes
+				
 			}
 						
 			research_bonus = {
@@ -3937,7 +3937,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 736 #LITORALE (Trieste)
-				ITA_is_northern_designer_improved = yes
+				
 			}
 						
 			research_bonus = {
@@ -3972,7 +3972,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 158 #PIEDMONT (Genova)
-				ITA_is_northern_designer = yes
+				
 			}
 						
 			research_bonus = {
@@ -3998,7 +3998,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 158 #PIEDMONT (Genova)
-				ITA_is_northern_designer_improved = yes
+				
 			}
 						
 			research_bonus = {
@@ -4032,7 +4032,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 117 # CAMPAGNA (Napoli)
-				ITA_is_southern_designer = yes
+				
 			}
 						
 			research_bonus = {
@@ -4058,7 +4058,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 117 # CAMPAGNA (Napoli)
-				ITA_is_southern_designer_improved = yes
+				
 			}
 						
 			research_bonus = {
@@ -4093,7 +4093,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 157 # ABRUZZO (Ancona)
-				ITA_is_southern_designer = yes
+				
 			}
 						
 			research_bonus = {
@@ -4119,7 +4119,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 157 # ABRUZZO (Ancona)
-				ITA_is_southern_designer_improved = yes
+				
 			}
 						
 			research_bonus = {
@@ -4151,7 +4151,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 849 # PUGLIA (Taranto)
-				ITA_is_southern_designer = yes
+				
 			}
 						
 			research_bonus = {
@@ -4177,7 +4177,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 849 # PUGLIA (Taranto)
-				ITA_is_southern_designer_improved = yes
+				
 			}
 						
 			research_bonus = {
@@ -4208,7 +4208,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 159 #LOMBARDIA
-				ITA_is_northern_designer = yes
+				
 			}
 			
 			research_bonus = {
@@ -4234,7 +4234,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 159 #LOMBARDIA
-				ITA_is_northern_designer_improved = yes
+				
 			}
 			
 			research_bonus = {
@@ -4264,7 +4264,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 159 #LOMBARDIA
-				ITA_is_northern_designer = yes
+				
 			}
 
 			modifier = {
@@ -4294,7 +4294,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 159 #LOMBARDIA
-				ITA_is_northern_designer_improved = yes
+				
 			}
 
 			modifier = {
@@ -4325,7 +4325,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 159 #LOMBARDIA
-				ITA_is_northern_designer = yes
+				
 			}
 						
 			research_bonus = {
@@ -4351,7 +4351,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 159 #LOMBARDIA
-				ITA_is_northern_designer_improved = yes
+				
 			}
 						
 			research_bonus = {
@@ -4381,7 +4381,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 158 #PIEMONTE
-				ITA_is_northern_designer = yes
+				
 			}
 						
 			research_bonus = {
@@ -4407,7 +4407,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 158 #PIEMONTE
-				ITA_is_northern_designer_improved = yes
+				
 			}
 						
 			research_bonus = {
@@ -4439,7 +4439,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 117 #CAMPANIA (Napoli)
-				ITA_is_southern_designer = yes
+				
 			}
 						
 			research_bonus = {
@@ -4465,7 +4465,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_State = 117 #CAMPANIA (Napoli)
-				ITA_is_southern_designer_improved = yes
+				
 			}
 						
 			research_bonus = {
@@ -4505,7 +4505,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 					}
 				}
 				controls_State = 736 #LITORALE (Trieste)
-				ITA_is_northern_designer = yes
+				
 			}
 
 			cost = 75
@@ -4540,7 +4540,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 					}
 				}
 				controls_State = 736 #LITORALE (Trieste)
-				ITA_is_northern_designer_improved = yes
+				
 			}
 
 			cost = 75
@@ -4581,7 +4581,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 					}
 				}
 				controls_State = 158 #PIEDMONT (Torino)
-				ITA_is_northern_designer = yes
+				
 			}
 
 			cost = 75
@@ -4613,7 +4613,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 					has_idea = ITA_fiat_improved
 				}
 				controls_State = 158 #PIEDMONT (Torino)
-				ITA_is_northern_designer_improved = yes
+				
 			}
 
 			cost = 75
@@ -4650,7 +4650,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 159 #LOMBARDIA
-				ITA_is_northern_designer = yes
+				
 			}
 			
 			research_bonus = {
@@ -4676,7 +4676,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 159 #LOMBARDIA
-				ITA_is_northern_designer_improved = yes
+				
 			}
 			
 			research_bonus = {
@@ -4709,7 +4709,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 159 #LOMBARDIA
-				ITA_is_northern_designer = yes
+				
 			}
 			
 			research_bonus = {
@@ -4735,7 +4735,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 159 #LOMBARDIA
-				ITA_is_northern_designer_improved = yes
+				
 			}
 			
 			research_bonus = {
@@ -4772,7 +4772,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 159 #LOMBARDIA
-				ITA_is_northern_designer = yes
+				
 			}
 			
 			research_bonus = {
@@ -4798,7 +4798,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 159 #LOMBARDIA
-				ITA_is_northern_designer_improved = yes
+				
 			}
 			
 			research_bonus = {
@@ -4833,7 +4833,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 159 #LOMBARDY (Brescia)
-				ITA_is_northern_designer = yes
+				
 			}
 			
 			research_bonus = {
@@ -4859,7 +4859,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 			
 			available = {
 				controls_state = 159 #LOMBARDY (Brescia)
-				ITA_is_northern_designer_improved = yes
+				
 			}
 			
 			research_bonus = {
@@ -4963,7 +4963,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 160 #VENETO
-				ITA_is_northern_designer = yes
+				
 			}
 			
 			research_bonus = {
@@ -4989,7 +4989,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 160 #VENETO
-				ITA_is_northern_designer_improved = yes
+				
 			}
 			
 			research_bonus = {
@@ -5023,7 +5023,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 162 #TUSCANY (actually Terni)
-				ITA_is_southern_designer = yes
+				
 			}
 			
 			research_bonus = {
@@ -5049,7 +5049,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 162 #TUSCANY (actually Terni)
-				ITA_is_southern_designer_improved = yes
+				
 			}
 			
 			research_bonus = {
@@ -5079,7 +5079,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 158 #PIEDMONT
-				ITA_is_northern_designer = yes
+				
 			}
 
 			traits = { construction_company }
@@ -5101,7 +5101,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 158 #PIEDMONT
-				ITA_is_northern_designer_improved = yes
+				
 			}
 
 			traits = { construction_company }
@@ -5130,7 +5130,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 2 #LATIUM
-				ITA_is_southern_designer = yes
+				
 			}
 
 			traits = { construction_company }
@@ -5152,7 +5152,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 2 #LATIUM
-				ITA_is_southern_designer_improved = yes
+				
 			}
 
 			traits = { construction_company }
@@ -5187,7 +5187,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 161 #EMILIA ROMAGNA
-				ITA_is_northern_designer = yes
+				
 			}
 
 			research_bonus = {
@@ -5213,7 +5213,7 @@ ITA_eco_buff_1 = { #Hidden idea to apply light cruisers production bonuses. Comm
 
 			available = {
 				controls_state = 161 #EMILIA ROMAGNA
-				ITA_is_northern_designer_improved = yes
+				
 			}
 
 			research_bonus = {

@@ -929,47 +929,6 @@ focus_tree = {
 					level = 2
 				}
 			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_henschel_organization
-
-				mio:HUN_henschel_organization = {
-					add_mio_size = 2
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_henschel
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = GER_rheinmetall_organization
-
-				mio:GER_rheinmetall_organization = {
-					add_mio_size = 2
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_rheinmetall
-			}
-
 		}
 	}
 
@@ -1030,27 +989,6 @@ focus_tree = {
 					seller_tags = { ITA }
 				}
 			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_fiat_tankettes_organization
-
-				mio:HUN_fiat_tankettes_organization = {
-					add_mio_size = 1
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_fiat
-			}
-
 		}
 	}
 
@@ -1889,7 +1827,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 2
@@ -1933,26 +1871,6 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_ganz_danubius_organization
-
-				mio:HUN_ganz_danubius_organization = {
-					add_mio_size = 3
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_ganz_danubius
 			}
 
 		}
@@ -2273,25 +2191,10 @@ focus_tree = {
 		completion_reward = {
 
 			navy_experience = 15
+			
+			custom_effect_tooltip = generic_skip_one_line_tt
+
 			add_ideas = HUN_naval_warfare
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_obudai_hajogyar_organization
-
-				mio:HUN_obudai_hajogyar_organization = {
-					add_mio_size = 3
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_obudai_hajogyar
-			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
@@ -3218,27 +3121,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_mw_aircraft_organization
-
-				mio:HUN_mw_aircraft_organization = {
-					add_mio_size = 3
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = mw_aircraft
-			}
-
 		}
 	}
 
@@ -3427,27 +3309,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_mavag_aircraft_organization
-
-				mio:HUN_mavag_aircraft_organization = {
-					add_mio_size = 3
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = mavag_aircraft
-			}
-
 		}
 	}
 
@@ -3948,26 +3809,6 @@ focus_tree = {
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_danuvia_inf_organization
-
-				mio:HUN_danuvia_inf_organization = {
-					add_mio_size = 2
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_danuvia_inf
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = HUN_pal_kiraly
 		}
@@ -4171,7 +4012,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -4202,26 +4043,6 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_mavag_assault_guns_organization
-
-				mio:HUN_mavag_assault_guns_organization = {
-					add_mio_size = 3
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_mavag_assault_guns
 			}
 
 		}
@@ -4261,16 +4082,26 @@ focus_tree = {
 			add_doctrine_cost_reduction = {
 				name = wuw_HUN_doctrinal_studies
 				cost_reduction = 0.25
-				uses = 1
+				uses = 2
 				category = land_doctrine
 			}
-
+			
+			
+			
 			add_doctrine_cost_reduction = {
 				name = wuw_HUN_doctrinal_studies
-				cost_reduction = 0.25
+				cost_reduction = 0.50
 				uses = 1
 				category = air_doctrine
 			}
+						
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			add_breakthrough_progress = {
+					specialization = specialization_land
+					value = 0.50
+			}
+			
 			IF = {
 				limit = {
 					any_owned_state = {
@@ -4376,7 +4207,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_war_support > 0.84
+			has_war_support > 0.65
 		}
 
 		bypass = {
@@ -4644,7 +4475,7 @@ focus_tree = {
 		}
 
 		available = {
-			num_of_factories > 29
+			num_of_factories > 20
 		}
 
 		bypass = {
@@ -4692,7 +4523,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_war_support > 0.84
+			has_war_support > 0.65
 		}
 
 		bypass = {
@@ -4891,26 +4722,6 @@ focus_tree = {
 						}
 					}
 				}
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_hti_turan_organization
-
-				mio:HUN_hti_turan_organization = {
-					add_mio_size = 3
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_hti_turan
 			}
 
 		}

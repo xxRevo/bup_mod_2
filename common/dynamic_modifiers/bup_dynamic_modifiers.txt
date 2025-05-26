@@ -43,6 +43,20 @@ atlantic_wall_idea = {
     naval_invasion_penalty = global.atlantic_wall_var_neg
 }
 
+japanese_defense = {
+    icon = GFX_modifiers_generic_defense
+    enable = { always = yes }
+    remove_trigger = {
+        check_variable = {
+            global.atlantic_wall_var > 0.0
+        }
+    }
+    custom_modifier_tooltip = japanese_defense_tt
+
+    amphibious_invasion_defence = global.atlantic_wall_var
+    naval_invasion_penalty = global.atlantic_wall_var_neg
+}
+
 fortress_italy_idea = {
     icon = GFX_modifiers_generic_defense
     enable = { always = yes }

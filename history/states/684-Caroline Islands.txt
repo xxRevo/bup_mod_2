@@ -9,7 +9,7 @@ state={
 		tungsten = 5
 		steel = 5
 		rubber = 5
-		aliminium = 5
+		aluminium = 5
 	}
 
 	history={

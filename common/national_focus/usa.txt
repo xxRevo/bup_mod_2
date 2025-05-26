@@ -2082,13 +2082,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			army_experience = 20
-			add_tech_bonus = {
-				name = USA_louisiana_maneuvers
-				bonus = 1.0
-				uses = 3
-				category = land_doctrine
-			}
+			army_experience = 100
+			add_breakthrough_progress = {
+					specialization = specialization_land
+					value = 0.50
+				}
 		}
 	}
 	focus = {
@@ -2245,72 +2243,13 @@ focus_tree = {
 			
 		}
 	}
-	focus = {
-		id = USA_tank_destroyer_doctrine
-		icon = GFX_GENERIC_Tank_Destroyers
-		x = 1
-		y = 3
-		prerequisite = { focus = USA_tank_experiments }
-		relative_position_id = USA_selective_training_act
-		cost = 5
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = tank_destroyer_board
-		}
-	}
-	focus = {
-		id = USA_main_battle_tanks
-		icon = GFX_GENERIC_MBT
-		x = 3
-		y = 3
-		prerequisite = { focus = USA_tank_experiments }
-		relative_position_id = USA_selective_training_act
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = detroit_arsenal
-		}
-	}
 	focus = {
 		id = USA_armored_infantry
 		icon = GFX_USA_Mechanized_Infantry
 		x = 2
-		y = 4
-		prerequisite = { focus = USA_main_battle_tanks focus = USA_tank_destroyer_doctrine }
+		y = 3
+		prerequisite = { focus = USA_tank_experiments }
 		relative_position_id = USA_selective_training_act
 		cost = 5
 
@@ -2480,6 +2419,7 @@ focus_tree = {
 				name = USA_TAC
 				uses = 1
 				bonus = 1.0
+				category = cat_strategic_bomber
 				category = tactical_bomber
 			}
 		}
@@ -2541,7 +2481,7 @@ focus_tree = {
 				name = USA_escort_fighters
 				bonus = 3.0
 				uses = 1
-				technology = heavy_fighter2
+				category = cat_heavy_fighter
 			}
 		}
 	}
@@ -2552,7 +2492,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_TAC }
 		relative_position_id = USA_TAC
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2571,12 +2511,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = USA_us_army_airforce
-				uses = 12
-				bonus = 9
-				category = air_doctrine
-			}
+			add_breakthrough_progress = {
+					specialization = specialization_air
+					value = 0.52
+				}
 		}
 	}
 #  #  ##  #   # #   #      ## ###  ##  ### ###  ##  #  # 
@@ -3195,8 +3133,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_expand_the_USMC
-				bonus = 1.0
-				uses = 1
+				bonus = 1.5
+				uses = 2
 				technology = marines2
 				technology = marines3
 			}

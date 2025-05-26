@@ -158,8 +158,9 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
+		
 		USA_new_deal = {
-			picture = GFX_focus_USA_second_new_deal
+			picture = GFX_idea_USA_beast_of_america
 			
 			allowed = {
 				always = no

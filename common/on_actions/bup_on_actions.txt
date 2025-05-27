@@ -565,6 +565,17 @@ on_actions = {
                 FRA = {
                     set_cosmetic_tag = FRA_FREE
                     set_country_flag = free_france
+                    transfer_units_fraction= {
+                        target = EFR
+                        size = 1
+                        stockpile_ratio = 1
+                        army_ratio = 1
+                        navy_ratio = 1
+                        air_ratio = 1
+                        keep_unit_leaders_trigger = {
+                            always = yes
+                        }
+                    }
                     set_capital = {
                         state = 539
                         remember_old_capital = no

@@ -186,11 +186,11 @@ ability = {
 		}
 		
 		unit_modifiers = {
-			no_supply_grace = 168
+			no_supply_grace = 72
 		}
 		
 		one_time_effect = {
-			supply_units = 168
+			supply_units = 72
 		}
 		
 		cost = 0.2

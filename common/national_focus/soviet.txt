@@ -1900,7 +1900,7 @@ focus = {
 			army_experience = 50
 			add_tech_bonus = {
 				name = armor_bonus
-				bonus = 1.5
+				bonus = 1
 				uses = 1
 				category = armor
 			}

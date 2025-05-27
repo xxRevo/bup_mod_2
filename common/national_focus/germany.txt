@@ -9762,7 +9762,7 @@ focus = {
 			GER={
 					add_timed_idea = {
 					idea = GER_barbarossa_building
-					days = 90	
+					days = 45
 				}
 				declare_war_on = { target = SOV type = annex_everything }
 			}

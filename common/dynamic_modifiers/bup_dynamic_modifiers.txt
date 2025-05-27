@@ -1,8 +1,8 @@
 natural_fortress = {
     icon = GFX_modifiers_generic_defense
     enable = { always = yes }
-    army_defence_factor = 0.5
-    max_dig_in_factor = 2
+    amphibious_invasion_defence = -0.5
+    naval_invasion_penalty = 0.5
     cas_damage_reduction = 0.75
 }
 
@@ -41,6 +41,7 @@ atlantic_wall_idea = {
 
     amphibious_invasion_defence = global.atlantic_wall_var
     naval_invasion_penalty = global.atlantic_wall_var_neg
+    cas_damage_reduction = global.atlantic_wall_var_neg
 }
 
 japanese_defense = {
@@ -55,6 +56,7 @@ japanese_defense = {
 
     amphibious_invasion_defence = global.atlantic_wall_var
     naval_invasion_penalty = global.atlantic_wall_var_neg
+    cas_damage_reduction = global.atlantic_wall_var_neg
 }
 
 fortress_italy_idea = {
@@ -64,6 +66,7 @@ fortress_italy_idea = {
 
     amphibious_invasion_defence = global.fortress_italy_var
     naval_invasion_penalty = global.fortress_italy_var_neg
+    cas_damage_reduction = global.fortress_italy_var_neg
 }
 
 mediterranean_bastion_idea = {
@@ -75,5 +78,6 @@ mediterranean_bastion_idea = {
     custom_modifier_tooltip = mediterranean_bastion_idea_tt
     amphibious_invasion_defence = -0.5
     naval_invasion_penalty = 0.5
+    cas_damage_reduction = 0.5
 }
 

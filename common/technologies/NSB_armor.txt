@@ -1148,7 +1148,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1940
 		allow = { 
 			date > 1938.1.1 
@@ -1232,7 +1232,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1943
 		allow = { 
 			date > 1941.1.1 

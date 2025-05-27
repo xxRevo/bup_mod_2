@@ -419,6 +419,11 @@ equipments = {
 			}
 			
 		}
+
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
+		}
 		module_count_limit = {
 			module = sloped_armor
 			count < 2
@@ -754,6 +759,10 @@ equipments = {
 				}
 			}
 
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
 		}
 		module_count_limit = {
 			module = sloped_armor

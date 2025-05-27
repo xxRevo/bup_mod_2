@@ -173,21 +173,21 @@ technologies = {
 			armored_spearhead
 		}
 		category_mobile_and_mobile_combat_sup = {
-			default_morale = 0.2
+			default_morale = 0.1
+		}
+		mot_artillery_brigade = {
+			default_morale = 0.1
+		}
+		mot_anti_tank_brigade = {
+			default_morale = 0.1
+		}
+		mot_anti_air_brigade = {
+			default_morale = 0.1
 		}
 		motorized = {
 			default_morale = 0.2
 		}
 		armored_car = {
-			default_morale = 0.2
-		}
-		mot_artillery_brigade = {
-			default_morale = 0.2
-		}
-		mot_anti_tank_brigade = {
-			default_morale = 0.2
-		}
-		mot_anti_air_brigade = {
 			default_morale = 0.2
 		}
 		mechanized = {
@@ -580,9 +580,9 @@ technologies = {
 			max_organisation = 15
 		}
 		category_line_artillery = {
-			default_morale = 0.2
+			default_morale = 0.05
 			max_organisation = 2
-			max_strength = 0.25
+			max_strength = 0.125
 		}
 		# faster planning
 		planning_speed = 0.2
@@ -3383,7 +3383,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_all_infantry = {
-			max_organisation = 10
+			max_organisation = 5
 		}
 		category_tanks = {
 			max_organisation = 2

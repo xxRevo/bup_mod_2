@@ -38,7 +38,7 @@ upgrades = {
             }
         }
 
-        reliability = -0.005
+        reliability = -0.0025
         #armor_value = 0.085
         add_stats = {
             build_cost_ic = 0.25

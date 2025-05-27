@@ -3341,7 +3341,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		infantry = {
-			default_morale = 0.30
+			default_morale = 0.1
 		}
 		land_reinforce_rate = 0.05		
 		
@@ -3432,7 +3432,7 @@ technologies = {
 		conscription = 0.05
 		xp_research_type = army
 		xp_unlock_cost = 100
-		land_reinforce_rate = 0.15			
+		land_reinforce_rate = 0.05			
 		
 		path = {
 			leads_to_tech = guerilla_warfare
@@ -3472,9 +3472,9 @@ technologies = {
 	guerilla_warfare = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		out_of_supply_factor = -0.30
+		out_of_supply_factor = -0.15
 		category_army = {
-			default_morale = 0.2
+			default_morale = 0.05
 		}
 		
 		resistance_growth_on_our_occupied_states = 0.25 

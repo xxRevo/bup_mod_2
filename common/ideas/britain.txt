@@ -9,7 +9,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT ={
-					has_government = communismb
+					has_government = communism
 				}
 				NOT = {
 					any_other_country = {

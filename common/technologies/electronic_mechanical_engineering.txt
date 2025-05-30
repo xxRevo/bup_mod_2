@@ -95,7 +95,6 @@ technologies = {
 		
 		enable_equipment_modules = { 
 			tank_radio_1
-			radio_navigation_1
 			lc_radio_1 #Module for Land Cruiser
 		}
 		
@@ -142,7 +141,7 @@ technologies = {
 		}
 		
 		enable_equipment_modules = { 
-			radio_navigation_2
+			radio_navigation_1
 			tank_radio_2
 			lc_radio_2 #Module for Land Cruiser
 		}
@@ -188,6 +187,7 @@ technologies = {
 		
 		enable_equipment_modules = { 
 			tank_radio_3
+			radio_navigation_2
 			lc_radio_3 #Module for Land Cruiser
 		}
 		
@@ -269,7 +269,6 @@ technologies = {
 		start_year = 1938
 		enable_equipment_modules = { 
 			ship_radar_2
-			air_air_radar_1
 			air_ground_radar_1
 		}
 		
@@ -364,6 +363,9 @@ technologies = {
 				is_special_project_completed = sp:sp_air_radar
 			}
 		}
+		enable_equipment_modules = {
+			air_air_radar_1
+		}
 		# radar boost in air/sea combat depends on radar level
 		enable_building = {
 			building = radar_station
@@ -423,7 +425,6 @@ technologies = {
 		coordination_bonus = 0.01
 		enable_equipment_modules = {
 			ship_radar_3
-			air_air_radar_2
 			air_ground_radar_2
 		}
 
@@ -480,7 +481,7 @@ technologies = {
 		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_4
-			air_ground_radar_2
+			air_air_radar_2
 			
 		}
 		special_project_specialization = { specialization_air specialization_nuclear }

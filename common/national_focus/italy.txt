@@ -2232,8 +2232,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH FOCUS_FILTER_MANPOWER}
 
 		completion_reward = {
-			add_ideas = ITA_army_reforms_5
-
 			army_experience = 150
 
 			add_tech_bonus = {

@@ -359,21 +359,6 @@ characters={
 				large=GFX_portrait_FRA_philippe_leclerc
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = philippe_leclerc
-			ledger = army
-			allowed = {
-				original_tag = FRA
-			}
-			traits = {
-				army_commando_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 		
 		corps_commander={
 	traits = {  armor_officer trait_reckless panzer_leader }
@@ -395,32 +380,9 @@ characters={
 			army={
 				large=GFX_portrait_FRA_henri_giraud
 			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = henri_giraud
-			ledger = army
-			allowed = {
-				original_tag = FRA
-			}
-			ai_will_do = {
-				factor = 1.000
-				modifier = {
-					factor = 0.000
-					GER = {
-						is_ai = yes
-					}
-					date < 1939.08.01
-				}
-			}
-			traits = {
-				military_theorist
-			}
-		}
-		
+		}		
 		corps_commander={
-	traits = {  trickster trait_cautious infantry_officer }
+	traits = {  trickster cavalry_leader trait_cautious infantry_officer }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4

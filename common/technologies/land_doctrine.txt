@@ -1809,8 +1809,8 @@ technologies = {
 		
 		xor = { mobile_warfare superior_firepower mass_assault } 
 		
-		category_cavalry = {
-			supply_consumption = -0.02
+		category_light_infantry = {
+			supply_consumption_factor = -0.05
 		}
 		
 		max_dig_in = 10
@@ -2779,6 +2779,7 @@ technologies = {
 
 		category_light_infantry = {
 			max_organisation = 6
+			supply_consumption_factor = -0.1
 		}
 		
 		path = {

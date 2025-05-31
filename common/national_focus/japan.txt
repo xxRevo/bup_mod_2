@@ -2256,14 +2256,14 @@ focus_tree = {
 				}
 				282 = {
 					for_loop_effect = {
-					end = 40 				
+					end = 20
 					create_unit = {
 						division = "name = \"Rikuhentai\" division_template = \"Rikuhentai\" start_experience_factor = 2.0" 
 						owner = JAP
 						}
 					}}
 			}
-			custom_effect_tooltip="40 Marine Divisions spawn in Kanto"
+			custom_effect_tooltip="20 Marine Divisions spawn in Kanto"
 		}	
 	}
 

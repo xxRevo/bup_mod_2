@@ -1845,7 +1845,6 @@
 			else = {
 				add_ideas = war_economy
 			}
-			add_ideas = FRA_armor_high_com
 			army_experience = 500
 			add_war_support = 0.20
 			add_state_core = 539

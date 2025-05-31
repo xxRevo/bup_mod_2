@@ -7,7 +7,7 @@ state={
 		steel=3 # was: 4
 		chromium=60 # was: 22
 		aluminium=30 # was: 58
-		tungsten = 60 # was: 20
+		tungsten = 10 # was: 20
 	}
 	
 	state_category = city

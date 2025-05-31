@@ -3331,30 +3331,6 @@ focus = {
 				}
 			}
 
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			GER_modify_army_modifier = yes
-			add_to_variable = { 
-				GER_military_coordination_bonus = 0.05
-				tooltip = coordination_bonus_tt
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			custom_effect_tooltip = GER_modify_blitzkrieg_modifier_tt
-			effect_tooltip = {
-				add_to_variable = { 
-					GER_blitzkrieg_army_armor_speed_factor = 0.05
-					tooltip = army_armor_speed_factor_tt
-				}
-				add_to_variable = { 
-					GER_blitzkrieg_army_armor_attack_factor = 0.05
-					tooltip = army_armor_attack_factor_tt
-				}
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
 			if = {
 				limit = {
 					NOT = { has_dlc = "Arms Against Tyranny"}
@@ -3411,7 +3387,6 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_expand_kummersdorfs_capacity
-				ahead_reduction = 1
 				bonus = 1
 				uses = 1
 				category = cat_heavy_armor
@@ -3549,10 +3524,6 @@ focus = {
 			add_to_variable = { 
 				GER_military_air_superiority_bonus_in_combat = 0.1
 				tooltip = air_superiority_bonus_in_combat_tt
-			}
-			add_to_variable = { 
-				GER_military_coordination_bonus = 0.05
-				tooltip = coordination_bonus_tt
 			}
 		}
 	}
@@ -6800,18 +6771,18 @@ focus = {
 			air_experience = 500
 			navy_experience = 100
 			HUN = {
-				army_experience = 250
-				air_experience = 250
+				army_experience = 500
+				air_experience = 500
 				navy_experience = 50
 			}
 			ROM = {
-				army_experience = 250
-				air_experience = 250
+				army_experience = 500
+				air_experience = 500
 				navy_experience = 50
 			}
 			ITA = {
-				army_experience = 250
-				air_experience = 250
+				army_experience = 500
+				air_experience = 500
 				navy_experience = 50
 			}
 			FRA = {
@@ -6820,33 +6791,33 @@ focus = {
 				navy_experience = 50
 			}
 			ENG = {
-				army_experience = 125
-				air_experience = 125
+				army_experience = 500
+				air_experience = 500
 				navy_experience = 50
 			}	
 			AST = {
-				army_experience = 125
-				air_experience = 125
+				army_experience = 500
+				air_experience = 500
 				navy_experience = 50
 			}
 			NZL = {
-				army_experience = 125
-				air_experience = 125
+				army_experience = 500
+				air_experience = 500
 				navy_experience = 50
 			}
 			CAN = {
-				army_experience = 125
-				air_experience = 125
+				army_experience = 500
+				air_experience = 500
 				navy_experience = 50
 			}
 			SAF = {
-				army_experience = 125
-				air_experience = 125
+				army_experience = 500
+				air_experience = 500
 				navy_experience = 50
 			}	
 			RAJ = {
-				army_experience = 125
-				air_experience = 125
+				army_experience = 250
+				air_experience = 250
 				navy_experience = 50
 			}		
 			SOV = {

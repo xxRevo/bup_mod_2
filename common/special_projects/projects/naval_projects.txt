@@ -1962,9 +1962,9 @@ sp_naval_super_heavy_battleship = {
 								name = sp_super_heavy_battleship_eq_bonus_heavy_attack
 								bonus = {
 									ship_hull_super_heavy_1 = {
-										naval_heavy_gun_hit_chance_factor = 0.15
-										hg_attack = 0.15
-										hg_armor_piercing = 0.1										
+										
+										hg_attack = 0.05
+																			
 									}
 								}
 							}
@@ -1974,9 +1974,7 @@ sp_naval_super_heavy_battleship = {
 								name = sp_super_heavy_battleship_eq_bonus_heavy_attack
 								bonus = {
 									SH_battleship_1 = {
-										naval_heavy_gun_hit_chance_factor = 0.15
-										hg_attack = 0.15
-										hg_armor_piercing = 0.1										
+										hg_attack = 0.05									
 									}
 								}
 							}						
@@ -1998,9 +1996,9 @@ sp_naval_super_heavy_battleship = {
 								name = sp_super_heavy_battleship_eq_bonus_speed
 								bonus = {
 									ship_hull_super_heavy_1 = {
-										naval_speed = 0.1
-										surface_detection = 0.15
-										surface_visibility = -0.05									
+										
+										surface_detection = 0.05
+																		
 									}
 								}
 							}
@@ -2010,9 +2008,7 @@ sp_naval_super_heavy_battleship = {
 								name = sp_super_heavy_battleship_eq_bonus_speed
 								bonus = {
 									SH_battleship_1 = {
-										naval_speed = 0.1
-										surface_detection = 0.15
-										surface_visibility = -0.05									
+										surface_detection = 0.05									
 									}
 								}
 							}						
@@ -2033,7 +2029,7 @@ sp_naval_super_heavy_battleship = {
 								name = sp_super_heavy_battleship_eq_bonus_light_attack
 								bonus = {
 									ship_hull_super_heavy_1 = {
-										naval_light_gun_hit_chance_factor = 0.1
+										
 										lg_attack = 0.1
 										lg_armor_piercing = 0.1								
 									}
@@ -2045,7 +2041,7 @@ sp_naval_super_heavy_battleship = {
 								name = sp_super_heavy_battleship_eq_bonus_light_attack
 								bonus = {
 									SH_battleship_1 = {
-										naval_light_gun_hit_chance_factor = 0.1
+			
 										lg_attack = 0.1
 										lg_armor_piercing = 0.1								
 									}
@@ -2082,8 +2078,8 @@ sp_naval_super_heavy_battleship = {
 								name = sp_super_heavy_battleship_eq_bonus_armor
 								bonus = {
 									ship_hull_super_heavy_1 = {
-										armor_value = 0.1
-										max_strength = 0.1 							
+										
+										max_strength = 0.05							
 									}
 								}
 							}
@@ -2093,8 +2089,8 @@ sp_naval_super_heavy_battleship = {
 								name = sp_super_heavy_battleship_eq_bonus_armor
 								bonus = {
 									SH_battleship_1 = {
-										armor_value = 0.1
-										max_strength = 0.1 						
+										
+										max_strength = 0.05 						
 									}
 								}
 							}						

@@ -140,6 +140,7 @@ focus = {
 					
 		}
 		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 30 }
 			add_ideas=Fast_Training
 			add_ideas = SOV_the_great_war	
 			remove_ideas = peace_training

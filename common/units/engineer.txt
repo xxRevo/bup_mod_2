@@ -63,7 +63,6 @@ sub_units = {
 		can_be_parachuted = yes
 		forest = {
 			defence = 0.25
-			movement = 0.05
 		}
 
 		hills = {
@@ -76,7 +75,6 @@ sub_units = {
 
 		marsh = {
 			defence = 0.25
-			movement = 0.2
 		}
 
 		fort = {
@@ -163,7 +161,6 @@ sub_units = {
 		marsh = {
 			attack = 0.10
 			defence = 0.20
-			movement = 0.2
 		}
 
 		fort = {
@@ -236,13 +233,13 @@ sub_units = {
 		forest = {
 			attack = 0.1
 			defence = 0.05
-			movement = 0.3
+			movement = 0.25
 		}
 		
 		jungle = {
 			attack = 0.1
 			defence = 0.2
-			movement = 0.3
+			movement = 0.25
 		}
 
 		river = {
@@ -344,7 +341,6 @@ sub_units = {
 		marsh = {
 			attack = 0.05 #More than reg eng (0)
 			defence = 0.05 #Less than reg engineers (0.25)
-			movement = 0.1 #Less than reg engineers (0.25)
 		}
 
 		fort = {
@@ -363,8 +359,7 @@ sub_units = {
 		}
 
 		urban = {
-			attack = 0.15 #More than regular enginners (0)
-			movement = 0.05 #More than reg engineers (0)
+			attack = 0.05 #More than regular enginners (0)
 		}
 
 		same_support_type = engineer
@@ -443,30 +438,18 @@ sub_units = {
 
 		forest = {
 			defence = 0.1
-			movement = 0.1 #More than reg engineers (0.05)
-		}
-
-		plains = {
-			movement = 0.1 #More than reg engineers (0)
-		}
-
-		desert = {
-			movement = 0.1 #More than reg engineers (0)
 		}
 
 		hills = {
 			defence = 0.1 #Same as reg engineers (0.1)
-			movement = 0.05 #More than reg engineers (0)
 		}
 
 		jungle = {
 			defence = 0.1 #Less than reg engineers (0.25)
-			movement = 0.05 #More than reg eng (0)
 		}
 
 		marsh = {
 			defence = 0.1 #Less than reg engineers (0.25)
-			movement = 0.2
 		}
 
 		fort = {
@@ -477,7 +460,7 @@ sub_units = {
 		river = {
 			attack = 0.05 #More than reg engineers (0)
 			defence = 0.1 #Less than reg engineers (0.25)
-			movement = 0.4 #More than reg eng (0.25)
+			movement = 0.25 #More than reg eng (0.25)
 		}
 
 		amphibious = {
@@ -485,9 +468,8 @@ sub_units = {
 		}
 
 		urban = {
-			attack = 0.2 #More than regular enginners (0)
+			attack = 0.1 #More than regular enginners (0)
 			defence = 0.1 #More than reg eng (0)
-			movement = 0.1 #More than reg engineers (0)
 		}
 
 		same_support_type = engineer

@@ -33,7 +33,7 @@ NDefines.NIntel.INTEL_NETWORK_MAX_AIRFORCE_INTEL = 35.0
 NDefines.NIntel.CAPTURED_OPERATIVE_MAX_FACTOR = 40.0
 NDefines.NIntel.CAPTURED_OPERATIVE_MIN_FACTOR = 20.0
 
-NDefines.NIntel.ARMY_INTEL_COMBAT_BONUS_MAX_BONUS = 0.075 			-- max combat bonus that will apply when intel is high enough
+NDefines.NIntel.ARMY_INTEL_COMBAT_BONUS_MAX_BONUS = 0.05	-- max combat bonus that will apply when intel is high enough
 
 NDefines.NIntel.CIVILIAN_PRODUCTION_RANGE_INTEL_MIN = 0.25
 NDefines.NIntel.CIVILIAN_PRODUCTION_RANGE_INTEL_MAX = 0.75
@@ -600,7 +600,7 @@ NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6 -- WAS 5 | We added one more support company as it feels necessary for quality tank or infantry divisions -Thrasymachus
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_WIDTH = 6
-NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.3
+NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.4
 
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 3 -- railways will be put on cooldown when they are captured by enemy and will not be usable during the cooldown
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CORE = 1

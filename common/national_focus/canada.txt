@@ -244,7 +244,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = CAN_rowell_sirois_commission
 
-		cost = 5
+		cost = 1
 
 		ai_will_do = {
 			factor = 75
@@ -544,15 +544,15 @@ focus_tree = {
 		}
 
 		available = {
-			threat > 0.2
+			threat > 0.12
 		}
 		
 		bypass = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1577,7 +1577,6 @@ focus_tree = {
 
 		available = {
 			num_of_factories > 50
-			is_subject = no
 		}
 		
 		bypass = {
@@ -2876,10 +2875,7 @@ focus_tree = {
 		}
 
 		available = {
-			OR = {
-				threat > 0.15
-				is_subject = no
-			}
+			threat > 0.15
 		}
 		
 		bypass = {
@@ -2909,10 +2905,6 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 10
-			modifier = {
-				factor = 5
-				is_subject = no 
-			}
 		}
 
 		available = {

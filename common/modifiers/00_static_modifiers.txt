@@ -96,19 +96,19 @@ weather_mud = { # on Province
 	truck_attrition_factor = 5.0
 }
 weather_extreme_cold = { # on Province
-	army_attack_factor = -0.2
-	breakthrough_factor = -0.3
+	army_attack_factor = -0.5
+	breakthrough_factor = -0.5
 	dig_in_speed_factor = -0.6
 	local_org_regain = -0.05
 	supply_factor = -0.15
 	truck_attrition_factor = 1.0
-	winter_attrition = 0.25
+	winter_attrition = 1
 }
 weather_very_cold = { # on Province
-	army_attack_factor = -0.1
-	breakthrough_factor = -0.15
+	army_attack_factor = -0.25
+	breakthrough_factor = -0.25
 	dig_in_speed_factor = -0.3
-	winter_attrition = 0.25
+	winter_attrition = 0.5
 }
 weather_very_hot = { # on Province
 	heat_attrition = 0.1
@@ -128,7 +128,7 @@ weather_ground_snow_medium = { # on Province
 	army_attack_speed_factor = -0.25
 	breakthrough_factor = -0.15
 	org_loss_when_moving = 0.1
-	supply_factor = -0.20
+	supply_factor = -0.2
 	truck_attrition_factor = 0.5
 	dig_in_speed_factor = 0.05
 }
@@ -139,7 +139,7 @@ weather_ground_snow_high = { # on Province
 	breakthrough_factor = -0.3
 	local_org_regain = -0.05
 	org_loss_when_moving = 0.25
-	supply_factor = -0.40
+	supply_factor = -0.4
 	truck_attrition_factor = 1.0
 	dig_in_speed_factor = 0.15
 }

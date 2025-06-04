@@ -3,14 +3,14 @@ state={
 	id=895
 	name="STATE_895"
 	manpower = 92400
-	state_category = pastoral
+	state_category = town
 
 	history={
         add_core_of = COG
 		owner = SAF
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 3
+			industrial_complex = 5
 
 		}
 		

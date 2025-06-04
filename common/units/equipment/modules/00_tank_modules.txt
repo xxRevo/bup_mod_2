@@ -72,6 +72,7 @@ equipment_modules = {
 		add_stats = {
 			#soft_attack = 1 # that's when rivets shoot back because they got dislodged by the shock. That was in fact the first reactive armor.
 			hardness = -0.05
+			reliability = -0.05
 		}
 		multiply_stats = {
 			armor_value = -0.2
@@ -88,13 +89,13 @@ equipment_modules = {
 		add_stats = {
 			defense = 4
 			breakthrough = 12
+			reliability = 0.05
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 0
 		multiply_stats = {
 			armor_value = 0.2
 			build_cost_ic = 0.05
-			reliability = 0.05
 		}
 	}
 
@@ -1231,12 +1232,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 0.5
-			reliability = 0.025
+			build_cost_ic = 1
+			reliability = 0.1
 		}
 		xp_cost = 0
 		multiply_stats = {
-			defense = 0.15
+			defense = 0.05
 			breakthrough = 0.15
 		}
 	}
@@ -1248,12 +1249,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			build_cost_ic = 1
-			reliability = 0.05
+			build_cost_ic = 1.5
+			reliability = 0.125
 		}
 		xp_cost = 0
 		multiply_stats = {
-			defense = 0.3
+			defense = 0.2
 			breakthrough = 0.3
 		}
 	}
@@ -1265,12 +1266,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 1.5
-			reliability = 0.1
+			build_cost_ic = 2
+			reliability = 0.175
 		}
 		xp_cost = 0
 		multiply_stats = {
-			defense = 0.45
+			defense = 0.35
 			breakthrough = 0.45
 		}
 	}
@@ -1333,12 +1334,13 @@ equipment_modules = {
 		add_stats = {
 			defense = 3
 			breakthrough = 3
+			reliability = 0.05
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 00
 		multiply_stats = {
 			armor_value = 0.25
-			build_cost_ic = 0.06
+			build_cost_ic = 0.05
 		}
 	}
 
@@ -1391,7 +1393,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			reliability = 0.1
+			reliability = 0.05
 			build_cost_ic = 1
 		}
 		xp_cost = 0
@@ -1421,13 +1423,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			defense = 4
-			breakthrough = 4
+			defense = 3
+			breakthrough = 3
+			reliability = 0.025
 		}
 		xp_cost = 0
 		multiply_stats = {
 			armor_value = 0.15
-			build_cost_ic = 0.03
+			build_cost_ic = 0.025
 		}
 	}
 
@@ -1437,9 +1440,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			defense = 6
+			defense = 4
 			entrenchment = 0.5
-			build_cost_ic = 1.25
+			build_cost_ic = 1.5
 		}
 		xp_cost = 0
 		multiply_stats = {

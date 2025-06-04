@@ -185,9 +185,9 @@ ideas = {
 
             modifier = {
                 consumer_goods_expected_value =-0.05
-                production_speed_arms_factory_factor = 0.15
                 global_building_slots_factor = 0.1
                 industry_repair_factor = 1
+                production_speed_buildings_factor = 0.25
             }
 
 
@@ -412,7 +412,7 @@ ideas = {
 
             modifier = {
                 mobilization_speed = 0.2
-                global_building_slots_factor = 0.2
+                global_building_slots_factor = 0.5
             }
         }
 

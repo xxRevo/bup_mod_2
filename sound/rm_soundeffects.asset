@@ -13,7 +13,7 @@ soundeffect = {
 		sound = 
 			pacific_begin
 	}
-	volume = 0.95
+	volume = 0.85
 }
 
 soundeffect = {
@@ -22,7 +22,7 @@ soundeffect = {
 		sound = 
 			soviet_begin
 	}
-	volume = 0.95
+	volume = 0.60
 }
 
 soundeffect = {
@@ -48,7 +48,7 @@ soundeffect = {
 		sound = 
 			rhineland
 	}
-	volume = 0.95
+	volume = 0.85
 }
 
 soundeffect = {
@@ -57,5 +57,5 @@ soundeffect = {
 		sound = 
 			soviet_debuffs
 	}
-	volume = 0.95
+	volume = 0.75
 }

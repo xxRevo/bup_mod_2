@@ -643,32 +643,6 @@
 			}
 		}
 	}
-
-	focus = {
-		id = FRA_extra_research_slot
-		icon = GFX_focus_research
-		available = {
-			
-		}
-		prerequisite = {
-			focus = FRA_industrial_expansion
-		}
-		x = 0
-		y = 1
-		relative_position_id = FRA_industrial_expansion
-		cost = 5
-
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 1
-		}		
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_research_slot = 1
-			add_to_tech_sharing_group = commonwealth_research
-		}
-	}
 	
 	focus = {
 		id = FRA_extra_research_slot_2
@@ -691,6 +665,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			add_research_slot = 1
+			add_to_tech_sharing_group = commonwealth_research
 		}
 	}
 	focus = {
@@ -1056,7 +1031,8 @@
 		completion_reward = {
 			custom_effect_tooltip = available_theorist
 			show_ideas_tooltip = charles_de_gaulle
-			add_tech_bonus = {
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_doctrine_cost_reduction = {
 				name = FRA_battle_of_maneuver
 				category = land_doctrine
 				cost_reduction = 0.5
@@ -1101,7 +1077,7 @@
 			army_experience = 5
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				name = mech_army_bonus
 				category = armor
 			}
@@ -1993,6 +1969,52 @@
 			add_state_core = 773
 			add_state_core = 295
 			add_manpower = 500000
+		}
+	}
+	
+		focus = {
+		id = FRA_light_medium_armor_2
+		icon = GFX_focus_CONGO_copper_cartridges
+		prerequisite = { focus = FRA_call_the_patriots }
+		x = 0
+		y = 1
+		relative_position_id = FRA_call_the_patriots
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				name = mech_army_bonus
+				category = armor
+			}
+		}
+	}
+	
+	focus = {
+		id = FRA_extra_research_slot
+		icon = GFX_focus_NORDIC_com_capstone_research
+		available = {
+			
+		}
+		prerequisite = {
+			focus = FRA_the_diamond_district
+		}
+		x = 0
+		y = 1
+		relative_position_id = FRA_the_diamond_district
+		cost = 5
+
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+		}		
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 

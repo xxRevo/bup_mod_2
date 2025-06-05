@@ -206,7 +206,7 @@ focus_tree = {
 		}
 
 		available = {
-			congress_low_support_trigger = yes
+			has_political_power > 15
 		}
 		
 		bypass = {
@@ -455,22 +455,15 @@ focus_tree = {
 		prerequisite = { focus = USA_continue_the_new_deal}
 		available = { }
 		x = -1
-		y = -3
+		y = -4
 		relative_position_id = USA_scientist_haven
-		cost = 5
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
 
 		completion_reward = {
 			add_ideas = USA_black_chamber
-			add_tech_bonus = {
-				name = USA_black_chamber
-				bonus = 1.0
-				uses = 2
-				category = encryption_tech
-				category = decryption_tech
-			}
 		}
 	}
 	focus = {
@@ -1004,7 +997,7 @@ focus_tree = {
 		prerequisite = {focus = USA_soil_conservation_service}
 
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 15
 		}
 		
 		bypass = {
@@ -1043,7 +1036,7 @@ focus_tree = {
 		}
 
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 15
 			not = { has_country_flag = USA_great_depression_cooldown }
 		}
 		prerequisite = {focus = USA_agricultural_adjustment_act}
@@ -1533,7 +1526,7 @@ focus_tree = {
 
 
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 25
 			not = { has_country_flag = USA_great_depression_cooldown }
 			has_completed_focus = USA_fair_labour_standards_act
 		}
@@ -1974,16 +1967,7 @@ focus_tree = {
 		}
 
 		available = {
-			if = {
-				limit = {
-					threat < 0.5
-					has_war = no
-				}
-				congress_high_support_trigger = yes
-			}
-			else = {
-				congress_low_support_trigger = yes
-			}
+			has_political_power > 25
 		}
 		
 		bypass = {
@@ -2537,20 +2521,7 @@ focus_tree = {
 		}
 
 		available = {
-			if = {
-				limit = {
-					threat < 0.5
-					has_war = no
-				}
-				has_political_power > 25
-			}
-			else = {
-				has_political_power > -25
-			}
-			OR = {
-				date < 1936.11.1
-				date > 1937.5.2
-			}
+			has_political_power > 25
 		}
 
 		bypass = {
@@ -3107,7 +3078,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = USA_fund_the_navy
 				uses = 3
 				bonus = 1.0

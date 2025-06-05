@@ -6641,19 +6641,10 @@ focus = {
 	x = 2
 	y = 2
 	relative_position_id = RAJ_indian_gentleman_officers 
-	cost = 10
+	cost = 2
 
 	available = {
-		threat > 0.5
-		OR = {
-			is_subject = no
-			is_subject_of = ENG
-		}
-		NOT = {
-			is_in_faction_with = PER
-			has_guaranteed = PER
-			has_non_aggression_pact_with = PER
-		}
+		date > 1941.1.1
 	}
 
 	search_filters = {  }
@@ -6689,7 +6680,7 @@ focus = {
 	x = 1
 	y = 1
 	relative_position_id = RAJ_linlithgows_declaration_of_war 
-	cost = 10
+	cost = 5
 
 	search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT }
 
@@ -7148,10 +7139,9 @@ focus = {
 	x = 0
 	y = 2
 	relative_position_id = RAJ_mobilization_of_the_indian_army 
-	cost = 10
+	cost = 5
 
 	available = {
-		NOT = { has_idea = RAJ_mobilization_of_the_indian_army }
 	}
 
 	search_filters = {  }

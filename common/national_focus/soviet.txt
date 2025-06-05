@@ -1690,9 +1690,6 @@ focus = {
 			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 30000 producer = SOV }
 			swap_ideas = { remove_idea = trotskyite_plot
 			add_idea = trotskyite_plot_purged}
-			add_ideas = officers_purged
-			
-
 		}
 	}
 

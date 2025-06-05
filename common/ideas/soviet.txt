@@ -735,30 +735,6 @@ ideas = {
             }
         }
 
-        officers_purged = {
-            removal_cost = -1
-
-            allowed = {
-                always = no # Added via focus
-            }
-
-            allowed_civil_war = {
-                has_government = communism
-            }
-
-
-            modifier = {
-
-
-                max_dig_in = -3
-
-
-
-
-            }
-
-        }
-
         officers_purged_2 = {
             removal_cost = -1
 

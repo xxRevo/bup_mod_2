@@ -792,7 +792,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_act_of_defense
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -1551,7 +1551,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 5
@@ -1752,7 +1752,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
 
-		cost = 10
+		cost = 5
 
 		dynamic = yes
 
@@ -4599,7 +4599,6 @@ focus_tree = {
 	focus = {
 		id = wuw_HUN_the_turan
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = wuw_HUN_quantity_over_quality }
 		prerequisite = { focus = wuw_HUN_establish_the_mavag_army_division }
 		#mutually_exclusive = { focus = wuw_HUN_expand_the_army }
 		x = -1
@@ -4865,6 +4864,7 @@ focus_tree = {
 		id = wuw_HUN_the_toldi
 		icon = GFX_focus_generic_tankette
 		prerequisite = { focus = wuw_HUN_quantity_over_quality }
+		prerequisite = { focus = wuw_HUN_the_turan }
 		#mutually_exclusive = { focus = wuw_HUN_assault_gun_focus }
 		x = 0
 		y = 2

@@ -103,7 +103,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 150
+			cost = 100
 			slot = theorist
 			idea_token = omar_bradley
 			ledger = army
@@ -112,7 +112,7 @@ characters={
 			}
 
 			traits = {
-				superior_firepower_expert
+				military_theorist
 			}
 		}
 

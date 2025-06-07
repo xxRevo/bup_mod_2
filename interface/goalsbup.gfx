@@ -2374,9 +2374,38 @@ SpriteType = {
 	}
 	
 	SpriteType = { 
-		name = "GFX_focus_ALB_zog"
-		texturefile = "gfx/interface/goals/focus_ALB_zog.dds"
+		name = "GFX_dev_saf"
+		texturefile = "gfx/interface/goals/goal_eng_develop_saf.dds"
 	}
 	
+	SpriteType = { 
+		name = "GFX_dev_ast"
+		texturefile = "gfx/interface/goals/goal_eng_develop_ast.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_dev_can"
+		texturefile = "gfx/interface/goals/goal_eng_develop_can.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_dev_nzl"
+		texturefile = "gfx/interface/goals/goal_eng_develop_nzl.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_dev_raj"
+		texturefile = "gfx/interface/goals/goal_eng_develop_raj.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_gasmask"
+		texturefile = "gfx/interface/goals/goal_eng_gasmasks.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_dev_raj"
+		texturefile = "gfx/interface/goals/goal_eng_develop_raj.dds"
+	}
 	
 }

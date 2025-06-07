@@ -17,6 +17,7 @@ focus_tree = {
             tag = ENG
         }
     }
+	continuous_focus_position = { x = 0 y = 850 }
     default = no
 
     focus = {
@@ -44,7 +45,7 @@ focus_tree = {
             }
         }
 
-        icon = GFX_focus_generic_cryptologic_bomb
+        icon = GFX_ENG_Bletchley_Park
         x = 0
         y = 0
         cost = 10
@@ -102,7 +103,7 @@ focus_tree = {
         }
         prerequisite = { focus = crypto_bomb_focus }
         prerequisite = { focus = radar_focus }
-        icon = GFX_goal_generic_scientific_exchange
+        icon = GFX_ENG_Tizard_Mission
         x = 0
         y = 3
         relative_position_id = crypto_bomb_focus
@@ -155,7 +156,7 @@ focus_tree = {
         id = maud_focus
         available = { is_in_faction_with = USA }
         prerequisite = { focus = tizard_mission_focus }
-        icon = GFX_focus_wonderweapons
+        icon = GFX_ENG_MAUD_Committee
         x = 0
         y = 1
         relative_position_id = tizard_mission_focus
@@ -186,7 +187,7 @@ focus_tree = {
 
     focus = {
         id = limited_rearmament_focus
-        icon = GFX_goal_generic_build_tank
+        icon = GFX_Limited_Rearm
         x = 5
         y = 0
         cost = 5
@@ -266,7 +267,7 @@ focus_tree = {
         prerequisite = { focus = limited_rearmament_focus }
         available = {
         }
-        icon = GFX_goal_generic_army_motorized
+        icon = GFX_ENG_Cruiser_Tank
         x = 0
         y = 1
         relative_position_id = limited_rearmament_focus
@@ -290,7 +291,7 @@ focus_tree = {
     focus = {
         id = ENG_tank_focus
         prerequisite = { focus = ENG_motorized_focus }
-        icon = GFX_goal_generic_army_tanks
+        icon = GFX_ENG_tanks
         x = 0
         y = 1
         relative_position_id = ENG_motorized_focus
@@ -380,7 +381,7 @@ focus_tree = {
         continue_if_invalid = yes
         available_if_capitulated = yes
 
-        icon = GFX_goal_generic_construct_military
+        icon = GFX_GENERIC_Anti_Air_Units
         x = -4
         y = 1
         relative_position_id = limited_rearmament_focus
@@ -629,7 +630,7 @@ focus_tree = {
     focus = {
         id = radar_focus
         prerequisite = { focus = air_defense_focus }
-        icon = GFX_goal_generic_radar
+        icon = GFX_ENG_Dowding_System
         x = 0
         y = 1
         relative_position_id = air_defense_focus
@@ -687,7 +688,7 @@ focus_tree = {
         continue_if_invalid = yes
         available_if_capitulated = yes
 
-        icon = GFX_goal_generic_construct_mil_factory
+        icon = GFX_GENERIC_Military_Industrial_Complexes
 
         x = -2
         y = 1
@@ -858,7 +859,7 @@ focus_tree = {
 
         continue_if_invalid = yes
 
-        icon = GFX_goal_generic_consumer_goods
+        icon = GFX_General_Rearm
         x = 5
         y = 1
         relative_position_id = limited_rearmament_focus
@@ -881,7 +882,7 @@ focus_tree = {
 
         continue_if_invalid = yes
 
-        icon = GFX_focus_eng_special_air_service
+        icon = GFX_ENG_SAS
         x = 0
         y = 1
         relative_position_id = general_rearmament_focus
@@ -905,7 +906,7 @@ focus_tree = {
         }
         continue_if_invalid = yes
 
-        icon = GFX_focus_generic_paratrooper
+        icon = GFX_ENG_paratrooper
         x = 0
         y = 1
         relative_position_id = ENG_special_air_service
@@ -1059,7 +1060,7 @@ focus_tree = {
     focus = {
         id = uk_small_arms_focus
         prerequisite = { focus = royal_ordinance_focus }
-        icon = GFX_goal_generic_production2
+        icon = GFX_ENG_BSA_Company
         x = 1
         y = 1
         relative_position_id = royal_ordinance_focus
@@ -1116,7 +1117,7 @@ focus_tree = {
     focus = {
         id = air_rearmament_focus
         prerequisite = { focus = general_rearmament_focus }
-        icon = GFX_goal_generic_air_doctrine
+        icon = GFX_ENG_RAF
         x = -2
         y = 2
         relative_position_id = general_rearmament_focus
@@ -1352,7 +1353,7 @@ focus_tree = {
     focus = {
         id = fighter_command_focus
         prerequisite = { focus = air_rearmament_focus }
-        icon = GFX_goal_generic_air_fighter
+        icon = GFX_ENG_Fighter_Command
         x = -1
         y = 2
         relative_position_id = air_rearmament_focus
@@ -1410,7 +1411,7 @@ focus_tree = {
 focus = {
     id = bomber_command_focus
     prerequisite = { focus = air_rearmament_focus }
-    icon = GFX_goal_generic_air_bomber
+    icon = GFX_ENG_Bomber_Command
     x = 0
     y = 1
     relative_position_id = air_rearmament_focus
@@ -1459,7 +1460,7 @@ focus = {
 focus = {
     id = coastal_command_focus
     prerequisite = { focus = air_rearmament_focus }
-    icon = GFX_goal_generic_air_naval_bomber
+    icon = GFX_ENG_Fleet_Air_Arm
     x = 1
     y = 2
     relative_position_id = air_rearmament_focus
@@ -1526,7 +1527,7 @@ focus = {
 focus = {
     id = uk_jet_focus
     prerequisite = { focus = aircraft_production_focus }
-    icon = GFX_goal_generic_build_airforce
+    icon = GFX_ENG_RR_Jet
     x = 0
     y = 1
     relative_position_id = aircraft_production_focus
@@ -1557,7 +1558,7 @@ focus = {
 focus = {
     id = naval_rearmament_focus
     prerequisite = { focus = general_rearmament_focus }
-    icon = GFX_goal_generic_construct_naval_dockyard
+    icon = GFX_royal_navy
     x = 2
     y = 2
     relative_position_id = general_rearmament_focus
@@ -1691,8 +1692,7 @@ focus = {
 focus = {
     id = ENG_secure_the_imperial_shipping_routes
     prerequisite = { focus = naval_rearmament_focus }
-    prerequisite = { focus = uk_service_focus }
-    icon = GFX_focus_generic_cruiser2
+    icon = GFX_ENG_navy
     x = 3
     y = 2
    
@@ -1727,7 +1727,7 @@ focus = {
 focus = {
     id = uk_destroyer_focus
     prerequisite = { focus = naval_rearmament_focus }
-    icon = GFX_focus_generic_destroyer
+    icon = GFX_GENERIC_Destroyer
     x = -1
     y = 2
     relative_position_id = naval_rearmament_focus
@@ -1759,7 +1759,7 @@ focus = {
 focus = {
     id = ENG_a_s_warfare
     prerequisite = { focus = uk_destroyer_focus }
-    icon = GFX_goal_generic_navy_anti_submarine
+    icon = GFX_GENERIC_ASW_Tactics
     x = 0
     y = 2
     relative_position_id = uk_destroyer_focus
@@ -1788,7 +1788,7 @@ focus = {
 focus = {
     id = uk_convoy_focus
     prerequisite = { focus = uk_destroyer_focus }
-    icon = GFX_goal_generic_navy_cruiser
+    icon = GFX_goal_generic_convoy
     x = -1
     y = 1
     relative_position_id = uk_destroyer_focus
@@ -1834,7 +1834,7 @@ focus = {
 focus = {
     id = uk_waves_focus
     prerequisite = { focus = naval_rearmament_focus }
-    icon = GFX_goal_generic_navy_doctrines_tactics
+    icon = GFX_ENG_Britannia_Rule_the_Waves
     x = 1
     y = 2
     relative_position_id = naval_rearmament_focus
@@ -1858,7 +1858,7 @@ focus = {
     id = uk_carrier_focus
     prerequisite = { focus = uk_waves_focus }
     mutually_exclusive = { focus = uk_battleship_focus }
-    icon = GFX_goal_generic_navy_carrier
+    icon = GFX_ENG_Pacific_Fleet_Carriers
     x = -1
     y = 1
     relative_position_id = uk_waves_focus
@@ -1884,7 +1884,7 @@ focus = {
     id = uk_battleship_focus
     prerequisite = { focus = uk_waves_focus }
     mutually_exclusive = { focus = uk_carrier_focus }
-    icon = GFX_goal_generic_navy_battleship
+    icon = GFX_GENERIC_Battleship
     x = 1
     y = 1
     relative_position_id = uk_waves_focus
@@ -1908,7 +1908,7 @@ focus = {
 focus = {
     id = uk_amphibious_focus
     prerequisite = { focus = naval_rearmament_focus }
-    icon = GFX_goal_generic_amphibious_assault
+    icon = GFX_ENG_marines
     x = 0
     y = 1
     relative_position_id = naval_rearmament_focus
@@ -1938,7 +1938,7 @@ focus = {
 focus = {
     id = ENG_expand_the_repair_yards
     prerequisite = { focus = general_rearmament_focus}
-    icon = GFX_goal_generic_production
+    icon = GFX_goal_continuous_naval_production
     x = 4
     y = 2
     relative_position_id = general_rearmament_focus
@@ -1992,7 +1992,7 @@ focus = {
 focus = {
     id = ENG_vanguard
     prerequisite = { focus = uk_battleship_focus }
-    icon = GFX_focus_generic_navy_battleship2
+    icon = GFX_ENG_battleship
     x = 0
     y = 2
     relative_position_id = uk_battleship_focus
@@ -2166,7 +2166,7 @@ focus = {
             }
         }
     }
-    icon = GFX_goal_generic_construct_military
+    icon = GFX_focus_generic_mediterranean_sea_focus
     x = 2
     y = 1
     relative_position_id = uk_service_focus
@@ -2368,7 +2368,7 @@ focus = {
     available = {
         118 = { is_owned_and_controlled_by = ENG }
     }
-    icon = GFX_goal_generic_construct_military
+    icon = GFX_gibraltar
     x = 0
     y = 1
     relative_position_id = uk_mediterranean_focus
@@ -2433,7 +2433,7 @@ focus = {
 focus = {
     id = uk_protect_suez
     prerequisite = { focus = uk_mediterranean_focus }
-    icon = GFX_goal_generic_defence
+    icon = GFX_btitish_suez
     x = -1
     y = 2
     relative_position_id = uk_mediterranean_focus
@@ -2570,126 +2570,21 @@ focus = {
     }
 }
 
-focus = {
-    id = uk_balkan_strategy
-    prerequisite = { focus = uk_protect_suez }
-    prerequisite = { focus = uk_malta_focus }
-    icon = GFX_goal_generic_improve_relations
-    available = {
-        has_government = democratic
-    }
-    bypass = {
-        NOT = {
-            country_exists = YUG
-            country_exists = GRE
-            country_exists = ROM
-            country_exists = BUL
-            country_exists = HUN
-        }
-    }
-    x = 1
-    y = 1
-    relative_position_id = uk_protect_suez
-    cost = 10
-    ai_will_do = {
-        factor = 1
-    }
-    search_filters = {FOCUS_FILTER_POLITICAL}
-    completion_reward = {
-        every_country = {
-            limit = {
-                OR = {
-                    tag = YUG
-                    tag = GRE
-                    tag = ROM
-                }
-                NOT = {
-                    OR = {
-                        AND = {
-                            is_in_faction_with = GER
-                            GER = { has_government = fascism }
-                        }
-                        AND = {
-                            is_in_faction_with = ITA
-                            ITA = { has_government = fascism }
-                        }
-                        GRE = {
-                            has_country_flag = GRE_britain_rebuffed
-                        }
-                    }
-                }
-            }
-            country_event = { id = generic.19 }
-            add_offsite_building = { type = arms_factory level = 2 }
-        }
-        YUG = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
-        GRE = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
-        ROM = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
-        BUL = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_bad } }
-        HUN = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_bad } }
-        hidden_effect = {
-            news_event = {
-                hours = 6 id = news.228
-            }
-        }
-        if = {
-            limit = {
-                has_dlc = "Death or Dishonor"
-            }
-            country_event = {
-                id = DOD_yugoslavia.40
-                days = 5
-            }
-        }
-    }
-}
 
-focus = {
-    id = uk_sanction_italy_focus
-    available = {
-        ITA = {
-            ENG_focus_available_embargo_sanction = yes
-        }
-    }
-    bypass = {
-        has_war_with = ITA
-    }
-    prerequisite = { focus = uk_balkan_strategy }
-    icon = GFX_goal_generic_trade
-    x = 0
-    y = 1
-    relative_position_id = uk_balkan_strategy
-    cost = 10
-    ai_will_do = {
-        factor = 1
-    }
-
-    available_if_capitulated = yes
-
-    completion_reward = {
-        ITA = {
-            add_opinion_modifier = { target = ENG modifier = embargo }
-            add_opinion_modifier = { target = ENG modifier = sanctions_relations }
-        }
-    }
-}
 focus = {
     id = ENG_war_with_italy
     available = {
-        has_offensive_war = no
-        ITA = {
-            ENG_focus_available_war = yes
-        }
     }
     bypass = {
         has_war_with = ITA
     }
     will_lead_to_war_with = ITA
-    prerequisite = { focus = uk_sanction_italy_focus }
+    prerequisite = { focus = uk_protect_suez }
+    prerequisite = { focus = uk_malta_focus }
     icon = GFX_focus_attack_italy
-    x = 0
+    x = 1
     y = 1
-    relative_position_id = uk_sanction_italy_focus
+    relative_position_id = uk_protect_suez
     cost = 10
     ai_will_do = {
         factor = 1
@@ -2710,7 +2605,7 @@ focus = {
     available = {
         116 = { is_owned_and_controlled_by = ENG }
     }
-    icon = GFX_focus_generic_coastal_fort
+    icon = GFX_malta
     x = 1
     y = 2
     relative_position_id = uk_mediterranean_focus
@@ -2908,7 +2803,7 @@ focus = {
         CHI = { exists = no }
     }
 
-    icon = GFX_goal_generic_construct_infrastructure
+    icon = GFX_ENG_Burma_Road
     x = -2
     y = 1
     relative_position_id = uk_asia_focus
@@ -3103,7 +2998,7 @@ focus = {
     focus = {
         id = singapore_focus
         prerequisite = { focus = uk_asia_focus }
-        icon = GFX_goal_generic_fortify_city
+        icon = GFX_goal_singapore_protect
         x = 0
         y = 1
         relative_position_id = uk_asia_focus
@@ -3793,7 +3688,7 @@ focus = {
     focus = {
         id = ENG_british_commonwealth_air_training_plan
         prerequisite = { focus = uk_commonwealth_focus }
-        icon = GFX_goal_generic_air_fighter2
+        icon = GFX_ENG_Empire_Air_Training_Scheme
         x = -2
         y = 0
         relative_position_id = uk_australia_focus
@@ -3845,7 +3740,7 @@ focus = {
                 is_in_faction_with = ROOT
             }
         }
-        icon = GFX_goal_generic_construct_civ_factory
+        icon = GFX_dev_raj
         x = 2
         y = 0
         relative_position_id = uk_australia_focus
@@ -3989,7 +3884,7 @@ focus = {
             }
         }
     }
-    icon = GFX_goal_generic_construct_civilian
+    icon = GFX_dev_ast
     x = 0
     y = 1
     relative_position_id = uk_commonwealth_focus
@@ -4099,7 +3994,7 @@ focus = {
     id = uk_new_zealand_focus
     prerequisite = { focus = uk_australia_focus }
 
-    icon = GFX_goal_generic_construction
+    icon = GFX_dev_nzl
     x = 0
     y = 1
     relative_position_id = uk_australia_focus
@@ -4234,7 +4129,7 @@ focus = {
             }
         }
     }
-    icon = GFX_goal_generic_construct_civ_factory
+    icon = GFX_dev_can
     x = -1
     y = 2
     relative_position_id = uk_australia_focus
@@ -4348,7 +4243,7 @@ focus = {
         }
     }
 
-    icon = GFX_goal_generic_construct_civ_factory
+    icon = GFX_dev_saf
     x = 1
     y = 2
     relative_position_id = uk_australia_focus
@@ -4565,7 +4460,7 @@ focus = {
 
     continue_if_invalid = no
 
-    icon = GFX_goal_generic_national_unity
+    icon = GFX_ENG_Reinforce_the_Commonwealth
 
     x = 0
     y = 2
@@ -4615,569 +4510,6 @@ focus = {
     }
 }
 
-focus = {
-    id = ENG_imperial_federation
-    prerequisite = { focus = ENG_imperial_conference }
-    available = {
-        if = {
-            limit = {
-                has_dlc = "Together for Victory"
-                has_dlc = "Death or Dishonor"
-            }
-            CAN = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        OR = {
-                            has_autonomy_state = autonomy_integrated_puppet
-                            has_autonomy_state = autonomy_reichskommissariat
-                        }
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = CAN
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            SAF = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        OR = {
-                            has_autonomy_state = autonomy_integrated_puppet
-                            has_autonomy_state = autonomy_reichskommissariat
-                        }
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = SAF
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            if = {
-                limit = {
-                    RAJ = { has_country_flag = ENG_accepted_federation }
-                }
-                RAJ = {
-                    OR = {
-                        AND = {
-                            is_subject_of = ENG
-                            OR = {
-                                has_autonomy_state = autonomy_integrated_puppet
-                                has_autonomy_state = autonomy_reichskommissariat
-                                ROOT = { has_country_leader_with_trait = viceroy_emeritus }
-                            }
-                        }
-                        AND = {
-                            exists = no
-                            NOT = {
-                                any_state = {
-                                    is_core_of = RAJ
-                                    NOT = { state = 320 }
-                                    NOT = { state = 321 }
-                                    NOT = { is_owned_by = ROOT }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            AST = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        OR = {
-                            has_autonomy_state = autonomy_integrated_puppet
-                            has_autonomy_state = autonomy_reichskommissariat
-                        }
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = AST
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            NZL = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        OR = {
-                            has_autonomy_state = autonomy_integrated_puppet
-                            has_autonomy_state = autonomy_reichskommissariat
-                        }
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = NZL
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        else_if = {
-            limit = {
-                has_dlc = "Together for Victory"
-                NOT = { has_dlc = "Death or Dishonor" }
-            }
-            CAN = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        has_autonomy_state = autonomy_integrated_puppet
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = CAN
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            SAF = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        has_autonomy_state = autonomy_integrated_puppet
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = SAF
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            if = {
-                limit = {
-                    RAJ = { has_country_flag = ENG_accepted_federation }
-                }
-                RAJ = {
-                    OR = {
-                        AND = {
-                            is_subject_of = ENG
-                            has_autonomy_state = autonomy_integrated_puppet
-                        }
-                        AND = {
-                            exists = no
-                            NOT = {
-                                any_state = {
-                                    is_core_of = RAJ
-                                    NOT = { state = 320 }
-                                    NOT = { state = 321 }
-                                    NOT = { is_owned_by = ROOT }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            AST = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        has_autonomy_state = autonomy_integrated_puppet
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = AST
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            NZL = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        has_autonomy_state = autonomy_integrated_puppet
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = NZL
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        else_if = {
-            limit = {
-                NOT = { has_dlc = "Together for Victory" }
-                has_dlc = "Death or Dishonor"
-                has_government = fascism
-            }
-            CAN = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        has_autonomy_state = autonomy_reichskommissariat
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = CAN
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            SAF = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        has_autonomy_state = autonomy_reichskommissariat
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = SAF
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            if = {
-                limit = {
-                    RAJ = { has_country_flag = ENG_accepted_federation }
-                }
-                RAJ = {
-                    OR = {
-                        AND = {
-                            is_subject_of = ENG
-                            has_autonomy_state = autonomy_reichskommissariat
-                        }
-                        AND = {
-                            exists = no
-                            NOT = {
-                                any_state = {
-                                    is_core_of = RAJ
-                                    NOT = { state = 320 }
-                                    NOT = { state = 321 }
-                                    NOT = { is_owned_by = ROOT }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            AST = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        has_autonomy_state = autonomy_reichskommissariat
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = AST
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            NZL = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        has_autonomy_state = autonomy_reichskommissariat
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = NZL
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        else = {
-            CAN = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        compare_autonomy_progress_ratio < 0.1
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = CAN
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            SAF = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        compare_autonomy_progress_ratio < 0.1
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = SAF
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            if = {
-                limit = {
-                    RAJ = { has_country_flag = ENG_accepted_federation }
-                }
-                RAJ = {
-                    OR = {
-                        AND = {
-                            is_subject_of = ENG
-                            compare_autonomy_progress_ratio < 0.1
-                        }
-                        AND = {
-                            exists = no
-                            NOT = {
-                                any_state = {
-                                    is_core_of = RAJ
-                                    NOT = { state = 320 }
-                                    NOT = { state = 321 }
-                                    NOT = { is_owned_by = ROOT }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            AST = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        compare_autonomy_progress_ratio < 0.1
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = AST
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-            NZL = {
-                OR = {
-                    AND = {
-                        is_subject_of = ENG
-                        compare_autonomy_progress_ratio < 0.1
-                    }
-                    AND = {
-                        exists = no
-                        NOT = {
-                            any_state = {
-                                is_core_of = NZL
-                                NOT = { is_owned_by = ROOT }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        if = {
-            limit = {
-                OR = {
-                    CAN = { exists = yes }
-                    SAF = { exists = yes }
-                    AST = { exists = yes }
-                    NZL = { exists = yes }
-                }
-            }
-            has_country_flag = ENG_dominions_accepted_federation
-        }
-    }
-
-    icon = GFX_focus_eng_imperial_federation
-
-    x = 0
-    y = 1
-    relative_position_id = ENG_imperial_conference
-    cost = 10
-    ai_will_do = {
-        factor = 1
-        #modifier = {
-        #	factor = 0
-        #}
-    }
-    search_filters = {FOCUS_FILTER_ANNEXATION}
-    completion_reward = {
-        if = {
-            limit = {
-                RAJ = {
-                    NOT = { is_subject_of = ENG }
-                }
-            }
-            set_cosmetic_tag = ENG_imperial_federation_unified
-            news_event = { id = mtg_news.8 days = 1 }
-        }
-        if = {
-            limit = {
-                RAJ = {
-                    is_subject_of = ENG
-                }
-            }
-            set_cosmetic_tag = ENG_imperial_federation_india_unified
-            news_event = { id = mtg_news.9 days = 1 }
-        }
-        CAN = {
-            every_unit_leader = {
-                set_nationality = ENG
-            }
-        }
-        annex_country = {
-            target = CAN
-            transfer_troops = yes
-        }
-        every_state = {
-            limit = {
-                is_core_of = CAN
-            }
-            add_core_of = ENG
-        }
-        SAF = {
-            every_unit_leader = {
-                set_nationality = ENG
-            }
-        }
-        annex_country = {
-            target = SAF
-            transfer_troops = yes
-        }
-        if = {
-            limit = {
-                SAF = { has_completed_focus = SAF_police_windhoek }
-            }
-            every_state = {
-                limit = {
-                    is_core_of = SAF
-                    NOT = { state = 275 }
-                }
-                add_core_of = ENG
-            }
-        }
-        if = {
-            limit = {
-                RAJ = { has_country_flag = ENG_accepted_federation }
-            }
-            RAJ = {
-                every_unit_leader = {
-                    set_nationality = ENG
-                }
-            }
-            annex_country = {
-                target = RAJ
-                transfer_troops = yes
-            }
-            if = {
-                limit = {
-                    ROOT = { has_country_leader_with_trait = viceroy_emeritus }
-                }
-                custom_effect_tooltip = viceroy_emeritus_downside_tt
-                every_state = {
-                    limit = {
-                        OR = {
-                            is_owned_by = ROOT
-                            is_owned_by = RAJ #For the tooltip
-                        }
-                        is_core_of = RAJ
-                        NOT = { is_core_of = ROOT }
-                    }
-                    add_resistance = 15
-                }
-            }
-        }
-        AST = {
-            every_unit_leader = {
-                set_nationality = ENG
-            }
-        }
-        annex_country = {
-            target = AST
-            transfer_troops = yes
-        }
-        every_state = {
-            limit = {
-                is_core_of = AST
-            }
-            add_core_of = ENG
-        }
-        NZL = {
-            every_unit_leader = {
-                set_nationality = ENG
-            }
-        }
-        annex_country = {
-            target = NZL
-            transfer_troops = yes
-        }
-        every_state = {
-            limit = {
-                is_core_of = NZL
-            }
-            add_core_of = ENG
-        }
-        MAL = {
-            every_unit_leader = {
-                set_nationality = ENG
-            }
-        }
-        annex_country = {
-            target = MAL
-            transfer_troops = yes
-        }
-    }
-}
-
 ### DEMOCRATIC BRANCH - STEADY AS SHE GOES ###
 
 focus = {
@@ -5195,7 +4527,7 @@ focus = {
         }
     }
 
-    x = 37
+    x = 24
     y = 0
 
     cost = 5
@@ -5249,9 +4581,9 @@ focus = {
 focus = {
     id = ENG_home_defence
     prerequisite = { focus = ENG_steady_as_she_goes }
-    icon = GFX_focus_generic_home_defense
+    icon = GFX_ENG_home_defense
 
-    x = 4
+    x = -4
     y = 1
 
     relative_position_id = ENG_steady_as_she_goes
@@ -5399,46 +4731,6 @@ focus = {
 # START IRAQ/IRAN/USSR INTERVENTION #
 
 focus = {
-    id = uk_iraq_focus
-    available = {
-        IRQ = {
-            OR = {
-                communism > 0.2
-                fascism > 0.2
-            }
-        }
-    } #UK at war with fascist/commie. iraq is fascist/commie
-
-    bypass = {
-        IRQ = { exists = no }
-    }
-
-    will_lead_to_war_with = IRQ
-    prerequisite = { focus = ENG_home_defence }
-    icon = GFX_goal_generic_occupy_states_ongoing_war
-    x = -3
-    y = 1
- 
-    relative_position_id = ENG_home_defence
-    cost = 10
-    ai_will_do = {
-        factor = 1
-    }
-    completion_reward = {
-        create_wargoal = {
-            type = take_state_focus
-            target = IRQ
-            generator = { 291 }
-            expire = 0
-        }
-    }
-}
-
-
-
-# END IRAQ/IRAN/USSR INTERVENTION #
-
-focus = {
     id = ENG_issue_gasmasks
     available = {
         OR = {
@@ -5452,8 +4744,8 @@ focus = {
     available_if_capitulated = yes
 
     prerequisite = { focus = ENG_home_defence }
-    icon = GFX_goal_generic_construct_military
-    x = 1
+    icon = GFX_gasmask
+    x = -1
     y = 1
    
     relative_position_id = ENG_home_defence
@@ -5482,7 +4774,7 @@ focus = {
     available_if_capitulated = yes
 
     prerequisite = { focus = ENG_issue_gasmasks }
-    icon = GFX_focus_generic_commonwealth_build_infantry
+    icon = GFX_ENG_conscription
     x = 0
     y = 1
     relative_position_id = ENG_issue_gasmasks
@@ -5496,63 +4788,7 @@ focus = {
     }
 }
 
-focus = {
-    id = ENG_embargo_germany
-    available = {
-        GER = {
-            ENG_focus_available_embargo_sanction = yes
-        }
-    }
-    bypass = {
-        has_war_with = GER
-    }
 
-    available_if_capitulated = yes
-
-    prerequisite = { focus = ENG_military_training_act }
-    icon = GFX_goal_generic_trade
-    x = 0
-    y = 1
-    relative_position_id = ENG_military_training_act
-    cost = 10
-    ai_will_do = {
-        factor = 1
-    }
-    completion_reward = {
-        send_embargo = GER
-        custom_effect_tooltip = embargo_relation_tt
-    }
-}
-
-focus = {
-    id = ENG_war_with_germany
-    available = {
-        has_war = no
-        GER = {
-            ENG_focus_available_war = yes
-        }
-    }
-    bypass = {
-        has_war_with = GER
-    }
-    will_lead_to_war_with = GER
-    prerequisite = { focus = ENG_embargo_germany }
-    icon = GFX_focus_attack_germany
-    x = 0
-    y = 1
-    relative_position_id = ENG_embargo_germany
-    cost = 10
-    ai_will_do = {
-        factor = 1
-    }
-    completion_reward = {
-        create_wargoal = {
-            type = puppet_wargoal_focus
-            target = GER
-            expire = 0
-        }
-    }
-}
 
 ### END ROAD TO WAR WITH GERMANY ###
 
@@ -5569,7 +4805,7 @@ focus = {
 
     icon = GFX_goal_generic_construction
 
-    x = -1
+    x = 1
     y = 1
  
     relative_position_id = ENG_home_defence

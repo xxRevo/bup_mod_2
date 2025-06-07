@@ -1,10 +1,11 @@
 state={
     id=737
     name="STATE_737"
-    resources = {
-        tungsten = 70.000
-        rubber = 5
-    }
+	resources = {
+	    rubber = 15
+		steel = 30
+		tungsten = 25
+	}
     history={
         add_core_of = COG
         owner = AST

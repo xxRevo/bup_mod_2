@@ -531,6 +531,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 50 }
 			if = {
 				limit = {
 					NOT = { has_idea = undisturbed_isolation }

@@ -11,7 +11,7 @@ sub_units = {
 		priority = 301
 		ai_priority = 10
 		active = yes
-
+		can_exfiltrate_from_coast = yes
 		type = {
 			infantry
 			anti_air

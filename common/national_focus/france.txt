@@ -1840,6 +1840,13 @@
 				idea = FRA_industry_reborn days= 90 
 			}
 			add_ideas = FRA_nation_reborn
+			
+			 add_doctrine_cost_reduction = {
+                name = FRA_beaten_but_not_broken
+                cost_reduction = 0.85
+                uses = 10
+                category = land_doctrine
+            }
 		}
 	}
 
@@ -1995,16 +2002,16 @@
 	
 	focus = {
 		id = FRA_extra_research_slot
-		icon = GFX_focus_NORDIC_com_capstone_research
+		icon = GFX_focus_research
 		available = {
 			
 		}
 		prerequisite = {
-			focus = FRA_the_diamond_district
+			focus = FRA_industrial_expansion
 		}
 		x = 0
 		y = 1
-		relative_position_id = FRA_the_diamond_district
+		relative_position_id = FRA_industrial_expansion
 		cost = 5
 
 		available_if_capitulated = yes

@@ -599,7 +599,6 @@ technologies = {
 		xp_research_type = navy
 		xp_unlock_cost = 1
 		special_forces_out_of_supply_factor = -0.05
-		special_forces_attack_factor = 0.05
 		force_use_small_tech_layout = yes
 		
 		path = {
@@ -613,13 +612,6 @@ technologies = {
 		}
 		
 		unit_marine_design_cost_factor = -0.50
-
-		pioneer_support = {
-			battalion_mult = {
-				category = category_line_artillery
-				soft_attack = 0.05
-			}
-		}
 
 		marine = {
 			max_organisation = 5
@@ -699,7 +691,12 @@ technologies = {
 	}
 	
 	marines_expeditionary = {
-		
+		pioneer_support = {
+			battalion_mult = {
+				category = category_line_artillery
+				soft_attack = 0.05
+			}
+		}		
 		xp_research_type = navy
 		xp_unlock_cost = 1
 		
@@ -711,7 +708,7 @@ technologies = {
 		}
 		
 		xor = { marines_commandoes }
-
+		special_forces_attack_factor = 0.025
 		special_forces_cap = 0.06
 		naval_invasion_planning_bonus_speed = 0.2
 		
@@ -812,7 +809,6 @@ technologies = {
 		}
 		
 		shore_bombardment_bonus = 0.1
-		special_forces_attack_factor = 0.025
 			
 		doctrine = yes	
 		research_cost = 2.25

@@ -2574,6 +2574,7 @@ focus = {
 focus = {
     id = ENG_war_with_italy
     available = {
+		date > 1940.1.1
     }
     bypass = {
         has_war_with = ITA
@@ -2585,7 +2586,7 @@ focus = {
     x = 1
     y = 1
     relative_position_id = uk_protect_suez
-    cost = 10
+    cost = 2
     ai_will_do = {
         factor = 1
     }

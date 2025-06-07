@@ -531,7 +531,7 @@ spriteTypes = {
 
     spriteType = {
         name = "GFX_ETH_The_Lion_of_Africa"
-        texturefile = "gfx/interface/goals/ETH_The_Lion_of_Africa.dds"
+        texturefile = "gfx/interface/goals/ETH_The_Lion_of_Africa2.dds"
     }
 
     spriteType = {

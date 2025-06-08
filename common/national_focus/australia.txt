@@ -63,7 +63,7 @@
 
 	focus = {
 		id = AST_additional_militia_training
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_AST_Australian_Army
 		x = 2
 		y = 0
 
@@ -144,7 +144,7 @@
 
 	focus = {
 		id = AST_promote_reservists
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_AST_Promote
 		prerequisite = { focus = AST_additional_militia_training }
 		x = 1
 		y = 1
@@ -230,7 +230,7 @@
 
 	focus = {
 		id = AST_hmas_assault
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_Generic_Scouts
 		prerequisite = { focus = AST_royal_australian_artillery focus = AST_promote_reservists }
 		x = 0
 		y = 2
@@ -312,7 +312,7 @@
 
 	focus = {
 		id = AST_australian_womens_army_service
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_ENG_women_in_army
 		prerequisite = { focus = AST_hmas_assault }
 		x = -1
 		y = 3
@@ -345,7 +345,7 @@
 
 	focus = {
 		id = AST_australian_army_catering_corps
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_focus_SWE_rations
 		prerequisite = { focus = AST_hmas_assault }
 		x = 0
 		y = 4
@@ -424,7 +424,7 @@
 
 	focus = {
 		id = AST_sentinel_tank_project
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_ENG_Royal_tank_regiment
 		prerequisite = { focus = AST_daimler_dingo }
 		x = -2
 		y = 4
@@ -511,7 +511,7 @@
 
 	focus = {
 		id = AST_introduce_unconventional_warfare
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_CAN_special_forces
 		prerequisite = { focus = AST_sentinel_tank_project focus = AST_airborne_defence }
 		x = 0
 		y = 5
@@ -568,7 +568,7 @@
 
 	focus = {
 		id = AST_z_special_unit
-		icon = GFX_goal_generic_amphibious_assault
+		icon = GFX_GENERIC_Marines
 		prerequisite = { focus = AST_introduce_unconventional_warfare }
 		x = -2
 		y = 6
@@ -614,7 +614,7 @@
 
 	focus = {
 		id = AST_m_special_unit
-		icon = GFX_goal_generic_special_forces
+		icon = GFX_ENG_Red_Devils
 		prerequisite = { focus = AST_introduce_unconventional_warfare }
 		x = 2
 		y = 6
@@ -713,7 +713,7 @@
 
 	focus = {
 		id = AST_expand_the_raaf
-		icon = GFX_goal_generic_build_airforce
+		icon = GFX_AST_Australian_Air_Force
 		x = 7
 		y = 0
 		cost = 5
@@ -791,7 +791,7 @@
 
 	focus = {
 		id = AST_cac_boomerang
-		icon = GFX_goal_generic_air_fighter
+		icon = GFX_ENG_Spitfire
 		prerequisite = { focus = AST_expand_the_raaf }
 		x = -1
 		y = 1
@@ -852,7 +852,7 @@
 
 	focus = {
 		id = AST_expand_northern_presence
-		icon = GFX_goal_generic_air_doctrine
+		icon = GFX_GENERIC_Flight_School
 		prerequisite = { focus = AST_expand_the_raaf }
 		x = 0
 		y = 2
@@ -926,7 +926,7 @@
 
 	focus = {
 		id = AST_cac_woomera
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_GENERIC_ASW_Tactics
 		prerequisite = { focus = AST_expand_the_raaf }
 		relative_position_id = AST_expand_the_raaf
 
@@ -1255,7 +1255,7 @@
 
 	focus = {
 		id = AST_death_from_down_under
-		icon = GFX_goal_generic_CAS
+		icon = GFX_GENERIC_Anti_Air_Units
 		prerequisite = { focus = AST_volunteer_air_observers_corps }
 		x = -1
 		y = 5
@@ -2195,7 +2195,7 @@
 
 	focus = {
 		id = AST_standard_gauge_railway
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_generic_railroad
 		x = 16
 		y = 0
 
@@ -2283,7 +2283,7 @@
 
 	focus = {
 		id = AST_western_australian_government_railways
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_GENERIC_Road_Construction
 		prerequisite = { focus = AST_standard_gauge_railway focus = AST_industries_assistance_corporation}
 		x = 1
 		y = 1
@@ -2395,7 +2395,7 @@
 
 	focus = {
 		id = AST_department_of_supply_and_development
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_GENERIC_Military_Production
 		prerequisite = { focus = AST_western_australian_government_railways }
 		x = 2
 		y = 2
@@ -2680,7 +2680,7 @@
 
 	focus = {
 		id = AST_australian_arms_production
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_GENERIC_Military_Industrial_Complexes
 		prerequisite = { focus = AST_allied_works_council }
 		x = 2
 		y = 4
@@ -2778,7 +2778,7 @@
 
 	focus = {
 		id = AST_establish_advisory_war_council
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_AST_Bush_Warriors
 		x = 24
 		y = 0
 
@@ -2806,7 +2806,8 @@
 	}
 
 	focus = {
-		id = AST_national_security_act		icon = GFX_goal_generic_forceful_treaty
+		id = AST_national_security_act		
+		icon = GFX_AST_nation
 		prerequisite = { focus = AST_establish_advisory_war_council }
 		x = -2
 		y = 1
@@ -2850,7 +2851,7 @@
 
 	focus = {
 		id = AST_volunteer_defence_corps
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_ENG_home_defense
 		prerequisite = { focus = AST_establish_advisory_war_council }
 		x = 2
 		y = 1
@@ -2881,7 +2882,7 @@
 
 	focus = {
 		id = AST_civil_construction_corps
-		icon = GFX_goal_generic_production2
+		icon = GFX_AST_industry
 		prerequisite = { focus = AST_national_security_act }
 		x = -4
 		y = 2
@@ -2948,7 +2949,7 @@
 
 	focus = {
 		id = AST_invest_in_victory
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_GENERIC_Anti_Poverty_Campaign
 		prerequisite = { focus = AST_national_security_act }
 		x = 0
 		y = 2
@@ -2980,7 +2981,7 @@
 
 	focus = {
 		id = AST_citizen_military_forces
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_generic_commonwealth_build_infantry
 		prerequisite = { focus = AST_volunteer_defence_corps }
 		x = 2
 		y = 2
@@ -3154,7 +3155,7 @@
 
 	focus = {
 		id = AST_fight_work_or_perish
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_AST_Prepare_for_defense
 		prerequisite = { focus = AST_civil_construction_corps }
 		prerequisite = { focus = AST_squash_the_squanderbugs }
 		x = -3
@@ -3442,7 +3443,7 @@
 
 	focus = {
 		id = AST_fund_australian_defense_research
-		icon = GFX_focus_research
+		icon = GFX_focus_research2
 		prerequisite = { focus = AST_rationing_and_recycling }
 		prerequisite = { focus = AST_classify_aliens }
 		x = 1
@@ -3478,7 +3479,7 @@
 
 	focus = {
 		id = AST_support_the_policy_of_appeasement
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_AST_anzac
 		mutually_exclusive = { focus = AST_never_another_gallipoli }
 		x = 30
 		y = 0
@@ -3536,7 +3537,7 @@
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		prerequisite = { focus = AST_support_the_policy_of_appeasement }
 		relative_position_id = AST_support_the_policy_of_appeasement
-		x = -1
+		x = 0
 		y = 1
 
 		cost = 10
@@ -3584,63 +3585,11 @@
 			}
 	}
 	
-	focus = {
-		id = AST_the_singapore_strategy
-		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = AST_support_the_policy_of_appeasement }
-		x = 1
-		y = 1
-		relative_position_id = AST_support_the_policy_of_appeasement
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 0.2
-		}
-
-		available = {
-			is_in_faction_with = ENG
-			ENG = { has_government = ROOT }
-			MAL = {
-				is_puppet_of = ENG
-			}
-		}
-		
-		bypass = {
-			OR = {
-				NOT = {
-					OR = {
-						336 = {
-							is_owned_by = MAL
-						}
-						333 = {
-							is_owned_by = MAL
-						}
-					}
-				}
-				NOT = {
-					MAL = {
-						is_puppet_of = ENG
-					}
-				}
-			}
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			ENG = {
-				country_event = { id = tfv_australia.1 }
-			}
-		}
-	}
 
 	focus = {
 		id = AST_adopt_westminster
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = AST_strengthen_ties_with_uk focus = AST_the_singapore_strategy }
+		prerequisite = { focus = AST_strengthen_ties_with_uk }
 		x = 0
 		y = 2
 		relative_position_id = AST_support_the_policy_of_appeasement
@@ -3727,7 +3676,7 @@
 
 	focus = {
 		id = AST_swpa_protector
-		icon = GFX_goal_generic_defence
+		icon = GFX_goal_hes_coming_south
 		prerequisite = { focus = AST_adopt_westminster }
 		x = 1
 		y = 3
@@ -3872,7 +3821,7 @@
 		id = AST_empire_air_training_scheme
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = AST_CSIR focus = AST_swpa_protector }
-		x = -1
+		x = 0
 		y = 4
 		relative_position_id = AST_support_the_policy_of_appeasement
 
@@ -3905,56 +3854,5 @@
 			add_ideas = AST_empire_air_training_scheme
 		}
 	}
-
-	focus = {
-		id = AST_commonwealth_aircraft_corporation
-		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = AST_CSIR focus = AST_swpa_protector }
-		x = 1
-		y = 4
-		relative_position_id = AST_support_the_policy_of_appeasement
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			OR = {
-				is_subject_of = ENG
-				AND = {
-					has_global_flag = ENG_decolonized
-					is_in_faction_with = ENG
-				}
-			}
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = {  FOCUS_FILTER_INDUSTRY }
-
-		completion_reward = {
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = AST_com_aircraft_corporation_organization
-				mio:AST_com_aircraft_corporation_organization = {
-					add_mio_size = 2
-				}
-			}
-			ELSE = {
-				add_ideas = AST_commonwealth_aircraft_corporation 
-			}
-		}
-	}
-
 
 }		

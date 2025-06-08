@@ -51,7 +51,7 @@
 	}
 	focus = {
 		id = FRA_autoroutes
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_GENERIC_Road_Construction
 		x = 2
 		y = 1
 		offset = {
@@ -165,7 +165,7 @@
 	}
 	focus = {
 			id = FRA_invest_in_the_metropole
-			icon = GFX_goal_generic_construct_civilian
+			icon = GFX_GENERIC_Housing_Campaign
 			x = 0
 			y = 1
 			offset = {
@@ -200,7 +200,7 @@
 		}	
 	focus = {
 		id = FRA_metropolitan_france
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_france_five
 		available = {
 			any_owned_state = {
 				is_core_of = ROOT
@@ -253,7 +253,7 @@
 
 	focus = {
 		id = FRA_industrial_expansion
-		icon = GFX_focus_generic_industry_3
+		icon = GFX_GENERIC_Nationalize_Industry
 		available = {
 		}
 		prerequisite = { focus = FRA_metropolitan_france}
@@ -363,7 +363,7 @@
 
 	focus = {
 		id = FRA_algerie_france
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_FRA_Algerie_Francaise
 		available = {
 			any_state = {
 				OR = {
@@ -456,7 +456,7 @@
 	}	
 	focus = {
 		id = FRA_invest_in_the_colonies
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_GENERIC_Animal_Husbandry
 		x = 4
 		y = 1
 		offset = {
@@ -494,7 +494,7 @@
 	}
 	focus = {
 		id = FRA_invest_in_west_africa
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_FRA_Afrique_Francaise
 		x = 0
 		y = 1
 		offset = {
@@ -560,7 +560,7 @@
 	}
 	focus = {
 		id = FRA_invest_in_indochina
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_FRA_Indochine_Francaise
 		x = 2
 		y = 1
 		offset = {
@@ -646,7 +646,7 @@
 	
 	focus = {
 		id = FRA_extra_research_slot_2
-		icon = GFX_focus_research
+		icon = GFX_GENERIC_Expand_the_University
 		prerequisite = { 
 			focus = FRA_colonial_industry
 			focus = FRA_industrial_expansion
@@ -670,7 +670,7 @@
 	}
 	focus = {
 		id = FRA_global_integration
-		icon = GFX_goal_generic_construction
+		icon = GFX_FRA_Colonial_Empire
 		x = 2
 		y = 1
 		offset = {
@@ -774,7 +774,7 @@
 
 	focus = {
 		id = FRA_defensive_focus
-		icon = GFX_goal_generic_defence
+		icon = GFX_FRA_Girauds_Defensive_Approach
 		mutually_exclusive = { focus = FRA_aggressive_focus }
 		x = -1
 		y = 1
@@ -792,7 +792,7 @@
 	}
 	focus = {
 		id = FRA_firepower_kills
-		icon = GFX_goal_generic_army_artillery
+		icon = GFX_focus_RAJ_bathe_in_hellfire
 		x = 0
 		y = 1
 		offset = {
@@ -907,7 +907,7 @@
 	}
 	focus = {
 		id = FRA_fusiliers_marine
-		icon = GFX_goal_generic_amphibious_assault
+		icon = GFX_FRA_Marine_Nationale
 		x = 0
 		y = 1
 		offset = {
@@ -983,7 +983,7 @@
 
 	focus = {
 		id = FRA_aggressive_focus
-		icon = GFX_goal_generic_major_war
+		icon = GFX_FRA_De_Gaulles_Offensive_Approach
 		mutually_exclusive = { focus = FRA_defensive_focus }
 		x = 1
 		y = 1
@@ -1042,7 +1042,7 @@
 	}
 	focus = {
 		id = FRA_motorized_focus
-		icon = GFX_goal_generic_army_motorized
+		icon = GFX_focus_generic_mechanized
 		prerequisite = { focus = FRA_battle_of_maneuver }
 		x = 0
 		y = 1
@@ -1064,7 +1064,7 @@
 	}
 	focus = {
 		id = FRA_light_medium_armor
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_Goal_france_tank
 		prerequisite = { focus = FRA_motorized_focus }
 		x = 0
 		y = 1
@@ -1085,7 +1085,7 @@
 	}
 	focus = {
 		id = FRA_air_dominance
-		icon = GFX_goal_generic_air_fighter2
+		icon = GFX_FRA_Armee_de_L_Air
 		x = 2
 		y = 1
 		offset = {
@@ -1140,7 +1140,7 @@
 	}
 	focus = {
 		id = FRA_air_ground_cooperation
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_Goal_france_fighter
 		x = 0
 		y = 2
 		offset = {
@@ -1179,7 +1179,7 @@
 	}
 	focus = {
 		id = FRA_army_reform
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_francefirst
 		prerequisite = { 
 			focus = FRA_light_medium_armor 
 			focus = FRA_heavy_armor_focus 
@@ -1251,7 +1251,7 @@
 	}
 	focus = {
 		id = FRA_laissez_faire
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_GENERIC_Modern_Elitism
 		x = -1
 		y = 1
 		offset = {
@@ -1293,7 +1293,7 @@
 	}
 	focus = {
 		id = FRA_protect_the_rights_of_man
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_FRA_The_Constitution_of_Front_de_la_Liberte
 		x = 0
 		y = 1
 		offset = {
@@ -1329,7 +1329,7 @@
 	}
 	focus = {
 		id = FRA_the_blum_viollette_proposal
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_FRA_Form_a_National_Union
 		x = -2
 		y = 1
 		prerequisite = {
@@ -1361,7 +1361,7 @@
 	}
 	focus = {
 		id = FRA_expand_the_citizenship
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_FRA_Constitution
 		x = 0
 		y = 1
 		offset = {
@@ -1395,7 +1395,7 @@
 	}
 	focus = {
 		id = FRA_france_undividable
-		icon = GFX_focus_chi_reach_out_to_france
+		icon = GFX_FRA_Futur_de_l_Empire
 		x = -1
 		y = 1
 		offset = {
@@ -1445,7 +1445,7 @@
 	}
 	focus = {
 		id = FRA_encourage_immigration
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_FRA_March_on_Paris
 		x = 1
 		y = 1
 		offset = {
@@ -1481,7 +1481,7 @@
 	}
 	focus = {
 		id = FRA_freedom_front
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_FRA_Victory_of_the_Popular_Front
 		x = 0
 		y = 1
 		offset = {
@@ -1516,7 +1516,7 @@
 	}	
 	focus = {
 		id = FRA_stimulate_the_dynamic_market
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_GENERIC_Hierarchical_Economics
 		x = 1
 		y = 1
 		offset = {
@@ -1552,7 +1552,7 @@
 	
 	}focus = {
 		id = FRA_ban_communism
-		icon = GFX_goal_anti_comintern_pact
+		icon = GFX_FRA_Victory_of_the_Republican_Coalition
 		x = 1
 		y = 1
 		prerequisite = {
@@ -1666,7 +1666,7 @@
 	}
 	focus = {
 		id = FRA_strengthen_government_support
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_FRA_Fearless_Nation
 		available = {
 		}
 	 	prerequisite = {
@@ -1693,7 +1693,7 @@
 	}
 	focus = {
 		id = FRA_buy_time
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_GENERIC_Seek_International_Recognition
 		x = -1
 		y = 1
 		prerequisite = {
@@ -1726,7 +1726,7 @@
 
 	focus = {
 		id = FRA_defensive_strategems
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_FRA_Safeguard_the_Republic
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = FRA_strengthen_government_support_tooltip
@@ -1754,7 +1754,7 @@
 	}
 	focus = {
 		id = FRA_promote_entrepeneurship
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_GENERIC_Anti_Poverty_Campaign
 		x = 0
 		y = 1
 		offset = {
@@ -1981,7 +1981,7 @@
 	
 		focus = {
 		id = FRA_light_medium_armor_2
-		icon = GFX_focus_CONGO_copper_cartridges
+		icon = GFX_focus_generic_tankette
 		prerequisite = { focus = FRA_call_the_patriots }
 		x = 0
 		y = 1

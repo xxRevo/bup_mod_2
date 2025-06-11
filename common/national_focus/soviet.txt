@@ -13,6 +13,45 @@
 	default = no
 
 	focus = {
+		id = SOV_take_hard
+		text = "Choose Hard Attack"
+		icon = GFX_focus_GER_army
+		mutually_exclusive = { focus = SOV_take_soft }
+		x = 6
+		y = 5
+		relative_position_id = GER_develop_modern_maneuver_warfare
+		cost = 1
+		available = {
+			date > 1942.6.1
+		}
+
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MILITARY_CHARACTER }
+
+		completion_reward = {
+			add_ideas = GER_hard
+		}
+	}
+	focus = {
+		id = SOV_take_soft
+		text = "Choose Soft Attack"
+		icon = GFX_focus_GER_army
+		mutually_exclusive = { focus = SOV_take_hard }
+		x = 8
+		y = 5
+		relative_position_id = GER_develop_modern_maneuver_warfare
+		cost = 1
+		available = {
+			date > 1942.6.1
+		}
+
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MILITARY_CHARACTER }
+
+		completion_reward = {
+			add_ideas = GER_hard
+		}
+	}
+
+	focus = {
 		id = SOV_finish_five_year_plan
 		icon = GFX_SOV_Five_Year_Plan
 		x = 1

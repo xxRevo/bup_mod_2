@@ -182,6 +182,7 @@ NDefines.NCountry.VP_TO_SUPPLY_BASE = 2
 NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0  
 
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 15
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 4
 
 NDefines.NBuildings.MAX_SHARED_SLOTS = 99 --max building slots in a state
 NDefines.NBuildings.MAX_BUILDING_LEVELS=20
@@ -200,6 +201,8 @@ NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 4999
 NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 0.5
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.060 -- Was 0.12, reduced because reliability recovery is broken
+NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.053
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.0175        -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR

@@ -1826,11 +1826,15 @@
 			add_state_core = 539
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 12000
+				amount = 25000
 			}
 			add_equipment_to_stockpile = {
 				type = support_equipment
-				amount = 500
+				amount = 1000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 2500
 			}
 			add_equipment_to_stockpile = {
 				type = convoy

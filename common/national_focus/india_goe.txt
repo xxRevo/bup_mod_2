@@ -1285,10 +1285,10 @@ focus_tree = {
                     is_owned_by = RAJ
                 }
                 prioritize = { 429 } #optional: to pick those states first if they fulfill the limit
-                add_extra_state_shared_building_slots = 1
+                add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = arms_factory
-                    level = 1
+                    level = 2
                     instant_build = yes
                 }
             }
@@ -1336,8 +1336,8 @@ focus_tree = {
         completion_reward = {
             add_tech_bonus = {
                 name = RAJ_royal_indian_artillery_dlc
-                bonus = 0.5
-                uses = 2
+                bonus = 1
+                uses = 1
                 category = artillery # optional 
                 # technology  = technology_id # optional
             }
@@ -1915,12 +1915,12 @@ focus_tree = {
         search_filters = {FOCUS_FILTER_RESEARCH}
 
         completion_reward = {
-            custom_effect_tooltip = mountain_guns_tt
-            hidden_effect = {
-                set_technology = {
-                    mountain_gun = 1
-                    popup = no
-                }
+            add_tech_bonus = {
+                name = RAJ_royal_indian_artillery_dlc
+                bonus = 1
+                uses = 2
+                category = artillery # optional 
+                # technology  = technology_id # optional
             }
 
         }
@@ -2863,19 +2863,18 @@ focus_tree = {
         search_filters = {FOCUS_FILTER_INDUSTRY}
 
         completion_reward = {
-            if = {
+            random_core_state = {
                 limit = {
-                    has_dlc = "Arms Against Tyranny"
+                    is_owned_by = RAJ
                 }
-
-                mio:RAJ_ammunition_factory_khadki_organization = {
-                    add_mio_size = 1
-                    unlock_mio_trait_tooltip = {
-                        trait = RAJ_mio_trait_gun_and_shell_facatory_cassiopore
-                    }
+                prioritize = { 439 } #optional: to pick those states first if they fulfill the limit
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
                 }
             }
-            try_build_mil_in_core_otherwise_build_in_controlled = yes
         }
     }
     
@@ -2908,18 +2907,18 @@ focus_tree = {
         search_filters = { FOCUS_FILTER_INDUSTRY }
 
         completion_reward = {
-            if = {
+            random_core_state = {
                 limit = {
-                    has_dlc = "Arms Against Tyranny"
+                    is_owned_by = RAJ
                 }
-                mio:RAJ_ammunition_factory_khadki_organization = {
-                    add_mio_size = 1
-                    unlock_mio_trait_tooltip = {
-                        trait = RAJ_mio_trait_rifle_factory_ishapore
-                    }
+                prioritize = { 435 } #optional: to pick those states first if they fulfill the limit
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
                 }
             }
-            try_build_mil_in_core_otherwise_build_in_controlled = yes
             
         }
     }

@@ -954,7 +954,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_develop_libya
-		cost = 10
+		cost = 1
 		available = {
 			any_controlled_state = {
 				is_on_continent = africa
@@ -969,6 +969,42 @@ focus_tree = {
 			set_country_flag = ITA_colonial_police_final_flag
 		}
 	}
+
+	focus = {
+		id = ITA_secure_tunis
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = ITA_polizia_dell_africa_italiana }
+		x = 1
+		y = 2
+		relative_position_id = ITA_develop_libya
+		cost = 1
+		available = {
+			FRA = {
+				has_capitulated = yes
+			}
+			OR = {
+				date > 1941.1.1
+				AND = {
+					controls_state = 448
+					OR = {
+						NOT = {
+							controls_state = 663
+							controls_state = 1018
+							controls_state = 451
+						}
+					}
+				}
+			}
+		}
+
+		search_filters = {FOCUS_FILTER_MANPOWER}
+
+		completion_reward = {
+			transfer_state = 665
+			transfer_state = 458
+		}
+	}
+
 
 
 	focus = {
@@ -2193,7 +2229,12 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-
+			add_tech_bonus = {
+				name = ITA_ferrea_mole_ferreo_cuore
+				bonus = 1
+				uses = 1
+				category = armor
+			}
 			add_ideas = ITA_army_reforms_7
 
 			random_core_state = {

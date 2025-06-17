@@ -1,7 +1,7 @@
 
 state={
-	id=452
-	name="STATE_452"
+	id=1018
+	name="STATE_1018"
 	manpower = 52556
 	
 	state_category = wasteland
@@ -9,28 +9,19 @@ state={
 		oil=10 # was: 2
 		tungsten = 3 #maganese
 		steel = 3 #Maganese
-		
 	}
 	history={
         add_core_of = COG
-		owner = ENG
+		owner = ITA
 		add_core_of = COG
 		buildings = {
 			infrastructure = 2
 		}
 
-		victory_points = {
-			10061 2 # Mersa Matruh
-		}
-
-		victory_points = {
-			9989 1 #Sidi Barrani
-		}
-
 	}
 
 	provinces={
-		7079 9989 10061 11910 11967 5078 12033 12091 7148 12764 1143
+		13377 13378 13379 13380 13381 1060 11951 10785
 	}
 
 

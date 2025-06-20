@@ -27,7 +27,7 @@
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 10
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -1305,7 +1305,7 @@
 			focus = FRA_ban_communism
 		}
 		relative_position_id = FRA_laissez_faire
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -1559,7 +1559,7 @@
 			focus = FRA_form_the_popular_front
 		}
 		relative_position_id = FRA_form_the_popular_front
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -1821,20 +1821,27 @@
 			else = {
 				add_ideas = war_economy
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 			army_experience = 500
+			navy_experience = 500
 			add_war_support = 0.20
 			add_state_core = 539
+			custom_effect_tooltip = generic_skip_one_line_tt
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
 				amount = 25000
 			}
 			add_equipment_to_stockpile = {
 				type = support_equipment
-				amount = 1000
+				amount = 2000
 			}
 			add_equipment_to_stockpile = {
 				type = artillery_equipment
 				amount = 2500
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 1000
 			}
 			add_equipment_to_stockpile = {
 				type = convoy
@@ -1851,8 +1858,9 @@
 			add_timed_idea = {
 				idea = FRA_industry_reborn days= 90 
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 			add_ideas = FRA_nation_reborn
-			
+			custom_effect_tooltip = generic_skip_one_line_tt
 			 add_doctrine_cost_reduction = {
                 name = FRA_beaten_but_not_broken
                 cost_reduction = 0.85
@@ -1971,7 +1979,7 @@
 
 	focus = {
 		id = FRA_call_the_patriots
-		icon = GFX_focus_CONGO_antwerp_diamond_district
+		icon = GFX_focus_CONGO_chefs_coutumiers
 		x = 15
 		y = 8
 		cost = 10
@@ -2036,5 +2044,125 @@
 			add_research_slot = 1
 		}
 	}
+	
+		focus = {
+		id = FRA_colonial_naval_bases
+		icon = GFX_goal_generic_build_navy
+		prerequisite = { focus = FRA_invest_in_west_africa }
+		relative_position_id = FRA_invest_in_west_africa
+		x = 2
+		y = 1
+		cost = 1
+
+		completion_reward = {
+			539 = {
+					add_building_construction = {
+						type = naval_base
+						level = 3
+						province = 12956
+						instant_build = yes
+					}
+
+				}
+			772 = {
+					add_building_construction = {
+						type = naval_base
+						level = 3
+						province = 1439
+						instant_build = yes
+					}
+				}
+			272 = {
+					add_building_construction = {
+						type = naval_base
+						level = 3
+						province = 4948
+						instant_build = yes
+					}
+				}
+		}
+	}
+	
+	focus = {
+		id = FRA_develop_colonial_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = FRA_invest_in_west_africa }
+		relative_position_id = FRA_invest_in_west_africa
+		x = -2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		    navy_experience = 100
+			539 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+					}
+				set_state_flag = FRA_colonial_dockyards
+			    }
+		    772 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				    }
+			    }
+		    780 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = FRA_develop_colonial_dockyards_2
+		icon = GFX_focus_CONGO_antwerp_diamond_district
+		prerequisite = { focus = FRA_the_diamond_district }
+		relative_position_id = FRA_the_diamond_district
+		x = 0
+		y = 1
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			539 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+					}
+				set_state_flag = FRA_colonial_dockyards
+			    }
+		    772 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				    }
+			    }
+		    780 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
 
 }

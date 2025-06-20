@@ -579,7 +579,31 @@ focus_tree = {
 			add_ideas = wartime_industry_focus
 			add_ideas = tot_economic_mobilisation			
 		}
+	}
+	
+	focus = {
+		id = USA_Nimitz
+		icon = GFX_Noras_usanonavyallies
+		prerequisite = { focus = USA_two_ocean_navy_act }
+		available = { date > 1942.1.1 }
+		continue_if_invalid = yes
+		x = 5
+		y = 1
+		relative_position_id = USA_two_ocean_navy_act
+		cost = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = USA_Nimitz_effect_tt
+			navy_experience = 50
+			
+		}
 	}	
+	
 	focus = {
 		id = USA_office_of_strategic_services
 		icon = GFX_goal_generic_major_war

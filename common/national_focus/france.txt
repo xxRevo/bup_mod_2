@@ -1855,6 +1855,8 @@
 				type = train_equipment
 				amount = 250
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+
 			add_timed_idea = {
 				idea = FRA_industry_reborn days= 90 
 			}

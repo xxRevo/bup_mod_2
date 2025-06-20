@@ -13,6 +13,7 @@ set_war_support = 0.6
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	motorized_equipment_1 = 1
 	tech_trucks = 1
 	gw_artillery = 1
 	interwar_antiair = 1
@@ -25,11 +26,16 @@ add_ideas = neutrality_idea
 add_timed_idea = { idea = no_training days= 730 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 1800
+	amount = 18000
 }
 add_equipment_to_stockpile = {
 	type = support_equipment
-	amount = 40
+	amount = 400
+}
+
+add_equipment_to_stockpile = {
+	type = motorized_equipment
+	amount = 400
 }
 set_convoys = 350		# 4th biggest merchant marine in the world
 if = {

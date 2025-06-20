@@ -255,3 +255,6 @@
  sealion_score_modifier_spirit_desc:0 "As a precondition for Unternehmen Seelöwe, Hitler specified the achievement of both air and naval superiority over the English Channel and the proposed landing sites, but the German forces did not achieve either at any point during the war. Nevertheless, both the German Army and Navy undertook a major programme of preparations for an invasion: training troops, developing specialised weapons and equipment, and modifying transport vessels. A large number of river barges and transport ships were gathered together on the Channel coast, but with Luftwaffe losses mounting in the Battle of Britain and no sign that the Royal Navy had been defeated, Hitler postponed Sea Lion indefinitely on 17 September 1940; it was never put into action."
  STATE_1018:0 "Lower Cyrenaica"
  FRA_develop_colonial_dockyards_2:0 "Further Develop Colonial Naval Infrastructure"
+ NOR_nygaardsvold_government:0 "Nygaardsvold Government"
+ NOR_fortify_nor:0 "Organize the Defense of Norway"
+ NOR_last_stand:0 "Last Stand"

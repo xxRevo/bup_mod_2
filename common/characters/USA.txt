@@ -696,7 +696,7 @@ characters={
 		}
 		navy_leader = {
 			visible = {
-				has_completed_focus = Nimitz
+				has_completed_focus = USA_happytime
 			}
 			traits = {
 				gunnery_expert

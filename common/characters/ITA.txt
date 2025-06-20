@@ -178,7 +178,7 @@ characters = {
 		}
 
 		field_marshal = {
-			traits = { trait_cautious politically_connected offensive_doctrine desert_fox }
+			traits = { trait_cautious politically_connected offensive_doctrine desert_fox panzer_leader }
 			skill = 6
 			attack_skill = 4
 			defense_skill = 4

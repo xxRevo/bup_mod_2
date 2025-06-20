@@ -171,6 +171,9 @@ technologies = {
 		category_mountaineers = {
 			initiative = 0.01
 		}
+		category_paratroopers = {
+			initiative = 0.01
+		}
 		unit_mountaineers_design_cost_factor = -0.50
 		unit_rangers_support_design_cost_factor = -0.50
 		
@@ -222,6 +225,12 @@ technologies = {
 		mountaineers = {
 			combat_width = -0.2
 		}
+		category_paratroopers = {
+			defense = 0.05
+		}
+		paratrooper = {
+			combat_width = -0.2
+		}
 		
 		path = {
 			leads_to_tech = mountaineers_combat_3
@@ -270,6 +279,10 @@ technologies = {
 				category = category_mountaineers
 				breakthrough = 0.075
 			}
+			battalion_mult = {
+				category = category_paratroopers
+				breakthrough = 0.075
+			}
 		}
 		
 		rangers_support = {
@@ -310,6 +323,10 @@ technologies = {
 		xp_unlock_cost = 1
 		
 		category_mountaineers = {
+			max_organisation = 5
+		}
+	
+		category_paratroopers = {
 			max_organisation = 5
 		}
 		
@@ -356,6 +373,9 @@ technologies = {
 		force_use_small_tech_layout = yes
 		
 		category_mountaineers = {
+			soft_attack = 0.05
+		}
+		category_paratroopers = {
 			soft_attack = 0.05
 		}
 		
@@ -601,6 +621,9 @@ technologies = {
 		special_forces_out_of_supply_factor = -0.05
 		force_use_small_tech_layout = yes
 		marine = {
+			max_organisation = 5
+		}
+		paratrooper = {
 			max_organisation = 5
 		}
 		path = {
@@ -893,7 +916,7 @@ technologies = {
 		}
 		
 		anti_air = {
-			 battalion_mult = {
+			battalion_mult = {
 				category = category_marines
 				defense = 0.025
 			}
@@ -902,6 +925,27 @@ technologies = {
 		anti_tank = {
 			 battalion_mult = {
 				category = category_marines
+				defense = 0.025
+			}
+		}
+
+		artillery = {
+			battalion_mult = {
+				category = category_paratroopers
+				defense = 0.025
+			}
+		}
+		
+		anti_air = {
+			battalion_mult = {
+				category = category_paratroopers
+				defense = 0.025
+			}
+		}
+		
+		anti_tank = {
+			 battalion_mult = {
+				category = category_paratroopers
 				defense = 0.025
 			}
 		}

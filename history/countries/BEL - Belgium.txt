@@ -1,14 +1,15 @@
 ﻿capital = 6 # Brussels
 
+oob = "BEL_1936"
 
 add_ideas = neutrality_idea
 add_timed_idea = { idea = no_training days= 730 }
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 3600
+	amount = 36000
 }
-add_manpower = 55000
+add_manpower = 650000
 set_research_slots = 3
 set_stability = 0.7
 set_war_support = 0.3 #we see what you are doing there Adolf

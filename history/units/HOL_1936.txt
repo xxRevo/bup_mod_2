@@ -1,16 +1,191 @@
 ﻿division_template = {
-	name = "Infanterie Divisie"
-	division_names_group = HOL_INF_01
+	name = "Infanteriet Divisjon A"		
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 1 y = 5 }			
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 2 }			
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+
+	}
+		support = {
+		engineer = { x = 0 y = 0 } 
+		recon = { x = 0 y = 1 }
+	}
+}
+units = {
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
+	}
+	division = {
+			
+		location = 391  
+		division_template = "Infanteriet Divisjon A"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { support_equipment_1 = { owner = "GER" } }
 	}
 }

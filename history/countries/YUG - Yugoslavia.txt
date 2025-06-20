@@ -1,4 +1,5 @@
 ﻿capital = 107
+oob = "YUG_1936"
 
 set_research_slots = 3
 add_ideas = {
@@ -36,7 +37,7 @@ add_equipment_to_stockpile = {
 	type = support_equipment
 	amount = 175
 }
-add_manpower = 175000
+add_manpower = 375000
 
 
 create_country_leader = {

@@ -5,6 +5,7 @@ oob = "POL_1936"
 set_research_slots = 3
 add_ideas = neutrality_idea
 add_timed_idea = { idea = no_training days= 730 }
+add_manpower = 875000
 
 # Starting tech
 set_technology = {
@@ -73,7 +74,7 @@ if = {
 	add_dynamic_modifier = { modifier = international_city }
 }
 
-set_convoys = 10
+set_convoys = 100
 
 set_politics = {
 	ruling_party = neutrality

@@ -1840,6 +1840,14 @@
 				type = convoy
 				amount = 500
 			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 1000
+			}
+			add_equipment_to_stockpile = {
+				type = train_equipment
+				amount = 250
+			}
 			add_timed_idea = {
 				idea = FRA_industry_reborn days= 90 
 			}
@@ -1859,7 +1867,7 @@
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 13
 		y = 9
-		cost = 10
+		cost = 5
 		
 		available = {
 			date > 1941.12.1

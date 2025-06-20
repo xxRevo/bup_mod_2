@@ -1656,7 +1656,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = JAP_armored_divisions
 				bonus = 1.2
-				uses = 3
+				uses = 4
 				category = armor	
 			}
 		}

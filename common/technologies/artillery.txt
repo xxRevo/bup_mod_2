@@ -1073,7 +1073,7 @@ technologies = {
 	antitank1 = {
 
 		category_tank_destroyers = {
-			ap_attack = 0.2
+			ap_attack = 0.1
 		}
 
 		anti_tank = {

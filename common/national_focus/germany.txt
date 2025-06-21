@@ -9923,7 +9923,6 @@ focus = {
 					}
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
-			}
 			else = {
 				effect_tooltip = {
 					add_tech_bonus = {
@@ -9953,7 +9952,6 @@ focus = {
 				}
 			}
 		}
-	}
 
 	
 

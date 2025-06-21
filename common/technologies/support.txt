@@ -188,25 +188,30 @@ technologies = {
 			dozer_blade
 			#flamethrower #MM: Moved to Special Project sp_land_flamethrower_tank
 		}
-
-		#enable_subunits = { #MM: Moved to Special Project sp_land_flamethrower_tank
-		#	light_flame_tank
-		#	medium_flame_tank
-		#	heavy_flame_tank
-		#}
-
-		#on_research_complete = { #MM: Moved to Special Project sp_land_flamethrower_tank
-		#	hidden_effect = {
-		#		if = {
-		#			limit = {
-		#				has_dlc = "No Step Back"
-		#				original_tag = ITA
-		#				has_completed_focus = ITA_italian_tankettes
-		#			}
-		#			ITA_add_basic_light_flamethrower_template = yes
-		#		}
-		#	}
-		#}
+		light_flame_tank = {
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+		}
+		medium_flame_tank = {
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+		}
+		heavy_flame_tank = {
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+		}
 
 		path = {
 			leads_to_tech = tech_engineers3
@@ -282,26 +287,26 @@ technologies = {
 
 		light_flame_tank = {
 			urban = {
-				attack = 0.1
+				attack = 0.05
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 		medium_flame_tank = {
 			urban = {
-				attack = 0.1
+				attack = 0.05
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 		heavy_flame_tank = {
 			urban = {
-				attack = 0.1
+				attack = 0.05
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.05
 			}
 		}
 		path = {

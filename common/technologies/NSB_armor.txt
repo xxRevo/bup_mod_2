@@ -713,6 +713,10 @@ technologies = {
 			leads_to_tech = advanced_medium_tank_chassis
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = improved_heavy_tank_chassis
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1940
@@ -869,7 +873,10 @@ technologies = {
 			leads_to_tech = main_battle_tank_chassis
 			research_cost_coeff = 1
 		}
-
+		path = {
+			leads_to_tech = advanced_heavy_tank_chassis
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 		start_year = 1943
 		allow = { 
@@ -1142,7 +1149,10 @@ technologies = {
 			leads_to_tech = advanced_heavy_tank_chassis
 			research_cost_coeff = 1
 		}
-
+		path = {
+			leads_to_tech = improved_medium_tank_chassis
+			research_cost_coeff = 1
+		}
 		path = {
 			leads_to_tech = super_heavy_tank_chassis
 			research_cost_coeff = 1
@@ -1229,6 +1239,10 @@ technologies = {
 
 		path = {
 			leads_to_tech = main_battle_tank_chassis
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = advanced_medium_tank_chassis
 			research_cost_coeff = 1
 		}
 

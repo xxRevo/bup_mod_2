@@ -3,7 +3,9 @@ state={
 	name="STATE_712"
 	manpower=42	
 	state_category = tiny_island
-	
+	resources = {
+		rubber = 5
+	}
 	history=
 	{
         add_core_of = COG

@@ -255,7 +255,74 @@ focus = {
 	}
 	
 
-	
+	focus = {
+		id = SOV_rasenai_focus
+		icon = GFX_SOV_kv1
+		text = "Lessons from Raseiniai"
+		relative_position_id = SOV_great_figher
+		prerequisite = {focus = SOV_great_figher}
+		cost = 1
+		available = {
+			has_war_with = GER
+			NOT = { controls_state = 11 }
+		}
+		x = -3
+		y = 1
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_tech = improved_heavy_tank_chassis }
+
+				}
+				set_technology = { improved_heavy_tank_chassis = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = armor_tech_1 }
+
+				}
+				set_technology = { armor_tech_1 = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = armor_tech_2 }
+
+				}
+				set_technology = { armor_tech_2 = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = armor_tech_3 }
+
+				}
+				set_technology = { armor_tech_3 = 1 }
+			}
+			create_equipment_variant = {
+				name = "IS-2 'Raseiniai'"
+				type = heavy_tank_chassis_2
+				modules = {
+					main_armament_slot = tank_heavy_cannon_2
+					turret_type_slot = tank_heavy_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_gasoline_engine
+					special_type_slot_1 = tank_radio_2
+					special_type_slot_2 = sloped_armor
+					special_type_slot_3 = armor_skirts
+				}
+				icon = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is2.dds"
+				upgrades = {
+					tank_nsb_armor_upgrade = 14
+				}
+			}
+			custom_effect_tooltip= "This will add 1000 IS-2 'Raseiniai' to the stockpile"
+			add_equipment_to_stockpile = {
+				type = heavy_tank_chassis_2
+				amount = 1000
+				variant_name = "IS-2 'Raseiniai'"
+			}
+		}
+	}
 	
 	focus = {
 	    id = SOV_a_nation_united

@@ -5,7 +5,9 @@ state={
 	manpower=1
 	
 	state_category = enclave
-
+	resources = {
+		rubber = 5
+	}
 	history={
         add_core_of = COG
 		owner = ENG

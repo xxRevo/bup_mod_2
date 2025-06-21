@@ -44,5 +44,5 @@ state = {
 
 	
 	buildings_max_level_factor = 1
-	local_supplies = 10.0 
+	local_supplies = 25.0 
 }

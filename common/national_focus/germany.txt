@@ -3402,46 +3402,6 @@ focus = {
 				value = 0.5
 			}
 
-			
-			if = {
-				limit = { 
-					has_dlc = "No Step Back"
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				create_equipment_variant = {
-					name = "Panther Ausf. A"
-					type = medium_tank_chassis_3
-					design_team = mio:GER_man_organization #We feed on your tears
-					modules = {
-						main_armament_slot = tank_high_velocity_cannon
-						turret_type_slot = tank_medium_three_man_tank_turret
-						suspension_type_slot = tank_interleaved_suspension
-						armor_type_slot = tank_welded_armor
-						engine_type_slot = tank_gasoline_engine
-						special_type_slot_1 = tank_radio_1
-						special_type_slot_2 = sloped_armor
-						special_type_slot_3 = smoke_launchers
-					}
-					icon = "GFX_GER_advanced_medium_tank_medium"
-				}
-				create_equipment_variant = {
-					name = "Tiger I Ausf. A"
-					type = heavy_tank_chassis_2
-					design_team = mio:GER_porsche_organization #We feed on your tears
-					modules = {
-						main_armament_slot = tank_heavy_cannon
-						turret_type_slot = tank_heavy_three_man_tank_turret
-						suspension_type_slot = tank_interleaved_suspension
-						armor_type_slot = tank_welded_armor
-						engine_type_slot = tank_gasoline_engine
-						special_type_slot_1 = tank_radio_1
-						special_type_slot_2 = smoke_launchers
-						special_type_slot_3 = additional_machine_guns
-					}
-					icon = "GFX_GER_advanced_heavy_tank_medium"
-				}
-			}
-
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			GER_add_or_modify_wunderwaffen = yes
@@ -3528,7 +3488,73 @@ focus = {
 		}
 	}
 
+	focus = {
+		id = GER_rasenia_focus
+		icon = GFX_ger_goal_heavy_tank
+		text = "Lessons from Raseiniai"
+		relative_position_id = GER_advanced_panzer_research
+		prerequisite = {focus = GER_expand_kummersdorfs_capacity}
+		cost = 1
+		available = {
+			has_war_with = SOV
+			controls_state = 11
+		}
+		x = -1
+		y = 2
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_tech = improved_heavy_tank_chassis }
 
+				}
+				set_technology = { improved_heavy_tank_chassis = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = armor_tech_1 }
+
+				}
+				set_technology = { armor_tech_1 = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = armor_tech_2 }
+
+				}
+				set_technology = { armor_tech_2 = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = armor_tech_3 }
+
+				}
+				set_technology = { armor_tech_3 = 1 }
+			}
+			create_equipment_variant = {
+				name = "Panzerkampfwager VI Ausf. E 'Tiger I'"
+				type = heavy_tank_chassis_2
+				modules = {
+					main_armament_slot = tank_heavy_cannon_2
+					turret_type_slot = tank_heavy_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_gasoline_engine
+					special_type_slot_1 = tank_radio_2
+					special_type_slot_2 = sloped_armor
+					special_type_slot_3 = armor_skirts
+				}
+				upgrades = {
+					tank_nsb_armor_upgrade = 14
+				}
+			}
+			custom_effect_tooltip= "This will add 1000 units of the 'Panzerkampfwager VI Ausf. E 'Tiger I' to your stockpile."
+			add_equipment_to_stockpile = {
+				type = heavy_tank_chassis_2
+				amount = 1000
+				variant_name = "Panzerkampfwager VI Ausf. E 'Tiger I'"
+			}
+		}
+	}
 	#LUFTWAFFE
 	focus = {
 		id = GER_expanding_the_luftwaffe
@@ -9889,48 +9915,6 @@ focus = {
 					give_SOV_armor_research_bonuses = yes
 				}
 			}
-
-			if = {
-				limit = { 
-					has_dlc = "No Step Back"
-				}
-				#custom_effect_tooltip = GER_soviet_treaty_research_nsb_tt #Obsolete now
-				effect_tooltip = {
-					create_equipment_variant = {
-						name = "Panzer VII Löwe"
-						type = heavy_tank_chassis_2
-						design_team = mio:GER_daimler_benz_organization #We feed on your tears
-						parent_version = 0
-						modules = {
-							main_armament_slot = tank_heavy_cannon_2
-							turret_type_slot = tank_heavy_two_man_tank_turret
-							suspension_type_slot = tank_torsion_bar_suspension
-							armor_type_slot = tank_welded_armor
-							engine_type_slot = tank_gasoline_engine
-							special_type_slot_1 = tank_radio_1
-							special_type_slot_2 = additional_machine_guns
-							special_type_slot_3 = sloped_armor
-						}
-						icon = "GFX_GER_improved_heavy_tank_medium"
-					}
-					create_equipment_variant = {
-						name = "Panzerjäger Elefant"
-						type = heavy_tank_destroyer_chassis_2
-						design_team = mio:GER_porsche_organization #We feed on your tears
-						parent_version = 0
-						modules = {
-							main_armament_slot = tank_heavy_cannon_2
-							turret_type_slot = tank_heavy_fixed_superstructure_turret
-							suspension_type_slot = tank_torsion_bar_suspension
-							armor_type_slot = tank_welded_armor
-							engine_type_slot = tank_gasoline_engine
-							special_type_slot_1 = tank_radio_1
-							special_type_slot_2 = additional_machine_guns
-							special_type_slot_3 = squeezebore_adaptor
-							special_type_slot_4 = sloped_armor
-						}
-						icon = "GFX_GER_improved_heavy_tank_medium"
-					}	
 					add_tech_bonus = {
 						name = armor_bonus
 						bonus = 1.0

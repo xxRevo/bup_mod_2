@@ -3,7 +3,9 @@ state={
 	name="STATE_733"
 	manpower=29500
 	state_category = small_island
-	
+	resources = {
+		rubber = 25
+	}
 	history={
         add_core_of = COG
 		owner = ENG

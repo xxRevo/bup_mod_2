@@ -893,8 +893,8 @@ equipment_modules = {
 		parent = tank_medium_cannon_2
 		dismantle_cost_ic = 1
 		add_stats = {
-			soft_attack = 46
-			hard_attack = 42
+			soft_attack = 39
+			hard_attack = 37
 			ap_attack = 165
 			build_cost_ic = 6.5
 			reliability = -0.25
@@ -1078,8 +1078,8 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 39
-			hard_attack = 45
+			soft_attack = 33
+			hard_attack = 40
 			ap_attack = 175
 			build_cost_ic = 7
 			reliability = -0.25
@@ -1144,8 +1144,8 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 		parent = tank_heavy_cannon_2
 		add_stats = {
-			soft_attack = 45
-			hard_attack = 50
+			soft_attack = 38
+			hard_attack = 44
 			ap_attack = 215
 			build_cost_ic = 7
 			reliability = -0.25
@@ -1332,15 +1332,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			defense = 5
-			breakthrough = 5
+			defense = 4
+			breakthrough = 4
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 00
 		multiply_stats = {
 			armor_value = 0.3
-			build_cost_ic = 0.06
+			build_cost_ic = 0.08
 		}
 	}
 
@@ -1423,14 +1423,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			defense = 3
-			breakthrough = 3
-			reliability = 0.025
+			defense = 2
+			breakthrough = 2
+			reliability = 0.05
 		}
 		xp_cost = 0
 		multiply_stats = {
 			armor_value = 0.15
-			build_cost_ic = 0.03
+			build_cost_ic = 0.04
 		}
 	}
 

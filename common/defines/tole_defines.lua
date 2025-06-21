@@ -141,6 +141,8 @@ NDefines.NDiplomacy.MIN_TRUST_VALUE = -500
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 0
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 50
 
+NDefines.NProduction.BASE_LICENSE_IC_COST = 0
+NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0
 NDefines.NProduction.MAX_EQUIPMENT_RESOURCES_NEED = 3 	-- Max number of different strategic resources an equipment can be dependent on.
 NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 15	-- Max number of factories that can be assigned a single production line.
 NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 50
@@ -600,7 +602,7 @@ NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6 -- WAS 5 | We added one more support company as it feels necessary for quality tank or infantry divisions -Thrasymachus
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_WIDTH = 6
-NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.35
+NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.4
 
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 3 -- railways will be put on cooldown when they are captured by enemy and will not be usable during the cooldown
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CORE = 1

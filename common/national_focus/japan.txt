@@ -515,10 +515,10 @@ focus_tree = {
 		add_timed_idea = { idea = JAP_banzai_3 days = 135 }
 		add_timed_idea = { idea = JAP_banzai_4 days = 180 }
 		add_ideas = closed_economy
-		add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 45 }
-		add_timed_idea = { idea = JAP_tora_tora_tora_idea_2 days = 90 }
-		add_timed_idea = { idea = JAP_tora_tora_tora_idea_3 days = 135 }
-		add_timed_idea = { idea = JAP_tora_tora_tora_idea_4 days = 180 }
+		add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 90 }
+		add_timed_idea = { idea = JAP_tora_tora_tora_idea_2 days = 150 }
+		add_timed_idea = { idea = JAP_tora_tora_tora_idea_3 days = 210 }
+		add_timed_idea = { idea = JAP_tora_tora_tora_idea_4 days = 270 }
 		hidden_effect={
 		if={limit={NOT={USA={has_war=yes}}}
 		ENG={add_to_faction=USA}

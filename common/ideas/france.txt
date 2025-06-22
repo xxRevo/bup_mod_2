@@ -1396,6 +1396,7 @@ ideas = {
 			modifier = {
 				max_planning = 0.25
 				planning_speed = -0.25
+				surrender_limit = -0.15
 			}
 		}
 

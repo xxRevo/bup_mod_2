@@ -98,6 +98,7 @@ country = {
 	amphibious_invasion = 0.2
 	winter_attrition_factor = -0.25
 	out_of_supply_factor = -0.25
+	surrender_limit = -0.3
 	}
 	
 	}

@@ -2339,6 +2339,7 @@ focus_tree = {
 				uses = 2
 				technology = air_torpedoe_1
 				technology = air_torpedoe_2
+				technology = air_torpedoe_3
 			}
 		}
 	}

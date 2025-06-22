@@ -356,7 +356,7 @@ types = {
 		}
 		unit_requirements = {
 			battalion_types = {
-				paratrooper = { min = 3 }
+				paratrooper = { min = 5 }
 			}
 		}
 		essential_equipment = {
@@ -364,7 +364,7 @@ types = {
 		}
 		additional_equipment = {
 			# list of equipment archetypes and numbers
-			support_equipment = 200
+			support_equipment = 100
 		}
 
 		target_type = {
@@ -460,7 +460,7 @@ types = {
 					# Damage to unit
 					raid_damage_units = {
 						org_damage = 100
-						str_damage = 50
+						str_damage = 25
 					}
 
 					# Unit Experience
@@ -489,8 +489,8 @@ types = {
 				actor_effects = {
 					# Damage to unit
 					raid_damage_units = {
-						org_damage = 80
-						str_damage = 30
+						org_damage = 50
+						str_damage = 10
 					}
 
 					# Unit Experience
@@ -517,8 +517,8 @@ types = {
 				actor_effects = {
 					# Damage to unit
 					raid_damage_units = {
-						org_damage = 60
-						str_damage = 20
+						org_damage = 25
+						str_damage = 5
 					}
 
 					# Unit Experience
@@ -546,8 +546,8 @@ types = {
 				actor_effects = {
 					# Damage to unit
 					raid_damage_units = {
-						org_damage = 40
-						str_damage = 10
+						org_damage = 10
+						str_damage = 1
 					}
 
 

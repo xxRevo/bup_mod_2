@@ -423,13 +423,13 @@ adjacency_rule = {
 	contested = {
 		army = no
 		navy = no
-		submarine = yes
+		submarine = no
 		trade = no
 	}
 	enemy = {
 		army = no
 		navy = no
-		submarine = yes
+		submarine = no
 		trade = no
 	}
 	friend = {
@@ -448,5 +448,250 @@ adjacency_rule = {
 	required_provinces = { 6979 11767 }
 		
 	icon = 6979
+	offset = { 9 0 6 }
+}
+
+#Strait of Singapore
+adjacency_rule = {
+	name = "SINGAPORE_STRAIT"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 12299 12168  }
+		
+	icon = 12299
+	offset = { 9 0 6 }
+}
+
+#Strait of Sumatra
+adjacency_rule = {
+	name = "SUMATRA_STRAIT"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 10279 1342  }
+		
+	icon = 1342
+	offset = { 9 0 6 }
+}
+
+#Strait of Java
+adjacency_rule = {
+	name = "JAVA_STRAIT"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 7654 10175 10191}
+		
+	icon = 10191
+	offset = { 9 0 6 }
+}
+
+#Strait of Moluccas
+adjacency_rule = {
+	name = "MOLUCCAS_STRAIT"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 1574 }
+		
+	icon = 1574
+	offset = { 9 0 6 }
+}
+
+#Strait of Kokura
+adjacency_rule = {
+	name = "KOKURA_STRAIT"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 1025 }
+		
+	icon = 1025
+	offset = { 9 0 6 }
+}
+
+#Strait of Hakodate
+adjacency_rule = {
+	name = "HAKODATE_STRAIT"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 3962 9859 }
+		
+	icon = 3962
+	offset = { 9 0 6 }
+}
+
+#Strait of Toyohara
+adjacency_rule = {
+	name = "TOYOHARA_STRAIT"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 12446 }
+		
+	icon = 12446
 	offset = { 9 0 6 }
 }

@@ -23,7 +23,7 @@ pacific_superiority_idea = {
     }
     custom_modifier_tooltip = war_in_pacific_tt
 
-    production_speed_synthetic_refinery_factor = -5
+    production_speed_synthetic_refinery_factor = -10
     production_speed_buildings_factor = global.pacific_superiority
     industrial_capacity_factory = global.pacific_superiority
     industrial_capacity_dockyard = global.pacific_superiority_neg

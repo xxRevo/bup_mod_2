@@ -204,7 +204,7 @@ NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
-NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.0175        -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.019        -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03   -- global damage modifier
 NDefines.NMilitary.COST_INCREASE_PER_ACTIVE_MEDAL = 5.0 -- medal cost multiplier per active medal	
@@ -602,7 +602,7 @@ NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6 -- WAS 5 | We added one more support company as it feels necessary for quality tank or infantry divisions -Thrasymachus
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_WIDTH = 6
-NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.4
+NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.35
 
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 3 -- railways will be put on cooldown when they are captured by enemy and will not be usable during the cooldown
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CORE = 1

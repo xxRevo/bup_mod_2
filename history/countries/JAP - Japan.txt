@@ -22,6 +22,10 @@ add_ideas = {
 	JAP_militarism
 
 }
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 40000
+}
 add_timed_idea = {
     idea = GER_no_trade_back
     days = 1760
@@ -273,12 +277,6 @@ IF = {
 		available_to_spy_master = yes
 		nationalities = { JAP }
 	}
-}
-
-create_import = {
-	resource = oil
-	factories = 2
-	exporter = USA
 }
 
 # Setyp 1939 Start Date

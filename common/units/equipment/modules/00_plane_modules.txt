@@ -1433,10 +1433,13 @@ equipment_modules = {
             add_stats = {
                 air_agility = -12
                 weight = 5
-                naval_strike_attack = 12
+                naval_strike_attack = 24
+            }
+            multiply_stats {
+                maximum_speed = -0.4
             }
             add_average_stats = {
-                naval_strike_targetting = 4.5
+                naval_strike_targetting = 8.0
             }
             multiply_stats = {
                 air_superiority = -0.25
@@ -1468,10 +1471,13 @@ equipment_modules = {
             add_stats = {
                 air_agility = -12
                 weight = 8
-                naval_strike_attack = 17
+                naval_strike_attack = 30
+            }
+             multiply_stats {
+                maximum_speed = -0.4
             }
             add_average_stats = {
-                naval_strike_targetting = 7.5
+                naval_strike_targetting = 8.0
             }
             multiply_stats = {
                 air_superiority = -0.25
@@ -1503,10 +1509,13 @@ equipment_modules = {
             add_stats = {
                 air_agility = -12
                 weight = 11
-                naval_strike_attack = 22
+                naval_strike_attack = 36
+            }
+             multiply_stats {
+                maximum_speed = -0.4
             }
             add_average_stats = {
-                naval_strike_targetting = 9.75
+                naval_strike_targetting = 8.0
             }
             multiply_stats = {
                 air_superiority = -0.25

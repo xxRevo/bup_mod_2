@@ -4,7 +4,9 @@ state={
 	manpower = 17617
 	
 	state_category = wasteland
-	
+	resources = {
+		tungsten = 20
+	}
 	history={
         add_core_of = COG
 		owner = ITA

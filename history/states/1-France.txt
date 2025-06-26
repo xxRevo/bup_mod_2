@@ -5,7 +5,9 @@ state={
 	manpower = 322900
 	
 	state_category = town
-
+	resources = {
+		tungsten = 30
+	}
 	history={
         add_core_of = COG
 		owner = FRA

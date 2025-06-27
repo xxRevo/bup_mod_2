@@ -1812,13 +1812,13 @@ focus_tree = {
 				name = JAP_fighter_modernization
 				bonus = 1
 				uses = 1
-				category = light_fighter		
+				category = light_air		
 			}
 			add_tech_bonus = {
 				name = JAP_fighter_modernization
-				bonus = 1.5
+				bonus = 1
 				uses = 1
-				category = cat_heavy_fighter	
+				technology = aa_cannon_1	
 			}
 		}
 	}
@@ -1905,15 +1905,15 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			air_experience=350
+			set_technology = { iw_large_airframe = 1}
+			set_technology = { basic_large_airframe = 1}
+			air_experience = 350
 			add_tech_bonus = {
 				name = JAP_bomber_modernization
 				bonus = 1.0
-				uses = 4
-				category = cas_bomber
-				category = tactical_bomber
-				category = naval_bomber	
-				category = naval_air			
+				uses = 1
+				category = medium_air
+				category = heavy_air		
 			}
 		}
 	}

@@ -796,8 +796,9 @@
 		x = -1
 		y = 1
 		relative_position_id = AST_expand_the_raaf
+		mutually_exclusive = { focus = AST_cac_woomera }
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -817,35 +818,13 @@
 		search_filters = { FOCUS_FILTER_RESEARCH  }
 
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "By Blood Alone" }
-				}
-				add_tech_bonus = {
-					name = AST_cac_boomerang
-					bonus = 1.0
-					ahead_reduction = 2
-					uses = 1
-					category = light_fighter
-				}
-			}
-			else = {
-				add_tech_bonus = {
-					name = AST_cac_boomerang
-					bonus = 1.0
-					uses = 1
-					category = light_fighter
-				}
-				create_equipment_variant = {
-					name = "CAC Boomerang" #
-					type = small_plane_airframe_1
-					modules = {
-						fixed_main_weapon_slot = light_mg_4x
-						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
-						engine_type_slot = engine_2_1x
-						special_type_slot_1 = drop_tanks
-					}
-				}	
+			set_technology = { iw_small_airframe = 1}
+			set_technology = { basic_small_airframe = 1}
+			add_tech_bonus = {
+				name = AST_cac_boomerang
+				bonus = 1.0
+				uses = 2
+				category = light_air
 			}
 		}
 	}
@@ -929,10 +908,11 @@
 		icon = GFX_GENERIC_ASW_Tactics
 		prerequisite = { focus = AST_expand_the_raaf }
 		relative_position_id = AST_expand_the_raaf
+		mutually_exclusive = { focus = AST_cac_boomerang }
 
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -952,47 +932,16 @@
 		search_filters = { FOCUS_FILTER_RESEARCH  }
 
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "By Blood Alone"
-					}
-				}
-				add_tech_bonus = {
-					name = AST_cac_woomera
-					bonus = 1.0
-					uses = 3
-					category = cat_strategic_bomber
-					category = tactical_bomber
-					category = naval_air
-				}
-				add_tech_bonus = {
-					name = AST_cac_woomera
-					bonus = 1.0
-					uses = 1
-					category = cat_strategic_bomber
-				}
-			}
-			else = {
-				add_tech_bonus = {
-					name = AST_cac_woomera
-					bonus = 1
-					uses = 3
-					category = tactical_bomber
-					category = naval_air
-				}
-				create_equipment_variant = {
-					name = "CAC Woomera" #
-					type = medium_plane_airframe_1
-					modules = {
-						fixed_main_weapon_slot = medium_bomb_bay
-						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
-						fixed_auxiliary_weapon_slot_2 = torpedo_mounting
-						fixed_auxiliary_weapon_slot_3 = bomb_locks
-						engine_type_slot = engine_3_2x
-						special_type_slot_1 = lmg_defense_turret_2x
-					}
-				}
+			set_technology = { iw_large_airframe = 1}
+			set_technology = { basic_large_airframe = 1}
+			set_technology = { iw_medium_airframe = 1}
+			set_technology = { basic_medium_airframe = 1}
+			add_tech_bonus = {
+				name = AST_cac_boomerang
+				bonus = 1.0
+				uses = 2
+				category = medium_air
+				category = heavy_air
 			}
 		}
 	}
@@ -1223,7 +1172,7 @@
 		y = 3
 		relative_position_id = AST_expand_the_raaf
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1244,11 +1193,12 @@
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = AST_naval_bombers
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = naval_bomber
+				name = JAP_nav_bomber_effort
+				bonus = 1
+				uses = 2
+				technology = air_torpedoe_1
+				technology = air_torpedoe_2
+				technology = air_torpedoe_3
 			}
 		}
 	}

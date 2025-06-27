@@ -2598,7 +2598,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = ITA_mare_nostrum
-		cost = 10
+		cost = 1
 		available = {
 		}
 
@@ -2631,7 +2631,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ITA_air_innovations_bba
-		cost = 10
+		cost = 1
 		available = {
 			has_full_control_of_state = 2
 		}
@@ -2713,10 +2713,10 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = ITA_citta_dell_aria }
 
-		x = -2
+		x = 2
 		y = 1
 		relative_position_id = ITA_citta_dell_aria
-		cost = 10
+		cost = 5
 		available = {
 			has_full_control_of_state = 161
 		}
@@ -2727,7 +2727,7 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = ITA_reggianes_exports
-				bonus = 0.50
+				bonus = 1
 				uses = 1
 				category = air_equipment #Maybe more specific stuff? (Light/Medium bombers, fighters...)
 			}
@@ -2746,8 +2746,8 @@ focus_tree = {
 		icon = GFX_goal_poland_goal
 		prerequisite = { focus = ITA_citta_dell_aria }
 		prerequisite = { focus = ITA_expand_rome_flying_school }
-
-		x = 2
+		mutually_exclusive = { focus = ITA_long_range_port_bombers }
+		x = -2
 		y = 1
 		relative_position_id = ITA_citta_dell_aria
 		cost = 5
@@ -2757,6 +2757,83 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_reggianes_exports
+				bonus = 1
+				uses = 1
+				category = light_air #Maybe more specific stuff? (Light/Medium bombers, fighters...)
+			}
+			add_tech_bonus = {
+				name = JAP_nav_bomber_effort
+				bonus = 1
+				uses = 1
+				technology = air_torpedoe_2
+				technology = air_torpedoe_3
+			}
+			air_experience = 15
+			if = {
+				limit = {
+					country_exists = GER
+					NOT = { has_war_with = GER }
+				}
+				add_equipment_to_stockpile = { 
+					type = small_plane_cas_airframe_1
+					amount = 100
+					producer = GER
+					variant_name = "Ju 87"
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					name = ITA_diving_bombers
+					bonus = 0.5
+					uses = 1
+					category = cas_bomber
+					category = naval_bomber
+				}	
+			}
+			#NTH_Manu: Sends a request to Germany to purchase CAS and/or licensing design templates (historically 100 Ju87)
+		}
+	}
+
+	focus = {
+		id = ITA_long_range_port_bombers
+		text = "Long Range Port Bombers"
+		icon = GFX_strategic_bombing_usa
+		prerequisite = { focus = ITA_citta_dell_aria }
+		prerequisite = { focus = ITA_expand_rome_flying_school }
+		mutually_exclusive = { focus = ITA_diving_bombers }
+		x = -4
+		y = 1
+		relative_position_id = ITA_citta_dell_aria
+		cost = 5
+		available = {
+		}
+
+		search_filters = {FOCUS_FILTER_AIR_XP}
+
+		completion_reward = {
+			set_technology = { iw_large_airframe = 1}
+			set_technology = { basic_large_airframe = 1}
+			add_tech_bonus = {
+				name = ITA_reggianes_exports
+				bonus = 1
+				uses = 1
+				category = medium_air #Maybe more specific stuff? (Light/Medium bombers, fighters...)
+			}
+			add_tech_bonus = {
+				name = ITA_reggianes_exports
+				bonus = 1
+				uses = 1
+				category = heavy_air #Maybe more specific stuff? (Light/Medium bombers, fighters...)
+			}
+			add_tech_bonus = {
+				name = JAP_nav_bomber_effort
+				bonus = 1
+				uses = 1
+				technology = air_torpedoe_2
+				technology = air_torpedoe_3
+			}
 			air_experience = 15
 			if = {
 				limit = {
@@ -2824,114 +2901,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-	
 			add_ideas = ITA_air_reforms_3
-		
-		}
-	}
-
-	focus = {
-		id = ITA_long_range_aircraft
-		icon = GFX_focus_generic_long_range_aircraft
-		prerequisite = { focus = ITA_standardization }
-
-		x = -2
-		y = 1
-		relative_position_id = ITA_standardization
-		cost = 5
-		available = {
-		}
-
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-
-		completion_reward = {
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_long_range_aircraft_templates = yes
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_bomber_designs
-		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = ITA_standardization }
-
-		x = 2
-		y = 0
-		relative_position_id = ITA_long_range_aircraft
-		cost = 5
-		available = {
-		}
-
-		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP}
-
-		completion_reward = {
-			air_experience = 25
-
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_bomber_designs_templates = yes
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_fighter_designs
-		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = ITA_standardization }
-
-		x = 4
-		y = 0
-		relative_position_id = ITA_long_range_aircraft
-		cost = 5
-		available = {
-		}
-
-		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP}
-
-		completion_reward = {
-			air_experience = 25
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_fighter_designs_templates = yes
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_supremacy_in_the_skies
-		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = ITA_multirole_aircraft focus = ITA_long_range_aircraft focus = ITA_fighter_designs focus = ITA_bomber_designs }
-
-		x = 0
-		y = 1
-		relative_position_id = ITA_bomber_designs
-		cost = 5
-		available = {
-		}
-
-		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP}
-
-		completion_reward = {
-
-			air_experience = 150
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_supremacy_in_the_skies_templates = yes
-			}
 		}
 	}
 

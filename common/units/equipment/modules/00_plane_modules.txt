@@ -1436,7 +1436,7 @@ equipment_modules = {
                 naval_strike_attack = 24
             }
             multiply_stats {
-                maximum_speed = -0.4
+                maximum_speed = -0.1
             }
             add_average_stats = {
                 naval_strike_targetting = 8.0
@@ -1474,7 +1474,7 @@ equipment_modules = {
                 naval_strike_attack = 30
             }
              multiply_stats {
-                maximum_speed = -0.4
+                maximum_speed = -0.1
             }
             add_average_stats = {
                 naval_strike_targetting = 8.0
@@ -1512,7 +1512,7 @@ equipment_modules = {
                 naval_strike_attack = 36
             }
              multiply_stats {
-                maximum_speed = -0.4
+                maximum_speed = -0.1
             }
             add_average_stats = {
                 naval_strike_targetting = 8.0
@@ -1960,7 +1960,7 @@ equipment_modules = {
         sfx = sfx_ui_sd_module_turret
 
         add_stats = {
-            build_cost_ic = 8
+            build_cost_ic = 4
             surface_detection = 8
             sub_detection = 3
         }
@@ -2073,7 +2073,7 @@ equipment_modules = {
         sfx = sfx_ui_sd_module_turret
 
         add_stats = {
-            build_cost_ic = 8
+            build_cost_ic = 4
             surface_detection = 12
             sub_detection = 5
         }

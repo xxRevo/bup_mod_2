@@ -2259,7 +2259,7 @@ focus_tree = {
 				category = armor
 			}
 			create_equipment_variant = {
-				name = "M13/40 "
+				name = "M13/40-1"
 				type = medium_tank_chassis_1
 				modules = {
 					main_armament_slot = tank_medium_cannon
@@ -2273,10 +2273,12 @@ focus_tree = {
 				}
 				icon = "GFX_ITA_m13_40_toretta_telemetrica"
 			}
+			custom_effect_tooltip= "This will add 1000 units of the 'M13/40-1' to your stockpile."
+
 			add_equipment_to_stockpile = {
 				type = medium_tank_chassis_1
 				amount = 1000
-				variant_name = "M13/40 "
+				variant_name = "M13/40-1"
 			}
 			add_ideas = ITA_army_reforms_7
 

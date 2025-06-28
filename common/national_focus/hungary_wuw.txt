@@ -1007,6 +1007,7 @@ focus_tree = {
 		}
 
 		available = {
+			date > 1941.1.1
 			GER = {
 				exists = yes
 				NOT = {
@@ -1039,42 +1040,20 @@ focus_tree = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			random_state = {
-				limit = {
-					is_owned_and_controlled_by = ROOT
-					is_core_of = ROOT
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 5
 					instant_build = yes
 				}
 			}
 
 			random_state = {
-				limit = {
-					is_owned_and_controlled_by = ROOT
-					is_core_of = ROOT
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 5
 					instant_build = yes
-				}
-				add_resource = {
-					type = steel
-					amount = 4
 				}
 			}
 
@@ -2844,13 +2823,6 @@ focus_tree = {
 
 			add_ideas = HUN_hungarian_autarky_idea
 
-			add_tech_bonus = {
-				name = HUN_synthetic_industry
-				bonus = 0.25
-				uses = 2
-				category = synth_resources
-			}
-
 		}
 	}
 
@@ -3050,7 +3022,6 @@ focus_tree = {
 		}
 
 		available = {
-			num_of_factories > 50
 		}
 
 		bypass = {

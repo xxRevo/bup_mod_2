@@ -3261,7 +3261,7 @@ focus = {
 		x = 3
 		y = 1
 		relative_position_id = GER_adopt_new_panzer_doctrine
-		cost = 10
+		cost = 1
 		available = {
 			has_tech = radio
 		}
@@ -8430,18 +8430,6 @@ focus = {
 		cost = 5
 		available = {
 			date > 1941.1.1
-			ROM = {
-	
-				fascism > 0.35
-				has_full_control_of_state = 46
-				NOT = { has_war_with = ROOT }
-				OR = {
-					is_in_faction = no
-					is_in_faction_with = ROOT
-				}
-				threat > 0.3
-			}
-
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }

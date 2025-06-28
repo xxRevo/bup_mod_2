@@ -1504,10 +1504,10 @@
 			}
 			navy_experience = 250
 			285 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -1554,10 +1554,10 @@
 
 		completion_reward = {	
 			519 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -1634,10 +1634,10 @@
 
 		completion_reward = {
 		522 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -2588,43 +2588,20 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		complete_tooltip = {
-					random_state = {
-						limit = {
-							has_state_flag = AST_expand_the_northern_railway_Inf
-						}
-						add_building_construction = {
-							type = infrastructure
-							level = 2
-							instant_build = yes
-						}
-					}
-				}
 				
 		completion_reward = {
-		random_owned_controlled_state = {
-				prioritize = { 520 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-					not = { state = 674 }
-				}
-				add_extra_state_shared_building_slots = 8
+			519 = {
+				add_extra_state_shared_building_slots = 20
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 4
 					instant_build = yes
 				}
-				set_state_flag = AST_expand_the_northern_railway_Inf
 			}
 			build_railway = {
 				level = 2
 				path = { 7669 1431 12104 1454 }
 			}
-
-
 		}
 	}
 
@@ -3170,16 +3147,7 @@
 		}
 
 		available = {
-			is_subject = no
 			has_war = yes
-			is_in_faction = yes
-			OR = {
-				num_of_factories > 50
-				any_other_country = {
-					is_in_faction_with = ROOT
-					num_of_factories > 50
-				}
-			}
 		}
 
 		bypass = {
@@ -3434,7 +3402,7 @@
 		x = 30
 		y = 0
 
-		cost = 5
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -3490,7 +3458,7 @@
 		x = 0
 		y = 1
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -3501,18 +3469,7 @@
 		}
 
 		available = {
-			is_subject_of = ENG
-			OR = {
-				is_subject_of = ENG
-				AND = {
-					has_global_flag = ENG_decolonized
-					is_in_faction_with = ENG
-				}
-			}
-			OR = {
-				ENG = { has_idea = ENG_george_vi }
-				ENG = { has_country_flag = edward_viii_married_wallis_simpson }
-			}
+
 		}
 		
 		bypass = {
@@ -3544,7 +3501,7 @@
 		y = 2
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -3588,21 +3545,13 @@
 		y = 3
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 5
+		cost = 1
 
 		ai_will_do = {
 			factor = 10
 		}
 
 		available = {
-			OR = {
-				is_subject_of = ENG
-				AND = {
-					has_global_flag = ENG_decolonized
-					is_in_faction_with = ENG
-				}
-			}
-			is_in_tech_sharing_group = commonwealth_research
 		}
 		
 		bypass = {
@@ -3632,7 +3581,7 @@
 		y = 3
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -3775,7 +3724,7 @@
 		y = 4
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 1

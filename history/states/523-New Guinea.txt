@@ -25,11 +25,11 @@ state = {
 		}
 
 		victory_points = {
-			4329 3 # Port Moresby
+			4329 15 # Port Moresby
 		}
 
 		victory_points = {
-			1283 1 # Daru
+			1283 10 # Daru
 		}
 
 		victory_points = {
@@ -44,5 +44,5 @@ state = {
 
 	
 	buildings_max_level_factor = 1
-	local_supplies = 25.0 
+	local_supplies = 5
 }

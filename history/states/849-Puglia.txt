@@ -21,7 +21,7 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 5
 			dockyard = 4
 			air_base = 5
 			11837 = { #Taranto

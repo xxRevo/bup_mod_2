@@ -7116,7 +7116,39 @@ focus = {
 		add_to_variable = { RAJ_south_east_asia_command_dm_max_command_power = 50 tooltip = max_command_power_tt }
 		add_to_variable = { RAJ_south_east_asia_command_dm_command_power_gain = 0.2 tooltip = command_power_gain_tt }
 		add_to_variable = { RAJ_south_east_asia_command_dm_special_forces_cap = 0.25 tooltip = special_forces_cap_tt }
-
+        443 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        423 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        444 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        428 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        429 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        425 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        983 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        982 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        320 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        424 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
+        426 = {
+            add_dynamic_modifier = {modifier = mediterranean_bastion_idea}
+        }
 		country_event = GOE_RAJ_loyalist.06
 	}
 }

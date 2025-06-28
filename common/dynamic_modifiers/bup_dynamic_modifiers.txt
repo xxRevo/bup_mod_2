@@ -73,11 +73,21 @@ mediterranean_bastion_idea = {
     icon = GFX_modifiers_generic_defense
     enable = { always = yes }
     remove_trigger = {
-        date > 1941.1.1
+        date > 1942.1.1
     }
     custom_modifier_tooltip = mediterranean_bastion_idea_tt
     amphibious_invasion_defence = -0.5
     naval_invasion_penalty = 0.5
-    cas_damage_reduction = 0.5
+}
+
+raj_port_protection_idea = {
+    icon = GFX_modifiers_generic_defense
+    enable = { always = yes }
+    remove_trigger = {
+        date > 1942.1.1
+    }
+    custom_modifier_tooltip = mediterranean_bastion_idea_tt
+    amphibious_invasion_defence = -0.5
+    naval_invasion_penalty = 0.5
 }
 

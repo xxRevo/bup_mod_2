@@ -1167,7 +1167,7 @@
 	focus = {
 		id = AST_naval_bombers
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = AST_cac_woomera }
+		prerequisite = { focus = AST_cac_woomera focus = AST_expand_northern_presence }
 		x = 1
 		y = 3
 		relative_position_id = AST_expand_the_raaf

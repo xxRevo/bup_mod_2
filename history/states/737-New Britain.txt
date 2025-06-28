@@ -28,7 +28,7 @@ state={
         }
 
         victory_points = {
-            7251 5
+            7251 10
         }
 
     }
@@ -40,5 +40,5 @@ state={
     buildings_max_level_factor=1
     state_category="rural"
 
-    local_supplies=25.0
+    local_supplies=5
 }

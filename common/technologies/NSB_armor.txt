@@ -1235,8 +1235,8 @@ technologies = {
 			tank_high_velocity_cannon_3
 			auto_loader
             squeezebore_adaptor
+			tank_super_heavy_cannon
 		}
-
 		path = {
 			leads_to_tech = main_battle_tank_chassis
 			research_cost_coeff = 1

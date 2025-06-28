@@ -1190,18 +1190,14 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 35
-			hard_attack = 45
-			ap_attack = 225
-			build_cost_ic = 12.5
-			reliability = -0.35
+			soft_attack = 40
+			hard_attack = 48
+			ap_attack = 300
+			build_cost_ic = 9
+			reliability = -0.25
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 0
-		build_cost_resources = {
-			tungsten = 0
-			chromium = 0
-		}
 	}
 
 

@@ -139,6 +139,12 @@ sub_units = {
 			#add = yes
 		}
 
+		battalion_mult = {
+			category = category_paratroopers
+			breakthrough = 0.15
+			#add = yes
+		}
+
 		
 		entrenchment = 2.5
 		defense = 0.1
@@ -160,7 +166,7 @@ sub_units = {
 
 		marsh = {
 			attack = 0.10
-			defence = 0.20
+			defence = 0.25
 		}
 
 		fort = {
@@ -170,10 +176,31 @@ sub_units = {
 
 		river = {
 			attack = 0.10
-			defence = 0.20
+			defence = 0.25
 			movement = 0.25
 		}
-		
+
+		forest = {
+			defence = 0.25
+		}
+
+		hills = {
+			defence = 0.1
+		}
+
+		jungle = {
+			defence = 0.25
+		}
+
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+
+
+		amphibious = {
+			attack = 0.15
+		}
 		same_support_type = engineer
 		
 	}

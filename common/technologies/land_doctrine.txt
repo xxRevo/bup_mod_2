@@ -3028,20 +3028,12 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		supply_consumption_factor = -0.2
-		on_research_complete = {
-			custom_effect_tooltip = equipment_cost_reduction_tt
-		}
-		infantry = {
-			need = {
-				infantry_equipment = -25
-         	}
-			combat_width = -0.25
-		}
-
 		
 		enable_tactic = tactic_overwhelming_fire
 		enable_tactic = tactic_default_overwhelming_fire
-		
+		infantry = {
+			combat_width = -0.25
+		}
 		path = {
 			leads_to_tech = breakthrough_priority
 			research_cost_coeff = 1
@@ -3227,14 +3219,23 @@ technologies = {
 	
 	continuous_offensive = {
 		xp_research_type = army
-		xp_unlock_cost = 9999
-
+		xp_unlock_cost = 150
+		allow = {
+			tag = SOV
+		}
 		enable_tactic = tactic_human_wave_tactics
-		enable_tactic = tactic_guerrilla_tactics
 		enable_tactic = tactic_sf_ambush
 		doctrine = yes	
 		research_cost = 10
-		
+		on_research_complete = {
+			custom_effect_tooltip = sov_only_tt
+			custom_effect_tooltip = equipment_cost_reduction_tt
+		}
+		infantry = {
+			need = {
+				infantry_equipment = -25
+         	}
+		}		
 		categories = {
 			land_doctrine
 			cat_mass_assault

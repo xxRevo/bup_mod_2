@@ -2733,6 +2733,43 @@
 	}
 
 	focus = {
+		id = AST_defend_port_moresby
+		text= "The New Guinea Campaign"
+		icon = GFX_focus_GER_sentinels_of_the_pacific
+		x = 24
+		y = 1
+		prerequisite = { focus = AST_establish_advisory_war_council }
+		cost = 1
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+			has_war_with = JAP
+			controls_state = 523
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			523 = {
+				add_dynamic_modifier = {
+					modifier = AST_defend_port_moresby
+					days = 30
+				}
+			}
+		}
+	}
+
+	focus = {
 		id = AST_national_security_act		
 		icon = GFX_AST_nation
 		prerequisite = { focus = AST_establish_advisory_war_council }

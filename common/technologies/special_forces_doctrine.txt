@@ -620,6 +620,7 @@ technologies = {
 		xp_unlock_cost = 1
 		special_forces_out_of_supply_factor = -0.05
 		force_use_small_tech_layout = yes
+		naval_invasion_planning_bonus_speed = 0.2	
 		marine = {
 			max_organisation = 5
 		}
@@ -673,7 +674,6 @@ technologies = {
 		xp_unlock_cost = 1
 		
 		force_use_small_tech_layout = yes
-		special_forces_attack_factor = 0.025
 		path = {
 			leads_to_tech = marines_commandos_demolition 
 			research_cost_coeff = 1
@@ -731,7 +731,6 @@ technologies = {
 		
 		xor = { marines_commandoes }
 		special_forces_cap = 0.06
-		naval_invasion_planning_bonus_speed = 0.2
 		
 		army_bonus_air_superiority_factor = 0.05
 		
@@ -857,7 +856,7 @@ technologies = {
 		xp_unlock_cost = 1
 		
 		force_use_small_tech_layout = yes
-		
+		special_forces_attack_factor = 0.025
 		amphibious_mechanized = {
 			soft_attack = 0.1
 			breakthrough = 0.1
@@ -870,11 +869,6 @@ technologies = {
 				armor = 0.15
 				breakthrough = 0.15
 			}
-		}
-		
-		
-		on_research_complete = {
-			add_ideas = GEN_cheaper_amphib
 		}
 		
 		doctrine = yes	

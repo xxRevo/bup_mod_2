@@ -4,7 +4,7 @@ state = {
 	name = "STATE_536"
 	manpower = 2812000
 	
-	state_category = rural
+	state_category = large_city
 
 	history = {
 
@@ -14,6 +14,7 @@ state = {
 
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 10
 		}
 
 		victory_points = {

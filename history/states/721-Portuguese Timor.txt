@@ -5,7 +5,9 @@ state={
 	manpower = 1
 	
 	state_category = pastoral
-
+	resources = {
+		rubber = 10
+	}
 	history={
         add_core_of = COG
 		owner = MAL

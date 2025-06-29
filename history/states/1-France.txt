@@ -6,7 +6,7 @@ state={
 	
 	state_category = town
 	resources = {
-		tungsten = 30
+		tungsten = 10
 	}
 	history={
         add_core_of = COG

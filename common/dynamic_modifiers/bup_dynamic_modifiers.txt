@@ -73,7 +73,7 @@ mediterranean_bastion_idea = {
     icon = GFX_modifiers_generic_defense
     enable = { always = yes }
     remove_trigger = {
-        date > 1942.1.1
+        date > 1942.6.1
     }
     custom_modifier_tooltip = mediterranean_bastion_idea_tt
     amphibious_invasion_defence = -0.5
@@ -91,3 +91,22 @@ raj_port_protection_idea = {
     naval_invasion_penalty = 0.5
 }
 
+# RAJ Loyalist Branch - State Modifiers
+AST_defend_port_moresby = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_defense
+
+	remove_trigger = { # ROOT refers to the state on which the modifier is added
+		ROOT = {
+			controller = {
+				NOT = { original_tag = AST }
+				NOT = { is_in_faction_with = AST }
+			}
+		}
+	}
+
+	enemy_attrition = 0.25
+    enemy_local_supplies = -0.25
+	enemy_army_speed_factor = -0.25
+}

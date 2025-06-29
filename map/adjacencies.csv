@@ -124,7 +124,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4226;10319;sea;229;-1;-1;-1;-1;;balls
 10206;10234;sea;229;-1;-1;-1;-1;;balls
 1644;1283;sea;5563;-1;-1;-1;-1;;balls
-1644;1310;sea;5563;-1;-1;-1;-1;;balls
 4160;1070;sea;5244;-1;-1;-1;-1;;Hainan-Strait
 1712;12147;sea;8978;-1;-1;-1;-1;;Quebec-Strait
 3691;7813;sea;6261;-1;-1;-1;-1;;Cold Ass-Strait

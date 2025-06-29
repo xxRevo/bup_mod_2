@@ -8,7 +8,7 @@ state={
 	resources={
 		oil = 10
 		rubber = 18
-		tungsten=25
+		tungsten=55
 	}
 	history={
         add_core_of = COG
